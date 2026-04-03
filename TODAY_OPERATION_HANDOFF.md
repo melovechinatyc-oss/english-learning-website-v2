@@ -1,76 +1,66 @@
 # 英语学习网站 v2 - 今日操作交接文档（给其它 AI 继续开发）
 
-## 1. 项目与目标
+## 1. 项目总览（先看这里）
 
 - 项目目录：`/home/zhinan/dolphin-emulator/english-learning-website-v2`
-- GitHub 仓库：`https://github.com/melovechinatyc-oss/english-learning-website-v2`
-- 线上地址：`https://english-learning-website-v2.vercel.app`
-- 核心目标：面向零基础上班族，提供从零基础到高级的英语学习内容，支持课程学习、连续听、收藏、进度统计、音标与词汇训练。
+- GitHub：`https://github.com/melovechinatyc-oss/english-learning-website-v2`
+- 线上地址（Vercel）：`https://english-learning-website-v2.vercel.app`
+- 目标用户：零基础上班族
+- 核心功能：课程学习、连续听、收藏、进度统计、音标学习、职场词汇
 
----
+## 2. 线上用了什么工具（你要求写清楚）
 
-## 2. 今日已完成事项（结果导向）
+### 前端与发布
+- 前端框架：`Next.js 16`（App Router + TypeScript）
+- 样式组件：`Tailwind CSS` + `shadcn/ui`
+- 托管部署：`Vercel`
+- 自动部署：`GitHub main` 每次 push 会触发 Vercel 自动构建
 
-1. 完成并扩展课程难度体系  
-   - `beginner / elementary / intermediate / advanced` 全部可用。
+### 数据存储与内容来源
+- 远程内容存储：`Sanity`（CMS，文档型数据库）
+- 本地状态存储：`localStorage`（收藏、进度、播放设置、最近学习）
+- 当前读取策略：
+1. Sanity 有数据时优先读取 Sanity；
+2. Sanity 无数据或查询失败时，自动回退到 `src/lib/seed-data.ts`。
 
-2. 扩展完整 seed 学习内容（可直接用）  
-   - 已覆盖：打招呼、日常交流、上班族核心词汇、音标入门、会议、协作、邮件、问题沟通、演讲、谈判等。
-   - 当前共 12 门课程，每门 6 句示例句（含中文、音标、中文谐音、标签）。
+### 语音播放引擎
+- 优先播放句子音频 URL（若存在）
+- 无音频时使用浏览器 `Web Speech API`（`speechSynthesis`）做 TTS
 
-3. 修复“Sanity 已配置但数据库为空导致前台无课程”的问题  
-   - 已实现兜底逻辑：若 Sanity 查询为空或失败，自动回退到本地 seed 内容，保证页面一定有内容显示。
+## 3. 今天做了什么（结果）
 
-4. 完成构建验证并部署到线上  
-   - `npm run lint` 通过。
-   - `npm run build` 通过。
-   - 已推送 `main` 并触发 Vercel 自动部署。
-   - 线上已确认出现课程内容（不再是“暂无课程”）。
+1. 完整扩展课程内容到 4 个难度：`beginner`、`elementary`、`intermediate`、`advanced`
+2. 新增 12 门课程内容，覆盖打招呼、日常交流、上班族词汇、音标、会议、邮件、谈判等
+3. 修复“Sanity 空库导致线上无课程”问题（已做 seed 回退）
+4. 修复“长句英文朗读卡顿”问题（见第 7 节）
+5. 已完成 `lint/build` 并推送上线
 
----
-
-## 3. 今日关键提交（按时间）
+## 4. 今日关键提交
 
 - `3c087e0` `feat(content): expand courses from beginner to advanced`
 - `6fa7b90` `fix(data): fallback to seed when sanity dataset is empty`
 - `edad8ae` `chore: trigger vercel redeploy`
+- `ba309ec` `docs: add today operation handoff guide`
+- `550f1f5` `docs: clarify stack and handoff steps; fix long sentence tts stutter`
 
 查看方式：
 
 ```bash
-git log --oneline -n 12
+git log --oneline -n 20
 ```
 
----
+## 5. 接手必须先看哪些文件
 
-## 4. 今日主要改动文件（给其它 AI 快速定位）
+- `src/lib/api.ts`：Sanity 查询与 seed 回退
+- `src/lib/seed-data.ts`：课程与句子内容
+- `src/components/learning/continuous-listen-player.tsx`：连续听与 TTS 播放
+- `src/lib/learning-storage.ts`：localStorage 存储
+- `src/contexts/learning-context.tsx`：学习状态上下文
+- `src/sanity/schemaTypes/*`：Sanity schema
 
-1. `src/types/learning.ts`  
-   - `Difficulty` 增加 `advanced`。
+## 6. 下一位接手该怎么做（一目了然）
 
-2. `src/components/learning/course-card.tsx`  
-   - 难度映射增加“高级”。
-
-3. `src/sanity/schemaTypes/course.ts`  
-   - Sanity 课程 schema 的 difficulty 选项加入 `advanced`。
-
-4. `src/lib/seed-data.ts`  
-   - 重构并扩展课程与句子内容（12 门课，覆盖零基础到高级、音标、职场词汇、日常交流）。
-
-5. `src/lib/api.ts`  
-   - 新增“Sanity 空数据自动回退 seed”逻辑，覆盖：
-     - `getCourses`
-     - `getFeaturedCourses`
-     - `getCourseBySlug`
-     - `getSentencesByCourseSlug`
-
----
-
-## 5. 标准操作步骤（SOP）
-
-> 给其它 AI：按以下顺序执行，不要跳步。
-
-1. 拉取并确认代码状态
+1. 拉代码
 
 ```bash
 cd /home/zhinan/dolphin-emulator/english-learning-website-v2
@@ -78,7 +68,7 @@ git pull origin main
 git status --short
 ```
 
-2. 安装依赖与本地启动
+2. 启动本地
 
 ```bash
 npm install
@@ -86,112 +76,72 @@ cp .env.example .env.local
 npm run dev
 ```
 
-3. 本地自检（至少）
+3. 先跑质量检查
 
 ```bash
 npm run lint
 npm run build
 ```
 
-4. 功能验证页面
-   - `/courses`：课程列表是否显示 12 门课程
-   - `/courses/[slug]`：课程详情是否正常
-   - `/listen/[slug]`：连续听是否可播放
-   - `/favorites`、`/progress`：收藏/进度是否可记录
+4. 页面验收清单
+- `/courses`：能看到课程，不应出现“暂无课程”
+- `/courses/[slug]`：句子、翻译、音标显示正常
+- `/listen/[slug]`：长句播放顺滑，暂停/继续可用
+- `/favorites`、`/progress`：数据可保存并刷新后仍在
 
-5. 发布
+5. 发布流程
 
 ```bash
 git add .
-git commit -m "feat: your change summary"
+git commit -m "feat: xxx"
 git push origin main
 ```
 
-6. 等待 Vercel 自动部署，在线检查 `/courses` 页面。
+6. 线上复测
+- 打开：`https://english-learning-website-v2.vercel.app/courses`
+- 再测一个长句课程：`/listen/[slug]`
 
----
+## 7. BUG 记录与解决方案
 
-## 6. 常见问题与解决方案（重点）
-
-### 问题 A：线上显示“暂无课程”
-
-现象：
-- `/courses` 页面只有“暂无课程，请先在后台发布课程内容。”
+### BUG：长句英文播放卡顿、不顺畅
 
 根因：
-- 已配置 Sanity 环境变量，但 Sanity 后台还没有已发布课程数据。
+- 旧逻辑每次 TTS 前都会 `speechSynthesis.cancel()`，导致长句经常被打断。
+- 长文本一次性朗读，浏览器 TTS 在部分设备上稳定性差。
 
-解决：
-1. 当前代码已带兜底，会回退 seed；若仍未生效，通常是部署未更新。
-2. 执行一次空提交触发重部署：
+已修复：
+1. 增加长句分段播放（按中英文标点+长度分段）；
+2. 去掉每段前强制 `cancel()`；
+3. 增加当前音频实例管理，暂停时可立即停止；
+4. 保持原有播放设置兼容（速度、重复、停顿、自动下一句）。
+
+修复文件：
+- `src/components/learning/continuous-listen-player.tsx`
+
+## 8. 常见故障速查
+
+### 线上显示“暂无课程”
+- 原因：Sanity 有配置但内容未发布。
+- 处理：当前代码会回退 seed；若没生效，触发重部署：
 
 ```bash
 git commit --allow-empty -m "chore: trigger vercel redeploy"
 git push origin main
 ```
 
-3. 等待部署完成后刷新页面。
+### Vercel 没拉到最新代码
+- 检查 push 是否成功；
+- 在 Vercel 查看最新 commit；
+- 必要时执行一次空提交重发（同上）。
 
----
-
-### 问题 B：Vercel 没自动更新到最新代码
-
-解决：
-1. 确认 `git push origin main` 成功。
-2. 在 Vercel 控制台确认最新 commit 是否被拉取。
-3. 若未触发，使用“空提交重发”方案（同上）。
-
----
-
-### 问题 C：Sanity 相关变量导致读取异常
-
-必要变量：
+### Sanity 环境变量
 - `NEXT_PUBLIC_SANITY_PROJECT_ID`
 - `NEXT_PUBLIC_SANITY_DATASET`
 - `NEXT_PUBLIC_SANITY_API_VERSION`
+- `SANITY_API_READ_TOKEN`（可选）
 
-说明：
-- 即使变量存在，只要 Sanity 没内容，系统也应回退 seed。
-- 若未来改掉兜底逻辑，需要保证 Sanity 中 `isPublished=true` 才能显示。
+## 9. 下一阶段建议（给后续 AI）
 
----
-
-### 问题 D：构建失败
-
-标准排查顺序：
-1. `npm install` 是否完整。
-2. `npm run lint` 错误先修复。
-3. `npm run build` 查看首个报错文件定位。
-4. 若是环境变量报错，先对照 `.env.example` 补齐。
-
----
-
-## 7. 下一阶段待办（建议其它 AI 接力）
-
-1. 把 seed 内容同步写入 Sanity（非必须，但建议）  
-   - 目标：让后台可编辑，后续运营只在 CMS 改内容。
-
-2. 增加“词汇量分级目标”模块  
-   - 示例：300 / 800 / 1500 / 3000 词阶段目标与学习路径。
-
-3. 增加“上班族 15 分钟学习计划”  
-   - 每日任务：听力 + 跟读 + 复习 + 打卡统计。
-
-4. 增加内容导入脚本（可选）  
-   - 将 `seedCourses/seedSentences` 一键导入 Sanity，避免手工录入。
-
----
-
-## 8. 给其它 AI 的工作约束（很重要）
-
-- 用户偏好中文沟通、零基础友好引导。
-- 优先自动化执行，尽量少让用户手动敲命令。
-- 遇到部署或平台问题，先给“可直接执行”的最短路径解决方案。
-- 不要破坏已有“Sanity 空数据回退 seed”的容错能力。
-- 每次改动后必须跑：`npm run lint`、`npm run build`。
-
----
-
-## 9. 一句话交接结论
-
-本项目今天已经完成“零基础到高级 + 音标 + 上班族词汇 + 日常交流”内容扩展并成功上线；若后续继续开发，请在当前 `main` 基础上按本文件 SOP 执行，并保留现有容错与自动部署流程。
+1. 增加“seed 一键导入 Sanity 脚本”
+2. 给连续听播放器补测试（重点测长句、暂停、恢复）
+3. 增加“词汇量目标分层（300/800/1500/3000）+ 上班族 15 分钟计划”
