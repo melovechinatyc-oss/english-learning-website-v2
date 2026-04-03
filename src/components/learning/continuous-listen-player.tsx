@@ -127,21 +127,34 @@ async function speakText(
   }
 }
 
-async function playAudio(url: string, rate: number, setAudio: (audio: HTMLAudioElement | null) => void) {
-  const audio = new Audio(url);
-  setAudio(audio);
-  audio.playbackRate = rate;
-  await audio.play();
-  await new Promise<void>((resolve) => {
-    audio.onended = () => {
-      setAudio(null);
-      resolve();
-    };
-    audio.onerror = () => {
-      setAudio(null);
-      resolve();
-    };
-  });
+function getUnifiedAudioUrl(item: Sentence, kind: "en" | "zh" | "pron") {
+  return `/audio/seed/${item._id}-${kind}.mp3`;
+}
+
+async function playAudio(
+  url: string,
+  rate: number,
+  setAudio: (audio: HTMLAudioElement | null) => void,
+) {
+  try {
+    const audio = new Audio(url);
+    setAudio(audio);
+    audio.playbackRate = rate;
+    await audio.play();
+    return await new Promise<boolean>((resolve) => {
+      audio.onended = () => {
+        setAudio(null);
+        resolve(true);
+      };
+      audio.onerror = () => {
+        setAudio(null);
+        resolve(false);
+      };
+    });
+  } catch {
+    setAudio(null);
+    return false;
+  }
 }
 
 export function ContinuousListenPlayer({
@@ -162,11 +175,16 @@ export function ContinuousListenPlayer({
   }, [index, sentences.length]);
 
   const playEnglish = async (item: Sentence) => {
-    if (item.audioNormal) {
-      await playAudio(item.audioNormal, settings.speed, (audio) => {
+    const primary = item.audioNormal || getUnifiedAudioUrl(item, "en");
+    const ok = await playAudio(primary, settings.speed, (audio) => {
+      activeAudioRef.current = audio;
+    });
+    if (ok) return;
+    if (item.audioSlow && !item.audioNormal) {
+      const backupOk = await playAudio(item.audioSlow, settings.speed, (audio) => {
         activeAudioRef.current = audio;
       });
-      return;
+      if (backupOk) return;
     }
     await speakText(
       item.english,
@@ -178,12 +196,11 @@ export function ContinuousListenPlayer({
   };
 
   const playChinese = async (item: Sentence) => {
-    if (item.audioChinese) {
-      await playAudio(item.audioChinese, 1, (audio) => {
-        activeAudioRef.current = audio;
-      });
-      return;
-    }
+    const primary = item.audioChinese || getUnifiedAudioUrl(item, "zh");
+    const ok = await playAudio(primary, 1, (audio) => {
+      activeAudioRef.current = audio;
+    });
+    if (ok) return;
     await speakText(
       item.chinese,
       1,
@@ -194,6 +211,10 @@ export function ContinuousListenPlayer({
   };
 
   const playPronunciation = async (item: Sentence) => {
+    const ok = await playAudio(getUnifiedAudioUrl(item, "pron"), 1, (audio) => {
+      activeAudioRef.current = audio;
+    });
+    if (ok) return;
     await speakText(
       item.pronunciationCn,
       0.9,

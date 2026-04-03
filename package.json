@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "generate:seed-audio": "python3 scripts/generate_seed_audio.py",
     "studio": "sanity dev",
     "studio:build": "sanity build"
   },
