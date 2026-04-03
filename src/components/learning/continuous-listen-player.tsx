@@ -51,21 +51,44 @@ function splitTextForTTS(text: string) {
   return chunks.length > 0 ? chunks : [normalized];
 }
 
-function pickVoice(lang: string) {
+function pickVoice(
+  lang: string,
+  preference: "auto" | "male" | "female",
+) {
   if (typeof window === "undefined" || !window.speechSynthesis) return null;
   const voices = window.speechSynthesis.getVoices();
   if (!voices || voices.length === 0) return null;
-  return (
-    voices.find((voice) => voice.lang.toLowerCase().startsWith(lang.toLowerCase())) ||
-    voices.find((voice) => voice.lang.toLowerCase().startsWith(lang.split("-")[0].toLowerCase())) ||
-    null
-  );
+  const languageMatched =
+    voices.filter((voice) =>
+      voice.lang.toLowerCase().startsWith(lang.toLowerCase()),
+    ).length > 0
+      ? voices.filter((voice) =>
+          voice.lang.toLowerCase().startsWith(lang.toLowerCase()),
+        )
+      : voices.filter((voice) =>
+          voice.lang
+            .toLowerCase()
+            .startsWith(lang.split("-")[0].toLowerCase()),
+        );
+  const pool = languageMatched.length > 0 ? languageMatched : voices;
+
+  if (preference !== "auto") {
+    const maleHints = ["male", "man", "david", "daniel", "tom", "alex"];
+    const femaleHints = ["female", "woman", "samantha", "victoria", "karen"];
+    const hints = preference === "male" ? maleHints : femaleHints;
+    const preferred = pool.find((voice) =>
+      hints.some((hint) => voice.name.toLowerCase().includes(hint)),
+    );
+    if (preferred) return preferred;
+  }
+  return pool[0] || null;
 }
 
 function speakChunk(
   text: string,
   rate: number,
   lang: string,
+  voicePreference: "auto" | "male" | "female",
   shouldStop: () => boolean,
 ) {
   return new Promise<void>((resolve) => {
@@ -80,8 +103,9 @@ function speakChunk(
     }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = rate;
+    utterance.pitch = 1;
     utterance.lang = lang;
-    const voice = pickVoice(lang);
+    const voice = pickVoice(lang, voicePreference);
     if (voice) utterance.voice = voice;
     utterance.onend = () => resolve();
     utterance.onerror = () => resolve();
@@ -93,12 +117,13 @@ async function speakText(
   text: string,
   rate: number,
   lang: string,
+  voicePreference: "auto" | "male" | "female",
   shouldStop: () => boolean,
 ) {
   const chunks = splitTextForTTS(text);
   for (const chunk of chunks) {
     if (shouldStop()) return;
-    await speakChunk(chunk, rate, lang, shouldStop);
+    await speakChunk(chunk, rate, lang, voicePreference, shouldStop);
   }
 }
 
@@ -143,7 +168,13 @@ export function ContinuousListenPlayer({
       });
       return;
     }
-    await speakText(item.english, settings.speed, "en-US", () => stopRef.current);
+    await speakText(
+      item.english,
+      settings.speed,
+      "en-US",
+      settings.ttsVoicePreference,
+      () => stopRef.current,
+    );
   };
 
   const playChinese = async (item: Sentence) => {
@@ -153,11 +184,23 @@ export function ContinuousListenPlayer({
       });
       return;
     }
-    await speakText(item.chinese, 1, "zh-CN", () => stopRef.current);
+    await speakText(
+      item.chinese,
+      1,
+      "zh-CN",
+      settings.ttsVoicePreference,
+      () => stopRef.current,
+    );
   };
 
   const playPronunciation = async (item: Sentence) => {
-    await speakText(item.pronunciationCn, 0.9, "zh-CN", () => stopRef.current);
+    await speakText(
+      item.pronunciationCn,
+      0.9,
+      "zh-CN",
+      settings.ttsVoicePreference,
+      () => stopRef.current,
+    );
   };
 
   const playCurrentSentence = async (current: Sentence) => {

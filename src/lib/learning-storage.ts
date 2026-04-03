@@ -11,6 +11,7 @@ const defaultSettings: ListenSettings = {
   playChinese: true,
   playPronunciation: true,
   englishOnly: false,
+  ttsVoicePreference: "male",
   repeatCount: 1,
   speed: 1,
   pauseSeconds: 1,
@@ -61,7 +62,11 @@ export function setMastered(sentenceIds: string[]) {
 }
 
 export function getListenSettings() {
-  return parseJSON<ListenSettings>(safeRead(SETTINGS_KEY), defaultSettings);
+  const settings = parseJSON<Partial<ListenSettings>>(
+    safeRead(SETTINGS_KEY),
+    defaultSettings,
+  );
+  return { ...defaultSettings, ...settings };
 }
 
 export function setListenSettings(settings: ListenSettings) {

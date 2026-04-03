@@ -41,6 +41,38 @@ export function ListenSettingsPanel() {
           />
         </div>
         <div className="space-y-2">
+          <p className="text-sm">语音偏好（尽量匹配）</p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { value: "auto", label: "自动" },
+              { value: "male", label: "偏男声" },
+              { value: "female", label: "偏女声" },
+            ].map((option) => (
+              <button
+                key={option.value}
+                type="button"
+                className={buttonVariants({
+                  variant:
+                    option.value === settings.ttsVoicePreference
+                      ? "default"
+                      : "outline",
+                  size: "sm",
+                })}
+                onClick={() =>
+                  updateSettings({
+                    ttsVoicePreference: option.value as
+                      | "auto"
+                      | "male"
+                      | "female",
+                  })
+                }
+              >
+                {option.label}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="space-y-2">
           <p className="text-sm">重复次数</p>
           <div className="flex flex-wrap gap-2">
             {["1", "2", "3", "4", "5"].map((v) => (

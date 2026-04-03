@@ -45,6 +45,7 @@ export type ListenSettings = {
   playChinese: boolean;
   playPronunciation: boolean;
   englishOnly: boolean;
+  ttsVoicePreference: "auto" | "male" | "female";
   repeatCount: 1 | 2 | 3 | 4 | 5;
   speed: 0.75 | 1 | 1.25;
   pauseSeconds: 1 | 2 | 3;

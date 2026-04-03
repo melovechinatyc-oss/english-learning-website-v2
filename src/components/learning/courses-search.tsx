@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Course, Sentence } from "@/types/learning";
 import { CourseCard } from "@/components/learning/course-card";
 import { Card, CardContent } from "@/components/ui/card";
@@ -45,7 +45,52 @@ export function CoursesSearch({
   sentenceCountMap,
 }: CoursesSearchProps) {
   const [query, setQuery] = useState("");
+  const [highFrequencyWords, setHighFrequencyWords] = useState<string[]>([]);
   const q = normalize(query);
+
+  useEffect(() => {
+    let cancelled = false;
+    const loadWords = async () => {
+      try {
+        const response = await fetch("/data/high-frequency-3200.txt");
+        if (!response.ok) return;
+        const content = await response.text();
+        if (cancelled) return;
+        const words = content
+          .split(/\r?\n/)
+          .map((word) => word.trim())
+          .filter(Boolean)
+          .slice(0, 3200);
+        setHighFrequencyWords(words);
+      } catch {
+        // Ignore and keep fallback vocabulary only.
+      }
+    };
+    loadWords();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const highFrequencySuggestions = useMemo(() => {
+    const total = highFrequencyWords.length || 1;
+    return highFrequencyWords.map((word, index) => {
+      const ratio = index / total;
+      const level =
+        ratio < 0.25
+          ? "零基础"
+          : ratio < 0.5
+            ? "初级"
+            : ratio < 0.75
+              ? "中级"
+              : "高级";
+      return {
+        id: `hf-${index}`,
+        label: word,
+        detail: `3000+ 高频词 · ${level}`,
+      };
+    });
+  }, [highFrequencyWords]);
 
   const suggestions = useMemo(() => {
     if (!q) return [] as Suggestion[];
@@ -67,6 +112,7 @@ export function CoursesSearch({
         label: item.english,
         detail: `词汇 · ${item.chinese}`,
       })),
+      ...highFrequencySuggestions,
     ];
 
     return pool
@@ -83,7 +129,7 @@ export function CoursesSearch({
         detail: item.detail,
         courseSlug: item.courseSlug,
       }));
-  }, [courses, q, sentences]);
+  }, [courses, q, sentences, highFrequencySuggestions]);
 
   const filteredCourses = useMemo(() => {
     if (!q) return courses;
