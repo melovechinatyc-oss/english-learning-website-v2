@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# English Learning Website v2
 
-## Getting Started
+手机端优先的英语学习网页 App，支持课程学习、连续听、收藏与学习记录，并集成 Sanity CMS 作为内容后台。
 
-First, run the development server:
+## 本地运行
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+浏览器打开 `http://localhost:3000`。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 环境变量
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+在 `.env.local` 配置：
 
-## Learn More
+- `NEXT_PUBLIC_SANITY_PROJECT_ID`
+- `NEXT_PUBLIC_SANITY_DATASET`
+- `NEXT_PUBLIC_SANITY_API_VERSION`
+- `SANITY_API_READ_TOKEN`
 
-To learn more about Next.js, take a look at the following resources:
+本地开发可以先不填，系统会自动使用内置 seed 数据演示。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+部署到 Vercel 时，在 Project Settings > Environment Variables 配置同名变量。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 启动 Sanity Studio
 
-## Deploy on Vercel
+```bash
+npx sanity dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+然后访问 `http://localhost:3333` 或项目内路由 `/studio`。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 配置 Sanity
+
+1. 在 Sanity 官网创建项目并拿到 `projectId`。
+2. 把 `projectId` 和 `dataset` 写入 `.env.local`。
+3. 启动 Studio 后创建 Course、Sentence、Category。
+4. 设置 `isPublished=true` 才会在前台显示。
+5. 设置 `isFeatured=true` 会显示在首页推荐区。
+
+## 部署到 Vercel
+
+1. 推送代码到 GitHub 仓库。
+2. 在 Vercel 导入该仓库。
+3. 配置上述环境变量。
+4. 点击 Deploy 完成部署。
+
+## iPhone 使用
+
+1. Safari 打开部署后的网址。
+2. 点击分享按钮，选择“添加到主屏幕”。
+3. 从主屏幕启动后可以接近原生 App 的体验。
+
+## 目录结构
+
+```text
+src/
+  app/
+    page.tsx
+    courses/
+    listen/
+    favorites/
+    progress/
+    studio/
+  components/learning/
+  contexts/
+  lib/
+  sanity/schemaTypes/
+sanity.config.ts
+sanity.cli.ts
+```
