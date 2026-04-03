@@ -5,18 +5,20 @@ import { useEffect, useMemo, useState } from "react";
 import { Course, Sentence } from "@/types/learning";
 import { CourseCard } from "@/components/learning/course-card";
 import { Card, CardContent } from "@/components/ui/card";
-import { vocabularyItems } from "@/lib/vocabulary-data";
+import { toWordSlug, vocabularyItems } from "@/lib/vocabulary-data";
 
 type CoursesSearchProps = {
   courses: Course[];
   sentences: Sentence[];
   sentenceCountMap: Record<string, number>;
+  showCourseGrid?: boolean;
 };
 
 type Suggestion = {
   id: string;
   label: string;
   detail: string;
+  href: string;
   courseSlug?: string;
 };
 
@@ -43,6 +45,7 @@ export function CoursesSearch({
   courses,
   sentences,
   sentenceCountMap,
+  showCourseGrid = true,
 }: CoursesSearchProps) {
   const [query, setQuery] = useState("");
   const [highFrequencyWords, setHighFrequencyWords] = useState<string[]>([]);
@@ -52,7 +55,7 @@ export function CoursesSearch({
     let cancelled = false;
     const loadWords = async () => {
       try {
-        const response = await fetch("/data/high-frequency-3200.txt");
+        const response = await fetch("/data/high-frequency-5200.txt");
         if (!response.ok) return;
         const content = await response.text();
         if (cancelled) return;
@@ -60,7 +63,7 @@ export function CoursesSearch({
           .split(/\r?\n/)
           .map((word) => word.trim())
           .filter(Boolean)
-          .slice(0, 3200);
+          .slice(0, 5200);
         setHighFrequencyWords(words);
       } catch {
         // Ignore and keep fallback vocabulary only.
@@ -88,6 +91,7 @@ export function CoursesSearch({
         id: `hf-${index}`,
         label: word,
         detail: `3000+ 高频词 · ${level}`,
+        href: `/vocabulary/${toWordSlug(word)}`,
       };
     });
   }, [highFrequencyWords]);
@@ -99,18 +103,21 @@ export function CoursesSearch({
         id: `course-${course.slug}`,
         label: course.title,
         detail: `课程 · ${course.description}`,
+        href: `/courses/${course.slug}`,
         courseSlug: course.slug,
       })),
       ...sentences.slice(0, 1200).map((sentence) => ({
         id: sentence._id,
         label: sentence.english,
         detail: `对话 · ${sentence.chinese}`,
+        href: `/sentences/${sentence._id}`,
         courseSlug: sentence.courseSlug,
       })),
       ...vocabularyItems.map((item, index) => ({
         id: `vocab-${index}`,
         label: item.english,
         detail: `词汇 · ${item.chinese}`,
+        href: `/vocabulary/${toWordSlug(item.english)}`,
       })),
       ...highFrequencySuggestions,
     ];
@@ -127,6 +134,7 @@ export function CoursesSearch({
         id: item.id,
         label: item.label,
         detail: item.detail,
+        href: item.href,
         courseSlug: item.courseSlug,
       }));
   }, [courses, q, sentences, highFrequencySuggestions]);
@@ -159,34 +167,27 @@ export function CoursesSearch({
       {q && suggestions.length > 0 && (
         <Card>
           <CardContent className="space-y-1 py-3">
-            {suggestions.map((item) =>
-              item.courseSlug ? (
-                <Link
-                  key={item.id}
-                  href={`/courses/${item.courseSlug}`}
-                  className="block rounded-md px-2 py-1 hover:bg-slate-100"
-                >
-                  <p className="text-sm font-medium">{item.label}</p>
-                  <p className="text-xs text-muted-foreground">{item.detail}</p>
-                </Link>
-              ) : (
-                <div key={item.id} className="rounded-md px-2 py-1">
-                  <p className="text-sm font-medium">{item.label}</p>
-                  <p className="text-xs text-muted-foreground">{item.detail}</p>
-                </div>
-              ),
-            )}
+            {suggestions.map((item) => (
+              <Link
+                key={item.id}
+                href={item.href}
+                className="block rounded-md px-2 py-1 hover:bg-slate-100"
+              >
+                <p className="text-sm font-medium">{item.label}</p>
+                <p className="text-xs text-muted-foreground">{item.detail}</p>
+              </Link>
+            ))}
           </CardContent>
         </Card>
       )}
 
-      {filteredCourses.length === 0 ? (
+      {showCourseGrid && filteredCourses.length === 0 ? (
         <Card>
           <CardContent className="text-sm text-muted-foreground">
             没找到匹配内容，换个关键词试试（支持英文模糊匹配与中文匹配）。
           </CardContent>
         </Card>
-      ) : (
+      ) : showCourseGrid ? (
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {filteredCourses.map((course) => (
             <CourseCard
@@ -196,7 +197,14 @@ export function CoursesSearch({
             />
           ))}
         </div>
-      )}
+      ) : null}
+      {!showCourseGrid && q && suggestions.length === 0 ? (
+        <Card>
+          <CardContent className="text-sm text-muted-foreground">
+            暂无匹配结果，换个关键词再试。
+          </CardContent>
+        </Card>
+      ) : null}
     </section>
   );
 }

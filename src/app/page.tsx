@@ -1,11 +1,30 @@
 import { ContinueLearningCard } from "@/components/learning/continue-learning-card";
 import { CourseCard } from "@/components/learning/course-card";
+import { CoursesSearch } from "@/components/learning/courses-search";
 import { Header } from "@/components/learning/header";
 import { HeroSection } from "@/components/learning/hero-section";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getFeaturedCourses, getSentencesByCourseSlug } from "@/lib/api";
+import { getCourses, getFeaturedCourses, getSentencesByCourseSlug } from "@/lib/api";
+import { Sentence } from "@/types/learning";
 
 export default async function Home() {
+  const allCourses = await getCourses();
+  const allSentencesByCourse: Record<string, Sentence[]> = Object.fromEntries(
+    await Promise.all(
+      allCourses.map(async (course) => [
+        course.slug,
+        await getSentencesByCourseSlug(course.slug),
+      ]),
+    ),
+  );
+  const allSentences: Sentence[] = Object.values(allSentencesByCourse).flat();
+  const allSentenceCountMap = Object.fromEntries(
+    Object.entries(allSentencesByCourse).map(([slug, sentences]) => [
+      slug,
+      sentences.length,
+    ]),
+  );
+
   const featuredCourses = await getFeaturedCourses();
   const sentenceCountMap = Object.fromEntries(
     await Promise.all(
@@ -20,6 +39,15 @@ export default async function Home() {
       <Header />
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-6">
         <HeroSection />
+        <section className="space-y-3">
+          <h2 className="text-xl font-semibold">全站搜索</h2>
+          <CoursesSearch
+            courses={allCourses}
+            sentences={allSentences}
+            sentenceCountMap={allSentenceCountMap}
+            showCourseGrid={false}
+          />
+        </section>
         <ContinueLearningCard />
         <section className="space-y-3">
           <h2 className="text-xl font-semibold">推荐课程</h2>

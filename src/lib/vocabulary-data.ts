@@ -4,6 +4,22 @@ export type VocabularyItem = {
   category: string;
 };
 
+export function toWordSlug(word: string) {
+  return encodeURIComponent(word.trim().toLowerCase());
+}
+
+export function fromWordSlug(slug: string) {
+  return decodeURIComponent(slug).trim().toLowerCase();
+}
+
+export function findVocabularyItem(word: string) {
+  const target = word.trim().toLowerCase();
+  return (
+    vocabularyItems.find((item) => item.english.trim().toLowerCase() === target) ||
+    null
+  );
+}
+
 export const vocabularyItems: VocabularyItem[] = [
   { english: "ability", chinese: "能力", category: "core" },
   { english: "achieve", chinese: "实现", category: "core" },

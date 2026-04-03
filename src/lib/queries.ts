@@ -54,3 +54,18 @@ export const sentencesByCourseSlugQuery = `*[_type == "sentence" && isPublished 
   order,
   isPublished
 }`;
+
+export const sentenceByIdQuery = `*[_type == "sentence" && _id == $id && isPublished == true][0] {
+  _id,
+  "courseSlug": course->slug.current,
+  english,
+  chinese,
+  pronunciationCn,
+  ipa,
+  audioNormal,
+  audioSlow,
+  audioChinese,
+  tags,
+  order,
+  isPublished
+}`;

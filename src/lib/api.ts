@@ -5,6 +5,7 @@ import {
   courseBySlugQuery,
   coursesQuery,
   featuredCoursesQuery,
+  sentenceByIdQuery,
   sentencesByCourseSlugQuery,
 } from "@/lib/queries";
 
@@ -76,4 +77,19 @@ export async function getSentencesByCourseSlug(slug: string) {
   return byPublishedOrder(seedSentences).filter(
     (sentence) => sentence.courseSlug === slug,
   );
+}
+
+export async function getSentenceById(id: string) {
+  if (!isSanityConfigured) {
+    return byPublishedOrder(seedSentences).find((sentence) => sentence._id === id) || null;
+  }
+  try {
+    const sentence = await sanityClient.fetch<Sentence | null>(sentenceByIdQuery, {
+      id,
+    });
+    if (sentence) return sentence;
+  } catch {
+    // Ignore and fallback to seed content.
+  }
+  return byPublishedOrder(seedSentences).find((sentence) => sentence._id === id) || null;
 }
