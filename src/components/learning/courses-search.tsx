@@ -22,6 +22,14 @@ type Suggestion = {
   courseSlug?: string;
 };
 
+type HighFrequencyMetaItem = {
+  word: string;
+  chinese: string;
+  ipa: string;
+  rank: number;
+  level: "beginner" | "elementary" | "intermediate" | "advanced";
+};
+
 function normalize(value: string) {
   return value.toLowerCase().trim();
 }
@@ -48,22 +56,18 @@ export function CoursesSearch({
   showCourseGrid = true,
 }: CoursesSearchProps) {
   const [query, setQuery] = useState("");
-  const [highFrequencyWords, setHighFrequencyWords] = useState<string[]>([]);
+  const [highFrequencyWords, setHighFrequencyWords] = useState<HighFrequencyMetaItem[]>([]);
   const q = normalize(query);
 
   useEffect(() => {
     let cancelled = false;
     const loadWords = async () => {
       try {
-        const response = await fetch("/data/high-frequency-5200.txt");
+        const response = await fetch("/data/high-frequency-5200-meta.json");
         if (!response.ok) return;
-        const content = await response.text();
+        const content = await response.json();
         if (cancelled) return;
-        const words = content
-          .split(/\r?\n/)
-          .map((word) => word.trim())
-          .filter(Boolean)
-          .slice(0, 5200);
+        const words = (content as HighFrequencyMetaItem[]).slice(0, 5200);
         setHighFrequencyWords(words);
       } catch {
         // Ignore and keep fallback vocabulary only.
@@ -77,10 +81,17 @@ export function CoursesSearch({
 
   const highFrequencySuggestions = useMemo(() => {
     const total = highFrequencyWords.length || 1;
-    return highFrequencyWords.map((word, index) => {
+    return highFrequencyWords.map((item, index) => {
       const ratio = index / total;
-      const level =
-        ratio < 0.25
+      const level = item.level
+        ? item.level === "beginner"
+          ? "零基础"
+          : item.level === "elementary"
+            ? "初级"
+            : item.level === "intermediate"
+              ? "中级"
+              : "高级"
+        : ratio < 0.25
           ? "零基础"
           : ratio < 0.5
             ? "初级"
@@ -89,9 +100,9 @@ export function CoursesSearch({
               : "高级";
       return {
         id: `hf-${index}`,
-        label: word,
-        detail: `3000+ 高频词 · ${level}`,
-        href: `/vocabulary/${toWordSlug(word)}`,
+        label: item.word,
+        detail: `高频词 · ${item.chinese} · ${level}`,
+        href: `/vocabulary/${toWordSlug(item.word)}`,
       };
     });
   }, [highFrequencyWords]);

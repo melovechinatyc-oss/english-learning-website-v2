@@ -1,0 +1,36414 @@
+export type HighFrequencyMetaItem = {
+  word: string;
+  chinese: string;
+  ipa: string;
+  rank: number;
+  level: "beginner" | "elementary" | "intermediate" | "advanced";
+};
+
+export const highFrequencyMeta: HighFrequencyMetaItem[] = [
+  {
+    "word": "the",
+    "chinese": "art. 那",
+    "ipa": "ðә",
+    "rank": 1,
+    "level": "beginner"
+  },
+  {
+    "word": "of",
+    "chinese": "prep. 的, 属于",
+    "ipa": "ɒv",
+    "rank": 2,
+    "level": "beginner"
+  },
+  {
+    "word": "and",
+    "chinese": "conj. 和, 与",
+    "ipa": "ænd",
+    "rank": 3,
+    "level": "beginner"
+  },
+  {
+    "word": "to",
+    "chinese": "prep. 到, 向, 趋于",
+    "ipa": "tu:",
+    "rank": 4,
+    "level": "beginner"
+  },
+  {
+    "word": "in",
+    "chinese": "prep. 在...期间, 在...之内, 处于...之中, 从事于, 按照, 穿着",
+    "ipa": "in",
+    "rank": 5,
+    "level": "beginner"
+  },
+  {
+    "word": "for",
+    "chinese": "prep. 为, 因为, 至于",
+    "ipa": "fɒ:",
+    "rank": 6,
+    "level": "beginner"
+  },
+  {
+    "word": "is",
+    "chinese": "be的现在式第三人称",
+    "ipa": "iz",
+    "rank": 7,
+    "level": "beginner"
+  },
+  {
+    "word": "on",
+    "chinese": "prep. 在...之上",
+    "ipa": "ɒn",
+    "rank": 8,
+    "level": "beginner"
+  },
+  {
+    "word": "that",
+    "chinese": "a. 那, 那个",
+    "ipa": "ðæt",
+    "rank": 9,
+    "level": "beginner"
+  },
+  {
+    "word": "by",
+    "chinese": "prep. 被, 经, 由, 在...之旁",
+    "ipa": "bai",
+    "rank": 10,
+    "level": "beginner"
+  },
+  {
+    "word": "this",
+    "chinese": "pron. 这, 本",
+    "ipa": "θis",
+    "rank": 11,
+    "level": "beginner"
+  },
+  {
+    "word": "with",
+    "chinese": "prep. 和...在一起, 以, 由于",
+    "ipa": "wið",
+    "rank": 12,
+    "level": "beginner"
+  },
+  {
+    "word": "you",
+    "chinese": "pron. 你, 你们",
+    "ipa": "ju:",
+    "rank": 13,
+    "level": "beginner"
+  },
+  {
+    "word": "it",
+    "chinese": "pron. 它",
+    "ipa": "it",
+    "rank": 14,
+    "level": "beginner"
+  },
+  {
+    "word": "not",
+    "chinese": "adv. 不, 非, 未",
+    "ipa": "nɒt",
+    "rank": 15,
+    "level": "beginner"
+  },
+  {
+    "word": "or",
+    "chinese": "conj. 或, 或者",
+    "ipa": "ɒ:",
+    "rank": 16,
+    "level": "beginner"
+  },
+  {
+    "word": "be",
+    "chinese": "v. 是, 表示, 在",
+    "ipa": "bi:",
+    "rank": 17,
+    "level": "beginner"
+  },
+  {
+    "word": "are",
+    "chinese": "be的现在时复数或第二人称单数",
+    "ipa": "ɑ:",
+    "rank": 18,
+    "level": "beginner"
+  },
+  {
+    "word": "from",
+    "chinese": "prep. 从, 来自, 根据",
+    "ipa": "frɒm",
+    "rank": 19,
+    "level": "beginner"
+  },
+  {
+    "word": "at",
+    "chinese": "prep. 在, 向, 对",
+    "ipa": "æt",
+    "rank": 20,
+    "level": "beginner"
+  },
+  {
+    "word": "as",
+    "chinese": "adv. 同样地, 例如",
+    "ipa": "æz",
+    "rank": 21,
+    "level": "beginner"
+  },
+  {
+    "word": "your",
+    "chinese": "pron. 你的, 你们的",
+    "ipa": "juә",
+    "rank": 22,
+    "level": "beginner"
+  },
+  {
+    "word": "all",
+    "chinese": "a. 所有的, 全部的, 一切的",
+    "ipa": "ɒ:l",
+    "rank": 23,
+    "level": "beginner"
+  },
+  {
+    "word": "have",
+    "chinese": "vt. 有, 怀有, 拿, 进行",
+    "ipa": "hæv",
+    "rank": 24,
+    "level": "beginner"
+  },
+  {
+    "word": "new",
+    "chinese": "a. 新的, 陌生的, 最近的, 不熟悉的",
+    "ipa": "nju:",
+    "rank": 25,
+    "level": "beginner"
+  },
+  {
+    "word": "more",
+    "chinese": "n. 更多",
+    "ipa": "mɒ:",
+    "rank": 26,
+    "level": "beginner"
+  },
+  {
+    "word": "an",
+    "chinese": "art. 一",
+    "ipa": "æn",
+    "rank": 27,
+    "level": "beginner"
+  },
+  {
+    "word": "was",
+    "chinese": "be的过去式",
+    "ipa": "wɒz",
+    "rank": 28,
+    "level": "beginner"
+  },
+  {
+    "word": "we",
+    "chinese": "pron. 我们",
+    "ipa": "wi:",
+    "rank": 29,
+    "level": "beginner"
+  },
+  {
+    "word": "will",
+    "chinese": "n. 意志, 决心, 意愿, 意向, 干劲, 遗嘱",
+    "ipa": "wil",
+    "rank": 30,
+    "level": "beginner"
+  },
+  {
+    "word": "home",
+    "chinese": "n. 家, 避难所, 故乡",
+    "ipa": "hәum",
+    "rank": 31,
+    "level": "beginner"
+  },
+  {
+    "word": "can",
+    "chinese": "vt. 装罐",
+    "ipa": "kæn",
+    "rank": 32,
+    "level": "beginner"
+  },
+  {
+    "word": "us",
+    "chinese": "pron. 我们",
+    "ipa": "ʌs",
+    "rank": 33,
+    "level": "beginner"
+  },
+  {
+    "word": "about",
+    "chinese": "prep. 在...周围, 大约, 有关, 关于",
+    "ipa": "ә'baut",
+    "rank": 34,
+    "level": "beginner"
+  },
+  {
+    "word": "if",
+    "chinese": "conj. 如果, 是否, 无论何时, 假设, 即使",
+    "ipa": "if",
+    "rank": 35,
+    "level": "beginner"
+  },
+  {
+    "word": "page",
+    "chinese": "n. 页, 记录, 事件, 专栏, 男侍",
+    "ipa": "peidʒ",
+    "rank": 36,
+    "level": "beginner"
+  },
+  {
+    "word": "my",
+    "chinese": "pron. 我的",
+    "ipa": "mai",
+    "rank": 37,
+    "level": "beginner"
+  },
+  {
+    "word": "has",
+    "chinese": "have的第三人称单数现在式",
+    "ipa": "hæz",
+    "rank": 38,
+    "level": "beginner"
+  },
+  {
+    "word": "search",
+    "chinese": "n. 搜寻, 查究",
+    "ipa": "sә:tʃ",
+    "rank": 39,
+    "level": "beginner"
+  },
+  {
+    "word": "free",
+    "chinese": "a. 自由的, 享受政治权力的, 允许的, 免费的, 丰富的",
+    "ipa": "fri:",
+    "rank": 40,
+    "level": "beginner"
+  },
+  {
+    "word": "but",
+    "chinese": "prep. 除了",
+    "ipa": "bʌt",
+    "rank": 41,
+    "level": "beginner"
+  },
+  {
+    "word": "our",
+    "chinese": "pron. 我们的",
+    "ipa": "'auә",
+    "rank": 42,
+    "level": "beginner"
+  },
+  {
+    "word": "one",
+    "chinese": "n. 一(个)",
+    "ipa": "wʌn",
+    "rank": 43,
+    "level": "beginner"
+  },
+  {
+    "word": "other",
+    "chinese": "a. 其他的, 另外的, 从前的",
+    "ipa": "'ʌðә",
+    "rank": 44,
+    "level": "beginner"
+  },
+  {
+    "word": "do",
+    "chinese": "v. 做, 进行, 完成",
+    "ipa": "du:",
+    "rank": 45,
+    "level": "beginner"
+  },
+  {
+    "word": "no",
+    "chinese": "n. 不, 拒绝, 否决票",
+    "ipa": "nәu",
+    "rank": 46,
+    "level": "beginner"
+  },
+  {
+    "word": "information",
+    "chinese": "n. 消息, 知识, 通知, 情报, 信息, 问讯处, 起诉",
+    "ipa": ".infә'meiʃәn",
+    "rank": 47,
+    "level": "beginner"
+  },
+  {
+    "word": "time",
+    "chinese": "n. 时间, 时侯, 时机, 时期, 期限, 次数, 节拍, 暂停, 规定时间",
+    "ipa": "taim",
+    "rank": 48,
+    "level": "beginner"
+  },
+  {
+    "word": "they",
+    "chinese": "pron. 他们, 它们",
+    "ipa": "ðei",
+    "rank": 49,
+    "level": "beginner"
+  },
+  {
+    "word": "site",
+    "chinese": "n. 位置, 场所, 地点",
+    "ipa": "sait",
+    "rank": 50,
+    "level": "beginner"
+  },
+  {
+    "word": "he",
+    "chinese": "pron. 他",
+    "ipa": "hi:",
+    "rank": 51,
+    "level": "beginner"
+  },
+  {
+    "word": "up",
+    "chinese": "a. 向上的, 起床的, 涨的",
+    "ipa": "ʌp",
+    "rank": 52,
+    "level": "beginner"
+  },
+  {
+    "word": "may",
+    "chinese": "n. 五月",
+    "ipa": "mei",
+    "rank": 53,
+    "level": "beginner"
+  },
+  {
+    "word": "what",
+    "chinese": "pron. 什么",
+    "ipa": "hwɒt",
+    "rank": 54,
+    "level": "beginner"
+  },
+  {
+    "word": "which",
+    "chinese": "pron. 哪一个, 那一个",
+    "ipa": "hwitʃ",
+    "rank": 55,
+    "level": "beginner"
+  },
+  {
+    "word": "their",
+    "chinese": "pron. 他们的",
+    "ipa": "ðєә",
+    "rank": 56,
+    "level": "beginner"
+  },
+  {
+    "word": "news",
+    "chinese": "n. 新闻, 消息, 报导",
+    "ipa": "nju:z",
+    "rank": 57,
+    "level": "beginner"
+  },
+  {
+    "word": "out",
+    "chinese": "a. 外面的, 熄灭的, 结束的",
+    "ipa": "aut",
+    "rank": 58,
+    "level": "beginner"
+  },
+  {
+    "word": "use",
+    "chinese": "n. 使用, 习惯, 使用价值, 用法, 使用权",
+    "ipa": "ju:s",
+    "rank": 59,
+    "level": "beginner"
+  },
+  {
+    "word": "any",
+    "chinese": "a. 任何的",
+    "ipa": "'eni",
+    "rank": 60,
+    "level": "beginner"
+  },
+  {
+    "word": "there",
+    "chinese": "adv. 在那里",
+    "ipa": "ðєә",
+    "rank": 61,
+    "level": "beginner"
+  },
+  {
+    "word": "see",
+    "chinese": "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意",
+    "ipa": "si:",
+    "rank": 62,
+    "level": "beginner"
+  },
+  {
+    "word": "only",
+    "chinese": "a. 唯一的, 仅有的, 最佳的",
+    "ipa": "'әunli",
+    "rank": 63,
+    "level": "beginner"
+  },
+  {
+    "word": "so",
+    "chinese": "adv. 如此, 如是, 如...那样",
+    "ipa": "sәu",
+    "rank": 64,
+    "level": "beginner"
+  },
+  {
+    "word": "his",
+    "chinese": "pron. 他的",
+    "ipa": "hiz",
+    "rank": 65,
+    "level": "beginner"
+  },
+  {
+    "word": "when",
+    "chinese": "conj. 当...的时候",
+    "ipa": "hwen",
+    "rank": 66,
+    "level": "beginner"
+  },
+  {
+    "word": "contact",
+    "chinese": "n. 联系, 交际, 熟人, 接触",
+    "ipa": "'kɒntækt",
+    "rank": 67,
+    "level": "beginner"
+  },
+  {
+    "word": "here",
+    "chinese": "adv. 在这里, 此时, 这里",
+    "ipa": "hiә",
+    "rank": 68,
+    "level": "beginner"
+  },
+  {
+    "word": "business",
+    "chinese": "n. 生意, 事情, 业务, 商业, 商行, 职责",
+    "ipa": "'biznis",
+    "rank": 69,
+    "level": "beginner"
+  },
+  {
+    "word": "who",
+    "chinese": "pron. 谁",
+    "ipa": "hu:",
+    "rank": 70,
+    "level": "beginner"
+  },
+  {
+    "word": "web",
+    "chinese": "n. 网, 蛛丝, 蹼, 织物, 圈套, 卷筒纸",
+    "ipa": "web",
+    "rank": 71,
+    "level": "beginner"
+  },
+  {
+    "word": "also",
+    "chinese": "adv. 也, 并且, 同样地",
+    "ipa": "'ɒ:lsәu",
+    "rank": 72,
+    "level": "beginner"
+  },
+  {
+    "word": "now",
+    "chinese": "adv. 现在, 刚才, 目前",
+    "ipa": "nau",
+    "rank": 73,
+    "level": "beginner"
+  },
+  {
+    "word": "help",
+    "chinese": "n. 帮忙, 帮助者, 补救办法, 有益的东西",
+    "ipa": "help",
+    "rank": 74,
+    "level": "beginner"
+  },
+  {
+    "word": "get",
+    "chinese": "vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上",
+    "ipa": "get",
+    "rank": 75,
+    "level": "beginner"
+  },
+  {
+    "word": "pm",
+    "chinese": "出纳员, 军需官",
+    "ipa": "piɛm",
+    "rank": 76,
+    "level": "beginner"
+  },
+  {
+    "word": "view",
+    "chinese": "n. 视野, 风景, 见解, 视力, 观看, 视图, 指望, 意图, 印象",
+    "ipa": "vju:",
+    "rank": 77,
+    "level": "beginner"
+  },
+  {
+    "word": "online",
+    "chinese": "[计] 联机",
+    "ipa": "ˈɔnˌlaɪn",
+    "rank": 78,
+    "level": "beginner"
+  },
+  {
+    "word": "first",
+    "chinese": "adv. 首先, 第一, 优先",
+    "ipa": "fә:st",
+    "rank": 79,
+    "level": "beginner"
+  },
+  {
+    "word": "am",
+    "chinese": "be的单数第一人称",
+    "ipa": "æm",
+    "rank": 80,
+    "level": "beginner"
+  },
+  {
+    "word": "been",
+    "chinese": "be的过去分词",
+    "ipa": "bi:n",
+    "rank": 81,
+    "level": "beginner"
+  },
+  {
+    "word": "would",
+    "chinese": "aux. 将, 愿意",
+    "ipa": "wud",
+    "rank": 82,
+    "level": "beginner"
+  },
+  {
+    "word": "how",
+    "chinese": "adv. 如何, 怎样, 多少, 多么",
+    "ipa": "hau",
+    "rank": 83,
+    "level": "beginner"
+  },
+  {
+    "word": "were",
+    "chinese": "be的过去式",
+    "ipa": "wә:",
+    "rank": 84,
+    "level": "beginner"
+  },
+  {
+    "word": "me",
+    "chinese": "pron. 我",
+    "ipa": "mi:",
+    "rank": 85,
+    "level": "beginner"
+  },
+  {
+    "word": "services",
+    "chinese": "n. 服务",
+    "ipa": "ˈsərvɪsɪz",
+    "rank": 86,
+    "level": "beginner"
+  },
+  {
+    "word": "some",
+    "chinese": "pron. 一些, 一部分, 若干",
+    "ipa": "sʌm",
+    "rank": 87,
+    "level": "beginner"
+  },
+  {
+    "word": "these",
+    "chinese": "pron. 这些",
+    "ipa": "ði:z",
+    "rank": 88,
+    "level": "beginner"
+  },
+  {
+    "word": "click",
+    "chinese": "n. 咔哒声, 啪嗒声",
+    "ipa": "klik",
+    "rank": 89,
+    "level": "beginner"
+  },
+  {
+    "word": "its",
+    "chinese": "pron. 它的",
+    "ipa": "its",
+    "rank": 90,
+    "level": "beginner"
+  },
+  {
+    "word": "like",
+    "chinese": "a. 相似的, 同样的",
+    "ipa": "laik",
+    "rank": 91,
+    "level": "beginner"
+  },
+  {
+    "word": "service",
+    "chinese": "n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门",
+    "ipa": "'sә:vis",
+    "rank": 92,
+    "level": "beginner"
+  },
+  {
+    "word": "than",
+    "chinese": "conj. 比, 除...外",
+    "ipa": "ðæn",
+    "rank": 93,
+    "level": "beginner"
+  },
+  {
+    "word": "find",
+    "chinese": "vt. 发现, 感到, 找到, 认为, 得到",
+    "ipa": "faind",
+    "rank": 94,
+    "level": "beginner"
+  },
+  {
+    "word": "price",
+    "chinese": "n. 价格, 代价, 价值",
+    "ipa": "prais",
+    "rank": 95,
+    "level": "beginner"
+  },
+  {
+    "word": "date",
+    "chinese": "n. 日期, 约会, 枣椰树",
+    "ipa": "deit",
+    "rank": 96,
+    "level": "beginner"
+  },
+  {
+    "word": "back",
+    "chinese": "a. 后面的",
+    "ipa": "bæk",
+    "rank": 97,
+    "level": "beginner"
+  },
+  {
+    "word": "top",
+    "chinese": "n. 顶部, 顶端, 极点, 上面, 上部, 顶篷, 最高地位, 首位, 陀螺",
+    "ipa": "tɒp",
+    "rank": 98,
+    "level": "beginner"
+  },
+  {
+    "word": "people",
+    "chinese": "n. 人, 人民, 民族, 平民",
+    "ipa": "'pi:pl",
+    "rank": 99,
+    "level": "beginner"
+  },
+  {
+    "word": "had",
+    "chinese": "have的过去式和过去分词",
+    "ipa": "hæd",
+    "rank": 100,
+    "level": "beginner"
+  },
+  {
+    "word": "list",
+    "chinese": "n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单",
+    "ipa": "list",
+    "rank": 101,
+    "level": "beginner"
+  },
+  {
+    "word": "name",
+    "chinese": "n. 名字, 名称, 姓名, 名义, 名誉, 文件名",
+    "ipa": "neim",
+    "rank": 102,
+    "level": "beginner"
+  },
+  {
+    "word": "just",
+    "chinese": "a. 正直的, 合理的, 正确的, 应得的",
+    "ipa": "dʒʌst",
+    "rank": 103,
+    "level": "beginner"
+  },
+  {
+    "word": "over",
+    "chinese": "adv. 结束, 越过, 从头到尾",
+    "ipa": "'әuvә",
+    "rank": 104,
+    "level": "beginner"
+  },
+  {
+    "word": "state",
+    "chinese": "n. 州, 状态, 情形, 国家, 政府, 领土, 国务, 社会地位",
+    "ipa": "steit",
+    "rank": 105,
+    "level": "beginner"
+  },
+  {
+    "word": "year",
+    "chinese": "n. 年, 年度, 年龄",
+    "ipa": "jiә",
+    "rank": 106,
+    "level": "beginner"
+  },
+  {
+    "word": "day",
+    "chinese": "n. 天, 日子, 白天, 工作日",
+    "ipa": "dei",
+    "rank": 107,
+    "level": "beginner"
+  },
+  {
+    "word": "into",
+    "chinese": "prep. 进入...之内, 朝..., 深入...之中, 成为...状况",
+    "ipa": "'intu:",
+    "rank": 108,
+    "level": "beginner"
+  },
+  {
+    "word": "email",
+    "chinese": "n. 电子信函",
+    "ipa": "'i:'meil",
+    "rank": 109,
+    "level": "beginner"
+  },
+  {
+    "word": "two",
+    "chinese": "num. 二, 二个",
+    "ipa": "tu:",
+    "rank": 110,
+    "level": "beginner"
+  },
+  {
+    "word": "health",
+    "chinese": "n. 健康, 卫生, 蓬勃, 健康状态",
+    "ipa": "'helθ",
+    "rank": 111,
+    "level": "beginner"
+  },
+  {
+    "word": "world",
+    "chinese": "n. 世界, 地球, 宇宙, 万物, 世人, 人间, 领域, 世事, 世故, 社会生活, 大量",
+    "ipa": "wә:ld",
+    "rank": 112,
+    "level": "beginner"
+  },
+  {
+    "word": "re",
+    "chinese": "prep. 关于",
+    "ipa": "ri:",
+    "rank": 113,
+    "level": "beginner"
+  },
+  {
+    "word": "next",
+    "chinese": "n. 下一个",
+    "ipa": "'nekst",
+    "rank": 114,
+    "level": "beginner"
+  },
+  {
+    "word": "used",
+    "chinese": "a. 使用过的, 二手的, 习惯的",
+    "ipa": "'ju:st",
+    "rank": 115,
+    "level": "beginner"
+  },
+  {
+    "word": "go",
+    "chinese": "vi. 去, 走, 达到, 运转, 查阅, 消失, 结束, 放弃, 花费, 流传, 趋于, 打算, 剩下",
+    "ipa": "gou",
+    "rank": 116,
+    "level": "beginner"
+  },
+  {
+    "word": "work",
+    "chinese": "n. 工作, 劳动, 职业, 行为, 功, 作品, 成果, 产品, 工程",
+    "ipa": "wә:k",
+    "rank": 117,
+    "level": "beginner"
+  },
+  {
+    "word": "last",
+    "chinese": "a. 最后的, 末尾的, 最近的",
+    "ipa": "lɑ:st",
+    "rank": 118,
+    "level": "beginner"
+  },
+  {
+    "word": "most",
+    "chinese": "n. 最多, 最大",
+    "ipa": "mәust",
+    "rank": 119,
+    "level": "beginner"
+  },
+  {
+    "word": "products",
+    "chinese": "n. 产品",
+    "ipa": "ˈprɑdəkts",
+    "rank": 120,
+    "level": "beginner"
+  },
+  {
+    "word": "music",
+    "chinese": "n. 音乐, 乐曲",
+    "ipa": "'mju:zik",
+    "rank": 121,
+    "level": "beginner"
+  },
+  {
+    "word": "buy",
+    "chinese": "vt. 买, 获得",
+    "ipa": "bai",
+    "rank": 122,
+    "level": "beginner"
+  },
+  {
+    "word": "data",
+    "chinese": "pl. 资料, 数据",
+    "ipa": "'deitә",
+    "rank": 123,
+    "level": "beginner"
+  },
+  {
+    "word": "make",
+    "chinese": "vt. 制造, 安排, 创造, 构成, 使得, 产生, 造成, 整理, 布置, 引起, 到达, 进行",
+    "ipa": "meik",
+    "rank": 124,
+    "level": "beginner"
+  },
+  {
+    "word": "them",
+    "chinese": "pron. 他们, 她们, 它们",
+    "ipa": "ðem",
+    "rank": 125,
+    "level": "beginner"
+  },
+  {
+    "word": "should",
+    "chinese": "aux. 应该, 将要",
+    "ipa": "ʃud",
+    "rank": 126,
+    "level": "beginner"
+  },
+  {
+    "word": "product",
+    "chinese": "n. 产品, 结果, 乘积",
+    "ipa": "'prɒdʌkt",
+    "rank": 127,
+    "level": "beginner"
+  },
+  {
+    "word": "system",
+    "chinese": "n. 系统, 体系, 制度, 方式, 秩序, 分类原则",
+    "ipa": "'sistәm",
+    "rank": 128,
+    "level": "beginner"
+  },
+  {
+    "word": "post",
+    "chinese": "n. 柱, 杆, 准星, 邮件, 邮政, 标竿, 职位, 岗位, 哨所, 兵营",
+    "ipa": "pәust",
+    "rank": 129,
+    "level": "beginner"
+  },
+  {
+    "word": "her",
+    "chinese": "pron. 她的, 她",
+    "ipa": "hә:",
+    "rank": 130,
+    "level": "beginner"
+  },
+  {
+    "word": "city",
+    "chinese": "n. 城市, 市",
+    "ipa": "'siti",
+    "rank": 131,
+    "level": "beginner"
+  },
+  {
+    "word": "add",
+    "chinese": "vt. 增加, 添加, 附带说明, 计算...总和",
+    "ipa": "æd",
+    "rank": 132,
+    "level": "beginner"
+  },
+  {
+    "word": "policy",
+    "chinese": "n. 政策, 方针, 策略, 保险单",
+    "ipa": "'pɒlisi",
+    "rank": 133,
+    "level": "beginner"
+  },
+  {
+    "word": "number",
+    "chinese": "n. 数, 数字, 数目, 号码",
+    "ipa": "'nʌmbә",
+    "rank": 134,
+    "level": "beginner"
+  },
+  {
+    "word": "such",
+    "chinese": "a. 如此的, 这样的",
+    "ipa": "sʌtʃ",
+    "rank": 135,
+    "level": "beginner"
+  },
+  {
+    "word": "please",
+    "chinese": "adv. 请",
+    "ipa": "pli:z",
+    "rank": 136,
+    "level": "beginner"
+  },
+  {
+    "word": "available",
+    "chinese": "a. 可利用的, 可获得的, 有效的",
+    "ipa": "ә'veilәbl",
+    "rank": 137,
+    "level": "beginner"
+  },
+  {
+    "word": "copyright",
+    "chinese": "n. 版权, 著作权",
+    "ipa": "'kɒpirait",
+    "rank": 138,
+    "level": "beginner"
+  },
+  {
+    "word": "support",
+    "chinese": "n. 支持, 支撑, 援助, 供养, 支撑物",
+    "ipa": "sә'pɒ:t",
+    "rank": 139,
+    "level": "beginner"
+  },
+  {
+    "word": "message",
+    "chinese": "n. 消息, 通讯, 讯息, 教训, 预言, 广告词",
+    "ipa": "'mesidʒ",
+    "rank": 140,
+    "level": "beginner"
+  },
+  {
+    "word": "after",
+    "chinese": "prep. 在...之后, 由于",
+    "ipa": "'ɑ:ftә",
+    "rank": 141,
+    "level": "beginner"
+  },
+  {
+    "word": "best",
+    "chinese": "a. 最好的",
+    "ipa": "best",
+    "rank": 142,
+    "level": "beginner"
+  },
+  {
+    "word": "software",
+    "chinese": "n. 软件",
+    "ipa": "'sɒftwєә",
+    "rank": 143,
+    "level": "beginner"
+  },
+  {
+    "word": "then",
+    "chinese": "adv. 然后, 当时",
+    "ipa": "ðen",
+    "rank": 144,
+    "level": "beginner"
+  },
+  {
+    "word": "jan",
+    "chinese": "n. 一月",
+    "ipa": "dʒæn",
+    "rank": 145,
+    "level": "beginner"
+  },
+  {
+    "word": "good",
+    "chinese": "n. 善行, 好处, 利益",
+    "ipa": "gud",
+    "rank": 146,
+    "level": "beginner"
+  },
+  {
+    "word": "video",
+    "chinese": "n. 影像, 电视",
+    "ipa": "'vidiәu",
+    "rank": 147,
+    "level": "beginner"
+  },
+  {
+    "word": "well",
+    "chinese": "n. 井, 泉水, 源泉, 好",
+    "ipa": "wel",
+    "rank": 148,
+    "level": "beginner"
+  },
+  {
+    "word": "where",
+    "chinese": "adv. 在哪里",
+    "ipa": "hwєә",
+    "rank": 149,
+    "level": "beginner"
+  },
+  {
+    "word": "info",
+    "chinese": "n. 信息",
+    "ipa": "'infәu",
+    "rank": 150,
+    "level": "beginner"
+  },
+  {
+    "word": "rights",
+    "chinese": "n. 正当权利",
+    "ipa": "raɪts",
+    "rank": 151,
+    "level": "beginner"
+  },
+  {
+    "word": "public",
+    "chinese": "n. 公众, 民众",
+    "ipa": "'pʌblik",
+    "rank": 152,
+    "level": "beginner"
+  },
+  {
+    "word": "books",
+    "chinese": "n. 书评",
+    "ipa": "bʊks",
+    "rank": 153,
+    "level": "beginner"
+  },
+  {
+    "word": "high",
+    "chinese": "n. 高度, 高处",
+    "ipa": "hai",
+    "rank": 154,
+    "level": "beginner"
+  },
+  {
+    "word": "school",
+    "chinese": "n. 学校, 鱼群, 门派, 学派",
+    "ipa": "sku:l",
+    "rank": 155,
+    "level": "beginner"
+  },
+  {
+    "word": "through",
+    "chinese": "adv. 穿越, 从头至尾, 到底, 因为",
+    "ipa": "θru:",
+    "rank": 156,
+    "level": "beginner"
+  },
+  {
+    "word": "each",
+    "chinese": "a. 每个, 每一",
+    "ipa": "i:tʃ",
+    "rank": 157,
+    "level": "beginner"
+  },
+  {
+    "word": "links",
+    "chinese": "n. 高尔夫球场",
+    "ipa": "liŋks",
+    "rank": 158,
+    "level": "beginner"
+  },
+  {
+    "word": "she",
+    "chinese": "pron. 她",
+    "ipa": "ʃi:",
+    "rank": 159,
+    "level": "beginner"
+  },
+  {
+    "word": "review",
+    "chinese": "n. 检讨, 复习, 回顾, 检阅, 评论",
+    "ipa": "ri'vju:",
+    "rank": 160,
+    "level": "beginner"
+  },
+  {
+    "word": "years",
+    "chinese": "n. 年代",
+    "ipa": "jɪrz",
+    "rank": 161,
+    "level": "beginner"
+  },
+  {
+    "word": "order",
+    "chinese": "n. 次序, 规则, 命令",
+    "ipa": "'ɒ:dә",
+    "rank": 162,
+    "level": "beginner"
+  },
+  {
+    "word": "very",
+    "chinese": "a. 真正的, 恰好的, 十足的, 特有的",
+    "ipa": "'veri",
+    "rank": 163,
+    "level": "beginner"
+  },
+  {
+    "word": "privacy",
+    "chinese": "n. 隐私, 隐居, 秘密",
+    "ipa": "'praivәsi",
+    "rank": 164,
+    "level": "beginner"
+  },
+  {
+    "word": "book",
+    "chinese": "n. 书, 书籍, 帐簿, 名册, 工作簿",
+    "ipa": "buk",
+    "rank": 165,
+    "level": "beginner"
+  },
+  {
+    "word": "items",
+    "chinese": "n. 项目",
+    "ipa": "ˈaɪtəmz",
+    "rank": 166,
+    "level": "beginner"
+  },
+  {
+    "word": "company",
+    "chinese": "n. 公司, 友伴, 交往, 连队, 朋友, 一群",
+    "ipa": "'kʌmpәni",
+    "rank": 167,
+    "level": "beginner"
+  },
+  {
+    "word": "read",
+    "chinese": "v. 读, 阅读, 理解",
+    "ipa": "ri:d",
+    "rank": 168,
+    "level": "beginner"
+  },
+  {
+    "word": "group",
+    "chinese": "n. 团体, 组, 团, 群",
+    "ipa": "gru:p",
+    "rank": 169,
+    "level": "beginner"
+  },
+  {
+    "word": "sex",
+    "chinese": "n. 性别, 性欲",
+    "ipa": "seks",
+    "rank": 170,
+    "level": "beginner"
+  },
+  {
+    "word": "need",
+    "chinese": "n. 需要, 必须, 缺乏",
+    "ipa": "ni:d",
+    "rank": 171,
+    "level": "beginner"
+  },
+  {
+    "word": "many",
+    "chinese": "n. 多数, 多数人",
+    "ipa": "'meni",
+    "rank": 172,
+    "level": "beginner"
+  },
+  {
+    "word": "user",
+    "chinese": "n. 使用者",
+    "ipa": "'ju:zә",
+    "rank": 173,
+    "level": "beginner"
+  },
+  {
+    "word": "said",
+    "chinese": "a. 上述的",
+    "ipa": "sed",
+    "rank": 174,
+    "level": "beginner"
+  },
+  {
+    "word": "de",
+    "chinese": "[化] 非对映体过量",
+    "ipa": "di:",
+    "rank": 175,
+    "level": "beginner"
+  },
+  {
+    "word": "does",
+    "chinese": "v. 做",
+    "ipa": "dʌz; dәz",
+    "rank": 176,
+    "level": "beginner"
+  },
+  {
+    "word": "set",
+    "chinese": "n. 日落, 同伙, 组合, 集合, 装置",
+    "ipa": "set",
+    "rank": 177,
+    "level": "beginner"
+  },
+  {
+    "word": "under",
+    "chinese": "prep. 在...之下, 低于",
+    "ipa": "'ʌndә",
+    "rank": 178,
+    "level": "beginner"
+  },
+  {
+    "word": "general",
+    "chinese": "n. 一般, 将军, 大体",
+    "ipa": "'dʒenәrәl",
+    "rank": 179,
+    "level": "beginner"
+  },
+  {
+    "word": "research",
+    "chinese": "n. 研究, 调查, 考察",
+    "ipa": "ri'sә:tʃ",
+    "rank": 180,
+    "level": "beginner"
+  },
+  {
+    "word": "university",
+    "chinese": "n. 大学",
+    "ipa": ".ju:ni'vә:siti",
+    "rank": 181,
+    "level": "beginner"
+  },
+  {
+    "word": "january",
+    "chinese": "n. 一月",
+    "ipa": "'dʒænjuәri",
+    "rank": 182,
+    "level": "beginner"
+  },
+  {
+    "word": "mail",
+    "chinese": "n. 邮件, 邮政, 邮递, 盔甲",
+    "ipa": "meil",
+    "rank": 183,
+    "level": "beginner"
+  },
+  {
+    "word": "full",
+    "chinese": "n. 全部, 完整",
+    "ipa": "ful",
+    "rank": 184,
+    "level": "beginner"
+  },
+  {
+    "word": "map",
+    "chinese": "n. 地图, 天体图, 映像",
+    "ipa": "mæp",
+    "rank": 185,
+    "level": "beginner"
+  },
+  {
+    "word": "reviews",
+    "chinese": "n. 评论",
+    "ipa": "rəvˈjuz",
+    "rank": 186,
+    "level": "beginner"
+  },
+  {
+    "word": "program",
+    "chinese": "n. 节目, 节目单, 程序, 纲要, 大纲, 计划",
+    "ipa": "'prәugræm",
+    "rank": 187,
+    "level": "beginner"
+  },
+  {
+    "word": "life",
+    "chinese": "n. 生活, 生命, 人生, 世事, 生物, 寿命, 一生, 生命力, 灵魂, 无期徒刑",
+    "ipa": "laif",
+    "rank": 188,
+    "level": "beginner"
+  },
+  {
+    "word": "know",
+    "chinese": "v. 知道, 了解, 认识, 确信",
+    "ipa": "nәu",
+    "rank": 189,
+    "level": "beginner"
+  },
+  {
+    "word": "games",
+    "chinese": "n. (英)体操课, 体育课, [谓语用单数或复数]运动会, 比赛会, 竞技会",
+    "ipa": "geɪmz",
+    "rank": 190,
+    "level": "beginner"
+  },
+  {
+    "word": "way",
+    "chinese": "n. 路, 路线, 路途, 方法, 道路, 情形, 规模, 习惯, 行业, 方面",
+    "ipa": "wei",
+    "rank": 191,
+    "level": "beginner"
+  },
+  {
+    "word": "days",
+    "chinese": "n. 一生, 时期",
+    "ipa": "deiz",
+    "rank": 192,
+    "level": "beginner"
+  },
+  {
+    "word": "management",
+    "chinese": "n. 经营, 支配, 管理",
+    "ipa": "'mænidʒmәnt",
+    "rank": 193,
+    "level": "beginner"
+  },
+  {
+    "word": "part",
+    "chinese": "n. 部分, 局部, 零件, 要素, 等分, 职责, 角色, 部位",
+    "ipa": "pɑ:t",
+    "rank": 194,
+    "level": "beginner"
+  },
+  {
+    "word": "could",
+    "chinese": "aux. 可以, 能",
+    "ipa": "kud",
+    "rank": 195,
+    "level": "beginner"
+  },
+  {
+    "word": "great",
+    "chinese": "a. 大的, 非常的, 主要的, 重大的, 崇高的, 伟大的",
+    "ipa": "greit",
+    "rank": 196,
+    "level": "beginner"
+  },
+  {
+    "word": "united",
+    "chinese": "a. 联合的, 团结的, 一致的, 和睦的",
+    "ipa": "ju:'naitid",
+    "rank": 197,
+    "level": "beginner"
+  },
+  {
+    "word": "hotel",
+    "chinese": "n. 旅馆, 客栈",
+    "ipa": "hәu'tel",
+    "rank": 198,
+    "level": "beginner"
+  },
+  {
+    "word": "real",
+    "chinese": "a. 真的, 真实的, 实际的, 实在的, 不动(产)的, 实数的",
+    "ipa": "'riәl",
+    "rank": 199,
+    "level": "beginner"
+  },
+  {
+    "word": "item",
+    "chinese": "n. 项目, 条款, 一则, 项",
+    "ipa": "'aitәm",
+    "rank": 200,
+    "level": "beginner"
+  },
+  {
+    "word": "international",
+    "chinese": "a. 国际的",
+    "ipa": ".intә'næʃәnәl",
+    "rank": 201,
+    "level": "beginner"
+  },
+  {
+    "word": "center",
+    "chinese": "n. 中心, 中心点, 中锋",
+    "ipa": "'sentә",
+    "rank": 202,
+    "level": "beginner"
+  },
+  {
+    "word": "ebay",
+    "chinese": "电子港湾",
+    "ipa": "ˈiˌbeɪ",
+    "rank": 203,
+    "level": "beginner"
+  },
+  {
+    "word": "must",
+    "chinese": "n. 必须, 未发酵葡萄汁, 绝对必要的事物",
+    "ipa": "mʌst",
+    "rank": 204,
+    "level": "beginner"
+  },
+  {
+    "word": "store",
+    "chinese": "n. 商店, 贮藏, 仓库, 备用品, 存储器",
+    "ipa": "stɒ:",
+    "rank": 205,
+    "level": "beginner"
+  },
+  {
+    "word": "travel",
+    "chinese": "n. 旅行, 游历, 行进",
+    "ipa": "'trævl",
+    "rank": 206,
+    "level": "beginner"
+  },
+  {
+    "word": "comments",
+    "chinese": "n. 注解",
+    "ipa": "ˈkɑmɛnts",
+    "rank": 207,
+    "level": "beginner"
+  },
+  {
+    "word": "made",
+    "chinese": "a. 人工制成的, 成功的, 创造的",
+    "ipa": "meid",
+    "rank": 208,
+    "level": "beginner"
+  },
+  {
+    "word": "development",
+    "chinese": "n. 发展",
+    "ipa": "di'velәpmәnt",
+    "rank": 209,
+    "level": "beginner"
+  },
+  {
+    "word": "report",
+    "chinese": "n. 报告, 报道, 传说, 案情报告, 爆炸声, 成绩单",
+    "ipa": "ri'pɒ:t",
+    "rank": 210,
+    "level": "beginner"
+  },
+  {
+    "word": "off",
+    "chinese": "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的",
+    "ipa": "ɒf",
+    "rank": 211,
+    "level": "beginner"
+  },
+  {
+    "word": "member",
+    "chinese": "n. 成员, 会员",
+    "ipa": "'membә",
+    "rank": 212,
+    "level": "beginner"
+  },
+  {
+    "word": "details",
+    "chinese": "n. 详细资料",
+    "ipa": "ˈditeɪlz",
+    "rank": 213,
+    "level": "beginner"
+  },
+  {
+    "word": "line",
+    "chinese": "n. 列, 线, 绳, 电线, 线路, 路线, 航线, 作业线, 界线, 战线, 外形, 排, 家系",
+    "ipa": "lain",
+    "rank": 214,
+    "level": "beginner"
+  },
+  {
+    "word": "terms",
+    "chinese": "n. 条件, 条款, 费用, 价钱, 关系, 地位, 交谊",
+    "ipa": "tərmz",
+    "rank": 215,
+    "level": "beginner"
+  },
+  {
+    "word": "before",
+    "chinese": "prep. 在...之前",
+    "ipa": "bi'fɒ:",
+    "rank": 216,
+    "level": "beginner"
+  },
+  {
+    "word": "hotels",
+    "chinese": "n. 酒店",
+    "ipa": "hoʊˈtɛlz",
+    "rank": 217,
+    "level": "beginner"
+  },
+  {
+    "word": "did",
+    "chinese": "do的过去式",
+    "ipa": "did",
+    "rank": 218,
+    "level": "beginner"
+  },
+  {
+    "word": "send",
+    "chinese": "vt. 发送, 使进入, 寄, 派遣, 发射, 使陷于",
+    "ipa": "send",
+    "rank": 219,
+    "level": "beginner"
+  },
+  {
+    "word": "right",
+    "chinese": "n. 权利, 右边, 正义, 右派, 公正",
+    "ipa": "rait",
+    "rank": 220,
+    "level": "beginner"
+  },
+  {
+    "word": "type",
+    "chinese": "n. 类型, 样式, 典型, 榜样, 标志, 符号, 型, 式",
+    "ipa": "taip",
+    "rank": 221,
+    "level": "beginner"
+  },
+  {
+    "word": "because",
+    "chinese": "conj. 因为",
+    "ipa": "bi'kɒ:z",
+    "rank": 222,
+    "level": "beginner"
+  },
+  {
+    "word": "local",
+    "chinese": "a. 地方性的, 当地的, 局部的, 乡土的, 本地的",
+    "ipa": "'lәukәl",
+    "rank": 223,
+    "level": "beginner"
+  },
+  {
+    "word": "those",
+    "chinese": "pron. 那些",
+    "ipa": "ðәuz",
+    "rank": 224,
+    "level": "beginner"
+  },
+  {
+    "word": "using",
+    "chinese": "[计] 使用",
+    "ipa": "ˈjuzɪŋ",
+    "rank": 225,
+    "level": "beginner"
+  },
+  {
+    "word": "results",
+    "chinese": "n. 结果",
+    "ipa": "rɪˈzəlts",
+    "rank": 226,
+    "level": "beginner"
+  },
+  {
+    "word": "office",
+    "chinese": "n. 办公室, 部, 公职, 职责",
+    "ipa": "'ɒfis",
+    "rank": 227,
+    "level": "beginner"
+  },
+  {
+    "word": "education",
+    "chinese": "n. 教育, 训练, 教育学",
+    "ipa": ".edju'keiʃәn",
+    "rank": 228,
+    "level": "beginner"
+  },
+  {
+    "word": "national",
+    "chinese": "a. 国家的, 国立的, 全国性的, 民族的",
+    "ipa": "'næʃәnәl",
+    "rank": 229,
+    "level": "beginner"
+  },
+  {
+    "word": "car",
+    "chinese": "n. 汽车, 客车",
+    "ipa": "kɑ:",
+    "rank": 230,
+    "level": "beginner"
+  },
+  {
+    "word": "design",
+    "chinese": "n. 设计, 图样, 方案, 企图",
+    "ipa": "di'zain",
+    "rank": 231,
+    "level": "beginner"
+  },
+  {
+    "word": "take",
+    "chinese": "vt. 拿, 取, 抓, 带领, 获得, 就座, 接受, 吃, 吸引, 采取, 乘, 需要, 花费",
+    "ipa": "teik",
+    "rank": 232,
+    "level": "beginner"
+  },
+  {
+    "word": "posted",
+    "chinese": "v. 贴出",
+    "ipa": "ˈpoʊstɪd",
+    "rank": 233,
+    "level": "beginner"
+  },
+  {
+    "word": "internet",
+    "chinese": "[计] 因特网, 国际互连网, 网际网络, 互连网络, 广域网",
+    "ipa": "'intәnet",
+    "rank": 234,
+    "level": "beginner"
+  },
+  {
+    "word": "address",
+    "chinese": "n. 住址, 演说, 举止, 灵巧, 求爱",
+    "ipa": "ә'dres",
+    "rank": 235,
+    "level": "beginner"
+  },
+  {
+    "word": "community",
+    "chinese": "n. 社区, 公众, 共有, 共同体",
+    "ipa": "kә'mju:niti",
+    "rank": 236,
+    "level": "beginner"
+  },
+  {
+    "word": "within",
+    "chinese": "n. 内部, 里头",
+    "ipa": "wi'ðin",
+    "rank": 237,
+    "level": "beginner"
+  },
+  {
+    "word": "states",
+    "chinese": "n. 美国",
+    "ipa": "steɪts",
+    "rank": 238,
+    "level": "beginner"
+  },
+  {
+    "word": "area",
+    "chinese": "n. 区域, 面积, 范围, 空地",
+    "ipa": "'єәriә",
+    "rank": 239,
+    "level": "beginner"
+  },
+  {
+    "word": "want",
+    "chinese": "n. 需要的东西, 缺乏, 贫困, 需要",
+    "ipa": "wɒnt",
+    "rank": 240,
+    "level": "beginner"
+  },
+  {
+    "word": "phone",
+    "chinese": "n. 电话, 受话器, 耳机",
+    "ipa": "fәun",
+    "rank": 241,
+    "level": "beginner"
+  },
+  {
+    "word": "dvd",
+    "chinese": "abbr. 数字化视频光盘（Digital Video Disk）",
+    "ipa": "ˌdiˌviˈdi",
+    "rank": 242,
+    "level": "beginner"
+  },
+  {
+    "word": "shipping",
+    "chinese": "n. 装运, 航行, 船舶, 船舶吨数",
+    "ipa": "'ʃipiŋ",
+    "rank": 243,
+    "level": "beginner"
+  },
+  {
+    "word": "reserved",
+    "chinese": "a. 保留的, 预备的, 预定的, 腼腆的, 不露感情的, 含蓄的, 缄默的, 冷淡的",
+    "ipa": "ri'zә:vd",
+    "rank": 244,
+    "level": "beginner"
+  },
+  {
+    "word": "subject",
+    "chinese": "n. 科目, 主题, 臣民, 主语, 题目, (事物的)经受者, 学科, 受治疗者, 原因, 理由",
+    "ipa": "'sʌbdʒekt",
+    "rank": 245,
+    "level": "beginner"
+  },
+  {
+    "word": "between",
+    "chinese": "prep. 在...之间",
+    "ipa": "bi'twi:n",
+    "rank": 246,
+    "level": "beginner"
+  },
+  {
+    "word": "forum",
+    "chinese": "n. 论坛, 公开讨论的广场, 法庭, 讨论会",
+    "ipa": "'fɒ:rәm",
+    "rank": 247,
+    "level": "beginner"
+  },
+  {
+    "word": "family",
+    "chinese": "n. 家庭, 家人, 族",
+    "ipa": "'fæmәli",
+    "rank": 248,
+    "level": "beginner"
+  },
+  {
+    "word": "long",
+    "chinese": "a. 长的, 长久的, 冗长的, 做多头的",
+    "ipa": "lɒŋ",
+    "rank": 249,
+    "level": "beginner"
+  },
+  {
+    "word": "based",
+    "chinese": "v. 立基于, 以…为基础（base的过去式和过去分词）",
+    "ipa": "beist",
+    "rank": 250,
+    "level": "beginner"
+  },
+  {
+    "word": "code",
+    "chinese": "n. 代码, 密码, 法规, 法典",
+    "ipa": "kәud",
+    "rank": 251,
+    "level": "beginner"
+  },
+  {
+    "word": "show",
+    "chinese": "n. 显示, 表现, 展览, 卖弄, 炫耀, 外观, 演出, 洋相",
+    "ipa": "ʃәu",
+    "rank": 252,
+    "level": "beginner"
+  },
+  {
+    "word": "even",
+    "chinese": "a. 平坦的, 相等的, 连贯的, 均等的, 公平的, 偶数的, 平均的, 平衡的, 恰好的",
+    "ipa": "'i:vәn",
+    "rank": 253,
+    "level": "beginner"
+  },
+  {
+    "word": "black",
+    "chinese": "n. 黑色, 黑颜料",
+    "ipa": "blæk",
+    "rank": 254,
+    "level": "beginner"
+  },
+  {
+    "word": "check",
+    "chinese": "n. 检查, 支票, 阻止物, 寄物牌, 象棋中将军",
+    "ipa": "tʃek",
+    "rank": 255,
+    "level": "beginner"
+  },
+  {
+    "word": "special",
+    "chinese": "n. 专辑, 专车, 号外, 特别的东西, 负有特别任务的人员",
+    "ipa": "'speʃәl",
+    "rank": 256,
+    "level": "beginner"
+  },
+  {
+    "word": "prices",
+    "chinese": "n. 价格（price的复数）",
+    "ipa": "ˈpraɪsɪz",
+    "rank": 257,
+    "level": "beginner"
+  },
+  {
+    "word": "website",
+    "chinese": "n. 网站（全球资讯网的主机站）",
+    "ipa": "ˈwɛbˌsaɪt",
+    "rank": 258,
+    "level": "beginner"
+  },
+  {
+    "word": "index",
+    "chinese": "n. 索引, 指针, 指数, 指标",
+    "ipa": "'indeks",
+    "rank": 259,
+    "level": "beginner"
+  },
+  {
+    "word": "being",
+    "chinese": "n. 存在, 性质, 生命, 人, 生物, be的现在分词",
+    "ipa": "'bi:iŋ",
+    "rank": 260,
+    "level": "beginner"
+  },
+  {
+    "word": "women",
+    "chinese": "pl. 女人",
+    "ipa": "'wimin",
+    "rank": 261,
+    "level": "beginner"
+  },
+  {
+    "word": "much",
+    "chinese": "n. 大量, 许多, 重要的事",
+    "ipa": "mʌtʃ",
+    "rank": 262,
+    "level": "beginner"
+  },
+  {
+    "word": "sign",
+    "chinese": "n. 符号, 招牌, 征兆, 正负号, 手势",
+    "ipa": "sain",
+    "rank": 263,
+    "level": "beginner"
+  },
+  {
+    "word": "file",
+    "chinese": "n. 档案, 公文箱, 文件夹, 文件, 卷宗, 锉刀",
+    "ipa": "fail",
+    "rank": 264,
+    "level": "beginner"
+  },
+  {
+    "word": "link",
+    "chinese": "n. 环, 连结物, 链接, 火把",
+    "ipa": "liŋk",
+    "rank": 265,
+    "level": "beginner"
+  },
+  {
+    "word": "open",
+    "chinese": "n. 公开, 户外, 空旷",
+    "ipa": "'әupәn",
+    "rank": 266,
+    "level": "beginner"
+  },
+  {
+    "word": "today",
+    "chinese": "n. 今天, 当今, 现在",
+    "ipa": "tә'dei",
+    "rank": 267,
+    "level": "beginner"
+  },
+  {
+    "word": "technology",
+    "chinese": "n. 技术, 工业技术, 术语",
+    "ipa": "tek'nɒlәdʒi",
+    "rank": 268,
+    "level": "beginner"
+  },
+  {
+    "word": "south",
+    "chinese": "n. 南方, 南",
+    "ipa": "sauθ",
+    "rank": 269,
+    "level": "beginner"
+  },
+  {
+    "word": "case",
+    "chinese": "n. 情形, 情况, 箱, 容器, 事实, 病例, 案例, 框子",
+    "ipa": "keis",
+    "rank": 270,
+    "level": "beginner"
+  },
+  {
+    "word": "project",
+    "chinese": "n. 计划, 设计, 事业",
+    "ipa": "'prɒdʒekt",
+    "rank": 271,
+    "level": "beginner"
+  },
+  {
+    "word": "same",
+    "chinese": "a. 相同的, 同样的",
+    "ipa": "seim",
+    "rank": 272,
+    "level": "beginner"
+  },
+  {
+    "word": "pages",
+    "chinese": "n. 页数",
+    "ipa": "ˈpeɪʤɪz",
+    "rank": 273,
+    "level": "beginner"
+  },
+  {
+    "word": "uk",
+    "chinese": "n. 联合王国",
+    "ipa": "ju: 'kei",
+    "rank": 274,
+    "level": "beginner"
+  },
+  {
+    "word": "version",
+    "chinese": "n. 一种描述, 版本, 译文",
+    "ipa": "'vә:ʒәn",
+    "rank": 275,
+    "level": "beginner"
+  },
+  {
+    "word": "section",
+    "chinese": "n. 区段, 部分, 区域, 节, 截面, 处, 科, 区, 扇区",
+    "ipa": "'sekʃәn",
+    "rank": 276,
+    "level": "beginner"
+  },
+  {
+    "word": "own",
+    "chinese": "n. 自己的",
+    "ipa": "әun",
+    "rank": 277,
+    "level": "beginner"
+  },
+  {
+    "word": "found",
+    "chinese": "vt. 建立, 创立, 铸造",
+    "ipa": "faund",
+    "rank": 278,
+    "level": "beginner"
+  },
+  {
+    "word": "sports",
+    "chinese": "n. (英)运动会, 运动的, 适用于运动的, 运动会的, 与运动会有关的",
+    "ipa": "spɔ:ts",
+    "rank": 279,
+    "level": "beginner"
+  },
+  {
+    "word": "house",
+    "chinese": "n. 房子, 住宅, 机构, 议院, 家族, 家庭",
+    "ipa": "haus",
+    "rank": 280,
+    "level": "beginner"
+  },
+  {
+    "word": "related",
+    "chinese": "a. 讲述的, 叙述的",
+    "ipa": "ri'leitid",
+    "rank": 281,
+    "level": "beginner"
+  },
+  {
+    "word": "security",
+    "chinese": "n. 安全, 安全性, 防护物, 保安, 可靠性, 担保人, 抵押品, 保证金",
+    "ipa": "si'kjuriti",
+    "rank": 282,
+    "level": "beginner"
+  },
+  {
+    "word": "both",
+    "chinese": "a. 两者的",
+    "ipa": "bәuθ",
+    "rank": 283,
+    "level": "beginner"
+  },
+  {
+    "word": "county",
+    "chinese": "n. 县, 郡",
+    "ipa": "'kaunti",
+    "rank": 284,
+    "level": "beginner"
+  },
+  {
+    "word": "american",
+    "chinese": "n. 美国人",
+    "ipa": "ә'merikәn",
+    "rank": 285,
+    "level": "beginner"
+  },
+  {
+    "word": "photo",
+    "chinese": "n. 相片, 照片, 逼真的描绘",
+    "ipa": "'fәutәu",
+    "rank": 286,
+    "level": "beginner"
+  },
+  {
+    "word": "game",
+    "chinese": "n. 比赛, 玩耍, 比分, 得胜, 比赛规则, 策略, 游戏, 野味",
+    "ipa": "geim",
+    "rank": 287,
+    "level": "beginner"
+  },
+  {
+    "word": "members",
+    "chinese": "n. 成员",
+    "ipa": "ˈmɛmbərz",
+    "rank": 288,
+    "level": "beginner"
+  },
+  {
+    "word": "power",
+    "chinese": "n. 力, 体力, 力量, 势力, 动力, 权力, 强国, 乘方, 强度, 幂, 功率",
+    "ipa": "'pauә",
+    "rank": 289,
+    "level": "beginner"
+  },
+  {
+    "word": "while",
+    "chinese": "n. 一会儿, (一段)时间",
+    "ipa": "hwail",
+    "rank": 290,
+    "level": "beginner"
+  },
+  {
+    "word": "care",
+    "chinese": "n. 小心, 照料, 忧虑",
+    "ipa": "kєә",
+    "rank": 291,
+    "level": "beginner"
+  },
+  {
+    "word": "network",
+    "chinese": "n. 网络, 广播网, 网状物",
+    "ipa": "'netwә:k",
+    "rank": 292,
+    "level": "beginner"
+  },
+  {
+    "word": "down",
+    "chinese": "a. 向下的",
+    "ipa": "daun",
+    "rank": 293,
+    "level": "beginner"
+  },
+  {
+    "word": "computer",
+    "chinese": "n. 电脑, 电子计算机",
+    "ipa": "kәm'pju:tә",
+    "rank": 294,
+    "level": "beginner"
+  },
+  {
+    "word": "systems",
+    "chinese": "n. 体制, 体系",
+    "ipa": "ˈsɪstəmz",
+    "rank": 295,
+    "level": "beginner"
+  },
+  {
+    "word": "three",
+    "chinese": "num. 三, 三个",
+    "ipa": "θri:",
+    "rank": 296,
+    "level": "beginner"
+  },
+  {
+    "word": "total",
+    "chinese": "a. 全体的, 总的, 全然的",
+    "ipa": "'tәutl",
+    "rank": 297,
+    "level": "beginner"
+  },
+  {
+    "word": "place",
+    "chinese": "n. 地方, 地点, 位置, 住所, 座位, 地位, 处境, 特权, 空间, 余地, 职务, 位",
+    "ipa": "pleis",
+    "rank": 298,
+    "level": "beginner"
+  },
+  {
+    "word": "end",
+    "chinese": "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余",
+    "ipa": "end",
+    "rank": 299,
+    "level": "beginner"
+  },
+  {
+    "word": "following",
+    "chinese": "n. 下列各项, 部下, 追随者",
+    "ipa": "'fɒlәuiŋ",
+    "rank": 300,
+    "level": "beginner"
+  },
+  {
+    "word": "download",
+    "chinese": "[计] 卸载, 下栽",
+    "ipa": "ˈdaʊnˌloʊd",
+    "rank": 301,
+    "level": "beginner"
+  },
+  {
+    "word": "him",
+    "chinese": "pron. 他",
+    "ipa": "him",
+    "rank": 302,
+    "level": "beginner"
+  },
+  {
+    "word": "without",
+    "chinese": "prep. 没有, 不, 在...之外",
+    "ipa": "wi'ðaut",
+    "rank": 303,
+    "level": "beginner"
+  },
+  {
+    "word": "per",
+    "chinese": "prep. 每一, 通过, 经, 按照",
+    "ipa": "pә:",
+    "rank": 304,
+    "level": "beginner"
+  },
+  {
+    "word": "access",
+    "chinese": "n. 通路, 入口, 接近, 进入, 使用权, 发作",
+    "ipa": "'ækses",
+    "rank": 305,
+    "level": "beginner"
+  },
+  {
+    "word": "think",
+    "chinese": "vt. 想, 考虑, 想起, 想像, 打算, 认为",
+    "ipa": "θiŋk",
+    "rank": 306,
+    "level": "beginner"
+  },
+  {
+    "word": "north",
+    "chinese": "n. 北方, 北",
+    "ipa": "nɒ:θ",
+    "rank": 307,
+    "level": "beginner"
+  },
+  {
+    "word": "resources",
+    "chinese": "n. 资源",
+    "ipa": "ˈrisɔrsɪz",
+    "rank": 308,
+    "level": "beginner"
+  },
+  {
+    "word": "current",
+    "chinese": "n. 涌流, 趋势, 流",
+    "ipa": "'kʌrәnt",
+    "rank": 309,
+    "level": "beginner"
+  },
+  {
+    "word": "posts",
+    "chinese": "n. 标杆",
+    "ipa": "poʊsts",
+    "rank": 310,
+    "level": "beginner"
+  },
+  {
+    "word": "big",
+    "chinese": "a. 大的, 重要的",
+    "ipa": "big",
+    "rank": 311,
+    "level": "beginner"
+  },
+  {
+    "word": "media",
+    "chinese": "n. 媒体",
+    "ipa": "'mi:diә",
+    "rank": 312,
+    "level": "beginner"
+  },
+  {
+    "word": "law",
+    "chinese": "n. 法律, 法则, 定律, 法律的制约, 法学, 司法界, 诉讼",
+    "ipa": "lɒ:",
+    "rank": 313,
+    "level": "beginner"
+  },
+  {
+    "word": "control",
+    "chinese": "n. 控制, 管理, 克制, 控制器, 操纵装置",
+    "ipa": "kәn'trәul",
+    "rank": 314,
+    "level": "beginner"
+  },
+  {
+    "word": "water",
+    "chinese": "n. 水, 雨水, 海水, 水位, 水面, 流水",
+    "ipa": "'wɒ:tә",
+    "rank": 315,
+    "level": "beginner"
+  },
+  {
+    "word": "history",
+    "chinese": "n. 历史, 过去, 经历, 发展过程, 历史学, 过去的事, 历史记录",
+    "ipa": "'histәri",
+    "rank": 316,
+    "level": "beginner"
+  },
+  {
+    "word": "pictures",
+    "chinese": "n. 电影院",
+    "ipa": "ˈpɪkʧərz",
+    "rank": 317,
+    "level": "beginner"
+  },
+  {
+    "word": "size",
+    "chinese": "n. 大小, 尺寸, 规模, 尺码, 能力, 浆料",
+    "ipa": "saiz",
+    "rank": 318,
+    "level": "beginner"
+  },
+  {
+    "word": "art",
+    "chinese": "n. 艺术, 人文科学, 技术, 巧妙, 诡计, 美术",
+    "ipa": "ɑ:t",
+    "rank": 319,
+    "level": "beginner"
+  },
+  {
+    "word": "personal",
+    "chinese": "a. 私人的, 涉及隐私的, 有人性的, 人称的, 亲自的, 身体的",
+    "ipa": "'pә:snl",
+    "rank": 320,
+    "level": "beginner"
+  },
+  {
+    "word": "since",
+    "chinese": "prep. 自...以后, 自...以来",
+    "ipa": "sins",
+    "rank": 321,
+    "level": "beginner"
+  },
+  {
+    "word": "including",
+    "chinese": "prep. 包含, 包括",
+    "ipa": "ˌɪnˈkludɪŋ",
+    "rank": 322,
+    "level": "beginner"
+  },
+  {
+    "word": "guide",
+    "chinese": "n. 引导者, 导游, 指南, 路标",
+    "ipa": "gaid",
+    "rank": 323,
+    "level": "beginner"
+  },
+  {
+    "word": "shop",
+    "chinese": "n. 商店, 工厂, 车间",
+    "ipa": "ʃɒp",
+    "rank": 324,
+    "level": "beginner"
+  },
+  {
+    "word": "directory",
+    "chinese": "n. 目录, 工商名录, 指南",
+    "ipa": "di'rektәri",
+    "rank": 325,
+    "level": "beginner"
+  },
+  {
+    "word": "board",
+    "chinese": "n. 木板, 甲板, 膳食, 会议桌",
+    "ipa": "bɒ:d",
+    "rank": 326,
+    "level": "beginner"
+  },
+  {
+    "word": "location",
+    "chinese": "n. 位置, 场所, 特定区域",
+    "ipa": "lәu'keiʃәn",
+    "rank": 327,
+    "level": "beginner"
+  },
+  {
+    "word": "change",
+    "chinese": "n. 变化, 找回的零钱, 找头, 更换",
+    "ipa": "tʃeindʒ",
+    "rank": 328,
+    "level": "beginner"
+  },
+  {
+    "word": "white",
+    "chinese": "n. 白色, 洁白, 眼白, 白种人, 蛋白",
+    "ipa": "hwait",
+    "rank": 329,
+    "level": "beginner"
+  },
+  {
+    "word": "text",
+    "chinese": "n. 文本, 正文, 课文, 主题, 圣经文句, 乐谱",
+    "ipa": "tekst",
+    "rank": 330,
+    "level": "beginner"
+  },
+  {
+    "word": "small",
+    "chinese": "a. 小的, 少的, 小型的, 低微的, 小气的, 细微的",
+    "ipa": "smɒ:l",
+    "rank": 331,
+    "level": "beginner"
+  },
+  {
+    "word": "rating",
+    "chinese": "n. 等级, 额定功率, 责骂",
+    "ipa": "'reitiŋ",
+    "rank": 332,
+    "level": "beginner"
+  },
+  {
+    "word": "rate",
+    "chinese": "n. 比率, 率, 速度, 价格, 费用, 等级",
+    "ipa": "reit",
+    "rank": 333,
+    "level": "beginner"
+  },
+  {
+    "word": "government",
+    "chinese": "n. 政府, 内阁",
+    "ipa": "'gʌvәnmәnt",
+    "rank": 334,
+    "level": "beginner"
+  },
+  {
+    "word": "children",
+    "chinese": "pl. 孩子, 孩子们",
+    "ipa": "'tʃildrәn",
+    "rank": 335,
+    "level": "beginner"
+  },
+  {
+    "word": "during",
+    "chinese": "prep. 在...的时候",
+    "ipa": "'djuәriŋ",
+    "rank": 336,
+    "level": "beginner"
+  },
+  {
+    "word": "usa",
+    "chinese": "美国, 美利坚合众国, 美国陆军",
+    "ipa": "ju: es 'ei",
+    "rank": 337,
+    "level": "beginner"
+  },
+  {
+    "word": "return",
+    "chinese": "n. 回来, 返回, 来回票, 归还, 报答, 利润率, 报告书",
+    "ipa": "ri'tә:n",
+    "rank": 338,
+    "level": "beginner"
+  },
+  {
+    "word": "students",
+    "chinese": "n. （尤指大专院校的）学生（student的复数）",
+    "ipa": "ˈstudənts",
+    "rank": 339,
+    "level": "beginner"
+  },
+  {
+    "word": "shopping",
+    "chinese": "n. 买东西, 购物",
+    "ipa": "'ʃɒpiŋ",
+    "rank": 340,
+    "level": "beginner"
+  },
+  {
+    "word": "account",
+    "chinese": "n. 报告, 解释, 估价, 理由, 利润, 算账, 帐目",
+    "ipa": "ә'kaunt",
+    "rank": 341,
+    "level": "beginner"
+  },
+  {
+    "word": "times",
+    "chinese": "n. 时代, 境遇, 时报",
+    "ipa": "taimz",
+    "rank": 342,
+    "level": "beginner"
+  },
+  {
+    "word": "sites",
+    "chinese": "n. 遗址, 举办地点",
+    "ipa": "saɪts",
+    "rank": 343,
+    "level": "beginner"
+  },
+  {
+    "word": "level",
+    "chinese": "n. 水平, 水准, 平地",
+    "ipa": "'levl",
+    "rank": 344,
+    "level": "beginner"
+  },
+  {
+    "word": "digital",
+    "chinese": "a. 数字显示的, 数字的",
+    "ipa": "'didʒitәl",
+    "rank": 345,
+    "level": "beginner"
+  },
+  {
+    "word": "profile",
+    "chinese": "n. 侧面, 轮廓, 传略",
+    "ipa": "'prәufail",
+    "rank": 346,
+    "level": "beginner"
+  },
+  {
+    "word": "previous",
+    "chinese": "a. 早先的, 前面的, 过急的",
+    "ipa": "'pri:viәs",
+    "rank": 347,
+    "level": "beginner"
+  },
+  {
+    "word": "form",
+    "chinese": "n. 形状, 形体, 类型, 方式, 表格, 形式",
+    "ipa": "fɒ:m",
+    "rank": 348,
+    "level": "beginner"
+  },
+  {
+    "word": "events",
+    "chinese": "n. 事件",
+    "ipa": "ɪˈvɛnts",
+    "rank": 349,
+    "level": "beginner"
+  },
+  {
+    "word": "love",
+    "chinese": "n. 爱, 恋爱, 爱情, 爱好, 性爱",
+    "ipa": "lʌv",
+    "rank": 350,
+    "level": "beginner"
+  },
+  {
+    "word": "old",
+    "chinese": "n. 以前, 往昔",
+    "ipa": "әuld",
+    "rank": 351,
+    "level": "beginner"
+  },
+  {
+    "word": "john",
+    "chinese": "n. 盥洗室, 厕所, 嫖客",
+    "ipa": "dʒɔn",
+    "rank": 352,
+    "level": "beginner"
+  },
+  {
+    "word": "main",
+    "chinese": "n. 主要部分, 干线, 体力, 力量, 主群组",
+    "ipa": "mein",
+    "rank": 353,
+    "level": "beginner"
+  },
+  {
+    "word": "call",
+    "chinese": "n. 呼叫, 访问, 打电话, 号召, 召集, 要求",
+    "ipa": "kɒ:l",
+    "rank": 354,
+    "level": "beginner"
+  },
+  {
+    "word": "hours",
+    "chinese": "n. 小时（hour的复数形式）",
+    "ipa": "aʊərz",
+    "rank": 355,
+    "level": "beginner"
+  },
+  {
+    "word": "image",
+    "chinese": "n. 影像, 肖像, 想象, 图像, 形象, 翻版",
+    "ipa": "'imidʒ",
+    "rank": 356,
+    "level": "beginner"
+  },
+  {
+    "word": "department",
+    "chinese": "n. 部门, 系, 机关",
+    "ipa": "di'pɑ:tmәnt",
+    "rank": 357,
+    "level": "beginner"
+  },
+  {
+    "word": "title",
+    "chinese": "n. 头衔, 名称, 标题, 书名, 扉页, 权利, 资格, 冠军, 字幕",
+    "ipa": "'taitl",
+    "rank": 358,
+    "level": "beginner"
+  },
+  {
+    "word": "description",
+    "chinese": "n. 描述, 说明, 种类",
+    "ipa": "di'skripʃәn",
+    "rank": 359,
+    "level": "beginner"
+  },
+  {
+    "word": "non",
+    "chinese": "adv. 非, 不",
+    "ipa": "nɔn",
+    "rank": 360,
+    "level": "beginner"
+  },
+  {
+    "word": "insurance",
+    "chinese": "n. 保险, 保险业, 保险费",
+    "ipa": "in'ʃurәns",
+    "rank": 361,
+    "level": "beginner"
+  },
+  {
+    "word": "another",
+    "chinese": "a. 另外的, 再一的, 不同的",
+    "ipa": "ә'nʌðә",
+    "rank": 362,
+    "level": "beginner"
+  },
+  {
+    "word": "why",
+    "chinese": "adv. 为什么",
+    "ipa": "hwai",
+    "rank": 363,
+    "level": "beginner"
+  },
+  {
+    "word": "shall",
+    "chinese": "aux. 将",
+    "ipa": "ʃæl",
+    "rank": 364,
+    "level": "beginner"
+  },
+  {
+    "word": "property",
+    "chinese": "n. 财产, 所有权, 性质, 属性",
+    "ipa": "'prɒpәti",
+    "rank": 365,
+    "level": "beginner"
+  },
+  {
+    "word": "class",
+    "chinese": "n. 班级, 阶级, 种类, 课",
+    "ipa": "klɑ:s",
+    "rank": 366,
+    "level": "beginner"
+  },
+  {
+    "word": "cd",
+    "chinese": "n. 镭射碟, 镭射唱片",
+    "ipa": "ˈsiˈdi",
+    "rank": 367,
+    "level": "beginner"
+  },
+  {
+    "word": "still",
+    "chinese": "n. 蒸馏室, 寂静, 剧照",
+    "ipa": "stil",
+    "rank": 368,
+    "level": "beginner"
+  },
+  {
+    "word": "money",
+    "chinese": "n. 金钱, 一笔款, 财富, 货币, 金额",
+    "ipa": "'mʌni",
+    "rank": 369,
+    "level": "beginner"
+  },
+  {
+    "word": "quality",
+    "chinese": "n. 品质, 特性, 才能, 质量",
+    "ipa": "'kwɒlәti",
+    "rank": 370,
+    "level": "beginner"
+  },
+  {
+    "word": "every",
+    "chinese": "a. 每一, 所有的",
+    "ipa": "'evri",
+    "rank": 371,
+    "level": "beginner"
+  },
+  {
+    "word": "listing",
+    "chinese": "[计] 列表, 清单, 编目",
+    "ipa": "'listiŋ",
+    "rank": 372,
+    "level": "beginner"
+  },
+  {
+    "word": "content",
+    "chinese": "n. 内容, 满足, 意义, 要旨",
+    "ipa": "kәn'tent",
+    "rank": 373,
+    "level": "beginner"
+  },
+  {
+    "word": "country",
+    "chinese": "n. 国家, 乡村, 地区, 故乡",
+    "ipa": "'kʌntri",
+    "rank": 374,
+    "level": "beginner"
+  },
+  {
+    "word": "private",
+    "chinese": "a. 私人的, 秘密的, 私立的, 隐蔽的",
+    "ipa": "'praivit",
+    "rank": 375,
+    "level": "beginner"
+  },
+  {
+    "word": "little",
+    "chinese": "n. 一点点, 少许, 一会儿, 短时间",
+    "ipa": "'litl",
+    "rank": 376,
+    "level": "beginner"
+  },
+  {
+    "word": "visit",
+    "chinese": "n. 拜访, 访问, 游览, 视察",
+    "ipa": "'vizit",
+    "rank": 377,
+    "level": "beginner"
+  },
+  {
+    "word": "save",
+    "chinese": "n. 救球",
+    "ipa": "seiv",
+    "rank": 378,
+    "level": "beginner"
+  },
+  {
+    "word": "tools",
+    "chinese": "n. 工具, 工具菜单",
+    "ipa": "tu:lz",
+    "rank": 379,
+    "level": "beginner"
+  },
+  {
+    "word": "low",
+    "chinese": "n. 低点, 低价, 低, 牛叫声",
+    "ipa": "lәu",
+    "rank": 380,
+    "level": "beginner"
+  },
+  {
+    "word": "reply",
+    "chinese": "n. 答复, 回答, 答辩",
+    "ipa": "ri'plai",
+    "rank": 381,
+    "level": "beginner"
+  },
+  {
+    "word": "customer",
+    "chinese": "n. 消费者",
+    "ipa": "'kʌstәmә",
+    "rank": 382,
+    "level": "beginner"
+  },
+  {
+    "word": "december",
+    "chinese": "n. 十二月",
+    "ipa": "di'sembә",
+    "rank": 383,
+    "level": "beginner"
+  },
+  {
+    "word": "compare",
+    "chinese": "vt. 比较, 比喻, 对照",
+    "ipa": "kәm'pєә",
+    "rank": 384,
+    "level": "beginner"
+  },
+  {
+    "word": "movies",
+    "chinese": "n. 电影",
+    "ipa": "'mu:vis",
+    "rank": 385,
+    "level": "beginner"
+  },
+  {
+    "word": "include",
+    "chinese": "vt. 包括, 把...算入, 包住",
+    "ipa": "in'klu:d",
+    "rank": 386,
+    "level": "beginner"
+  },
+  {
+    "word": "college",
+    "chinese": "n. 学院, 大学, 学会",
+    "ipa": "'kɒlidʒ",
+    "rank": 387,
+    "level": "beginner"
+  },
+  {
+    "word": "value",
+    "chinese": "n. 价值, 价格, 购买力, 评价, 估价, 计算结果",
+    "ipa": "'vælju:",
+    "rank": 388,
+    "level": "beginner"
+  },
+  {
+    "word": "article",
+    "chinese": "n. 文章, 冠词, 物品, 物件, 条款, 契约",
+    "ipa": "'ɑ:tikl",
+    "rank": 389,
+    "level": "beginner"
+  },
+  {
+    "word": "york",
+    "chinese": "n. 约克郡",
+    "ipa": "jɔ:k",
+    "rank": 390,
+    "level": "beginner"
+  },
+  {
+    "word": "man",
+    "chinese": "n. 男人, 人类, 人",
+    "ipa": "mæn",
+    "rank": 391,
+    "level": "beginner"
+  },
+  {
+    "word": "card",
+    "chinese": "n. 卡片, 纸牌, 节目单, 明信片, 梳棉机",
+    "ipa": "kɑ:d",
+    "rank": 392,
+    "level": "beginner"
+  },
+  {
+    "word": "jobs",
+    "chinese": "n. 工作（job的复数形式）",
+    "ipa": "dʒɔbs",
+    "rank": 393,
+    "level": "beginner"
+  },
+  {
+    "word": "provide",
+    "chinese": "vt. 提供, 供应, 规定, 预备",
+    "ipa": "prә'vaid",
+    "rank": 394,
+    "level": "beginner"
+  },
+  {
+    "word": "food",
+    "chinese": "n. 食物, 养料",
+    "ipa": "fu:d",
+    "rank": 395,
+    "level": "beginner"
+  },
+  {
+    "word": "source",
+    "chinese": "n. 来源, 水源, 根源, 原始资料, 源",
+    "ipa": "sɒ:s",
+    "rank": 396,
+    "level": "beginner"
+  },
+  {
+    "word": "author",
+    "chinese": "n. 作家, 作家的著作, 创始人",
+    "ipa": "'ɒ:θә",
+    "rank": 397,
+    "level": "beginner"
+  },
+  {
+    "word": "different",
+    "chinese": "a. 不同的",
+    "ipa": "'difәrәnt",
+    "rank": 398,
+    "level": "beginner"
+  },
+  {
+    "word": "press",
+    "chinese": "n. 压, 揿, 按, 人群, 印刷机, 压力, 出版社, 记者, 报刊, 新闻舆论, 紧迫",
+    "ipa": "pres",
+    "rank": 399,
+    "level": "beginner"
+  },
+  {
+    "word": "learn",
+    "chinese": "vt. 学习",
+    "ipa": "lә:n",
+    "rank": 400,
+    "level": "beginner"
+  },
+  {
+    "word": "sale",
+    "chinese": "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+    "ipa": "seil",
+    "rank": 401,
+    "level": "beginner"
+  },
+  {
+    "word": "around",
+    "chinese": "prep. 包围, 在...周围, 四处",
+    "ipa": "ә'raund",
+    "rank": 402,
+    "level": "beginner"
+  },
+  {
+    "word": "print",
+    "chinese": "n. 打印, 版, 印刷物, 痕迹, 印刷业, 印刷字体, 图片, 印花布, 印章",
+    "ipa": "print",
+    "rank": 403,
+    "level": "beginner"
+  },
+  {
+    "word": "course",
+    "chinese": "n. 课程, 路线, 过程, 一道菜, 道路",
+    "ipa": "kɒ:s",
+    "rank": 404,
+    "level": "beginner"
+  },
+  {
+    "word": "job",
+    "chinese": "n. 工作, 零活, 职业, 事情",
+    "ipa": "dʒɒb",
+    "rank": 405,
+    "level": "beginner"
+  },
+  {
+    "word": "canada",
+    "chinese": "n. 加拿大",
+    "ipa": "'kænәdә",
+    "rank": 406,
+    "level": "beginner"
+  },
+  {
+    "word": "process",
+    "chinese": "n. 程序, 进行, 过程",
+    "ipa": "'prɒses",
+    "rank": 407,
+    "level": "beginner"
+  },
+  {
+    "word": "teen",
+    "chinese": "n. 愤怒, 悲哀",
+    "ipa": "ti:n",
+    "rank": 408,
+    "level": "beginner"
+  },
+  {
+    "word": "room",
+    "chinese": "n. 房间, 空位, 场所",
+    "ipa": "ru:m",
+    "rank": 409,
+    "level": "beginner"
+  },
+  {
+    "word": "stock",
+    "chinese": "n. 树干, 祖先, 血统, 原料, 备料, 库存, 牲畜, 股票, 股份, 保留剧目",
+    "ipa": "stɒk",
+    "rank": 410,
+    "level": "beginner"
+  },
+  {
+    "word": "training",
+    "chinese": "n. 训练, 培养",
+    "ipa": "'treiniŋ",
+    "rank": 411,
+    "level": "beginner"
+  },
+  {
+    "word": "too",
+    "chinese": "adv. 也, 非常, 太",
+    "ipa": "tu:",
+    "rank": 412,
+    "level": "beginner"
+  },
+  {
+    "word": "credit",
+    "chinese": "n. 信用, 信任, 荣誉, 贷款, 学分",
+    "ipa": "'kredit",
+    "rank": 413,
+    "level": "beginner"
+  },
+  {
+    "word": "point",
+    "chinese": "n. 点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位",
+    "ipa": "pɒint",
+    "rank": 414,
+    "level": "beginner"
+  },
+  {
+    "word": "join",
+    "chinese": "vi. 参加, 结合, 加入",
+    "ipa": "dʒɒin",
+    "rank": 415,
+    "level": "beginner"
+  },
+  {
+    "word": "science",
+    "chinese": "n. 科学, 学科, 学问, 自然科学",
+    "ipa": "'saiәns",
+    "rank": 416,
+    "level": "beginner"
+  },
+  {
+    "word": "men",
+    "chinese": "pl. man的复数",
+    "ipa": "men",
+    "rank": 417,
+    "level": "beginner"
+  },
+  {
+    "word": "categories",
+    "chinese": "n. 分类",
+    "ipa": "ˈkætəˌgɔriz",
+    "rank": 418,
+    "level": "beginner"
+  },
+  {
+    "word": "advanced",
+    "chinese": "a. 在前的, 高级的, 先进的, 年老的",
+    "ipa": "әd'vɑ:nst",
+    "rank": 419,
+    "level": "beginner"
+  },
+  {
+    "word": "west",
+    "chinese": "n. 西方, 西部",
+    "ipa": "west",
+    "rank": 420,
+    "level": "beginner"
+  },
+  {
+    "word": "sales",
+    "chinese": "a. 销售的",
+    "ipa": "seɪlz",
+    "rank": 421,
+    "level": "beginner"
+  },
+  {
+    "word": "look",
+    "chinese": "n. 一看, 神色, 样子, 面容",
+    "ipa": "luk",
+    "rank": 422,
+    "level": "beginner"
+  },
+  {
+    "word": "english",
+    "chinese": "n. 英语",
+    "ipa": "'iŋgliʃ",
+    "rank": 423,
+    "level": "beginner"
+  },
+  {
+    "word": "left",
+    "chinese": "a. 左边的, 左倾的, 左侧的, 左派的",
+    "ipa": "left",
+    "rank": 424,
+    "level": "beginner"
+  },
+  {
+    "word": "team",
+    "chinese": "n. 队, 组",
+    "ipa": "ti:m",
+    "rank": 425,
+    "level": "beginner"
+  },
+  {
+    "word": "estate",
+    "chinese": "n. 不动产, (人生的)阶段, 阶层, 财产",
+    "ipa": "i'steit",
+    "rank": 426,
+    "level": "beginner"
+  },
+  {
+    "word": "box",
+    "chinese": "n. 盒子, 箱, 方框, 一巴掌",
+    "ipa": "bɒks",
+    "rank": 427,
+    "level": "beginner"
+  },
+  {
+    "word": "conditions",
+    "chinese": "n. 形势, 情况, 环境",
+    "ipa": "kənˈdɪʃənz",
+    "rank": 428,
+    "level": "beginner"
+  },
+  {
+    "word": "select",
+    "chinese": "a. 挑选出来的, 极好的",
+    "ipa": "si'lekt",
+    "rank": 429,
+    "level": "beginner"
+  },
+  {
+    "word": "windows",
+    "chinese": "n. 微软公司生产的“视窗”操作系统",
+    "ipa": "'windәjz",
+    "rank": 430,
+    "level": "beginner"
+  },
+  {
+    "word": "photos",
+    "chinese": "n. 照片, 图片",
+    "ipa": "ˈfoʊˌtoʊz",
+    "rank": 431,
+    "level": "beginner"
+  },
+  {
+    "word": "gay",
+    "chinese": "a. 欢快的, 艳丽的, 快乐的, 放荡的",
+    "ipa": "gei",
+    "rank": 432,
+    "level": "beginner"
+  },
+  {
+    "word": "thread",
+    "chinese": "n. 线, 丝, 纤维, 线索",
+    "ipa": "θred",
+    "rank": 433,
+    "level": "beginner"
+  },
+  {
+    "word": "week",
+    "chinese": "n. 星期, 周",
+    "ipa": "wi:k",
+    "rank": 434,
+    "level": "beginner"
+  },
+  {
+    "word": "category",
+    "chinese": "n. 种类, 类项",
+    "ipa": "'kætigәri",
+    "rank": 435,
+    "level": "beginner"
+  },
+  {
+    "word": "note",
+    "chinese": "n. 笔记, 记录, 注解, 票据, 符号, 显要, 注重, 便笺, 照会",
+    "ipa": "nәut",
+    "rank": 436,
+    "level": "beginner"
+  },
+  {
+    "word": "live",
+    "chinese": "a. 活的, 生动的, 精力充沛的, 实况转播的",
+    "ipa": "liv.laiv",
+    "rank": 437,
+    "level": "beginner"
+  },
+  {
+    "word": "large",
+    "chinese": "a. 大的, 大量的, 宽大的, 广博的",
+    "ipa": "lɑ:dʒ",
+    "rank": 438,
+    "level": "beginner"
+  },
+  {
+    "word": "gallery",
+    "chinese": "n. 走廊, 最高楼座, 画廊, 收集, 图库",
+    "ipa": "'gælәri",
+    "rank": 439,
+    "level": "beginner"
+  },
+  {
+    "word": "table",
+    "chinese": "n. 桌子, 餐桌, 工作台, 铭文, 表格, 表, 高原, 平地层",
+    "ipa": "'teibl",
+    "rank": 440,
+    "level": "beginner"
+  },
+  {
+    "word": "register",
+    "chinese": "n. 寄存器, 记录, 登记簿, 注册",
+    "ipa": "'redʒistә",
+    "rank": 441,
+    "level": "beginner"
+  },
+  {
+    "word": "however",
+    "chinese": "adv. 然而, 无论如何, 究竟怎样",
+    "ipa": "hau'evә",
+    "rank": 442,
+    "level": "beginner"
+  },
+  {
+    "word": "june",
+    "chinese": "n. 六月",
+    "ipa": "dʒu:n",
+    "rank": 443,
+    "level": "beginner"
+  },
+  {
+    "word": "october",
+    "chinese": "n. 十月",
+    "ipa": "ɒk'tәubә",
+    "rank": 444,
+    "level": "beginner"
+  },
+  {
+    "word": "november",
+    "chinese": "n. 十一月",
+    "ipa": "nәu'vembә",
+    "rank": 445,
+    "level": "beginner"
+  },
+  {
+    "word": "market",
+    "chinese": "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路",
+    "ipa": "'mɑ:kit",
+    "rank": 446,
+    "level": "beginner"
+  },
+  {
+    "word": "library",
+    "chinese": "n. 图书馆, 藏书, 库",
+    "ipa": "'laibrәri",
+    "rank": 447,
+    "level": "beginner"
+  },
+  {
+    "word": "really",
+    "chinese": "adv. 实际上, 真实地, 实在",
+    "ipa": "'riәli",
+    "rank": 448,
+    "level": "beginner"
+  },
+  {
+    "word": "action",
+    "chinese": "n. 行动, 活动, 动作, 作用, 战斗, 行为, 诉讼",
+    "ipa": "'ækʃәn",
+    "rank": 449,
+    "level": "beginner"
+  },
+  {
+    "word": "start",
+    "chinese": "n. 惊起, 出发, 开端, 起点, 吃惊, 有利条件",
+    "ipa": "stɑ:t",
+    "rank": 450,
+    "level": "beginner"
+  },
+  {
+    "word": "series",
+    "chinese": "n. 串联, 序列, 连续, 系列, 丛书, 套, 级数, 组",
+    "ipa": "'siәri:z",
+    "rank": 451,
+    "level": "beginner"
+  },
+  {
+    "word": "model",
+    "chinese": "n. 模型, 模范, 模特儿",
+    "ipa": "'mɒdәl",
+    "rank": 452,
+    "level": "beginner"
+  },
+  {
+    "word": "features",
+    "chinese": "n. 容貌",
+    "ipa": "ˈfiʧərz",
+    "rank": 453,
+    "level": "beginner"
+  },
+  {
+    "word": "air",
+    "chinese": "n. 空气, 旋律, 态度",
+    "ipa": "єә",
+    "rank": 454,
+    "level": "beginner"
+  },
+  {
+    "word": "industry",
+    "chinese": "n. 勤劳, 工业, 企业, 产业, 有组织的劳动",
+    "ipa": "'indәstri",
+    "rank": 455,
+    "level": "beginner"
+  },
+  {
+    "word": "plan",
+    "chinese": "n. 计划, 方案, 策略, 方法, 进度表, 程序表, 平面图, 设计图, 轮廓, 示意图",
+    "ipa": "plæn",
+    "rank": 456,
+    "level": "beginner"
+  },
+  {
+    "word": "human",
+    "chinese": "n. 人, 人类",
+    "ipa": "'hju:mәn",
+    "rank": 457,
+    "level": "beginner"
+  },
+  {
+    "word": "provided",
+    "chinese": "conj. 倘若, 以...为条件",
+    "ipa": "prә'vaidid",
+    "rank": 458,
+    "level": "beginner"
+  },
+  {
+    "word": "tv",
+    "chinese": "电视",
+    "ipa": "'ti:'vi:",
+    "rank": 459,
+    "level": "beginner"
+  },
+  {
+    "word": "yes",
+    "chinese": "adv. 是",
+    "ipa": "jes",
+    "rank": 460,
+    "level": "beginner"
+  },
+  {
+    "word": "required",
+    "chinese": "a. 必需的",
+    "ipa": "ri'kwaiәd",
+    "rank": 461,
+    "level": "beginner"
+  },
+  {
+    "word": "second",
+    "chinese": "n. 秒, 瞬间, 第二名, 支持者, 助手",
+    "ipa": "'sekәnd",
+    "rank": 462,
+    "level": "beginner"
+  },
+  {
+    "word": "hot",
+    "chinese": "a. 热的, 热心的, 辣的, 热情的, 激动的, 猛烈的, 紧迫的",
+    "ipa": "hɒt",
+    "rank": 463,
+    "level": "beginner"
+  },
+  {
+    "word": "accessories",
+    "chinese": "n. 辅助程序",
+    "ipa": "ækˈsɛsəriz",
+    "rank": 464,
+    "level": "beginner"
+  },
+  {
+    "word": "cost",
+    "chinese": "n. 代价, 价值, 费用",
+    "ipa": "kɒst",
+    "rank": 465,
+    "level": "beginner"
+  },
+  {
+    "word": "movie",
+    "chinese": "n. 电影",
+    "ipa": "'mu:vi",
+    "rank": 466,
+    "level": "beginner"
+  },
+  {
+    "word": "forums",
+    "chinese": "pl. 论坛, 讨论会, 座谈会, 广播专题讲话节目, 电视专题讲话节目, 法庭",
+    "ipa": "ˈfɔrəmz",
+    "rank": 467,
+    "level": "beginner"
+  },
+  {
+    "word": "march",
+    "chinese": "n. 三月, 进行, 行军, 步伐, 长途跋涉, 进行曲, 边界",
+    "ipa": "mɑ:tʃ",
+    "rank": 468,
+    "level": "beginner"
+  },
+  {
+    "word": "la",
+    "chinese": "[医] 镧(57号元素)",
+    "ipa": "lɔ:, lɑ:",
+    "rank": 469,
+    "level": "beginner"
+  },
+  {
+    "word": "september",
+    "chinese": "n. 九月",
+    "ipa": "sep'tembә",
+    "rank": 470,
+    "level": "beginner"
+  },
+  {
+    "word": "better",
+    "chinese": "a. 较好的",
+    "ipa": "'betә",
+    "rank": 471,
+    "level": "beginner"
+  },
+  {
+    "word": "say",
+    "chinese": "vt. 说, 讲, 念, 说明, 指明",
+    "ipa": "sei",
+    "rank": 472,
+    "level": "beginner"
+  },
+  {
+    "word": "questions",
+    "chinese": "n. 问题（question的复数）",
+    "ipa": "kˈwɛsʧənz",
+    "rank": 473,
+    "level": "beginner"
+  },
+  {
+    "word": "july",
+    "chinese": "n. 七月",
+    "ipa": "dʒu:'lai",
+    "rank": 474,
+    "level": "beginner"
+  },
+  {
+    "word": "yahoo",
+    "chinese": "n. 人面兽心的人, 乡愚, 粗汉",
+    "ipa": "jә'hu:",
+    "rank": 475,
+    "level": "beginner"
+  },
+  {
+    "word": "going",
+    "chinese": "n. 去, 离去, 工作情况, 地面状况, 行为",
+    "ipa": "'gәuiŋ",
+    "rank": 476,
+    "level": "beginner"
+  },
+  {
+    "word": "medical",
+    "chinese": "n. 医生, 体格检查",
+    "ipa": "'medikl",
+    "rank": 477,
+    "level": "beginner"
+  },
+  {
+    "word": "test",
+    "chinese": "n. 测试, 试验, 化验, 检验, 考验, 甲壳",
+    "ipa": "test",
+    "rank": 478,
+    "level": "beginner"
+  },
+  {
+    "word": "friend",
+    "chinese": "n. 朋友, 支持者, 赞助者",
+    "ipa": "frend",
+    "rank": 479,
+    "level": "beginner"
+  },
+  {
+    "word": "come",
+    "chinese": "vi. 过来, 来, 到达, 出现, 开始",
+    "ipa": "kʌm",
+    "rank": 480,
+    "level": "beginner"
+  },
+  {
+    "word": "dec",
+    "chinese": "美国数字电子公司",
+    "ipa": "dɛk",
+    "rank": 481,
+    "level": "beginner"
+  },
+  {
+    "word": "server",
+    "chinese": "n. 服伺者, 上菜用具, 发球员",
+    "ipa": "'sә:vә",
+    "rank": 482,
+    "level": "beginner"
+  },
+  {
+    "word": "pc",
+    "chinese": "个人计算机",
+    "ipa": "ˈpiˈsi",
+    "rank": 483,
+    "level": "beginner"
+  },
+  {
+    "word": "study",
+    "chinese": "n. 学习, 研究, 学科, 论文, 求学, 书房, 试作",
+    "ipa": "'stʌdi",
+    "rank": 484,
+    "level": "beginner"
+  },
+  {
+    "word": "application",
+    "chinese": "n. 应用, 申请, 志愿书, 应用程序",
+    "ipa": ".æpli'keiʃәn",
+    "rank": 485,
+    "level": "beginner"
+  },
+  {
+    "word": "cart",
+    "chinese": "n. 二轮运货马车",
+    "ipa": "kɑ:t",
+    "rank": 486,
+    "level": "beginner"
+  },
+  {
+    "word": "staff",
+    "chinese": "n. 全体人员, 工作班子, 棍棒, 杆, 拐杖, 支柱, 权杖",
+    "ipa": "stɑ:f",
+    "rank": 487,
+    "level": "beginner"
+  },
+  {
+    "word": "articles",
+    "chinese": "n. 文章",
+    "ipa": "ˈɑrtɪkəlz",
+    "rank": 488,
+    "level": "beginner"
+  },
+  {
+    "word": "san",
+    "chinese": "abbr. 存储区域网（Storage Area Networking）",
+    "ipa": "sɑ:n",
+    "rank": 489,
+    "level": "beginner"
+  },
+  {
+    "word": "feedback",
+    "chinese": "n. 反馈, 反应",
+    "ipa": "'fi:dbæk",
+    "rank": 490,
+    "level": "beginner"
+  },
+  {
+    "word": "again",
+    "chinese": "adv. 再一次, 又, 到原处",
+    "ipa": "ә'gein",
+    "rank": 491,
+    "level": "beginner"
+  },
+  {
+    "word": "play",
+    "chinese": "n. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本",
+    "ipa": "plei",
+    "rank": 492,
+    "level": "beginner"
+  },
+  {
+    "word": "looking",
+    "chinese": "a. 有…相貌的",
+    "ipa": "'lukiŋ",
+    "rank": 493,
+    "level": "beginner"
+  },
+  {
+    "word": "issues",
+    "chinese": "n. 议题, 问题",
+    "ipa": "ˈɪʃuz",
+    "rank": 494,
+    "level": "beginner"
+  },
+  {
+    "word": "april",
+    "chinese": "n. 四月",
+    "ipa": "'eiprәl",
+    "rank": 495,
+    "level": "beginner"
+  },
+  {
+    "word": "never",
+    "chinese": "adv. 从不, 决不, 不曾",
+    "ipa": "'nevә",
+    "rank": 496,
+    "level": "beginner"
+  },
+  {
+    "word": "users",
+    "chinese": "n. 使用者",
+    "ipa": "ˈjuzərz",
+    "rank": 497,
+    "level": "beginner"
+  },
+  {
+    "word": "complete",
+    "chinese": "a. 完全的, 十足的, 完成的",
+    "ipa": "kәm'pli:t",
+    "rank": 498,
+    "level": "beginner"
+  },
+  {
+    "word": "street",
+    "chinese": "n. 街道, 马路, 街区",
+    "ipa": "stri:t",
+    "rank": 499,
+    "level": "beginner"
+  },
+  {
+    "word": "topic",
+    "chinese": "n. 主题, 论题, 话题",
+    "ipa": "'tɒpik",
+    "rank": 500,
+    "level": "beginner"
+  },
+  {
+    "word": "comment",
+    "chinese": "n. 注解, 批评, 评论, 备注",
+    "ipa": "'kɒment",
+    "rank": 501,
+    "level": "beginner"
+  },
+  {
+    "word": "financial",
+    "chinese": "a. 财政的, 金融的",
+    "ipa": "fai'nænʃәl",
+    "rank": 502,
+    "level": "beginner"
+  },
+  {
+    "word": "things",
+    "chinese": "n. 所有物, 财产, 用具, 用品, 局面, 形势, 情况",
+    "ipa": "θɪŋz",
+    "rank": 503,
+    "level": "beginner"
+  },
+  {
+    "word": "working",
+    "chinese": "n. 工作, 运转, 劳动",
+    "ipa": "'wә:kiŋ",
+    "rank": 504,
+    "level": "beginner"
+  },
+  {
+    "word": "against",
+    "chinese": "prep. 反对, 对着, 倚靠",
+    "ipa": "ә'geinst",
+    "rank": 505,
+    "level": "beginner"
+  },
+  {
+    "word": "standard",
+    "chinese": "n. 标准, 规格, 旗, 军旗, 本位",
+    "ipa": "'stændәd",
+    "rank": 506,
+    "level": "beginner"
+  },
+  {
+    "word": "tax",
+    "chinese": "n. 税, 税款, 重负, 会费",
+    "ipa": "tæks",
+    "rank": 507,
+    "level": "beginner"
+  },
+  {
+    "word": "person",
+    "chinese": "n. 人, 人身, 人称",
+    "ipa": "'pә:sn",
+    "rank": 508,
+    "level": "beginner"
+  },
+  {
+    "word": "below",
+    "chinese": "prep. 在下面",
+    "ipa": "bi'lәu",
+    "rank": 509,
+    "level": "beginner"
+  },
+  {
+    "word": "mobile",
+    "chinese": "a. 移动的, 易变的, 机动的",
+    "ipa": "'mәubil",
+    "rank": 510,
+    "level": "beginner"
+  },
+  {
+    "word": "less",
+    "chinese": "n. 较少, 较小",
+    "ipa": "les",
+    "rank": 511,
+    "level": "beginner"
+  },
+  {
+    "word": "got",
+    "chinese": "get的过去式和过去分词",
+    "ipa": "gɒt",
+    "rank": 512,
+    "level": "beginner"
+  },
+  {
+    "word": "blog",
+    "chinese": "n. 博客",
+    "ipa": "blɔg",
+    "rank": 513,
+    "level": "beginner"
+  },
+  {
+    "word": "party",
+    "chinese": "n. 宴会, 党, 政党, 团体, 当事人, 聚会",
+    "ipa": "'pɑ:ti",
+    "rank": 514,
+    "level": "beginner"
+  },
+  {
+    "word": "payment",
+    "chinese": "n. 付款, 支付的款项(或实物), 偿还, 报应, 惩罚",
+    "ipa": "'peimәnt",
+    "rank": 515,
+    "level": "beginner"
+  },
+  {
+    "word": "equipment",
+    "chinese": "n. 装备, 设备, 才能",
+    "ipa": "i'kwipmәnt",
+    "rank": 516,
+    "level": "beginner"
+  },
+  {
+    "word": "login",
+    "chinese": "[计] 注册(程序), 登记, 用户注册程序",
+    "ipa": "login",
+    "rank": 517,
+    "level": "beginner"
+  },
+  {
+    "word": "student",
+    "chinese": "n. 学生, 研究者, 学者",
+    "ipa": "'stju:dnt",
+    "rank": 518,
+    "level": "beginner"
+  },
+  {
+    "word": "let",
+    "chinese": "vt. 让, 假设, 出租, 排放, 妨碍",
+    "ipa": "let",
+    "rank": 519,
+    "level": "beginner"
+  },
+  {
+    "word": "programs",
+    "chinese": "n. 程序, 程序集",
+    "ipa": "ˈproʊˌgræmz",
+    "rank": 520,
+    "level": "beginner"
+  },
+  {
+    "word": "offers",
+    "chinese": "n. 提议",
+    "ipa": "ˈɔfərz",
+    "rank": 521,
+    "level": "beginner"
+  },
+  {
+    "word": "legal",
+    "chinese": "a. 法律的, 法定的, 合法的",
+    "ipa": "'li:gәl",
+    "rank": 522,
+    "level": "beginner"
+  },
+  {
+    "word": "above",
+    "chinese": "prep. 在上方, 超出",
+    "ipa": "ә'bʌv",
+    "rank": 523,
+    "level": "beginner"
+  },
+  {
+    "word": "recent",
+    "chinese": "a. 最近的, 近代的, 最新的",
+    "ipa": "'ri:snt",
+    "rank": 524,
+    "level": "beginner"
+  },
+  {
+    "word": "park",
+    "chinese": "n. 公园, 停车处",
+    "ipa": "pɑ:k",
+    "rank": 525,
+    "level": "beginner"
+  },
+  {
+    "word": "stores",
+    "chinese": "n. (英)百货商店",
+    "ipa": "stɔrz",
+    "rank": 526,
+    "level": "beginner"
+  },
+  {
+    "word": "side",
+    "chinese": "n. 旁边, 侧, 方面, 胁, 侧边, 血统",
+    "ipa": "said",
+    "rank": 527,
+    "level": "beginner"
+  },
+  {
+    "word": "act",
+    "chinese": "n. 行动, 行为, 幕, 法案",
+    "ipa": "ækt",
+    "rank": 528,
+    "level": "beginner"
+  },
+  {
+    "word": "problem",
+    "chinese": "n. 问题, 难题",
+    "ipa": "'prɒblәm",
+    "rank": 529,
+    "level": "beginner"
+  },
+  {
+    "word": "red",
+    "chinese": "a. 红的, 红色的, 红肿的, 流血的",
+    "ipa": "red",
+    "rank": 530,
+    "level": "beginner"
+  },
+  {
+    "word": "give",
+    "chinese": "n. 弹性, 适应性",
+    "ipa": "giv",
+    "rank": 531,
+    "level": "beginner"
+  },
+  {
+    "word": "memory",
+    "chinese": "n. 记忆, 记忆力, 回忆, 纪念, 存储",
+    "ipa": "'memәri",
+    "rank": 532,
+    "level": "beginner"
+  },
+  {
+    "word": "performance",
+    "chinese": "n. 施行, 工作情况, 成绩, 行为, 表现, 演出",
+    "ipa": "pә'fɒ:mәns",
+    "rank": 533,
+    "level": "beginner"
+  },
+  {
+    "word": "social",
+    "chinese": "a. 社会的, 群居的, 社交的",
+    "ipa": "'sәuʃәl",
+    "rank": 534,
+    "level": "beginner"
+  },
+  {
+    "word": "august",
+    "chinese": "n. 八月",
+    "ipa": "ɒ:'gʌst. 'ɒ:gәst",
+    "rank": 535,
+    "level": "beginner"
+  },
+  {
+    "word": "quote",
+    "chinese": "n. 引用",
+    "ipa": "kwәut",
+    "rank": 536,
+    "level": "beginner"
+  },
+  {
+    "word": "language",
+    "chinese": "n. 语言, 文字, 措辞",
+    "ipa": "'læŋgwidʒ",
+    "rank": 537,
+    "level": "beginner"
+  },
+  {
+    "word": "story",
+    "chinese": "n. 故事, 小说, 传奇, 描述, 阅历, 经历, 层",
+    "ipa": "'stɒ:ri",
+    "rank": 538,
+    "level": "beginner"
+  },
+  {
+    "word": "sell",
+    "chinese": "vt. 卖, 背叛, 销售, 出卖",
+    "ipa": "sel",
+    "rank": 539,
+    "level": "beginner"
+  },
+  {
+    "word": "options",
+    "chinese": "n. 选择",
+    "ipa": "ˈɔpʃənz",
+    "rank": 540,
+    "level": "beginner"
+  },
+  {
+    "word": "experience",
+    "chinese": "n. 经历, 经验, 体验",
+    "ipa": "ik'spiәriәns",
+    "rank": 541,
+    "level": "beginner"
+  },
+  {
+    "word": "rates",
+    "chinese": "n. 比率",
+    "ipa": "reɪts",
+    "rank": 542,
+    "level": "beginner"
+  },
+  {
+    "word": "create",
+    "chinese": "vt. 创造, 建造, 引起, 任命",
+    "ipa": "kri:'eit",
+    "rank": 543,
+    "level": "beginner"
+  },
+  {
+    "word": "key",
+    "chinese": "n. 钥匙, 键, 解答, 关键, 要害, 基调, 线索, 答案, 暗礁",
+    "ipa": "ki:",
+    "rank": 544,
+    "level": "beginner"
+  },
+  {
+    "word": "body",
+    "chinese": "n. 身体, 人, 尸体, 主要部分, 团体",
+    "ipa": "'bɒdi",
+    "rank": 545,
+    "level": "beginner"
+  },
+  {
+    "word": "young",
+    "chinese": "a. 年轻的, 无经验的, 朝气蓬勃的",
+    "ipa": "jʌŋ",
+    "rank": 546,
+    "level": "beginner"
+  },
+  {
+    "word": "america",
+    "chinese": "n. 美洲, 美国",
+    "ipa": "ә'merikә",
+    "rank": 547,
+    "level": "beginner"
+  },
+  {
+    "word": "important",
+    "chinese": "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+    "ipa": "im'pɒ:tәnt",
+    "rank": 548,
+    "level": "beginner"
+  },
+  {
+    "word": "field",
+    "chinese": "n. 领域, 田地, 场地, 战场, 场, 域",
+    "ipa": "fi:ld",
+    "rank": 549,
+    "level": "beginner"
+  },
+  {
+    "word": "few",
+    "chinese": "a. 很少的, 不多的, 少数的",
+    "ipa": "fju:",
+    "rank": 550,
+    "level": "beginner"
+  },
+  {
+    "word": "east",
+    "chinese": "n. 东方, 东",
+    "ipa": "i:st",
+    "rank": 551,
+    "level": "beginner"
+  },
+  {
+    "word": "paper",
+    "chinese": "n. 纸, 文件, 文章, 报纸, 证券, 证件",
+    "ipa": "'peipә",
+    "rank": 552,
+    "level": "beginner"
+  },
+  {
+    "word": "single",
+    "chinese": "a. 单身的, 单程的, 单一的, 个别的, 孤独的, 专一的",
+    "ipa": "'siŋgl",
+    "rank": 553,
+    "level": "beginner"
+  },
+  {
+    "word": "ii",
+    "chinese": "abbr. 微光（Image Intensification）",
+    "ipa": "ii",
+    "rank": 554,
+    "level": "beginner"
+  },
+  {
+    "word": "age",
+    "chinese": "n. 年龄, 老年, 成年, 寿命, 时代, 时期",
+    "ipa": "eidʒ",
+    "rank": 555,
+    "level": "beginner"
+  },
+  {
+    "word": "activities",
+    "chinese": "n. （activity复数形式）活动",
+    "ipa": "ækˈtɪvɪtiz",
+    "rank": 556,
+    "level": "beginner"
+  },
+  {
+    "word": "club",
+    "chinese": "n. 俱乐部, 木棍, 球棒",
+    "ipa": "klʌb",
+    "rank": 557,
+    "level": "beginner"
+  },
+  {
+    "word": "example",
+    "chinese": "n. 例子, 样本, 实例",
+    "ipa": "ig'zæmpl",
+    "rank": 558,
+    "level": "beginner"
+  },
+  {
+    "word": "girls",
+    "chinese": "n. 女孩（girl的复数）",
+    "ipa": "gərlz",
+    "rank": 559,
+    "level": "beginner"
+  },
+  {
+    "word": "additional",
+    "chinese": "a. 附加的, 另外的, 额外的",
+    "ipa": "ә'diʃәnәl",
+    "rank": 560,
+    "level": "beginner"
+  },
+  {
+    "word": "password",
+    "chinese": "n. 密码, 口令, 通行手段",
+    "ipa": "'pæswә:d",
+    "rank": 561,
+    "level": "beginner"
+  },
+  {
+    "word": "latest",
+    "chinese": "a. 最近的",
+    "ipa": "'leitist",
+    "rank": 562,
+    "level": "beginner"
+  },
+  {
+    "word": "something",
+    "chinese": "pron. 某事, 某物",
+    "ipa": "'sʌmθiŋ",
+    "rank": 563,
+    "level": "beginner"
+  },
+  {
+    "word": "road",
+    "chinese": "n. 路, 道路, 公路, 途径, 方法",
+    "ipa": "rәud",
+    "rank": 564,
+    "level": "beginner"
+  },
+  {
+    "word": "gift",
+    "chinese": "n. 礼物, 赠予, 天才",
+    "ipa": "gift",
+    "rank": 565,
+    "level": "beginner"
+  },
+  {
+    "word": "question",
+    "chinese": "n. 问题, 询问",
+    "ipa": "'kwestʃәn",
+    "rank": 566,
+    "level": "beginner"
+  },
+  {
+    "word": "changes",
+    "chinese": "n. 变化, 改变（change的复数）",
+    "ipa": "ˈʧeɪnʤɪz",
+    "rank": 567,
+    "level": "beginner"
+  },
+  {
+    "word": "night",
+    "chinese": "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作",
+    "ipa": "nait",
+    "rank": 568,
+    "level": "beginner"
+  },
+  {
+    "word": "ca",
+    "chinese": "[医] 钙(20号元素); 阴极, 负极",
+    "ipa": "ˈsiˈeɪ",
+    "rank": 569,
+    "level": "beginner"
+  },
+  {
+    "word": "hard",
+    "chinese": "a. 坚硬的, 硬的, 难的, 艰苦的, 困难的, 坚固的, 猛烈的, 艰难的, 结实的, 确实的",
+    "ipa": "hɑ:d",
+    "rank": 570,
+    "level": "beginner"
+  },
+  {
+    "word": "texas",
+    "chinese": "n. 德克萨斯",
+    "ipa": "'teksәs",
+    "rank": 571,
+    "level": "beginner"
+  },
+  {
+    "word": "oct",
+    "chinese": "abbr. 十月（October）",
+    "ipa": "ɔkt",
+    "rank": 572,
+    "level": "beginner"
+  },
+  {
+    "word": "pay",
+    "chinese": "n. 薪资, 付款, 补偿",
+    "ipa": "pei",
+    "rank": 573,
+    "level": "beginner"
+  },
+  {
+    "word": "four",
+    "chinese": "num. 四, 四个",
+    "ipa": "fɒ:",
+    "rank": 574,
+    "level": "beginner"
+  },
+  {
+    "word": "poker",
+    "chinese": "n. 戳的人, 拨火棍, 纸牌戏",
+    "ipa": "'pәukә",
+    "rank": 575,
+    "level": "beginner"
+  },
+  {
+    "word": "status",
+    "chinese": "n. 状态, 情形, 地位, 要人身份",
+    "ipa": "'steitәs",
+    "rank": 576,
+    "level": "beginner"
+  },
+  {
+    "word": "browse",
+    "chinese": "v. 浏览, 吃草",
+    "ipa": "brauz",
+    "rank": 577,
+    "level": "beginner"
+  },
+  {
+    "word": "issue",
+    "chinese": "n. 发行, 问题, 后果, 流出, 出口, 争端",
+    "ipa": "'isju",
+    "rank": 578,
+    "level": "beginner"
+  },
+  {
+    "word": "range",
+    "chinese": "n. 排, 行, 山脉, 范围, 行列, 射程",
+    "ipa": "'reindʒ",
+    "rank": 579,
+    "level": "beginner"
+  },
+  {
+    "word": "building",
+    "chinese": "n. 建筑物, 建筑",
+    "ipa": "'bildiŋ",
+    "rank": 580,
+    "level": "beginner"
+  },
+  {
+    "word": "seller",
+    "chinese": "n. 销售者",
+    "ipa": "'selә",
+    "rank": 581,
+    "level": "beginner"
+  },
+  {
+    "word": "court",
+    "chinese": "n. 法院, 庭院, 奉承",
+    "ipa": "kɒ:t",
+    "rank": 582,
+    "level": "beginner"
+  },
+  {
+    "word": "february",
+    "chinese": "n. 二月",
+    "ipa": "'februәri",
+    "rank": 583,
+    "level": "beginner"
+  },
+  {
+    "word": "always",
+    "chinese": "adv. 总是, 始终",
+    "ipa": "'ɒ:lweiz",
+    "rank": 584,
+    "level": "beginner"
+  },
+  {
+    "word": "result",
+    "chinese": "n. 结果, 成绩, 答案",
+    "ipa": "ri'zʌlt",
+    "rank": 585,
+    "level": "beginner"
+  },
+  {
+    "word": "audio",
+    "chinese": "a. 音频的, 声音的",
+    "ipa": "'ɒ:diou",
+    "rank": 586,
+    "level": "beginner"
+  },
+  {
+    "word": "light",
+    "chinese": "n. 光, 光亮, 灯, 日光, 发光体, 光源, 杰出人物, 火花, 眼光",
+    "ipa": "lait",
+    "rank": 587,
+    "level": "beginner"
+  },
+  {
+    "word": "write",
+    "chinese": "vt. 书写, 著述, 写, 写满, 写信给",
+    "ipa": "rait",
+    "rank": 588,
+    "level": "beginner"
+  },
+  {
+    "word": "war",
+    "chinese": "n. 战争, 战争状态, 战术, 军事, 冲突, 斗争, 竞争",
+    "ipa": "wɒ:",
+    "rank": 589,
+    "level": "beginner"
+  },
+  {
+    "word": "nov",
+    "chinese": "abbr. 十一月（November）",
+    "ipa": "noʊv",
+    "rank": 590,
+    "level": "beginner"
+  },
+  {
+    "word": "offer",
+    "chinese": "n. 给予(物), 出价, 提议, 意图, 报价",
+    "ipa": "'ɒfә",
+    "rank": 591,
+    "level": "beginner"
+  },
+  {
+    "word": "blue",
+    "chinese": "n. 蓝色",
+    "ipa": "blu:",
+    "rank": 592,
+    "level": "beginner"
+  },
+  {
+    "word": "groups",
+    "chinese": "n. 群组, 组",
+    "ipa": "grups",
+    "rank": 593,
+    "level": "beginner"
+  },
+  {
+    "word": "al",
+    "chinese": "[计] 算法语言, 字母, 汇编语言",
+    "ipa": "æl",
+    "rank": 594,
+    "level": "beginner"
+  },
+  {
+    "word": "easy",
+    "chinese": "a. 容易的, 缓缓的, 舒适的, 从容的, 宽容的, 流畅的, 随便的, 自在的, 疲软的",
+    "ipa": "'i:zi",
+    "rank": 595,
+    "level": "beginner"
+  },
+  {
+    "word": "given",
+    "chinese": "a. 赠予的, 沉溺的, 约定的",
+    "ipa": "'givәn",
+    "rank": 596,
+    "level": "beginner"
+  },
+  {
+    "word": "files",
+    "chinese": "n. 文件",
+    "ipa": "faɪlz",
+    "rank": 597,
+    "level": "beginner"
+  },
+  {
+    "word": "event",
+    "chinese": "n. 事件, 结果, 事情的进程, 竞赛项目",
+    "ipa": "i'vent",
+    "rank": 598,
+    "level": "beginner"
+  },
+  {
+    "word": "release",
+    "chinese": "n. 释放, 发泄, 豁免, 发行, 释放证书",
+    "ipa": "ri'li:s",
+    "rank": 599,
+    "level": "beginner"
+  },
+  {
+    "word": "analysis",
+    "chinese": "n. 分析",
+    "ipa": "ә'nælәsis",
+    "rank": 600,
+    "level": "beginner"
+  },
+  {
+    "word": "request",
+    "chinese": "n. 请求, 需要, 申请书",
+    "ipa": "ri'kwest",
+    "rank": 601,
+    "level": "beginner"
+  },
+  {
+    "word": "fax",
+    "chinese": "n. 传真",
+    "ipa": "fæks",
+    "rank": 602,
+    "level": "beginner"
+  },
+  {
+    "word": "china",
+    "chinese": "n. 中国, 瓷器",
+    "ipa": "'tʃainә",
+    "rank": 603,
+    "level": "beginner"
+  },
+  {
+    "word": "making",
+    "chinese": "n. 制造, (手工)制造业, 制作, 形成, 发展, 要素, 内在因素, 赚头, 制造物",
+    "ipa": "'meikiŋ",
+    "rank": 604,
+    "level": "beginner"
+  },
+  {
+    "word": "picture",
+    "chinese": "n. 图画, 照片, 景色, 美丽如画的人(或物), 化身, 生动的描述, 想像, 形象思维",
+    "ipa": "'piktʃә",
+    "rank": 605,
+    "level": "beginner"
+  },
+  {
+    "word": "needs",
+    "chinese": "adv. （只与must连用）必须地",
+    "ipa": "ni:dz",
+    "rank": 606,
+    "level": "beginner"
+  },
+  {
+    "word": "possible",
+    "chinese": "a. 可能的, 潜在的, 合适的",
+    "ipa": "'pɒsәbl",
+    "rank": 607,
+    "level": "beginner"
+  },
+  {
+    "word": "might",
+    "chinese": "n. 力量, 权力",
+    "ipa": "mait",
+    "rank": 608,
+    "level": "beginner"
+  },
+  {
+    "word": "professional",
+    "chinese": "n. 专业人才",
+    "ipa": "prә'feʃәnl",
+    "rank": 609,
+    "level": "beginner"
+  },
+  {
+    "word": "yet",
+    "chinese": "adv. 还, 尚, 仍然, 已经, 然而",
+    "ipa": "jet",
+    "rank": 610,
+    "level": "beginner"
+  },
+  {
+    "word": "month",
+    "chinese": "n. 月",
+    "ipa": "mʌnθ",
+    "rank": 611,
+    "level": "beginner"
+  },
+  {
+    "word": "major",
+    "chinese": "n. 主修课, 成年人, 陆军少校",
+    "ipa": "'meidʒә",
+    "rank": 612,
+    "level": "beginner"
+  },
+  {
+    "word": "star",
+    "chinese": "n. 星, 恒星, 星形物, 运气, 明星",
+    "ipa": "stɑ:",
+    "rank": 613,
+    "level": "beginner"
+  },
+  {
+    "word": "areas",
+    "chinese": "n. 区域, 领域",
+    "ipa": "ˈɛriəz",
+    "rank": 614,
+    "level": "beginner"
+  },
+  {
+    "word": "future",
+    "chinese": "n. 未来, 将来",
+    "ipa": "'fju:tʃә",
+    "rank": 615,
+    "level": "beginner"
+  },
+  {
+    "word": "space",
+    "chinese": "n. 位置, 空间, 距离, 太空, 空白, 间隔, (期刊等的)篇幅",
+    "ipa": "speis",
+    "rank": 616,
+    "level": "beginner"
+  },
+  {
+    "word": "committee",
+    "chinese": "n. 委员会",
+    "ipa": "kә'miti",
+    "rank": 617,
+    "level": "beginner"
+  },
+  {
+    "word": "hand",
+    "chinese": "n. 手, 爪, 指针, 掌握, 协助, 人手, 手艺, 手迹, 支配, 插手",
+    "ipa": "hænd",
+    "rank": 618,
+    "level": "beginner"
+  },
+  {
+    "word": "sun",
+    "chinese": "n. 太阳, 日, 日光, 阳光",
+    "ipa": "sʌn",
+    "rank": 619,
+    "level": "beginner"
+  },
+  {
+    "word": "cards",
+    "chinese": "n. (playing cards)(正式)一副纸牌, 一副扑克牌, 纸牌游戏, 打扑克",
+    "ipa": "kɑrdz",
+    "rank": 620,
+    "level": "beginner"
+  },
+  {
+    "word": "problems",
+    "chinese": "n. 问题",
+    "ipa": "ˈprɑbləmz",
+    "rank": 621,
+    "level": "beginner"
+  },
+  {
+    "word": "london",
+    "chinese": "n. 伦敦",
+    "ipa": "'lʌndәn",
+    "rank": 622,
+    "level": "beginner"
+  },
+  {
+    "word": "washington",
+    "chinese": "n. 华盛顿",
+    "ipa": "'wɒʃiŋtn",
+    "rank": 623,
+    "level": "beginner"
+  },
+  {
+    "word": "meeting",
+    "chinese": "n. 会议, 会面",
+    "ipa": "'mi:tiŋ",
+    "rank": 624,
+    "level": "beginner"
+  },
+  {
+    "word": "rss",
+    "chinese": "abbr. 和的平方根（root-sum square）",
+    "ipa": "rss",
+    "rank": 625,
+    "level": "beginner"
+  },
+  {
+    "word": "become",
+    "chinese": "vi. 变成, 变得",
+    "ipa": "bi'kʌm",
+    "rank": 626,
+    "level": "beginner"
+  },
+  {
+    "word": "interest",
+    "chinese": "n. 兴趣, 嗜好, 利息, 利益, 爱好, 趣味, 势力",
+    "ipa": "'intrist",
+    "rank": 627,
+    "level": "beginner"
+  },
+  {
+    "word": "id",
+    "chinese": "n. 遗传素质, 本能冲动",
+    "ipa": "id",
+    "rank": 628,
+    "level": "beginner"
+  },
+  {
+    "word": "child",
+    "chinese": "n. 孩子, 产物, 追随者",
+    "ipa": "tʃaild",
+    "rank": 629,
+    "level": "beginner"
+  },
+  {
+    "word": "keep",
+    "chinese": "n. 生计, 维持, 保持",
+    "ipa": "ki:p",
+    "rank": 630,
+    "level": "beginner"
+  },
+  {
+    "word": "enter",
+    "chinese": "vt. 进入, 参加, 开始, 输入, 回车",
+    "ipa": "'entә",
+    "rank": 631,
+    "level": "beginner"
+  },
+  {
+    "word": "california",
+    "chinese": "n. 加利福尼亚",
+    "ipa": ".kæli'fɒ:njә",
+    "rank": 632,
+    "level": "beginner"
+  },
+  {
+    "word": "porn",
+    "chinese": "n. 色情描写, 黄色书刊, 色情画, 色情照片, 色情文学",
+    "ipa": "pɔ:n",
+    "rank": 633,
+    "level": "beginner"
+  },
+  {
+    "word": "share",
+    "chinese": "n. 部分, 参与, 一份, 参股, 份额",
+    "ipa": "ʃєә",
+    "rank": 634,
+    "level": "beginner"
+  },
+  {
+    "word": "similar",
+    "chinese": "a. 相似的, 类似的",
+    "ipa": "'similә",
+    "rank": 635,
+    "level": "beginner"
+  },
+  {
+    "word": "garden",
+    "chinese": "n. 花园, 果园, 菜园",
+    "ipa": "'gɑ:dn",
+    "rank": 636,
+    "level": "beginner"
+  },
+  {
+    "word": "schools",
+    "chinese": "n. 学校（school的复数形式）",
+    "ipa": "skulz",
+    "rank": 637,
+    "level": "beginner"
+  },
+  {
+    "word": "million",
+    "chinese": "n. 百万, 无数",
+    "ipa": "'miljәn",
+    "rank": 638,
+    "level": "beginner"
+  },
+  {
+    "word": "added",
+    "chinese": "a. 额外的",
+    "ipa": "'ædid",
+    "rank": 639,
+    "level": "beginner"
+  },
+  {
+    "word": "reference",
+    "chinese": "n. 参考, 索引, 参照",
+    "ipa": "'refәrәns",
+    "rank": 640,
+    "level": "beginner"
+  },
+  {
+    "word": "companies",
+    "chinese": "n. 公司, 企业",
+    "ipa": "ˈkəmpəˌniz",
+    "rank": 641,
+    "level": "beginner"
+  },
+  {
+    "word": "listed",
+    "chinese": "a. 列出的",
+    "ipa": "'listid",
+    "rank": 642,
+    "level": "beginner"
+  },
+  {
+    "word": "baby",
+    "chinese": "n. 婴孩",
+    "ipa": "'beibi",
+    "rank": 643,
+    "level": "beginner"
+  },
+  {
+    "word": "learning",
+    "chinese": "n. 学问, 学识, 学习",
+    "ipa": "'lә:niŋ",
+    "rank": 644,
+    "level": "beginner"
+  },
+  {
+    "word": "energy",
+    "chinese": "n. 精力, 精神, 活力, 能量",
+    "ipa": "'enәdʒi",
+    "rank": 645,
+    "level": "beginner"
+  },
+  {
+    "word": "run",
+    "chinese": "n. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续",
+    "ipa": "rʌn",
+    "rank": 646,
+    "level": "beginner"
+  },
+  {
+    "word": "delivery",
+    "chinese": "n. 递送, 交付, 分娩, 交货, 引渡",
+    "ipa": "di'livәri",
+    "rank": 647,
+    "level": "beginner"
+  },
+  {
+    "word": "net",
+    "chinese": "n. 网, 网状物, 罗网, 净利, 净价",
+    "ipa": "net",
+    "rank": 648,
+    "level": "beginner"
+  },
+  {
+    "word": "popular",
+    "chinese": "a. 通俗的, 流行的, 受欢迎的, 大众的, 人民的, 普及的",
+    "ipa": "'pɒpjulә",
+    "rank": 649,
+    "level": "beginner"
+  },
+  {
+    "word": "term",
+    "chinese": "n. 术语, 专有名词, 期限, 学期, 任期, 条件, 价钱, 关系, 地位, 项, 界石",
+    "ipa": "tә:m",
+    "rank": 650,
+    "level": "beginner"
+  },
+  {
+    "word": "film",
+    "chinese": "n. 软片, 薄膜, 胶卷, 电影",
+    "ipa": "film",
+    "rank": 651,
+    "level": "beginner"
+  },
+  {
+    "word": "stories",
+    "chinese": "n. 故事（story的复数）",
+    "ipa": "ˈstɔriz",
+    "rank": 652,
+    "level": "beginner"
+  },
+  {
+    "word": "put",
+    "chinese": "vt. 放, 摆, 安置, 移动, 发射, 投掷, 写上, 表达, 使从事, 使受到, 驱使, 赋予",
+    "ipa": "put",
+    "rank": 653,
+    "level": "beginner"
+  },
+  {
+    "word": "computers",
+    "chinese": "n. 计算机, 电脑（computer的复数）",
+    "ipa": "kəmˈpjutərz",
+    "rank": 654,
+    "level": "beginner"
+  },
+  {
+    "word": "journal",
+    "chinese": "n. 日记, 杂志, 日报",
+    "ipa": "'dʒә:nәl",
+    "rank": 655,
+    "level": "beginner"
+  },
+  {
+    "word": "reports",
+    "chinese": "n. 报表",
+    "ipa": "rɪˈpɔrts",
+    "rank": 656,
+    "level": "beginner"
+  },
+  {
+    "word": "co",
+    "chinese": "[医] 钴(27号元素)",
+    "ipa": "koʊ",
+    "rank": 657,
+    "level": "beginner"
+  },
+  {
+    "word": "try",
+    "chinese": "n. 尝试, 试验, 审理, 审判",
+    "ipa": "trai",
+    "rank": 658,
+    "level": "beginner"
+  },
+  {
+    "word": "welcome",
+    "chinese": "n. 欢迎, 欢迎词",
+    "ipa": "'welkәm",
+    "rank": 659,
+    "level": "beginner"
+  },
+  {
+    "word": "central",
+    "chinese": "a. 中央的, 重要的",
+    "ipa": "'sentrәl",
+    "rank": 660,
+    "level": "beginner"
+  },
+  {
+    "word": "images",
+    "chinese": "n. 图片",
+    "ipa": "ˈɪmɪʤɪz",
+    "rank": 661,
+    "level": "beginner"
+  },
+  {
+    "word": "president",
+    "chinese": "n. 总统, 总裁, 董事长, (学院)院长, (大学)校长, 主管人, 主持人",
+    "ipa": "'prezidәnt",
+    "rank": 662,
+    "level": "beginner"
+  },
+  {
+    "word": "notice",
+    "chinese": "n. 注意, 布告, 通知, 预告, 短评",
+    "ipa": "'nәutis",
+    "rank": 663,
+    "level": "beginner"
+  },
+  {
+    "word": "god",
+    "chinese": "n. 上帝, 神像, 偶像",
+    "ipa": "^ɔd",
+    "rank": 664,
+    "level": "beginner"
+  },
+  {
+    "word": "original",
+    "chinese": "a. 最初的, 原始的, 有创意的",
+    "ipa": "ә'ridʒәnl",
+    "rank": 665,
+    "level": "beginner"
+  },
+  {
+    "word": "head",
+    "chinese": "n. 头, 头脑, 领袖, 脑袋, 最前的部分",
+    "ipa": "hed",
+    "rank": 666,
+    "level": "beginner"
+  },
+  {
+    "word": "radio",
+    "chinese": "n. 无线电, 收音机, 无线电报, 无线电广播, 无线电台",
+    "ipa": "'reidiәu",
+    "rank": 667,
+    "level": "beginner"
+  },
+  {
+    "word": "until",
+    "chinese": "prep. 直到, 在...以前",
+    "ipa": "әn'til",
+    "rank": 668,
+    "level": "beginner"
+  },
+  {
+    "word": "cell",
+    "chinese": "n. 单元, 细胞, 电池",
+    "ipa": "sel",
+    "rank": 669,
+    "level": "beginner"
+  },
+  {
+    "word": "color",
+    "chinese": "n. 颜色, 面色, 颜料, 外貌",
+    "ipa": "'kʌlә",
+    "rank": 670,
+    "level": "beginner"
+  },
+  {
+    "word": "self",
+    "chinese": "n. 自己, 自我, 本性, 本质, 私心, 本人",
+    "ipa": "self",
+    "rank": 671,
+    "level": "beginner"
+  },
+  {
+    "word": "council",
+    "chinese": "n. 会议, 委员会",
+    "ipa": "'kaunsәl",
+    "rank": 672,
+    "level": "beginner"
+  },
+  {
+    "word": "away",
+    "chinese": "adv. 离去",
+    "ipa": "ә'wei",
+    "rank": 673,
+    "level": "beginner"
+  },
+  {
+    "word": "includes",
+    "chinese": "v. 包含",
+    "ipa": "ˌɪnˈkludz",
+    "rank": 674,
+    "level": "beginner"
+  },
+  {
+    "word": "track",
+    "chinese": "n. 轨迹, 足迹, 径迹, 小道, 轨道, 磁轨, 途径",
+    "ipa": "træk",
+    "rank": 675,
+    "level": "beginner"
+  },
+  {
+    "word": "australia",
+    "chinese": "n. 澳洲, 澳大利亚",
+    "ipa": "ɒ'streiljә",
+    "rank": 676,
+    "level": "beginner"
+  },
+  {
+    "word": "discussion",
+    "chinese": "n. 讨论",
+    "ipa": "dis'kʌʃәn",
+    "rank": 677,
+    "level": "beginner"
+  },
+  {
+    "word": "archive",
+    "chinese": "vt. 把...存档",
+    "ipa": "'ɑ:kaiv",
+    "rank": 678,
+    "level": "beginner"
+  },
+  {
+    "word": "once",
+    "chinese": "adv. 一次, 曾经, 一旦",
+    "ipa": "wʌns",
+    "rank": 679,
+    "level": "beginner"
+  },
+  {
+    "word": "others",
+    "chinese": "pron. 其他人",
+    "ipa": "ˈəðərz",
+    "rank": 680,
+    "level": "beginner"
+  },
+  {
+    "word": "entertainment",
+    "chinese": "n. 娱乐, 款待, 娱乐表演",
+    "ipa": ".entә'teinmәnt",
+    "rank": 681,
+    "level": "beginner"
+  },
+  {
+    "word": "agreement",
+    "chinese": "n. 同意, 合约, 协议",
+    "ipa": "ә'gri:mәnt",
+    "rank": 682,
+    "level": "beginner"
+  },
+  {
+    "word": "format",
+    "chinese": "n. 开本, 版式, 形式, 格式",
+    "ipa": "'fɒ:mæt",
+    "rank": 683,
+    "level": "beginner"
+  },
+  {
+    "word": "least",
+    "chinese": "n. 最少, 最小, 最小限度",
+    "ipa": "li:st",
+    "rank": 684,
+    "level": "beginner"
+  },
+  {
+    "word": "society",
+    "chinese": "n. 社会",
+    "ipa": "sә'saiәti",
+    "rank": 685,
+    "level": "beginner"
+  },
+  {
+    "word": "months",
+    "chinese": "月份（month的复数）",
+    "ipa": "mənθs",
+    "rank": 686,
+    "level": "beginner"
+  },
+  {
+    "word": "log",
+    "chinese": "n. 记录, 圆木, 日志, 计程仪",
+    "ipa": "lɒg",
+    "rank": 687,
+    "level": "beginner"
+  },
+  {
+    "word": "safety",
+    "chinese": "n. 安全, 保险, 平安, 保安设备",
+    "ipa": "'seifti",
+    "rank": 688,
+    "level": "beginner"
+  },
+  {
+    "word": "friends",
+    "chinese": "n. 老友记（剧集）",
+    "ipa": "frɛndz",
+    "rank": 689,
+    "level": "beginner"
+  },
+  {
+    "word": "sure",
+    "chinese": "a. 确信, 必然的, 必定的",
+    "ipa": "ʃuә",
+    "rank": 690,
+    "level": "beginner"
+  },
+  {
+    "word": "faq",
+    "chinese": "中等品, 码头交货(价格)",
+    "ipa": "faq",
+    "rank": 691,
+    "level": "beginner"
+  },
+  {
+    "word": "trade",
+    "chinese": "n. 贸易, 商业, 交易, 生意, 职业, 顾客, 信风",
+    "ipa": "treid",
+    "rank": 692,
+    "level": "beginner"
+  },
+  {
+    "word": "edition",
+    "chinese": "n. 版本, 版, 翻版",
+    "ipa": "i'diʃәn",
+    "rank": 693,
+    "level": "beginner"
+  },
+  {
+    "word": "cars",
+    "chinese": "abbr. 中美洲研究站（Central America Research Station）",
+    "ipa": "kɑz",
+    "rank": 694,
+    "level": "beginner"
+  },
+  {
+    "word": "messages",
+    "chinese": "n. 信息, 留言板（message的复数形式）",
+    "ipa": "ˈmɛsɪʤɪz",
+    "rank": 695,
+    "level": "beginner"
+  },
+  {
+    "word": "marketing",
+    "chinese": "n. 行销, 买卖",
+    "ipa": "'mɑ:kitiŋ",
+    "rank": 696,
+    "level": "beginner"
+  },
+  {
+    "word": "tell",
+    "chinese": "vt. 告诉, 说, 吩咐, 断定, 知道",
+    "ipa": "tel",
+    "rank": 697,
+    "level": "beginner"
+  },
+  {
+    "word": "further",
+    "chinese": "a. 更远的, 此外的, 更多的",
+    "ipa": "'fә:ðә",
+    "rank": 698,
+    "level": "beginner"
+  },
+  {
+    "word": "updated",
+    "chinese": "a. 更新的",
+    "ipa": "ʌp'deitid",
+    "rank": 699,
+    "level": "beginner"
+  },
+  {
+    "word": "association",
+    "chinese": "n. 协会",
+    "ipa": "ә.sәuʃә'eiʃәn",
+    "rank": 700,
+    "level": "beginner"
+  },
+  {
+    "word": "able",
+    "chinese": "a. 能干的, 能够的",
+    "ipa": "'eibl",
+    "rank": 701,
+    "level": "beginner"
+  },
+  {
+    "word": "having",
+    "chinese": "n. 财产, 所有物",
+    "ipa": "'hæviŋ",
+    "rank": 702,
+    "level": "beginner"
+  },
+  {
+    "word": "provides",
+    "chinese": "v. 提供, 供给, 供应( provide的第三人称单数 ); 规定; 提供[(+for)]; 装备",
+    "ipa": "prəˈvaidz",
+    "rank": 703,
+    "level": "beginner"
+  },
+  {
+    "word": "david",
+    "chinese": "n. 大卫",
+    "ipa": "'deivid",
+    "rank": 704,
+    "level": "beginner"
+  },
+  {
+    "word": "fun",
+    "chinese": "n. 乐趣, 玩笑, 娱乐",
+    "ipa": "fʌn",
+    "rank": 705,
+    "level": "beginner"
+  },
+  {
+    "word": "already",
+    "chinese": "adv. 已经, 早已",
+    "ipa": "ɒ:l'redi",
+    "rank": 706,
+    "level": "beginner"
+  },
+  {
+    "word": "green",
+    "chinese": "n. 绿色, 绿色颜料",
+    "ipa": "gri:n",
+    "rank": 707,
+    "level": "beginner"
+  },
+  {
+    "word": "studies",
+    "chinese": "n. 研究",
+    "ipa": "ˈstədiz",
+    "rank": 708,
+    "level": "beginner"
+  },
+  {
+    "word": "close",
+    "chinese": "n. 结束, 完结",
+    "ipa": "klәuz",
+    "rank": 709,
+    "level": "beginner"
+  },
+  {
+    "word": "common",
+    "chinese": "a. 通常的, 共同的, 通俗的, 公共的",
+    "ipa": "'kɒmәn",
+    "rank": 710,
+    "level": "beginner"
+  },
+  {
+    "word": "drive",
+    "chinese": "n. 驾车, 快车道, 推进力, 驱动, 动力, 击球, 驱动器",
+    "ipa": "draiv",
+    "rank": 711,
+    "level": "beginner"
+  },
+  {
+    "word": "specific",
+    "chinese": "n. 特效药, 特性",
+    "ipa": "spi'sifik",
+    "rank": 712,
+    "level": "beginner"
+  },
+  {
+    "word": "several",
+    "chinese": "a. 几个的, 一些的, 各自的",
+    "ipa": "'sevәrәl",
+    "rank": 713,
+    "level": "beginner"
+  },
+  {
+    "word": "gold",
+    "chinese": "n. 黄金, 钱财, 金块, 金色, 宝贵",
+    "ipa": "gәuld",
+    "rank": 714,
+    "level": "beginner"
+  },
+  {
+    "word": "feb",
+    "chinese": "abbr. 二月（February）",
+    "ipa": "ˈfɛbjəˌwɛri",
+    "rank": 715,
+    "level": "beginner"
+  },
+  {
+    "word": "living",
+    "chinese": "n. 生活, 生计, 生存",
+    "ipa": "'liviŋ",
+    "rank": 716,
+    "level": "beginner"
+  },
+  {
+    "word": "sep",
+    "chinese": "九月",
+    "ipa": "ˈɛˈsiˈpi",
+    "rank": 717,
+    "level": "beginner"
+  },
+  {
+    "word": "collection",
+    "chinese": "n. 收集, 采集, (一批)收藏品, 募捐",
+    "ipa": "kә'lekʃәn",
+    "rank": 718,
+    "level": "beginner"
+  },
+  {
+    "word": "called",
+    "chinese": "a. 被呼叫的",
+    "ipa": "kɔld",
+    "rank": 719,
+    "level": "beginner"
+  },
+  {
+    "word": "short",
+    "chinese": "a. 短的, 近的, 矮的, 短期的, 简短的, 少量的",
+    "ipa": "ʃɒ:t",
+    "rank": 720,
+    "level": "beginner"
+  },
+  {
+    "word": "arts",
+    "chinese": "n. 文科",
+    "ipa": "ɑ:ts",
+    "rank": 721,
+    "level": "beginner"
+  },
+  {
+    "word": "lot",
+    "chinese": "n. 运气, 签, 抽签, 份额, 许多, 一堆",
+    "ipa": "lɒt",
+    "rank": 722,
+    "level": "beginner"
+  },
+  {
+    "word": "ask",
+    "chinese": "vi. 问, 要求",
+    "ipa": "ɑ:sk",
+    "rank": 723,
+    "level": "beginner"
+  },
+  {
+    "word": "display",
+    "chinese": "n. 显示, 陈列, 炫耀, 显示器",
+    "ipa": "dis'plei",
+    "rank": 724,
+    "level": "beginner"
+  },
+  {
+    "word": "limited",
+    "chinese": "a. 有限制的, 有限的, 有限责任的",
+    "ipa": "'limitid",
+    "rank": 725,
+    "level": "beginner"
+  },
+  {
+    "word": "powered",
+    "chinese": "a. 有动力装置的, 用动力推动的, 产生动力的, 产生...动力的",
+    "ipa": "'pauәd",
+    "rank": 726,
+    "level": "beginner"
+  },
+  {
+    "word": "solutions",
+    "chinese": "n. 解决方案",
+    "ipa": "səˈluʃənz",
+    "rank": 727,
+    "level": "beginner"
+  },
+  {
+    "word": "means",
+    "chinese": "n. 方法, 手段, 工具, 财产, 收入",
+    "ipa": "mi:nz",
+    "rank": 728,
+    "level": "beginner"
+  },
+  {
+    "word": "director",
+    "chinese": "n. 主管, 导演, 董事",
+    "ipa": "di'rektә",
+    "rank": 729,
+    "level": "beginner"
+  },
+  {
+    "word": "daily",
+    "chinese": "a. 每日的, 日常的",
+    "ipa": "'deili",
+    "rank": 730,
+    "level": "beginner"
+  },
+  {
+    "word": "beach",
+    "chinese": "n. 海滩",
+    "ipa": "bi:tʃ",
+    "rank": 731,
+    "level": "beginner"
+  },
+  {
+    "word": "past",
+    "chinese": "n. 过去, 昔时, 往事, 早年经历, 过去时",
+    "ipa": "pɑ:st",
+    "rank": 732,
+    "level": "beginner"
+  },
+  {
+    "word": "natural",
+    "chinese": "n. 白痴",
+    "ipa": "'nætʃәrәl",
+    "rank": 733,
+    "level": "beginner"
+  },
+  {
+    "word": "whether",
+    "chinese": "conj. 是否, 不论",
+    "ipa": "'hweðә",
+    "rank": 734,
+    "level": "beginner"
+  },
+  {
+    "word": "due",
+    "chinese": "n. 应得的东西, 应付款",
+    "ipa": "dju:",
+    "rank": 735,
+    "level": "beginner"
+  },
+  {
+    "word": "et",
+    "chinese": "[化] 乙基",
+    "ipa": "'i:ti:",
+    "rank": 736,
+    "level": "beginner"
+  },
+  {
+    "word": "electronics",
+    "chinese": "n. 电子学",
+    "ipa": ".ilek'trɒniks",
+    "rank": 737,
+    "level": "beginner"
+  },
+  {
+    "word": "five",
+    "chinese": "num. 五, 五个",
+    "ipa": "faiv",
+    "rank": 738,
+    "level": "beginner"
+  },
+  {
+    "word": "upon",
+    "chinese": "prep. 在...之上, 迫近, 紧接着",
+    "ipa": "ә'pɒn",
+    "rank": 739,
+    "level": "beginner"
+  },
+  {
+    "word": "period",
+    "chinese": "n. 时期, 节段, 节, 句点, 学时, 周期",
+    "ipa": "'piәriәd",
+    "rank": 740,
+    "level": "beginner"
+  },
+  {
+    "word": "planning",
+    "chinese": "n. 计划的制订, 策划, 设计, 规划",
+    "ipa": "ˈplænɪŋ",
+    "rank": 741,
+    "level": "beginner"
+  },
+  {
+    "word": "database",
+    "chinese": "n. 数据库",
+    "ipa": "'deitәbeis",
+    "rank": 742,
+    "level": "beginner"
+  },
+  {
+    "word": "says",
+    "chinese": "v. 说（第三人称单数）",
+    "ipa": "sez",
+    "rank": 743,
+    "level": "beginner"
+  },
+  {
+    "word": "official",
+    "chinese": "n. 官员, 公务员, 职员",
+    "ipa": "ә'fiʃәl",
+    "rank": 744,
+    "level": "beginner"
+  },
+  {
+    "word": "weather",
+    "chinese": "n. 天气, 气象, 处境",
+    "ipa": "'weðә",
+    "rank": 745,
+    "level": "beginner"
+  },
+  {
+    "word": "mar",
+    "chinese": "vt. 损毁, 损伤, 糟蹋",
+    "ipa": "mɑ:",
+    "rank": 746,
+    "level": "beginner"
+  },
+  {
+    "word": "land",
+    "chinese": "n. 陆地, 地面, 地界, 地产, 国土, 土地",
+    "ipa": "lænd",
+    "rank": 747,
+    "level": "beginner"
+  },
+  {
+    "word": "average",
+    "chinese": "n. 平均, 平均数, 一般水平, 海损",
+    "ipa": "'ævәridʒ",
+    "rank": 748,
+    "level": "beginner"
+  },
+  {
+    "word": "done",
+    "chinese": "a. 完成了的, 好了的",
+    "ipa": "dʌn",
+    "rank": 749,
+    "level": "beginner"
+  },
+  {
+    "word": "technical",
+    "chinese": "a. 技术上的, 专门的, 工业的, 严格根据法律的",
+    "ipa": "'teknikl",
+    "rank": 750,
+    "level": "beginner"
+  },
+  {
+    "word": "window",
+    "chinese": "n. 窗户, 窗子, 窗口",
+    "ipa": "'windәu",
+    "rank": 751,
+    "level": "beginner"
+  },
+  {
+    "word": "france",
+    "chinese": "n. 法国",
+    "ipa": "frɑ:ns",
+    "rank": 752,
+    "level": "beginner"
+  },
+  {
+    "word": "pro",
+    "chinese": "adv. 正面地",
+    "ipa": "prәu",
+    "rank": 753,
+    "level": "beginner"
+  },
+  {
+    "word": "region",
+    "chinese": "n. 区域, 地带, 地区, 领域, 范围, 区",
+    "ipa": "'ri:dʒәn",
+    "rank": 754,
+    "level": "beginner"
+  },
+  {
+    "word": "island",
+    "chinese": "n. 岛, 岛屿, 孤立地区, 安全岛",
+    "ipa": "'ailәnd",
+    "rank": 755,
+    "level": "beginner"
+  },
+  {
+    "word": "record",
+    "chinese": "n. 记录, 履历, 档案, 审判记录, 最高纪录, 唱片",
+    "ipa": "ri'kɒ:d",
+    "rank": 756,
+    "level": "beginner"
+  },
+  {
+    "word": "direct",
+    "chinese": "a. 直接的, 坦白的",
+    "ipa": "di'rekt",
+    "rank": 757,
+    "level": "beginner"
+  },
+  {
+    "word": "microsoft",
+    "chinese": "n. (美国)微软公司",
+    "ipa": "ˈmaɪˌkroʊˈsɔft",
+    "rank": 758,
+    "level": "beginner"
+  },
+  {
+    "word": "conference",
+    "chinese": "n. 会议",
+    "ipa": "'kɒnfәrәns",
+    "rank": 759,
+    "level": "beginner"
+  },
+  {
+    "word": "environment",
+    "chinese": "n. 环境, 外界, 围绕",
+    "ipa": "in'vairәnmәnt",
+    "rank": 760,
+    "level": "beginner"
+  },
+  {
+    "word": "records",
+    "chinese": "n. 记录, 录音",
+    "ipa": "ˈrɛkərdz",
+    "rank": 761,
+    "level": "beginner"
+  },
+  {
+    "word": "st",
+    "chinese": "[计] 段表, 状态, 系统测试, 直端连接器",
+    "ipa": "st",
+    "rank": 762,
+    "level": "beginner"
+  },
+  {
+    "word": "district",
+    "chinese": "n. 区域, 地方",
+    "ipa": "'distrikt",
+    "rank": 763,
+    "level": "beginner"
+  },
+  {
+    "word": "calendar",
+    "chinese": "n. 日历, 日程表",
+    "ipa": "'kælindә",
+    "rank": 764,
+    "level": "beginner"
+  },
+  {
+    "word": "costs",
+    "chinese": "n. 费用",
+    "ipa": "kɔsts",
+    "rank": 765,
+    "level": "beginner"
+  },
+  {
+    "word": "style",
+    "chinese": "n. 风格, 时尚, 文体, 风度, 字体, 类型",
+    "ipa": "stail",
+    "rank": 766,
+    "level": "beginner"
+  },
+  {
+    "word": "url",
+    "chinese": "[计] 统一资源定位器, 通用资源定位设备标准",
+    "ipa": "url",
+    "rank": 767,
+    "level": "beginner"
+  },
+  {
+    "word": "front",
+    "chinese": "n. 前面, 开头, 前线, 阵线, 态度",
+    "ipa": "frʌnt",
+    "rank": 768,
+    "level": "beginner"
+  },
+  {
+    "word": "statement",
+    "chinese": "n. 陈述, 指令, 声明",
+    "ipa": "'steitmәnt",
+    "rank": 769,
+    "level": "beginner"
+  },
+  {
+    "word": "update",
+    "chinese": "vt. 更新, 使现代化",
+    "ipa": "ʌp'deit",
+    "rank": 770,
+    "level": "beginner"
+  },
+  {
+    "word": "parts",
+    "chinese": "n. 零件, 部件",
+    "ipa": "pɑ:ts",
+    "rank": 771,
+    "level": "beginner"
+  },
+  {
+    "word": "aug",
+    "chinese": "abbr. 八月（August）",
+    "ipa": "ˈɔgəst",
+    "rank": 772,
+    "level": "beginner"
+  },
+  {
+    "word": "ever",
+    "chinese": "adv. 曾经, 究竟, 永远",
+    "ipa": "'evә",
+    "rank": 773,
+    "level": "beginner"
+  },
+  {
+    "word": "downloads",
+    "chinese": "n. 下载（download的复数）",
+    "ipa": "ˈdaʊnˌloʊdz",
+    "rank": 774,
+    "level": "beginner"
+  },
+  {
+    "word": "early",
+    "chinese": "a. 早的, 早熟的",
+    "ipa": "'ә:li",
+    "rank": 775,
+    "level": "beginner"
+  },
+  {
+    "word": "miles",
+    "chinese": "n. 英里（1英里约合1609米, mile的复数形式）",
+    "ipa": "maɪəlz",
+    "rank": 776,
+    "level": "beginner"
+  },
+  {
+    "word": "sound",
+    "chinese": "n. 声音, 语音, 吵闹, 声调, 听力范围, 探条, 海峡",
+    "ipa": "saund",
+    "rank": 777,
+    "level": "beginner"
+  },
+  {
+    "word": "resource",
+    "chinese": "n. 资源, 财力, 办法, 策略, 急智, 消遣",
+    "ipa": "ri'sɒ:s",
+    "rank": 778,
+    "level": "beginner"
+  },
+  {
+    "word": "present",
+    "chinese": "n. 现在, 礼品, 瞄准",
+    "ipa": "'preznt",
+    "rank": 779,
+    "level": "beginner"
+  },
+  {
+    "word": "applications",
+    "chinese": "n. 应用",
+    "ipa": "ˌæpləˈkeɪʃənz",
+    "rank": 780,
+    "level": "beginner"
+  },
+  {
+    "word": "either",
+    "chinese": "a. (两者之中)任一的, (两者之中)各一的",
+    "ipa": "'i:ðә",
+    "rank": 781,
+    "level": "beginner"
+  },
+  {
+    "word": "ago",
+    "chinese": "adv. 以前",
+    "ipa": "ә'gәu",
+    "rank": 782,
+    "level": "beginner"
+  },
+  {
+    "word": "document",
+    "chinese": "n. 文件, 公文, 文档",
+    "ipa": "'dɒkjumәnt",
+    "rank": 783,
+    "level": "beginner"
+  },
+  {
+    "word": "word",
+    "chinese": "n. 话, 消息, 词, 诺言, 命令",
+    "ipa": "wә:d",
+    "rank": 784,
+    "level": "beginner"
+  },
+  {
+    "word": "works",
+    "chinese": "n. 工程, 工厂, 工事, 活动部件, 机件, 著作, 作品, 善行, 德行",
+    "ipa": "wərks",
+    "rank": 785,
+    "level": "beginner"
+  },
+  {
+    "word": "material",
+    "chinese": "n. 材料, 物资, 素材, 布料, 资料",
+    "ipa": "mә'tiәriәl",
+    "rank": 786,
+    "level": "beginner"
+  },
+  {
+    "word": "bill",
+    "chinese": "n. 帐单, 清单, 钞票, 鸟嘴, 广告, 法案, 票据",
+    "ipa": "bil",
+    "rank": 787,
+    "level": "beginner"
+  },
+  {
+    "word": "apr",
+    "chinese": "[计] 替换通路再试器",
+    "ipa": "apr",
+    "rank": 788,
+    "level": "beginner"
+  },
+  {
+    "word": "written",
+    "chinese": "a. 书面的, 写成文字的",
+    "ipa": "'ritn",
+    "rank": 789,
+    "level": "beginner"
+  },
+  {
+    "word": "talk",
+    "chinese": "n. 谈话, 交谈, 会谈, 讲话, 演讲, 空谈, 谣言, 方言, 语言",
+    "ipa": "tɒ:k",
+    "rank": 790,
+    "level": "beginner"
+  },
+  {
+    "word": "federal",
+    "chinese": "a. 联邦的, 联合的, 同盟的",
+    "ipa": "'fedәrәl",
+    "rank": 791,
+    "level": "beginner"
+  },
+  {
+    "word": "hosting",
+    "chinese": "n. 作战",
+    "ipa": "'hәustiŋ",
+    "rank": 792,
+    "level": "beginner"
+  },
+  {
+    "word": "rules",
+    "chinese": "n. 规则",
+    "ipa": "rulz",
+    "rank": 793,
+    "level": "beginner"
+  },
+  {
+    "word": "final",
+    "chinese": "n. 期末考试, 结局, 决赛",
+    "ipa": "'fainl",
+    "rank": 794,
+    "level": "beginner"
+  },
+  {
+    "word": "adult",
+    "chinese": "n. 成人, 成虫",
+    "ipa": "'ædʌlt",
+    "rank": 795,
+    "level": "beginner"
+  },
+  {
+    "word": "tickets",
+    "chinese": "n. 票",
+    "ipa": "ˈtɪkɪts",
+    "rank": 796,
+    "level": "beginner"
+  },
+  {
+    "word": "thing",
+    "chinese": "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+    "ipa": "θiŋ",
+    "rank": 797,
+    "level": "beginner"
+  },
+  {
+    "word": "centre",
+    "chinese": "n. 中心, 中心点, 中锋",
+    "ipa": "'sentә",
+    "rank": 798,
+    "level": "beginner"
+  },
+  {
+    "word": "requirements",
+    "chinese": "n. 调整需要量, 必需品",
+    "ipa": "rɪkˈwaɪrmənts",
+    "rank": 799,
+    "level": "beginner"
+  },
+  {
+    "word": "via",
+    "chinese": "prep. 经由, 经过, 通过",
+    "ipa": "vaiә",
+    "rank": 800,
+    "level": "beginner"
+  },
+  {
+    "word": "cheap",
+    "chinese": "a. 便宜的, 不值钱的, 可鄙的",
+    "ipa": "tʃi:p",
+    "rank": 801,
+    "level": "beginner"
+  },
+  {
+    "word": "nude",
+    "chinese": "a. 裸的, 肉色的, 无装饰的",
+    "ipa": "nju:d",
+    "rank": 802,
+    "level": "beginner"
+  },
+  {
+    "word": "kids",
+    "chinese": "n. 小山羊",
+    "ipa": "kɪdz",
+    "rank": 803,
+    "level": "beginner"
+  },
+  {
+    "word": "finance",
+    "chinese": "n. 财政, 财务",
+    "ipa": "fai'næns",
+    "rank": 804,
+    "level": "beginner"
+  },
+  {
+    "word": "true",
+    "chinese": "a. 真实的, 正确的, 忠诚的, 可靠的, 纯粹的, 正式的",
+    "ipa": "tru:",
+    "rank": 805,
+    "level": "beginner"
+  },
+  {
+    "word": "minutes",
+    "chinese": "n. 会议记录",
+    "ipa": "ˈmɪnəts",
+    "rank": 806,
+    "level": "beginner"
+  },
+  {
+    "word": "else",
+    "chinese": "a. 别的, 其他的",
+    "ipa": "els",
+    "rank": 807,
+    "level": "beginner"
+  },
+  {
+    "word": "mark",
+    "chinese": "n. 标志, 分数, 马克, 痕迹, 斑点, 靶子, 刻度, 记号, 符号, 戳记, 标准, 起跑线",
+    "ipa": "mɑ:k",
+    "rank": 808,
+    "level": "beginner"
+  },
+  {
+    "word": "third",
+    "chinese": "num. 第三, 三分之一",
+    "ipa": "θә:d",
+    "rank": 809,
+    "level": "beginner"
+  },
+  {
+    "word": "rock",
+    "chinese": "n. 岩石, 岩礁, 石头, 基石, 暗礁, 摇动, 摇滚乐",
+    "ipa": "rɒk",
+    "rank": 810,
+    "level": "beginner"
+  },
+  {
+    "word": "gifts",
+    "chinese": "n. 礼品, 赠品",
+    "ipa": "gɪfts",
+    "rank": 811,
+    "level": "beginner"
+  },
+  {
+    "word": "europe",
+    "chinese": "n. 欧洲",
+    "ipa": "'juәrәp",
+    "rank": 812,
+    "level": "beginner"
+  },
+  {
+    "word": "reading",
+    "chinese": "n. 阅读, 知识, 读物",
+    "ipa": "'ri:diŋ",
+    "rank": 813,
+    "level": "beginner"
+  },
+  {
+    "word": "topics",
+    "chinese": "abbr. 总联机程序和信息控制系统（Total On-line Program and Information Control System）",
+    "ipa": "ˈtɑpɪks",
+    "rank": 814,
+    "level": "beginner"
+  },
+  {
+    "word": "bad",
+    "chinese": "a. 坏的",
+    "ipa": "bæd",
+    "rank": 815,
+    "level": "beginner"
+  },
+  {
+    "word": "individual",
+    "chinese": "n. 人, 个人, 个体",
+    "ipa": ".indi'vidʒuәl",
+    "rank": 816,
+    "level": "beginner"
+  },
+  {
+    "word": "tips",
+    "chinese": "n. 秘诀, 技巧",
+    "ipa": "tɪps",
+    "rank": 817,
+    "level": "beginner"
+  },
+  {
+    "word": "plus",
+    "chinese": "prep. 加上, 加, 外加",
+    "ipa": "plʌs",
+    "rank": 818,
+    "level": "beginner"
+  },
+  {
+    "word": "auto",
+    "chinese": "n. 汽车",
+    "ipa": "'ɒ:tәu",
+    "rank": 819,
+    "level": "beginner"
+  },
+  {
+    "word": "cover",
+    "chinese": "n. 盖子, 封面, 藉口",
+    "ipa": "'kʌvә",
+    "rank": 820,
+    "level": "beginner"
+  },
+  {
+    "word": "usually",
+    "chinese": "adv. 通常, 大抵",
+    "ipa": "'ju:ʒuәli",
+    "rank": 821,
+    "level": "beginner"
+  },
+  {
+    "word": "edit",
+    "chinese": "vt. 编辑, 编校, 修订, 剪辑",
+    "ipa": "'edit",
+    "rank": 822,
+    "level": "beginner"
+  },
+  {
+    "word": "together",
+    "chinese": "adv. 一起, 共同, 彼此",
+    "ipa": "tә'geðә",
+    "rank": 823,
+    "level": "beginner"
+  },
+  {
+    "word": "videos",
+    "chinese": "n. 视频文件",
+    "ipa": "ˈvɪdioʊz",
+    "rank": 824,
+    "level": "beginner"
+  },
+  {
+    "word": "percent",
+    "chinese": "n. 百分比, 百分数, 部分",
+    "ipa": "pә'sent",
+    "rank": 825,
+    "level": "beginner"
+  },
+  {
+    "word": "fast",
+    "chinese": "a. 快速的, 紧的",
+    "ipa": "fɑ:st",
+    "rank": 826,
+    "level": "beginner"
+  },
+  {
+    "word": "function",
+    "chinese": "n. 官能, 职务, 功能, 函数",
+    "ipa": "'fʌŋkʃәn",
+    "rank": 827,
+    "level": "beginner"
+  },
+  {
+    "word": "fact",
+    "chinese": "n. 事实, 真实性, 真相, 细节, 论据",
+    "ipa": "fækt",
+    "rank": 828,
+    "level": "beginner"
+  },
+  {
+    "word": "unit",
+    "chinese": "n. 单位, 分队, 部队, 单元, 部件, 装置",
+    "ipa": "'ju:nit",
+    "rank": 829,
+    "level": "beginner"
+  },
+  {
+    "word": "getting",
+    "chinese": "n. 采煤, 采掘",
+    "ipa": "'^etiŋ",
+    "rank": 830,
+    "level": "beginner"
+  },
+  {
+    "word": "global",
+    "chinese": "a. 通用的, 全球的, 球形的, 综合的, 普遍的",
+    "ipa": "'glәubl",
+    "rank": 831,
+    "level": "beginner"
+  },
+  {
+    "word": "tech",
+    "chinese": "n. 技术学院或学校",
+    "ipa": "tek",
+    "rank": 832,
+    "level": "beginner"
+  },
+  {
+    "word": "meet",
+    "chinese": "n. 会, 集会",
+    "ipa": "mi:t",
+    "rank": 833,
+    "level": "beginner"
+  },
+  {
+    "word": "far",
+    "chinese": "a. 远的, 久远的, 遥远的",
+    "ipa": "fɑ:",
+    "rank": 834,
+    "level": "beginner"
+  },
+  {
+    "word": "economic",
+    "chinese": "a. 经济上的, 实用的, 节省的",
+    "ipa": ".i:kә'nɒmik",
+    "rank": 835,
+    "level": "beginner"
+  },
+  {
+    "word": "en",
+    "chinese": "n. 字母N, (铅字)半方",
+    "ipa": "en",
+    "rank": 836,
+    "level": "beginner"
+  },
+  {
+    "word": "player",
+    "chinese": "n. 竞赛者, 上场队员, 游戏者, 演员",
+    "ipa": "'pleiә",
+    "rank": 837,
+    "level": "beginner"
+  },
+  {
+    "word": "projects",
+    "chinese": "n. 项目",
+    "ipa": "ˈprɑʤɛkts",
+    "rank": 838,
+    "level": "beginner"
+  },
+  {
+    "word": "lyrics",
+    "chinese": "n. 歌词",
+    "ipa": "ˈlɪrɪks",
+    "rank": 839,
+    "level": "beginner"
+  },
+  {
+    "word": "often",
+    "chinese": "adv. 时常, 常常",
+    "ipa": "'ɒ:fn",
+    "rank": 840,
+    "level": "beginner"
+  },
+  {
+    "word": "subscribe",
+    "chinese": "vt. 捐献, 签署",
+    "ipa": "sәb'skraib",
+    "rank": 841,
+    "level": "beginner"
+  },
+  {
+    "word": "submit",
+    "chinese": "vt. 使服从, 使受到, 委托, 提交, 认为",
+    "ipa": "sәb'mit",
+    "rank": 842,
+    "level": "beginner"
+  },
+  {
+    "word": "germany",
+    "chinese": "n. 德国",
+    "ipa": "'dʒә:mәni",
+    "rank": 843,
+    "level": "beginner"
+  },
+  {
+    "word": "amount",
+    "chinese": "n. 总数, 总额",
+    "ipa": "ә'maunt",
+    "rank": 844,
+    "level": "beginner"
+  },
+  {
+    "word": "watch",
+    "chinese": "n. 观察, 手表, 看守, 守护, 监视, 值班人",
+    "ipa": "wɒtʃ",
+    "rank": 845,
+    "level": "beginner"
+  },
+  {
+    "word": "included",
+    "chinese": "a. 包括在内",
+    "ipa": "in'klu:did",
+    "rank": 846,
+    "level": "beginner"
+  },
+  {
+    "word": "feel",
+    "chinese": "vt. 感觉, 觉得, 触摸, 以为",
+    "ipa": "fi:l",
+    "rank": 847,
+    "level": "beginner"
+  },
+  {
+    "word": "though",
+    "chinese": "adv. 然而, 可是",
+    "ipa": "ðәu",
+    "rank": 848,
+    "level": "beginner"
+  },
+  {
+    "word": "bank",
+    "chinese": "n. 银行, 堤, 岸",
+    "ipa": "bæŋk",
+    "rank": 849,
+    "level": "beginner"
+  },
+  {
+    "word": "risk",
+    "chinese": "n. 冒险, 危险, 保险额",
+    "ipa": "risk",
+    "rank": 850,
+    "level": "beginner"
+  },
+  {
+    "word": "thanks",
+    "chinese": "n. 感谢, 谢意, 谢忱",
+    "ipa": "θæŋks",
+    "rank": 851,
+    "level": "beginner"
+  },
+  {
+    "word": "everything",
+    "chinese": "pron. 每件事物, 所有事物",
+    "ipa": "'evriθiŋ",
+    "rank": 852,
+    "level": "beginner"
+  },
+  {
+    "word": "deals",
+    "chinese": "n. 协约",
+    "ipa": "dilz",
+    "rank": 853,
+    "level": "beginner"
+  },
+  {
+    "word": "various",
+    "chinese": "a. 不同的, 各种的, 多方面的, 许多的, 个别的, 杂色的",
+    "ipa": "'vєәriәs",
+    "rank": 854,
+    "level": "beginner"
+  },
+  {
+    "word": "words",
+    "chinese": "n. 言语",
+    "ipa": "wərdz",
+    "rank": 855,
+    "level": "beginner"
+  },
+  {
+    "word": "linux",
+    "chinese": "n. 一个个人电脑上免费的UNIX操作系统",
+    "ipa": "ˈlɪnəks",
+    "rank": 856,
+    "level": "beginner"
+  },
+  {
+    "word": "jul",
+    "chinese": "七月",
+    "ipa": "jul",
+    "rank": 857,
+    "level": "beginner"
+  },
+  {
+    "word": "production",
+    "chinese": "n. 制造, 生产, 产物",
+    "ipa": "prә'dʌkʃәn",
+    "rank": 858,
+    "level": "beginner"
+  },
+  {
+    "word": "commercial",
+    "chinese": "a. 商业的, 商用的, 商品化的",
+    "ipa": "kә'mә:ʃәl",
+    "rank": 859,
+    "level": "beginner"
+  },
+  {
+    "word": "james",
+    "chinese": "n. 詹姆斯（姓氏, 男子名）",
+    "ipa": "dʒeimz",
+    "rank": 860,
+    "level": "beginner"
+  },
+  {
+    "word": "weight",
+    "chinese": "n. 重, 重量, 体重, 砝码, 重大, 影响, 力量",
+    "ipa": "weit",
+    "rank": 861,
+    "level": "beginner"
+  },
+  {
+    "word": "town",
+    "chinese": "n. 城镇, 市, 镇",
+    "ipa": "taun",
+    "rank": 862,
+    "level": "beginner"
+  },
+  {
+    "word": "heart",
+    "chinese": "n. 心, 心脏, 中心, 内心, 感情, 精神, 心情, 宝贝儿",
+    "ipa": "hɑ:t",
+    "rank": 863,
+    "level": "beginner"
+  },
+  {
+    "word": "advertising",
+    "chinese": "n. 广告业, 广告",
+    "ipa": "'ædvәtaiziŋ",
+    "rank": 864,
+    "level": "beginner"
+  },
+  {
+    "word": "received",
+    "chinese": "a. 被一般承认的, 公认的",
+    "ipa": "ri'si:vd",
+    "rank": 865,
+    "level": "beginner"
+  },
+  {
+    "word": "choose",
+    "chinese": "vt. 选择, 宁愿, 欲",
+    "ipa": "tʃu:z",
+    "rank": 866,
+    "level": "beginner"
+  },
+  {
+    "word": "treatment",
+    "chinese": "n. 治疗, 待遇, 处理",
+    "ipa": "'tri:tmәnt",
+    "rank": 867,
+    "level": "beginner"
+  },
+  {
+    "word": "newsletter",
+    "chinese": "n. 时事通讯, 业务通讯, 时事传报",
+    "ipa": "'nju:z.letә",
+    "rank": 868,
+    "level": "beginner"
+  },
+  {
+    "word": "archives",
+    "chinese": "n. 档案, 档案室",
+    "ipa": "'ɑ:kaivz",
+    "rank": 869,
+    "level": "beginner"
+  },
+  {
+    "word": "points",
+    "chinese": "n. 转轨器, 道岔",
+    "ipa": "pɔɪnts",
+    "rank": 870,
+    "level": "beginner"
+  },
+  {
+    "word": "knowledge",
+    "chinese": "n. 知识, 学问, 认识, 知道",
+    "ipa": "'nɒlidʒ",
+    "rank": 871,
+    "level": "beginner"
+  },
+  {
+    "word": "magazine",
+    "chinese": "n. 杂志, 仓库, 弹盒, 胶卷盒",
+    "ipa": ".mægә'zi:n",
+    "rank": 872,
+    "level": "beginner"
+  },
+  {
+    "word": "error",
+    "chinese": "n. 错误, 过失, 失误, 误差",
+    "ipa": "'erә",
+    "rank": 873,
+    "level": "beginner"
+  },
+  {
+    "word": "camera",
+    "chinese": "n. 照相机, 摄影机, 密谈室, 暗箱",
+    "ipa": "'kæmәrә",
+    "rank": 874,
+    "level": "beginner"
+  },
+  {
+    "word": "jun",
+    "chinese": "六月",
+    "ipa": "dʒʌn",
+    "rank": 875,
+    "level": "beginner"
+  },
+  {
+    "word": "girl",
+    "chinese": "n. 女孩, 少女, 女佣",
+    "ipa": "gә:l",
+    "rank": 876,
+    "level": "beginner"
+  },
+  {
+    "word": "currently",
+    "chinese": "adv. 现在, 当前, 一般, 普通",
+    "ipa": "'kʌrәntli",
+    "rank": 877,
+    "level": "beginner"
+  },
+  {
+    "word": "construction",
+    "chinese": "n. 建筑, 构造, 建筑物",
+    "ipa": "kәn'strʌkʃәn",
+    "rank": 878,
+    "level": "beginner"
+  },
+  {
+    "word": "toys",
+    "chinese": "n. 玩具（toy的复数）",
+    "ipa": "tɔɪz",
+    "rank": 879,
+    "level": "beginner"
+  },
+  {
+    "word": "registered",
+    "chinese": "a. 注册的, 登记过的, 记名的, 挂号的",
+    "ipa": "'redʒistәd",
+    "rank": 880,
+    "level": "beginner"
+  },
+  {
+    "word": "clear",
+    "chinese": "a. 清楚的, 明确的, 澄清的",
+    "ipa": "kliә",
+    "rank": 881,
+    "level": "beginner"
+  },
+  {
+    "word": "golf",
+    "chinese": "n. 高尔夫球",
+    "ipa": "gɒlf",
+    "rank": 882,
+    "level": "beginner"
+  },
+  {
+    "word": "receive",
+    "chinese": "vt. 收到, 接到, 得到, 接待, 迎接, 承受",
+    "ipa": "ri'si:v",
+    "rank": 883,
+    "level": "beginner"
+  },
+  {
+    "word": "domain",
+    "chinese": "n. 领域, 领土, 产业, 范围",
+    "ipa": "dәu'mein",
+    "rank": 884,
+    "level": "beginner"
+  },
+  {
+    "word": "methods",
+    "chinese": "n. 方法, 方式",
+    "ipa": "ˈmɛθədz",
+    "rank": 885,
+    "level": "beginner"
+  },
+  {
+    "word": "chapter",
+    "chinese": "n. 章, 篇, 重要章节",
+    "ipa": "'tʃæptә",
+    "rank": 886,
+    "level": "beginner"
+  },
+  {
+    "word": "makes",
+    "chinese": "v. 做, 制作（make的第三人称单数）",
+    "ipa": "meɪks",
+    "rank": 887,
+    "level": "beginner"
+  },
+  {
+    "word": "protection",
+    "chinese": "n. 保护, 防卫, 贸易保护制度",
+    "ipa": "prә'tekʃәn",
+    "rank": 888,
+    "level": "beginner"
+  },
+  {
+    "word": "policies",
+    "chinese": "n. 政策",
+    "ipa": "ˈpɑləsiz",
+    "rank": 889,
+    "level": "beginner"
+  },
+  {
+    "word": "loan",
+    "chinese": "n. 贷款, 借出",
+    "ipa": "lәun",
+    "rank": 890,
+    "level": "beginner"
+  },
+  {
+    "word": "wide",
+    "chinese": "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的",
+    "ipa": "waid",
+    "rank": 891,
+    "level": "beginner"
+  },
+  {
+    "word": "beauty",
+    "chinese": "n. 美, 美人",
+    "ipa": "'bju:ti",
+    "rank": 892,
+    "level": "beginner"
+  },
+  {
+    "word": "manager",
+    "chinese": "n. 经理, 管理员, 管理器",
+    "ipa": "'mænidʒә",
+    "rank": 893,
+    "level": "beginner"
+  },
+  {
+    "word": "india",
+    "chinese": "n. 印度",
+    "ipa": "'indjә",
+    "rank": 894,
+    "level": "beginner"
+  },
+  {
+    "word": "position",
+    "chinese": "n. 位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地",
+    "ipa": "pә'ziʃәn",
+    "rank": 895,
+    "level": "beginner"
+  },
+  {
+    "word": "taken",
+    "chinese": "take的过去分词",
+    "ipa": "'teikәn",
+    "rank": 896,
+    "level": "beginner"
+  },
+  {
+    "word": "sort",
+    "chinese": "n. 种类, 方式, 品质, 态度, 举止",
+    "ipa": "sɒ:t",
+    "rank": 897,
+    "level": "beginner"
+  },
+  {
+    "word": "listings",
+    "chinese": "表",
+    "ipa": "ˈlɪstɪŋz",
+    "rank": 898,
+    "level": "beginner"
+  },
+  {
+    "word": "models",
+    "chinese": "n. 模型( model的名词复数 ); 模特儿; 模式; 典型",
+    "ipa": "'mɒdlz",
+    "rank": 899,
+    "level": "beginner"
+  },
+  {
+    "word": "michael",
+    "chinese": "n. 迈克尔（男子名）",
+    "ipa": "'maikl",
+    "rank": 900,
+    "level": "beginner"
+  },
+  {
+    "word": "known",
+    "chinese": "a. 已知的, 有名的",
+    "ipa": "nәun",
+    "rank": 901,
+    "level": "beginner"
+  },
+  {
+    "word": "half",
+    "chinese": "n. 一半, 半场, 不完全",
+    "ipa": "hɑ:f",
+    "rank": 902,
+    "level": "beginner"
+  },
+  {
+    "word": "cases",
+    "chinese": "n. 案例",
+    "ipa": "ˈkeɪsɪz",
+    "rank": 903,
+    "level": "beginner"
+  },
+  {
+    "word": "step",
+    "chinese": "n. 步骤, 步, 步幅, 脚步声, 踏级, 步伐, 短距离, 步态, 手段, 等级",
+    "ipa": "step",
+    "rank": 904,
+    "level": "beginner"
+  },
+  {
+    "word": "engineering",
+    "chinese": "n. 工程学, 工程, 操纵",
+    "ipa": ".endʒi'niәriŋ",
+    "rank": 905,
+    "level": "beginner"
+  },
+  {
+    "word": "florida",
+    "chinese": "n. 佛罗里达州",
+    "ipa": "'flɒridә",
+    "rank": 906,
+    "level": "beginner"
+  },
+  {
+    "word": "simple",
+    "chinese": "a. 简单的, 普通的, 朴素的, 单纯的, 绝对的, 初级的, 原始的, 迟钝的",
+    "ipa": "'simpl",
+    "rank": 907,
+    "level": "beginner"
+  },
+  {
+    "word": "quick",
+    "chinese": "a. 快的, 迅速的, 敏捷的, 灵敏的, 急速的",
+    "ipa": "kwik",
+    "rank": 908,
+    "level": "beginner"
+  },
+  {
+    "word": "none",
+    "chinese": "adv. 一点也不, 毫不",
+    "ipa": "nʌn",
+    "rank": 909,
+    "level": "beginner"
+  },
+  {
+    "word": "wireless",
+    "chinese": "n. 无线电",
+    "ipa": "'waiәlis",
+    "rank": 910,
+    "level": "beginner"
+  },
+  {
+    "word": "license",
+    "chinese": "n. 执照, 许可证, 特许",
+    "ipa": "'laisns",
+    "rank": 911,
+    "level": "beginner"
+  },
+  {
+    "word": "paul",
+    "chinese": "n. 保罗（男子名）",
+    "ipa": "pɔ:l",
+    "rank": 912,
+    "level": "beginner"
+  },
+  {
+    "word": "friday",
+    "chinese": "n. 星期五",
+    "ipa": "'fraidi",
+    "rank": 913,
+    "level": "beginner"
+  },
+  {
+    "word": "lake",
+    "chinese": "n. 湖, 池, 色淀",
+    "ipa": "leik",
+    "rank": 914,
+    "level": "beginner"
+  },
+  {
+    "word": "whole",
+    "chinese": "n. 全部, 全体, 整体, 完全之体系",
+    "ipa": "hәul",
+    "rank": 915,
+    "level": "beginner"
+  },
+  {
+    "word": "annual",
+    "chinese": "n. 年刊, 年报",
+    "ipa": "'ænjuәl",
+    "rank": 916,
+    "level": "beginner"
+  },
+  {
+    "word": "published",
+    "chinese": "a. 已发布的",
+    "ipa": "ˈpəblɪʃt",
+    "rank": 917,
+    "level": "beginner"
+  },
+  {
+    "word": "later",
+    "chinese": "adv. 以后, 随后",
+    "ipa": "'leitә",
+    "rank": 918,
+    "level": "beginner"
+  },
+  {
+    "word": "basic",
+    "chinese": "n. 基本原理, 要素, 基本规律",
+    "ipa": "'beisik",
+    "rank": 919,
+    "level": "beginner"
+  },
+  {
+    "word": "sony",
+    "chinese": "n. 索尼（日本电子娱乐公司）",
+    "ipa": "ˈsoʊni",
+    "rank": 920,
+    "level": "beginner"
+  },
+  {
+    "word": "shows",
+    "chinese": "n. 秀场, 表演（show的复数）",
+    "ipa": "ʃoʊz",
+    "rank": 921,
+    "level": "beginner"
+  },
+  {
+    "word": "corporate",
+    "chinese": "a. 社团的, 合伙的, 公司的",
+    "ipa": "'kɒ:pәrit",
+    "rank": 922,
+    "level": "beginner"
+  },
+  {
+    "word": "google",
+    "chinese": "谷歌",
+    "ipa": "ˈgugəl",
+    "rank": 923,
+    "level": "beginner"
+  },
+  {
+    "word": "church",
+    "chinese": "n. 教堂, 礼拜, 教会",
+    "ipa": "tʃә:tʃ",
+    "rank": 924,
+    "level": "beginner"
+  },
+  {
+    "word": "method",
+    "chinese": "n. 方法, 办法, 条理, 秩序",
+    "ipa": "'meθәd",
+    "rank": 925,
+    "level": "beginner"
+  },
+  {
+    "word": "purchase",
+    "chinese": "n. 购买, 购买品, 紧握, 绞辘",
+    "ipa": "'pә:tʃәs",
+    "rank": 926,
+    "level": "beginner"
+  },
+  {
+    "word": "customers",
+    "chinese": "n. 客户",
+    "ipa": "ˈkəstəmərz",
+    "rank": 927,
+    "level": "beginner"
+  },
+  {
+    "word": "active",
+    "chinese": "a. 活跃的, 起作用的, 积极的, 有效的, 主动的, 活性的, 现行的, 现役的",
+    "ipa": "'æktiv",
+    "rank": 928,
+    "level": "beginner"
+  },
+  {
+    "word": "response",
+    "chinese": "n. 反应, 回答, 响应",
+    "ipa": "ri'spɒns",
+    "rank": 929,
+    "level": "beginner"
+  },
+  {
+    "word": "practice",
+    "chinese": "n. 实践, 练习, 实行, 惯例, 习惯, 开业",
+    "ipa": "'præktis",
+    "rank": 930,
+    "level": "beginner"
+  },
+  {
+    "word": "hardware",
+    "chinese": "n. 硬件, 五金器具, 零件",
+    "ipa": "'hɑ:dwєә",
+    "rank": 931,
+    "level": "beginner"
+  },
+  {
+    "word": "figure",
+    "chinese": "n. 数字, 价格, 图形, 形状",
+    "ipa": "'figә",
+    "rank": 932,
+    "level": "beginner"
+  },
+  {
+    "word": "materials",
+    "chinese": "n. 材料",
+    "ipa": "məˈtɪriəlz",
+    "rank": 933,
+    "level": "beginner"
+  },
+  {
+    "word": "fire",
+    "chinese": "n. 火, 炉火, 电炉, 火灾, 闪光体, 炮火, 热情",
+    "ipa": "'faiә",
+    "rank": 934,
+    "level": "beginner"
+  },
+  {
+    "word": "holiday",
+    "chinese": "n. 假日, 假期, 节日",
+    "ipa": "'hɒlәdi",
+    "rank": 935,
+    "level": "beginner"
+  },
+  {
+    "word": "chat",
+    "chinese": "n. 闲谈",
+    "ipa": "tʃæt",
+    "rank": 936,
+    "level": "beginner"
+  },
+  {
+    "word": "enough",
+    "chinese": "n. 充足, 够, 很多",
+    "ipa": "i'nʌf",
+    "rank": 937,
+    "level": "beginner"
+  },
+  {
+    "word": "designed",
+    "chinese": "a. 故意的, 有计划的, 特意的",
+    "ipa": "di'zaind",
+    "rank": 938,
+    "level": "beginner"
+  },
+  {
+    "word": "along",
+    "chinese": "adv. 平行地, 向前",
+    "ipa": "ә'lɒŋ",
+    "rank": 939,
+    "level": "beginner"
+  },
+  {
+    "word": "among",
+    "chinese": "prep. 在...之中",
+    "ipa": "ә'mʌŋ",
+    "rank": 940,
+    "level": "beginner"
+  },
+  {
+    "word": "death",
+    "chinese": "n. 死亡",
+    "ipa": "deθ",
+    "rank": 941,
+    "level": "beginner"
+  },
+  {
+    "word": "writing",
+    "chinese": "n. 书写, 著作, 笔迹, 作品",
+    "ipa": "'raitiŋ",
+    "rank": 942,
+    "level": "beginner"
+  },
+  {
+    "word": "speed",
+    "chinese": "n. 速率, 速度, 迅速",
+    "ipa": "spi:d",
+    "rank": 943,
+    "level": "beginner"
+  },
+  {
+    "word": "html",
+    "chinese": "[计] 超文本标记语言",
+    "ipa": "html",
+    "rank": 944,
+    "level": "beginner"
+  },
+  {
+    "word": "countries",
+    "chinese": "国家（country的复数）",
+    "ipa": "ˈkəntriz",
+    "rank": 945,
+    "level": "beginner"
+  },
+  {
+    "word": "loss",
+    "chinese": "n. 损失, 遗失, 失败, 输, 错过, 伤亡",
+    "ipa": "lɒs",
+    "rank": 946,
+    "level": "beginner"
+  },
+  {
+    "word": "face",
+    "chinese": "n. 脸, 面容, 正面, 外观",
+    "ipa": "feis",
+    "rank": 947,
+    "level": "beginner"
+  },
+  {
+    "word": "brand",
+    "chinese": "n. 商标, 牌子, 烙印",
+    "ipa": "brænd",
+    "rank": 948,
+    "level": "beginner"
+  },
+  {
+    "word": "discount",
+    "chinese": "n. 折扣, 贴现率",
+    "ipa": "'diskaunt",
+    "rank": 949,
+    "level": "beginner"
+  },
+  {
+    "word": "higher",
+    "chinese": "[经] 上扬",
+    "ipa": "'haiә",
+    "rank": 950,
+    "level": "beginner"
+  },
+  {
+    "word": "effects",
+    "chinese": "n. 财物, 个人财产",
+    "ipa": "ˈifɛkts",
+    "rank": 951,
+    "level": "beginner"
+  },
+  {
+    "word": "created",
+    "chinese": "a. 创造的",
+    "ipa": "kri: 'eitid",
+    "rank": 952,
+    "level": "beginner"
+  },
+  {
+    "word": "remember",
+    "chinese": "vt. 记得, 回忆起, 记住, 铭记, 纪念",
+    "ipa": "ri'membә",
+    "rank": 953,
+    "level": "beginner"
+  },
+  {
+    "word": "standards",
+    "chinese": "n. 标准",
+    "ipa": "ˈstændərdz",
+    "rank": 954,
+    "level": "beginner"
+  },
+  {
+    "word": "oil",
+    "chinese": "n. 油, 石油, 油画颜料",
+    "ipa": "ɒil",
+    "rank": 955,
+    "level": "beginner"
+  },
+  {
+    "word": "bit",
+    "chinese": "n. 少量, 马嚼子, 辅币",
+    "ipa": "bit",
+    "rank": 956,
+    "level": "beginner"
+  },
+  {
+    "word": "yellow",
+    "chinese": "n. 黄色",
+    "ipa": "'jelәu",
+    "rank": 957,
+    "level": "beginner"
+  },
+  {
+    "word": "political",
+    "chinese": "a. 政治的, 政治上的, 政党的, 从事政治的",
+    "ipa": "pә'litikl",
+    "rank": 958,
+    "level": "beginner"
+  },
+  {
+    "word": "increase",
+    "chinese": "n. 增加, 增进, 利益",
+    "ipa": "in'kri:s",
+    "rank": 959,
+    "level": "beginner"
+  },
+  {
+    "word": "advertise",
+    "chinese": "vt. 做广告, 通知, 公布",
+    "ipa": "'ædvәtaiz",
+    "rank": 960,
+    "level": "beginner"
+  },
+  {
+    "word": "kingdom",
+    "chinese": "n. 王国, 领域",
+    "ipa": "'kiŋdәm",
+    "rank": 961,
+    "level": "beginner"
+  },
+  {
+    "word": "base",
+    "chinese": "n. 底部, 垒, 基础, 基地",
+    "ipa": "beis",
+    "rank": 962,
+    "level": "beginner"
+  },
+  {
+    "word": "near",
+    "chinese": "a. 近的, 近亲的, 近似的",
+    "ipa": "niә",
+    "rank": 963,
+    "level": "beginner"
+  },
+  {
+    "word": "environmental",
+    "chinese": "a. 周围的, 环境的",
+    "ipa": "in.vaiәrәn'mentәl",
+    "rank": 964,
+    "level": "beginner"
+  },
+  {
+    "word": "thought",
+    "chinese": "n. 想法, 思想, 思维, 关心, 挂念",
+    "ipa": "θɒ:t",
+    "rank": 965,
+    "level": "beginner"
+  },
+  {
+    "word": "stuff",
+    "chinese": "n. 原料, 要素, 东西, 材料, 素质, 织品, 废物, 废话",
+    "ipa": "stʌf",
+    "rank": 966,
+    "level": "beginner"
+  },
+  {
+    "word": "french",
+    "chinese": "n. 法国人, 法文, 法式",
+    "ipa": "frentʃ",
+    "rank": 967,
+    "level": "beginner"
+  },
+  {
+    "word": "storage",
+    "chinese": "n. 存储器, 储藏, 保管, 库存, 仓库",
+    "ipa": "'stɒ:ridʒ",
+    "rank": 968,
+    "level": "beginner"
+  },
+  {
+    "word": "oh",
+    "chinese": "interj. (表示惊讶、恐怖、赞叹)哦",
+    "ipa": "әu",
+    "rank": 969,
+    "level": "beginner"
+  },
+  {
+    "word": "japan",
+    "chinese": "n. 日本",
+    "ipa": "dʒә'pæn",
+    "rank": 970,
+    "level": "beginner"
+  },
+  {
+    "word": "doing",
+    "chinese": "n. 行为, 活动",
+    "ipa": "'du:iŋ",
+    "rank": 971,
+    "level": "beginner"
+  },
+  {
+    "word": "loans",
+    "chinese": "n. 借贷",
+    "ipa": "loʊnz",
+    "rank": 972,
+    "level": "beginner"
+  },
+  {
+    "word": "shoes",
+    "chinese": "n. 鞋子（shoe的复数）",
+    "ipa": "ʃuz",
+    "rank": 973,
+    "level": "beginner"
+  },
+  {
+    "word": "entry",
+    "chinese": "n. 登录, 条目, 进入, 入口, 报关",
+    "ipa": "'entri",
+    "rank": 974,
+    "level": "beginner"
+  },
+  {
+    "word": "stay",
+    "chinese": "n. 停留, 逗留, 制止, 延缓, 停止, 支柱, 支撑物, 支索",
+    "ipa": "stei",
+    "rank": 975,
+    "level": "beginner"
+  },
+  {
+    "word": "nature",
+    "chinese": "n. 自然, 大自然, 本性, 性格, 性质",
+    "ipa": "'neitʃә",
+    "rank": 976,
+    "level": "beginner"
+  },
+  {
+    "word": "orders",
+    "chinese": "n. 牧师职, 神职",
+    "ipa": "ˈɔrdərz",
+    "rank": 977,
+    "level": "beginner"
+  },
+  {
+    "word": "availability",
+    "chinese": "n. 有效性, 可利用性, 可利用的人",
+    "ipa": "ә.veilә'biliti",
+    "rank": 978,
+    "level": "beginner"
+  },
+  {
+    "word": "africa",
+    "chinese": "n. 非洲",
+    "ipa": "'æfrikә",
+    "rank": 979,
+    "level": "beginner"
+  },
+  {
+    "word": "summary",
+    "chinese": "n. 摘要, 概要",
+    "ipa": "'sʌmәri",
+    "rank": 980,
+    "level": "beginner"
+  },
+  {
+    "word": "turn",
+    "chinese": "n. 转弯, 转动, 旋转, 翻转, 一圈, 顺次, 改动, 变化, 性格, 特色, 形状, 转折",
+    "ipa": "tә:n",
+    "rank": 981,
+    "level": "beginner"
+  },
+  {
+    "word": "mean",
+    "chinese": "a. 低劣的, 卑贱的, 简陋的, 吝啬的, 惭愧的, 平均的, 中间的, 普通的",
+    "ipa": "mi:n",
+    "rank": 982,
+    "level": "beginner"
+  },
+  {
+    "word": "growth",
+    "chinese": "n. 生长, 栽培, 增长",
+    "ipa": "grәuθ",
+    "rank": 983,
+    "level": "beginner"
+  },
+  {
+    "word": "notes",
+    "chinese": "n. 票据",
+    "ipa": "noʊts",
+    "rank": 984,
+    "level": "beginner"
+  },
+  {
+    "word": "agency",
+    "chinese": "n. 代理机构, 经销商, 中介",
+    "ipa": "'eidʒәnsi",
+    "rank": 985,
+    "level": "beginner"
+  },
+  {
+    "word": "king",
+    "chinese": "n. 国王, 君主",
+    "ipa": "kiŋ",
+    "rank": 986,
+    "level": "beginner"
+  },
+  {
+    "word": "monday",
+    "chinese": "n. 星期一",
+    "ipa": "'mʌndi",
+    "rank": 987,
+    "level": "beginner"
+  },
+  {
+    "word": "european",
+    "chinese": "n. 欧洲人",
+    "ipa": ".juәrә'pi:әn",
+    "rank": 988,
+    "level": "beginner"
+  },
+  {
+    "word": "activity",
+    "chinese": "n. 活动, 行动, 活跃, 活力",
+    "ipa": "æk'tiviti",
+    "rank": 989,
+    "level": "beginner"
+  },
+  {
+    "word": "copy",
+    "chinese": "n. 副本, 摹仿, 一册",
+    "ipa": "'kɒpi",
+    "rank": 990,
+    "level": "beginner"
+  },
+  {
+    "word": "although",
+    "chinese": "conj. 虽然, 尽管",
+    "ipa": "ɒ:l'ðou",
+    "rank": 991,
+    "level": "beginner"
+  },
+  {
+    "word": "drug",
+    "chinese": "n. 药, 麻药, 麻醉药",
+    "ipa": "drʌg",
+    "rank": 992,
+    "level": "beginner"
+  },
+  {
+    "word": "pics",
+    "chinese": "[计] 生产信息控制系统",
+    "ipa": "pics",
+    "rank": 993,
+    "level": "beginner"
+  },
+  {
+    "word": "western",
+    "chinese": "n. 西方人, 西部片, 西部小说",
+    "ipa": "'westәn",
+    "rank": 994,
+    "level": "beginner"
+  },
+  {
+    "word": "income",
+    "chinese": "n. 收入, 收益, 流入",
+    "ipa": "'inkʌm",
+    "rank": 995,
+    "level": "beginner"
+  },
+  {
+    "word": "force",
+    "chinese": "n. 力量, 武力, 势力, 影响力, 军队, 力, 效力",
+    "ipa": "fɒ:s",
+    "rank": 996,
+    "level": "beginner"
+  },
+  {
+    "word": "cash",
+    "chinese": "n. 现金",
+    "ipa": "kæʃ",
+    "rank": 997,
+    "level": "beginner"
+  },
+  {
+    "word": "employment",
+    "chinese": "n. 雇用, 职业, 工作",
+    "ipa": "im'plɒimәnt",
+    "rank": 998,
+    "level": "beginner"
+  },
+  {
+    "word": "overall",
+    "chinese": "a. 全部的, 全体的, 从头至尾的, 一切在内的",
+    "ipa": "'әuvәrɒ:l",
+    "rank": 999,
+    "level": "beginner"
+  },
+  {
+    "word": "bay",
+    "chinese": "n. 海湾, 狗吠声, 月桂",
+    "ipa": "bei",
+    "rank": 1000,
+    "level": "beginner"
+  },
+  {
+    "word": "river",
+    "chinese": "n. 河, 江",
+    "ipa": "'rivә",
+    "rank": 1001,
+    "level": "beginner"
+  },
+  {
+    "word": "commission",
+    "chinese": "n. 委任状, 任官令, 所委职责, 佣金, 犯, 委托, 所托之事",
+    "ipa": "kә'miʃәn",
+    "rank": 1002,
+    "level": "beginner"
+  },
+  {
+    "word": "ad",
+    "chinese": "n. 广告",
+    "ipa": "æd",
+    "rank": 1003,
+    "level": "beginner"
+  },
+  {
+    "word": "package",
+    "chinese": "n. 包裹, 套装软件, 包, 包装用物, 程序包",
+    "ipa": "'pækidʒ",
+    "rank": 1004,
+    "level": "beginner"
+  },
+  {
+    "word": "contents",
+    "chinese": "n. 目录",
+    "ipa": "'kɒntents",
+    "rank": 1005,
+    "level": "beginner"
+  },
+  {
+    "word": "seen",
+    "chinese": "see的过去分词",
+    "ipa": "si:n",
+    "rank": 1006,
+    "level": "beginner"
+  },
+  {
+    "word": "players",
+    "chinese": "n. 队员, 参与者",
+    "ipa": "pleɪərz",
+    "rank": 1007,
+    "level": "beginner"
+  },
+  {
+    "word": "engine",
+    "chinese": "n. 引擎, 发动机, 机车",
+    "ipa": "'endʒin",
+    "rank": 1008,
+    "level": "beginner"
+  },
+  {
+    "word": "port",
+    "chinese": "n. 港口, 埠, 舱门, 避风港, 左舷, 炮眼, 姿势, 意义",
+    "ipa": "pɒ:t",
+    "rank": 1009,
+    "level": "beginner"
+  },
+  {
+    "word": "album",
+    "chinese": "n. 粘贴簿, 唱片套",
+    "ipa": "'ælbәm",
+    "rank": 1010,
+    "level": "beginner"
+  },
+  {
+    "word": "regional",
+    "chinese": "a. 地方的, 地域性的",
+    "ipa": "'ri:dʒәnәl",
+    "rank": 1011,
+    "level": "beginner"
+  },
+  {
+    "word": "stop",
+    "chinese": "n. 停止, 车站, 逗留, 填塞, 障碍, (风琴的)音栓",
+    "ipa": "stɒp",
+    "rank": 1012,
+    "level": "beginner"
+  },
+  {
+    "word": "supplies",
+    "chinese": "n. 供应品, 日用必需品, 生活用品, (储备)物质, 存货, 补给品, 生活费用",
+    "ipa": "səˈplaɪz",
+    "rank": 1013,
+    "level": "beginner"
+  },
+  {
+    "word": "started",
+    "chinese": "v. 出发, 启程( start的过去式和过去分词 ); 起动; 提出（问题）; 开办",
+    "ipa": "s'tɑ:tɪd",
+    "rank": 1014,
+    "level": "beginner"
+  },
+  {
+    "word": "administration",
+    "chinese": "n. 行政, 管理, 政府机关",
+    "ipa": "әd.mini'streiʃәn",
+    "rank": 1015,
+    "level": "beginner"
+  },
+  {
+    "word": "bar",
+    "chinese": "n. 条, 棒, 酒吧, 栅, 障碍物",
+    "ipa": "bɑ:",
+    "rank": 1016,
+    "level": "beginner"
+  },
+  {
+    "word": "institute",
+    "chinese": "n. 学会, 学院, 协会",
+    "ipa": "'institju:t",
+    "rank": 1017,
+    "level": "beginner"
+  },
+  {
+    "word": "views",
+    "chinese": "n. 景点",
+    "ipa": "vjuz",
+    "rank": 1018,
+    "level": "beginner"
+  },
+  {
+    "word": "plans",
+    "chinese": "n. 计划",
+    "ipa": "plænz",
+    "rank": 1019,
+    "level": "beginner"
+  },
+  {
+    "word": "double",
+    "chinese": "n. 两倍",
+    "ipa": "'dʌbl",
+    "rank": 1020,
+    "level": "beginner"
+  },
+  {
+    "word": "dog",
+    "chinese": "n. 狗, 坏蛋",
+    "ipa": "dɒg",
+    "rank": 1021,
+    "level": "beginner"
+  },
+  {
+    "word": "build",
+    "chinese": "v. 建立, 建筑",
+    "ipa": "bild",
+    "rank": 1022,
+    "level": "beginner"
+  },
+  {
+    "word": "screen",
+    "chinese": "n. 幕, 银幕, 屏风, 掩蔽物, 屏蔽, 筛子",
+    "ipa": "skri:n",
+    "rank": 1023,
+    "level": "beginner"
+  },
+  {
+    "word": "exchange",
+    "chinese": "n. 交换, (电话)交换局, 交换机, 汇兑, 交易所",
+    "ipa": "iks'tʃeindʒ",
+    "rank": 1024,
+    "level": "beginner"
+  },
+  {
+    "word": "types",
+    "chinese": "v. 打字（type的第三人称单数形式）",
+    "ipa": "taɪps",
+    "rank": 1025,
+    "level": "beginner"
+  },
+  {
+    "word": "soon",
+    "chinese": "adv. 不久, 早, 快, 宁可",
+    "ipa": "su:n",
+    "rank": 1026,
+    "level": "beginner"
+  },
+  {
+    "word": "sponsored",
+    "chinese": "v. 赞助( sponsor的过去式和过去分词); 资助（某人的培训或教育）; 为慈善活动捐资; 发起, 倡议",
+    "ipa": "ˈspɔnsəd",
+    "rank": 1027,
+    "level": "beginner"
+  },
+  {
+    "word": "lines",
+    "chinese": "n. 台词",
+    "ipa": "laɪnz",
+    "rank": 1028,
+    "level": "beginner"
+  },
+  {
+    "word": "electronic",
+    "chinese": "a. 电子的",
+    "ipa": ".ilek'trɒnik",
+    "rank": 1029,
+    "level": "beginner"
+  },
+  {
+    "word": "continue",
+    "chinese": "vi. 继续, 延续, 延长",
+    "ipa": "kәn'tinju:",
+    "rank": 1030,
+    "level": "beginner"
+  },
+  {
+    "word": "across",
+    "chinese": "prep. 越过, 穿过, 与...相交叉, 在...的对面",
+    "ipa": "ә'krɒs",
+    "rank": 1031,
+    "level": "beginner"
+  },
+  {
+    "word": "benefits",
+    "chinese": "n. 利益, 收益",
+    "ipa": "ˈbɛnəfɪts",
+    "rank": 1032,
+    "level": "beginner"
+  },
+  {
+    "word": "needed",
+    "chinese": "a. 需要的",
+    "ipa": "ˈnidɪd",
+    "rank": 1033,
+    "level": "beginner"
+  },
+  {
+    "word": "season",
+    "chinese": "n. 季节, 时节, 当令期, 时期",
+    "ipa": "'si:zn",
+    "rank": 1034,
+    "level": "beginner"
+  },
+  {
+    "word": "apply",
+    "chinese": "vt. 涂, 应用",
+    "ipa": "ә'plai",
+    "rank": 1035,
+    "level": "beginner"
+  },
+  {
+    "word": "someone",
+    "chinese": "pron. 有人, 某人",
+    "ipa": "'sʌmwʌn",
+    "rank": 1036,
+    "level": "beginner"
+  },
+  {
+    "word": "held",
+    "chinese": "hold的过去式和过去分词",
+    "ipa": "held",
+    "rank": 1037,
+    "level": "beginner"
+  },
+  {
+    "word": "ny",
+    "chinese": "纽约",
+    "ipa": "ny",
+    "rank": 1038,
+    "level": "beginner"
+  },
+  {
+    "word": "anything",
+    "chinese": "pron. 任何事",
+    "ipa": "'eniθiŋ",
+    "rank": 1039,
+    "level": "beginner"
+  },
+  {
+    "word": "printer",
+    "chinese": "n. 印刷工, 打印机",
+    "ipa": "'printә",
+    "rank": 1040,
+    "level": "beginner"
+  },
+  {
+    "word": "condition",
+    "chinese": "n. 情况, 条件",
+    "ipa": "kәn'diʃәn",
+    "rank": 1041,
+    "level": "beginner"
+  },
+  {
+    "word": "effective",
+    "chinese": "a. 有效的, 有力的, 实际的",
+    "ipa": "i'fektiv",
+    "rank": 1042,
+    "level": "beginner"
+  },
+  {
+    "word": "believe",
+    "chinese": "v. 相信",
+    "ipa": "bi'li:v",
+    "rank": 1043,
+    "level": "beginner"
+  },
+  {
+    "word": "organization",
+    "chinese": "n. 组织, 结构, 团体, 体制",
+    "ipa": ".ɒ:gәnai'zeiʃәn",
+    "rank": 1044,
+    "level": "beginner"
+  },
+  {
+    "word": "effect",
+    "chinese": "n. 结果, 影响, 效果, 印象",
+    "ipa": "i'fekt",
+    "rank": 1045,
+    "level": "beginner"
+  },
+  {
+    "word": "asked",
+    "chinese": "n. 卖方要价",
+    "ipa": "æst",
+    "rank": 1046,
+    "level": "beginner"
+  },
+  {
+    "word": "eur",
+    "chinese": "n. 欧洲, 欧洲人",
+    "ipa": "eur",
+    "rank": 1047,
+    "level": "beginner"
+  },
+  {
+    "word": "mind",
+    "chinese": "n. 思想, 愿望, 智力, 记忆, 心理, 情绪, 理智, 主意, 心意",
+    "ipa": "maind",
+    "rank": 1048,
+    "level": "beginner"
+  },
+  {
+    "word": "sunday",
+    "chinese": "n. 星期日",
+    "ipa": "'sʌndi",
+    "rank": 1049,
+    "level": "beginner"
+  },
+  {
+    "word": "selection",
+    "chinese": "n. 选择, 选文, 精选品",
+    "ipa": "si'lekʃәn",
+    "rank": 1050,
+    "level": "beginner"
+  },
+  {
+    "word": "casino",
+    "chinese": "n. 卡西诺赌场, 卡西诺牌戏",
+    "ipa": "kә'si:nәu",
+    "rank": 1051,
+    "level": "beginner"
+  },
+  {
+    "word": "pdf",
+    "chinese": "abbr. 概率分部函数（Probability Distribution Function）",
+    "ipa": "pdf",
+    "rank": 1052,
+    "level": "beginner"
+  },
+  {
+    "word": "lost",
+    "chinese": "a. 失去的, 遗失的, 迷惑的",
+    "ipa": "lɒst",
+    "rank": 1053,
+    "level": "beginner"
+  },
+  {
+    "word": "tour",
+    "chinese": "n. 旅游, 观光旅行, 任期",
+    "ipa": "tuә",
+    "rank": 1054,
+    "level": "beginner"
+  },
+  {
+    "word": "menu",
+    "chinese": "n. 菜单, (功能)选择单",
+    "ipa": "'menju:",
+    "rank": 1055,
+    "level": "beginner"
+  },
+  {
+    "word": "volume",
+    "chinese": "n. 册, 卷, 体积, 容量, 大量, 许多, 份量, 音量",
+    "ipa": "'vɒljum",
+    "rank": 1056,
+    "level": "beginner"
+  },
+  {
+    "word": "cross",
+    "chinese": "n. 十字架, 十字架形物件, 交叉, 十字标, 交叉路, 磨难, 杂交",
+    "ipa": "krɒs",
+    "rank": 1057,
+    "level": "beginner"
+  },
+  {
+    "word": "anyone",
+    "chinese": "pron. 任何人",
+    "ipa": "'eniwʌn",
+    "rank": 1058,
+    "level": "beginner"
+  },
+  {
+    "word": "mortgage",
+    "chinese": "n. 抵押, 约束性义务, 抵押借款",
+    "ipa": "'mɒ:gidʒ",
+    "rank": 1059,
+    "level": "beginner"
+  },
+  {
+    "word": "hope",
+    "chinese": "n. 希望, 信心, 期待",
+    "ipa": "hәup",
+    "rank": 1060,
+    "level": "beginner"
+  },
+  {
+    "word": "silver",
+    "chinese": "n. 银, 银币, 银器",
+    "ipa": "'silvә",
+    "rank": 1061,
+    "level": "beginner"
+  },
+  {
+    "word": "corporation",
+    "chinese": "n. 公司, 合作, 法人团体",
+    "ipa": ".kɒ:pә'reiʃәn",
+    "rank": 1062,
+    "level": "beginner"
+  },
+  {
+    "word": "wish",
+    "chinese": "n. 希望, 愿望, 祝愿, 命令, 请求",
+    "ipa": "wiʃ",
+    "rank": 1063,
+    "level": "beginner"
+  },
+  {
+    "word": "inside",
+    "chinese": "n. 内部, 内脏, 内幕",
+    "ipa": "'in'said",
+    "rank": 1064,
+    "level": "beginner"
+  },
+  {
+    "word": "solution",
+    "chinese": "n. 解决, 解答, 溶液",
+    "ipa": "sә'lu:ʃәn",
+    "rank": 1065,
+    "level": "beginner"
+  },
+  {
+    "word": "mature",
+    "chinese": "a. 成熟的, 到期的, 充分考虑的",
+    "ipa": "mә'tjuә",
+    "rank": 1066,
+    "level": "beginner"
+  },
+  {
+    "word": "role",
+    "chinese": "n. 角色, 职责, 任务",
+    "ipa": "rәul",
+    "rank": 1067,
+    "level": "beginner"
+  },
+  {
+    "word": "rather",
+    "chinese": "adv. 宁可, 稍微, 相当",
+    "ipa": "'ræðә",
+    "rank": 1068,
+    "level": "beginner"
+  },
+  {
+    "word": "weeks",
+    "chinese": "n. 威克斯（姓氏）",
+    "ipa": "wi:ks",
+    "rank": 1069,
+    "level": "beginner"
+  },
+  {
+    "word": "addition",
+    "chinese": "n. 加法, 增加的人(或物)",
+    "ipa": "ә'diʃәn",
+    "rank": 1070,
+    "level": "beginner"
+  },
+  {
+    "word": "came",
+    "chinese": "come的过去式",
+    "ipa": "keim",
+    "rank": 1071,
+    "level": "beginner"
+  },
+  {
+    "word": "supply",
+    "chinese": "n. 补给, 供给, 供应品",
+    "ipa": "sә'plai",
+    "rank": 1072,
+    "level": "beginner"
+  },
+  {
+    "word": "nothing",
+    "chinese": "n. 无, 不关紧要之事, 零",
+    "ipa": "'nʌθiŋ",
+    "rank": 1073,
+    "level": "beginner"
+  },
+  {
+    "word": "certain",
+    "chinese": "a. 确定的, 某一个的, 必然的",
+    "ipa": "'sә:tәn",
+    "rank": 1074,
+    "level": "beginner"
+  },
+  {
+    "word": "usr",
+    "chinese": "abbr. 不加热血清反应素玻片试验（Unheated Serum Reagin）",
+    "ipa": "usr",
+    "rank": 1075,
+    "level": "beginner"
+  },
+  {
+    "word": "executive",
+    "chinese": "n. 执行部门, 执行委员会, 执行者, 经理主管人员",
+    "ipa": "ig'zekjutiv",
+    "rank": 1076,
+    "level": "beginner"
+  },
+  {
+    "word": "running",
+    "chinese": "n. 赛跑, 流出, 运转",
+    "ipa": "'rʌniŋ",
+    "rank": 1077,
+    "level": "beginner"
+  },
+  {
+    "word": "lower",
+    "chinese": "a. 低的, 下级的, 下层的",
+    "ipa": "'lәuә",
+    "rank": 1078,
+    "level": "beginner"
+  },
+  {
+    "word": "necessary",
+    "chinese": "a. 必要的",
+    "ipa": "'nesisәri",
+    "rank": 1079,
+    "level": "beginner"
+  },
+  {
+    "word": "union",
+    "chinese": "n. 联盟, 联合, 结合, 工会",
+    "ipa": "'ju:njәn",
+    "rank": 1080,
+    "level": "beginner"
+  },
+  {
+    "word": "jewelry",
+    "chinese": "n. 珠宝, 珠宝类",
+    "ipa": "'dʒu:әlri",
+    "rank": 1081,
+    "level": "beginner"
+  },
+  {
+    "word": "according",
+    "chinese": "a. 相符的, 根据...而定的",
+    "ipa": "ә'kɒ:diŋ",
+    "rank": 1082,
+    "level": "beginner"
+  },
+  {
+    "word": "dc",
+    "chinese": "直流电",
+    "ipa": "ˌdiˈsi",
+    "rank": 1083,
+    "level": "beginner"
+  },
+  {
+    "word": "clothing",
+    "chinese": "n. 衣服",
+    "ipa": "'klәuðiŋ",
+    "rank": 1084,
+    "level": "beginner"
+  },
+  {
+    "word": "mon",
+    "chinese": "abbr. 发动机辛烷值（Motor Octsne Number）",
+    "ipa": "mәun",
+    "rank": 1085,
+    "level": "beginner"
+  },
+  {
+    "word": "com",
+    "chinese": "[计] 计算机输出缩微胶片; 计算机输出胶片缩微机",
+    "ipa": "kɑm",
+    "rank": 1086,
+    "level": "beginner"
+  },
+  {
+    "word": "particular",
+    "chinese": "n. 一项(或条、点), 个别项目, 详细说明",
+    "ipa": "pә'tikjulә",
+    "rank": 1087,
+    "level": "beginner"
+  },
+  {
+    "word": "fine",
+    "chinese": "n. 罚款, 罚金, 晴天, 精细",
+    "ipa": "fain",
+    "rank": 1088,
+    "level": "beginner"
+  },
+  {
+    "word": "names",
+    "chinese": "n. 名字",
+    "ipa": "neɪmz",
+    "rank": 1089,
+    "level": "beginner"
+  },
+  {
+    "word": "robert",
+    "chinese": "[法] 警察",
+    "ipa": "'rɔbәt",
+    "rank": 1090,
+    "level": "beginner"
+  },
+  {
+    "word": "homepage",
+    "chinese": "n. 主页",
+    "ipa": "'hәumpeidʒ",
+    "rank": 1091,
+    "level": "beginner"
+  },
+  {
+    "word": "hour",
+    "chinese": "n. 小时, 钟头, 时间, ...点钟, 课时",
+    "ipa": "auә",
+    "rank": 1092,
+    "level": "beginner"
+  },
+  {
+    "word": "gas",
+    "chinese": "n. 气体, 汽油, 瓦斯",
+    "ipa": "gæs",
+    "rank": 1093,
+    "level": "beginner"
+  },
+  {
+    "word": "skills",
+    "chinese": "n. 技术",
+    "ipa": "skɪlz",
+    "rank": 1094,
+    "level": "beginner"
+  },
+  {
+    "word": "six",
+    "chinese": "num. 六, 六个",
+    "ipa": "siks",
+    "rank": 1095,
+    "level": "beginner"
+  },
+  {
+    "word": "bush",
+    "chinese": "n. 矮树丛",
+    "ipa": "buʃ",
+    "rank": 1096,
+    "level": "beginner"
+  },
+  {
+    "word": "islands",
+    "chinese": "n. 岛屿",
+    "ipa": "ˈaɪləndz",
+    "rank": 1097,
+    "level": "beginner"
+  },
+  {
+    "word": "advice",
+    "chinese": "n. 忠告, 劝告, 意见, 报道, 通知",
+    "ipa": "әd'vais",
+    "rank": 1098,
+    "level": "beginner"
+  },
+  {
+    "word": "career",
+    "chinese": "n. 事业, 生涯, 成功",
+    "ipa": "kә'riә",
+    "rank": 1099,
+    "level": "beginner"
+  },
+  {
+    "word": "military",
+    "chinese": "n. 军队",
+    "ipa": "'militәri",
+    "rank": 1100,
+    "level": "beginner"
+  },
+  {
+    "word": "rental",
+    "chinese": "n. 租费, 租金收入",
+    "ipa": "'rentl",
+    "rank": 1101,
+    "level": "beginner"
+  },
+  {
+    "word": "decision",
+    "chinese": "n. 决定, 决心, 决断",
+    "ipa": "di'siʒәn",
+    "rank": 1102,
+    "level": "beginner"
+  },
+  {
+    "word": "leave",
+    "chinese": "n. 许可, 告别, 请假, 休假",
+    "ipa": "li:v",
+    "rank": 1103,
+    "level": "beginner"
+  },
+  {
+    "word": "british",
+    "chinese": "a. 英国的",
+    "ipa": "'britiʃ",
+    "rank": 1104,
+    "level": "beginner"
+  },
+  {
+    "word": "teens",
+    "chinese": "n. 十三岁到十九岁",
+    "ipa": "ti:ns",
+    "rank": 1105,
+    "level": "beginner"
+  },
+  {
+    "word": "pre",
+    "chinese": "abbr. 炼油工程师（Petroleum Refining Engineer）",
+    "ipa": "pri",
+    "rank": 1106,
+    "level": "beginner"
+  },
+  {
+    "word": "huge",
+    "chinese": "a. 极大的, 巨大的, 无限的",
+    "ipa": "hju:dʒ",
+    "rank": 1107,
+    "level": "beginner"
+  },
+  {
+    "word": "sat",
+    "chinese": "n. 饱和度",
+    "ipa": "sæt",
+    "rank": 1108,
+    "level": "beginner"
+  },
+  {
+    "word": "woman",
+    "chinese": "n. 女人, 妇女, 女仆",
+    "ipa": "'wumәn",
+    "rank": 1109,
+    "level": "beginner"
+  },
+  {
+    "word": "facilities",
+    "chinese": "n. 工具, 设施, 设备",
+    "ipa": "fəˈsɪlɪtiz",
+    "rank": 1110,
+    "level": "beginner"
+  },
+  {
+    "word": "zip",
+    "chinese": "n. 尖啸声, 拉链, 活力",
+    "ipa": "zip",
+    "rank": 1111,
+    "level": "beginner"
+  },
+  {
+    "word": "bid",
+    "chinese": "n. 出价",
+    "ipa": "bid",
+    "rank": 1112,
+    "level": "beginner"
+  },
+  {
+    "word": "kind",
+    "chinese": "n. 种类, 性质, 方式",
+    "ipa": "kaind",
+    "rank": 1113,
+    "level": "beginner"
+  },
+  {
+    "word": "sellers",
+    "chinese": "n. 塞勒斯（姓氏）",
+    "ipa": "ˈsɛlərz",
+    "rank": 1114,
+    "level": "beginner"
+  },
+  {
+    "word": "middle",
+    "chinese": "n. 中央, 中间, 腰部",
+    "ipa": "'midl",
+    "rank": 1115,
+    "level": "beginner"
+  },
+  {
+    "word": "move",
+    "chinese": "n. 移动, 迁居, 步骤",
+    "ipa": "mu:v",
+    "rank": 1116,
+    "level": "beginner"
+  },
+  {
+    "word": "cable",
+    "chinese": "n. 电缆, 海底电报, 缆, 索",
+    "ipa": "'keibl",
+    "rank": 1117,
+    "level": "beginner"
+  },
+  {
+    "word": "opportunities",
+    "chinese": "n. 机会( opportunity的名词复数 ); 适当的时机; 条件; 就业（或晋升、进步等）的良机",
+    "ipa": "ˌɒpə'tju:nɪtɪs",
+    "rank": 1118,
+    "level": "beginner"
+  },
+  {
+    "word": "taking",
+    "chinese": "n. 取得, 捕获, 进款",
+    "ipa": "'teikiŋ",
+    "rank": 1119,
+    "level": "beginner"
+  },
+  {
+    "word": "values",
+    "chinese": "n. 对价值的看法, 准则, 标准, 价值观念",
+    "ipa": "ˈvæljuz",
+    "rank": 1120,
+    "level": "beginner"
+  },
+  {
+    "word": "division",
+    "chinese": "n. 分, 分开, 除法, 部门(如部、处、系等), 师",
+    "ipa": "di'viʒәn",
+    "rank": 1121,
+    "level": "beginner"
+  },
+  {
+    "word": "coming",
+    "chinese": "n. 来临",
+    "ipa": "'kʌmiŋ",
+    "rank": 1122,
+    "level": "beginner"
+  },
+  {
+    "word": "tuesday",
+    "chinese": "n. 星期二",
+    "ipa": "'tju:zdi",
+    "rank": 1123,
+    "level": "beginner"
+  },
+  {
+    "word": "object",
+    "chinese": "n. 物体, 目标, 目的, 对象, 宾语, 客体",
+    "ipa": "'ɒbdʒekt",
+    "rank": 1124,
+    "level": "beginner"
+  },
+  {
+    "word": "lesbian",
+    "chinese": "a. 女同性恋的",
+    "ipa": "'lezbiәn",
+    "rank": 1125,
+    "level": "beginner"
+  },
+  {
+    "word": "appropriate",
+    "chinese": "a. 适当的",
+    "ipa": "ә'prәupriәt",
+    "rank": 1126,
+    "level": "beginner"
+  },
+  {
+    "word": "machine",
+    "chinese": "n. 机器, 机械装置, 机构, 自动售货机, 机械般工作的人",
+    "ipa": "mә'ʃi:n",
+    "rank": 1127,
+    "level": "beginner"
+  },
+  {
+    "word": "logo",
+    "chinese": "n. 连合活字, 商标, 徽标",
+    "ipa": "'lәugәu",
+    "rank": 1128,
+    "level": "beginner"
+  },
+  {
+    "word": "length",
+    "chinese": "n. 长度, 长, 期间, 一段",
+    "ipa": "leŋθ",
+    "rank": 1129,
+    "level": "beginner"
+  },
+  {
+    "word": "actually",
+    "chinese": "adv. 事实上, 竟然, 如今, 现在",
+    "ipa": "'æktʃuәli",
+    "rank": 1130,
+    "level": "beginner"
+  },
+  {
+    "word": "nice",
+    "chinese": "a. 美好的, 和蔼的, 正派的, 做得好的, 精密的, 细微的, 挑剔的, 谨慎的",
+    "ipa": "nais",
+    "rank": 1131,
+    "level": "beginner"
+  },
+  {
+    "word": "score",
+    "chinese": "n. 得分, 抓痕, 二十个, 刻痕, 帐目, 乐谱, 起跑线, 终点线, 大量",
+    "ipa": "skɒ:",
+    "rank": 1132,
+    "level": "beginner"
+  },
+  {
+    "word": "statistics",
+    "chinese": "n. 统计学, 统计资料",
+    "ipa": "stә'tistiks",
+    "rank": 1133,
+    "level": "beginner"
+  },
+  {
+    "word": "client",
+    "chinese": "n. 客户, 顾客, 委托人",
+    "ipa": "'klaiәnt",
+    "rank": 1134,
+    "level": "beginner"
+  },
+  {
+    "word": "ok",
+    "chinese": "a. 好, 不错, 可以",
+    "ipa": "'әu'kei",
+    "rank": 1135,
+    "level": "beginner"
+  },
+  {
+    "word": "returns",
+    "chinese": "n. 回报",
+    "ipa": "rɪˈtərnz",
+    "rank": 1136,
+    "level": "beginner"
+  },
+  {
+    "word": "capital",
+    "chinese": "n. 首都, 大写字母, 资本",
+    "ipa": "'kæpitәl",
+    "rank": 1137,
+    "level": "beginner"
+  },
+  {
+    "word": "follow",
+    "chinese": "vt. 跟随, 沿行, 遵循, 追求",
+    "ipa": "'fɒlәu",
+    "rank": 1138,
+    "level": "beginner"
+  },
+  {
+    "word": "sample",
+    "chinese": "n. 样品, 范例, 样本",
+    "ipa": "'sæmpl",
+    "rank": 1139,
+    "level": "beginner"
+  },
+  {
+    "word": "investment",
+    "chinese": "n. 投资",
+    "ipa": "in'vestmәnt",
+    "rank": 1140,
+    "level": "beginner"
+  },
+  {
+    "word": "sent",
+    "chinese": "send的过去式和过去分词",
+    "ipa": "sent",
+    "rank": 1141,
+    "level": "beginner"
+  },
+  {
+    "word": "shown",
+    "chinese": "show的过去分词",
+    "ipa": "ʃәun",
+    "rank": 1142,
+    "level": "beginner"
+  },
+  {
+    "word": "saturday",
+    "chinese": "n. 星期六",
+    "ipa": "'sætәdi",
+    "rank": 1143,
+    "level": "beginner"
+  },
+  {
+    "word": "christmas",
+    "chinese": "n. 圣诞节",
+    "ipa": "'krismәs",
+    "rank": 1144,
+    "level": "beginner"
+  },
+  {
+    "word": "england",
+    "chinese": "n. 英格兰",
+    "ipa": "'iŋglәnd",
+    "rank": 1145,
+    "level": "beginner"
+  },
+  {
+    "word": "culture",
+    "chinese": "n. 文化, 修养, 耕种",
+    "ipa": "'kʌltʃә",
+    "rank": 1146,
+    "level": "beginner"
+  },
+  {
+    "word": "band",
+    "chinese": "n. 带子, 队, 乐队",
+    "ipa": "bænd",
+    "rank": 1147,
+    "level": "beginner"
+  },
+  {
+    "word": "flash",
+    "chinese": "n. 闪光, 闪现, 一瞬间",
+    "ipa": "flæʃ",
+    "rank": 1148,
+    "level": "beginner"
+  },
+  {
+    "word": "ms",
+    "chinese": "美国微软公司",
+    "ipa": "miz",
+    "rank": 1149,
+    "level": "beginner"
+  },
+  {
+    "word": "lead",
+    "chinese": "n. 铅, 铅条, 领导, 超前量, 领引, 榜样, 主角, 导线",
+    "ipa": "li:d. led",
+    "rank": 1150,
+    "level": "beginner"
+  },
+  {
+    "word": "george",
+    "chinese": "n. 乔治（男子名）",
+    "ipa": "dʒɔ:dʒ",
+    "rank": 1151,
+    "level": "beginner"
+  },
+  {
+    "word": "choice",
+    "chinese": "n. 选择, 精选品, 选择权",
+    "ipa": "tʃɒis",
+    "rank": 1152,
+    "level": "beginner"
+  },
+  {
+    "word": "went",
+    "chinese": "go的过去式",
+    "ipa": "went",
+    "rank": 1153,
+    "level": "beginner"
+  },
+  {
+    "word": "starting",
+    "chinese": "n. 开端, 开始, 出发, 起动, 开动",
+    "ipa": "'stɑ:tiŋ",
+    "rank": 1154,
+    "level": "beginner"
+  },
+  {
+    "word": "registration",
+    "chinese": "n. 登记, 挂号, 注册",
+    "ipa": ".redʒi'streiʃәn",
+    "rank": 1155,
+    "level": "beginner"
+  },
+  {
+    "word": "fri",
+    "chinese": "abbr. 最终成品抽验（Final Random Inspection）",
+    "ipa": "fri",
+    "rank": 1156,
+    "level": "beginner"
+  },
+  {
+    "word": "thursday",
+    "chinese": "n. 星期四",
+    "ipa": "'θә:zdi",
+    "rank": 1157,
+    "level": "beginner"
+  },
+  {
+    "word": "courses",
+    "chinese": "[医] 月经",
+    "ipa": "ˈkɔrsɪz",
+    "rank": 1158,
+    "level": "beginner"
+  },
+  {
+    "word": "consumer",
+    "chinese": "n. 消费者",
+    "ipa": "kәn'sju:mә",
+    "rank": 1159,
+    "level": "beginner"
+  },
+  {
+    "word": "hi",
+    "chinese": "interj. 喂",
+    "ipa": "hai",
+    "rank": 1160,
+    "level": "beginner"
+  },
+  {
+    "word": "airport",
+    "chinese": "n. 飞机场",
+    "ipa": "'єәpɒ:t",
+    "rank": 1161,
+    "level": "beginner"
+  },
+  {
+    "word": "foreign",
+    "chinese": "a. 外国的, 外交的, 外省的, 外来的, 不相关的",
+    "ipa": "'fɒ:rin",
+    "rank": 1162,
+    "level": "beginner"
+  },
+  {
+    "word": "artist",
+    "chinese": "n. 艺术家, 画家",
+    "ipa": "'ɑ:tist",
+    "rank": 1163,
+    "level": "beginner"
+  },
+  {
+    "word": "outside",
+    "chinese": "n. 外面, 外表, 外界",
+    "ipa": "'aut'said",
+    "rank": 1164,
+    "level": "beginner"
+  },
+  {
+    "word": "furniture",
+    "chinese": "n. 家具, 帆具",
+    "ipa": "'fәnitʃә",
+    "rank": 1165,
+    "level": "beginner"
+  },
+  {
+    "word": "levels",
+    "chinese": "n. 色阶调整",
+    "ipa": "ˈlɛvəlz",
+    "rank": 1166,
+    "level": "beginner"
+  },
+  {
+    "word": "channel",
+    "chinese": "n. 海峡, 航道, 频道",
+    "ipa": "'tʃænәl",
+    "rank": 1167,
+    "level": "beginner"
+  },
+  {
+    "word": "letter",
+    "chinese": "n. 信, 字母, 证书, 字面意义, 铅字, 学问, 出租人",
+    "ipa": "'letә",
+    "rank": 1168,
+    "level": "beginner"
+  },
+  {
+    "word": "mode",
+    "chinese": "n. 模态, 调式, 样式, 文体, 状态, 方式, 风尚",
+    "ipa": "mәud",
+    "rank": 1169,
+    "level": "beginner"
+  },
+  {
+    "word": "phones",
+    "chinese": "n. 听筒",
+    "ipa": "foʊnz",
+    "rank": 1170,
+    "level": "beginner"
+  },
+  {
+    "word": "ideas",
+    "chinese": "abbr. 工业设计优秀奖",
+    "ipa": "aɪˈdiəz",
+    "rank": 1171,
+    "level": "beginner"
+  },
+  {
+    "word": "wednesday",
+    "chinese": "n. 星期三",
+    "ipa": "'wenzdi",
+    "rank": 1172,
+    "level": "beginner"
+  },
+  {
+    "word": "structure",
+    "chinese": "n. 结构, 构造, 建筑物",
+    "ipa": "'strʌktʃә",
+    "rank": 1173,
+    "level": "beginner"
+  },
+  {
+    "word": "fund",
+    "chinese": "n. 基金, 资金, 存款, 财源, 贮藏",
+    "ipa": "fʌnd",
+    "rank": 1174,
+    "level": "beginner"
+  },
+  {
+    "word": "summer",
+    "chinese": "n. 夏季, 全盛时期",
+    "ipa": "'sʌmә",
+    "rank": 1175,
+    "level": "beginner"
+  },
+  {
+    "word": "allow",
+    "chinese": "vt. 允许, 同意给予, 承认",
+    "ipa": "ә'lau",
+    "rank": 1176,
+    "level": "beginner"
+  },
+  {
+    "word": "degree",
+    "chinese": "n. 程度, 度数, 学位, 度",
+    "ipa": "di'gri:",
+    "rank": 1177,
+    "level": "beginner"
+  },
+  {
+    "word": "contract",
+    "chinese": "n. 合约, 婚约, 契约",
+    "ipa": "'kɒntrækt",
+    "rank": 1178,
+    "level": "beginner"
+  },
+  {
+    "word": "button",
+    "chinese": "n. 钮扣, 按钮",
+    "ipa": "'bʌtәn",
+    "rank": 1179,
+    "level": "beginner"
+  },
+  {
+    "word": "releases",
+    "chinese": "n. 释放",
+    "ipa": "rɪˈlisɪz",
+    "rank": 1180,
+    "level": "beginner"
+  },
+  {
+    "word": "wed",
+    "chinese": "vt. 与...结婚, 使结合",
+    "ipa": "wed",
+    "rank": 1181,
+    "level": "beginner"
+  },
+  {
+    "word": "homes",
+    "chinese": "n. 房屋",
+    "ipa": "hoʊmz",
+    "rank": 1182,
+    "level": "beginner"
+  },
+  {
+    "word": "super",
+    "chinese": "n. 跑龙套角色, 冗员, 特级品, 特大号, 管理人",
+    "ipa": "'sju:pә",
+    "rank": 1183,
+    "level": "beginner"
+  },
+  {
+    "word": "male",
+    "chinese": "n. 男人, 雄性动物",
+    "ipa": "meil",
+    "rank": 1184,
+    "level": "beginner"
+  },
+  {
+    "word": "matter",
+    "chinese": "n. 事件, 物质, 原因, 素材, 实体, 重要",
+    "ipa": "'mætә",
+    "rank": 1185,
+    "level": "beginner"
+  },
+  {
+    "word": "custom",
+    "chinese": "n. 习惯, 风俗, 海关, 自定义",
+    "ipa": "'kʌstәm",
+    "rank": 1186,
+    "level": "beginner"
+  },
+  {
+    "word": "virginia",
+    "chinese": "n. 弗吉尼亚",
+    "ipa": "vә'dʒinjә",
+    "rank": 1187,
+    "level": "beginner"
+  },
+  {
+    "word": "almost",
+    "chinese": "adv. 几乎, 差不多",
+    "ipa": "'ɒ:lmәust",
+    "rank": 1188,
+    "level": "beginner"
+  },
+  {
+    "word": "took",
+    "chinese": "take的过去式",
+    "ipa": "tuk",
+    "rank": 1189,
+    "level": "beginner"
+  },
+  {
+    "word": "located",
+    "chinese": "a. 处于, 位于",
+    "ipa": "ˈloʊˌkeɪtəd",
+    "rank": 1190,
+    "level": "beginner"
+  },
+  {
+    "word": "multiple",
+    "chinese": "n. 倍数, 并联",
+    "ipa": "'mʌltipl",
+    "rank": 1191,
+    "level": "beginner"
+  },
+  {
+    "word": "asian",
+    "chinese": "n. 亚洲人",
+    "ipa": "'eiʃәn",
+    "rank": 1192,
+    "level": "beginner"
+  },
+  {
+    "word": "distribution",
+    "chinese": "n. 分配",
+    "ipa": ".distrә'bju:ʃәn",
+    "rank": 1193,
+    "level": "beginner"
+  },
+  {
+    "word": "editor",
+    "chinese": "n. 编者, 编辑, 主笔, 编辑器, 编辑装置",
+    "ipa": "'editә",
+    "rank": 1194,
+    "level": "beginner"
+  },
+  {
+    "word": "inn",
+    "chinese": "n. 旅馆, 客栈",
+    "ipa": "in",
+    "rank": 1195,
+    "level": "beginner"
+  },
+  {
+    "word": "industrial",
+    "chinese": "a. 工业的, 供工业用的, 工业高度发展的, 产业的",
+    "ipa": "in'dʌstriәl",
+    "rank": 1196,
+    "level": "beginner"
+  },
+  {
+    "word": "cause",
+    "chinese": "n. 原因, 目标",
+    "ipa": "kɒ:z",
+    "rank": 1197,
+    "level": "beginner"
+  },
+  {
+    "word": "potential",
+    "chinese": "n. 潜在性, 可能性, 潜力, 潜能, 势, 位",
+    "ipa": "pә'tenʃәl",
+    "rank": 1198,
+    "level": "beginner"
+  },
+  {
+    "word": "song",
+    "chinese": "n. 歌, 曲, 鸣声, 歌唱, 歌曲, 诗歌",
+    "ipa": "sɒŋ",
+    "rank": 1199,
+    "level": "beginner"
+  },
+  {
+    "word": "cnet",
+    "chinese": "abbr. 科技资讯网（CNET News）",
+    "ipa": "cnet",
+    "rank": 1200,
+    "level": "beginner"
+  },
+  {
+    "word": "ltd",
+    "chinese": "有限的",
+    "ipa": "'limitid",
+    "rank": 1201,
+    "level": "beginner"
+  },
+  {
+    "word": "los",
+    "chinese": "abbr. 月球轨道航天器（Lunar Orbiter Spacecraft）",
+    "ipa": "lɔ:s",
+    "rank": 1202,
+    "level": "beginner"
+  },
+  {
+    "word": "hp",
+    "chinese": "n. 马力, 分期付款购买法",
+    "ipa": "hp",
+    "rank": 1203,
+    "level": "beginner"
+  },
+  {
+    "word": "focus",
+    "chinese": "n. 焦点, 焦距",
+    "ipa": "'fәukәs",
+    "rank": 1204,
+    "level": "beginner"
+  },
+  {
+    "word": "late",
+    "chinese": "a. 迟的, 晚的, 已故的",
+    "ipa": "leit",
+    "rank": 1205,
+    "level": "beginner"
+  },
+  {
+    "word": "fall",
+    "chinese": "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天",
+    "ipa": "fɒ:l",
+    "rank": 1206,
+    "level": "beginner"
+  },
+  {
+    "word": "featured",
+    "chinese": "a. 面貌秀丽的, 被作为特色的",
+    "ipa": "'fi:tʃәd",
+    "rank": 1207,
+    "level": "beginner"
+  },
+  {
+    "word": "idea",
+    "chinese": "n. 主意, 办法, 理想, 思想, 概念, 意见",
+    "ipa": "ai'diә",
+    "rank": 1208,
+    "level": "beginner"
+  },
+  {
+    "word": "rooms",
+    "chinese": "n. 空间",
+    "ipa": "rumz",
+    "rank": 1209,
+    "level": "beginner"
+  },
+  {
+    "word": "female",
+    "chinese": "n. 女性, 女人, 雌性动物",
+    "ipa": "'fi:meil",
+    "rank": 1210,
+    "level": "beginner"
+  },
+  {
+    "word": "responsible",
+    "chinese": "a. 有责任的, 负责的, 责任重大的",
+    "ipa": "ri'spɒnsәbl",
+    "rank": 1211,
+    "level": "beginner"
+  },
+  {
+    "word": "inc",
+    "chinese": "a. 根据法律组成的公司, 公司",
+    "ipa": "ɪŋk",
+    "rank": 1212,
+    "level": "beginner"
+  },
+  {
+    "word": "communications",
+    "chinese": "n. 交通设施, 通讯系统",
+    "ipa": "kәmju:ni'keiʃ(ә)nz",
+    "rank": 1213,
+    "level": "beginner"
+  },
+  {
+    "word": "win",
+    "chinese": "vt. 赢得, 打胜, 成功",
+    "ipa": "win",
+    "rank": 1214,
+    "level": "beginner"
+  },
+  {
+    "word": "associated",
+    "chinese": "a. 联合的",
+    "ipa": "əˈsoʊʃiˌeɪtəd",
+    "rank": 1215,
+    "level": "beginner"
+  },
+  {
+    "word": "thomas",
+    "chinese": "n. 多马(耶稣十二门徒之一)",
+    "ipa": "'tɒmәs",
+    "rank": 1216,
+    "level": "beginner"
+  },
+  {
+    "word": "primary",
+    "chinese": "n. 最主要者, 原色",
+    "ipa": "'praimәri",
+    "rank": 1217,
+    "level": "beginner"
+  },
+  {
+    "word": "cancer",
+    "chinese": "n. 癌, 恶性肿瘤",
+    "ipa": "'kænsә",
+    "rank": 1218,
+    "level": "beginner"
+  },
+  {
+    "word": "numbers",
+    "chinese": "n. 数字（number的复数）",
+    "ipa": "'nʌmbәz",
+    "rank": 1219,
+    "level": "beginner"
+  },
+  {
+    "word": "reason",
+    "chinese": "n. 理由, 原因, 理智, 道理, 前提, 理性",
+    "ipa": "'ri:zn",
+    "rank": 1220,
+    "level": "beginner"
+  },
+  {
+    "word": "tool",
+    "chinese": "n. 工具, 机床, 傀儡",
+    "ipa": "tu:l",
+    "rank": 1221,
+    "level": "beginner"
+  },
+  {
+    "word": "browser",
+    "chinese": "n. 吃嫩叶的动物, 浏览书本的人",
+    "ipa": "'brauzә",
+    "rank": 1222,
+    "level": "beginner"
+  },
+  {
+    "word": "spring",
+    "chinese": "n. 春天, 弹簧, 跳跃, 弹性, 活力, 泉, 源泉",
+    "ipa": "spriŋ",
+    "rank": 1223,
+    "level": "beginner"
+  },
+  {
+    "word": "foundation",
+    "chinese": "n. 基础, 根据, 建立",
+    "ipa": "faun'deiʃәn",
+    "rank": 1224,
+    "level": "beginner"
+  },
+  {
+    "word": "answer",
+    "chinese": "n. 答案, 回答, 回报, 答辩",
+    "ipa": "'ɑ:nsә",
+    "rank": 1225,
+    "level": "beginner"
+  },
+  {
+    "word": "voice",
+    "chinese": "n. 声音, 嗓音, 嗓子, 愿望, 发言权, 表达, 喉舌, 语态",
+    "ipa": "vɒis",
+    "rank": 1226,
+    "level": "beginner"
+  },
+  {
+    "word": "eg",
+    "chinese": "abbr. [拉]例如（exempli gratia）",
+    "ipa": "eg",
+    "rank": 1227,
+    "level": "beginner"
+  },
+  {
+    "word": "friendly",
+    "chinese": "a. 友好的, 亲切的, 互助的",
+    "ipa": "'frendli",
+    "rank": 1228,
+    "level": "beginner"
+  },
+  {
+    "word": "schedule",
+    "chinese": "n. 时间表, 一览表, 计划表, 议事日程",
+    "ipa": "'skedʒuәl",
+    "rank": 1229,
+    "level": "beginner"
+  },
+  {
+    "word": "documents",
+    "chinese": "n. 文档（document的复数形式）",
+    "ipa": "ˈdɑkjəmənts",
+    "rank": 1230,
+    "level": "beginner"
+  },
+  {
+    "word": "communication",
+    "chinese": "n. 交流, 交通, 通讯",
+    "ipa": "kә.mju:ni'keiʃәn",
+    "rank": 1231,
+    "level": "beginner"
+  },
+  {
+    "word": "purpose",
+    "chinese": "n. 目的, 意向, 决心, 用途, 效果, 论题",
+    "ipa": "'pә:pәs",
+    "rank": 1232,
+    "level": "beginner"
+  },
+  {
+    "word": "feature",
+    "chinese": "n. 面孔的一部分(如眼、口等), 特征, 容貌, 特色, 特写",
+    "ipa": "'fi:tʃә",
+    "rank": 1233,
+    "level": "beginner"
+  },
+  {
+    "word": "bed",
+    "chinese": "n. 床, 睡眠处, 河床, 底座, 路基, 一层",
+    "ipa": "bed",
+    "rank": 1234,
+    "level": "beginner"
+  },
+  {
+    "word": "comes",
+    "chinese": "v. 来自",
+    "ipa": "'kɔmis",
+    "rank": 1235,
+    "level": "beginner"
+  },
+  {
+    "word": "police",
+    "chinese": "n. 警察, 警察当局, 治安",
+    "ipa": "pә'li:s",
+    "rank": 1236,
+    "level": "beginner"
+  },
+  {
+    "word": "everyone",
+    "chinese": "pron. 每个人, 人人",
+    "ipa": "'evriwʌn",
+    "rank": 1237,
+    "level": "beginner"
+  },
+  {
+    "word": "independent",
+    "chinese": "n. 独立自主者, 无党派者",
+    "ipa": ".indi'pendәnt",
+    "rank": 1238,
+    "level": "beginner"
+  },
+  {
+    "word": "ip",
+    "chinese": "[计] 初始排列, 指令指示器, 互连网协议",
+    "ipa": "ˌaɪˌpi",
+    "rank": 1239,
+    "level": "beginner"
+  },
+  {
+    "word": "approach",
+    "chinese": "n. 接近, 入门",
+    "ipa": "ә'prәutʃ",
+    "rank": 1240,
+    "level": "beginner"
+  },
+  {
+    "word": "cameras",
+    "chinese": "照相机, 暗箱, 摄像机, 摄影机",
+    "ipa": "ˈkæmərəz",
+    "rank": 1241,
+    "level": "beginner"
+  },
+  {
+    "word": "brown",
+    "chinese": "n. 褐色",
+    "ipa": "braun",
+    "rank": 1242,
+    "level": "beginner"
+  },
+  {
+    "word": "physical",
+    "chinese": "a. 身体的, 物质的, 自然的, 物理学的, 好色的",
+    "ipa": "'fizikl",
+    "rank": 1243,
+    "level": "beginner"
+  },
+  {
+    "word": "operating",
+    "chinese": "a. 操作的, 工作的, 营业上的, 业务的, 关于收支的, 关于损益的, 外科手术的",
+    "ipa": "'ɔpәreitiŋ",
+    "rank": 1244,
+    "level": "beginner"
+  },
+  {
+    "word": "hill",
+    "chinese": "n. 小山, 丘陵, 小土堆",
+    "ipa": "hil",
+    "rank": 1245,
+    "level": "beginner"
+  },
+  {
+    "word": "maps",
+    "chinese": "abbr. 管理分析与规划系统（Management Analysis and Planning System）",
+    "ipa": "mæps",
+    "rank": 1246,
+    "level": "beginner"
+  },
+  {
+    "word": "medicine",
+    "chinese": "n. 药, 医学, 内科",
+    "ipa": "'medisin",
+    "rank": 1247,
+    "level": "beginner"
+  },
+  {
+    "word": "deal",
+    "chinese": "n. 交易, 协定, 数量, 买卖, 松木板",
+    "ipa": "di:l",
+    "rank": 1248,
+    "level": "beginner"
+  },
+  {
+    "word": "hold",
+    "chinese": "n. 把握, 把持力, 柄, 控制, 掌握, 监禁",
+    "ipa": "hәuld",
+    "rank": 1249,
+    "level": "beginner"
+  },
+  {
+    "word": "ratings",
+    "chinese": "n. 评级",
+    "ipa": "ˈreɪtɪŋz",
+    "rank": 1250,
+    "level": "beginner"
+  },
+  {
+    "word": "chicago",
+    "chinese": "n. 芝加哥",
+    "ipa": "ʃi'kɑ:gәu",
+    "rank": 1251,
+    "level": "beginner"
+  },
+  {
+    "word": "forms",
+    "chinese": "n. 窗体",
+    "ipa": "fɔrmz",
+    "rank": 1252,
+    "level": "beginner"
+  },
+  {
+    "word": "glass",
+    "chinese": "n. 玻璃, 玻璃杯, 透镜",
+    "ipa": "glɑ:s",
+    "rank": 1253,
+    "level": "beginner"
+  },
+  {
+    "word": "happy",
+    "chinese": "a. 快乐的, 幸福的, 愉快的, 恰当的",
+    "ipa": "'hæpi",
+    "rank": 1254,
+    "level": "beginner"
+  },
+  {
+    "word": "tue",
+    "chinese": "abbr. 星期二（Tuesday）",
+    "ipa": "tu",
+    "rank": 1255,
+    "level": "beginner"
+  },
+  {
+    "word": "smith",
+    "chinese": "n. 铁匠, 金属品工匠",
+    "ipa": "smiθ",
+    "rank": 1256,
+    "level": "beginner"
+  },
+  {
+    "word": "wanted",
+    "chinese": "a. 被通缉的",
+    "ipa": "'wɔntid. 'wɔ:n-",
+    "rank": 1257,
+    "level": "beginner"
+  },
+  {
+    "word": "developed",
+    "chinese": "a. 发达的（国家或地区）",
+    "ipa": "di'velәpid",
+    "rank": 1258,
+    "level": "beginner"
+  },
+  {
+    "word": "thank",
+    "chinese": "n. 谢意, 感谢",
+    "ipa": "θæŋk",
+    "rank": 1259,
+    "level": "beginner"
+  },
+  {
+    "word": "safe",
+    "chinese": "n. 保险箱, 冷藏室",
+    "ipa": "seif",
+    "rank": 1260,
+    "level": "beginner"
+  },
+  {
+    "word": "unique",
+    "chinese": "a. 独一无二的, 独特的, 稀罕的",
+    "ipa": "ju:'ni:k",
+    "rank": 1261,
+    "level": "beginner"
+  },
+  {
+    "word": "survey",
+    "chinese": "n. 纵览, 视察, 测量, 俯瞰, 调查",
+    "ipa": "sә'vei",
+    "rank": 1262,
+    "level": "beginner"
+  },
+  {
+    "word": "prior",
+    "chinese": "a. 更重要的, 较早的, 在先的",
+    "ipa": "'praiә",
+    "rank": 1263,
+    "level": "beginner"
+  },
+  {
+    "word": "telephone",
+    "chinese": "n. 电话, 电话机",
+    "ipa": "'telifәun",
+    "rank": 1264,
+    "level": "beginner"
+  },
+  {
+    "word": "sport",
+    "chinese": "n. 运动, 游戏, 娱乐, 消遣, 玩笑",
+    "ipa": "spɒ:t",
+    "rank": 1265,
+    "level": "beginner"
+  },
+  {
+    "word": "ready",
+    "chinese": "n. 预备好的状态, 现款",
+    "ipa": "'redi",
+    "rank": 1266,
+    "level": "beginner"
+  },
+  {
+    "word": "feed",
+    "chinese": "n. 饲料, 一餐, 饲养",
+    "ipa": "fi:d",
+    "rank": 1267,
+    "level": "beginner"
+  },
+  {
+    "word": "animal",
+    "chinese": "n. 动物",
+    "ipa": "'ænimәl",
+    "rank": 1268,
+    "level": "beginner"
+  },
+  {
+    "word": "sources",
+    "chinese": "n. 输入源",
+    "ipa": "ˈsɔrsəz",
+    "rank": 1269,
+    "level": "beginner"
+  },
+  {
+    "word": "mexico",
+    "chinese": "n. 墨西哥",
+    "ipa": "'meksikәu",
+    "rank": 1270,
+    "level": "beginner"
+  },
+  {
+    "word": "population",
+    "chinese": "n. 人口, 人口数",
+    "ipa": ".pɒpju'leiʃәn",
+    "rank": 1271,
+    "level": "beginner"
+  },
+  {
+    "word": "pa",
+    "chinese": "私人秘书, (露天)扩音系统",
+    "ipa": "pɑ:",
+    "rank": 1272,
+    "level": "beginner"
+  },
+  {
+    "word": "regular",
+    "chinese": "a. 规则的, 常例的, 有秩序的, 整齐的, 等边的, 定期的, 经常的, 合格的, 常备军的",
+    "ipa": "'regjulә",
+    "rank": 1273,
+    "level": "beginner"
+  },
+  {
+    "word": "secure",
+    "chinese": "a. 无虑的, 安心的, 安全的, 可靠的, 保险的",
+    "ipa": "si'kjuә",
+    "rank": 1274,
+    "level": "beginner"
+  },
+  {
+    "word": "navigation",
+    "chinese": "n. 航行, 航海, 导航",
+    "ipa": ".nævi'geiʃәn",
+    "rank": 1275,
+    "level": "beginner"
+  },
+  {
+    "word": "operations",
+    "chinese": "n. 运作",
+    "ipa": "ˌɑpərˈeɪʃənz",
+    "rank": 1276,
+    "level": "beginner"
+  },
+  {
+    "word": "therefore",
+    "chinese": "adv. 因此, 所以",
+    "ipa": "'ðєәfɒ:",
+    "rank": 1277,
+    "level": "beginner"
+  },
+  {
+    "word": "ass",
+    "chinese": "n. 驴, 傻瓜, 笨蛋, 屁股",
+    "ipa": "æs",
+    "rank": 1278,
+    "level": "beginner"
+  },
+  {
+    "word": "simply",
+    "chinese": "adv. 简单地, 只是, 简直, 简朴地, 坦白地",
+    "ipa": "'simpli",
+    "rank": 1279,
+    "level": "beginner"
+  },
+  {
+    "word": "evidence",
+    "chinese": "n. 根据, 证据, 迹象",
+    "ipa": "'evidәns",
+    "rank": 1280,
+    "level": "beginner"
+  },
+  {
+    "word": "station",
+    "chinese": "n. 车站, 站, 局, 驻地, 位置, 身分, 地位",
+    "ipa": "'steiʃәn",
+    "rank": 1281,
+    "level": "beginner"
+  },
+  {
+    "word": "christian",
+    "chinese": "n. 基督徒, 正派人",
+    "ipa": "'kristʃәn",
+    "rank": 1282,
+    "level": "beginner"
+  },
+  {
+    "word": "round",
+    "chinese": "n. 圆, 圆形物, 巡回, 循环, 一轮, 一回合, 一局, 范围, 轮唱",
+    "ipa": "raund",
+    "rank": 1283,
+    "level": "beginner"
+  },
+  {
+    "word": "paypal",
+    "chinese": "n. 贝宝（全球最大的在线支付平台）",
+    "ipa": "paypal",
+    "rank": 1284,
+    "level": "beginner"
+  },
+  {
+    "word": "favorite",
+    "chinese": "n. 喜欢的事物, 幸运儿",
+    "ipa": "'feivәrit",
+    "rank": 1285,
+    "level": "beginner"
+  },
+  {
+    "word": "understand",
+    "chinese": "vt. 理解, 了解, 领会, 听说, 懂",
+    "ipa": ".ʌndә'stænd",
+    "rank": 1286,
+    "level": "beginner"
+  },
+  {
+    "word": "option",
+    "chinese": "n. 选择权, 挑选, 选项",
+    "ipa": "'ɒpʃәn",
+    "rank": 1287,
+    "level": "beginner"
+  },
+  {
+    "word": "master",
+    "chinese": "n. 主人, 硕士, 大师, 母机",
+    "ipa": "'mɑ:stә. 'mæstә",
+    "rank": 1288,
+    "level": "beginner"
+  },
+  {
+    "word": "valley",
+    "chinese": "n. 山谷, 溪谷, 流域, 凹地",
+    "ipa": "'væli",
+    "rank": 1289,
+    "level": "beginner"
+  },
+  {
+    "word": "recently",
+    "chinese": "adv. 最近",
+    "ipa": "'ri:sntli",
+    "rank": 1290,
+    "level": "beginner"
+  },
+  {
+    "word": "probably",
+    "chinese": "adv. 大概, 或许",
+    "ipa": "'prɒbәbli",
+    "rank": 1291,
+    "level": "beginner"
+  },
+  {
+    "word": "thu",
+    "chinese": "abbr. 星期四（Thursday）",
+    "ipa": "thu",
+    "rank": 1292,
+    "level": "beginner"
+  },
+  {
+    "word": "rentals",
+    "chinese": "n. 住房出租",
+    "ipa": "ˈrɛntəlz",
+    "rank": 1293,
+    "level": "beginner"
+  },
+  {
+    "word": "sea",
+    "chinese": "n. 海, 海洋, 海浪, 大量",
+    "ipa": "si:",
+    "rank": 1294,
+    "level": "beginner"
+  },
+  {
+    "word": "built",
+    "chinese": "build的过去式和过去分词",
+    "ipa": "bilt",
+    "rank": 1295,
+    "level": "beginner"
+  },
+  {
+    "word": "publications",
+    "chinese": "n. 出版物（publication的复数）",
+    "ipa": "ˌpəblɪˈkeɪʃənz",
+    "rank": 1296,
+    "level": "beginner"
+  },
+  {
+    "word": "blood",
+    "chinese": "n. 血, 血统, 流血, 气质, 生命",
+    "ipa": "blʌd",
+    "rank": 1297,
+    "level": "beginner"
+  },
+  {
+    "word": "cut",
+    "chinese": "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路",
+    "ipa": "kʌt",
+    "rank": 1298,
+    "level": "beginner"
+  },
+  {
+    "word": "worldwide",
+    "chinese": "a. 全世界的",
+    "ipa": "'wә:ldwaid",
+    "rank": 1299,
+    "level": "beginner"
+  },
+  {
+    "word": "improve",
+    "chinese": "vt. 改良, 提高...的价值, 改善, 利用",
+    "ipa": "im'pru:v",
+    "rank": 1300,
+    "level": "beginner"
+  },
+  {
+    "word": "connection",
+    "chinese": "n. 连接, 关系, 前后关系",
+    "ipa": "kә'nekʃәn",
+    "rank": 1301,
+    "level": "elementary"
+  },
+  {
+    "word": "publisher",
+    "chinese": "n. 出版者, 发行人",
+    "ipa": "'pʌbliʃә",
+    "rank": 1302,
+    "level": "elementary"
+  },
+  {
+    "word": "hall",
+    "chinese": "n. 门厅, 走廊, 会堂",
+    "ipa": "hɒ:l",
+    "rank": 1303,
+    "level": "elementary"
+  },
+  {
+    "word": "larger",
+    "chinese": "a. 大的",
+    "ipa": "ˈlɑrʤər",
+    "rank": 1304,
+    "level": "elementary"
+  },
+  {
+    "word": "anti",
+    "chinese": "n. 反对者, 反对论者",
+    "ipa": "'ænti",
+    "rank": 1305,
+    "level": "elementary"
+  },
+  {
+    "word": "networks",
+    "chinese": "n. 网络",
+    "ipa": "ˈnɛtˌwərks",
+    "rank": 1306,
+    "level": "elementary"
+  },
+  {
+    "word": "earth",
+    "chinese": "n. 地球, 泥土, 世界, 尘世",
+    "ipa": "ә:θ",
+    "rank": 1307,
+    "level": "elementary"
+  },
+  {
+    "word": "parents",
+    "chinese": "n. 父母",
+    "ipa": "ˈpɛrənts",
+    "rank": 1308,
+    "level": "elementary"
+  },
+  {
+    "word": "nokia",
+    "chinese": "n. 诺基亚（财富500强公司之一）",
+    "ipa": "ˈnoʊkiə",
+    "rank": 1309,
+    "level": "elementary"
+  },
+  {
+    "word": "impact",
+    "chinese": "n. 冲击, 冲突, 影响, 效果",
+    "ipa": "'impækt",
+    "rank": 1310,
+    "level": "elementary"
+  },
+  {
+    "word": "transfer",
+    "chinese": "n. 迁移, 移动, 传递, 转让, 转移, 过户, 汇兑, 换车",
+    "ipa": "træns'fә:",
+    "rank": 1311,
+    "level": "elementary"
+  },
+  {
+    "word": "introduction",
+    "chinese": "n. 介绍, 传入, 采用, 初步",
+    "ipa": ".intrә'dʌkʃәn",
+    "rank": 1312,
+    "level": "elementary"
+  },
+  {
+    "word": "kitchen",
+    "chinese": "n. 厨房, 全套炊具",
+    "ipa": "'kitʃin",
+    "rank": 1313,
+    "level": "elementary"
+  },
+  {
+    "word": "strong",
+    "chinese": "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的",
+    "ipa": "strɒŋ",
+    "rank": 1314,
+    "level": "elementary"
+  },
+  {
+    "word": "tel",
+    "chinese": "abbr. 试验仪器清单（Test Equipment List）",
+    "ipa": "tel",
+    "rank": 1315,
+    "level": "elementary"
+  },
+  {
+    "word": "carolina",
+    "chinese": "n. 北(或南)卡罗来纳州",
+    "ipa": ".kærә'lainә",
+    "rank": 1316,
+    "level": "elementary"
+  },
+  {
+    "word": "wedding",
+    "chinese": "n. 婚礼, 结婚, 结婚周年纪念日, 结合",
+    "ipa": "'wediŋ",
+    "rank": 1317,
+    "level": "elementary"
+  },
+  {
+    "word": "properties",
+    "chinese": "n. 性能",
+    "ipa": "ˈprɑpərtiz",
+    "rank": 1318,
+    "level": "elementary"
+  },
+  {
+    "word": "hospital",
+    "chinese": "n. 医院",
+    "ipa": "'hɒspitәl",
+    "rank": 1319,
+    "level": "elementary"
+  },
+  {
+    "word": "ground",
+    "chinese": "n. 土地, 战场, 场地, 地面, 范围",
+    "ipa": "graund",
+    "rank": 1320,
+    "level": "elementary"
+  },
+  {
+    "word": "overview",
+    "chinese": "n. 概述, 概观, 总的看法",
+    "ipa": "'әuvәvju:",
+    "rank": 1321,
+    "level": "elementary"
+  },
+  {
+    "word": "ship",
+    "chinese": "n. 船, 舰",
+    "ipa": "ʃip",
+    "rank": 1322,
+    "level": "elementary"
+  },
+  {
+    "word": "accommodation",
+    "chinese": "n. 膳宿, 预订铺位, 适应性调节, 调和, 贷款",
+    "ipa": "ә.kɒmә'deiʃәn",
+    "rank": 1323,
+    "level": "elementary"
+  },
+  {
+    "word": "owners",
+    "chinese": "n. 所有者",
+    "ipa": "ˈoʊnərz",
+    "rank": 1324,
+    "level": "elementary"
+  },
+  {
+    "word": "disease",
+    "chinese": "n. 疾病, 弊病",
+    "ipa": "di'zi:z",
+    "rank": 1325,
+    "level": "elementary"
+  },
+  {
+    "word": "tx",
+    "chinese": "[计] 终端执行程序",
+    "ipa": "tx",
+    "rank": 1326,
+    "level": "elementary"
+  },
+  {
+    "word": "excellent",
+    "chinese": "a. 优良的, 杰出的, 出色的",
+    "ipa": "'ekslәnt",
+    "rank": 1327,
+    "level": "elementary"
+  },
+  {
+    "word": "paid",
+    "chinese": "a. 受雇的, 付清的",
+    "ipa": "peid",
+    "rank": 1328,
+    "level": "elementary"
+  },
+  {
+    "word": "italy",
+    "chinese": "n. 意大利",
+    "ipa": "'itәli",
+    "rank": 1329,
+    "level": "elementary"
+  },
+  {
+    "word": "perfect",
+    "chinese": "n. 完成时",
+    "ipa": "'pә:fikt",
+    "rank": 1330,
+    "level": "elementary"
+  },
+  {
+    "word": "hair",
+    "chinese": "n. 头发, 毛发, 些微",
+    "ipa": "hєә",
+    "rank": 1331,
+    "level": "elementary"
+  },
+  {
+    "word": "opportunity",
+    "chinese": "n. 机会, 时机",
+    "ipa": ".ɒpә'tju:niti",
+    "rank": 1332,
+    "level": "elementary"
+  },
+  {
+    "word": "kit",
+    "chinese": "n. 装备, 工具箱, 成套工具",
+    "ipa": "kit",
+    "rank": 1333,
+    "level": "elementary"
+  },
+  {
+    "word": "classic",
+    "chinese": "n. 古典作品, 杰作, 大艺术家",
+    "ipa": "'klæsik",
+    "rank": 1334,
+    "level": "elementary"
+  },
+  {
+    "word": "basis",
+    "chinese": "n. 基础, 主要成分",
+    "ipa": "'beisis",
+    "rank": 1335,
+    "level": "elementary"
+  },
+  {
+    "word": "command",
+    "chinese": "n. 命令, 指挥, 控制, 部队, 司令部",
+    "ipa": "kә'mɑ:nd",
+    "rank": 1336,
+    "level": "elementary"
+  },
+  {
+    "word": "cities",
+    "chinese": "n. 城市（city的复数）",
+    "ipa": "ˈsɪtiz",
+    "rank": 1337,
+    "level": "elementary"
+  },
+  {
+    "word": "william",
+    "chinese": "n. 威廉（男子名）",
+    "ipa": "'wiljәm",
+    "rank": 1338,
+    "level": "elementary"
+  },
+  {
+    "word": "express",
+    "chinese": "n. 快车, 快递, 专使",
+    "ipa": "ik'spres",
+    "rank": 1339,
+    "level": "elementary"
+  },
+  {
+    "word": "anal",
+    "chinese": "a. 肛门的, 肛门附近的",
+    "ipa": "'einәl",
+    "rank": 1340,
+    "level": "elementary"
+  },
+  {
+    "word": "award",
+    "chinese": "n. 奖品, 裁定, 判决",
+    "ipa": "ә'wɒ:d",
+    "rank": 1341,
+    "level": "elementary"
+  },
+  {
+    "word": "distance",
+    "chinese": "n. 距离, 远方, 遥远",
+    "ipa": "'distәns",
+    "rank": 1342,
+    "level": "elementary"
+  },
+  {
+    "word": "tree",
+    "chinese": "n. 树, 木料, 树状物",
+    "ipa": "tri:",
+    "rank": 1343,
+    "level": "elementary"
+  },
+  {
+    "word": "peter",
+    "chinese": "vi. 逐渐消失, 逐渐减少",
+    "ipa": "'pi:tә",
+    "rank": 1344,
+    "level": "elementary"
+  },
+  {
+    "word": "assessment",
+    "chinese": "n. 评估, 估定, 评定的款额",
+    "ipa": "ә'sesmәnt",
+    "rank": 1345,
+    "level": "elementary"
+  },
+  {
+    "word": "ensure",
+    "chinese": "vt. 确定, 保证, 担保, 保护",
+    "ipa": "in'ʃuә",
+    "rank": 1346,
+    "level": "elementary"
+  },
+  {
+    "word": "thus",
+    "chinese": "adv. 如此, 因此, 到如此程度",
+    "ipa": "ðʌs",
+    "rank": 1347,
+    "level": "elementary"
+  },
+  {
+    "word": "wall",
+    "chinese": "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障",
+    "ipa": "wɒ:l",
+    "rank": 1348,
+    "level": "elementary"
+  },
+  {
+    "word": "ie",
+    "chinese": "[计] 中断启动",
+    "ipa": "'i:ei",
+    "rank": 1349,
+    "level": "elementary"
+  },
+  {
+    "word": "involved",
+    "chinese": "a. 难懂的, 复杂的, 不易懂的, 卷入...之中的, 累及..., 与...有关, 被纠缠的",
+    "ipa": "in'vɔlvd",
+    "rank": 1350,
+    "level": "elementary"
+  },
+  {
+    "word": "el",
+    "chinese": "abbr. 预期损失（Expected Loss）",
+    "ipa": "el",
+    "rank": 1351,
+    "level": "elementary"
+  },
+  {
+    "word": "extra",
+    "chinese": "n. 额外的事物, 另外的收费",
+    "ipa": "'ekstrә",
+    "rank": 1352,
+    "level": "elementary"
+  },
+  {
+    "word": "especially",
+    "chinese": "adv. 尤其, 特别, 格外",
+    "ipa": "i'speʃәli",
+    "rank": 1353,
+    "level": "elementary"
+  },
+  {
+    "word": "interface",
+    "chinese": "n. 分界面, 接触面, 界面",
+    "ipa": "'intәfeis",
+    "rank": 1354,
+    "level": "elementary"
+  },
+  {
+    "word": "pussy",
+    "chinese": "n.〈非正式〉猫咪",
+    "ipa": "'pusi",
+    "rank": 1355,
+    "level": "elementary"
+  },
+  {
+    "word": "partners",
+    "chinese": "n. 合作伙伴",
+    "ipa": "ˈpɑrtnərz",
+    "rank": 1356,
+    "level": "elementary"
+  },
+  {
+    "word": "budget",
+    "chinese": "n. 预算",
+    "ipa": "'bʌdʒit",
+    "rank": 1357,
+    "level": "elementary"
+  },
+  {
+    "word": "rated",
+    "chinese": "[电] 额定的",
+    "ipa": "'reitid",
+    "rank": 1358,
+    "level": "elementary"
+  },
+  {
+    "word": "guides",
+    "chinese": "n. 辅助线",
+    "ipa": "gaɪdz",
+    "rank": 1359,
+    "level": "elementary"
+  },
+  {
+    "word": "success",
+    "chinese": "n. 成功, 成就, 胜利",
+    "ipa": "sәk'ses",
+    "rank": 1360,
+    "level": "elementary"
+  },
+  {
+    "word": "maximum",
+    "chinese": "n. 极点, 最大量, 极大",
+    "ipa": "'mæksimәn",
+    "rank": 1361,
+    "level": "elementary"
+  },
+  {
+    "word": "ma",
+    "chinese": "n. 妈",
+    "ipa": "mɑ:",
+    "rank": 1362,
+    "level": "elementary"
+  },
+  {
+    "word": "operation",
+    "chinese": "n. 操作, 动作, 手术, 运算, 作用, 业务",
+    "ipa": ".ɒpә'reiʃәn",
+    "rank": 1363,
+    "level": "elementary"
+  },
+  {
+    "word": "existing",
+    "chinese": "a. 存在的, 目前的, 现存的, 现有的",
+    "ipa": "i^'zistiŋ",
+    "rank": 1364,
+    "level": "elementary"
+  },
+  {
+    "word": "quite",
+    "chinese": "adv. 相当, 完全, 十分",
+    "ipa": "kwait",
+    "rank": 1365,
+    "level": "elementary"
+  },
+  {
+    "word": "selected",
+    "chinese": "a. 挑选出来的, 精选的",
+    "ipa": "si'lektid",
+    "rank": 1366,
+    "level": "elementary"
+  },
+  {
+    "word": "boy",
+    "chinese": "n. 男孩",
+    "ipa": "bɒi",
+    "rank": 1367,
+    "level": "elementary"
+  },
+  {
+    "word": "amazon",
+    "chinese": "n. 亚马孙河",
+    "ipa": "'æmәzɒn",
+    "rank": 1368,
+    "level": "elementary"
+  },
+  {
+    "word": "patients",
+    "chinese": "n. 病人（patient的复数形式）",
+    "ipa": "ˈpeɪʃənz",
+    "rank": 1369,
+    "level": "elementary"
+  },
+  {
+    "word": "restaurants",
+    "chinese": "n. 饭店( restaurant的名词复数 ); 餐馆; 饭馆; 菜馆",
+    "ipa": "ˈrestərənts",
+    "rank": 1370,
+    "level": "elementary"
+  },
+  {
+    "word": "beautiful",
+    "chinese": "a. 美丽的",
+    "ipa": "'bju:tiful",
+    "rank": 1371,
+    "level": "elementary"
+  },
+  {
+    "word": "warning",
+    "chinese": "n. 警告, 预告, 预兆, 通知",
+    "ipa": "'wɒ:niŋ",
+    "rank": 1372,
+    "level": "elementary"
+  },
+  {
+    "word": "wine",
+    "chinese": "n. 葡萄酒, 果酒, 暗红色",
+    "ipa": "wain",
+    "rank": 1373,
+    "level": "elementary"
+  },
+  {
+    "word": "locations",
+    "chinese": "n. 位置",
+    "ipa": "loʊˈkeɪʃənz",
+    "rank": 1374,
+    "level": "elementary"
+  },
+  {
+    "word": "horse",
+    "chinese": "n. 马, 骑兵, 脚架",
+    "ipa": "hɒ:s",
+    "rank": 1375,
+    "level": "elementary"
+  },
+  {
+    "word": "vote",
+    "chinese": "n. 投票, 选举, 选票, 表决, 选举权, 得票数",
+    "ipa": "vәut",
+    "rank": 1376,
+    "level": "elementary"
+  },
+  {
+    "word": "forward",
+    "chinese": "a. 向前的, 早的, 迅速的, 在前的, 进步的",
+    "ipa": "'fɒ:wәd",
+    "rank": 1377,
+    "level": "elementary"
+  },
+  {
+    "word": "flowers",
+    "chinese": "[医] 花; 升华制成的药物; 月经",
+    "ipa": "flaʊərz",
+    "rank": 1378,
+    "level": "elementary"
+  },
+  {
+    "word": "stars",
+    "chinese": "n. 明星类, 明星（star的复数形式）",
+    "ipa": "stɑrz",
+    "rank": 1379,
+    "level": "elementary"
+  },
+  {
+    "word": "significant",
+    "chinese": "a. 重要的, 有效的, 有含义的, 暗示的, 值得注意的",
+    "ipa": "sig'nifikәnt",
+    "rank": 1380,
+    "level": "elementary"
+  },
+  {
+    "word": "lists",
+    "chinese": "n. 竞技场",
+    "ipa": "lists",
+    "rank": 1381,
+    "level": "elementary"
+  },
+  {
+    "word": "technologies",
+    "chinese": "n. 技术",
+    "ipa": "tɛkˈnɑləʤiz",
+    "rank": 1382,
+    "level": "elementary"
+  },
+  {
+    "word": "owner",
+    "chinese": "n. 拥有者, 物主, 所有人",
+    "ipa": "'әunә",
+    "rank": 1383,
+    "level": "elementary"
+  },
+  {
+    "word": "retail",
+    "chinese": "n. 零售",
+    "ipa": "'ri:teil",
+    "rank": 1384,
+    "level": "elementary"
+  },
+  {
+    "word": "animals",
+    "chinese": "n. 动物, 动物世界",
+    "ipa": "ˈænəməlz",
+    "rank": 1385,
+    "level": "elementary"
+  },
+  {
+    "word": "useful",
+    "chinese": "a. 有用的, 有益的",
+    "ipa": "'ju:sful",
+    "rank": 1386,
+    "level": "elementary"
+  },
+  {
+    "word": "directly",
+    "chinese": "adv. 径直地, 直接地, 直率地, 正好地, 直截了当地, (非正式)立即, 马上",
+    "ipa": "di'rektli, dai'rektli",
+    "rank": 1387,
+    "level": "elementary"
+  },
+  {
+    "word": "manufacturer",
+    "chinese": "n. 制造业者, 厂商",
+    "ipa": ".mænju'fæktʃәrә",
+    "rank": 1388,
+    "level": "elementary"
+  },
+  {
+    "word": "ways",
+    "chinese": "n. 方法（way的复数）",
+    "ipa": "weiz",
+    "rank": 1389,
+    "level": "elementary"
+  },
+  {
+    "word": "est",
+    "chinese": "(美国)东部时间",
+    "ipa": "ɛst",
+    "rank": 1390,
+    "level": "elementary"
+  },
+  {
+    "word": "son",
+    "chinese": "n. 儿子, 女婿, 子孙",
+    "ipa": "sʌn",
+    "rank": 1391,
+    "level": "elementary"
+  },
+  {
+    "word": "providing",
+    "chinese": "conj. 以...为条件, 假如",
+    "ipa": "prəˈvaɪdɪŋ",
+    "rank": 1392,
+    "level": "elementary"
+  },
+  {
+    "word": "rule",
+    "chinese": "n. 规则, 统治, 控制, 支配, 规律, 标准, 章程, 破折号, 铅线",
+    "ipa": "ru:l",
+    "rank": 1393,
+    "level": "elementary"
+  },
+  {
+    "word": "mac",
+    "chinese": "n. 防水胶布, (英)雨衣, 老兄, 老弟",
+    "ipa": "mæk",
+    "rank": 1394,
+    "level": "elementary"
+  },
+  {
+    "word": "housing",
+    "chinese": "n. 遮盖, 住房供给, 居留(处), 房屋, 装饰",
+    "ipa": "'hausiŋ",
+    "rank": 1395,
+    "level": "elementary"
+  },
+  {
+    "word": "takes",
+    "chinese": "vt. 取走, 预备动作（take第三人称单数）",
+    "ipa": "teɪks",
+    "rank": 1396,
+    "level": "elementary"
+  },
+  {
+    "word": "iii",
+    "chinese": "num. 罗马数字3",
+    "ipa": "iii",
+    "rank": 1397,
+    "level": "elementary"
+  },
+  {
+    "word": "gmt",
+    "chinese": "格林威治平均时",
+    "ipa": "gmt",
+    "rank": 1398,
+    "level": "elementary"
+  },
+  {
+    "word": "bring",
+    "chinese": "vt. 带来, 产生, 促使, 提出",
+    "ipa": "briŋ",
+    "rank": 1399,
+    "level": "elementary"
+  },
+  {
+    "word": "catalog",
+    "chinese": "n. 目录, 大学概况手册",
+    "ipa": "'kætәlɒg",
+    "rank": 1400,
+    "level": "elementary"
+  },
+  {
+    "word": "searches",
+    "chinese": "n. 检索",
+    "ipa": "ˈsərʧɪz",
+    "rank": 1401,
+    "level": "elementary"
+  },
+  {
+    "word": "max",
+    "chinese": "[计] 最大",
+    "ipa": "mæks",
+    "rank": 1402,
+    "level": "elementary"
+  },
+  {
+    "word": "trying",
+    "chinese": "a. 难受的, 难堪的",
+    "ipa": "'traiiŋ",
+    "rank": 1403,
+    "level": "elementary"
+  },
+  {
+    "word": "mother",
+    "chinese": "n. 母亲, 修女院长",
+    "ipa": "'mʌðә",
+    "rank": 1404,
+    "level": "elementary"
+  },
+  {
+    "word": "authority",
+    "chinese": "n. 权力, 当权者, 当局, 权威, 专家",
+    "ipa": "ɒ:'θɒriti",
+    "rank": 1405,
+    "level": "elementary"
+  },
+  {
+    "word": "considered",
+    "chinese": "a. 考虑过的, 被尊重的",
+    "ipa": "kәn'sidәd",
+    "rank": 1406,
+    "level": "elementary"
+  },
+  {
+    "word": "told",
+    "chinese": "tell的过去式和过去分词",
+    "ipa": "tәuld",
+    "rank": 1407,
+    "level": "elementary"
+  },
+  {
+    "word": "xml",
+    "chinese": "abbr. 可扩展标示语言（Extensive Makeup Language）",
+    "ipa": "ˌɛkˌsɛˈmɛl",
+    "rank": 1408,
+    "level": "elementary"
+  },
+  {
+    "word": "traffic",
+    "chinese": "n. 交通, 通行, 运输, 交通量, 贸易, 交易, 交往, 通信量",
+    "ipa": "'træfik",
+    "rank": 1409,
+    "level": "elementary"
+  },
+  {
+    "word": "programme",
+    "chinese": "n. 节目, 节目单, 程序, 纲要, 大纲, 计划",
+    "ipa": "'prәugræm",
+    "rank": 1410,
+    "level": "elementary"
+  },
+  {
+    "word": "joined",
+    "chinese": "v. 加入",
+    "ipa": "ʤɔɪnd",
+    "rank": 1411,
+    "level": "elementary"
+  },
+  {
+    "word": "input",
+    "chinese": "n. 输入, 输入电路",
+    "ipa": "'input",
+    "rank": 1412,
+    "level": "elementary"
+  },
+  {
+    "word": "strategy",
+    "chinese": "n. 战略, 策略",
+    "ipa": "'strætidʒi",
+    "rank": 1413,
+    "level": "elementary"
+  },
+  {
+    "word": "feet",
+    "chinese": "pl. 脚",
+    "ipa": "fi:t",
+    "rank": 1414,
+    "level": "elementary"
+  },
+  {
+    "word": "agent",
+    "chinese": "n. 代理商, 政府代表, 动原, 媒介",
+    "ipa": "'eidʒәnt",
+    "rank": 1415,
+    "level": "elementary"
+  },
+  {
+    "word": "valid",
+    "chinese": "a. 有确实根据的, 有法律效力的, 正当的, 正确的",
+    "ipa": "'vælid",
+    "rank": 1416,
+    "level": "elementary"
+  },
+  {
+    "word": "bin",
+    "chinese": "n. (贮存谷物等的)容器, 箱子",
+    "ipa": "bin",
+    "rank": 1417,
+    "level": "elementary"
+  },
+  {
+    "word": "modern",
+    "chinese": "n. 现代人, 有思想的人",
+    "ipa": "'mɒdәn",
+    "rank": 1418,
+    "level": "elementary"
+  },
+  {
+    "word": "senior",
+    "chinese": "n. 年长者, 资深者, 毕业班学生",
+    "ipa": "'si:njә",
+    "rank": 1419,
+    "level": "elementary"
+  },
+  {
+    "word": "ireland",
+    "chinese": "n. 爱尔兰",
+    "ipa": "'aiәlәnd",
+    "rank": 1420,
+    "level": "elementary"
+  },
+  {
+    "word": "sexy",
+    "chinese": "a. 有性感的, 色情的",
+    "ipa": "'seksi",
+    "rank": 1421,
+    "level": "elementary"
+  },
+  {
+    "word": "teaching",
+    "chinese": "n. 教学, 学说, 教导",
+    "ipa": "'ti:tʃiŋ",
+    "rank": 1422,
+    "level": "elementary"
+  },
+  {
+    "word": "door",
+    "chinese": "n. 门",
+    "ipa": "dɒ:",
+    "rank": 1423,
+    "level": "elementary"
+  },
+  {
+    "word": "grand",
+    "chinese": "a. 庄重的, 壮观的, 显赫的, 重大的, 最高的, 雄伟的, 宏大的, 豪华的, 傲慢的",
+    "ipa": "grænd",
+    "rank": 1424,
+    "level": "elementary"
+  },
+  {
+    "word": "testing",
+    "chinese": "n. 测试",
+    "ipa": "'testiŋ",
+    "rank": 1425,
+    "level": "elementary"
+  },
+  {
+    "word": "trial",
+    "chinese": "n. 审判, 试验, 艰苦, 麻烦事, 考验",
+    "ipa": "'traiәl",
+    "rank": 1426,
+    "level": "elementary"
+  },
+  {
+    "word": "charge",
+    "chinese": "n. 指控, 费用, 冲锋, 电荷, 炸药, 主管, 被托管人, 命令",
+    "ipa": "tʃɑ:dʒ",
+    "rank": 1427,
+    "level": "elementary"
+  },
+  {
+    "word": "units",
+    "chinese": "n. 单位",
+    "ipa": "ˈjunɪts",
+    "rank": 1428,
+    "level": "elementary"
+  },
+  {
+    "word": "instead",
+    "chinese": "adv. 作为替代, 反而",
+    "ipa": "in'sted",
+    "rank": 1429,
+    "level": "elementary"
+  },
+  {
+    "word": "canadian",
+    "chinese": "a. 加拿大的",
+    "ipa": "kә'neidiәn",
+    "rank": 1430,
+    "level": "elementary"
+  },
+  {
+    "word": "cool",
+    "chinese": "n. 凉爽, 凉爽的空气",
+    "ipa": "ku:l",
+    "rank": 1431,
+    "level": "elementary"
+  },
+  {
+    "word": "normal",
+    "chinese": "n. 常态, 标准, 正常, 普通",
+    "ipa": "'nɒ:ml",
+    "rank": 1432,
+    "level": "elementary"
+  },
+  {
+    "word": "wrote",
+    "chinese": "write的过去式",
+    "ipa": "rәut",
+    "rank": 1433,
+    "level": "elementary"
+  },
+  {
+    "word": "enterprise",
+    "chinese": "n. 企业, 事业心, 进取心, 干事业",
+    "ipa": "'entәpraiz",
+    "rank": 1434,
+    "level": "elementary"
+  },
+  {
+    "word": "ships",
+    "chinese": "n. 舰船（ship的复数）",
+    "ipa": "ʃɪps",
+    "rank": 1435,
+    "level": "elementary"
+  },
+  {
+    "word": "entire",
+    "chinese": "n. 整个, 全部",
+    "ipa": "in'taiә",
+    "rank": 1436,
+    "level": "elementary"
+  },
+  {
+    "word": "educational",
+    "chinese": "a. 教育的, 教育性的",
+    "ipa": ".edju'keiʃәnl",
+    "rank": 1437,
+    "level": "elementary"
+  },
+  {
+    "word": "md",
+    "chinese": "医学博士, 总经理, 常务董事",
+    "ipa": "md",
+    "rank": 1438,
+    "level": "elementary"
+  },
+  {
+    "word": "leading",
+    "chinese": "n. 领导, 指挥, 神示, 铅板",
+    "ipa": "'li:diŋ",
+    "rank": 1439,
+    "level": "elementary"
+  },
+  {
+    "word": "metal",
+    "chinese": "n. 金属, 金属制品, 合金, 本质, 质料",
+    "ipa": "'metәl",
+    "rank": 1440,
+    "level": "elementary"
+  },
+  {
+    "word": "positive",
+    "chinese": "a. 肯定的, 积极的, 有把握的",
+    "ipa": "'pɒzitiv",
+    "rank": 1441,
+    "level": "elementary"
+  },
+  {
+    "word": "fl",
+    "chinese": "abbr. 焦距（focal length）",
+    "ipa": "fl",
+    "rank": 1442,
+    "level": "elementary"
+  },
+  {
+    "word": "fitness",
+    "chinese": "n. 适合, 合宜, 合理, 恰当, 健康",
+    "ipa": "'fitnis",
+    "rank": 1443,
+    "level": "elementary"
+  },
+  {
+    "word": "chinese",
+    "chinese": "n. 中文, 中国话, 中国人",
+    "ipa": "tʃai'ni:z",
+    "rank": 1444,
+    "level": "elementary"
+  },
+  {
+    "word": "opinion",
+    "chinese": "n. 意见, 评价, 主张",
+    "ipa": "ә'pinjәn",
+    "rank": 1445,
+    "level": "elementary"
+  },
+  {
+    "word": "mb",
+    "chinese": "兆字节",
+    "ipa": "mb",
+    "rank": 1446,
+    "level": "elementary"
+  },
+  {
+    "word": "asia",
+    "chinese": "n. 亚洲",
+    "ipa": "'eiʒә",
+    "rank": 1447,
+    "level": "elementary"
+  },
+  {
+    "word": "football",
+    "chinese": "n. 足球, 橄榄球",
+    "ipa": "'futbɒ:l",
+    "rank": 1448,
+    "level": "elementary"
+  },
+  {
+    "word": "abstract",
+    "chinese": "a. 抽象的, 深奥的",
+    "ipa": "'æbstrækt",
+    "rank": 1449,
+    "level": "elementary"
+  },
+  {
+    "word": "uses",
+    "chinese": "abbr. 美国就业局（United States Employment Service）",
+    "ipa": "ˈjuzɪz",
+    "rank": 1450,
+    "level": "elementary"
+  },
+  {
+    "word": "output",
+    "chinese": "n. 输出, 产品, 产量",
+    "ipa": "'autput",
+    "rank": 1451,
+    "level": "elementary"
+  },
+  {
+    "word": "funds",
+    "chinese": "n. 基金",
+    "ipa": "fəndz",
+    "rank": 1452,
+    "level": "elementary"
+  },
+  {
+    "word": "mr",
+    "chinese": "先生",
+    "ipa": "'mistә(r)",
+    "rank": 1453,
+    "level": "elementary"
+  },
+  {
+    "word": "greater",
+    "chinese": "[计] 大的",
+    "ipa": "'^reitә(r)",
+    "rank": 1454,
+    "level": "elementary"
+  },
+  {
+    "word": "likely",
+    "chinese": "a. 有可能的, 合适的, 前途有望的",
+    "ipa": "'laikli",
+    "rank": 1455,
+    "level": "elementary"
+  },
+  {
+    "word": "develop",
+    "chinese": "vt. 发展, 使发达, 进步, 洗印, 显影",
+    "ipa": "di'velәp",
+    "rank": 1456,
+    "level": "elementary"
+  },
+  {
+    "word": "employees",
+    "chinese": "n. 员工",
+    "ipa": "ɪmˈplɔɪiz",
+    "rank": 1457,
+    "level": "elementary"
+  },
+  {
+    "word": "artists",
+    "chinese": "n. 艺术家, 设计师（artist的复数）",
+    "ipa": "ˈɑrtɪsts",
+    "rank": 1458,
+    "level": "elementary"
+  },
+  {
+    "word": "alternative",
+    "chinese": "n. 两者择一, 供替代的选择",
+    "ipa": "ɒ:l'tә:nәtiv",
+    "rank": 1459,
+    "level": "elementary"
+  },
+  {
+    "word": "processing",
+    "chinese": "[计] 处理",
+    "ipa": "prәu'sesiŋ",
+    "rank": 1460,
+    "level": "elementary"
+  },
+  {
+    "word": "responsibility",
+    "chinese": "n. 责任, 职责, 负担, 可靠性",
+    "ipa": "ri.spɒnsә'biliti",
+    "rank": 1461,
+    "level": "elementary"
+  },
+  {
+    "word": "resolution",
+    "chinese": "n. 解析, 决心, 坚定, 决定, 决议, 消除, 解答, 分解",
+    "ipa": ".rezә'lu:ʃәn",
+    "rank": 1462,
+    "level": "elementary"
+  },
+  {
+    "word": "java",
+    "chinese": "n. 爪哇, 爪哇咖啡",
+    "ipa": "'dʒɑ:vә",
+    "rank": 1463,
+    "level": "elementary"
+  },
+  {
+    "word": "guest",
+    "chinese": "n. 客人, 来宾, 旅客",
+    "ipa": "gest",
+    "rank": 1464,
+    "level": "elementary"
+  },
+  {
+    "word": "seems",
+    "chinese": "v. 好像, 仿佛（ seem的第三人称单数 ）",
+    "ipa": "si:mz",
+    "rank": 1465,
+    "level": "elementary"
+  },
+  {
+    "word": "publication",
+    "chinese": "n. 出版物, 出版, 公布",
+    "ipa": ".pʌbli'keiʃәn",
+    "rank": 1466,
+    "level": "elementary"
+  },
+  {
+    "word": "pass",
+    "chinese": "n. 经过, 要隘, 途径, 通行, 护照, 及格",
+    "ipa": "pæs",
+    "rank": 1467,
+    "level": "elementary"
+  },
+  {
+    "word": "relations",
+    "chinese": "n. 交往, 关系, 事务",
+    "ipa": "riˈleɪʃənz",
+    "rank": 1468,
+    "level": "elementary"
+  },
+  {
+    "word": "trust",
+    "chinese": "n. 信任, 信赖, 相信, 受托, 职责, 信心, 托拉斯",
+    "ipa": "trʌst",
+    "rank": 1469,
+    "level": "elementary"
+  },
+  {
+    "word": "van",
+    "chinese": "n. 货车, 篷车, 先锋, 前驱, 前卫",
+    "ipa": "væn",
+    "rank": 1470,
+    "level": "elementary"
+  },
+  {
+    "word": "contains",
+    "chinese": "v. 包含",
+    "ipa": "kənˈteɪnz",
+    "rank": 1471,
+    "level": "elementary"
+  },
+  {
+    "word": "session",
+    "chinese": "n. 期间, 开庭期, 会议, 学期",
+    "ipa": "'seʃәn",
+    "rank": 1472,
+    "level": "elementary"
+  },
+  {
+    "word": "multi",
+    "chinese": "[计] 多",
+    "ipa": "ˈməlti",
+    "rank": 1473,
+    "level": "elementary"
+  },
+  {
+    "word": "photography",
+    "chinese": "n. 摄影, 摄影术",
+    "ipa": "fә'tɒgrәfi",
+    "rank": 1474,
+    "level": "elementary"
+  },
+  {
+    "word": "republic",
+    "chinese": "n. 共和国, 共和政体, 团体, 界",
+    "ipa": "ri'pʌblik",
+    "rank": 1475,
+    "level": "elementary"
+  },
+  {
+    "word": "fees",
+    "chinese": "n. 规费",
+    "ipa": "fiz",
+    "rank": 1476,
+    "level": "elementary"
+  },
+  {
+    "word": "components",
+    "chinese": "n. 部件",
+    "ipa": "kəmˈpoʊnənts",
+    "rank": 1477,
+    "level": "elementary"
+  },
+  {
+    "word": "vacation",
+    "chinese": "n. 假期, 休假",
+    "ipa": "vei'keiʃәn",
+    "rank": 1478,
+    "level": "elementary"
+  },
+  {
+    "word": "century",
+    "chinese": "n. 世纪, 百年",
+    "ipa": "'sentʃuri",
+    "rank": 1479,
+    "level": "elementary"
+  },
+  {
+    "word": "academic",
+    "chinese": "a. 学院的, 学术的, 不切实际的",
+    "ipa": ".ækә'demik",
+    "rank": 1480,
+    "level": "elementary"
+  },
+  {
+    "word": "assistance",
+    "chinese": "n. 协助, 援助",
+    "ipa": "ә'sistәns",
+    "rank": 1481,
+    "level": "elementary"
+  },
+  {
+    "word": "completed",
+    "chinese": "a. 完整的",
+    "ipa": "kəmˈplitɪd",
+    "rank": 1482,
+    "level": "elementary"
+  },
+  {
+    "word": "skin",
+    "chinese": "n. 皮肤, 皮",
+    "ipa": "skin",
+    "rank": 1483,
+    "level": "elementary"
+  },
+  {
+    "word": "graphics",
+    "chinese": "n. 制图法, 制图学, 图解算法, 图形显示",
+    "ipa": "'græfiks",
+    "rank": 1484,
+    "level": "elementary"
+  },
+  {
+    "word": "indian",
+    "chinese": "n. 印度人, 印第安人, 印第安语",
+    "ipa": "'indiәn",
+    "rank": 1485,
+    "level": "elementary"
+  },
+  {
+    "word": "prev",
+    "chinese": "abbr. 上一个（previous）",
+    "ipa": "prev",
+    "rank": 1486,
+    "level": "elementary"
+  },
+  {
+    "word": "ads",
+    "chinese": "[计] 精确定义系统, 先进调试系统, 模拟数字子系统, 应用设计服务",
+    "ipa": "ædz",
+    "rank": 1487,
+    "level": "elementary"
+  },
+  {
+    "word": "mary",
+    "chinese": "n. 玛丽（女子名）",
+    "ipa": "'meәri",
+    "rank": 1488,
+    "level": "elementary"
+  },
+  {
+    "word": "il",
+    "chinese": "[计] 指令表, 中间语言, 解释语言",
+    "ipa": "ɪl",
+    "rank": 1489,
+    "level": "elementary"
+  },
+  {
+    "word": "expected",
+    "chinese": "a. 预期的",
+    "ipa": "ɪkˈspɛktɪd",
+    "rank": 1490,
+    "level": "elementary"
+  },
+  {
+    "word": "ring",
+    "chinese": "n. 环, 环形物, 拳击场, 戒指, 角逐, 小集团, 铃声, 钟声, 声调",
+    "ipa": "riŋ",
+    "rank": 1491,
+    "level": "elementary"
+  },
+  {
+    "word": "grade",
+    "chinese": "n. 等级, 年级, 阶段, 成绩, 程度, 坡度, 斜坡",
+    "ipa": "greid",
+    "rank": 1492,
+    "level": "elementary"
+  },
+  {
+    "word": "dating",
+    "chinese": "[计] 记日期的",
+    "ipa": "'deitiŋ",
+    "rank": 1493,
+    "level": "elementary"
+  },
+  {
+    "word": "pacific",
+    "chinese": "n. 太平洋",
+    "ipa": "pә'sifik",
+    "rank": 1494,
+    "level": "elementary"
+  },
+  {
+    "word": "mountain",
+    "chinese": "n. 山, 山脉, 大堆",
+    "ipa": "'mauntin",
+    "rank": 1495,
+    "level": "elementary"
+  },
+  {
+    "word": "organizations",
+    "chinese": "n. 组织机构",
+    "ipa": "ˌɔrgənəˈzeɪʃənz",
+    "rank": 1496,
+    "level": "elementary"
+  },
+  {
+    "word": "pop",
+    "chinese": "n. 砰然声, 枪击, 含气饮料, 流行音乐, 通俗艺术",
+    "ipa": "pɒp",
+    "rank": 1497,
+    "level": "elementary"
+  },
+  {
+    "word": "filter",
+    "chinese": "n. 滤波器, 过滤器, 滤光器, 过滤嘴, 去尘器",
+    "ipa": "'filtә",
+    "rank": 1498,
+    "level": "elementary"
+  },
+  {
+    "word": "mailing",
+    "chinese": "n. 邮寄, 投递, 邮件, 农场租金",
+    "ipa": "'meiliŋ",
+    "rank": 1499,
+    "level": "elementary"
+  },
+  {
+    "word": "vehicle",
+    "chinese": "n. 交通工具, 车辆, 传播媒介",
+    "ipa": "'vi:ikl",
+    "rank": 1500,
+    "level": "elementary"
+  },
+  {
+    "word": "longer",
+    "chinese": "adv. 比较久",
+    "ipa": "'lɔŋɡә. 'lɔ:ŋ-",
+    "rank": 1501,
+    "level": "elementary"
+  },
+  {
+    "word": "consider",
+    "chinese": "v. 考虑, 思考, 认为",
+    "ipa": "kәn'sidŋ",
+    "rank": 1502,
+    "level": "elementary"
+  },
+  {
+    "word": "int",
+    "chinese": "[计] 整数, 中断",
+    "ipa": "int",
+    "rank": 1503,
+    "level": "elementary"
+  },
+  {
+    "word": "northern",
+    "chinese": "n. 北方人",
+    "ipa": "'nɒ:ðәn",
+    "rank": 1504,
+    "level": "elementary"
+  },
+  {
+    "word": "behind",
+    "chinese": "adv. 在后地",
+    "ipa": "bi'haind",
+    "rank": 1505,
+    "level": "elementary"
+  },
+  {
+    "word": "panel",
+    "chinese": "n. 嵌板, 仪表板, 专题讨论小组, 全体陪审员",
+    "ipa": "'pænl",
+    "rank": 1506,
+    "level": "elementary"
+  },
+  {
+    "word": "floor",
+    "chinese": "n. 地板, 楼层, 底部, 底价",
+    "ipa": "flɒ:",
+    "rank": 1507,
+    "level": "elementary"
+  },
+  {
+    "word": "german",
+    "chinese": "n. 德国人, 德语",
+    "ipa": "'dʒә:mәn",
+    "rank": 1508,
+    "level": "elementary"
+  },
+  {
+    "word": "buying",
+    "chinese": "[经] 买气; 买进",
+    "ipa": "'baiiŋ",
+    "rank": 1509,
+    "level": "elementary"
+  },
+  {
+    "word": "match",
+    "chinese": "n. 比赛, 火柴, 对手",
+    "ipa": "mætʃ",
+    "rank": 1510,
+    "level": "elementary"
+  },
+  {
+    "word": "proposed",
+    "chinese": "a. 被提议的",
+    "ipa": "prəˈpoʊzd",
+    "rank": 1511,
+    "level": "elementary"
+  },
+  {
+    "word": "default",
+    "chinese": "n. 违约, 不履行责任, 缺席, 默认值",
+    "ipa": "di'fɒ:lt",
+    "rank": 1512,
+    "level": "elementary"
+  },
+  {
+    "word": "require",
+    "chinese": "vt. 需要, 命令, 要求",
+    "ipa": "ri'kwaiә",
+    "rank": 1513,
+    "level": "elementary"
+  },
+  {
+    "word": "iraq",
+    "chinese": "n. 伊拉克",
+    "ipa": "i'rɑ:k",
+    "rank": 1514,
+    "level": "elementary"
+  },
+  {
+    "word": "boys",
+    "chinese": "n. 男孩子们",
+    "ipa": "bɔɪz",
+    "rank": 1515,
+    "level": "elementary"
+  },
+  {
+    "word": "outdoor",
+    "chinese": "a. 户外的, 屋外的, 露天的",
+    "ipa": "'autdɒ:",
+    "rank": 1516,
+    "level": "elementary"
+  },
+  {
+    "word": "deep",
+    "chinese": "a. 深的",
+    "ipa": "di:p",
+    "rank": 1517,
+    "level": "elementary"
+  },
+  {
+    "word": "morning",
+    "chinese": "n. 早晨, 早上, 初期",
+    "ipa": "'mɒ:niŋ",
+    "rank": 1518,
+    "level": "elementary"
+  },
+  {
+    "word": "otherwise",
+    "chinese": "adv. 否则, 不同地, 别的方式",
+    "ipa": "'ʌðәwaiz",
+    "rank": 1519,
+    "level": "elementary"
+  },
+  {
+    "word": "allows",
+    "chinese": "n. 允许",
+    "ipa": "əˈlaʊz",
+    "rank": 1520,
+    "level": "elementary"
+  },
+  {
+    "word": "rest",
+    "chinese": "n. 休息, 睡眠, 安息, 稍息, 静止, 支架, 休息处, 其余者, 剩余部分",
+    "ipa": "rest",
+    "rank": 1521,
+    "level": "elementary"
+  },
+  {
+    "word": "protein",
+    "chinese": "n. 蛋白质",
+    "ipa": "'prәuti:in",
+    "rank": 1522,
+    "level": "elementary"
+  },
+  {
+    "word": "plant",
+    "chinese": "n. 植物, 作物, 工厂, 树枝, 生长, 设施, 成套设备",
+    "ipa": "plænt. plɑ:nt",
+    "rank": 1523,
+    "level": "elementary"
+  },
+  {
+    "word": "reported",
+    "chinese": "a. 报告的",
+    "ipa": "ri'pɔ:tid",
+    "rank": 1524,
+    "level": "elementary"
+  },
+  {
+    "word": "hit",
+    "chinese": "n. 打击, 打, 冲撞, 讽刺",
+    "ipa": "hit",
+    "rank": 1525,
+    "level": "elementary"
+  },
+  {
+    "word": "transportation",
+    "chinese": "n. 运输, 输送, 交通车辆",
+    "ipa": ".trænspә'teiʃәn",
+    "rank": 1526,
+    "level": "elementary"
+  },
+  {
+    "word": "mm",
+    "chinese": "毫米",
+    "ipa": "mm",
+    "rank": 1527,
+    "level": "elementary"
+  },
+  {
+    "word": "pool",
+    "chinese": "n. 池, 水塘, 石油层, 联营",
+    "ipa": "pu:l",
+    "rank": 1528,
+    "level": "elementary"
+  },
+  {
+    "word": "mini",
+    "chinese": "n. 同类中的极小者, 微型汽车, 超短裙",
+    "ipa": "'mini",
+    "rank": 1529,
+    "level": "elementary"
+  },
+  {
+    "word": "politics",
+    "chinese": "n. 政治, 政治学, 政见, 政治活动",
+    "ipa": "'pɒlitiks",
+    "rank": 1530,
+    "level": "elementary"
+  },
+  {
+    "word": "partner",
+    "chinese": "n. 合伙人, 股东, 伙伴, 伴侣",
+    "ipa": "'pɑ:tnә",
+    "rank": 1531,
+    "level": "elementary"
+  },
+  {
+    "word": "disclaimer",
+    "chinese": "n. 放弃, 拒负责任, 不承诺",
+    "ipa": "dis'kleimә",
+    "rank": 1532,
+    "level": "elementary"
+  },
+  {
+    "word": "authors",
+    "chinese": "n. 著作家( author的名词复数 ); 作者; 创造者; 发起人",
+    "ipa": "ˈɔ:θəz",
+    "rank": 1533,
+    "level": "elementary"
+  },
+  {
+    "word": "boards",
+    "chinese": "n. 木板, 板子",
+    "ipa": "bɔrdz",
+    "rank": 1534,
+    "level": "elementary"
+  },
+  {
+    "word": "faculty",
+    "chinese": "n. 才能, 能力, 全体教员, (大学的)系",
+    "ipa": "'fækәlti",
+    "rank": 1535,
+    "level": "elementary"
+  },
+  {
+    "word": "parties",
+    "chinese": "n. 当事人",
+    "ipa": "ˈpɑrtiz",
+    "rank": 1536,
+    "level": "elementary"
+  },
+  {
+    "word": "fish",
+    "chinese": "n. 鱼, 鱼肉, 鱼类, 接合板",
+    "ipa": "fiʃ",
+    "rank": 1537,
+    "level": "elementary"
+  },
+  {
+    "word": "membership",
+    "chinese": "n. 会员的资格, 全体会员, 会员数目",
+    "ipa": "'membәʃip",
+    "rank": 1538,
+    "level": "elementary"
+  },
+  {
+    "word": "mission",
+    "chinese": "n. 任务, 代表团, 使命, 传教团",
+    "ipa": "'miʃәn",
+    "rank": 1539,
+    "level": "elementary"
+  },
+  {
+    "word": "eye",
+    "chinese": "n. 眼睛, 视力, 看",
+    "ipa": "ai",
+    "rank": 1540,
+    "level": "elementary"
+  },
+  {
+    "word": "string",
+    "chinese": "n. 线, 细绳, 一串, 字符串",
+    "ipa": "striŋ",
+    "rank": 1541,
+    "level": "elementary"
+  },
+  {
+    "word": "sense",
+    "chinese": "n. 感应, 感觉, 感官, 意识, 观念, 情理, 知觉, 理智",
+    "ipa": "sens",
+    "rank": 1542,
+    "level": "elementary"
+  },
+  {
+    "word": "modified",
+    "chinese": "a. 改良的",
+    "ipa": "'mɔdifaid",
+    "rank": 1543,
+    "level": "elementary"
+  },
+  {
+    "word": "pack",
+    "chinese": "n. 包裹, 一伙, 一副, 背包, 包装",
+    "ipa": "pæk",
+    "rank": 1544,
+    "level": "elementary"
+  },
+  {
+    "word": "released",
+    "chinese": "v. 已发布",
+    "ipa": "riˈlist",
+    "rank": 1545,
+    "level": "elementary"
+  },
+  {
+    "word": "stage",
+    "chinese": "n. 阶段, 舞台, 场所, 戏剧, 站, 驿站, 级, 层, 脚手架",
+    "ipa": "steidʒ",
+    "rank": 1546,
+    "level": "elementary"
+  },
+  {
+    "word": "internal",
+    "chinese": "a. 内在的, 国内的",
+    "ipa": "in'tә:nәl",
+    "rank": 1547,
+    "level": "elementary"
+  },
+  {
+    "word": "goods",
+    "chinese": "n. 货物",
+    "ipa": "guds",
+    "rank": 1548,
+    "level": "elementary"
+  },
+  {
+    "word": "recommended",
+    "chinese": "a. 被推荐的",
+    "ipa": "ˌrɛkəˈmɛndɪd",
+    "rank": 1549,
+    "level": "elementary"
+  },
+  {
+    "word": "born",
+    "chinese": "a. 天生的",
+    "ipa": "bɒ:n",
+    "rank": 1550,
+    "level": "elementary"
+  },
+  {
+    "word": "unless",
+    "chinese": "conj. 除非",
+    "ipa": ".ʌn'les",
+    "rank": 1551,
+    "level": "elementary"
+  },
+  {
+    "word": "richard",
+    "chinese": "n. 理查德（男子名）",
+    "ipa": "'ritʃәd",
+    "rank": 1552,
+    "level": "elementary"
+  },
+  {
+    "word": "detailed",
+    "chinese": "a. 详细的, 复杂的",
+    "ipa": "'di:teild",
+    "rank": 1553,
+    "level": "elementary"
+  },
+  {
+    "word": "japanese",
+    "chinese": "n. 日本人, 日语",
+    "ipa": ".dʒæpә'ni:z",
+    "rank": 1554,
+    "level": "elementary"
+  },
+  {
+    "word": "race",
+    "chinese": "n. 种族, 人种, 赛跑, 比赛, 急流, 人类, 同道, 姜根",
+    "ipa": "reis",
+    "rank": 1555,
+    "level": "elementary"
+  },
+  {
+    "word": "approved",
+    "chinese": "a. 被认可的",
+    "ipa": "ә'pru:vd",
+    "rank": 1556,
+    "level": "elementary"
+  },
+  {
+    "word": "background",
+    "chinese": "n. 背景, 背景资料",
+    "ipa": "'bækgraund",
+    "rank": 1557,
+    "level": "elementary"
+  },
+  {
+    "word": "target",
+    "chinese": "n. 目标, 靶子, 指标",
+    "ipa": "'tɑ:git",
+    "rank": 1558,
+    "level": "elementary"
+  },
+  {
+    "word": "except",
+    "chinese": "vt. 除, 除外",
+    "ipa": "ik'sept",
+    "rank": 1559,
+    "level": "elementary"
+  },
+  {
+    "word": "character",
+    "chinese": "n. 个性, 字符, 人物, 性质, 品格, 资格",
+    "ipa": "'kærәktә",
+    "rank": 1560,
+    "level": "elementary"
+  },
+  {
+    "word": "usb",
+    "chinese": "abbr. 通用串行总线（Universal Serial Bus）",
+    "ipa": "usb",
+    "rank": 1561,
+    "level": "elementary"
+  },
+  {
+    "word": "maintenance",
+    "chinese": "n. 维护, 保持, 维修, 生活费用, 坚持, 扶养",
+    "ipa": "'meintәnәns",
+    "rank": 1562,
+    "level": "elementary"
+  },
+  {
+    "word": "ability",
+    "chinese": "n. 能力, 才干",
+    "ipa": "ә'biliti",
+    "rank": 1563,
+    "level": "elementary"
+  },
+  {
+    "word": "maybe",
+    "chinese": "adv. 也许, 大概",
+    "ipa": "'meibi:",
+    "rank": 1564,
+    "level": "elementary"
+  },
+  {
+    "word": "functions",
+    "chinese": "n. 功能",
+    "ipa": "ˈfəŋkʃənz",
+    "rank": 1565,
+    "level": "elementary"
+  },
+  {
+    "word": "ed",
+    "chinese": "[计] 电子设备, 密码设备, 数据结束, 工程设计, 错误检测, 外部设备",
+    "ipa": "ɛd",
+    "rank": 1566,
+    "level": "elementary"
+  },
+  {
+    "word": "moving",
+    "chinese": "a. 动人的, 令人感动的, 鼓动的, 原动的, [无比较级]活动的, 转动的",
+    "ipa": "'mu:viŋ",
+    "rank": 1567,
+    "level": "elementary"
+  },
+  {
+    "word": "brands",
+    "chinese": "n. 品牌",
+    "ipa": "brændz",
+    "rank": 1568,
+    "level": "elementary"
+  },
+  {
+    "word": "places",
+    "chinese": "n. 地点",
+    "ipa": "ˈpleɪsɪz",
+    "rank": 1569,
+    "level": "elementary"
+  },
+  {
+    "word": "php",
+    "chinese": "abbr. 个人网页（Personal Home Page）",
+    "ipa": "php",
+    "rank": 1570,
+    "level": "elementary"
+  },
+  {
+    "word": "pretty",
+    "chinese": "a. 漂亮的, 优美的, 机灵的, 狡猾的, 恰当的",
+    "ipa": "'priti",
+    "rank": 1571,
+    "level": "elementary"
+  },
+  {
+    "word": "trademarks",
+    "chinese": "n. （注册）商标( trademark的复数形式 ); （人的行为或衣着的）特征, 标记",
+    "ipa": "ˈtreidmɑ:ks",
+    "rank": 1572,
+    "level": "elementary"
+  },
+  {
+    "word": "phentermine",
+    "chinese": "[化] 芬特明; 苯丁胺; 苯叔丁胺",
+    "ipa": "phentermine",
+    "rank": 1573,
+    "level": "elementary"
+  },
+  {
+    "word": "spain",
+    "chinese": "n. 西班牙",
+    "ipa": "spein",
+    "rank": 1574,
+    "level": "elementary"
+  },
+  {
+    "word": "southern",
+    "chinese": "n. 南方人, 男风",
+    "ipa": "'sʌðәn",
+    "rank": 1575,
+    "level": "elementary"
+  },
+  {
+    "word": "yourself",
+    "chinese": "pron. 你自己",
+    "ipa": "juә'self",
+    "rank": 1576,
+    "level": "elementary"
+  },
+  {
+    "word": "etc",
+    "chinese": "及其他, 等等",
+    "ipa": "ˌɛtˈsɛtərə",
+    "rank": 1577,
+    "level": "elementary"
+  },
+  {
+    "word": "winter",
+    "chinese": "n. 冬季, 萧条期, 衰退期",
+    "ipa": "'wintә",
+    "rank": 1578,
+    "level": "elementary"
+  },
+  {
+    "word": "rape",
+    "chinese": "n. 抢夺, 掠夺, 强奸, 葡萄渣, 芸苔",
+    "ipa": "reip",
+    "rank": 1579,
+    "level": "elementary"
+  },
+  {
+    "word": "battery",
+    "chinese": "n. 电池, 殴打",
+    "ipa": "'bætәri",
+    "rank": 1580,
+    "level": "elementary"
+  },
+  {
+    "word": "youth",
+    "chinese": "n. 年轻, 青年时代, 青年们, 青春",
+    "ipa": "ju:θ",
+    "rank": 1581,
+    "level": "elementary"
+  },
+  {
+    "word": "pressure",
+    "chinese": "n. 压, 榨, 按, 强制, 压力, 压迫, 压强",
+    "ipa": "'preʃә",
+    "rank": 1582,
+    "level": "elementary"
+  },
+  {
+    "word": "submitted",
+    "chinese": "v. 递交",
+    "ipa": "səbˈmɪtəd",
+    "rank": 1583,
+    "level": "elementary"
+  },
+  {
+    "word": "boston",
+    "chinese": "n. 波士顿",
+    "ipa": "'bɒstәn",
+    "rank": 1584,
+    "level": "elementary"
+  },
+  {
+    "word": "incest",
+    "chinese": "n. 近亲相奸, 乱伦",
+    "ipa": "'insest",
+    "rank": 1585,
+    "level": "elementary"
+  },
+  {
+    "word": "debt",
+    "chinese": "n. 债务, 罪过",
+    "ipa": "det",
+    "rank": 1586,
+    "level": "elementary"
+  },
+  {
+    "word": "keywords",
+    "chinese": "n. 关键字",
+    "ipa": "'ki:wә:dz",
+    "rank": 1587,
+    "level": "elementary"
+  },
+  {
+    "word": "medium",
+    "chinese": "n. 媒体, 方法, 媒介",
+    "ipa": "'mi:diәm",
+    "rank": 1588,
+    "level": "elementary"
+  },
+  {
+    "word": "television",
+    "chinese": "n. 电视",
+    "ipa": "'teli.viʒәn",
+    "rank": 1589,
+    "level": "elementary"
+  },
+  {
+    "word": "interested",
+    "chinese": "a. 感兴趣的",
+    "ipa": "'intristid",
+    "rank": 1590,
+    "level": "elementary"
+  },
+  {
+    "word": "core",
+    "chinese": "n. 核心, 果心, 要点",
+    "ipa": "kɒ:",
+    "rank": 1591,
+    "level": "elementary"
+  },
+  {
+    "word": "break",
+    "chinese": "n. 休息, 中断, 破裂处, 绝交, 破晓, 突变",
+    "ipa": "breik",
+    "rank": 1592,
+    "level": "elementary"
+  },
+  {
+    "word": "purposes",
+    "chinese": "n. 目的",
+    "ipa": "ˈpərpəsɪz",
+    "rank": 1593,
+    "level": "elementary"
+  },
+  {
+    "word": "throughout",
+    "chinese": "adv. 到处, 贯穿全部地, 自始至终",
+    "ipa": "θru:'aut",
+    "rank": 1594,
+    "level": "elementary"
+  },
+  {
+    "word": "sets",
+    "chinese": "n. 集合, 设置（set的复数）",
+    "ipa": "sɛts",
+    "rank": 1595,
+    "level": "elementary"
+  },
+  {
+    "word": "dance",
+    "chinese": "n. 跳舞, 舞蹈, 舞会",
+    "ipa": "dæns. dɑ:ns",
+    "rank": 1596,
+    "level": "elementary"
+  },
+  {
+    "word": "wood",
+    "chinese": "n. 木材, 木制品",
+    "ipa": "wud",
+    "rank": 1597,
+    "level": "elementary"
+  },
+  {
+    "word": "msn",
+    "chinese": "abbr. 微软网络服务（Microsoft service Network）",
+    "ipa": "msn",
+    "rank": 1598,
+    "level": "elementary"
+  },
+  {
+    "word": "itself",
+    "chinese": "pron. 它本身, 它自己",
+    "ipa": "it'self",
+    "rank": 1599,
+    "level": "elementary"
+  },
+  {
+    "word": "defined",
+    "chinese": "a. 清晰的, 轮廓分明的",
+    "ipa": "di'faind",
+    "rank": 1600,
+    "level": "elementary"
+  },
+  {
+    "word": "papers",
+    "chinese": "n. 文件, 官方文件",
+    "ipa": "ˈpeɪpərz",
+    "rank": 1601,
+    "level": "elementary"
+  },
+  {
+    "word": "playing",
+    "chinese": "n. 游戏, 玩耍, 竞技, 比赛, 扮演, 演奏, 赌博",
+    "ipa": "pleɪɪŋ",
+    "rank": 1602,
+    "level": "elementary"
+  },
+  {
+    "word": "awards",
+    "chinese": "n. 奖项",
+    "ipa": "əˈwɔrdz",
+    "rank": 1603,
+    "level": "elementary"
+  },
+  {
+    "word": "fee",
+    "chinese": "n. 费用, 小费, 封地, 所有权",
+    "ipa": "fi:",
+    "rank": 1604,
+    "level": "elementary"
+  },
+  {
+    "word": "studio",
+    "chinese": "n. 工作室, 画室, 演播室, 电影制片厂",
+    "ipa": "'stju:diәu",
+    "rank": 1605,
+    "level": "elementary"
+  },
+  {
+    "word": "reader",
+    "chinese": "n. 读者, 读物, 文选, 校对人, 讲师",
+    "ipa": "'ri:dә",
+    "rank": 1606,
+    "level": "elementary"
+  },
+  {
+    "word": "virtual",
+    "chinese": "a. 实际上起作用的, 虚的, 实质的, 有效的, 事实上生效的",
+    "ipa": "'vә:tʃuәl",
+    "rank": 1607,
+    "level": "elementary"
+  },
+  {
+    "word": "device",
+    "chinese": "n. 装置, 设计, 策略, 发明物, 设备",
+    "ipa": "di'vais",
+    "rank": 1608,
+    "level": "elementary"
+  },
+  {
+    "word": "established",
+    "chinese": "a. (被)建立的, 固定的, 既定的, 确定的, 确认的, 确立的, (被)制定的",
+    "ipa": "is'tæbliʃt",
+    "rank": 1609,
+    "level": "elementary"
+  },
+  {
+    "word": "answers",
+    "chinese": "n. 答案, 回答（answer的复数）",
+    "ipa": "ˈænsərz",
+    "rank": 1610,
+    "level": "elementary"
+  },
+  {
+    "word": "rent",
+    "chinese": "n. 租金, 房租, 出租物, 裂缝, 破裂处, 分裂",
+    "ipa": "rent",
+    "rank": 1611,
+    "level": "elementary"
+  },
+  {
+    "word": "las",
+    "chinese": "abbr. 阿拉伯国家联盟（League of Arab States）",
+    "ipa": "ˈɛˈleɪˈɛs",
+    "rank": 1612,
+    "level": "elementary"
+  },
+  {
+    "word": "remote",
+    "chinese": "a. 遥远的, 偏僻的, 疏远的, 微少的",
+    "ipa": "ri'mәut",
+    "rank": 1613,
+    "level": "elementary"
+  },
+  {
+    "word": "dark",
+    "chinese": "n. 黑暗, 夜, 黄昏, 模糊",
+    "ipa": "dɑ:k",
+    "rank": 1614,
+    "level": "elementary"
+  },
+  {
+    "word": "programming",
+    "chinese": "n. 节目的计划, 编制程序",
+    "ipa": "'prәugræmiŋ",
+    "rank": 1615,
+    "level": "elementary"
+  },
+  {
+    "word": "external",
+    "chinese": "n. 外部, 外面",
+    "ipa": "ik'stә:nl",
+    "rank": 1616,
+    "level": "elementary"
+  },
+  {
+    "word": "apple",
+    "chinese": "n. 苹果, 家伙",
+    "ipa": "'æpl",
+    "rank": 1617,
+    "level": "elementary"
+  },
+  {
+    "word": "le",
+    "chinese": "[计] 小于或等于",
+    "ipa": "lə",
+    "rank": 1618,
+    "level": "elementary"
+  },
+  {
+    "word": "regarding",
+    "chinese": "prep. 关于",
+    "ipa": "ri'gɑ:diŋ",
+    "rank": 1619,
+    "level": "elementary"
+  },
+  {
+    "word": "instructions",
+    "chinese": "n. 指令",
+    "ipa": "ˌɪnˈstrəkʃənz",
+    "rank": 1620,
+    "level": "elementary"
+  },
+  {
+    "word": "min",
+    "chinese": "abbr. 部长（Minister）",
+    "ipa": "mɪn",
+    "rank": 1621,
+    "level": "elementary"
+  },
+  {
+    "word": "offered",
+    "chinese": "v. 提供, 提议",
+    "ipa": "ˈɔfərd",
+    "rank": 1622,
+    "level": "elementary"
+  },
+  {
+    "word": "theory",
+    "chinese": "n. 理论, 学说, 原理, 意见, 推测",
+    "ipa": "'θiәri",
+    "rank": 1623,
+    "level": "elementary"
+  },
+  {
+    "word": "enjoy",
+    "chinese": "vt. 享受, 喜欢, 欣赏",
+    "ipa": "in'dʒɒi",
+    "rank": 1624,
+    "level": "elementary"
+  },
+  {
+    "word": "remove",
+    "chinese": "vt. 移动, 调动, 除去, 迁移, 开除, 移交",
+    "ipa": "ri'mu:v",
+    "rank": 1625,
+    "level": "elementary"
+  },
+  {
+    "word": "aid",
+    "chinese": "n. 帮助, 外援, 助手",
+    "ipa": "eid",
+    "rank": 1626,
+    "level": "elementary"
+  },
+  {
+    "word": "surface",
+    "chinese": "n. 面, 表面, 水面, 外表, 平面",
+    "ipa": "'sә:fis",
+    "rank": 1627,
+    "level": "elementary"
+  },
+  {
+    "word": "minimum",
+    "chinese": "a. 最小的, 最低的",
+    "ipa": "'minimәm",
+    "rank": 1628,
+    "level": "elementary"
+  },
+  {
+    "word": "visual",
+    "chinese": "a. 视觉的",
+    "ipa": "'viʒuәl",
+    "rank": 1629,
+    "level": "elementary"
+  },
+  {
+    "word": "host",
+    "chinese": "n. 主人, 旅馆老板, 节目主持人",
+    "ipa": "hәust",
+    "rank": 1630,
+    "level": "elementary"
+  },
+  {
+    "word": "variety",
+    "chinese": "n. 多样, 种类, 变种, 杂耍",
+    "ipa": "vә'raiәti",
+    "rank": 1631,
+    "level": "elementary"
+  },
+  {
+    "word": "teachers",
+    "chinese": "n. 教师（teacher的复数形式）",
+    "ipa": "ˈtiʧərz",
+    "rank": 1632,
+    "level": "elementary"
+  },
+  {
+    "word": "isbn",
+    "chinese": "[计] 国际标准书号",
+    "ipa": "isbn",
+    "rank": 1633,
+    "level": "elementary"
+  },
+  {
+    "word": "martin",
+    "chinese": "n. 马丁, 圣马丁鸟",
+    "ipa": "'mɑ:tin",
+    "rank": 1634,
+    "level": "elementary"
+  },
+  {
+    "word": "manual",
+    "chinese": "n. 手册, 指南",
+    "ipa": "'mænjuәl",
+    "rank": 1635,
+    "level": "elementary"
+  },
+  {
+    "word": "block",
+    "chinese": "n. 街区, 木块, 石块, 块",
+    "ipa": "blɒk",
+    "rank": 1636,
+    "level": "elementary"
+  },
+  {
+    "word": "subjects",
+    "chinese": "n. 主题",
+    "ipa": "ˈsəbʤɪkts",
+    "rank": 1637,
+    "level": "elementary"
+  },
+  {
+    "word": "agents",
+    "chinese": "n. 间谍",
+    "ipa": "ˈeɪʤənts",
+    "rank": 1638,
+    "level": "elementary"
+  },
+  {
+    "word": "increased",
+    "chinese": "a. 增强的（increase的过去分词）",
+    "ipa": "in'kri:st",
+    "rank": 1639,
+    "level": "elementary"
+  },
+  {
+    "word": "repair",
+    "chinese": "n. 修理, 补救, 修复",
+    "ipa": "ri'pєә",
+    "rank": 1640,
+    "level": "elementary"
+  },
+  {
+    "word": "fair",
+    "chinese": "n. 展览会, 市集, 美好的事物",
+    "ipa": "fєә",
+    "rank": 1641,
+    "level": "elementary"
+  },
+  {
+    "word": "civil",
+    "chinese": "a. 市民的, 公民的, 有礼貌的",
+    "ipa": "'sivәl",
+    "rank": 1642,
+    "level": "elementary"
+  },
+  {
+    "word": "steel",
+    "chinese": "n. 钢, 钢制品, 钢铁, 坚硬, 坚固",
+    "ipa": "sti:l",
+    "rank": 1643,
+    "level": "elementary"
+  },
+  {
+    "word": "understanding",
+    "chinese": "n. 理解, 谅解",
+    "ipa": ".ʌndә'stændiŋ",
+    "rank": 1644,
+    "level": "elementary"
+  },
+  {
+    "word": "songs",
+    "chinese": "n. 歌曲, 歌集（song的复数）",
+    "ipa": "sɔŋz",
+    "rank": 1645,
+    "level": "elementary"
+  },
+  {
+    "word": "fixed",
+    "chinese": "a. 固定的, 不变的",
+    "ipa": "fikst",
+    "rank": 1646,
+    "level": "elementary"
+  },
+  {
+    "word": "wrong",
+    "chinese": "a. 错误的, 不正当的, 失常的",
+    "ipa": "rɒŋ",
+    "rank": 1647,
+    "level": "elementary"
+  },
+  {
+    "word": "beginning",
+    "chinese": "n. 开始",
+    "ipa": "bi'giniŋ",
+    "rank": 1648,
+    "level": "elementary"
+  },
+  {
+    "word": "hands",
+    "chinese": "n. 拥有, 所有",
+    "ipa": "hænz",
+    "rank": 1649,
+    "level": "elementary"
+  },
+  {
+    "word": "associates",
+    "chinese": "n. 同伴",
+    "ipa": "əˈsoʊʃiˌeɪts",
+    "rank": 1650,
+    "level": "elementary"
+  },
+  {
+    "word": "finally",
+    "chinese": "adv. 最后, 终于",
+    "ipa": "'fainәli",
+    "rank": 1651,
+    "level": "elementary"
+  },
+  {
+    "word": "az",
+    "chinese": "abbr. 阿塞拜疆（Azerbaijan）",
+    "ipa": "az",
+    "rank": 1652,
+    "level": "elementary"
+  },
+  {
+    "word": "updates",
+    "chinese": "n. 升级, 更新",
+    "ipa": "ʌp'deits",
+    "rank": 1653,
+    "level": "elementary"
+  },
+  {
+    "word": "desktop",
+    "chinese": "n. 桌面",
+    "ipa": "'desktɔp",
+    "rank": 1654,
+    "level": "elementary"
+  },
+  {
+    "word": "classes",
+    "chinese": "n. 级别, 阶级（class复数形式）",
+    "ipa": "ˈklæsɪz",
+    "rank": 1655,
+    "level": "elementary"
+  },
+  {
+    "word": "paris",
+    "chinese": "n. 巴黎",
+    "ipa": "'pæris",
+    "rank": 1656,
+    "level": "elementary"
+  },
+  {
+    "word": "ohio",
+    "chinese": "n. 俄亥俄",
+    "ipa": "әu'haiәu",
+    "rank": 1657,
+    "level": "elementary"
+  },
+  {
+    "word": "gets",
+    "chinese": "abbr. 政府电子贸易服务（Government Electronic Tendering Service）",
+    "ipa": "gɪts",
+    "rank": 1658,
+    "level": "elementary"
+  },
+  {
+    "word": "sector",
+    "chinese": "n. 扇形, 部门, 部分, 函数尺, 象限仪, 段, 区段",
+    "ipa": "'sektә",
+    "rank": 1659,
+    "level": "elementary"
+  },
+  {
+    "word": "capacity",
+    "chinese": "n. 容量, 能力, 才能, 资格",
+    "ipa": "kә'pæsiti",
+    "rank": 1660,
+    "level": "elementary"
+  },
+  {
+    "word": "requires",
+    "chinese": "n. 需要",
+    "ipa": "rikˈwaɪərz",
+    "rank": 1661,
+    "level": "elementary"
+  },
+  {
+    "word": "jersey",
+    "chinese": "n. 运动衫",
+    "ipa": "'dʒә:zi",
+    "rank": 1662,
+    "level": "elementary"
+  },
+  {
+    "word": "un",
+    "chinese": "pron. 家伙, 东西",
+    "ipa": "ʌn",
+    "rank": 1663,
+    "level": "elementary"
+  },
+  {
+    "word": "fat",
+    "chinese": "n. 脂肪, 脂油, 肥肉",
+    "ipa": "fæt",
+    "rank": 1664,
+    "level": "elementary"
+  },
+  {
+    "word": "fully",
+    "chinese": "adv. 十分地, 完全地, 充分地",
+    "ipa": "'fuli",
+    "rank": 1665,
+    "level": "elementary"
+  },
+  {
+    "word": "father",
+    "chinese": "n. 父亲, 祖先, 长辈, 神父, 创始者",
+    "ipa": "'fɑ:ðә",
+    "rank": 1666,
+    "level": "elementary"
+  },
+  {
+    "word": "electric",
+    "chinese": "a. 电的, 导电的, 电动的",
+    "ipa": "i'lektik",
+    "rank": 1667,
+    "level": "elementary"
+  },
+  {
+    "word": "saw",
+    "chinese": "n. 锯子, 谚语",
+    "ipa": "sɒ:",
+    "rank": 1668,
+    "level": "elementary"
+  },
+  {
+    "word": "instruments",
+    "chinese": "n. 乐器",
+    "ipa": "ˈɪnstrəmənts",
+    "rank": 1669,
+    "level": "elementary"
+  },
+  {
+    "word": "quotes",
+    "chinese": "n. 引用, 引号",
+    "ipa": "kwoʊts",
+    "rank": 1670,
+    "level": "elementary"
+  },
+  {
+    "word": "officer",
+    "chinese": "n. 军官, 主管, 官员, 公务员",
+    "ipa": "'ɒfisә",
+    "rank": 1671,
+    "level": "elementary"
+  },
+  {
+    "word": "driver",
+    "chinese": "n. 驾驶员, 驱动器, 驱动程序",
+    "ipa": "'draivә",
+    "rank": 1672,
+    "level": "elementary"
+  },
+  {
+    "word": "businesses",
+    "chinese": "n. 事情( business的名词复数 ); 商业; 营业额; 交易",
+    "ipa": "'bɪznəsɪz",
+    "rank": 1673,
+    "level": "elementary"
+  },
+  {
+    "word": "dead",
+    "chinese": "a. 死的, 不活泼的, 麻木的, 熄灭的",
+    "ipa": "ded",
+    "rank": 1674,
+    "level": "elementary"
+  },
+  {
+    "word": "respect",
+    "chinese": "n. 尊敬, 尊重, 问候",
+    "ipa": "ri'spekt",
+    "rank": 1675,
+    "level": "elementary"
+  },
+  {
+    "word": "unknown",
+    "chinese": "a. 不知道的, 未知的, 陌生的",
+    "ipa": ".ʌn'nәun",
+    "rank": 1676,
+    "level": "elementary"
+  },
+  {
+    "word": "specified",
+    "chinese": "a. 规定的",
+    "ipa": "ˈspɛsəˌfaɪd",
+    "rank": 1677,
+    "level": "elementary"
+  },
+  {
+    "word": "restaurant",
+    "chinese": "n. 餐馆, 饭店",
+    "ipa": "'restәrɒŋ",
+    "rank": 1678,
+    "level": "elementary"
+  },
+  {
+    "word": "mike",
+    "chinese": "vi. 偷懒, 游手好闲",
+    "ipa": "maik",
+    "rank": 1679,
+    "level": "elementary"
+  },
+  {
+    "word": "trip",
+    "chinese": "n. 旅行, 绊倒, 摔倒, 失足, 差错, 旅程",
+    "ipa": "trip",
+    "rank": 1680,
+    "level": "elementary"
+  },
+  {
+    "word": "pst",
+    "chinese": "太平洋标准时间",
+    "ipa": "pst",
+    "rank": 1681,
+    "level": "elementary"
+  },
+  {
+    "word": "worth",
+    "chinese": "n. 价值, 财产",
+    "ipa": "wә:θ",
+    "rank": 1682,
+    "level": "elementary"
+  },
+  {
+    "word": "mi",
+    "chinese": "检疫, 军事情报",
+    "ipa": "mi:",
+    "rank": 1683,
+    "level": "elementary"
+  },
+  {
+    "word": "procedures",
+    "chinese": "n. 程序",
+    "ipa": "prəˈsiʤərz",
+    "rank": 1684,
+    "level": "elementary"
+  },
+  {
+    "word": "poor",
+    "chinese": "a. 贫穷的, 贫乏的, 不幸的, 可怜的, 拙劣的, 卑鄙的",
+    "ipa": "puә. pɒ:",
+    "rank": 1685,
+    "level": "elementary"
+  },
+  {
+    "word": "teacher",
+    "chinese": "n. 教师, 老师, 导师",
+    "ipa": "'ti:tʃә",
+    "rank": 1686,
+    "level": "elementary"
+  },
+  {
+    "word": "xxx",
+    "chinese": "num. 罗马数字30",
+    "ipa": "xxx",
+    "rank": 1687,
+    "level": "elementary"
+  },
+  {
+    "word": "eyes",
+    "chinese": "n. 眼睛（eye的复数）",
+    "ipa": "aɪz",
+    "rank": 1688,
+    "level": "elementary"
+  },
+  {
+    "word": "relationship",
+    "chinese": "n. 关系, 关联",
+    "ipa": "ri'leiʃәnʃip",
+    "rank": 1689,
+    "level": "elementary"
+  },
+  {
+    "word": "workers",
+    "chinese": "n. 工人, 人员",
+    "ipa": "ˈwərkərz",
+    "rank": 1690,
+    "level": "elementary"
+  },
+  {
+    "word": "farm",
+    "chinese": "n. 农场, 农田",
+    "ipa": "fɑ:m",
+    "rank": 1691,
+    "level": "elementary"
+  },
+  {
+    "word": "fucking",
+    "chinese": "a. 该死的, 难完成的, 难做的, 低劣的, 讨厌的, 丑恶的, 混乱的, 乱糟糟的",
+    "ipa": "'fʌkiŋ",
+    "rank": 1692,
+    "level": "elementary"
+  },
+  {
+    "word": "georgia",
+    "chinese": "n. 乔治亚州",
+    "ipa": "'dʒɒ:dʒjә",
+    "rank": 1693,
+    "level": "elementary"
+  },
+  {
+    "word": "peace",
+    "chinese": "n. 和平, 和约, 治安, 和睦, 安宁, 静寂",
+    "ipa": "pi:s",
+    "rank": 1694,
+    "level": "elementary"
+  },
+  {
+    "word": "traditional",
+    "chinese": "a. 传统的, 惯例的",
+    "ipa": "trә'diʃәnl",
+    "rank": 1695,
+    "level": "elementary"
+  },
+  {
+    "word": "campus",
+    "chinese": "n. 校园, 大学生活",
+    "ipa": "'kæmpәs",
+    "rank": 1696,
+    "level": "elementary"
+  },
+  {
+    "word": "tom",
+    "chinese": "n. 雄性动物, 雄猫",
+    "ipa": "tɒm",
+    "rank": 1697,
+    "level": "elementary"
+  },
+  {
+    "word": "showing",
+    "chinese": "n. 显示, 陈列, 展览, 成绩, 表现, 表演, 夸耀, 陈述, 叙述, 外表, 迹象",
+    "ipa": "'ʃәuiŋ",
+    "rank": 1698,
+    "level": "elementary"
+  },
+  {
+    "word": "creative",
+    "chinese": "a. 有创造力的, 创作的, 产生的",
+    "ipa": "kri:'eitiv",
+    "rank": 1699,
+    "level": "elementary"
+  },
+  {
+    "word": "coast",
+    "chinese": "n. 海岸, 滑坡",
+    "ipa": "kәust",
+    "rank": 1700,
+    "level": "elementary"
+  },
+  {
+    "word": "benefit",
+    "chinese": "n. 利益",
+    "ipa": "'benifit",
+    "rank": 1701,
+    "level": "elementary"
+  },
+  {
+    "word": "progress",
+    "chinese": "n. 进步, 发展, 前进",
+    "ipa": "'prәugres",
+    "rank": 1702,
+    "level": "elementary"
+  },
+  {
+    "word": "funding",
+    "chinese": "[经] 债务转期",
+    "ipa": "'fʌndiŋ",
+    "rank": 1703,
+    "level": "elementary"
+  },
+  {
+    "word": "devices",
+    "chinese": "n. 设备",
+    "ipa": "dɪˈvaɪsɪz",
+    "rank": 1704,
+    "level": "elementary"
+  },
+  {
+    "word": "lord",
+    "chinese": "n. 统治者, 阁下, 上帝",
+    "ipa": "lɒ:d",
+    "rank": 1705,
+    "level": "elementary"
+  },
+  {
+    "word": "grant",
+    "chinese": "n. 授予, 授予物, 允许",
+    "ipa": "grænt",
+    "rank": 1706,
+    "level": "elementary"
+  },
+  {
+    "word": "sub",
+    "chinese": "n. 补充人员, 部下, 潜水艇, 胶层, 订户, 傻子",
+    "ipa": "sʌb",
+    "rank": 1707,
+    "level": "elementary"
+  },
+  {
+    "word": "agree",
+    "chinese": "vi. 同意, 赞成, 应允, 适合",
+    "ipa": "ә'gri:",
+    "rank": 1708,
+    "level": "elementary"
+  },
+  {
+    "word": "fiction",
+    "chinese": "n. 小说, 虚构故事",
+    "ipa": "'fikʃәn",
+    "rank": 1709,
+    "level": "elementary"
+  },
+  {
+    "word": "hear",
+    "chinese": "vt. 听到, 倾听, 听说, 审理",
+    "ipa": "hiә",
+    "rank": 1710,
+    "level": "elementary"
+  },
+  {
+    "word": "sometimes",
+    "chinese": "adv. 有时, 时常, 往往",
+    "ipa": "'sʌmtaimz",
+    "rank": 1711,
+    "level": "elementary"
+  },
+  {
+    "word": "watches",
+    "chinese": "n. 手表（watch的复数）",
+    "ipa": "ˈwɑʧɪz",
+    "rank": 1712,
+    "level": "elementary"
+  },
+  {
+    "word": "careers",
+    "chinese": "n. 职业生涯",
+    "ipa": "kərɪrz",
+    "rank": 1713,
+    "level": "elementary"
+  },
+  {
+    "word": "beyond",
+    "chinese": "prep. 超过, 在那一边, 迟于",
+    "ipa": "bi'jɒnd",
+    "rank": 1714,
+    "level": "elementary"
+  },
+  {
+    "word": "goes",
+    "chinese": "v. 前进",
+    "ipa": "ɡәus",
+    "rank": 1715,
+    "level": "elementary"
+  },
+  {
+    "word": "families",
+    "chinese": "n. 家族",
+    "ipa": "ˈfæməliz",
+    "rank": 1716,
+    "level": "elementary"
+  },
+  {
+    "word": "led",
+    "chinese": "lead的过去式和过去分词",
+    "ipa": "led",
+    "rank": 1717,
+    "level": "elementary"
+  },
+  {
+    "word": "museum",
+    "chinese": "n. 博物馆",
+    "ipa": "mju:'ziәm",
+    "rank": 1718,
+    "level": "elementary"
+  },
+  {
+    "word": "themselves",
+    "chinese": "pron. 他们自己, 她们自己, 它们自己",
+    "ipa": "ðәm'selvz",
+    "rank": 1719,
+    "level": "elementary"
+  },
+  {
+    "word": "fan",
+    "chinese": "n. 风扇, 迷, 狂热者, 爱好者",
+    "ipa": "fæn",
+    "rank": 1720,
+    "level": "elementary"
+  },
+  {
+    "word": "transport",
+    "chinese": "n. 运输, 运输工具, 激动, 狂喜, 流放犯",
+    "ipa": "træns'pɒ:t",
+    "rank": 1721,
+    "level": "elementary"
+  },
+  {
+    "word": "interesting",
+    "chinese": "a. 有趣的",
+    "ipa": "'intristiŋ",
+    "rank": 1722,
+    "level": "elementary"
+  },
+  {
+    "word": "blogs",
+    "chinese": "n. 博客, 网志（网站上记有活动、意见等的个人记录）( blog的名词复数 )",
+    "ipa": "b'lɒɡz",
+    "rank": 1723,
+    "level": "elementary"
+  },
+  {
+    "word": "wife",
+    "chinese": "n. 妻子, 太太, 夫人",
+    "ipa": "waif",
+    "rank": 1724,
+    "level": "elementary"
+  },
+  {
+    "word": "evaluation",
+    "chinese": "n. 评估, 估价, 求值",
+    "ipa": "i.vælju'eiʃәn",
+    "rank": 1725,
+    "level": "elementary"
+  },
+  {
+    "word": "accepted",
+    "chinese": "a. 公认的, 一般承认的",
+    "ipa": "әk'septid",
+    "rank": 1726,
+    "level": "elementary"
+  },
+  {
+    "word": "former",
+    "chinese": "a. 从前的, 前者的",
+    "ipa": "'fɒ:mә",
+    "rank": 1727,
+    "level": "elementary"
+  },
+  {
+    "word": "implementation",
+    "chinese": "n. 安装启用, 实行, 履行",
+    "ipa": ".implimen'teiʃәn",
+    "rank": 1728,
+    "level": "elementary"
+  },
+  {
+    "word": "ten",
+    "chinese": "num. 十, 十个",
+    "ipa": "ten",
+    "rank": 1729,
+    "level": "elementary"
+  },
+  {
+    "word": "hits",
+    "chinese": "n. 击打",
+    "ipa": "hɪts",
+    "rank": 1730,
+    "level": "elementary"
+  },
+  {
+    "word": "zone",
+    "chinese": "n. 地带, 带, 地区",
+    "ipa": "zәun",
+    "rank": 1731,
+    "level": "elementary"
+  },
+  {
+    "word": "complex",
+    "chinese": "n. 综合体, 情结, 络合物",
+    "ipa": "kәm'pleks",
+    "rank": 1732,
+    "level": "elementary"
+  },
+  {
+    "word": "th",
+    "chinese": "[医] 钍(90号元素)",
+    "ipa": "ˈtiˈeɪʧ",
+    "rank": 1733,
+    "level": "elementary"
+  },
+  {
+    "word": "cat",
+    "chinese": "n. 猫, 恶妇",
+    "ipa": "kæt",
+    "rank": 1734,
+    "level": "elementary"
+  },
+  {
+    "word": "galleries",
+    "chinese": "n. 美术馆（gallery的复数）",
+    "ipa": "ˈgæləriz",
+    "rank": 1735,
+    "level": "elementary"
+  },
+  {
+    "word": "references",
+    "chinese": "n. 参考文献",
+    "ipa": "ˈrɛfərənsɪz",
+    "rank": 1736,
+    "level": "elementary"
+  },
+  {
+    "word": "die",
+    "chinese": "vi. 死亡, 消逝, 平息, 熄灭, 漠然, 渴望",
+    "ipa": "dai",
+    "rank": 1737,
+    "level": "elementary"
+  },
+  {
+    "word": "presented",
+    "chinese": "vt.& vi. （动词present的过去式及过去分词形式）; 表示\"展示; 展现; 出示\"",
+    "ipa": "ˈprezəntid",
+    "rank": 1738,
+    "level": "elementary"
+  },
+  {
+    "word": "jack",
+    "chinese": "n. 插座, 千斤顶, 男人",
+    "ipa": "dʒæk",
+    "rank": 1739,
+    "level": "elementary"
+  },
+  {
+    "word": "flat",
+    "chinese": "a. 平坦的, 单调的, 无力的, 浅的, 萧条的, 干脆的, 无聊的",
+    "ipa": "flæt",
+    "rank": 1740,
+    "level": "elementary"
+  },
+  {
+    "word": "flow",
+    "chinese": "n. 流程, 流动, 流量, 洋溢, 泛滥, 涨潮",
+    "ipa": "flәu",
+    "rank": 1741,
+    "level": "elementary"
+  },
+  {
+    "word": "agencies",
+    "chinese": "n. 代理",
+    "ipa": "ˈeɪʤənsiz",
+    "rank": 1742,
+    "level": "elementary"
+  },
+  {
+    "word": "literature",
+    "chinese": "n. 文学, 文艺, 著作",
+    "ipa": "'litәrәtʃә",
+    "rank": 1743,
+    "level": "elementary"
+  },
+  {
+    "word": "respective",
+    "chinese": "a. 分别的, 各自的",
+    "ipa": "ri'spektiv",
+    "rank": 1744,
+    "level": "elementary"
+  },
+  {
+    "word": "parent",
+    "chinese": "n. 父母, 父母亲, 根源",
+    "ipa": "'perәnt",
+    "rank": 1745,
+    "level": "elementary"
+  },
+  {
+    "word": "spanish",
+    "chinese": "n. 西班牙人, 西班牙语",
+    "ipa": "'spæniʃ",
+    "rank": 1746,
+    "level": "elementary"
+  },
+  {
+    "word": "michigan",
+    "chinese": "n. 密歇根州",
+    "ipa": "'miʃigәn",
+    "rank": 1747,
+    "level": "elementary"
+  },
+  {
+    "word": "columbia",
+    "chinese": "n. 哥伦比亚",
+    "ipa": "kә'lʌmbiә",
+    "rank": 1748,
+    "level": "elementary"
+  },
+  {
+    "word": "setting",
+    "chinese": "n. 环境, 背景, 布景, 镶嵌, 调整, 沉落, 一副餐具",
+    "ipa": "'setiŋ",
+    "rank": 1749,
+    "level": "elementary"
+  },
+  {
+    "word": "dr",
+    "chinese": "n. 博士, 医生",
+    "ipa": "ˈdɑktər",
+    "rank": 1750,
+    "level": "elementary"
+  },
+  {
+    "word": "scale",
+    "chinese": "n. 刻度, 衡量, 比例, 比例尺, 数值范围, 等级, 规模, 天平, 秤, 鳞, 积垢",
+    "ipa": "skeil",
+    "rank": 1751,
+    "level": "elementary"
+  },
+  {
+    "word": "stand",
+    "chinese": "n. 站立, 站住, 停顿, 讲台, 看台, 立场, 法院证人席",
+    "ipa": "stænd",
+    "rank": 1752,
+    "level": "elementary"
+  },
+  {
+    "word": "economy",
+    "chinese": "n. 经济, 理财, 节约",
+    "ipa": "i'kɒnәmi",
+    "rank": 1753,
+    "level": "elementary"
+  },
+  {
+    "word": "highest",
+    "chinese": "[计] 最高",
+    "ipa": "'haiist",
+    "rank": 1754,
+    "level": "elementary"
+  },
+  {
+    "word": "helpful",
+    "chinese": "a. 有帮助的, 有益的, 有用的",
+    "ipa": "'helpful",
+    "rank": 1755,
+    "level": "elementary"
+  },
+  {
+    "word": "monthly",
+    "chinese": "n. 月刊",
+    "ipa": "'mʌnθli",
+    "rank": 1756,
+    "level": "elementary"
+  },
+  {
+    "word": "critical",
+    "chinese": "a. 批评的, 决定性的, 危险的, 临界的",
+    "ipa": "'kritikәl",
+    "rank": 1757,
+    "level": "elementary"
+  },
+  {
+    "word": "frame",
+    "chinese": "n. 框, 结构, 体格",
+    "ipa": "freim",
+    "rank": 1758,
+    "level": "elementary"
+  },
+  {
+    "word": "musical",
+    "chinese": "n. 音乐片, 音乐舞台剧",
+    "ipa": "'mju:zikl",
+    "rank": 1759,
+    "level": "elementary"
+  },
+  {
+    "word": "definition",
+    "chinese": "n. 定义, 精确度, 清晰度",
+    "ipa": ".defi'niʃәn",
+    "rank": 1760,
+    "level": "elementary"
+  },
+  {
+    "word": "secretary",
+    "chinese": "n. 秘书, 书记, 大臣",
+    "ipa": "'sekrәtәri",
+    "rank": 1761,
+    "level": "elementary"
+  },
+  {
+    "word": "angeles",
+    "chinese": "n. 安杰利斯（姓氏）",
+    "ipa": "ˈænʤəlɪs",
+    "rank": 1762,
+    "level": "elementary"
+  },
+  {
+    "word": "networking",
+    "chinese": "[计] 连网, 建网",
+    "ipa": "ˈnɛtˌwərkɪŋ",
+    "rank": 1763,
+    "level": "elementary"
+  },
+  {
+    "word": "path",
+    "chinese": "n. 路径, 小路, 道路, 途径, 路线, 轨道",
+    "ipa": "pɑ:θ",
+    "rank": 1764,
+    "level": "elementary"
+  },
+  {
+    "word": "australian",
+    "chinese": "n. 澳大利亚人",
+    "ipa": "ɒ'streiljәn",
+    "rank": 1765,
+    "level": "elementary"
+  },
+  {
+    "word": "employee",
+    "chinese": "n. 职员, 员工, 受雇人员",
+    "ipa": ".emplɒi'i:",
+    "rank": 1766,
+    "level": "elementary"
+  },
+  {
+    "word": "chief",
+    "chinese": "n. 领袖, 酋长, 长官, 主要部分",
+    "ipa": "tʃi:f",
+    "rank": 1767,
+    "level": "elementary"
+  },
+  {
+    "word": "gives",
+    "chinese": "n. 付出",
+    "ipa": "gɪvz",
+    "rank": 1768,
+    "level": "elementary"
+  },
+  {
+    "word": "kb",
+    "chinese": "[计] 键盘, 千位, 千字节, 知识库",
+    "ipa": "kb",
+    "rank": 1769,
+    "level": "elementary"
+  },
+  {
+    "word": "bottom",
+    "chinese": "n. 底部",
+    "ipa": "'bɒtәm",
+    "rank": 1770,
+    "level": "elementary"
+  },
+  {
+    "word": "magazines",
+    "chinese": "n. 杂志（magazine的复数）",
+    "ipa": "ˈmægəˌzinz",
+    "rank": 1771,
+    "level": "elementary"
+  },
+  {
+    "word": "packages",
+    "chinese": "n. 程序包",
+    "ipa": "ˈpækɪʤɪz",
+    "rank": 1772,
+    "level": "elementary"
+  },
+  {
+    "word": "detail",
+    "chinese": "n. 细节, 详情",
+    "ipa": "'di:teil",
+    "rank": 1773,
+    "level": "elementary"
+  },
+  {
+    "word": "francisco",
+    "chinese": "n. 弗朗西斯科（男子名, 等于Francis）",
+    "ipa": "fræn'siskәu",
+    "rank": 1774,
+    "level": "elementary"
+  },
+  {
+    "word": "laws",
+    "chinese": "n. 法律",
+    "ipa": "lɔz",
+    "rank": 1775,
+    "level": "elementary"
+  },
+  {
+    "word": "changed",
+    "chinese": "a. 变化的",
+    "ipa": "ʧeɪnʤd",
+    "rank": 1776,
+    "level": "elementary"
+  },
+  {
+    "word": "pet",
+    "chinese": "n. 宠物, 受宠爱的人, 宠坏的孩子, 不悦, 生气",
+    "ipa": "pet",
+    "rank": 1777,
+    "level": "elementary"
+  },
+  {
+    "word": "heard",
+    "chinese": "hear的过去式和过去分词",
+    "ipa": "hә:d",
+    "rank": 1778,
+    "level": "elementary"
+  },
+  {
+    "word": "begin",
+    "chinese": "v. 开始",
+    "ipa": "bi'gin",
+    "rank": 1779,
+    "level": "elementary"
+  },
+  {
+    "word": "individuals",
+    "chinese": "n. 个人",
+    "ipa": "ˌɪndəˈvɪʤəwəlz",
+    "rank": 1780,
+    "level": "elementary"
+  },
+  {
+    "word": "colorado",
+    "chinese": "n. 科罗拉多, 科罗拉多河",
+    "ipa": ",kɔlә'rɑ:dәu",
+    "rank": 1781,
+    "level": "elementary"
+  },
+  {
+    "word": "royal",
+    "chinese": "n. 王室, 皇族",
+    "ipa": "'rɒiәl",
+    "rank": 1782,
+    "level": "elementary"
+  },
+  {
+    "word": "clean",
+    "chinese": "a. 干净的, 清白的, 简洁的",
+    "ipa": "kli:n",
+    "rank": 1783,
+    "level": "elementary"
+  },
+  {
+    "word": "switch",
+    "chinese": "n. 开关, 电闸, 转换, 软枝, 鞭子, 道岔",
+    "ipa": "switʃ",
+    "rank": 1784,
+    "level": "elementary"
+  },
+  {
+    "word": "russian",
+    "chinese": "n. 俄国人, 俄语",
+    "ipa": "'rʌʃәn",
+    "rank": 1785,
+    "level": "elementary"
+  },
+  {
+    "word": "largest",
+    "chinese": "a. 多量的, 最大的（large的最高级）",
+    "ipa": "ˈlɑrʤəst",
+    "rank": 1786,
+    "level": "elementary"
+  },
+  {
+    "word": "african",
+    "chinese": "n. 非洲人",
+    "ipa": "'æfrikәn",
+    "rank": 1787,
+    "level": "elementary"
+  },
+  {
+    "word": "guy",
+    "chinese": "n. 家伙, 支索",
+    "ipa": "gai",
+    "rank": 1788,
+    "level": "elementary"
+  },
+  {
+    "word": "titles",
+    "chinese": "n. 标题",
+    "ipa": "ˈtaɪtəlz",
+    "rank": 1789,
+    "level": "elementary"
+  },
+  {
+    "word": "relevant",
+    "chinese": "a. 有关联的, 有关系的, 适当的, 相应的",
+    "ipa": "'relivәnt",
+    "rank": 1790,
+    "level": "elementary"
+  },
+  {
+    "word": "guidelines",
+    "chinese": "n. 指导方针",
+    "ipa": "ˈgaɪˌdlaɪnz",
+    "rank": 1791,
+    "level": "elementary"
+  },
+  {
+    "word": "justice",
+    "chinese": "n. 正义, 公平, 公正, 正确, 司法, 审判",
+    "ipa": "'dʒʌstis",
+    "rank": 1792,
+    "level": "elementary"
+  },
+  {
+    "word": "connect",
+    "chinese": "v. 连接, 联合, 联系",
+    "ipa": "kә'nekt",
+    "rank": 1793,
+    "level": "elementary"
+  },
+  {
+    "word": "bible",
+    "chinese": "n. 圣经",
+    "ipa": "'baibl",
+    "rank": 1794,
+    "level": "elementary"
+  },
+  {
+    "word": "dev",
+    "chinese": "abbr. 发展（develop）",
+    "ipa": "dɛv",
+    "rank": 1795,
+    "level": "elementary"
+  },
+  {
+    "word": "cup",
+    "chinese": "n. 杯子, 茶杯, 优胜杯",
+    "ipa": "kʌp",
+    "rank": 1796,
+    "level": "elementary"
+  },
+  {
+    "word": "basket",
+    "chinese": "n. 篮, 篮子",
+    "ipa": "'bɑ:skit",
+    "rank": 1797,
+    "level": "elementary"
+  },
+  {
+    "word": "applied",
+    "chinese": "a. 应用的",
+    "ipa": "ә'plaid",
+    "rank": 1798,
+    "level": "elementary"
+  },
+  {
+    "word": "weekly",
+    "chinese": "n. 周刊, 周报",
+    "ipa": "'wi:kli",
+    "rank": 1799,
+    "level": "elementary"
+  },
+  {
+    "word": "vol",
+    "chinese": "[计] DOS外部命令:显示卷标及其序号",
+    "ipa": "vol",
+    "rank": 1800,
+    "level": "elementary"
+  },
+  {
+    "word": "installation",
+    "chinese": "n. 安装, 装置, 就职",
+    "ipa": ".instә'leiʃәn",
+    "rank": 1801,
+    "level": "elementary"
+  },
+  {
+    "word": "described",
+    "chinese": "v. 描述, 描写（describe的过去式）",
+    "ipa": "dɪˈskraɪbd",
+    "rank": 1802,
+    "level": "elementary"
+  },
+  {
+    "word": "demand",
+    "chinese": "n. 要求, 需求, 需要",
+    "ipa": "di'mɑ:nd",
+    "rank": 1803,
+    "level": "elementary"
+  },
+  {
+    "word": "pp",
+    "chinese": "包裹邮递, 包裹邮件, 邮包, 包裹邮务处, 过去分词",
+    "ipa": "pp",
+    "rank": 1804,
+    "level": "elementary"
+  },
+  {
+    "word": "suite",
+    "chinese": "n. 随员, 套房, (一)组, (一)套, 组曲, 继之而来的事",
+    "ipa": "swi:t",
+    "rank": 1805,
+    "level": "elementary"
+  },
+  {
+    "word": "vegas",
+    "chinese": "n. 维加斯",
+    "ipa": "ˈveɪgəs",
+    "rank": 1806,
+    "level": "elementary"
+  },
+  {
+    "word": "na",
+    "chinese": "北美洲, 国立研究院院士, 国立研究院, 国民军",
+    "ipa": "nɑ:, nә",
+    "rank": 1807,
+    "level": "elementary"
+  },
+  {
+    "word": "square",
+    "chinese": "n. 正方形, 街区, 广场, 平方, 直角尺",
+    "ipa": "skwєә",
+    "rank": 1808,
+    "level": "elementary"
+  },
+  {
+    "word": "chris",
+    "chinese": "n. 克里斯（男子名）",
+    "ipa": "kris",
+    "rank": 1809,
+    "level": "elementary"
+  },
+  {
+    "word": "attention",
+    "chinese": "n. 注意, 注意力",
+    "ipa": "ә'tenʃәn",
+    "rank": 1810,
+    "level": "elementary"
+  },
+  {
+    "word": "advance",
+    "chinese": "n. 前进, 进展, 行过的路程",
+    "ipa": "әd'vɑ:ns",
+    "rank": 1811,
+    "level": "elementary"
+  },
+  {
+    "word": "skip",
+    "chinese": "n. 跳跃, 跳读",
+    "ipa": "skip",
+    "rank": 1812,
+    "level": "elementary"
+  },
+  {
+    "word": "diet",
+    "chinese": "n. 日常饮食, 议会",
+    "ipa": "'daiәt",
+    "rank": 1813,
+    "level": "elementary"
+  },
+  {
+    "word": "army",
+    "chinese": "n. 军队, 陆军",
+    "ipa": "'ɑ:mi",
+    "rank": 1814,
+    "level": "elementary"
+  },
+  {
+    "word": "auction",
+    "chinese": "n. 拍卖",
+    "ipa": "'ɒ:kʃәn",
+    "rank": 1815,
+    "level": "elementary"
+  },
+  {
+    "word": "gear",
+    "chinese": "n. 齿轮, 工具",
+    "ipa": "giә",
+    "rank": 1816,
+    "level": "elementary"
+  },
+  {
+    "word": "lee",
+    "chinese": "n. 背风处, 避风处, 下风处, 保护, 庇护",
+    "ipa": "li:",
+    "rank": 1817,
+    "level": "elementary"
+  },
+  {
+    "word": "os",
+    "chinese": "n. 骨, 孔, 穴裂口",
+    "ipa": "ɒs",
+    "rank": 1818,
+    "level": "elementary"
+  },
+  {
+    "word": "difference",
+    "chinese": "n. 不同, 差异",
+    "ipa": "'difәrәns",
+    "rank": 1819,
+    "level": "elementary"
+  },
+  {
+    "word": "allowed",
+    "chinese": "a. 允许, 容许的",
+    "ipa": "əˈlaʊd",
+    "rank": 1820,
+    "level": "elementary"
+  },
+  {
+    "word": "correct",
+    "chinese": "a. 正确的, 合适的",
+    "ipa": "kә'rekt",
+    "rank": 1821,
+    "level": "elementary"
+  },
+  {
+    "word": "charles",
+    "chinese": "n. 查尔斯（人名）",
+    "ipa": "tʃɑ:lz",
+    "rank": 1822,
+    "level": "elementary"
+  },
+  {
+    "word": "nation",
+    "chinese": "n. 国家, 民族",
+    "ipa": "'neiʃәn",
+    "rank": 1823,
+    "level": "elementary"
+  },
+  {
+    "word": "selling",
+    "chinese": "a. 卖的, 销路好的, 出售的",
+    "ipa": "'seliŋ",
+    "rank": 1824,
+    "level": "elementary"
+  },
+  {
+    "word": "lots",
+    "chinese": "n. 大量, 许多",
+    "ipa": "lɔts",
+    "rank": 1825,
+    "level": "elementary"
+  },
+  {
+    "word": "piece",
+    "chinese": "n. 块, 片, 篇, 碎片, 部分, 部件, 标准量",
+    "ipa": "pi:s",
+    "rank": 1826,
+    "level": "elementary"
+  },
+  {
+    "word": "sheet",
+    "chinese": "n. 床单, 张, 纸张, 印刷品, 裹尸布, 薄片",
+    "ipa": "ʃi:t",
+    "rank": 1827,
+    "level": "elementary"
+  },
+  {
+    "word": "firm",
+    "chinese": "n. 公司, 商号",
+    "ipa": "fә:m",
+    "rank": 1828,
+    "level": "elementary"
+  },
+  {
+    "word": "seven",
+    "chinese": "num. 七, 七个",
+    "ipa": "'sevn",
+    "rank": 1829,
+    "level": "elementary"
+  },
+  {
+    "word": "older",
+    "chinese": "a. 年长的",
+    "ipa": "'әuldә",
+    "rank": 1830,
+    "level": "elementary"
+  },
+  {
+    "word": "illinois",
+    "chinese": "n. 伊利诺州",
+    "ipa": ".ili'nɒis",
+    "rank": 1831,
+    "level": "elementary"
+  },
+  {
+    "word": "regulations",
+    "chinese": "n. 章则",
+    "ipa": "ˌrɛgjəˈleɪʃənz",
+    "rank": 1832,
+    "level": "elementary"
+  },
+  {
+    "word": "elements",
+    "chinese": "n. 原理, 基础",
+    "ipa": "'elimәnts",
+    "rank": 1833,
+    "level": "elementary"
+  },
+  {
+    "word": "species",
+    "chinese": "n. 种, 类, 外形",
+    "ipa": "'spi:ʃiz",
+    "rank": 1834,
+    "level": "elementary"
+  },
+  {
+    "word": "jump",
+    "chinese": "n. 跳跃, 跳动, 暴涨, 惊跳",
+    "ipa": "dʒʌmp",
+    "rank": 1835,
+    "level": "elementary"
+  },
+  {
+    "word": "cells",
+    "chinese": "n. 细胞",
+    "ipa": "sɛlz",
+    "rank": 1836,
+    "level": "elementary"
+  },
+  {
+    "word": "module",
+    "chinese": "n. 组件, 模数",
+    "ipa": "'mɒdju:l",
+    "rank": 1837,
+    "level": "elementary"
+  },
+  {
+    "word": "resort",
+    "chinese": "n. 度假胜地, 手段, 凭借, 常去之地",
+    "ipa": "ri'zɒ:t",
+    "rank": 1838,
+    "level": "elementary"
+  },
+  {
+    "word": "facility",
+    "chinese": "n. 容易, 灵巧, 设备",
+    "ipa": "fә'siliti",
+    "rank": 1839,
+    "level": "elementary"
+  },
+  {
+    "word": "random",
+    "chinese": "n. 随意, 随机",
+    "ipa": "'rændәm",
+    "rank": 1840,
+    "level": "elementary"
+  },
+  {
+    "word": "pricing",
+    "chinese": "[经] 定价, 标价",
+    "ipa": "'praisiŋ",
+    "rank": 1841,
+    "level": "elementary"
+  },
+  {
+    "word": "dvds",
+    "chinese": "abbr. digital video display system 数字视频显示系统",
+    "ipa": "ˌdi:vi:ˈdi:z",
+    "rank": 1842,
+    "level": "elementary"
+  },
+  {
+    "word": "certificate",
+    "chinese": "n. 证书, 证明书",
+    "ipa": "sә'tifikeit",
+    "rank": 1843,
+    "level": "elementary"
+  },
+  {
+    "word": "minister",
+    "chinese": "n. 部长, 牧师, 公使",
+    "ipa": "'ministә",
+    "rank": 1844,
+    "level": "elementary"
+  },
+  {
+    "word": "motion",
+    "chinese": "n. 移动, 手势, 动作, 意向, 请求, 提议",
+    "ipa": "'mәuʃәn",
+    "rank": 1845,
+    "level": "elementary"
+  },
+  {
+    "word": "looks",
+    "chinese": "n. 美貌",
+    "ipa": "lʊks",
+    "rank": 1846,
+    "level": "elementary"
+  },
+  {
+    "word": "fashion",
+    "chinese": "n. 流行, 风尚, 时样",
+    "ipa": "'fæʃәn",
+    "rank": 1847,
+    "level": "elementary"
+  },
+  {
+    "word": "directions",
+    "chinese": "n. 指示",
+    "ipa": "dɪˈrɛkʃɪnz",
+    "rank": 1848,
+    "level": "elementary"
+  },
+  {
+    "word": "visitors",
+    "chinese": "n. 访问者, 游客（visitor 复数）",
+    "ipa": "ˈvɪzɪtərz",
+    "rank": 1849,
+    "level": "elementary"
+  },
+  {
+    "word": "documentation",
+    "chinese": "n. (总称)文件",
+    "ipa": ".dɒkjumen'teiʃәn",
+    "rank": 1850,
+    "level": "elementary"
+  },
+  {
+    "word": "monitor",
+    "chinese": "n. 监督器, 级长, 监听员, 班长, 监视器, 告诫物",
+    "ipa": "'mɒnitә",
+    "rank": 1851,
+    "level": "elementary"
+  },
+  {
+    "word": "trading",
+    "chinese": "[经] 交易",
+    "ipa": "'treidiŋ",
+    "rank": 1852,
+    "level": "elementary"
+  },
+  {
+    "word": "forest",
+    "chinese": "n. 森林, 林区",
+    "ipa": "'fɒrist",
+    "rank": 1853,
+    "level": "elementary"
+  },
+  {
+    "word": "calls",
+    "chinese": "n. 调用",
+    "ipa": "kɔlz",
+    "rank": 1854,
+    "level": "elementary"
+  },
+  {
+    "word": "whose",
+    "chinese": "pron. 谁的",
+    "ipa": "hu:z",
+    "rank": 1855,
+    "level": "elementary"
+  },
+  {
+    "word": "coverage",
+    "chinese": "n. 覆盖的范围, 保险总额, 新闻报导",
+    "ipa": "'kʌvәridʒ",
+    "rank": 1856,
+    "level": "elementary"
+  },
+  {
+    "word": "couple",
+    "chinese": "n. 对, 夫妇, 数个",
+    "ipa": "'kʌpl",
+    "rank": 1857,
+    "level": "elementary"
+  },
+  {
+    "word": "giving",
+    "chinese": "n. 礼物, 给予物",
+    "ipa": "'giviŋ",
+    "rank": 1858,
+    "level": "elementary"
+  },
+  {
+    "word": "chance",
+    "chinese": "n. 机会, 意外, 可能性",
+    "ipa": "tʃæns. tʃɑ:ns",
+    "rank": 1859,
+    "level": "elementary"
+  },
+  {
+    "word": "vision",
+    "chinese": "n. 视觉, 眼光, 视力, 幻想",
+    "ipa": "'viʒәn",
+    "rank": 1860,
+    "level": "elementary"
+  },
+  {
+    "word": "ball",
+    "chinese": "n. 球, 舞会, 球状物",
+    "ipa": "bɒ:l",
+    "rank": 1861,
+    "level": "elementary"
+  },
+  {
+    "word": "ending",
+    "chinese": "n. 终止, 终了, 收场",
+    "ipa": "'endiŋ",
+    "rank": 1862,
+    "level": "elementary"
+  },
+  {
+    "word": "clients",
+    "chinese": "n. 客户端",
+    "ipa": "klaɪənts",
+    "rank": 1863,
+    "level": "elementary"
+  },
+  {
+    "word": "actions",
+    "chinese": "n. 动作",
+    "ipa": "ˈækʃənz",
+    "rank": 1864,
+    "level": "elementary"
+  },
+  {
+    "word": "listen",
+    "chinese": "vi. 听, 倾听, 听从",
+    "ipa": "'lisn",
+    "rank": 1865,
+    "level": "elementary"
+  },
+  {
+    "word": "discuss",
+    "chinese": "vt. 讨论, 论述",
+    "ipa": "dis'kʌs",
+    "rank": 1866,
+    "level": "elementary"
+  },
+  {
+    "word": "accept",
+    "chinese": "vt. 接受, 承认, 同意, 相信, 赞成, 承担, 承兑, 采纳, 接纳, 容忍",
+    "ipa": "әk'sept",
+    "rank": 1867,
+    "level": "elementary"
+  },
+  {
+    "word": "automotive",
+    "chinese": "a. 汽车的",
+    "ipa": ".ɒ:tәu'mәutiv",
+    "rank": 1868,
+    "level": "elementary"
+  },
+  {
+    "word": "naked",
+    "chinese": "a. 裸体的, 无装饰的, 无保护的, 赤贫的",
+    "ipa": "'neikid",
+    "rank": 1869,
+    "level": "elementary"
+  },
+  {
+    "word": "goal",
+    "chinese": "n. 目标, 终点, 得分, 球门, 守门员",
+    "ipa": "gәul",
+    "rank": 1870,
+    "level": "elementary"
+  },
+  {
+    "word": "successful",
+    "chinese": "a. 成功的, 一帆风顺的, 顺利的",
+    "ipa": "sәk'sesful",
+    "rank": 1871,
+    "level": "elementary"
+  },
+  {
+    "word": "sold",
+    "chinese": "sell的过去式和过去分词",
+    "ipa": "sәuld",
+    "rank": 1872,
+    "level": "elementary"
+  },
+  {
+    "word": "wind",
+    "chinese": "n. 风, 气息, 气味, 呼吸, 风声, 趋势, 空谈, 卷绕, 弯曲",
+    "ipa": "wind",
+    "rank": 1873,
+    "level": "elementary"
+  },
+  {
+    "word": "communities",
+    "chinese": "n. 社区",
+    "ipa": "kəmˈjunɪtiz",
+    "rank": 1874,
+    "level": "elementary"
+  },
+  {
+    "word": "clinical",
+    "chinese": "a. 临床的, 门诊部的",
+    "ipa": "'klinikәl",
+    "rank": 1875,
+    "level": "elementary"
+  },
+  {
+    "word": "situation",
+    "chinese": "n. 情形, 境遇, 位置",
+    "ipa": ".sitju'eiʃәn",
+    "rank": 1876,
+    "level": "elementary"
+  },
+  {
+    "word": "sciences",
+    "chinese": "n. 科学（science的复数）",
+    "ipa": "ˈsaɪənsɪz",
+    "rank": 1877,
+    "level": "elementary"
+  },
+  {
+    "word": "markets",
+    "chinese": "n. 市场, 市场组合（market 复数）",
+    "ipa": "ˈmɑrkɪts",
+    "rank": 1878,
+    "level": "elementary"
+  },
+  {
+    "word": "lowest",
+    "chinese": "[法] 最低的, 基层的",
+    "ipa": "'lәuist",
+    "rank": 1879,
+    "level": "elementary"
+  },
+  {
+    "word": "highly",
+    "chinese": "adv. 非常, 非常赞许地",
+    "ipa": "'haili",
+    "rank": 1880,
+    "level": "elementary"
+  },
+  {
+    "word": "publishing",
+    "chinese": "n. 出版, 刊印, 发行",
+    "ipa": "'pʌbliʃiŋ",
+    "rank": 1881,
+    "level": "elementary"
+  },
+  {
+    "word": "appear",
+    "chinese": "vi. 出现, 显得, 来到",
+    "ipa": "ә'piә",
+    "rank": 1882,
+    "level": "elementary"
+  },
+  {
+    "word": "emergency",
+    "chinese": "n. 紧急状况, 紧急事件, 紧急需要",
+    "ipa": "i'mә:dʒәnsi",
+    "rank": 1883,
+    "level": "elementary"
+  },
+  {
+    "word": "developing",
+    "chinese": "a. 发展中的",
+    "ipa": "di'velәpiŋ",
+    "rank": 1884,
+    "level": "elementary"
+  },
+  {
+    "word": "lives",
+    "chinese": "life的复数",
+    "ipa": "laivz",
+    "rank": 1885,
+    "level": "elementary"
+  },
+  {
+    "word": "currency",
+    "chinese": "n. 货币, 通货, 流通, 通用",
+    "ipa": "'kʌrәnsi",
+    "rank": 1886,
+    "level": "elementary"
+  },
+  {
+    "word": "leather",
+    "chinese": "n. 皮革, 皮制品, 马镫的皮带",
+    "ipa": "'leðә",
+    "rank": 1887,
+    "level": "elementary"
+  },
+  {
+    "word": "determine",
+    "chinese": "v. 决定, 决心",
+    "ipa": "di'tә:min",
+    "rank": 1888,
+    "level": "elementary"
+  },
+  {
+    "word": "milf",
+    "chinese": "abbr. （菲律宾）摩洛伊斯兰解放阵线（Moro Islamic Liberation Front）",
+    "ipa": "milf",
+    "rank": 1889,
+    "level": "elementary"
+  },
+  {
+    "word": "temperature",
+    "chinese": "n. 温度, 发烧, 热度",
+    "ipa": "'temprәtʃә",
+    "rank": 1890,
+    "level": "elementary"
+  },
+  {
+    "word": "palm",
+    "chinese": "n. 手掌, 棕榈, 胜利",
+    "ipa": "pɑ:m",
+    "rank": 1891,
+    "level": "elementary"
+  },
+  {
+    "word": "announcements",
+    "chinese": "n. 公告",
+    "ipa": "əˈnaʊnsmɛnts",
+    "rank": 1892,
+    "level": "elementary"
+  },
+  {
+    "word": "patient",
+    "chinese": "n. 病人, 承受者",
+    "ipa": "'peiʃәnt",
+    "rank": 1893,
+    "level": "elementary"
+  },
+  {
+    "word": "actual",
+    "chinese": "a. 真实的, 实际的, 现行的",
+    "ipa": "'æktʃuәl",
+    "rank": 1894,
+    "level": "elementary"
+  },
+  {
+    "word": "historical",
+    "chinese": "a. 历史的, 史实的, 历史上的",
+    "ipa": "hi'stɒrikәl",
+    "rank": 1895,
+    "level": "elementary"
+  },
+  {
+    "word": "stone",
+    "chinese": "n. 石头, 宝石, 果核, 纪念碑, 结石",
+    "ipa": "stәun",
+    "rank": 1896,
+    "level": "elementary"
+  },
+  {
+    "word": "bob",
+    "chinese": "vt. 剪短, 敲击",
+    "ipa": "bɒb",
+    "rank": 1897,
+    "level": "elementary"
+  },
+  {
+    "word": "commerce",
+    "chinese": "n. 商业, 商务, 贸易",
+    "ipa": "'kɒmә:s",
+    "rank": 1898,
+    "level": "elementary"
+  },
+  {
+    "word": "ringtones",
+    "chinese": "n. 铃声（ringtone的复数）",
+    "ipa": "ringtones",
+    "rank": 1899,
+    "level": "elementary"
+  },
+  {
+    "word": "perhaps",
+    "chinese": "adv. 也许, 大概",
+    "ipa": "pә'hæps",
+    "rank": 1900,
+    "level": "elementary"
+  },
+  {
+    "word": "persons",
+    "chinese": "n. 人员",
+    "ipa": "ˈpərsənz",
+    "rank": 1901,
+    "level": "elementary"
+  },
+  {
+    "word": "difficult",
+    "chinese": "a. 困难的",
+    "ipa": "'difikәlt",
+    "rank": 1902,
+    "level": "elementary"
+  },
+  {
+    "word": "scientific",
+    "chinese": "a. 科学的, 系统的, 符合科学规律的",
+    "ipa": ".saiәn'tifik",
+    "rank": 1903,
+    "level": "elementary"
+  },
+  {
+    "word": "satellite",
+    "chinese": "n. 人造卫星",
+    "ipa": "'sætlait",
+    "rank": 1904,
+    "level": "elementary"
+  },
+  {
+    "word": "fit",
+    "chinese": "n. 适宜, 合身, 发作, 痉挛",
+    "ipa": "fit",
+    "rank": 1905,
+    "level": "elementary"
+  },
+  {
+    "word": "tests",
+    "chinese": "n. 测验（test的复数）",
+    "ipa": "tɛsts",
+    "rank": 1906,
+    "level": "elementary"
+  },
+  {
+    "word": "village",
+    "chinese": "n. 村庄",
+    "ipa": "'vilidʒ",
+    "rank": 1907,
+    "level": "elementary"
+  },
+  {
+    "word": "accounts",
+    "chinese": "n. 账号",
+    "ipa": "əˈkaʊnts",
+    "rank": 1908,
+    "level": "elementary"
+  },
+  {
+    "word": "amateur",
+    "chinese": "n. 业余爱好者, 外行, 爱好者",
+    "ipa": "'æmәtә",
+    "rank": 1909,
+    "level": "elementary"
+  },
+  {
+    "word": "ex",
+    "chinese": "n. 已离婚的配偶",
+    "ipa": "eks",
+    "rank": 1910,
+    "level": "elementary"
+  },
+  {
+    "word": "met",
+    "chinese": "meet的过去式和过去分词",
+    "ipa": "met",
+    "rank": 1911,
+    "level": "elementary"
+  },
+  {
+    "word": "pain",
+    "chinese": "n. 痛苦, 疼痛, 辛苦",
+    "ipa": "pein",
+    "rank": 1912,
+    "level": "elementary"
+  },
+  {
+    "word": "xbox",
+    "chinese": "n. 微软游戏机",
+    "ipa": "xbox",
+    "rank": 1913,
+    "level": "elementary"
+  },
+  {
+    "word": "particularly",
+    "chinese": "adv. 特别, 格外, 尤其, 详细地, 细致地",
+    "ipa": "pә'tikjjlәli",
+    "rank": 1914,
+    "level": "elementary"
+  },
+  {
+    "word": "factors",
+    "chinese": "n. 因素（factor的复数）",
+    "ipa": "ˈfæktərz",
+    "rank": 1915,
+    "level": "elementary"
+  },
+  {
+    "word": "coffee",
+    "chinese": "n. 咖啡, 咖啡色",
+    "ipa": "'kɒfi",
+    "rank": 1916,
+    "level": "elementary"
+  },
+  {
+    "word": "www",
+    "chinese": "[计] 全球信息网, WWW浏览器",
+    "ipa": "www",
+    "rank": 1917,
+    "level": "elementary"
+  },
+  {
+    "word": "settings",
+    "chinese": "n. 设置（setting的复数）",
+    "ipa": "ˈsɛtɪŋz",
+    "rank": 1918,
+    "level": "elementary"
+  },
+  {
+    "word": "cum",
+    "chinese": "prep. 和, 附有, 与",
+    "ipa": "kʌm",
+    "rank": 1919,
+    "level": "elementary"
+  },
+  {
+    "word": "buyer",
+    "chinese": "n. 买主, 买方",
+    "ipa": "'baiә",
+    "rank": 1920,
+    "level": "elementary"
+  },
+  {
+    "word": "cultural",
+    "chinese": "a. 文化的, 教养的, 修养的",
+    "ipa": "'kʌltʃәrәl",
+    "rank": 1921,
+    "level": "elementary"
+  },
+  {
+    "word": "steve",
+    "chinese": "n. 史蒂夫（男子名）",
+    "ipa": "stiv",
+    "rank": 1922,
+    "level": "elementary"
+  },
+  {
+    "word": "easily",
+    "chinese": "adv. 容易地, 轻易地, 流利地",
+    "ipa": "'i:zili",
+    "rank": 1923,
+    "level": "elementary"
+  },
+  {
+    "word": "oral",
+    "chinese": "n. 口试",
+    "ipa": "'ɒ:rәl",
+    "rank": 1924,
+    "level": "elementary"
+  },
+  {
+    "word": "ford",
+    "chinese": "n. 浅滩, 福特汽车",
+    "ipa": "fɒ:d",
+    "rank": 1925,
+    "level": "elementary"
+  },
+  {
+    "word": "poster",
+    "chinese": "n. 海报, 招贴, 驿马",
+    "ipa": "'pәustә",
+    "rank": 1926,
+    "level": "elementary"
+  },
+  {
+    "word": "edge",
+    "chinese": "n. 边缘, 尖锐, 刀刃, 优势",
+    "ipa": "edʒ",
+    "rank": 1927,
+    "level": "elementary"
+  },
+  {
+    "word": "functional",
+    "chinese": "a. 功能的",
+    "ipa": "'fʌŋkʃәnәl",
+    "rank": 1928,
+    "level": "elementary"
+  },
+  {
+    "word": "root",
+    "chinese": "n. 根, 根本, 根源, 基础, 底部",
+    "ipa": "ru:t",
+    "rank": 1929,
+    "level": "elementary"
+  },
+  {
+    "word": "au",
+    "chinese": "[计] 加法器, 运算器, 声频",
+    "ipa": "әu",
+    "rank": 1930,
+    "level": "elementary"
+  },
+  {
+    "word": "fi",
+    "chinese": "[计] 格式标识码, 前端处理器接口",
+    "ipa": "fai",
+    "rank": 1931,
+    "level": "elementary"
+  },
+  {
+    "word": "closed",
+    "chinese": "a. 关闭的, 限于少数人的",
+    "ipa": "klәuzd",
+    "rank": 1932,
+    "level": "elementary"
+  },
+  {
+    "word": "holidays",
+    "chinese": "adv. 在假日, 每逢假日",
+    "ipa": "'hɔlә,deiz",
+    "rank": 1933,
+    "level": "elementary"
+  },
+  {
+    "word": "ice",
+    "chinese": "n. 冰, 冰淇淋, 糖衣, 冷若冰霜, 矜持, 贿赂",
+    "ipa": "ais",
+    "rank": 1934,
+    "level": "elementary"
+  },
+  {
+    "word": "pink",
+    "chinese": "n. 粉红色, 石竹花, 化身, 典范, 头面人物, 极度",
+    "ipa": "piŋk",
+    "rank": 1935,
+    "level": "elementary"
+  },
+  {
+    "word": "zealand",
+    "chinese": "n. 西兰岛（丹麦最大的岛）",
+    "ipa": "'zi:lәnd",
+    "rank": 1936,
+    "level": "elementary"
+  },
+  {
+    "word": "balance",
+    "chinese": "n. 平衡, 差额",
+    "ipa": "'bælәns",
+    "rank": 1937,
+    "level": "elementary"
+  },
+  {
+    "word": "monitoring",
+    "chinese": "[计] 监控, 监督, 监视",
+    "ipa": "'mɔnitәriŋ",
+    "rank": 1938,
+    "level": "elementary"
+  },
+  {
+    "word": "graduate",
+    "chinese": "n. 毕业生, 量杯",
+    "ipa": "'grædʒueit",
+    "rank": 1939,
+    "level": "elementary"
+  },
+  {
+    "word": "replies",
+    "chinese": "n. 回复",
+    "ipa": "rɪˈplaɪz",
+    "rank": 1940,
+    "level": "elementary"
+  },
+  {
+    "word": "shot",
+    "chinese": "n. 发射, 炮弹, 射击, 射手, 投篮, 射门, 子弹, 射程, 拍摄, 注射",
+    "ipa": "ʃɒt",
+    "rank": 1941,
+    "level": "elementary"
+  },
+  {
+    "word": "nc",
+    "chinese": "北卡罗来纳",
+    "ipa": "nc",
+    "rank": 1942,
+    "level": "elementary"
+  },
+  {
+    "word": "architecture",
+    "chinese": "n. 建筑学, 建筑式样",
+    "ipa": "'ɑ:kitektʃә",
+    "rank": 1943,
+    "level": "elementary"
+  },
+  {
+    "word": "initial",
+    "chinese": "n. 字首, 首字母",
+    "ipa": "i'niʃәl",
+    "rank": 1944,
+    "level": "elementary"
+  },
+  {
+    "word": "label",
+    "chinese": "n. 标签, 称号, 商标, 标志",
+    "ipa": "'leibl",
+    "rank": 1945,
+    "level": "elementary"
+  },
+  {
+    "word": "thinking",
+    "chinese": "n. 思考, 思想",
+    "ipa": "'θiŋkiŋ",
+    "rank": 1946,
+    "level": "elementary"
+  },
+  {
+    "word": "scott",
+    "chinese": "n. 斯科特（男子名）",
+    "ipa": "skɔt",
+    "rank": 1947,
+    "level": "elementary"
+  },
+  {
+    "word": "llc",
+    "chinese": "[计] 逻辑链路控制",
+    "ipa": "llc",
+    "rank": 1948,
+    "level": "elementary"
+  },
+  {
+    "word": "sec",
+    "chinese": "[计] 秒, 辅助",
+    "ipa": "sek",
+    "rank": 1949,
+    "level": "elementary"
+  },
+  {
+    "word": "recommend",
+    "chinese": "vt. 推荐, 介绍, 劝告, 使受欢迎, 托付",
+    "ipa": ".rekә'mend",
+    "rank": 1950,
+    "level": "elementary"
+  },
+  {
+    "word": "canon",
+    "chinese": "n. 教会法规, 圣典, 准则, 标准, 教士",
+    "ipa": "'kænәn",
+    "rank": 1951,
+    "level": "elementary"
+  },
+  {
+    "word": "hardcore",
+    "chinese": "a. 赤裸裸描写性行为的",
+    "ipa": "'hɑ:dkɔ:",
+    "rank": 1952,
+    "level": "elementary"
+  },
+  {
+    "word": "league",
+    "chinese": "n. 同盟, 联盟, 盟约",
+    "ipa": "li:g",
+    "rank": 1953,
+    "level": "elementary"
+  },
+  {
+    "word": "waste",
+    "chinese": "n. 浪费, 废物, 损耗, 消耗, 荒地, 垃圾, 地面风化物",
+    "ipa": "weist",
+    "rank": 1954,
+    "level": "elementary"
+  },
+  {
+    "word": "minute",
+    "chinese": "n. 分, 分钟, 片刻, 备忘录, 笔记",
+    "ipa": "'minit. mai'nju:t",
+    "rank": 1955,
+    "level": "elementary"
+  },
+  {
+    "word": "bus",
+    "chinese": "n. 公共汽车",
+    "ipa": "bʌs",
+    "rank": 1956,
+    "level": "elementary"
+  },
+  {
+    "word": "provider",
+    "chinese": "n. 供应者, 供养人, 伙食承办人",
+    "ipa": "prә'vaidә",
+    "rank": 1957,
+    "level": "elementary"
+  },
+  {
+    "word": "optional",
+    "chinese": "a. 可选择的, 随意的",
+    "ipa": "'ɒpʃәnl",
+    "rank": 1958,
+    "level": "elementary"
+  },
+  {
+    "word": "dictionary",
+    "chinese": "n. 字典, 词典",
+    "ipa": "'dikʃәnәri",
+    "rank": 1959,
+    "level": "elementary"
+  },
+  {
+    "word": "cold",
+    "chinese": "n. 感冒, 寒冷",
+    "ipa": "kәuld",
+    "rank": 1960,
+    "level": "elementary"
+  },
+  {
+    "word": "accounting",
+    "chinese": "n. 会计学, 帐单, 清帐",
+    "ipa": "ә'kauntiŋ",
+    "rank": 1961,
+    "level": "elementary"
+  },
+  {
+    "word": "manufacturing",
+    "chinese": "n. 制造业",
+    "ipa": ".mænju'fæktʃәriŋ",
+    "rank": 1962,
+    "level": "elementary"
+  },
+  {
+    "word": "sections",
+    "chinese": "n. 截面, 节段",
+    "ipa": "ˈsɛkʃənz",
+    "rank": 1963,
+    "level": "elementary"
+  },
+  {
+    "word": "chair",
+    "chinese": "n. 椅子, 显要的席位, 主席",
+    "ipa": "tʃєә",
+    "rank": 1964,
+    "level": "elementary"
+  },
+  {
+    "word": "fishing",
+    "chinese": "n. 钓鱼, 鱼业",
+    "ipa": "'fiʃiŋ",
+    "rank": 1965,
+    "level": "elementary"
+  },
+  {
+    "word": "effort",
+    "chinese": "n. 努力, 成就",
+    "ipa": "'efәt",
+    "rank": 1966,
+    "level": "elementary"
+  },
+  {
+    "word": "phase",
+    "chinese": "n. 时期, 局面, 方面, 位相, 相, 阶段",
+    "ipa": "feiz",
+    "rank": 1967,
+    "level": "elementary"
+  },
+  {
+    "word": "fields",
+    "chinese": "n. 域, 字段",
+    "ipa": "fildz",
+    "rank": 1968,
+    "level": "elementary"
+  },
+  {
+    "word": "bag",
+    "chinese": "n. 袋子, 袋状物",
+    "ipa": "bæg",
+    "rank": 1969,
+    "level": "elementary"
+  },
+  {
+    "word": "fantasy",
+    "chinese": "n. 幻想, 想象的产物",
+    "ipa": "'fæntәsi",
+    "rank": 1970,
+    "level": "elementary"
+  },
+  {
+    "word": "po",
+    "chinese": "邮局, 邮政汇票",
+    "ipa": "pәj",
+    "rank": 1971,
+    "level": "elementary"
+  },
+  {
+    "word": "letters",
+    "chinese": "n. 字母",
+    "ipa": "ˈlɛtərz",
+    "rank": 1972,
+    "level": "elementary"
+  },
+  {
+    "word": "motor",
+    "chinese": "n. 马达, 发动机, 原动力, 汽车",
+    "ipa": "'mәutә",
+    "rank": 1973,
+    "level": "elementary"
+  },
+  {
+    "word": "va",
+    "chinese": "[医] 视敏度",
+    "ipa": "vɑ:",
+    "rank": 1974,
+    "level": "elementary"
+  },
+  {
+    "word": "professor",
+    "chinese": "n. 教授",
+    "ipa": "prә'fesә",
+    "rank": 1975,
+    "level": "elementary"
+  },
+  {
+    "word": "context",
+    "chinese": "n. 上下文, 背景, 来龙去脉",
+    "ipa": "'kɒntekst",
+    "rank": 1976,
+    "level": "elementary"
+  },
+  {
+    "word": "install",
+    "chinese": "vt. 安装, 安置, 使就职",
+    "ipa": "in'stɒ:l",
+    "rank": 1977,
+    "level": "elementary"
+  },
+  {
+    "word": "shirt",
+    "chinese": "n. 衬衫, 内衣, 汗衫",
+    "ipa": "ʃә:t",
+    "rank": 1978,
+    "level": "elementary"
+  },
+  {
+    "word": "apparel",
+    "chinese": "n. 衣服, 外表",
+    "ipa": "ә'pærәl",
+    "rank": 1979,
+    "level": "elementary"
+  },
+  {
+    "word": "generally",
+    "chinese": "adv. 通常, 逐渐地, 普遍地",
+    "ipa": "'dʒenәrәli",
+    "rank": 1980,
+    "level": "elementary"
+  },
+  {
+    "word": "continued",
+    "chinese": "a. 继续的, 延续的",
+    "ipa": "kәn'tinju:d",
+    "rank": 1981,
+    "level": "elementary"
+  },
+  {
+    "word": "foot",
+    "chinese": "n. 脚, 步调, 英尺, 底部, 末尾, 步兵",
+    "ipa": "fut",
+    "rank": 1982,
+    "level": "elementary"
+  },
+  {
+    "word": "mass",
+    "chinese": "n. 块, 大多数, 质量, 大量, 群众, 弥撒",
+    "ipa": "mæs",
+    "rank": 1983,
+    "level": "elementary"
+  },
+  {
+    "word": "crime",
+    "chinese": "n. 犯罪, 罪行, 罪恶",
+    "ipa": "kraim",
+    "rank": 1984,
+    "level": "elementary"
+  },
+  {
+    "word": "count",
+    "chinese": "vt. 计算, 视为",
+    "ipa": "kaunt",
+    "rank": 1985,
+    "level": "elementary"
+  },
+  {
+    "word": "breast",
+    "chinese": "n. 胸部, 乳房, 胸怀",
+    "ipa": "brest",
+    "rank": 1986,
+    "level": "elementary"
+  },
+  {
+    "word": "techniques",
+    "chinese": "n. 方法",
+    "ipa": "tɛkˈniks",
+    "rank": 1987,
+    "level": "elementary"
+  },
+  {
+    "word": "ibm",
+    "chinese": "美国国际商用机器公司",
+    "ipa": "ibm",
+    "rank": 1988,
+    "level": "elementary"
+  },
+  {
+    "word": "rd",
+    "chinese": "[计] 报表描述; DOS内部命令:该命令用于删除磁盘中的空白子目录",
+    "ipa": "rd",
+    "rank": 1989,
+    "level": "elementary"
+  },
+  {
+    "word": "johnson",
+    "chinese": "n. 约翰逊（姓氏）",
+    "ipa": "'dʒɔnsn",
+    "rank": 1990,
+    "level": "elementary"
+  },
+  {
+    "word": "sc",
+    "chinese": "[计] 系统控制, 存储容量, 半导体, 会话控制",
+    "ipa": "sc",
+    "rank": 1991,
+    "level": "elementary"
+  },
+  {
+    "word": "quickly",
+    "chinese": "adv. 很快地",
+    "ipa": "'kwikli",
+    "rank": 1992,
+    "level": "elementary"
+  },
+  {
+    "word": "dollars",
+    "chinese": "n. 美元（dollar的复数）",
+    "ipa": "ˈdɔlərz",
+    "rank": 1993,
+    "level": "elementary"
+  },
+  {
+    "word": "websites",
+    "chinese": "n. [通信]网站( website的复数形式 )",
+    "ipa": "'websɪts",
+    "rank": 1994,
+    "level": "elementary"
+  },
+  {
+    "word": "religion",
+    "chinese": "n. 宗教, 信仰",
+    "ipa": "ri'lidʒәn",
+    "rank": 1995,
+    "level": "elementary"
+  },
+  {
+    "word": "claim",
+    "chinese": "n. 要求, 要求权, 断言, 权利",
+    "ipa": "kleim",
+    "rank": 1996,
+    "level": "elementary"
+  },
+  {
+    "word": "driving",
+    "chinese": "n. 赶, 操纵, 驾驶",
+    "ipa": "'draiviŋ",
+    "rank": 1997,
+    "level": "elementary"
+  },
+  {
+    "word": "permission",
+    "chinese": "n. 许可, 允许",
+    "ipa": "pә'miʃәn",
+    "rank": 1998,
+    "level": "elementary"
+  },
+  {
+    "word": "surgery",
+    "chinese": "n. 外科, 手术, 手术室, 换球术",
+    "ipa": "'sә:dʒәri",
+    "rank": 1999,
+    "level": "elementary"
+  },
+  {
+    "word": "patch",
+    "chinese": "n. 片, 补缀, 碎片, 斑, 傻瓜",
+    "ipa": "pætʃ",
+    "rank": 2000,
+    "level": "elementary"
+  },
+  {
+    "word": "heat",
+    "chinese": "n. 热, 热度, 体温, 高潮",
+    "ipa": "hi:t",
+    "rank": 2001,
+    "level": "elementary"
+  },
+  {
+    "word": "wild",
+    "chinese": "n. 荒野, 荒地",
+    "ipa": "waild",
+    "rank": 2002,
+    "level": "elementary"
+  },
+  {
+    "word": "measures",
+    "chinese": "n. 措施",
+    "ipa": "ˈmɛʒərz",
+    "rank": 2003,
+    "level": "elementary"
+  },
+  {
+    "word": "generation",
+    "chinese": "n. 一代, 一世, 产生",
+    "ipa": ".dʒenә'reiʃәn",
+    "rank": 2004,
+    "level": "elementary"
+  },
+  {
+    "word": "kansas",
+    "chinese": "n. 堪萨斯州",
+    "ipa": "'kænzәs",
+    "rank": 2005,
+    "level": "elementary"
+  },
+  {
+    "word": "miss",
+    "chinese": "n. 失误, 避免, 失败, 小姐",
+    "ipa": "mis",
+    "rank": 2006,
+    "level": "elementary"
+  },
+  {
+    "word": "chemical",
+    "chinese": "n. 化学药品",
+    "ipa": "'kemikl",
+    "rank": 2007,
+    "level": "elementary"
+  },
+  {
+    "word": "doctor",
+    "chinese": "n. 医生, 博士",
+    "ipa": "'dɒktә",
+    "rank": 2008,
+    "level": "elementary"
+  },
+  {
+    "word": "task",
+    "chinese": "n. 工作, 任务, 作业, 困难的工作",
+    "ipa": "tɑ:sk",
+    "rank": 2009,
+    "level": "elementary"
+  },
+  {
+    "word": "reduce",
+    "chinese": "vt. 减少, 分解, 降低, 使衰退, 把...分解, 把...归纳",
+    "ipa": "ri'dju:s",
+    "rank": 2010,
+    "level": "elementary"
+  },
+  {
+    "word": "brought",
+    "chinese": "bring的过去式和过去分词",
+    "ipa": "brɒ:t",
+    "rank": 2011,
+    "level": "elementary"
+  },
+  {
+    "word": "himself",
+    "chinese": "pron. 他自己, 他亲自",
+    "ipa": "him'self",
+    "rank": 2012,
+    "level": "elementary"
+  },
+  {
+    "word": "nor",
+    "chinese": "conj. 也不, 也没有",
+    "ipa": "nɒ:",
+    "rank": 2013,
+    "level": "elementary"
+  },
+  {
+    "word": "component",
+    "chinese": "n. 元件, 组件, 成分",
+    "ipa": "kәm'pәunәnt",
+    "rank": 2014,
+    "level": "elementary"
+  },
+  {
+    "word": "enable",
+    "chinese": "vt. 使能够",
+    "ipa": "i'neibl",
+    "rank": 2015,
+    "level": "elementary"
+  },
+  {
+    "word": "exercise",
+    "chinese": "n. 行使, 执行, 运动, 练习, 作业",
+    "ipa": "'eksәsaiz",
+    "rank": 2016,
+    "level": "elementary"
+  },
+  {
+    "word": "bug",
+    "chinese": "n. 错误, 虫, 病菌, 缺陷, 窃听器, 癖好, 防盗报警器, 双座小汽车, 要人",
+    "ipa": "bʌg",
+    "rank": 2017,
+    "level": "elementary"
+  },
+  {
+    "word": "santa",
+    "chinese": "n. 圣诞老人（等于Santa Claus）",
+    "ipa": "'sæntә",
+    "rank": 2018,
+    "level": "elementary"
+  },
+  {
+    "word": "mid",
+    "chinese": "a. 中间的, 中央的, 中部的",
+    "ipa": "mid",
+    "rank": 2019,
+    "level": "elementary"
+  },
+  {
+    "word": "guarantee",
+    "chinese": "n. 担保, 抵押品, 保证书",
+    "ipa": ".gærәn'ti:",
+    "rank": 2020,
+    "level": "elementary"
+  },
+  {
+    "word": "leader",
+    "chinese": "n. 领导者, 社论, 指挥, 领袖, 领唱者, 前导字符",
+    "ipa": "'li:dә",
+    "rank": 2021,
+    "level": "elementary"
+  },
+  {
+    "word": "diamond",
+    "chinese": "n. 钻石, 菱形",
+    "ipa": "'daiәmәnd",
+    "rank": 2022,
+    "level": "elementary"
+  },
+  {
+    "word": "israel",
+    "chinese": "n. 以色列, 以色列后裔, 犹太人",
+    "ipa": "'izreil",
+    "rank": 2023,
+    "level": "elementary"
+  },
+  {
+    "word": "se",
+    "chinese": "[计] 栈空, 系统扩充",
+    "ipa": "seɪ",
+    "rank": 2024,
+    "level": "elementary"
+  },
+  {
+    "word": "processes",
+    "chinese": "n. 过程",
+    "ipa": "ˈprɑsɛsəz",
+    "rank": 2025,
+    "level": "elementary"
+  },
+  {
+    "word": "soft",
+    "chinese": "a. 软的, 温和的, 柔和的, 柔滑的, 温柔的, 软弱的, 坡度小的, 笨的, 纸币的",
+    "ipa": "sɒft",
+    "rank": 2026,
+    "level": "elementary"
+  },
+  {
+    "word": "servers",
+    "chinese": "n. 服务器（server的复数）",
+    "ipa": "ˈsərvərz",
+    "rank": 2027,
+    "level": "elementary"
+  },
+  {
+    "word": "alone",
+    "chinese": "a. 孤独的, 单独的, 独自的",
+    "ipa": "ә'lәun",
+    "rank": 2028,
+    "level": "elementary"
+  },
+  {
+    "word": "meetings",
+    "chinese": "n. 会议, 集会, 会见（meeting的复数形式）",
+    "ipa": "ˈmitɪŋz",
+    "rank": 2029,
+    "level": "elementary"
+  },
+  {
+    "word": "seconds",
+    "chinese": "n. 次级品, 二等品",
+    "ipa": "ˈsɛkəndz",
+    "rank": 2030,
+    "level": "elementary"
+  },
+  {
+    "word": "jones",
+    "chinese": "n. 琼斯（姓氏）",
+    "ipa": "dʒәunz",
+    "rank": 2031,
+    "level": "elementary"
+  },
+  {
+    "word": "arizona",
+    "chinese": "n. 亚利桑那州",
+    "ipa": "æri'zәunә",
+    "rank": 2032,
+    "level": "elementary"
+  },
+  {
+    "word": "keyword",
+    "chinese": "[计] 关键字",
+    "ipa": "'ki:wәd",
+    "rank": 2033,
+    "level": "elementary"
+  },
+  {
+    "word": "interests",
+    "chinese": "n. 兴趣( interest的名词复数 ); 利益; 利息; 关注",
+    "ipa": "ˈintrists",
+    "rank": 2034,
+    "level": "elementary"
+  },
+  {
+    "word": "flight",
+    "chinese": "n. 飞行, 射程, 逃走, 飞跃, 飞机航程, 班机, 迁徙, 飞逝",
+    "ipa": "flait",
+    "rank": 2035,
+    "level": "elementary"
+  },
+  {
+    "word": "congress",
+    "chinese": "n. 国会, 会议, 讨论会",
+    "ipa": "'kɒŋgres",
+    "rank": 2036,
+    "level": "elementary"
+  },
+  {
+    "word": "fuel",
+    "chinese": "n. 燃料, 木炭",
+    "ipa": "'fjuәl",
+    "rank": 2037,
+    "level": "elementary"
+  },
+  {
+    "word": "username",
+    "chinese": "n. [计]由字母或数字组成的用户名称, 以标明用户的身份",
+    "ipa": "username",
+    "rank": 2038,
+    "level": "elementary"
+  },
+  {
+    "word": "walk",
+    "chinese": "n. 走, 散步, 步行, 行走的路程, 竞走, 散步场所",
+    "ipa": "wɒ:k",
+    "rank": 2039,
+    "level": "elementary"
+  },
+  {
+    "word": "fuck",
+    "chinese": "vt. 与...性交, 欺骗, 诅咒",
+    "ipa": "fʌk",
+    "rank": 2040,
+    "level": "elementary"
+  },
+  {
+    "word": "produced",
+    "chinese": "v. 创作",
+    "ipa": "prәu'dju:st",
+    "rank": 2041,
+    "level": "elementary"
+  },
+  {
+    "word": "italian",
+    "chinese": "n. 意大利人, 意大利语",
+    "ipa": "i'tæljәn",
+    "rank": 2042,
+    "level": "elementary"
+  },
+  {
+    "word": "paperback",
+    "chinese": "n. 平装本, 纸面本",
+    "ipa": "'peipәbæk",
+    "rank": 2043,
+    "level": "elementary"
+  },
+  {
+    "word": "classifieds",
+    "chinese": "n. 分类广告",
+    "ipa": "classifieds",
+    "rank": 2044,
+    "level": "elementary"
+  },
+  {
+    "word": "wait",
+    "chinese": "n. 等待, 等候",
+    "ipa": "weit",
+    "rank": 2045,
+    "level": "elementary"
+  },
+  {
+    "word": "supported",
+    "chinese": "n. 被支持的",
+    "ipa": "səˈpɔrtɪd",
+    "rank": 2046,
+    "level": "elementary"
+  },
+  {
+    "word": "pocket",
+    "chinese": "n. 口袋, 钱袋, 钱, 容器",
+    "ipa": "'pɒkit",
+    "rank": 2047,
+    "level": "elementary"
+  },
+  {
+    "word": "saint",
+    "chinese": "n. 圣徒, 圣人",
+    "ipa": "seint",
+    "rank": 2048,
+    "level": "elementary"
+  },
+  {
+    "word": "rose",
+    "chinese": "n. 玫瑰, 蔷薇, 玫瑰色",
+    "ipa": "rәuz",
+    "rank": 2049,
+    "level": "elementary"
+  },
+  {
+    "word": "freedom",
+    "chinese": "n. 自由, 坦率, 特权",
+    "ipa": "'fri:dәm",
+    "rank": 2050,
+    "level": "elementary"
+  },
+  {
+    "word": "argument",
+    "chinese": "n. 争论, 论证, 论据, 自变量",
+    "ipa": "'ɑ:gjumәnt",
+    "rank": 2051,
+    "level": "elementary"
+  },
+  {
+    "word": "competition",
+    "chinese": "n. 竞争, 竞赛",
+    "ipa": ".kɒmpi'tiʃәn",
+    "rank": 2052,
+    "level": "elementary"
+  },
+  {
+    "word": "creating",
+    "chinese": "[计] 生成的",
+    "ipa": "kriˈeɪtɪŋ",
+    "rank": 2053,
+    "level": "elementary"
+  },
+  {
+    "word": "jim",
+    "chinese": "n. 吉姆（人名）",
+    "ipa": "dʒim",
+    "rank": 2054,
+    "level": "elementary"
+  },
+  {
+    "word": "drugs",
+    "chinese": "n. 毒品, 药物",
+    "ipa": "drəgz",
+    "rank": 2055,
+    "level": "elementary"
+  },
+  {
+    "word": "joint",
+    "chinese": "n. 连接处, 接合, 关节",
+    "ipa": "dʒɒint",
+    "rank": 2056,
+    "level": "elementary"
+  },
+  {
+    "word": "premium",
+    "chinese": "n. 额外补贴, 奖金, 奖赏, 保险费",
+    "ipa": "'pri:miәm",
+    "rank": 2057,
+    "level": "elementary"
+  },
+  {
+    "word": "providers",
+    "chinese": "n. 供应者, 提供者, （尤指）维持家庭生计者( provider的复数形式 )",
+    "ipa": "prə'vaɪdəz",
+    "rank": 2058,
+    "level": "elementary"
+  },
+  {
+    "word": "fresh",
+    "chinese": "a. 新鲜的, 新奇的, 另外的, 淡的, 精神饱满的, 冒失的",
+    "ipa": "freʃ",
+    "rank": 2059,
+    "level": "elementary"
+  },
+  {
+    "word": "characters",
+    "chinese": "n. 特性",
+    "ipa": "ˈkɛrɪktərz",
+    "rank": 2060,
+    "level": "elementary"
+  },
+  {
+    "word": "attorney",
+    "chinese": "n. 代理人, 律师",
+    "ipa": "ә'tә:ni",
+    "rank": 2061,
+    "level": "elementary"
+  },
+  {
+    "word": "upgrade",
+    "chinese": "n. 上坡, 升级, 上升",
+    "ipa": "'ʌpgreid",
+    "rank": 2062,
+    "level": "elementary"
+  },
+  {
+    "word": "di",
+    "chinese": "[计] 数据输入, 数据项, 设备独立性, 双整数",
+    "ipa": "di",
+    "rank": 2063,
+    "level": "elementary"
+  },
+  {
+    "word": "factor",
+    "chinese": "n. 因素, 因数, 系数, 基因, 代理人",
+    "ipa": "'fæktә",
+    "rank": 2064,
+    "level": "elementary"
+  },
+  {
+    "word": "growing",
+    "chinese": "a. 成长的",
+    "ipa": "'grәuiŋ",
+    "rank": 2065,
+    "level": "elementary"
+  },
+  {
+    "word": "thousands",
+    "chinese": "n. 数千（thousand的复数）",
+    "ipa": "ˈθaʊzənz",
+    "rank": 2066,
+    "level": "elementary"
+  },
+  {
+    "word": "km",
+    "chinese": "[医] 千米, 公里",
+    "ipa": "km",
+    "rank": 2067,
+    "level": "elementary"
+  },
+  {
+    "word": "stream",
+    "chinese": "n. 水流, 小河, 流出, 趋势, 人潮",
+    "ipa": "stri:m",
+    "rank": 2068,
+    "level": "elementary"
+  },
+  {
+    "word": "apartments",
+    "chinese": "n. 公寓",
+    "ipa": "əˈpɑrtmənts",
+    "rank": 2069,
+    "level": "elementary"
+  },
+  {
+    "word": "pick",
+    "chinese": "n. 精选, 选择, 掘, 精华, 牙签, 鹤嘴锄",
+    "ipa": "pik",
+    "rank": 2070,
+    "level": "elementary"
+  },
+  {
+    "word": "hearing",
+    "chinese": "n. 听, 听觉, 听讯",
+    "ipa": "'hiәriŋ",
+    "rank": 2071,
+    "level": "elementary"
+  },
+  {
+    "word": "eastern",
+    "chinese": "n. 东方人, 东正教徒",
+    "ipa": "'i:stәn",
+    "rank": 2072,
+    "level": "elementary"
+  },
+  {
+    "word": "auctions",
+    "chinese": "v. 拍卖（auction的三单形式）",
+    "ipa": "ˈɔkʃənz",
+    "rank": 2073,
+    "level": "elementary"
+  },
+  {
+    "word": "therapy",
+    "chinese": "n. 治疗",
+    "ipa": "'θerәpi",
+    "rank": 2074,
+    "level": "elementary"
+  },
+  {
+    "word": "entries",
+    "chinese": "n. 进入",
+    "ipa": "ˈɛntriz",
+    "rank": 2075,
+    "level": "elementary"
+  },
+  {
+    "word": "dates",
+    "chinese": "n. 日期",
+    "ipa": "deɪts",
+    "rank": 2076,
+    "level": "elementary"
+  },
+  {
+    "word": "generated",
+    "chinese": "a. 生成的",
+    "ipa": "ˈʤɛnərˌeɪtɪd",
+    "rank": 2077,
+    "level": "elementary"
+  },
+  {
+    "word": "signed",
+    "chinese": "a. 有符号的",
+    "ipa": "saind",
+    "rank": 2078,
+    "level": "elementary"
+  },
+  {
+    "word": "upper",
+    "chinese": "a. 上面的, 较高的, 上级的, 上院的, 穿在外面的, 北部的, 地表的, 后期的",
+    "ipa": "'ʌpә",
+    "rank": 2079,
+    "level": "elementary"
+  },
+  {
+    "word": "administrative",
+    "chinese": "a. 管理的, 行政的",
+    "ipa": "әd'ministrәtiv",
+    "rank": 2080,
+    "level": "elementary"
+  },
+  {
+    "word": "serious",
+    "chinese": "a. 严肃的, 认真的, 重要的, 严重的",
+    "ipa": "'siәriәs",
+    "rank": 2081,
+    "level": "elementary"
+  },
+  {
+    "word": "prime",
+    "chinese": "n. 最佳部分, 初期, 全盛期",
+    "ipa": "praim",
+    "rank": 2082,
+    "level": "elementary"
+  },
+  {
+    "word": "samsung",
+    "chinese": "n. 三星电子（韩国电子公司）",
+    "ipa": "ˈsæmˌsəŋ",
+    "rank": 2083,
+    "level": "elementary"
+  },
+  {
+    "word": "limit",
+    "chinese": "n. 界限, 边界, 限度, 极限, 限制",
+    "ipa": "'limit",
+    "rank": 2084,
+    "level": "elementary"
+  },
+  {
+    "word": "began",
+    "chinese": "begin的过去式",
+    "ipa": "bi'gæn",
+    "rank": 2085,
+    "level": "elementary"
+  },
+  {
+    "word": "louis",
+    "chinese": "n. 路易斯（男子名）",
+    "ipa": "'lu(:)i, 'lu(:)is",
+    "rank": 2086,
+    "level": "elementary"
+  },
+  {
+    "word": "steps",
+    "chinese": "n. （楼外的）台阶",
+    "ipa": "stɛps",
+    "rank": 2087,
+    "level": "elementary"
+  },
+  {
+    "word": "errors",
+    "chinese": "n. 误差",
+    "ipa": "ˈɛrərz",
+    "rank": 2088,
+    "level": "elementary"
+  },
+  {
+    "word": "shops",
+    "chinese": "n. 商店",
+    "ipa": "ʃɑps",
+    "rank": 2089,
+    "level": "elementary"
+  },
+  {
+    "word": "bondage",
+    "chinese": "n. 奴役, 束缚",
+    "ipa": "'bɒndidʒ",
+    "rank": 2090,
+    "level": "elementary"
+  },
+  {
+    "word": "del",
+    "chinese": "[计] 数据输入语言, 作废; DOS内部命令:从磁盘上删除一个或多个文件",
+    "ipa": "del",
+    "rank": 2091,
+    "level": "elementary"
+  },
+  {
+    "word": "efforts",
+    "chinese": "n. 努力",
+    "ipa": "ˈɛfərts",
+    "rank": 2092,
+    "level": "elementary"
+  },
+  {
+    "word": "informed",
+    "chinese": "a. 见多识广的",
+    "ipa": "in'fɒ:md",
+    "rank": 2093,
+    "level": "elementary"
+  },
+  {
+    "word": "ga",
+    "chinese": "[医] 镓(31号元素)",
+    "ipa": "ˈʤɔrʤə",
+    "rank": 2094,
+    "level": "elementary"
+  },
+  {
+    "word": "ac",
+    "chinese": "公元前",
+    "ipa": "ˈeɪˈsi",
+    "rank": 2095,
+    "level": "elementary"
+  },
+  {
+    "word": "thoughts",
+    "chinese": "n. 思想",
+    "ipa": "θɔts",
+    "rank": 2096,
+    "level": "elementary"
+  },
+  {
+    "word": "creek",
+    "chinese": "n. 小溪, 小河, 小湾",
+    "ipa": "kri:k",
+    "rank": 2097,
+    "level": "elementary"
+  },
+  {
+    "word": "ft",
+    "chinese": "n. 英尺",
+    "ipa": "ft",
+    "rank": 2098,
+    "level": "elementary"
+  },
+  {
+    "word": "worked",
+    "chinese": "work的过去式和过去分词",
+    "ipa": "wә:kt",
+    "rank": 2099,
+    "level": "elementary"
+  },
+  {
+    "word": "quantity",
+    "chinese": "n. 量, 数量, 总量",
+    "ipa": "'kwɒntәti",
+    "rank": 2100,
+    "level": "elementary"
+  },
+  {
+    "word": "urban",
+    "chinese": "a. 都市的, 住在都市的, 习惯于都市的",
+    "ipa": "'ә:bәn",
+    "rank": 2101,
+    "level": "elementary"
+  },
+  {
+    "word": "practices",
+    "chinese": "n. 练习( practice的名词复数 ); 实践; （医生或律师的）业务; 惯例",
+    "ipa": "ˈpræktisiz",
+    "rank": 2102,
+    "level": "elementary"
+  },
+  {
+    "word": "sorted",
+    "chinese": "a. 分选的",
+    "ipa": "'sɔ:tid",
+    "rank": 2103,
+    "level": "elementary"
+  },
+  {
+    "word": "reporting",
+    "chinese": "n. 报道",
+    "ipa": "ri'pɒ:tiŋ",
+    "rank": 2104,
+    "level": "elementary"
+  },
+  {
+    "word": "essential",
+    "chinese": "n. 要素, 要点, 本质",
+    "ipa": "i'senʃәl",
+    "rank": 2105,
+    "level": "elementary"
+  },
+  {
+    "word": "myself",
+    "chinese": "pron. 我自己, 我亲自, 我独自",
+    "ipa": "mai'self",
+    "rank": 2106,
+    "level": "elementary"
+  },
+  {
+    "word": "tours",
+    "chinese": "n. 图尔斯（姓氏）",
+    "ipa": "tuәz",
+    "rank": 2107,
+    "level": "elementary"
+  },
+  {
+    "word": "platform",
+    "chinese": "n. 站台, 月台, 讲台, 论坛, 平台",
+    "ipa": "'plætfɒ:m",
+    "rank": 2108,
+    "level": "elementary"
+  },
+  {
+    "word": "load",
+    "chinese": "n. 负荷, 担子, 重担, 装载量, 负载, 工作量, 加载",
+    "ipa": "lәud",
+    "rank": 2109,
+    "level": "elementary"
+  },
+  {
+    "word": "affiliate",
+    "chinese": "vt. 使紧密联系, 使附属, 接纳, 收养",
+    "ipa": "ә'filieit",
+    "rank": 2110,
+    "level": "elementary"
+  },
+  {
+    "word": "labor",
+    "chinese": "n. 劳动, 努力, 工作, 劳工, 分娩",
+    "ipa": "'leibә",
+    "rank": 2111,
+    "level": "elementary"
+  },
+  {
+    "word": "immediately",
+    "chinese": "adv. 直接地, 立刻, 立即",
+    "ipa": "i'mi:diәtli",
+    "rank": 2112,
+    "level": "elementary"
+  },
+  {
+    "word": "admin",
+    "chinese": "[计] 行政管理程序",
+    "ipa": "ˈædmɪn",
+    "rank": 2113,
+    "level": "elementary"
+  },
+  {
+    "word": "nursing",
+    "chinese": "n. 看护, 养育",
+    "ipa": "'nә:siŋ",
+    "rank": 2114,
+    "level": "elementary"
+  },
+  {
+    "word": "defense",
+    "chinese": "n. 防卫, 防卫物",
+    "ipa": "di'fens",
+    "rank": 2115,
+    "level": "elementary"
+  },
+  {
+    "word": "machines",
+    "chinese": "n. 机器",
+    "ipa": "məˈʃinz",
+    "rank": 2116,
+    "level": "elementary"
+  },
+  {
+    "word": "designated",
+    "chinese": "a. 特指的",
+    "ipa": "'deziɡ.neitid",
+    "rank": 2117,
+    "level": "elementary"
+  },
+  {
+    "word": "tags",
+    "chinese": "n. 标签",
+    "ipa": "tægz",
+    "rank": 2118,
+    "level": "elementary"
+  },
+  {
+    "word": "heavy",
+    "chinese": "a. 重的, 巨大的, 沉重的, 笨重的, 过度的",
+    "ipa": "'hevi",
+    "rank": 2119,
+    "level": "elementary"
+  },
+  {
+    "word": "covered",
+    "chinese": "a. 隐蔽着的, 掩藏着的, 有屋顶的",
+    "ipa": "'kʌvәd",
+    "rank": 2120,
+    "level": "elementary"
+  },
+  {
+    "word": "recovery",
+    "chinese": "n. 恢复, 复原, 痊愈, 重获",
+    "ipa": "ri'kʌvәri",
+    "rank": 2121,
+    "level": "elementary"
+  },
+  {
+    "word": "joe",
+    "chinese": "n. 乔（男子名）",
+    "ipa": "dʒәu",
+    "rank": 2122,
+    "level": "elementary"
+  },
+  {
+    "word": "guys",
+    "chinese": "n. 各位, 朋友们",
+    "ipa": "gaɪz",
+    "rank": 2123,
+    "level": "elementary"
+  },
+  {
+    "word": "integrated",
+    "chinese": "a. 综合的, 完整的, 互相协调的",
+    "ipa": "'intәgreitid",
+    "rank": 2124,
+    "level": "elementary"
+  },
+  {
+    "word": "configuration",
+    "chinese": "n. 结构, 表面配置, 外形, 配置",
+    "ipa": "kәn.figju'reiʃәn",
+    "rank": 2125,
+    "level": "elementary"
+  },
+  {
+    "word": "cock",
+    "chinese": "n. 公鸡, 雄禽, 龙头, 头目, 锥形小干草堆",
+    "ipa": "kɒk",
+    "rank": 2126,
+    "level": "elementary"
+  },
+  {
+    "word": "merchant",
+    "chinese": "n. 商人, 店主",
+    "ipa": "'mә:tʃәnt",
+    "rank": 2127,
+    "level": "elementary"
+  },
+  {
+    "word": "comprehensive",
+    "chinese": "a. 广泛的, 有理解力的, 综合的",
+    "ipa": ".kɒmpri'hensiv",
+    "rank": 2128,
+    "level": "elementary"
+  },
+  {
+    "word": "expert",
+    "chinese": "n. 专家, 行家",
+    "ipa": "'ekspә:t",
+    "rank": 2129,
+    "level": "elementary"
+  },
+  {
+    "word": "universal",
+    "chinese": "a. 全世界的, 普遍的, 宇宙的, 通用的",
+    "ipa": ".ju:ni'vә:sl",
+    "rank": 2130,
+    "level": "elementary"
+  },
+  {
+    "word": "protect",
+    "chinese": "vt. 防卫, 保护, 警戒",
+    "ipa": "prә'tekt",
+    "rank": 2131,
+    "level": "elementary"
+  },
+  {
+    "word": "drop",
+    "chinese": "n. 滴, 微量, 落下, 空投",
+    "ipa": "drɒp",
+    "rank": 2132,
+    "level": "elementary"
+  },
+  {
+    "word": "solid",
+    "chinese": "n. 固体",
+    "ipa": "'sɒlid",
+    "rank": 2133,
+    "level": "elementary"
+  },
+  {
+    "word": "cds",
+    "chinese": "abbr. 中央动态存贮器（Central Dynamic Store）",
+    "ipa": "ˈsiˈdiz",
+    "rank": 2134,
+    "level": "elementary"
+  },
+  {
+    "word": "presentation",
+    "chinese": "n. 赠与, 描述, 介绍",
+    "ipa": ".prezәn'teiʃәn",
+    "rank": 2135,
+    "level": "elementary"
+  },
+  {
+    "word": "languages",
+    "chinese": "n. 语系, 语种",
+    "ipa": "ˈlæŋgwɪʤɪz",
+    "rank": 2136,
+    "level": "elementary"
+  },
+  {
+    "word": "became",
+    "chinese": "become的过去式",
+    "ipa": "bi'keim",
+    "rank": 2137,
+    "level": "elementary"
+  },
+  {
+    "word": "orange",
+    "chinese": "n. 柑橘, 桔子, 橘色",
+    "ipa": "'ɒ:rindʒ",
+    "rank": 2138,
+    "level": "elementary"
+  },
+  {
+    "word": "compliance",
+    "chinese": "n. 遵从, 顺从, 屈从",
+    "ipa": "kәm'plaiәns",
+    "rank": 2139,
+    "level": "elementary"
+  },
+  {
+    "word": "vehicles",
+    "chinese": "n. 交通工具",
+    "ipa": "ˈviɪkəlz",
+    "rank": 2140,
+    "level": "elementary"
+  },
+  {
+    "word": "prevent",
+    "chinese": "v. 预防, 防止, 阻止, 妨碍",
+    "ipa": "pri'vent",
+    "rank": 2141,
+    "level": "elementary"
+  },
+  {
+    "word": "theme",
+    "chinese": "n. 主题, 话题, 题目",
+    "ipa": "θi:m",
+    "rank": 2142,
+    "level": "elementary"
+  },
+  {
+    "word": "rich",
+    "chinese": "a. 富裕的, 富饶的, 浓厚的, 贵重的",
+    "ipa": "ri:tʃ",
+    "rank": 2143,
+    "level": "elementary"
+  },
+  {
+    "word": "im",
+    "chinese": "[计] 中断屏蔽, 指令存储器",
+    "ipa": "ɪm",
+    "rank": 2144,
+    "level": "elementary"
+  },
+  {
+    "word": "campaign",
+    "chinese": "n. 战役, 运动, 竞选运动",
+    "ipa": "kæm'pein",
+    "rank": 2145,
+    "level": "elementary"
+  },
+  {
+    "word": "marine",
+    "chinese": "n. 舰队, 水兵, 海景画",
+    "ipa": "mә'ri:n",
+    "rank": 2146,
+    "level": "elementary"
+  },
+  {
+    "word": "improvement",
+    "chinese": "n. 进步, 改善, 利用",
+    "ipa": "im'pru:vmәnt",
+    "rank": 2147,
+    "level": "elementary"
+  },
+  {
+    "word": "vs",
+    "chinese": "prep. 对",
+    "ipa": "ˈvərsəz",
+    "rank": 2148,
+    "level": "elementary"
+  },
+  {
+    "word": "guitar",
+    "chinese": "n. 吉他",
+    "ipa": "gi'tɑ:",
+    "rank": 2149,
+    "level": "elementary"
+  },
+  {
+    "word": "finding",
+    "chinese": "n. 发现, 发现物, 决定, 裁决",
+    "ipa": "'faindiŋ",
+    "rank": 2150,
+    "level": "elementary"
+  },
+  {
+    "word": "pennsylvania",
+    "chinese": "n. 宾夕法尼亚",
+    "ipa": ".pensil'veinjә",
+    "rank": 2151,
+    "level": "elementary"
+  },
+  {
+    "word": "examples",
+    "chinese": "n. 例子",
+    "ipa": "ɪgˈzæmpəlz",
+    "rank": 2152,
+    "level": "elementary"
+  },
+  {
+    "word": "ipod",
+    "chinese": "n. 苹果公司音乐播放器",
+    "ipa": "ˈaɪˌpɔd",
+    "rank": 2153,
+    "level": "elementary"
+  },
+  {
+    "word": "saying",
+    "chinese": "n. 叙述, 话, 说, 言论",
+    "ipa": "'seiiŋ",
+    "rank": 2154,
+    "level": "elementary"
+  },
+  {
+    "word": "spirit",
+    "chinese": "n. 精神, 心灵, 灵魂, 态度, 志气, 人格, 情绪, 心情, 烈酒",
+    "ipa": "'spirit",
+    "rank": 2155,
+    "level": "elementary"
+  },
+  {
+    "word": "ar",
+    "chinese": "[计] 应收款, 自动再启动, 辅助程式",
+    "ipa": "ɑr",
+    "rank": 2156,
+    "level": "elementary"
+  },
+  {
+    "word": "claims",
+    "chinese": "n. 权利要求",
+    "ipa": "kleɪmz",
+    "rank": 2157,
+    "level": "elementary"
+  },
+  {
+    "word": "porno",
+    "chinese": "n. 色情（书刊、电影等, 等于pornography）",
+    "ipa": "'pɔ:nәu",
+    "rank": 2158,
+    "level": "elementary"
+  },
+  {
+    "word": "challenge",
+    "chinese": "n. 挑战, 盘问",
+    "ipa": "'tʃælindʒ",
+    "rank": 2159,
+    "level": "elementary"
+  },
+  {
+    "word": "motorola",
+    "chinese": "n. 摩托罗拉（美国主营电子的公司）",
+    "ipa": "ˌmoʊtərˈoʊlə",
+    "rank": 2160,
+    "level": "elementary"
+  },
+  {
+    "word": "acceptance",
+    "chinese": "n. 接受, 接纳, 承认, 同意, 赞同, 容忍, 相信",
+    "ipa": "әk'septәns",
+    "rank": 2161,
+    "level": "elementary"
+  },
+  {
+    "word": "strategies",
+    "chinese": "n. 策略( strategy的复数形式 ); 战略; 战略学; 对策",
+    "ipa": "ˈstrætidʒiz",
+    "rank": 2162,
+    "level": "elementary"
+  },
+  {
+    "word": "mo",
+    "chinese": "n. 顷刻, 瞬间, 函购, 邮购, 军医, 军医主任, 汇票, 邮政汇票",
+    "ipa": "mәu",
+    "rank": 2163,
+    "level": "elementary"
+  },
+  {
+    "word": "seem",
+    "chinese": "vi. 象是, 似乎",
+    "ipa": "si:m",
+    "rank": 2164,
+    "level": "elementary"
+  },
+  {
+    "word": "affairs",
+    "chinese": "n. 事务, 事宜",
+    "ipa": "əˈfɛrz",
+    "rank": 2165,
+    "level": "elementary"
+  },
+  {
+    "word": "touch",
+    "chinese": "n. 触觉, 碰, 触, 机灵, 轻触, 格调, 少许, 缺点, 弹力",
+    "ipa": "tʌtʃ",
+    "rank": 2166,
+    "level": "elementary"
+  },
+  {
+    "word": "intended",
+    "chinese": "a. 有意的, 故意的",
+    "ipa": "in'tendid",
+    "rank": 2167,
+    "level": "elementary"
+  },
+  {
+    "word": "towards",
+    "chinese": "prep. 向, 对于, 为了",
+    "ipa": "tә'wɔ:dz",
+    "rank": 2168,
+    "level": "elementary"
+  },
+  {
+    "word": "sa",
+    "chinese": "救世军, 南非, 南美, 南澳大利亚, 性的魅力, 性感",
+    "ipa": "sɑ",
+    "rank": 2169,
+    "level": "elementary"
+  },
+  {
+    "word": "goals",
+    "chinese": "n. 目标, 目的",
+    "ipa": "goʊlz",
+    "rank": 2170,
+    "level": "elementary"
+  },
+  {
+    "word": "hire",
+    "chinese": "n. 租金, 租用, 雇用",
+    "ipa": "haiә",
+    "rank": 2171,
+    "level": "elementary"
+  },
+  {
+    "word": "election",
+    "chinese": "n. 选举, 当选, 选择权",
+    "ipa": "i'lekʃәn",
+    "rank": 2172,
+    "level": "elementary"
+  },
+  {
+    "word": "suggest",
+    "chinese": "vt. 提议, 建议, 促成, 暗示, 启发, 使人想起",
+    "ipa": "sәg'dʒest",
+    "rank": 2173,
+    "level": "elementary"
+  },
+  {
+    "word": "branch",
+    "chinese": "n. 树枝, 支店, 支流, 分部",
+    "ipa": "bræntʃ",
+    "rank": 2174,
+    "level": "elementary"
+  },
+  {
+    "word": "charges",
+    "chinese": "n. 费用",
+    "ipa": "ˈʧɑrʤɪz",
+    "rank": 2175,
+    "level": "elementary"
+  },
+  {
+    "word": "serve",
+    "chinese": "vt. 可作...用, 服务, 经历, 招待, 供应, 送交, 对待",
+    "ipa": "sә:v",
+    "rank": 2176,
+    "level": "elementary"
+  },
+  {
+    "word": "affiliates",
+    "chinese": "n. 附属企业( affiliate的名词复数 )",
+    "ipa": "əˈfilieits",
+    "rank": 2177,
+    "level": "elementary"
+  },
+  {
+    "word": "reasons",
+    "chinese": "n. 理由",
+    "ipa": "ˈrizənz",
+    "rank": 2178,
+    "level": "elementary"
+  },
+  {
+    "word": "magic",
+    "chinese": "n. 魔术, 魔法",
+    "ipa": "'mædʒik",
+    "rank": 2179,
+    "level": "elementary"
+  },
+  {
+    "word": "mount",
+    "chinese": "n. 乘骑用马, 框, 衬纸, 山",
+    "ipa": "maunt",
+    "rank": 2180,
+    "level": "elementary"
+  },
+  {
+    "word": "smart",
+    "chinese": "a. 聪明的, 漂亮的, 刺痛的, 剧烈的, 敏捷的, 巧妙的, 伶俐的, 潇洒的",
+    "ipa": "smɑ:t",
+    "rank": 2181,
+    "level": "elementary"
+  },
+  {
+    "word": "talking",
+    "chinese": "a. 说话的, 多嘴的, 富有表情的",
+    "ipa": "'tɒ:kiŋ",
+    "rank": 2182,
+    "level": "elementary"
+  },
+  {
+    "word": "gave",
+    "chinese": "give的过去式",
+    "ipa": "geiv",
+    "rank": 2183,
+    "level": "elementary"
+  },
+  {
+    "word": "ones",
+    "chinese": "n. 刻录软件",
+    "ipa": "wənz",
+    "rank": 2184,
+    "level": "elementary"
+  },
+  {
+    "word": "latin",
+    "chinese": "n. 拉丁人, 拉丁语",
+    "ipa": "'lætin",
+    "rank": 2185,
+    "level": "elementary"
+  },
+  {
+    "word": "multimedia",
+    "chinese": "n. 多媒体",
+    "ipa": ".mʌlti'mi:diә",
+    "rank": 2186,
+    "level": "elementary"
+  },
+  {
+    "word": "xp",
+    "chinese": "abbr. 加快费已付（Express Paid）",
+    "ipa": "xp",
+    "rank": 2187,
+    "level": "elementary"
+  },
+  {
+    "word": "tits",
+    "chinese": "n. 以牙还牙( tit的复数形式 ); <古>小马; 山雀; 奶头",
+    "ipa": "'tɪts",
+    "rank": 2188,
+    "level": "elementary"
+  },
+  {
+    "word": "avoid",
+    "chinese": "vt. 避免, 防止, 撤消",
+    "ipa": "ә'vɒid",
+    "rank": 2189,
+    "level": "elementary"
+  },
+  {
+    "word": "certified",
+    "chinese": "a. 证明合格的",
+    "ipa": "'sә:tifaid",
+    "rank": 2190,
+    "level": "elementary"
+  },
+  {
+    "word": "manage",
+    "chinese": "vi. 处理",
+    "ipa": "'mænidʒ",
+    "rank": 2191,
+    "level": "elementary"
+  },
+  {
+    "word": "corner",
+    "chinese": "n. 角落, 转角, 窘境",
+    "ipa": "'kɒ:nә",
+    "rank": 2192,
+    "level": "elementary"
+  },
+  {
+    "word": "rank",
+    "chinese": "n. 等级, 排, 横列, 队伍, 阶级",
+    "ipa": "ræŋk",
+    "rank": 2193,
+    "level": "elementary"
+  },
+  {
+    "word": "computing",
+    "chinese": "[计] 计算",
+    "ipa": "kәm'pju:tiŋ",
+    "rank": 2194,
+    "level": "elementary"
+  },
+  {
+    "word": "oregon",
+    "chinese": "n. 俄勒冈",
+    "ipa": "'ɒ:rigɒn",
+    "rank": 2195,
+    "level": "elementary"
+  },
+  {
+    "word": "element",
+    "chinese": "n. 元件, 元素, 要素",
+    "ipa": "'elimәnt",
+    "rank": 2196,
+    "level": "elementary"
+  },
+  {
+    "word": "birth",
+    "chinese": "n. 出生, 起源",
+    "ipa": "bә:θ",
+    "rank": 2197,
+    "level": "elementary"
+  },
+  {
+    "word": "virus",
+    "chinese": "n. 病毒, 滤过性病毒, 毒害",
+    "ipa": "'vaiәrәs",
+    "rank": 2198,
+    "level": "elementary"
+  },
+  {
+    "word": "abuse",
+    "chinese": "n. 滥用, 虐待, 恶习, 辱骂",
+    "ipa": "ә'bju:s.ә'bju:z",
+    "rank": 2199,
+    "level": "elementary"
+  },
+  {
+    "word": "interactive",
+    "chinese": "a. 相互作用的, 相互影响的",
+    "ipa": ",intәr'æktiv",
+    "rank": 2200,
+    "level": "elementary"
+  },
+  {
+    "word": "requests",
+    "chinese": "n. 要求( request的名词复数 ); 需要; 所请求的事物; 申请书",
+    "ipa": "riˈkwests",
+    "rank": 2201,
+    "level": "elementary"
+  },
+  {
+    "word": "separate",
+    "chinese": "n. 独立件, 抽印本",
+    "ipa": "'sepәreit",
+    "rank": 2202,
+    "level": "elementary"
+  },
+  {
+    "word": "quarter",
+    "chinese": "n. 四分之一, 一刻钟, 季度, 地区",
+    "ipa": "'kwɒ:tә",
+    "rank": 2203,
+    "level": "elementary"
+  },
+  {
+    "word": "procedure",
+    "chinese": "n. 程序, 过程, 手续",
+    "ipa": "prә'si:dʒә",
+    "rank": 2204,
+    "level": "elementary"
+  },
+  {
+    "word": "leadership",
+    "chinese": "n. 领导能力, 领导阶层",
+    "ipa": "'li:dәʃip",
+    "rank": 2205,
+    "level": "elementary"
+  },
+  {
+    "word": "tables",
+    "chinese": "n. 桌子",
+    "ipa": "ˈteɪbəlz",
+    "rank": 2206,
+    "level": "elementary"
+  },
+  {
+    "word": "define",
+    "chinese": "vt. 定义, 规定, 使明确",
+    "ipa": "di'fain",
+    "rank": 2207,
+    "level": "elementary"
+  },
+  {
+    "word": "racing",
+    "chinese": "n. 赛马, 赛车",
+    "ipa": "'reisiŋ",
+    "rank": 2208,
+    "level": "elementary"
+  },
+  {
+    "word": "religious",
+    "chinese": "a. 宗教性的, 虔诚的, 宗教上的, 严谨的",
+    "ipa": "ri'lidʒәs",
+    "rank": 2209,
+    "level": "elementary"
+  },
+  {
+    "word": "facts",
+    "chinese": "abbr. 设备管理控制与时间调度程序",
+    "ipa": "fækts",
+    "rank": 2210,
+    "level": "elementary"
+  },
+  {
+    "word": "breakfast",
+    "chinese": "n. 早餐",
+    "ipa": "'brekfәst",
+    "rank": 2211,
+    "level": "elementary"
+  },
+  {
+    "word": "kong",
+    "chinese": "n. 含锡砾石下的无矿基岩",
+    "ipa": "kɔŋ",
+    "rank": 2212,
+    "level": "elementary"
+  },
+  {
+    "word": "column",
+    "chinese": "n. 专栏, 圆柱, 纵队, 列, 柱形物",
+    "ipa": "'kɒlәm",
+    "rank": 2213,
+    "level": "elementary"
+  },
+  {
+    "word": "plants",
+    "chinese": "n. 植物",
+    "ipa": "plænts",
+    "rank": 2214,
+    "level": "elementary"
+  },
+  {
+    "word": "faith",
+    "chinese": "n. 信心, 信任, 忠实, 保证",
+    "ipa": "feiθ",
+    "rank": 2215,
+    "level": "elementary"
+  },
+  {
+    "word": "chain",
+    "chinese": "n. 链, 枷锁, 束缚",
+    "ipa": "tʃein",
+    "rank": 2216,
+    "level": "elementary"
+  },
+  {
+    "word": "developer",
+    "chinese": "n. 开发者",
+    "ipa": "di'velәpә",
+    "rank": 2217,
+    "level": "elementary"
+  },
+  {
+    "word": "identify",
+    "chinese": "vt. 识别, 认为...等同于, 确定, 使参与",
+    "ipa": "ai'dentifai",
+    "rank": 2218,
+    "level": "elementary"
+  },
+  {
+    "word": "avenue",
+    "chinese": "n. 大街, 途径, 林荫路",
+    "ipa": "'ævәnju:",
+    "rank": 2219,
+    "level": "elementary"
+  },
+  {
+    "word": "missing",
+    "chinese": "a. 不见的, 缺少的",
+    "ipa": "'misiŋ",
+    "rank": 2220,
+    "level": "elementary"
+  },
+  {
+    "word": "died",
+    "chinese": "v. 死亡, 消逝（die的过去式和过去分词）",
+    "ipa": "daɪd",
+    "rank": 2221,
+    "level": "elementary"
+  },
+  {
+    "word": "approximately",
+    "chinese": "adv. 大约, 大致, 近于",
+    "ipa": "ә'prɒksimәtli",
+    "rank": 2222,
+    "level": "elementary"
+  },
+  {
+    "word": "domestic",
+    "chinese": "a. 家庭的, 国内的, 驯养的",
+    "ipa": "dәu'mestik",
+    "rank": 2223,
+    "level": "elementary"
+  },
+  {
+    "word": "sitemap",
+    "chinese": "站点地图",
+    "ipa": "sitemap",
+    "rank": 2224,
+    "level": "elementary"
+  },
+  {
+    "word": "recommendations",
+    "chinese": "n. 推荐( recommendation的复数形式 ); 推荐信; 正式建议; 提议",
+    "ipa": "ˌrekəmenˈdeiʃənz",
+    "rank": 2225,
+    "level": "elementary"
+  },
+  {
+    "word": "moved",
+    "chinese": "v. 移动, 移动到",
+    "ipa": "muvd",
+    "rank": 2226,
+    "level": "elementary"
+  },
+  {
+    "word": "houston",
+    "chinese": "n. 休斯敦",
+    "ipa": "'hju:stәn",
+    "rank": 2227,
+    "level": "elementary"
+  },
+  {
+    "word": "reach",
+    "chinese": "n. 伸出, 延伸, 区域, 范围, 流域, 岬",
+    "ipa": "ri:tʃ",
+    "rank": 2228,
+    "level": "elementary"
+  },
+  {
+    "word": "comparison",
+    "chinese": "n. 比较, 对照, 比喻",
+    "ipa": "kәm'pærisn",
+    "rank": 2229,
+    "level": "elementary"
+  },
+  {
+    "word": "mental",
+    "chinese": "a. 心智的, 精神病的, 心理的, 颏的",
+    "ipa": "'mentl",
+    "rank": 2230,
+    "level": "elementary"
+  },
+  {
+    "word": "viewed",
+    "chinese": "vt. 看（view的过去式与过去分词形式）",
+    "ipa": "vju:d",
+    "rank": 2231,
+    "level": "elementary"
+  },
+  {
+    "word": "moment",
+    "chinese": "n. 片刻, 瞬间, 重要, 阶段, 力矩",
+    "ipa": "'mәumәnt",
+    "rank": 2232,
+    "level": "elementary"
+  },
+  {
+    "word": "extended",
+    "chinese": "a. 延续的, 伸出的, 竭尽全力的, 广大的, 扩大范围的",
+    "ipa": "ik'stendid",
+    "rank": 2233,
+    "level": "elementary"
+  },
+  {
+    "word": "sequence",
+    "chinese": "n. 序列, 续发事件, 顺序, 连续",
+    "ipa": "'si:kwәns",
+    "rank": 2234,
+    "level": "elementary"
+  },
+  {
+    "word": "inch",
+    "chinese": "n. 英寸, 身高, 小岛",
+    "ipa": "intʃ",
+    "rank": 2235,
+    "level": "elementary"
+  },
+  {
+    "word": "attack",
+    "chinese": "n. 攻击, 抨击",
+    "ipa": "ә'tæk",
+    "rank": 2236,
+    "level": "elementary"
+  },
+  {
+    "word": "sorry",
+    "chinese": "a. 难过的, 悲哀的, 遗憾的",
+    "ipa": "'sɒri",
+    "rank": 2237,
+    "level": "elementary"
+  },
+  {
+    "word": "centers",
+    "chinese": "n. 中心, 中央（center的复数形式）",
+    "ipa": "ˈsɛnərz",
+    "rank": 2238,
+    "level": "elementary"
+  },
+  {
+    "word": "opening",
+    "chinese": "n. 开始, 口子, 穴, 揭幕",
+    "ipa": "'әupәniŋ",
+    "rank": 2239,
+    "level": "elementary"
+  },
+  {
+    "word": "damage",
+    "chinese": "n. 损害, 伤害",
+    "ipa": "'dæmidʒ",
+    "rank": 2240,
+    "level": "elementary"
+  },
+  {
+    "word": "lab",
+    "chinese": "n. 实验室, 研究室",
+    "ipa": "læb",
+    "rank": 2241,
+    "level": "elementary"
+  },
+  {
+    "word": "reserve",
+    "chinese": "n. 储备品, 贮量, 后备军, 自然保护区, 保留, 拘谨, 节制, 储备金",
+    "ipa": "ri'zә:v",
+    "rank": 2242,
+    "level": "elementary"
+  },
+  {
+    "word": "recipes",
+    "chinese": "n. 烹饪法( recipe的名词复数 ); 食谱; 方法; 秘诀",
+    "ipa": "'resəpɪz",
+    "rank": 2243,
+    "level": "elementary"
+  },
+  {
+    "word": "cvs",
+    "chinese": "abbr. 计算机并行版本系统（Concurrent Version System）",
+    "ipa": "cvs",
+    "rank": 2244,
+    "level": "elementary"
+  },
+  {
+    "word": "gamma",
+    "chinese": "n. 希腊语的第三个字母(Γ,γ)",
+    "ipa": "'^æmә",
+    "rank": 2245,
+    "level": "elementary"
+  },
+  {
+    "word": "plastic",
+    "chinese": "n. 塑料, 可塑体, 可塑性物质",
+    "ipa": "'plæstik",
+    "rank": 2246,
+    "level": "elementary"
+  },
+  {
+    "word": "produce",
+    "chinese": "n. 生产品, 物产, 后代",
+    "ipa": "prә'dju:s",
+    "rank": 2247,
+    "level": "elementary"
+  },
+  {
+    "word": "snow",
+    "chinese": "n. 雪, 积雪, 下雪, 雪花形干扰",
+    "ipa": "snәu",
+    "rank": 2248,
+    "level": "elementary"
+  },
+  {
+    "word": "placed",
+    "chinese": "v. 放置（place的过去分词形式）",
+    "ipa": "'pleist",
+    "rank": 2249,
+    "level": "elementary"
+  },
+  {
+    "word": "truth",
+    "chinese": "n. 事实, 实情",
+    "ipa": "tru:θ",
+    "rank": 2250,
+    "level": "elementary"
+  },
+  {
+    "word": "counter",
+    "chinese": "n. 计算器, 计算者, 柜台, 筹码",
+    "ipa": "'kauntә",
+    "rank": 2251,
+    "level": "elementary"
+  },
+  {
+    "word": "failure",
+    "chinese": "n. 失败, 失败者, 不足, 缺乏, 破产",
+    "ipa": "'feiljә",
+    "rank": 2252,
+    "level": "elementary"
+  },
+  {
+    "word": "follows",
+    "chinese": "n. 跟随",
+    "ipa": "ˈfɑloʊz",
+    "rank": 2253,
+    "level": "elementary"
+  },
+  {
+    "word": "eu",
+    "chinese": "[化] 富集铀; 浓缩铀",
+    "ipa": "eu",
+    "rank": 2254,
+    "level": "elementary"
+  },
+  {
+    "word": "weekend",
+    "chinese": "n. 周末, 周末休假",
+    "ipa": "'wi:kend",
+    "rank": 2255,
+    "level": "elementary"
+  },
+  {
+    "word": "dollar",
+    "chinese": "n. 美元, 元(加、澳等国货币单位)",
+    "ipa": "'dɒlә",
+    "rank": 2256,
+    "level": "elementary"
+  },
+  {
+    "word": "camp",
+    "chinese": "n. 露营, 帐篷",
+    "ipa": "kæmp",
+    "rank": 2257,
+    "level": "elementary"
+  },
+  {
+    "word": "ontario",
+    "chinese": "n. 安大略湖（北美五大湖之一）",
+    "ipa": "ɔn'teәriәu",
+    "rank": 2258,
+    "level": "elementary"
+  },
+  {
+    "word": "automatically",
+    "chinese": "adv. 自动地, 机械地",
+    "ipa": ".ɒ:tә'mætikli",
+    "rank": 2259,
+    "level": "elementary"
+  },
+  {
+    "word": "des",
+    "chinese": "[计] 数据加密标准, 数据输入系统, 显示编辑系统",
+    "ipa": "dɪ",
+    "rank": 2260,
+    "level": "elementary"
+  },
+  {
+    "word": "minnesota",
+    "chinese": "n. 明尼苏达州",
+    "ipa": ".mini'sәutә",
+    "rank": 2261,
+    "level": "elementary"
+  },
+  {
+    "word": "films",
+    "chinese": "n. 电影",
+    "ipa": "fɪlmz",
+    "rank": 2262,
+    "level": "elementary"
+  },
+  {
+    "word": "bridge",
+    "chinese": "n. 桥, 舰桥, 桥梁, 桥牌",
+    "ipa": "bridʒ",
+    "rank": 2263,
+    "level": "elementary"
+  },
+  {
+    "word": "native",
+    "chinese": "n. 本地人, 土产, 当地人",
+    "ipa": "'neitiv",
+    "rank": 2264,
+    "level": "elementary"
+  },
+  {
+    "word": "fill",
+    "chinese": "vt. 装满, 填充, 弥漫, 供给, 满足, 供应",
+    "ipa": "fil",
+    "rank": 2265,
+    "level": "elementary"
+  },
+  {
+    "word": "williams",
+    "chinese": "n. 威廉姆斯（男子名）",
+    "ipa": "'wiljәmz",
+    "rank": 2266,
+    "level": "elementary"
+  },
+  {
+    "word": "movement",
+    "chinese": "n. 运动, 动作, 运转, 移动, 倾向, 变化, 活动, 乐章",
+    "ipa": "'mu:vmәnt",
+    "rank": 2267,
+    "level": "elementary"
+  },
+  {
+    "word": "printing",
+    "chinese": "n. 印刷, 印刷术, 印花",
+    "ipa": "'printiŋ",
+    "rank": 2268,
+    "level": "elementary"
+  },
+  {
+    "word": "baseball",
+    "chinese": "n. 棒球",
+    "ipa": "'beisbɒ:l",
+    "rank": 2269,
+    "level": "elementary"
+  },
+  {
+    "word": "owned",
+    "chinese": "v. 拥有",
+    "ipa": "oʊnd",
+    "rank": 2270,
+    "level": "elementary"
+  },
+  {
+    "word": "approval",
+    "chinese": "n. 赞成, 批准",
+    "ipa": "ә'pru:vl",
+    "rank": 2271,
+    "level": "elementary"
+  },
+  {
+    "word": "draft",
+    "chinese": "n. 气流, 草稿, 汇票, 草案",
+    "ipa": "dræft. drɑ:ft",
+    "rank": 2272,
+    "level": "elementary"
+  },
+  {
+    "word": "chart",
+    "chinese": "n. 图表, 海图",
+    "ipa": "tʃɑ:t",
+    "rank": 2273,
+    "level": "elementary"
+  },
+  {
+    "word": "played",
+    "chinese": "v. 玩耍",
+    "ipa": "pleɪd",
+    "rank": 2274,
+    "level": "elementary"
+  },
+  {
+    "word": "contacts",
+    "chinese": "n. 联系人",
+    "ipa": "ˈkɑnˌtækts",
+    "rank": 2275,
+    "level": "elementary"
+  },
+  {
+    "word": "cc",
+    "chinese": "复写本",
+    "ipa": "ˈsiˈsi",
+    "rank": 2276,
+    "level": "elementary"
+  },
+  {
+    "word": "jesus",
+    "chinese": "n. 耶稣",
+    "ipa": "'dʒi:zәs",
+    "rank": 2277,
+    "level": "elementary"
+  },
+  {
+    "word": "readers",
+    "chinese": "n. 读者, 读物（reader的复数形式）",
+    "ipa": "ˈridərz",
+    "rank": 2278,
+    "level": "elementary"
+  },
+  {
+    "word": "clubs",
+    "chinese": "n. （扑克牌）梅花",
+    "ipa": "kləbz",
+    "rank": 2279,
+    "level": "elementary"
+  },
+  {
+    "word": "lcd",
+    "chinese": "液晶显示器",
+    "ipa": "lcd",
+    "rank": 2280,
+    "level": "elementary"
+  },
+  {
+    "word": "wa",
+    "chinese": "abbr. 华盛顿州（Washington State）",
+    "ipa": "wɑ",
+    "rank": 2281,
+    "level": "elementary"
+  },
+  {
+    "word": "jackson",
+    "chinese": "n. 杰克逊（男子名）",
+    "ipa": "'dʒæksn",
+    "rank": 2282,
+    "level": "elementary"
+  },
+  {
+    "word": "equal",
+    "chinese": "n. 对手, 匹敌, 同辈",
+    "ipa": "'i:kwәl",
+    "rank": 2283,
+    "level": "elementary"
+  },
+  {
+    "word": "adventure",
+    "chinese": "n. 冒险, 冒险经历",
+    "ipa": "әd'ventʃә",
+    "rank": 2284,
+    "level": "elementary"
+  },
+  {
+    "word": "matching",
+    "chinese": "a. 相同的, 协调的",
+    "ipa": "'mætʃiŋ",
+    "rank": 2285,
+    "level": "elementary"
+  },
+  {
+    "word": "offering",
+    "chinese": "n. 提供, 奉献物, 牲礼, 上市的股票(或证券等)",
+    "ipa": "'ɒfәriŋ",
+    "rank": 2286,
+    "level": "elementary"
+  },
+  {
+    "word": "shirts",
+    "chinese": "n. 衬衫（shirt的复数形式）",
+    "ipa": "ʃərts",
+    "rank": 2287,
+    "level": "elementary"
+  },
+  {
+    "word": "profit",
+    "chinese": "n. 利润, 赢利, 利益",
+    "ipa": "'prɒfit",
+    "rank": 2288,
+    "level": "elementary"
+  },
+  {
+    "word": "leaders",
+    "chinese": "n. 指挥",
+    "ipa": "ˈlidərz",
+    "rank": 2289,
+    "level": "elementary"
+  },
+  {
+    "word": "posters",
+    "chinese": "n. 招贴, 海报( poster的复数形式 ); 印成的大幅画",
+    "ipa": "'pəʊstəz",
+    "rank": 2290,
+    "level": "elementary"
+  },
+  {
+    "word": "institutions",
+    "chinese": "n. 体系",
+    "ipa": "ˌɪnstɪˈtuʃənz",
+    "rank": 2291,
+    "level": "elementary"
+  },
+  {
+    "word": "assistant",
+    "chinese": "n. 助手, 助理, 助教",
+    "ipa": "ә'sistәnt",
+    "rank": 2292,
+    "level": "elementary"
+  },
+  {
+    "word": "variable",
+    "chinese": "n. 易变的事物, 变数, 可变物, 变量",
+    "ipa": "'vєәriәbl",
+    "rank": 2293,
+    "level": "elementary"
+  },
+  {
+    "word": "ave",
+    "chinese": "n. 大街, 途径, 林荫大道",
+    "ipa": "'ævi",
+    "rank": 2294,
+    "level": "elementary"
+  },
+  {
+    "word": "dj",
+    "chinese": "n. 唱片流行音乐节目播音员, 唱片骑师",
+    "ipa": "dj",
+    "rank": 2295,
+    "level": "elementary"
+  },
+  {
+    "word": "advertisement",
+    "chinese": "n. 广告, 启事, 广告宣传",
+    "ipa": ".ædvә'taizmәnt",
+    "rank": 2296,
+    "level": "elementary"
+  },
+  {
+    "word": "expect",
+    "chinese": "vt. 预期, 盼望, 期待",
+    "ipa": "iks'pekt",
+    "rank": 2297,
+    "level": "elementary"
+  },
+  {
+    "word": "parking",
+    "chinese": "n. 停车",
+    "ipa": "'pɑ:kiŋ",
+    "rank": 2298,
+    "level": "elementary"
+  },
+  {
+    "word": "headlines",
+    "chinese": "n. 大字标题( headline的名词复数 ); 新闻提要",
+    "ipa": "ˈhedlainz",
+    "rank": 2299,
+    "level": "elementary"
+  },
+  {
+    "word": "yesterday",
+    "chinese": "n. 昨天",
+    "ipa": "'jestәdi",
+    "rank": 2300,
+    "level": "elementary"
+  },
+  {
+    "word": "compared",
+    "chinese": "a. 比较的, 对照的（compare的过去式和过去分词）",
+    "ipa": "kəmˈpɛrd",
+    "rank": 2301,
+    "level": "elementary"
+  },
+  {
+    "word": "determined",
+    "chinese": "a. 坚决的, 已下决心的",
+    "ipa": "di'tә:mind",
+    "rank": 2302,
+    "level": "elementary"
+  },
+  {
+    "word": "wholesale",
+    "chinese": "n. 批发",
+    "ipa": "'hәulseil",
+    "rank": 2303,
+    "level": "elementary"
+  },
+  {
+    "word": "workshop",
+    "chinese": "n. 工场, 车间, 研讨会",
+    "ipa": "'wә:kʃɒp",
+    "rank": 2304,
+    "level": "elementary"
+  },
+  {
+    "word": "russia",
+    "chinese": "n. 俄国, 俄罗斯",
+    "ipa": "'rʌʃә",
+    "rank": 2305,
+    "level": "elementary"
+  },
+  {
+    "word": "gone",
+    "chinese": "a. 离去的, 死去的, 用完的",
+    "ipa": "gɒn",
+    "rank": 2306,
+    "level": "elementary"
+  },
+  {
+    "word": "codes",
+    "chinese": "n. 编码, 代码",
+    "ipa": "koʊdz",
+    "rank": 2307,
+    "level": "elementary"
+  },
+  {
+    "word": "kinds",
+    "chinese": "n. 种类（kind的复数形式）",
+    "ipa": "kaɪnz",
+    "rank": 2308,
+    "level": "elementary"
+  },
+  {
+    "word": "extension",
+    "chinese": "n. 延长, 扩充, 范围, 扩展名",
+    "ipa": "ik'stenʃәn",
+    "rank": 2309,
+    "level": "elementary"
+  },
+  {
+    "word": "seattle",
+    "chinese": "n. 西雅图",
+    "ipa": "si'ætl",
+    "rank": 2310,
+    "level": "elementary"
+  },
+  {
+    "word": "statements",
+    "chinese": "n. 声明",
+    "ipa": "ˈsteɪtmənts",
+    "rank": 2311,
+    "level": "elementary"
+  },
+  {
+    "word": "golden",
+    "chinese": "a. 金的, 含金的, 金色的, 贵重的, 繁盛的",
+    "ipa": "'gәuldn",
+    "rank": 2312,
+    "level": "elementary"
+  },
+  {
+    "word": "completely",
+    "chinese": "adv. 完全地, 十分地, 圆满地",
+    "ipa": "kәm'pli:tli",
+    "rank": 2313,
+    "level": "elementary"
+  },
+  {
+    "word": "teams",
+    "chinese": "n. 团队, 参赛队伍（team的复数形式）",
+    "ipa": "timz",
+    "rank": 2314,
+    "level": "elementary"
+  },
+  {
+    "word": "fort",
+    "chinese": "n. 堡垒, 要塞, 易货站",
+    "ipa": "fɒ:t",
+    "rank": 2315,
+    "level": "elementary"
+  },
+  {
+    "word": "cm",
+    "chinese": "[计] 厘米, 中央存储器, 通信多路转换器, 控制标志, 磁心存储器",
+    "ipa": "cm",
+    "rank": 2316,
+    "level": "elementary"
+  },
+  {
+    "word": "wi",
+    "chinese": "abbr. 熟铁（Wrought Iron）",
+    "ipa": "wi",
+    "rank": 2317,
+    "level": "elementary"
+  },
+  {
+    "word": "lighting",
+    "chinese": "n. 照明, 照明设备, 舞台灯光",
+    "ipa": "'laitiŋ",
+    "rank": 2318,
+    "level": "elementary"
+  },
+  {
+    "word": "senate",
+    "chinese": "n. 参议院, 立法机构, 评议会",
+    "ipa": "'senit",
+    "rank": 2319,
+    "level": "elementary"
+  },
+  {
+    "word": "forces",
+    "chinese": "n. 势力",
+    "ipa": "ˈfɔrsɪz",
+    "rank": 2320,
+    "level": "elementary"
+  },
+  {
+    "word": "funny",
+    "chinese": "a. 好笑的, 有趣的, 滑稽的",
+    "ipa": "'fʌni",
+    "rank": 2321,
+    "level": "elementary"
+  },
+  {
+    "word": "brother",
+    "chinese": "n. 兄弟",
+    "ipa": "'brʌðә",
+    "rank": 2322,
+    "level": "elementary"
+  },
+  {
+    "word": "gene",
+    "chinese": "n. 基因",
+    "ipa": "dʒi:n",
+    "rank": 2323,
+    "level": "elementary"
+  },
+  {
+    "word": "turned",
+    "chinese": "a. 变质的",
+    "ipa": "tərnd",
+    "rank": 2324,
+    "level": "elementary"
+  },
+  {
+    "word": "portable",
+    "chinese": "a. 可携带的, 可搬运的, 可移动的",
+    "ipa": "'pɒ:tәbl",
+    "rank": 2325,
+    "level": "elementary"
+  },
+  {
+    "word": "tried",
+    "chinese": "a. 试验过的, 可靠的",
+    "ipa": "traid",
+    "rank": 2326,
+    "level": "elementary"
+  },
+  {
+    "word": "electrical",
+    "chinese": "a. 电的, 有关电的",
+    "ipa": "i'lektrikәl",
+    "rank": 2327,
+    "level": "elementary"
+  },
+  {
+    "word": "applicable",
+    "chinese": "a. 合适的, 可应用的",
+    "ipa": "'æplikәbl",
+    "rank": 2328,
+    "level": "elementary"
+  },
+  {
+    "word": "disc",
+    "chinese": "n. 圆盘, 唱片",
+    "ipa": "disk",
+    "rank": 2329,
+    "level": "elementary"
+  },
+  {
+    "word": "returned",
+    "chinese": "a. 被送回的, 归来的",
+    "ipa": "ri'tә:nd",
+    "rank": 2330,
+    "level": "elementary"
+  },
+  {
+    "word": "pattern",
+    "chinese": "n. 模范, 典型, 式样, 样品, 图案, 格调, 模式",
+    "ipa": "'pætәn",
+    "rank": 2331,
+    "level": "elementary"
+  },
+  {
+    "word": "ct",
+    "chinese": "计算机断层扫描",
+    "ipa": "kɔrt",
+    "rank": 2332,
+    "level": "elementary"
+  },
+  {
+    "word": "hentai",
+    "chinese": "无尽的",
+    "ipa": "hentai",
+    "rank": 2333,
+    "level": "elementary"
+  },
+  {
+    "word": "boat",
+    "chinese": "n. 船",
+    "ipa": "bәut",
+    "rank": 2334,
+    "level": "elementary"
+  },
+  {
+    "word": "named",
+    "chinese": "a. 被指名的, 指定的",
+    "ipa": "neimd",
+    "rank": 2335,
+    "level": "elementary"
+  },
+  {
+    "word": "theatre",
+    "chinese": "n. 戏院, 电影院, 剧场, 全体观众, 戏剧, 戏剧效果, 阶梯式讲堂, 场所",
+    "ipa": "ˈθiətər",
+    "rank": 2336,
+    "level": "elementary"
+  },
+  {
+    "word": "laser",
+    "chinese": "n. 激光",
+    "ipa": "'leizә",
+    "rank": 2337,
+    "level": "elementary"
+  },
+  {
+    "word": "earlier",
+    "chinese": "a. 早的",
+    "ipa": "ˈərliər",
+    "rank": 2338,
+    "level": "elementary"
+  },
+  {
+    "word": "manufacturers",
+    "chinese": "n. 制造商",
+    "ipa": "ˌmænjəˈfækʧərərz",
+    "rank": 2339,
+    "level": "elementary"
+  },
+  {
+    "word": "sponsor",
+    "chinese": "n. 保证人, 赞助者, 发起者, 倡议者, 教父",
+    "ipa": "'spɒnsә",
+    "rank": 2340,
+    "level": "elementary"
+  },
+  {
+    "word": "classical",
+    "chinese": "a. 古典的, 正统派的, 经典的",
+    "ipa": "'klæsikl",
+    "rank": 2341,
+    "level": "elementary"
+  },
+  {
+    "word": "icon",
+    "chinese": "n. 画像, 肖像, 偶像, 图标, 像标",
+    "ipa": "'aikɒn",
+    "rank": 2342,
+    "level": "elementary"
+  },
+  {
+    "word": "warranty",
+    "chinese": "n. 正当理由, 授权, 担保, 保证, 根据",
+    "ipa": "'wɒ:rәnti",
+    "rank": 2343,
+    "level": "elementary"
+  },
+  {
+    "word": "dedicated",
+    "chinese": "a. 专注的, 献身的",
+    "ipa": "'dedikeitid",
+    "rank": 2344,
+    "level": "elementary"
+  },
+  {
+    "word": "indiana",
+    "chinese": "n. 印地安那州",
+    "ipa": ".indi'ænә",
+    "rank": 2345,
+    "level": "elementary"
+  },
+  {
+    "word": "direction",
+    "chinese": "n. 方向, 指导, 趋势",
+    "ipa": "di'rekʃәn",
+    "rank": 2346,
+    "level": "elementary"
+  },
+  {
+    "word": "harry",
+    "chinese": "vt. 掠夺, 使苦恼, 强使前行, 折磨, 骚扰",
+    "ipa": "'hæri",
+    "rank": 2347,
+    "level": "elementary"
+  },
+  {
+    "word": "basketball",
+    "chinese": "n. 篮球",
+    "ipa": "'bɑ:skitbɒ:l",
+    "rank": 2348,
+    "level": "elementary"
+  },
+  {
+    "word": "objects",
+    "chinese": "n. 目标",
+    "ipa": "ˈɑbʤɛkts",
+    "rank": 2349,
+    "level": "elementary"
+  },
+  {
+    "word": "ends",
+    "chinese": "n. 目的",
+    "ipa": "ɛndz",
+    "rank": 2350,
+    "level": "elementary"
+  },
+  {
+    "word": "delete",
+    "chinese": "vt. 删除",
+    "ipa": "di'li:t",
+    "rank": 2351,
+    "level": "elementary"
+  },
+  {
+    "word": "evening",
+    "chinese": "n. 傍晚, 晚间, 末期",
+    "ipa": "'i:vniŋ",
+    "rank": 2352,
+    "level": "elementary"
+  },
+  {
+    "word": "assembly",
+    "chinese": "n. 与会者, 集会, 装配, 组件",
+    "ipa": "ә'sembli",
+    "rank": 2353,
+    "level": "elementary"
+  },
+  {
+    "word": "nuclear",
+    "chinese": "a. 核子的, 原子能的, 核的, 中心的",
+    "ipa": "'nju:kliә",
+    "rank": 2354,
+    "level": "elementary"
+  },
+  {
+    "word": "taxes",
+    "chinese": "n. 税务",
+    "ipa": "tæksi:z",
+    "rank": 2355,
+    "level": "elementary"
+  },
+  {
+    "word": "mouse",
+    "chinese": "n. 老鼠, 胆小羞怯的人, 鼠标",
+    "ipa": "maus",
+    "rank": 2356,
+    "level": "elementary"
+  },
+  {
+    "word": "signal",
+    "chinese": "n. 信号, 暗号, 近因, 导火线",
+    "ipa": "'signl",
+    "rank": 2357,
+    "level": "elementary"
+  },
+  {
+    "word": "criminal",
+    "chinese": "n. 罪犯, 犯人, 刑事",
+    "ipa": "'kriminәl",
+    "rank": 2358,
+    "level": "elementary"
+  },
+  {
+    "word": "issued",
+    "chinese": "v. 发布, 发行（issue的过去分词形式）",
+    "ipa": "ˈɪʃud",
+    "rank": 2359,
+    "level": "elementary"
+  },
+  {
+    "word": "brain",
+    "chinese": "n. 脑",
+    "ipa": "brein",
+    "rank": 2360,
+    "level": "elementary"
+  },
+  {
+    "word": "sexual",
+    "chinese": "a. 性的, 性别的",
+    "ipa": "'sekʃuәl",
+    "rank": 2361,
+    "level": "elementary"
+  },
+  {
+    "word": "wisconsin",
+    "chinese": "n. 威斯康星",
+    "ipa": "wis'kɒnsin",
+    "rank": 2362,
+    "level": "elementary"
+  },
+  {
+    "word": "powerful",
+    "chinese": "a. 有力的, 有权力的, 强大的",
+    "ipa": "'pauәful",
+    "rank": 2363,
+    "level": "elementary"
+  },
+  {
+    "word": "dream",
+    "chinese": "n. 梦, 空想, 愿望",
+    "ipa": "dri:m",
+    "rank": 2364,
+    "level": "elementary"
+  },
+  {
+    "word": "obtained",
+    "chinese": "v. 获得（obtain的过去分词）",
+    "ipa": "əbˈteɪnd",
+    "rank": 2365,
+    "level": "elementary"
+  },
+  {
+    "word": "false",
+    "chinese": "a. 错误的, 虚伪的, 假的, 不老实的",
+    "ipa": "fɒ:ls",
+    "rank": 2366,
+    "level": "elementary"
+  },
+  {
+    "word": "da",
+    "chinese": "美国地方检察官",
+    "ipa": ",di:'ei",
+    "rank": 2367,
+    "level": "elementary"
+  },
+  {
+    "word": "cast",
+    "chinese": "n. 演员阵容, 投掷, 铸件, 预测, 特性",
+    "ipa": "kɑ:st. kæst",
+    "rank": 2368,
+    "level": "elementary"
+  },
+  {
+    "word": "flower",
+    "chinese": "n. 花, 开花植物, 精华, 盛时",
+    "ipa": "'flauә",
+    "rank": 2369,
+    "level": "elementary"
+  },
+  {
+    "word": "felt",
+    "chinese": "n. 毛毯, 毡",
+    "ipa": "felt",
+    "rank": 2370,
+    "level": "elementary"
+  },
+  {
+    "word": "personnel",
+    "chinese": "n. 人员, 人事部门, 人事科(处)",
+    "ipa": ".pә:sә'nel",
+    "rank": 2371,
+    "level": "elementary"
+  },
+  {
+    "word": "passed",
+    "chinese": "a. 已被传递的",
+    "ipa": "pɑ:st",
+    "rank": 2372,
+    "level": "elementary"
+  },
+  {
+    "word": "supplied",
+    "chinese": "a. 有...提供的",
+    "ipa": "səˈplaɪd",
+    "rank": 2373,
+    "level": "elementary"
+  },
+  {
+    "word": "identified",
+    "chinese": "a. 被认同者",
+    "ipa": "aɪˈdɛntəˌfaɪd",
+    "rank": 2374,
+    "level": "elementary"
+  },
+  {
+    "word": "falls",
+    "chinese": "n. 瀑布",
+    "ipa": "fɔ:ls",
+    "rank": 2375,
+    "level": "elementary"
+  },
+  {
+    "word": "pic",
+    "chinese": "n. 照片, 图片, 影片",
+    "ipa": "pik",
+    "rank": 2376,
+    "level": "elementary"
+  },
+  {
+    "word": "soul",
+    "chinese": "n. 灵魂, 心灵, 精神, 精髓, 人, 化身, 典型, 鬼魂",
+    "ipa": "sәul",
+    "rank": 2377,
+    "level": "elementary"
+  },
+  {
+    "word": "aids",
+    "chinese": "n. 爱滋病(获得性免疫缺陷综合征)",
+    "ipa": "eidz",
+    "rank": 2378,
+    "level": "elementary"
+  },
+  {
+    "word": "opinions",
+    "chinese": "n. 意见",
+    "ipa": "əˈpɪnjənz",
+    "rank": 2379,
+    "level": "elementary"
+  },
+  {
+    "word": "promote",
+    "chinese": "vt. 促进, 晋升, 创办, 推销",
+    "ipa": "prәu'mәut",
+    "rank": 2380,
+    "level": "elementary"
+  },
+  {
+    "word": "stated",
+    "chinese": "a. 决定了的, 一定的, 阐明的, 规定的",
+    "ipa": "'steitid",
+    "rank": 2381,
+    "level": "elementary"
+  },
+  {
+    "word": "stats",
+    "chinese": "abbr. [军]静止坦克自动目标系统（Stationary Tank Automatic Target System）",
+    "ipa": "stæts",
+    "rank": 2382,
+    "level": "elementary"
+  },
+  {
+    "word": "hawaii",
+    "chinese": "n. 夏威夷州, 夏威夷岛",
+    "ipa": "hә'waii:",
+    "rank": 2383,
+    "level": "elementary"
+  },
+  {
+    "word": "professionals",
+    "chinese": "n. 专业人员（professional的复数）",
+    "ipa": "prəˈfɛʃənəlz",
+    "rank": 2384,
+    "level": "elementary"
+  },
+  {
+    "word": "appears",
+    "chinese": "v. 出现",
+    "ipa": "əˈpɪrz",
+    "rank": 2385,
+    "level": "elementary"
+  },
+  {
+    "word": "carry",
+    "chinese": "n. 进位, 射程, 运载",
+    "ipa": "'kæri",
+    "rank": 2386,
+    "level": "elementary"
+  },
+  {
+    "word": "flag",
+    "chinese": "n. 标志, 旗标, 旗子, 信号旗, 菖蒲",
+    "ipa": "flæg",
+    "rank": 2387,
+    "level": "elementary"
+  },
+  {
+    "word": "decided",
+    "chinese": "a. 确定的, 坚决的",
+    "ipa": "di'saidid",
+    "rank": 2388,
+    "level": "elementary"
+  },
+  {
+    "word": "nj",
+    "chinese": "abbr. 新泽西（New Jersey）",
+    "ipa": "nj",
+    "rank": 2389,
+    "level": "elementary"
+  },
+  {
+    "word": "covers",
+    "chinese": "n. 覆盖",
+    "ipa": "ˈkəvərz",
+    "rank": 2390,
+    "level": "elementary"
+  },
+  {
+    "word": "hr",
+    "chinese": "[经] 小时",
+    "ipa": "hr",
+    "rank": 2391,
+    "level": "elementary"
+  },
+  {
+    "word": "em",
+    "chinese": "[计] 媒体用毕符",
+    "ipa": "em",
+    "rank": 2392,
+    "level": "elementary"
+  },
+  {
+    "word": "advantage",
+    "chinese": "n. 优点, 便利, 好处, 优势",
+    "ipa": "әd'vɑ:ntidʒ",
+    "rank": 2393,
+    "level": "elementary"
+  },
+  {
+    "word": "hello",
+    "chinese": "interj. 喂, 嘿",
+    "ipa": "hә'lәu",
+    "rank": 2394,
+    "level": "elementary"
+  },
+  {
+    "word": "designs",
+    "chinese": "n. 阴谋, 诡计",
+    "ipa": "dɪˈzaɪnz",
+    "rank": 2395,
+    "level": "elementary"
+  },
+  {
+    "word": "maintain",
+    "chinese": "vt. 维持, 维修, 保持, 坚持, 供养, 主张",
+    "ipa": "mein'tein",
+    "rank": 2396,
+    "level": "elementary"
+  },
+  {
+    "word": "tourism",
+    "chinese": "n. 观光业, 游览",
+    "ipa": "'tuәrizm",
+    "rank": 2397,
+    "level": "elementary"
+  },
+  {
+    "word": "priority",
+    "chinese": "n. 优先权, 优先",
+    "ipa": "prai'ɒriti",
+    "rank": 2398,
+    "level": "elementary"
+  },
+  {
+    "word": "newsletters",
+    "chinese": "n. 时事通讯(newsletter的复数",
+    "ipa": "ˈnu:zˌletəz",
+    "rank": 2399,
+    "level": "elementary"
+  },
+  {
+    "word": "adults",
+    "chinese": "n. 成年人（adult的复数形式）",
+    "ipa": "ˈædəlts",
+    "rank": 2400,
+    "level": "elementary"
+  },
+  {
+    "word": "clips",
+    "chinese": "n. 夹子",
+    "ipa": "klɪps",
+    "rank": 2401,
+    "level": "elementary"
+  },
+  {
+    "word": "savings",
+    "chinese": "n. 储蓄, 存款",
+    "ipa": "'seiviŋz",
+    "rank": 2402,
+    "level": "elementary"
+  },
+  {
+    "word": "iv",
+    "chinese": "abbr. 输入阀",
+    "ipa": "iv",
+    "rank": 2403,
+    "level": "elementary"
+  },
+  {
+    "word": "graphic",
+    "chinese": "a. 生动的, 轮廓分明的, 绘画似的, 图解的",
+    "ipa": "'græfik",
+    "rank": 2404,
+    "level": "elementary"
+  },
+  {
+    "word": "atom",
+    "chinese": "n. 原子, 核能, 微粒, 微量",
+    "ipa": "'ætәm",
+    "rank": 2405,
+    "level": "elementary"
+  },
+  {
+    "word": "payments",
+    "chinese": "n. 惩罚",
+    "ipa": "ˈpeɪmənts",
+    "rank": 2406,
+    "level": "elementary"
+  },
+  {
+    "word": "rw",
+    "chinese": "abbr. 卢旺达（Rwanda）",
+    "ipa": "rw",
+    "rank": 2407,
+    "level": "elementary"
+  },
+  {
+    "word": "estimated",
+    "chinese": "a. 估算的",
+    "ipa": "ˈɛstəˌmeɪtɪd",
+    "rank": 2408,
+    "level": "elementary"
+  },
+  {
+    "word": "binding",
+    "chinese": "n. 装订",
+    "ipa": "'baindiŋ",
+    "rank": 2409,
+    "level": "elementary"
+  },
+  {
+    "word": "brief",
+    "chinese": "n. 摘要, 简报",
+    "ipa": "bri:f",
+    "rank": 2410,
+    "level": "elementary"
+  },
+  {
+    "word": "ended",
+    "chinese": "a. 结束的（end的过去分词）",
+    "ipa": "ˈɛndɪd",
+    "rank": 2411,
+    "level": "elementary"
+  },
+  {
+    "word": "winning",
+    "chinese": "n. 胜利, 获得, 成功, 赢得物",
+    "ipa": "'winiŋ",
+    "rank": 2412,
+    "level": "elementary"
+  },
+  {
+    "word": "eight",
+    "chinese": "num. 八, 八个",
+    "ipa": "eit",
+    "rank": 2413,
+    "level": "elementary"
+  },
+  {
+    "word": "anonymous",
+    "chinese": "a. 姓氏不详的, 无名的, 无特色的",
+    "ipa": "ә'nɒnimәs",
+    "rank": 2414,
+    "level": "elementary"
+  },
+  {
+    "word": "iron",
+    "chinese": "n. 铁, 熨斗, 铁器, 坚强, 烙铁, 镣铐",
+    "ipa": "'aiәn",
+    "rank": 2415,
+    "level": "elementary"
+  },
+  {
+    "word": "straight",
+    "chinese": "n. 直线, 直",
+    "ipa": "streit",
+    "rank": 2416,
+    "level": "elementary"
+  },
+  {
+    "word": "script",
+    "chinese": "n. 手迹, 手稿, 正本, 手写体",
+    "ipa": "skript",
+    "rank": 2417,
+    "level": "elementary"
+  },
+  {
+    "word": "served",
+    "chinese": "v. 招待",
+    "ipa": "sərvd",
+    "rank": 2418,
+    "level": "elementary"
+  },
+  {
+    "word": "wants",
+    "chinese": "n. 需求, 欲望, 必需品",
+    "ipa": "wɔnts",
+    "rank": 2419,
+    "level": "elementary"
+  },
+  {
+    "word": "miscellaneous",
+    "chinese": "a. 各种的, 多方面的",
+    "ipa": ".misә'leinjәs",
+    "rank": 2420,
+    "level": "elementary"
+  },
+  {
+    "word": "prepared",
+    "chinese": "a. 准备好的, 特制的",
+    "ipa": "pri'pєәd",
+    "rank": 2421,
+    "level": "elementary"
+  },
+  {
+    "word": "void",
+    "chinese": "n. 空虚, 空间, 空白, 空隙, 空虚感",
+    "ipa": "vɒid",
+    "rank": 2422,
+    "level": "elementary"
+  },
+  {
+    "word": "dining",
+    "chinese": "n. 正餐, 宴会",
+    "ipa": "'dainiŋ",
+    "rank": 2423,
+    "level": "elementary"
+  },
+  {
+    "word": "alert",
+    "chinese": "a. 警觉的, 灵敏的, 留心的",
+    "ipa": "ә'lә:t",
+    "rank": 2424,
+    "level": "elementary"
+  },
+  {
+    "word": "integration",
+    "chinese": "n. 综合, 与环境协调的行为, 集成",
+    "ipa": ".inti'greiʃәn",
+    "rank": 2425,
+    "level": "elementary"
+  },
+  {
+    "word": "atlanta",
+    "chinese": "n. 亚特兰大（美国城市）",
+    "ipa": "әt'læntә",
+    "rank": 2426,
+    "level": "elementary"
+  },
+  {
+    "word": "dakota",
+    "chinese": "n. 达科他（美国过去一地区名, 现分为南、北达科他州）",
+    "ipa": "dә'kәutә",
+    "rank": 2427,
+    "level": "elementary"
+  },
+  {
+    "word": "tag",
+    "chinese": "n. 标签, 附属物, 碎片, 结束语, 口头禅, 附加语, 浑名, 标记, 标记符",
+    "ipa": "tæg",
+    "rank": 2428,
+    "level": "elementary"
+  },
+  {
+    "word": "interview",
+    "chinese": "n. 面谈, 访问, 接见, 面试",
+    "ipa": "'intәvju:",
+    "rank": 2429,
+    "level": "elementary"
+  },
+  {
+    "word": "mix",
+    "chinese": "n. 混合物, 混乱, 糊涂",
+    "ipa": "miks",
+    "rank": 2430,
+    "level": "elementary"
+  },
+  {
+    "word": "framework",
+    "chinese": "n. 结构, 骨架, 参照标准, 准则, 观点",
+    "ipa": "'freimwә:k",
+    "rank": 2431,
+    "level": "elementary"
+  },
+  {
+    "word": "disk",
+    "chinese": "n. 圆盘, 磁盘",
+    "ipa": "disk",
+    "rank": 2432,
+    "level": "elementary"
+  },
+  {
+    "word": "installed",
+    "chinese": "a. 安装的",
+    "ipa": "ˌɪnˈstɔld",
+    "rank": 2433,
+    "level": "elementary"
+  },
+  {
+    "word": "queen",
+    "chinese": "n. 王后, 女王",
+    "ipa": "'kwi:n",
+    "rank": 2434,
+    "level": "elementary"
+  },
+  {
+    "word": "vhs",
+    "chinese": "abbr. 家用录像系统（Video Home System）",
+    "ipa": "vhs",
+    "rank": 2435,
+    "level": "elementary"
+  },
+  {
+    "word": "credits",
+    "chinese": "n. 演职员名单",
+    "ipa": "'kredits",
+    "rank": 2436,
+    "level": "elementary"
+  },
+  {
+    "word": "clearly",
+    "chinese": "adv. 清楚地",
+    "ipa": "'kliәli",
+    "rank": 2437,
+    "level": "elementary"
+  },
+  {
+    "word": "fix",
+    "chinese": "vt. 使固定, 修理, 准备, 安装, 凝视, 牢记, 确定, 整理",
+    "ipa": "fiks",
+    "rank": 2438,
+    "level": "elementary"
+  },
+  {
+    "word": "handle",
+    "chinese": "n. 柄, 把手, 把柄, 柄状物, 手感",
+    "ipa": "hændl",
+    "rank": 2439,
+    "level": "elementary"
+  },
+  {
+    "word": "sweet",
+    "chinese": "n. 甜蜜, 糖果, 情人",
+    "ipa": "swi:t",
+    "rank": 2440,
+    "level": "elementary"
+  },
+  {
+    "word": "desk",
+    "chinese": "n. 书桌, 办公桌, 工作台",
+    "ipa": "desk",
+    "rank": 2441,
+    "level": "elementary"
+  },
+  {
+    "word": "criteria",
+    "chinese": "pl. 标准",
+    "ipa": "krai'tiәriә",
+    "rank": 2442,
+    "level": "elementary"
+  },
+  {
+    "word": "pubmed",
+    "chinese": "出版医学",
+    "ipa": "pubmed",
+    "rank": 2443,
+    "level": "elementary"
+  },
+  {
+    "word": "dave",
+    "chinese": "n. 戴夫（男子名）",
+    "ipa": "deiv",
+    "rank": 2444,
+    "level": "elementary"
+  },
+  {
+    "word": "massachusetts",
+    "chinese": "n. 麻萨诸塞州",
+    "ipa": ".mæsә'tʃu:sits",
+    "rank": 2445,
+    "level": "elementary"
+  },
+  {
+    "word": "diego",
+    "chinese": "n. 迭戈（男子名）",
+    "ipa": "diˈeɪgoʊ",
+    "rank": 2446,
+    "level": "elementary"
+  },
+  {
+    "word": "hong",
+    "chinese": "n. （中国、日本的）行, 商行",
+    "ipa": "hɔŋ",
+    "rank": 2447,
+    "level": "elementary"
+  },
+  {
+    "word": "vice",
+    "chinese": "n. 恶习, 恶行, 罪恶, 堕落, 缺陷, 恶癖, 老虎钳",
+    "ipa": "vais",
+    "rank": 2448,
+    "level": "elementary"
+  },
+  {
+    "word": "associate",
+    "chinese": "n. 同伴, 伙伴, 关联的事物",
+    "ipa": "ә'sәuʃieit",
+    "rank": 2449,
+    "level": "elementary"
+  },
+  {
+    "word": "ne",
+    "chinese": "a. 原姓...的, 原名...的",
+    "ipa": "nei",
+    "rank": 2450,
+    "level": "elementary"
+  },
+  {
+    "word": "truck",
+    "chinese": "n. 卡车, 货车, 对...进行交易, 来往, 实物工资, (供应市场的)蔬菜, 废物, 废话",
+    "ipa": "trʌk",
+    "rank": 2451,
+    "level": "elementary"
+  },
+  {
+    "word": "behavior",
+    "chinese": "n. 行为, 举止",
+    "ipa": "bi'heivjә",
+    "rank": 2452,
+    "level": "elementary"
+  },
+  {
+    "word": "enlarge",
+    "chinese": "vt. 扩大, 增大",
+    "ipa": "in'lɑ:dʒ",
+    "rank": 2453,
+    "level": "elementary"
+  },
+  {
+    "word": "ray",
+    "chinese": "n. 光线, 射线, 闪烁, 光辉",
+    "ipa": "rei",
+    "rank": 2454,
+    "level": "elementary"
+  },
+  {
+    "word": "frequently",
+    "chinese": "adv. 频繁, 经常地",
+    "ipa": "'fri:kwәntli",
+    "rank": 2455,
+    "level": "elementary"
+  },
+  {
+    "word": "revenue",
+    "chinese": "n. 收入, 岁入, 税收, 税务局",
+    "ipa": "'revinju:",
+    "rank": 2456,
+    "level": "elementary"
+  },
+  {
+    "word": "measure",
+    "chinese": "n. 尺寸, 量度器, 量度标准, 测量, 量具, 程度, 范围, 限度, 分寸, 措施, 方法",
+    "ipa": "'meʒә",
+    "rank": 2457,
+    "level": "elementary"
+  },
+  {
+    "word": "changing",
+    "chinese": "v. 交换",
+    "ipa": "'tʃeindʒiŋ",
+    "rank": 2458,
+    "level": "elementary"
+  },
+  {
+    "word": "votes",
+    "chinese": "v. 投票",
+    "ipa": "voʊts",
+    "rank": 2459,
+    "level": "elementary"
+  },
+  {
+    "word": "du",
+    "chinese": "[计] 定义使用",
+    "ipa": "də",
+    "rank": 2460,
+    "level": "elementary"
+  },
+  {
+    "word": "duty",
+    "chinese": "n. 责任, 关税, 职务, 尊敬",
+    "ipa": "'dju:ti",
+    "rank": 2461,
+    "level": "elementary"
+  },
+  {
+    "word": "looked",
+    "chinese": "v. 看, 瞧( look的过去式和过去分词 ); 注意; 面向; 寻找",
+    "ipa": "lʊkt",
+    "rank": 2462,
+    "level": "elementary"
+  },
+  {
+    "word": "discussions",
+    "chinese": "n. 讨论( discussion的复数形式 ); 商讨; 详述; 论述",
+    "ipa": "dɪs'kʌʃnz",
+    "rank": 2463,
+    "level": "elementary"
+  },
+  {
+    "word": "bear",
+    "chinese": "n. 熊",
+    "ipa": "bєә",
+    "rank": 2464,
+    "level": "elementary"
+  },
+  {
+    "word": "gain",
+    "chinese": "n. 增益, 获得, 利润, 收获, 增加",
+    "ipa": "gein",
+    "rank": 2465,
+    "level": "elementary"
+  },
+  {
+    "word": "festival",
+    "chinese": "a. 节日的, 喜庆的, 快乐的",
+    "ipa": "'festәvәl",
+    "rank": 2466,
+    "level": "elementary"
+  },
+  {
+    "word": "laboratory",
+    "chinese": "n. 实验室, 研究室, 化工厂",
+    "ipa": "'læbrәtәri",
+    "rank": 2467,
+    "level": "elementary"
+  },
+  {
+    "word": "ocean",
+    "chinese": "n. 海洋, 广阔, 许多, 一大片",
+    "ipa": "'әuʃәn",
+    "rank": 2468,
+    "level": "elementary"
+  },
+  {
+    "word": "flights",
+    "chinese": "n. （物体的）飞行( flight的名词复数 ); 航班; 飞翔; 楼梯的一段",
+    "ipa": "flaits",
+    "rank": 2469,
+    "level": "elementary"
+  },
+  {
+    "word": "experts",
+    "chinese": "n. 专家",
+    "ipa": "ˈɛkspərts",
+    "rank": 2470,
+    "level": "elementary"
+  },
+  {
+    "word": "signs",
+    "chinese": "n. 标志",
+    "ipa": "saɪnz",
+    "rank": 2471,
+    "level": "elementary"
+  },
+  {
+    "word": "lack",
+    "chinese": "n. 缺乏, 无, 不足",
+    "ipa": "læk",
+    "rank": 2472,
+    "level": "elementary"
+  },
+  {
+    "word": "depth",
+    "chinese": "n. 深度, 深处, 深奥",
+    "ipa": "depθ",
+    "rank": 2473,
+    "level": "elementary"
+  },
+  {
+    "word": "iowa",
+    "chinese": "n. 衣阿华州",
+    "ipa": "'aiәwә",
+    "rank": 2474,
+    "level": "elementary"
+  },
+  {
+    "word": "whatever",
+    "chinese": "pron. 无论什么",
+    "ipa": "hwɒt'evә",
+    "rank": 2475,
+    "level": "elementary"
+  },
+  {
+    "word": "logged",
+    "chinese": "a. 笨重的, 湿透的",
+    "ipa": "lɒgd",
+    "rank": 2476,
+    "level": "elementary"
+  },
+  {
+    "word": "laptop",
+    "chinese": "[计] 膝上型的",
+    "ipa": "ˈlæpˌtɑp",
+    "rank": 2477,
+    "level": "elementary"
+  },
+  {
+    "word": "vintage",
+    "chinese": "n. 酒, 葡萄收获(期、量), 酿酒",
+    "ipa": "'vintidʒ",
+    "rank": 2478,
+    "level": "elementary"
+  },
+  {
+    "word": "train",
+    "chinese": "n. 火车, 列车, 行列, 长队, 一连串的后果, 顺序",
+    "ipa": "trein",
+    "rank": 2479,
+    "level": "elementary"
+  },
+  {
+    "word": "exactly",
+    "chinese": "adv. 确切地, 精确地, 恰好, 完全地, 确实, 恰恰正是, 确实如此",
+    "ipa": "i^'zæktli",
+    "rank": 2480,
+    "level": "elementary"
+  },
+  {
+    "word": "dry",
+    "chinese": "a. 干的, 无酒的, 枯燥无味的, 干燥的",
+    "ipa": "drai",
+    "rank": 2481,
+    "level": "elementary"
+  },
+  {
+    "word": "explore",
+    "chinese": "v. 探险, 探测, 探究",
+    "ipa": "ik'splɒ:",
+    "rank": 2482,
+    "level": "elementary"
+  },
+  {
+    "word": "maryland",
+    "chinese": "n. 马里兰州",
+    "ipa": "'merilәnd",
+    "rank": 2483,
+    "level": "elementary"
+  },
+  {
+    "word": "spa",
+    "chinese": "n. 矿泉, 温泉浴场, 矿泉治疗地",
+    "ipa": "spɑ:",
+    "rank": 2484,
+    "level": "elementary"
+  },
+  {
+    "word": "concept",
+    "chinese": "n. 观念, 概念",
+    "ipa": "'kɒnsept",
+    "rank": 2485,
+    "level": "elementary"
+  },
+  {
+    "word": "nearly",
+    "chinese": "adv. 几乎, 密切地",
+    "ipa": "'niәli",
+    "rank": 2486,
+    "level": "elementary"
+  },
+  {
+    "word": "eligible",
+    "chinese": "a. 有资格当选的, 合格的",
+    "ipa": "'elidʒәbl",
+    "rank": 2487,
+    "level": "elementary"
+  },
+  {
+    "word": "checkout",
+    "chinese": "n. 结帐台",
+    "ipa": "'tʃekaut",
+    "rank": 2488,
+    "level": "elementary"
+  },
+  {
+    "word": "reality",
+    "chinese": "n. 实在, 事实, 实体, 逼真",
+    "ipa": "ri'æliti",
+    "rank": 2489,
+    "level": "elementary"
+  },
+  {
+    "word": "forgot",
+    "chinese": "forget的过去式和过去分词",
+    "ipa": "fә'gɒt",
+    "rank": 2490,
+    "level": "elementary"
+  },
+  {
+    "word": "handling",
+    "chinese": "n. 处理",
+    "ipa": "'hændliŋ",
+    "rank": 2491,
+    "level": "elementary"
+  },
+  {
+    "word": "origin",
+    "chinese": "n. 起源, 起因, 出身, 开端",
+    "ipa": "'ɒridʒin",
+    "rank": 2492,
+    "level": "elementary"
+  },
+  {
+    "word": "knew",
+    "chinese": "know的过去式",
+    "ipa": "nju:",
+    "rank": 2493,
+    "level": "elementary"
+  },
+  {
+    "word": "gaming",
+    "chinese": "n. 赌博, 赌胜负",
+    "ipa": "'geimiŋ",
+    "rank": 2494,
+    "level": "elementary"
+  },
+  {
+    "word": "feeds",
+    "chinese": "n. 饲料",
+    "ipa": "fidz",
+    "rank": 2495,
+    "level": "elementary"
+  },
+  {
+    "word": "billion",
+    "chinese": "num. 十亿, 十亿个",
+    "ipa": "'biljәn",
+    "rank": 2496,
+    "level": "elementary"
+  },
+  {
+    "word": "destination",
+    "chinese": "n. 目的地, 目标, 目的",
+    "ipa": ".desti'neiʃәn",
+    "rank": 2497,
+    "level": "elementary"
+  },
+  {
+    "word": "scotland",
+    "chinese": "n. 苏格兰",
+    "ipa": "'skɒtlәnd",
+    "rank": 2498,
+    "level": "elementary"
+  },
+  {
+    "word": "faster",
+    "chinese": "[计] 加快",
+    "ipa": "ˈfæstər",
+    "rank": 2499,
+    "level": "elementary"
+  },
+  {
+    "word": "intelligence",
+    "chinese": "n. 智力, 情报, 信息",
+    "ipa": "in'telidʒәns",
+    "rank": 2500,
+    "level": "elementary"
+  },
+  {
+    "word": "dallas",
+    "chinese": "n. 达拉斯（美国城市）",
+    "ipa": "'dælәs",
+    "rank": 2501,
+    "level": "elementary"
+  },
+  {
+    "word": "bought",
+    "chinese": "a. 买来的",
+    "ipa": "bɒ:t",
+    "rank": 2502,
+    "level": "elementary"
+  },
+  {
+    "word": "con",
+    "chinese": "vt. 精读, 仔细研究, 默记",
+    "ipa": "kɒn",
+    "rank": 2503,
+    "level": "elementary"
+  },
+  {
+    "word": "ups",
+    "chinese": "不间断电源",
+    "ipa": "əps",
+    "rank": 2504,
+    "level": "elementary"
+  },
+  {
+    "word": "nations",
+    "chinese": "n. 国家（nation的复数）",
+    "ipa": "ˈneɪʃənz",
+    "rank": 2505,
+    "level": "elementary"
+  },
+  {
+    "word": "route",
+    "chinese": "n. 路径, 途径, 路线",
+    "ipa": "ru:t",
+    "rank": 2506,
+    "level": "elementary"
+  },
+  {
+    "word": "followed",
+    "chinese": "a. 跟随的",
+    "ipa": "ˈfɑloʊd",
+    "rank": 2507,
+    "level": "elementary"
+  },
+  {
+    "word": "specifications",
+    "chinese": "n. 规格, 规范, 明细单, 说明书, 详细的计划书",
+    "ipa": "ˌspɛsəfəˈkeɪʃənz",
+    "rank": 2508,
+    "level": "elementary"
+  },
+  {
+    "word": "broken",
+    "chinese": "a. 坏掉的, 打破的, 断掉的",
+    "ipa": "'brәukәn",
+    "rank": 2509,
+    "level": "elementary"
+  },
+  {
+    "word": "tripadvisor",
+    "chinese": "到到网",
+    "ipa": "tripadvisor",
+    "rank": 2510,
+    "level": "elementary"
+  },
+  {
+    "word": "frank",
+    "chinese": "a. 坦白的, 率直的, 老实的",
+    "ipa": "fræŋk",
+    "rank": 2511,
+    "level": "elementary"
+  },
+  {
+    "word": "alaska",
+    "chinese": "n. 阿拉斯加州",
+    "ipa": "ә'læskә",
+    "rank": 2512,
+    "level": "elementary"
+  },
+  {
+    "word": "zoom",
+    "chinese": "n. 急速上升, 变焦摄影, 嗡嗡声",
+    "ipa": "zu:m",
+    "rank": 2513,
+    "level": "elementary"
+  },
+  {
+    "word": "blow",
+    "chinese": "n. 吹, 打击, 殴打, 花开",
+    "ipa": "blәu",
+    "rank": 2514,
+    "level": "elementary"
+  },
+  {
+    "word": "battle",
+    "chinese": "n. 战役",
+    "ipa": "'bætl",
+    "rank": 2515,
+    "level": "elementary"
+  },
+  {
+    "word": "residential",
+    "chinese": "a. 住宅的, 与居住有关的",
+    "ipa": ".rezi'denʃәl",
+    "rank": 2516,
+    "level": "elementary"
+  },
+  {
+    "word": "anime",
+    "chinese": "[医] 硬树脂",
+    "ipa": "'ænimei",
+    "rank": 2517,
+    "level": "elementary"
+  },
+  {
+    "word": "speak",
+    "chinese": "vi. 说, 说话, 演说, 发言",
+    "ipa": "spi:k",
+    "rank": 2518,
+    "level": "elementary"
+  },
+  {
+    "word": "decisions",
+    "chinese": "n. 决断",
+    "ipa": "dɪˈsɪʒənz",
+    "rank": 2519,
+    "level": "elementary"
+  },
+  {
+    "word": "industries",
+    "chinese": "n. 行业, 工业",
+    "ipa": "ˈɪndəstriz",
+    "rank": 2520,
+    "level": "elementary"
+  },
+  {
+    "word": "protocol",
+    "chinese": "n. 草案, 礼仪, 协议",
+    "ipa": "'prәutәkɒl",
+    "rank": 2521,
+    "level": "elementary"
+  },
+  {
+    "word": "query",
+    "chinese": "n. 疑问, 疑问号, 质问, 查询",
+    "ipa": "'kwiәri",
+    "rank": 2522,
+    "level": "elementary"
+  },
+  {
+    "word": "clip",
+    "chinese": "n. 修剪, 夹子, 回形针, 剪下来的东西",
+    "ipa": "klip",
+    "rank": 2523,
+    "level": "elementary"
+  },
+  {
+    "word": "partnership",
+    "chinese": "n. 合伙, 合股, 合作关系",
+    "ipa": "'pɑ:tnәʃip",
+    "rank": 2524,
+    "level": "elementary"
+  },
+  {
+    "word": "editorial",
+    "chinese": "n. 社论, 评论",
+    "ipa": ".edi'tɒ:riәl",
+    "rank": 2525,
+    "level": "elementary"
+  },
+  {
+    "word": "nt",
+    "chinese": "[医] 氡, 镭射气(86号元素)",
+    "ipa": "nt",
+    "rank": 2526,
+    "level": "elementary"
+  },
+  {
+    "word": "expression",
+    "chinese": "n. 表达, 表现, 词语, 措辞",
+    "ipa": "ik'spreʃәn",
+    "rank": 2527,
+    "level": "elementary"
+  },
+  {
+    "word": "es",
+    "chinese": "[化] 电子能谱; 电子能谱学; 专家系统",
+    "ipa": "ɛs",
+    "rank": 2528,
+    "level": "elementary"
+  },
+  {
+    "word": "equity",
+    "chinese": "n. 公平, 公正",
+    "ipa": "'ekwiti",
+    "rank": 2529,
+    "level": "elementary"
+  },
+  {
+    "word": "provisions",
+    "chinese": "n. 存粮, 给养, 口粮, 食物, 粮食",
+    "ipa": "prəˈvɪʒənz",
+    "rank": 2530,
+    "level": "elementary"
+  },
+  {
+    "word": "speech",
+    "chinese": "n. 演讲, 说话, 谈话, 言语, 引语, 民族语言",
+    "ipa": "spi:tʃ",
+    "rank": 2531,
+    "level": "elementary"
+  },
+  {
+    "word": "wire",
+    "chinese": "n. 电线, 电报, 电信, 铁丝网, 金属丝",
+    "ipa": "'waiә",
+    "rank": 2532,
+    "level": "elementary"
+  },
+  {
+    "word": "principles",
+    "chinese": "n. 原则, 原理, 道义, 节操",
+    "ipa": "ˈprɪnsəpəlz",
+    "rank": 2533,
+    "level": "elementary"
+  },
+  {
+    "word": "suggestions",
+    "chinese": "n. 民众意见箱",
+    "ipa": "səˈʤɛsʧənz",
+    "rank": 2534,
+    "level": "elementary"
+  },
+  {
+    "word": "rural",
+    "chinese": "a. 乡下的, 田园的, 乡村风味的",
+    "ipa": "'ruәrәl",
+    "rank": 2535,
+    "level": "elementary"
+  },
+  {
+    "word": "shared",
+    "chinese": "a. 共享的",
+    "ipa": "ʃεәd",
+    "rank": 2536,
+    "level": "elementary"
+  },
+  {
+    "word": "sounds",
+    "chinese": "n. 音效, 声音（sound的复数）",
+    "ipa": "saʊnz",
+    "rank": 2537,
+    "level": "elementary"
+  },
+  {
+    "word": "replacement",
+    "chinese": "n. 归还, 更换, 代替者",
+    "ipa": "ri'pleismәnt",
+    "rank": 2538,
+    "level": "elementary"
+  },
+  {
+    "word": "tape",
+    "chinese": "n. 带子, 录音带, 磁带, 窄带, 卷尺",
+    "ipa": "teip",
+    "rank": 2539,
+    "level": "elementary"
+  },
+  {
+    "word": "strategic",
+    "chinese": "a. 战略的, 战略上的",
+    "ipa": "strә'ti:dʒik",
+    "rank": 2540,
+    "level": "elementary"
+  },
+  {
+    "word": "judge",
+    "chinese": "n. 法官, 裁判员, 审判官, 鉴定人",
+    "ipa": "dʒʌdʒ",
+    "rank": 2541,
+    "level": "elementary"
+  },
+  {
+    "word": "spam",
+    "chinese": "n. 罐头猪肉, 垃圾邮件",
+    "ipa": "spæm",
+    "rank": 2542,
+    "level": "elementary"
+  },
+  {
+    "word": "economics",
+    "chinese": "n. 经济学",
+    "ipa": ".i:kә'nɒmiks",
+    "rank": 2543,
+    "level": "elementary"
+  },
+  {
+    "word": "acid",
+    "chinese": "n. 酸, 酸类物质, 尖刻, 迷幻药",
+    "ipa": "'æsid",
+    "rank": 2544,
+    "level": "elementary"
+  },
+  {
+    "word": "bytes",
+    "chinese": "n. 位元组, 字节数（byte的复数）",
+    "ipa": "baɪts",
+    "rank": 2545,
+    "level": "elementary"
+  },
+  {
+    "word": "cent",
+    "chinese": "n. 分",
+    "ipa": "sent",
+    "rank": 2546,
+    "level": "elementary"
+  },
+  {
+    "word": "forced",
+    "chinese": "a. 被迫的, 强迫的, 用力的",
+    "ipa": "fɒ:st",
+    "rank": 2547,
+    "level": "elementary"
+  },
+  {
+    "word": "compatible",
+    "chinese": "a. 能共处的, 可并立的, 适合的",
+    "ipa": "kәm'pætәbl",
+    "rank": 2548,
+    "level": "elementary"
+  },
+  {
+    "word": "fight",
+    "chinese": "n. 打架, 争吵, 斗志",
+    "ipa": "fait",
+    "rank": 2549,
+    "level": "elementary"
+  },
+  {
+    "word": "apartment",
+    "chinese": "n. 房间, 公寓",
+    "ipa": "ә'pɑ:tmәnt",
+    "rank": 2550,
+    "level": "elementary"
+  },
+  {
+    "word": "height",
+    "chinese": "n. 高度, 海拔, 高地, 顶点",
+    "ipa": "hait",
+    "rank": 2551,
+    "level": "elementary"
+  },
+  {
+    "word": "null",
+    "chinese": "a. 无效力的, 无效的, 无价值的",
+    "ipa": "nʌl",
+    "rank": 2552,
+    "level": "elementary"
+  },
+  {
+    "word": "zero",
+    "chinese": "n. 零, 零点, 零度, 无, 乌有, 最低点",
+    "ipa": "'ziәrәu",
+    "rank": 2553,
+    "level": "elementary"
+  },
+  {
+    "word": "speaker",
+    "chinese": "n. 说话人, 讲演者, 发言人, 喇叭, 扬声器",
+    "ipa": "'spi:kә",
+    "rank": 2554,
+    "level": "elementary"
+  },
+  {
+    "word": "filed",
+    "chinese": "v. [专利]申请",
+    "ipa": "faɪld",
+    "rank": 2555,
+    "level": "elementary"
+  },
+  {
+    "word": "gb",
+    "chinese": "[计] 千兆字节",
+    "ipa": "gb",
+    "rank": 2556,
+    "level": "elementary"
+  },
+  {
+    "word": "netherlands",
+    "chinese": "n. 荷兰",
+    "ipa": "'neðәlәndz",
+    "rank": 2557,
+    "level": "elementary"
+  },
+  {
+    "word": "obtain",
+    "chinese": "vt. 获得, 达到",
+    "ipa": "әb'tein",
+    "rank": 2558,
+    "level": "elementary"
+  },
+  {
+    "word": "bc",
+    "chinese": "公元前",
+    "ipa": "bc",
+    "rank": 2559,
+    "level": "elementary"
+  },
+  {
+    "word": "consulting",
+    "chinese": "a. 商议的, 咨询的, 任专职顾问的",
+    "ipa": "kәn'sʌltiŋ",
+    "rank": 2560,
+    "level": "elementary"
+  },
+  {
+    "word": "recreation",
+    "chinese": "n. 娱乐, 消遣, 休息, 再创造",
+    "ipa": ".rekri'eiʃәn",
+    "rank": 2561,
+    "level": "elementary"
+  },
+  {
+    "word": "offices",
+    "chinese": "n. 办公室",
+    "ipa": "ˈɔfəsɪz",
+    "rank": 2562,
+    "level": "elementary"
+  },
+  {
+    "word": "designer",
+    "chinese": "n. 设计者, 谋划者, 制图者",
+    "ipa": "di'zainә",
+    "rank": 2563,
+    "level": "elementary"
+  },
+  {
+    "word": "remain",
+    "chinese": "vi. 保持, 逗留, 剩余",
+    "ipa": "ri'mein",
+    "rank": 2564,
+    "level": "elementary"
+  },
+  {
+    "word": "managed",
+    "chinese": "a. 与中央化计划及管制有关的",
+    "ipa": "ˈmænɪʤd",
+    "rank": 2565,
+    "level": "elementary"
+  },
+  {
+    "word": "pr",
+    "chinese": "与公众的关系, 公关",
+    "ipa": "pr",
+    "rank": 2566,
+    "level": "elementary"
+  },
+  {
+    "word": "failed",
+    "chinese": "a. 已失败的",
+    "ipa": "feɪld",
+    "rank": 2567,
+    "level": "elementary"
+  },
+  {
+    "word": "marriage",
+    "chinese": "n. 婚姻, 结婚, 婚礼, 合并",
+    "ipa": "'mæridʒ",
+    "rank": 2568,
+    "level": "elementary"
+  },
+  {
+    "word": "roll",
+    "chinese": "n. 卷, 滚动, 名单, 案卷, 压路机",
+    "ipa": "rәul",
+    "rank": 2569,
+    "level": "elementary"
+  },
+  {
+    "word": "korea",
+    "chinese": "n. 朝鲜, 韩国",
+    "ipa": "kә'riә",
+    "rank": 2570,
+    "level": "elementary"
+  },
+  {
+    "word": "banks",
+    "chinese": "n. 银行",
+    "ipa": "bæŋks",
+    "rank": 2571,
+    "level": "elementary"
+  },
+  {
+    "word": "fr",
+    "chinese": "[医] 钫(87号元素)",
+    "ipa": "fr",
+    "rank": 2572,
+    "level": "elementary"
+  },
+  {
+    "word": "participants",
+    "chinese": "n. 参加者, 参与者; 参加者, 参与者( participant的名词复数 )",
+    "ipa": "pɑ:'tɪsɪpənts",
+    "rank": 2573,
+    "level": "elementary"
+  },
+  {
+    "word": "secret",
+    "chinese": "n. 秘密, 机密, 秘诀, 秘方",
+    "ipa": "'si:krit",
+    "rank": 2574,
+    "level": "elementary"
+  },
+  {
+    "word": "bath",
+    "chinese": "n. 沐浴, 浴室",
+    "ipa": "bæθ.bɑ:θ",
+    "rank": 2575,
+    "level": "elementary"
+  },
+  {
+    "word": "aa",
+    "chinese": "[计] 绝对地址, 农业自动化, 自动应答",
+    "ipa": "ɔ:",
+    "rank": 2576,
+    "level": "elementary"
+  },
+  {
+    "word": "kelly",
+    "chinese": "n. 凯利（男子名）",
+    "ipa": "'keli",
+    "rank": 2577,
+    "level": "elementary"
+  },
+  {
+    "word": "leads",
+    "chinese": "n. 领导者",
+    "ipa": "lidz",
+    "rank": 2578,
+    "level": "elementary"
+  },
+  {
+    "word": "negative",
+    "chinese": "n. 否定, 否定语, 负数, 底片",
+    "ipa": "'negәtiv",
+    "rank": 2579,
+    "level": "elementary"
+  },
+  {
+    "word": "austin",
+    "chinese": "n. 奥斯丁（人名）",
+    "ipa": "'ɔ:stin",
+    "rank": 2580,
+    "level": "elementary"
+  },
+  {
+    "word": "favorites",
+    "chinese": "n. 收藏夹",
+    "ipa": "ˈfeɪvərɪts",
+    "rank": 2581,
+    "level": "elementary"
+  },
+  {
+    "word": "toronto",
+    "chinese": "n. 多伦多（加拿大城市）",
+    "ipa": "tә'rɔntәu",
+    "rank": 2582,
+    "level": "elementary"
+  },
+  {
+    "word": "theater",
+    "chinese": "n. 戏院, 电影院, 剧场, 全体观众, 戏剧, 戏剧效果, 阶梯式讲堂, 场所",
+    "ipa": "'θiәtә",
+    "rank": 2583,
+    "level": "elementary"
+  },
+  {
+    "word": "springs",
+    "chinese": "n. 斯普林斯（南非东部城市名）",
+    "ipa": "spərɪŋz",
+    "rank": 2584,
+    "level": "elementary"
+  },
+  {
+    "word": "missouri",
+    "chinese": "n. 密苏里州",
+    "ipa": "mi'zuәri",
+    "rank": 2585,
+    "level": "elementary"
+  },
+  {
+    "word": "andrew",
+    "chinese": "n. 安德鲁（男子名）",
+    "ipa": "'ændru:",
+    "rank": 2586,
+    "level": "elementary"
+  },
+  {
+    "word": "var",
+    "chinese": "[计] 增值二手商",
+    "ipa": "vɑ:(r)",
+    "rank": 2587,
+    "level": "elementary"
+  },
+  {
+    "word": "perform",
+    "chinese": "vt. 进行, 履行, 完成, 执行, 表演",
+    "ipa": "pә'fɒ:m",
+    "rank": 2588,
+    "level": "elementary"
+  },
+  {
+    "word": "healthy",
+    "chinese": "a. 健康的, 有益健康的, 卫生的",
+    "ipa": "'helθi",
+    "rank": 2589,
+    "level": "elementary"
+  },
+  {
+    "word": "translation",
+    "chinese": "n. 翻译, 译文, 转化, 调任, 平移, 转译",
+    "ipa": "træns'leiʃәn",
+    "rank": 2590,
+    "level": "elementary"
+  },
+  {
+    "word": "estimates",
+    "chinese": "n. 估计",
+    "ipa": "ˈɛstəˌmeɪts",
+    "rank": 2591,
+    "level": "elementary"
+  },
+  {
+    "word": "font",
+    "chinese": "n. 字体, 字形, 洗礼盘, 泉",
+    "ipa": "fɒnt",
+    "rank": 2592,
+    "level": "elementary"
+  },
+  {
+    "word": "assets",
+    "chinese": "n. 资产",
+    "ipa": "'æsets",
+    "rank": 2593,
+    "level": "elementary"
+  },
+  {
+    "word": "injury",
+    "chinese": "n. 伤害, 侮辱",
+    "ipa": "'indʒәri",
+    "rank": 2594,
+    "level": "elementary"
+  },
+  {
+    "word": "mt",
+    "chinese": "峰, 山",
+    "ipa": "ˈɛmˈti",
+    "rank": 2595,
+    "level": "elementary"
+  },
+  {
+    "word": "joseph",
+    "chinese": "n. 约瑟夫（男子名）",
+    "ipa": "'dʒәuzif",
+    "rank": 2596,
+    "level": "elementary"
+  },
+  {
+    "word": "ministry",
+    "chinese": "n. 部, 内阁, 服务",
+    "ipa": "'ministri",
+    "rank": 2597,
+    "level": "elementary"
+  },
+  {
+    "word": "drivers",
+    "chinese": "[计] 驱动程序",
+    "ipa": "ˈdraɪvərz",
+    "rank": 2598,
+    "level": "elementary"
+  },
+  {
+    "word": "lawyer",
+    "chinese": "n. 律师",
+    "ipa": "'lɒ:jә",
+    "rank": 2599,
+    "level": "elementary"
+  },
+  {
+    "word": "figures",
+    "chinese": "n. 图形, 图表",
+    "ipa": "ˈfɪgjərz",
+    "rank": 2600,
+    "level": "elementary"
+  },
+  {
+    "word": "married",
+    "chinese": "a. 已婚的, 婚姻的",
+    "ipa": "'mærid",
+    "rank": 2601,
+    "level": "intermediate"
+  },
+  {
+    "word": "protected",
+    "chinese": "a. 受保护的",
+    "ipa": "prəˈtɛktɪd",
+    "rank": 2602,
+    "level": "intermediate"
+  },
+  {
+    "word": "proposal",
+    "chinese": "n. 提议, 计划, 求婚",
+    "ipa": "prә'pәuzl",
+    "rank": 2603,
+    "level": "intermediate"
+  },
+  {
+    "word": "sharing",
+    "chinese": "[计] 共享, 公用",
+    "ipa": "'ʃeәriŋ",
+    "rank": 2604,
+    "level": "intermediate"
+  },
+  {
+    "word": "philadelphia",
+    "chinese": "n. 费城",
+    "ipa": ".filә'delfjә",
+    "rank": 2605,
+    "level": "intermediate"
+  },
+  {
+    "word": "portal",
+    "chinese": "n. 入口, 大门",
+    "ipa": "'pɒ:tl",
+    "rank": 2606,
+    "level": "intermediate"
+  },
+  {
+    "word": "waiting",
+    "chinese": "n. 等候",
+    "ipa": "'weitiŋ",
+    "rank": 2607,
+    "level": "intermediate"
+  },
+  {
+    "word": "birthday",
+    "chinese": "n. 生日",
+    "ipa": "'bә:θdei",
+    "rank": 2608,
+    "level": "intermediate"
+  },
+  {
+    "word": "beta",
+    "chinese": "n. 希腊字母表的第二个字母",
+    "ipa": "'beitә",
+    "rank": 2609,
+    "level": "intermediate"
+  },
+  {
+    "word": "fail",
+    "chinese": "vi. 失败, 缺乏, 中断, 衰退, 失灵",
+    "ipa": "feil",
+    "rank": 2610,
+    "level": "intermediate"
+  },
+  {
+    "word": "gratis",
+    "chinese": "adv. 免费地, 白送地",
+    "ipa": "'greitis",
+    "rank": 2611,
+    "level": "intermediate"
+  },
+  {
+    "word": "banking",
+    "chinese": "n. 银行业务",
+    "ipa": "'bæŋkiŋ",
+    "rank": 2612,
+    "level": "intermediate"
+  },
+  {
+    "word": "officials",
+    "chinese": "n. 行政官员( official的复数形式 )",
+    "ipa": "ə'fɪʃls",
+    "rank": 2613,
+    "level": "intermediate"
+  },
+  {
+    "word": "brian",
+    "chinese": "n. 布莱恩（男子名）",
+    "ipa": "'braiәn",
+    "rank": 2614,
+    "level": "intermediate"
+  },
+  {
+    "word": "toward",
+    "chinese": "prep. 向, 对于, 为了",
+    "ipa": "tә'wɒ:d",
+    "rank": 2615,
+    "level": "intermediate"
+  },
+  {
+    "word": "won",
+    "chinese": "win的过去式和过去分词",
+    "ipa": "wʌn",
+    "rank": 2616,
+    "level": "intermediate"
+  },
+  {
+    "word": "slightly",
+    "chinese": "adv. 些微地, 苗条地",
+    "ipa": "'slaitli",
+    "rank": 2617,
+    "level": "intermediate"
+  },
+  {
+    "word": "assist",
+    "chinese": "n. 帮助, 协助",
+    "ipa": "ә'sist",
+    "rank": 2618,
+    "level": "intermediate"
+  },
+  {
+    "word": "conduct",
+    "chinese": "n. 行为, 举动, 指导",
+    "ipa": "'kɔndʌkt, -dәkt",
+    "rank": 2619,
+    "level": "intermediate"
+  },
+  {
+    "word": "contained",
+    "chinese": "a. 泰然自若的, 从容的",
+    "ipa": "kәn'teind",
+    "rank": 2620,
+    "level": "intermediate"
+  },
+  {
+    "word": "lingerie",
+    "chinese": "n. 女式内衣",
+    "ipa": ",lænʒә'ri:, 'læn-",
+    "rank": 2621,
+    "level": "intermediate"
+  },
+  {
+    "word": "shemale",
+    "chinese": "[美俚]女人, 女性",
+    "ipa": "'ʃi:meil",
+    "rank": 2622,
+    "level": "intermediate"
+  },
+  {
+    "word": "legislation",
+    "chinese": "n. 立法, 法律",
+    "ipa": ".ledʒis'leiʃәn",
+    "rank": 2623,
+    "level": "intermediate"
+  },
+  {
+    "word": "calling",
+    "chinese": "n. 职业, 行业, 呼唤, 召集",
+    "ipa": "'kɒ:liŋ",
+    "rank": 2624,
+    "level": "intermediate"
+  },
+  {
+    "word": "parameters",
+    "chinese": "n. 参数",
+    "ipa": "pərˈæmətərz",
+    "rank": 2625,
+    "level": "intermediate"
+  },
+  {
+    "word": "jazz",
+    "chinese": "n. 爵士乐, 喧闹",
+    "ipa": "dʒæz",
+    "rank": 2626,
+    "level": "intermediate"
+  },
+  {
+    "word": "serving",
+    "chinese": "n. 服务, 招待, 上菜, 一份食物",
+    "ipa": "'sә:viŋ",
+    "rank": 2627,
+    "level": "intermediate"
+  },
+  {
+    "word": "bags",
+    "chinese": "n. 许多",
+    "ipa": "bægz",
+    "rank": 2628,
+    "level": "intermediate"
+  },
+  {
+    "word": "profiles",
+    "chinese": "n. 配置文件",
+    "ipa": "ˈproʊˌfaɪlz",
+    "rank": 2629,
+    "level": "intermediate"
+  },
+  {
+    "word": "miami",
+    "chinese": "n. 迈阿密",
+    "ipa": "mai'æmi",
+    "rank": 2630,
+    "level": "intermediate"
+  },
+  {
+    "word": "comics",
+    "chinese": "n. 连环画",
+    "ipa": "'kɔmiks",
+    "rank": 2631,
+    "level": "intermediate"
+  },
+  {
+    "word": "matters",
+    "chinese": "n. 事项",
+    "ipa": "ˈmætərz",
+    "rank": 2632,
+    "level": "intermediate"
+  },
+  {
+    "word": "houses",
+    "chinese": "n. 住宅",
+    "ipa": "'hauziz",
+    "rank": 2633,
+    "level": "intermediate"
+  },
+  {
+    "word": "doc",
+    "chinese": "[计] 通信部, 数字输出控制, 文档",
+    "ipa": "dɑk",
+    "rank": 2634,
+    "level": "intermediate"
+  },
+  {
+    "word": "postal",
+    "chinese": "a. 邮政的, 邮局的",
+    "ipa": "'pәustl",
+    "rank": 2635,
+    "level": "intermediate"
+  },
+  {
+    "word": "relationships",
+    "chinese": "n. （事物之间的）关系( relationship的复数形式 ); （人、团体、国家之间的）关系; 情爱关系; 血缘关系",
+    "ipa": "rɪ'leɪʃnʃɪps",
+    "rank": 2636,
+    "level": "intermediate"
+  },
+  {
+    "word": "tennessee",
+    "chinese": "n. 田纳西州",
+    "ipa": ".teni'si:",
+    "rank": 2637,
+    "level": "intermediate"
+  },
+  {
+    "word": "wear",
+    "chinese": "n. 穿着, 戴, 使用, 耗损, 服装, 耐久性",
+    "ipa": "wєә",
+    "rank": 2638,
+    "level": "intermediate"
+  },
+  {
+    "word": "controls",
+    "chinese": "n. 控制",
+    "ipa": "kənˈtroʊlz",
+    "rank": 2639,
+    "level": "intermediate"
+  },
+  {
+    "word": "breaking",
+    "chinese": "[计] 断开, 停止, 设断点",
+    "ipa": "'breikiŋ",
+    "rank": 2640,
+    "level": "intermediate"
+  },
+  {
+    "word": "combined",
+    "chinese": "a. 结合的",
+    "ipa": "kәm'baind",
+    "rank": 2641,
+    "level": "intermediate"
+  },
+  {
+    "word": "ultimate",
+    "chinese": "n. 终极, 根本, 顶点, 基本原则",
+    "ipa": "'ʌltimit",
+    "rank": 2642,
+    "level": "intermediate"
+  },
+  {
+    "word": "wales",
+    "chinese": "n. 威尔士",
+    "ipa": "weilz",
+    "rank": 2643,
+    "level": "intermediate"
+  },
+  {
+    "word": "representative",
+    "chinese": "n. 代表, 众议员, 典型",
+    "ipa": ".repri'zentәtiv",
+    "rank": 2644,
+    "level": "intermediate"
+  },
+  {
+    "word": "frequency",
+    "chinese": "n. 频率, 频数",
+    "ipa": "'fri:kwәnsi",
+    "rank": 2645,
+    "level": "intermediate"
+  },
+  {
+    "word": "introduced",
+    "chinese": "a. [医]引种的, 引进的",
+    "ipa": "ɪntrəd'ju:st",
+    "rank": 2646,
+    "level": "intermediate"
+  },
+  {
+    "word": "minor",
+    "chinese": "n. 未成年人, 副修科目",
+    "ipa": "'mainә",
+    "rank": 2647,
+    "level": "intermediate"
+  },
+  {
+    "word": "finish",
+    "chinese": "n. 完成, 结束, 末道漆, 磨光, 完美",
+    "ipa": "'finiʃ",
+    "rank": 2648,
+    "level": "intermediate"
+  },
+  {
+    "word": "departments",
+    "chinese": "n. 部( department的复数形式 ); （任何事物的）部分; （企业单位负责特定活动的、零售商店中专售某类商品的）部门; （学校、学术机构等的）系",
+    "ipa": "dɪ'pɑ:tmənts",
+    "rank": 2649,
+    "level": "intermediate"
+  },
+  {
+    "word": "residents",
+    "chinese": "n. 居民",
+    "ipa": "ˈrɛzɪdənts",
+    "rank": 2650,
+    "level": "intermediate"
+  },
+  {
+    "word": "noted",
+    "chinese": "a. 著名的, 显著的, 扬名的",
+    "ipa": "'nәutid",
+    "rank": 2651,
+    "level": "intermediate"
+  },
+  {
+    "word": "displayed",
+    "chinese": "a. 显示的",
+    "ipa": "dis'pleid",
+    "rank": 2652,
+    "level": "intermediate"
+  },
+  {
+    "word": "mom",
+    "chinese": "n. 妈妈",
+    "ipa": "mʌm",
+    "rank": 2653,
+    "level": "intermediate"
+  },
+  {
+    "word": "reduced",
+    "chinese": "a. 减少的",
+    "ipa": "ri'dju:st",
+    "rank": 2654,
+    "level": "intermediate"
+  },
+  {
+    "word": "physics",
+    "chinese": "n. 物理学, 物理过程, 物理现象",
+    "ipa": "'fiziks",
+    "rank": 2655,
+    "level": "intermediate"
+  },
+  {
+    "word": "rare",
+    "chinese": "a. 稀罕的, 罕有的, 珍奇的, 稀薄的, 半熟的, 非常好的",
+    "ipa": "rєә",
+    "rank": 2656,
+    "level": "intermediate"
+  },
+  {
+    "word": "spent",
+    "chinese": "a. 用尽的, 精疲力竭的",
+    "ipa": "spent",
+    "rank": 2657,
+    "level": "intermediate"
+  },
+  {
+    "word": "performed",
+    "chinese": "v. 执行, 表演（perform的过去分词形式）",
+    "ipa": "pərˈfɔrmd",
+    "rank": 2658,
+    "level": "intermediate"
+  },
+  {
+    "word": "extreme",
+    "chinese": "n. 极端, 末端",
+    "ipa": "ik'stri:m",
+    "rank": 2659,
+    "level": "intermediate"
+  },
+  {
+    "word": "samples",
+    "chinese": "n. 样品",
+    "ipa": "ˈsæmpəlz",
+    "rank": 2660,
+    "level": "intermediate"
+  },
+  {
+    "word": "davis",
+    "chinese": "n. 戴维斯（男子名）",
+    "ipa": "'deivis",
+    "rank": 2661,
+    "level": "intermediate"
+  },
+  {
+    "word": "daniel",
+    "chinese": "n. 丹尼尔（男子名）",
+    "ipa": "'dænjәl",
+    "rank": 2662,
+    "level": "intermediate"
+  },
+  {
+    "word": "bars",
+    "chinese": "n. 马齿龈",
+    "ipa": "bɑ:z",
+    "rank": 2663,
+    "level": "intermediate"
+  },
+  {
+    "word": "reviewed",
+    "chinese": "v. 评估",
+    "ipa": "rivˈjud",
+    "rank": 2664,
+    "level": "intermediate"
+  },
+  {
+    "word": "row",
+    "chinese": "n. 排, 行, 街道, 划船, 吵闹",
+    "ipa": "rәu. rau",
+    "rank": 2665,
+    "level": "intermediate"
+  },
+  {
+    "word": "oz",
+    "chinese": "abbr. 盎司（ounce）",
+    "ipa": "ɑz",
+    "rank": 2666,
+    "level": "intermediate"
+  },
+  {
+    "word": "forecast",
+    "chinese": "n. 预想, 预测, 预报",
+    "ipa": "'fɒ:kɑ:st",
+    "rank": 2667,
+    "level": "intermediate"
+  },
+  {
+    "word": "removed",
+    "chinese": "a. 离开的, 间隔的, 远离的",
+    "ipa": "ri'mu:vd",
+    "rank": 2668,
+    "level": "intermediate"
+  },
+  {
+    "word": "helps",
+    "chinese": "abbr. 高端激光打印解决方案（High-End Laser Printing Solutions）",
+    "ipa": "hɛlps",
+    "rank": 2669,
+    "level": "intermediate"
+  },
+  {
+    "word": "singles",
+    "chinese": "n. 单打比赛",
+    "ipa": "ˈsɪŋgəlz",
+    "rank": 2670,
+    "level": "intermediate"
+  },
+  {
+    "word": "administrator",
+    "chinese": "n. 管理人, 行政官",
+    "ipa": "әd'ministreitә",
+    "rank": 2671,
+    "level": "intermediate"
+  },
+  {
+    "word": "cycle",
+    "chinese": "n. 周期, 循环, 自行车, 一段时间, 整套",
+    "ipa": "'saikl",
+    "rank": 2672,
+    "level": "intermediate"
+  },
+  {
+    "word": "amounts",
+    "chinese": "n. 数量, 总额（amount的复数）",
+    "ipa": "əˈmaʊnts",
+    "rank": 2673,
+    "level": "intermediate"
+  },
+  {
+    "word": "contain",
+    "chinese": "vt. 包含, 容纳, 控制",
+    "ipa": "kәn'tein",
+    "rank": 2674,
+    "level": "intermediate"
+  },
+  {
+    "word": "accuracy",
+    "chinese": "n. 精确, 正确",
+    "ipa": "'ækjurәsi",
+    "rank": 2675,
+    "level": "intermediate"
+  },
+  {
+    "word": "dual",
+    "chinese": "a. 双重的, 双的",
+    "ipa": "'dju:әl",
+    "rank": 2676,
+    "level": "intermediate"
+  },
+  {
+    "word": "rise",
+    "chinese": "n. 上升, 增加, 上涨, 高地, 升高, 出现",
+    "ipa": "raiz",
+    "rank": 2677,
+    "level": "intermediate"
+  },
+  {
+    "word": "usd",
+    "chinese": "abbr. 美元（USA dollar）",
+    "ipa": "usd",
+    "rank": 2678,
+    "level": "intermediate"
+  },
+  {
+    "word": "sleep",
+    "chinese": "n. 睡眠, 静止, 昏迷, 麻木, 长眠, 冬眠",
+    "ipa": "sli:p",
+    "rank": 2679,
+    "level": "intermediate"
+  },
+  {
+    "word": "mg",
+    "chinese": "[化] 微粒剂",
+    "ipa": "mg",
+    "rank": 2680,
+    "level": "intermediate"
+  },
+  {
+    "word": "bird",
+    "chinese": "n. 鸟, 羽毛球",
+    "ipa": "bә:d",
+    "rank": 2681,
+    "level": "intermediate"
+  },
+  {
+    "word": "pharmacy",
+    "chinese": "n. 药房, 配药学, 制药业",
+    "ipa": "'fɑ:mәsi",
+    "rank": 2682,
+    "level": "intermediate"
+  },
+  {
+    "word": "brazil",
+    "chinese": "n. 巴西",
+    "ipa": "brә'zil",
+    "rank": 2683,
+    "level": "intermediate"
+  },
+  {
+    "word": "creation",
+    "chinese": "n. 创造, 创作物, 发明",
+    "ipa": "kri:'eiʃәn",
+    "rank": 2684,
+    "level": "intermediate"
+  },
+  {
+    "word": "static",
+    "chinese": "n. 静电, 静电干扰",
+    "ipa": "'stætik",
+    "rank": 2685,
+    "level": "intermediate"
+  },
+  {
+    "word": "scene",
+    "chinese": "n. 场, 情景, 镜头, 发生地点, 道具, 布景, 景色",
+    "ipa": "si:n",
+    "rank": 2686,
+    "level": "intermediate"
+  },
+  {
+    "word": "hunter",
+    "chinese": "n. 猎人, 猎犬, 追求者",
+    "ipa": "'hʌntә",
+    "rank": 2687,
+    "level": "intermediate"
+  },
+  {
+    "word": "addresses",
+    "chinese": "n. 称呼( address的名词复数 ); （在信封、包裹等上）书写（收件人姓名、地址）; （收件人的）姓名和地址; （书面或口头的）发言",
+    "ipa": "əˈdresiz",
+    "rank": 2688,
+    "level": "intermediate"
+  },
+  {
+    "word": "lady",
+    "chinese": "n. 淑女, 夫人, 女士, 贵妇",
+    "ipa": "'leidi",
+    "rank": 2689,
+    "level": "intermediate"
+  },
+  {
+    "word": "crystal",
+    "chinese": "n. 水晶, 水晶装饰品, 结晶",
+    "ipa": "'kristl",
+    "rank": 2690,
+    "level": "intermediate"
+  },
+  {
+    "word": "famous",
+    "chinese": "a. 出名的, 极好的",
+    "ipa": "'feimәs",
+    "rank": 2691,
+    "level": "intermediate"
+  },
+  {
+    "word": "writer",
+    "chinese": "n. 作家, 撰稿者, 抄写员",
+    "ipa": "'raitә",
+    "rank": 2692,
+    "level": "intermediate"
+  },
+  {
+    "word": "chairman",
+    "chinese": "n. 主席, 会长",
+    "ipa": "'tʃєәmәn",
+    "rank": 2693,
+    "level": "intermediate"
+  },
+  {
+    "word": "violence",
+    "chinese": "n. 猛烈, 暴力, 暴虐, 暴行",
+    "ipa": "'vaiәlәns",
+    "rank": 2694,
+    "level": "intermediate"
+  },
+  {
+    "word": "fans",
+    "chinese": "n. 风扇",
+    "ipa": "fænz",
+    "rank": 2695,
+    "level": "intermediate"
+  },
+  {
+    "word": "oklahoma",
+    "chinese": "n. 俄克拉何马",
+    "ipa": ".әuklә'hәumә",
+    "rank": 2696,
+    "level": "intermediate"
+  },
+  {
+    "word": "speakers",
+    "chinese": "n. 演说家",
+    "ipa": "ˈspikərz",
+    "rank": 2697,
+    "level": "intermediate"
+  },
+  {
+    "word": "drink",
+    "chinese": "n. 饮料, 酒",
+    "ipa": "driŋk",
+    "rank": 2698,
+    "level": "intermediate"
+  },
+  {
+    "word": "academy",
+    "chinese": "n. 学院, 院校, 学会",
+    "ipa": "ә'kædәmi",
+    "rank": 2699,
+    "level": "intermediate"
+  },
+  {
+    "word": "dynamic",
+    "chinese": "a. 动态的, 有活力的, 有力的, 动力的, 不断变化的",
+    "ipa": "dai'næmik",
+    "rank": 2700,
+    "level": "intermediate"
+  },
+  {
+    "word": "gender",
+    "chinese": "n. 性",
+    "ipa": "'dʒendә",
+    "rank": 2701,
+    "level": "intermediate"
+  },
+  {
+    "word": "eat",
+    "chinese": "v. 吃, 腐蚀",
+    "ipa": "i:t",
+    "rank": 2702,
+    "level": "intermediate"
+  },
+  {
+    "word": "permanent",
+    "chinese": "a. 永久的, 不变的, 固定的, 持久的",
+    "ipa": "'pә:mәnәnt",
+    "rank": 2703,
+    "level": "intermediate"
+  },
+  {
+    "word": "agriculture",
+    "chinese": "n. 农业",
+    "ipa": "'ægrikʌltʃә",
+    "rank": 2704,
+    "level": "intermediate"
+  },
+  {
+    "word": "dell",
+    "chinese": "n. 小谷, 小溪谷",
+    "ipa": "del",
+    "rank": 2705,
+    "level": "intermediate"
+  },
+  {
+    "word": "cleaning",
+    "chinese": "n. 清洁, 扫除, 家畜的胞衣, 扫除出来的垃圾, 大败, 输得精光, 除伐, 巨额利润",
+    "ipa": "'kli:niŋ",
+    "rank": 2706,
+    "level": "intermediate"
+  },
+  {
+    "word": "constitutes",
+    "chinese": "v. 组成",
+    "ipa": "ˈkɑnstəˌtuts",
+    "rank": 2707,
+    "level": "intermediate"
+  },
+  {
+    "word": "portfolio",
+    "chinese": "n. 皮包, 公文包, 部长职务, 有价证券财产目录, 艺术代表作选辑",
+    "ipa": "pɒ:t'fәuliәu",
+    "rank": 2708,
+    "level": "intermediate"
+  },
+  {
+    "word": "practical",
+    "chinese": "a. 实际的, 现实的, 实用性的",
+    "ipa": "'præktikl",
+    "rank": 2709,
+    "level": "intermediate"
+  },
+  {
+    "word": "delivered",
+    "chinese": "a. 业已交货",
+    "ipa": "di'livәd",
+    "rank": 2710,
+    "level": "intermediate"
+  },
+  {
+    "word": "collectibles",
+    "chinese": "n. 可收集的, 可代收的( collectible的名词复数 )",
+    "ipa": "kəˈlektəbəlz",
+    "rank": 2711,
+    "level": "intermediate"
+  },
+  {
+    "word": "infrastructure",
+    "chinese": "n. 基础结构, 基础设施",
+    "ipa": "'infrәstrʌktʃә",
+    "rank": 2712,
+    "level": "intermediate"
+  },
+  {
+    "word": "exclusive",
+    "chinese": "a. 排外的, 独占的, 唯一的",
+    "ipa": "ik'sklu:siv",
+    "rank": 2713,
+    "level": "intermediate"
+  },
+  {
+    "word": "seat",
+    "chinese": "n. 座, 座位, 位子, 席位, 所在地",
+    "ipa": "si:t",
+    "rank": 2714,
+    "level": "intermediate"
+  },
+  {
+    "word": "concerns",
+    "chinese": "n. 关注",
+    "ipa": "kənˈsərnz",
+    "rank": 2715,
+    "level": "intermediate"
+  },
+  {
+    "word": "colour",
+    "chinese": "n. 颜色, 面色, 颜料, 外貌",
+    "ipa": "'kʌlә",
+    "rank": 2716,
+    "level": "intermediate"
+  },
+  {
+    "word": "vendor",
+    "chinese": "n. 小贩, 卖主, 自动售货机",
+    "ipa": "'vendә",
+    "rank": 2717,
+    "level": "intermediate"
+  },
+  {
+    "word": "originally",
+    "chinese": "adv. 本来, 原来, 最初, 就起源而论, 独创地",
+    "ipa": "ә'ridʒәnli",
+    "rank": 2718,
+    "level": "intermediate"
+  },
+  {
+    "word": "intel",
+    "chinese": "n. 美国英特尔公司（财富500强公司之一, 以生产CPU芯片著称）",
+    "ipa": "ˌɪnˈtɛl",
+    "rank": 2719,
+    "level": "intermediate"
+  },
+  {
+    "word": "utilities",
+    "chinese": "n. 实用工具, 实用程序",
+    "ipa": "juˈtɪlətiz",
+    "rank": 2720,
+    "level": "intermediate"
+  },
+  {
+    "word": "philosophy",
+    "chinese": "n. 哲学, 人生观, 哲学思想, 哲理, 基本原理, 见解, 达观, 沉着",
+    "ipa": "fi'lɒsәfi",
+    "rank": 2721,
+    "level": "intermediate"
+  },
+  {
+    "word": "regulation",
+    "chinese": "n. 规则, 管理, 调整",
+    "ipa": ".regju'leiʃәn",
+    "rank": 2722,
+    "level": "intermediate"
+  },
+  {
+    "word": "officers",
+    "chinese": "n. 军官, 人员（officer复数形式）",
+    "ipa": "ˈɔfɪsərz",
+    "rank": 2723,
+    "level": "intermediate"
+  },
+  {
+    "word": "reduction",
+    "chinese": "n. 减少, 缩影, 变化",
+    "ipa": "ri'dʌkʃәn",
+    "rank": 2724,
+    "level": "intermediate"
+  },
+  {
+    "word": "aim",
+    "chinese": "n. 目标, 瞄准, 击中目标的能力",
+    "ipa": "eim",
+    "rank": 2725,
+    "level": "intermediate"
+  },
+  {
+    "word": "bids",
+    "chinese": "abbr. 商业智能开发工具集（Business Intelligence Development Studio）",
+    "ipa": "bɪdz",
+    "rank": 2726,
+    "level": "intermediate"
+  },
+  {
+    "word": "referred",
+    "chinese": "v. 归类, 谈及, 送交",
+    "ipa": "rɪˈfərd",
+    "rank": 2727,
+    "level": "intermediate"
+  },
+  {
+    "word": "supports",
+    "chinese": "n. 支承结构",
+    "ipa": "səˈpɔrts",
+    "rank": 2728,
+    "level": "intermediate"
+  },
+  {
+    "word": "nutrition",
+    "chinese": "n. 营养, 营养学",
+    "ipa": "nju:'triʃәn",
+    "rank": 2729,
+    "level": "intermediate"
+  },
+  {
+    "word": "recording",
+    "chinese": "a. 记录的, 记录用的",
+    "ipa": "ri'kɒ:diŋ",
+    "rank": 2730,
+    "level": "intermediate"
+  },
+  {
+    "word": "regions",
+    "chinese": "n. 地区",
+    "ipa": "ˈriʤənz",
+    "rank": 2731,
+    "level": "intermediate"
+  },
+  {
+    "word": "junior",
+    "chinese": "n. 年少者, 地位较低者, 大学三年级学生",
+    "ipa": "'dʒu:njә",
+    "rank": 2732,
+    "level": "intermediate"
+  },
+  {
+    "word": "toll",
+    "chinese": "n. 通行费, 代价, 钟声",
+    "ipa": "tәul",
+    "rank": 2733,
+    "level": "intermediate"
+  },
+  {
+    "word": "les",
+    "chinese": "abbr. 发射脱离系统（Launch Escape System）",
+    "ipa": "lei",
+    "rank": 2734,
+    "level": "intermediate"
+  },
+  {
+    "word": "cape",
+    "chinese": "n. 岬, 海角, 披肩, 斗蓬",
+    "ipa": "keip",
+    "rank": 2735,
+    "level": "intermediate"
+  },
+  {
+    "word": "ann",
+    "chinese": "n. 安（女子名）",
+    "ipa": "æn",
+    "rank": 2736,
+    "level": "intermediate"
+  },
+  {
+    "word": "rings",
+    "chinese": "n. 吊环（ring的复数）",
+    "ipa": "rɪŋz",
+    "rank": 2737,
+    "level": "intermediate"
+  },
+  {
+    "word": "meaning",
+    "chinese": "n. 意义, 含义, 目的, 意图",
+    "ipa": "'mi:niŋ",
+    "rank": 2738,
+    "level": "intermediate"
+  },
+  {
+    "word": "tip",
+    "chinese": "n. 顶, 尖端, 梢, 末端, 倾斜, 垃圾场, 小费, 轻击, 指点, 秘密消息",
+    "ipa": "tip",
+    "rank": 2739,
+    "level": "intermediate"
+  },
+  {
+    "word": "secondary",
+    "chinese": "a. 中级的, 中等的, 次要的, 第二的, 从属的, 辅助的",
+    "ipa": "'sekәndәri",
+    "rank": 2740,
+    "level": "intermediate"
+  },
+  {
+    "word": "wonderful",
+    "chinese": "a. 令人惊奇的, 奇妙的, 极好的",
+    "ipa": "'wʌndәful",
+    "rank": 2741,
+    "level": "intermediate"
+  },
+  {
+    "word": "mine",
+    "chinese": "n. 矿, 矿藏, 地雷",
+    "ipa": "main",
+    "rank": 2742,
+    "level": "intermediate"
+  },
+  {
+    "word": "ladies",
+    "chinese": "n. 公共女厕所, 女盥洗室, 女洗手间",
+    "ipa": "'leidiz",
+    "rank": 2743,
+    "level": "intermediate"
+  },
+  {
+    "word": "henry",
+    "chinese": "n. 亨利",
+    "ipa": "'henri",
+    "rank": 2744,
+    "level": "intermediate"
+  },
+  {
+    "word": "ticket",
+    "chinese": "n. 票, 券, 车票, 标签, 入场券, 证明书",
+    "ipa": "'tikit",
+    "rank": 2745,
+    "level": "intermediate"
+  },
+  {
+    "word": "announced",
+    "chinese": "宣布的",
+    "ipa": "əˈnaʊnst",
+    "rank": 2746,
+    "level": "intermediate"
+  },
+  {
+    "word": "guess",
+    "chinese": "n. 猜测, 臆测",
+    "ipa": "ges",
+    "rank": 2747,
+    "level": "intermediate"
+  },
+  {
+    "word": "agreed",
+    "chinese": "a. 同意的",
+    "ipa": "ә'ɡri:d",
+    "rank": 2748,
+    "level": "intermediate"
+  },
+  {
+    "word": "prevention",
+    "chinese": "n. 阻止, 妨碍, 预防",
+    "ipa": "pri'venʃәn",
+    "rank": 2749,
+    "level": "intermediate"
+  },
+  {
+    "word": "whom",
+    "chinese": "pron. 谁",
+    "ipa": "hu:m",
+    "rank": 2750,
+    "level": "intermediate"
+  },
+  {
+    "word": "ski",
+    "chinese": "n. 滑雪橇",
+    "ipa": "ski:",
+    "rank": 2751,
+    "level": "intermediate"
+  },
+  {
+    "word": "soccer",
+    "chinese": "n. 英式足球",
+    "ipa": "'sɒkә",
+    "rank": 2752,
+    "level": "intermediate"
+  },
+  {
+    "word": "math",
+    "chinese": "n. 数学",
+    "ipa": "mæθ",
+    "rank": 2753,
+    "level": "intermediate"
+  },
+  {
+    "word": "import",
+    "chinese": "n. 进口货, 进口, 输入, 含义, 重要性",
+    "ipa": "im'pɒ:t",
+    "rank": 2754,
+    "level": "intermediate"
+  },
+  {
+    "word": "posting",
+    "chinese": "[计] 记入, 记录, 稿件, 邮件",
+    "ipa": "'pәustiŋ",
+    "rank": 2755,
+    "level": "intermediate"
+  },
+  {
+    "word": "presence",
+    "chinese": "n. 出席, 面前, 存在, 仪态, 风度",
+    "ipa": "'prezns",
+    "rank": 2756,
+    "level": "intermediate"
+  },
+  {
+    "word": "instant",
+    "chinese": "n. 立即, 瞬间",
+    "ipa": "'instәnt",
+    "rank": 2757,
+    "level": "intermediate"
+  },
+  {
+    "word": "mentioned",
+    "chinese": "v. 提到( mention的过去式和过去分词 ); 说起; 提名表扬; 传令嘉奖",
+    "ipa": "'menʃnd",
+    "rank": 2758,
+    "level": "intermediate"
+  },
+  {
+    "word": "automatic",
+    "chinese": "n. 自动手枪, 自动机械",
+    "ipa": ".ɒ:tә'mætik",
+    "rank": 2759,
+    "level": "intermediate"
+  },
+  {
+    "word": "healthcare",
+    "chinese": "n. 医疗保健",
+    "ipa": "'helθkεә",
+    "rank": 2760,
+    "level": "intermediate"
+  },
+  {
+    "word": "viewing",
+    "chinese": "[计] 可见的",
+    "ipa": "'vju:iŋ",
+    "rank": 2761,
+    "level": "intermediate"
+  },
+  {
+    "word": "maintained",
+    "chinese": "a. 被保持的",
+    "ipa": "meɪnˈteɪnd",
+    "rank": 2762,
+    "level": "intermediate"
+  },
+  {
+    "word": "ch",
+    "chinese": "[计] 改变, 通道, 信道, 字符, 检验",
+    "ipa": "ch",
+    "rank": 2763,
+    "level": "intermediate"
+  },
+  {
+    "word": "increasing",
+    "chinese": "[经] 递增",
+    "ipa": "in'kri:siŋ",
+    "rank": 2764,
+    "level": "intermediate"
+  },
+  {
+    "word": "majority",
+    "chinese": "n. 多数, 大半",
+    "ipa": "mә'dʒɒriti",
+    "rank": 2765,
+    "level": "intermediate"
+  },
+  {
+    "word": "connected",
+    "chinese": "a. 连接的, 连贯的, 有联系的, 关联的, 连结的, 有关系的",
+    "ipa": "kә'nektid",
+    "rank": 2766,
+    "level": "intermediate"
+  },
+  {
+    "word": "christ",
+    "chinese": "n. 基督, 救世主",
+    "ipa": "kraist",
+    "rank": 2767,
+    "level": "intermediate"
+  },
+  {
+    "word": "dan",
+    "chinese": "n. 段(柔道、围棋运动员的等级)",
+    "ipa": "dæn",
+    "rank": 2768,
+    "level": "intermediate"
+  },
+  {
+    "word": "dogs",
+    "chinese": "n. 瘦狗类",
+    "ipa": "dɔgz",
+    "rank": 2769,
+    "level": "intermediate"
+  },
+  {
+    "word": "sd",
+    "chinese": "[化] 磺胺嘧啶",
+    "ipa": "sd",
+    "rank": 2770,
+    "level": "intermediate"
+  },
+  {
+    "word": "directors",
+    "chinese": "n. 导演",
+    "ipa": "dɪˈrɛktərz",
+    "rank": 2771,
+    "level": "intermediate"
+  },
+  {
+    "word": "aspects",
+    "chinese": "n. 方面( aspect的复数形式 ); 面貌; 方位; 样子",
+    "ipa": "'æspekts",
+    "rank": 2772,
+    "level": "intermediate"
+  },
+  {
+    "word": "austria",
+    "chinese": "n. 奥地利",
+    "ipa": "'ɒstriә",
+    "rank": 2773,
+    "level": "intermediate"
+  },
+  {
+    "word": "ahead",
+    "chinese": "a. 领先的, 预先的, 向前的",
+    "ipa": "ә'hed",
+    "rank": 2774,
+    "level": "intermediate"
+  },
+  {
+    "word": "moon",
+    "chinese": "n. 月亮, 月球, 月光",
+    "ipa": "mu:n",
+    "rank": 2775,
+    "level": "intermediate"
+  },
+  {
+    "word": "participation",
+    "chinese": "n. 参与, 分享",
+    "ipa": ".pɑ:tisi'peiʃәn",
+    "rank": 2776,
+    "level": "intermediate"
+  },
+  {
+    "word": "scheme",
+    "chinese": "n. 方案, 计划, 组合, 系统, 图解, 诡计, 阴谋",
+    "ipa": "ski:m",
+    "rank": 2777,
+    "level": "intermediate"
+  },
+  {
+    "word": "utility",
+    "chinese": "n. 功用, 有用之物, 实用, 公用事业, 实用程序",
+    "ipa": "ju:'tiliti",
+    "rank": 2778,
+    "level": "intermediate"
+  },
+  {
+    "word": "preview",
+    "chinese": "n. 事先查看, 预览",
+    "ipa": "'pri:vju:",
+    "rank": 2779,
+    "level": "intermediate"
+  },
+  {
+    "word": "fly",
+    "chinese": "n. 苍蝇, 两翼昆虫, 飞行",
+    "ipa": "flai",
+    "rank": 2780,
+    "level": "intermediate"
+  },
+  {
+    "word": "manner",
+    "chinese": "n. 样子, 礼貌, 风格",
+    "ipa": "'mænә",
+    "rank": 2781,
+    "level": "intermediate"
+  },
+  {
+    "word": "matrix",
+    "chinese": "n. 母体, 子宫, 基质, 脉石, 模型, 矩阵",
+    "ipa": "'meitriks",
+    "rank": 2782,
+    "level": "intermediate"
+  },
+  {
+    "word": "containing",
+    "chinese": "n. 包含",
+    "ipa": "kənˈteɪnɪŋ",
+    "rank": 2783,
+    "level": "intermediate"
+  },
+  {
+    "word": "combination",
+    "chinese": "n. 组合, 合并, 联合",
+    "ipa": ".kɒmbi'neiʃәn",
+    "rank": 2784,
+    "level": "intermediate"
+  },
+  {
+    "word": "devel",
+    "chinese": "n. 重击",
+    "ipa": "'devәl",
+    "rank": 2785,
+    "level": "intermediate"
+  },
+  {
+    "word": "amendment",
+    "chinese": "n. 修订, 改善, 改良, 改正",
+    "ipa": "ә'mendmәnt",
+    "rank": 2786,
+    "level": "intermediate"
+  },
+  {
+    "word": "despite",
+    "chinese": "n. 轻视, 憎恨",
+    "ipa": "di'spait",
+    "rank": 2787,
+    "level": "intermediate"
+  },
+  {
+    "word": "strength",
+    "chinese": "n. 力量, 实力, 强度, 浓度, 人数, 抵抗力",
+    "ipa": "streŋθ",
+    "rank": 2788,
+    "level": "intermediate"
+  },
+  {
+    "word": "guaranteed",
+    "chinese": "a. 有保证的,",
+    "ipa": "ˌgɛrənˈtid",
+    "rank": 2789,
+    "level": "intermediate"
+  },
+  {
+    "word": "turkey",
+    "chinese": "n. 火鸡, 无用的家伙, 土耳其",
+    "ipa": "'tә:ki",
+    "rank": 2790,
+    "level": "intermediate"
+  },
+  {
+    "word": "libraries",
+    "chinese": "n. 图书馆查询系统",
+    "ipa": "ˈlaɪbrɛˌriz",
+    "rank": 2791,
+    "level": "intermediate"
+  },
+  {
+    "word": "proper",
+    "chinese": "a. 适当的, 固有的, 高尚的, 专属的",
+    "ipa": "'prɒpә",
+    "rank": 2792,
+    "level": "intermediate"
+  },
+  {
+    "word": "distributed",
+    "chinese": "a. 分布式的",
+    "ipa": "di'stribju:tid",
+    "rank": 2793,
+    "level": "intermediate"
+  },
+  {
+    "word": "degrees",
+    "chinese": "n. 角度, 学历",
+    "ipa": "dɪˈgriz",
+    "rank": 2794,
+    "level": "intermediate"
+  },
+  {
+    "word": "singapore",
+    "chinese": "n. 新加坡",
+    "ipa": ".siŋgә'pɒ:",
+    "rank": 2795,
+    "level": "intermediate"
+  },
+  {
+    "word": "enterprises",
+    "chinese": "n. 企业（enterprise的复数）",
+    "ipa": "ˈɛnərˌpraɪzɪz",
+    "rank": 2796,
+    "level": "intermediate"
+  },
+  {
+    "word": "delta",
+    "chinese": "n. 三角洲, 希腊字母的第四个字",
+    "ipa": "'deltә",
+    "rank": 2797,
+    "level": "intermediate"
+  },
+  {
+    "word": "fear",
+    "chinese": "n. 恐怖, 害怕, 担心",
+    "ipa": "fiә",
+    "rank": 2798,
+    "level": "intermediate"
+  },
+  {
+    "word": "seeking",
+    "chinese": "[计] 查找, 寻找, 故障检查",
+    "ipa": "ˈsikɪŋ",
+    "rank": 2799,
+    "level": "intermediate"
+  },
+  {
+    "word": "inches",
+    "chinese": "n. 英寸（inch的复数）",
+    "ipa": "ˈɪnʧɪz",
+    "rank": 2800,
+    "level": "intermediate"
+  },
+  {
+    "word": "phoenix",
+    "chinese": "n. 凤凰, 不死鸟, 死而复生的人, 完人, 殊品",
+    "ipa": "'fi:niks",
+    "rank": 2801,
+    "level": "intermediate"
+  },
+  {
+    "word": "rs",
+    "chinese": "[计] 实寄存器, 寄存器和存储器, 复位",
+    "ipa": "rs",
+    "rank": 2802,
+    "level": "intermediate"
+  },
+  {
+    "word": "convention",
+    "chinese": "n. 大会, 协定, 惯例, 约定",
+    "ipa": "kәn'venʃәn",
+    "rank": 2803,
+    "level": "intermediate"
+  },
+  {
+    "word": "shares",
+    "chinese": "n. 股份（share的复数形式）",
+    "ipa": "ʃɛrz",
+    "rank": 2804,
+    "level": "intermediate"
+  },
+  {
+    "word": "principal",
+    "chinese": "n. 校长, 首长, 本金, 主犯, 资本, 委托人",
+    "ipa": "'prinsipәl",
+    "rank": 2805,
+    "level": "intermediate"
+  },
+  {
+    "word": "daughter",
+    "chinese": "n. 女儿",
+    "ipa": "'dɒ:tә",
+    "rank": 2806,
+    "level": "intermediate"
+  },
+  {
+    "word": "standing",
+    "chinese": "n. 起立, 持续, 身分",
+    "ipa": "'stændiŋ",
+    "rank": 2807,
+    "level": "intermediate"
+  },
+  {
+    "word": "voyeur",
+    "chinese": "n. 偷看下流场面的人",
+    "ipa": "vwɑ:'j\\\\\\\\:(r)",
+    "rank": 2808,
+    "level": "intermediate"
+  },
+  {
+    "word": "comfort",
+    "chinese": "n. 舒适, 安慰, 安慰者",
+    "ipa": "'kʌmfәt",
+    "rank": 2809,
+    "level": "intermediate"
+  },
+  {
+    "word": "colors",
+    "chinese": "n. 国旗, 旗帜, 船旗, 军旗, 衣帽, 徽章, 绶带",
+    "ipa": "ˈkələrz",
+    "rank": 2810,
+    "level": "intermediate"
+  },
+  {
+    "word": "wars",
+    "chinese": "n. 战争（war的复数形式）",
+    "ipa": "wɔrz",
+    "rank": 2811,
+    "level": "intermediate"
+  },
+  {
+    "word": "cisco",
+    "chinese": "n. 加拿大白鲑",
+    "ipa": "'siskәu",
+    "rank": 2812,
+    "level": "intermediate"
+  },
+  {
+    "word": "ordering",
+    "chinese": "n. 有序化",
+    "ipa": "'ɔ:dәriŋ",
+    "rank": 2813,
+    "level": "intermediate"
+  },
+  {
+    "word": "kept",
+    "chinese": "keep的过去式和过去分词",
+    "ipa": "kept",
+    "rank": 2814,
+    "level": "intermediate"
+  },
+  {
+    "word": "alpha",
+    "chinese": "n. 希腊字母表的第一个字母, 最初, 开端",
+    "ipa": "'ælfә",
+    "rank": 2815,
+    "level": "intermediate"
+  },
+  {
+    "word": "appeal",
+    "chinese": "n. 恳求, 诉请, 上诉, 吸引力",
+    "ipa": "ә'pi:l",
+    "rank": 2816,
+    "level": "intermediate"
+  },
+  {
+    "word": "cruise",
+    "chinese": "n. 巡航, 巡弋, 漫游",
+    "ipa": "kru:z",
+    "rank": 2817,
+    "level": "intermediate"
+  },
+  {
+    "word": "bonus",
+    "chinese": "n. 奖金, 红利",
+    "ipa": "'bәunәs",
+    "rank": 2818,
+    "level": "intermediate"
+  },
+  {
+    "word": "certification",
+    "chinese": "n. 证明",
+    "ipa": ".sә:tifi'keiʃәn",
+    "rank": 2819,
+    "level": "intermediate"
+  },
+  {
+    "word": "previously",
+    "chinese": "adv. 先, 先前, 以前, 前, (非正式)过早, 过急, 在前, 在...以前, 在先",
+    "ipa": "'pri:vju:sli",
+    "rank": 2820,
+    "level": "intermediate"
+  },
+  {
+    "word": "hey",
+    "chinese": "interj. 嗨",
+    "ipa": "hei",
+    "rank": 2821,
+    "level": "intermediate"
+  },
+  {
+    "word": "bookmark",
+    "chinese": "n. 书签",
+    "ipa": "'bukmɑ:k",
+    "rank": 2822,
+    "level": "intermediate"
+  },
+  {
+    "word": "buildings",
+    "chinese": "n. 建筑物（building的复数）",
+    "ipa": "ˈbɪldɪŋz",
+    "rank": 2823,
+    "level": "intermediate"
+  },
+  {
+    "word": "specials",
+    "chinese": "n. 特殊的人或事",
+    "ipa": "ˈspɛʃəlz",
+    "rank": 2824,
+    "level": "intermediate"
+  },
+  {
+    "word": "beat",
+    "chinese": "n. 心跳(声), 打, 敲打声, 拍子",
+    "ipa": "bi:t",
+    "rank": 2825,
+    "level": "intermediate"
+  },
+  {
+    "word": "disney",
+    "chinese": "n. 迪斯尼",
+    "ipa": "'dizni",
+    "rank": 2826,
+    "level": "intermediate"
+  },
+  {
+    "word": "household",
+    "chinese": "n. 一家人, 家庭, 家族, 王室",
+    "ipa": "'haushәuld",
+    "rank": 2827,
+    "level": "intermediate"
+  },
+  {
+    "word": "batteries",
+    "chinese": "n. 电池（battery的复数形式）",
+    "ipa": "ˈbætəriz",
+    "rank": 2828,
+    "level": "intermediate"
+  },
+  {
+    "word": "adobe",
+    "chinese": "n. 风干土坯",
+    "ipa": "ә'doubi",
+    "rank": 2829,
+    "level": "intermediate"
+  },
+  {
+    "word": "smoking",
+    "chinese": "n. 抽烟, 冒烟",
+    "ipa": "'smәukiŋ",
+    "rank": 2830,
+    "level": "intermediate"
+  },
+  {
+    "word": "bbc",
+    "chinese": "英国广播公司",
+    "ipa": "ˌbibiˈsi",
+    "rank": 2831,
+    "level": "intermediate"
+  },
+  {
+    "word": "becomes",
+    "chinese": "v. 变为, 成为( become的第三人称单数 ); 适合; 使（人）显得漂亮; 使好看",
+    "ipa": "biˈkʌmz",
+    "rank": 2832,
+    "level": "intermediate"
+  },
+  {
+    "word": "drives",
+    "chinese": "n. 驱动器",
+    "ipa": "draɪvz",
+    "rank": 2833,
+    "level": "intermediate"
+  },
+  {
+    "word": "arms",
+    "chinese": "n. 武器, 军事行动",
+    "ipa": "ɑ:mz",
+    "rank": 2834,
+    "level": "intermediate"
+  },
+  {
+    "word": "alabama",
+    "chinese": "n. 亚拉巴马州",
+    "ipa": ".ælә'bæmә",
+    "rank": 2835,
+    "level": "intermediate"
+  },
+  {
+    "word": "tea",
+    "chinese": "n. 茶, 茶叶",
+    "ipa": "ti:",
+    "rank": 2836,
+    "level": "intermediate"
+  },
+  {
+    "word": "improved",
+    "chinese": "a. 改良的",
+    "ipa": "im'pru:vd",
+    "rank": 2837,
+    "level": "intermediate"
+  },
+  {
+    "word": "trees",
+    "chinese": "n. 树木",
+    "ipa": "triz",
+    "rank": 2838,
+    "level": "intermediate"
+  },
+  {
+    "word": "avg",
+    "chinese": "[计] 平均值",
+    "ipa": "avg",
+    "rank": 2839,
+    "level": "intermediate"
+  },
+  {
+    "word": "achieve",
+    "chinese": "vt. 完成, 达到",
+    "ipa": "ә'tʃi:v",
+    "rank": 2840,
+    "level": "intermediate"
+  },
+  {
+    "word": "positions",
+    "chinese": "n. 定位",
+    "ipa": "pəˈzɪʃənz",
+    "rank": 2841,
+    "level": "intermediate"
+  },
+  {
+    "word": "dress",
+    "chinese": "n. 服装, 覆盖物",
+    "ipa": "dres",
+    "rank": 2842,
+    "level": "intermediate"
+  },
+  {
+    "word": "subscription",
+    "chinese": "n. 捐献, 订金, 订阅, 签署, 同意",
+    "ipa": "sәb'skripʃәn",
+    "rank": 2843,
+    "level": "intermediate"
+  },
+  {
+    "word": "dealer",
+    "chinese": "n. 经销商, 商人",
+    "ipa": "'di:lә",
+    "rank": 2844,
+    "level": "intermediate"
+  },
+  {
+    "word": "contemporary",
+    "chinese": "n. 同时代的人",
+    "ipa": "kәn'tempәrәri",
+    "rank": 2845,
+    "level": "intermediate"
+  },
+  {
+    "word": "sky",
+    "chinese": "n. 天空, 天色, 天堂",
+    "ipa": "skai",
+    "rank": 2846,
+    "level": "intermediate"
+  },
+  {
+    "word": "utah",
+    "chinese": "n. 犹他",
+    "ipa": "'ju:tɑ:",
+    "rank": 2847,
+    "level": "intermediate"
+  },
+  {
+    "word": "nearby",
+    "chinese": "a. 附近的, 近旁的",
+    "ipa": "'niәbai",
+    "rank": 2848,
+    "level": "intermediate"
+  },
+  {
+    "word": "rom",
+    "chinese": "只读存储器",
+    "ipa": "rɔm,rәjm",
+    "rank": 2849,
+    "level": "intermediate"
+  },
+  {
+    "word": "carried",
+    "chinese": "a. 入神的",
+    "ipa": "'kærid",
+    "rank": 2850,
+    "level": "intermediate"
+  },
+  {
+    "word": "happen",
+    "chinese": "vi. 发生, 发生, 恰巧",
+    "ipa": "'hæpәn",
+    "rank": 2851,
+    "level": "intermediate"
+  },
+  {
+    "word": "exposure",
+    "chinese": "n. 暴露, 揭发, 揭露",
+    "ipa": "ik'spәuʒә",
+    "rank": 2852,
+    "level": "intermediate"
+  },
+  {
+    "word": "panasonic",
+    "chinese": "n. 日本松下公司",
+    "ipa": "ˌpænəˈsɑnɪk",
+    "rank": 2853,
+    "level": "intermediate"
+  },
+  {
+    "word": "hide",
+    "chinese": "n. 兽皮, 迹象, 躲藏处",
+    "ipa": "haid",
+    "rank": 2854,
+    "level": "intermediate"
+  },
+  {
+    "word": "permalink",
+    "chinese": "永久链接",
+    "ipa": "permalink",
+    "rank": 2855,
+    "level": "intermediate"
+  },
+  {
+    "word": "signature",
+    "chinese": "n. 签字, 识别标志, 调号",
+    "ipa": "'signәtʃә",
+    "rank": 2856,
+    "level": "intermediate"
+  },
+  {
+    "word": "gambling",
+    "chinese": "n. 赌博",
+    "ipa": "'gæmbliŋ",
+    "rank": 2857,
+    "level": "intermediate"
+  },
+  {
+    "word": "refer",
+    "chinese": "vt. 提交, 归诸于, 把...提交, 使求助于",
+    "ipa": "ri'fә:",
+    "rank": 2858,
+    "level": "intermediate"
+  },
+  {
+    "word": "miller",
+    "chinese": "n. 厂主, 蛾",
+    "ipa": "'milә",
+    "rank": 2859,
+    "level": "intermediate"
+  },
+  {
+    "word": "provision",
+    "chinese": "n. (政府提供的)钱和设备, 准备, 供应品, 规定, 条款",
+    "ipa": "prә'viʒәn",
+    "rank": 2860,
+    "level": "intermediate"
+  },
+  {
+    "word": "outdoors",
+    "chinese": "n. 户外, 野外活动",
+    "ipa": "'aut'dɒ:z",
+    "rank": 2861,
+    "level": "intermediate"
+  },
+  {
+    "word": "clothes",
+    "chinese": "n. 衣服",
+    "ipa": "klәuðz",
+    "rank": 2862,
+    "level": "intermediate"
+  },
+  {
+    "word": "caused",
+    "chinese": "v. 引起",
+    "ipa": "kɔzd",
+    "rank": 2863,
+    "level": "intermediate"
+  },
+  {
+    "word": "luxury",
+    "chinese": "n. 奢侈, 豪华",
+    "ipa": "'lʌkʃәri",
+    "rank": 2864,
+    "level": "intermediate"
+  },
+  {
+    "word": "babes",
+    "chinese": "n. <书>婴儿( babe的复数形式 ); 无助的人; 需要人抱的婴儿; <美俚>姑娘",
+    "ipa": "'beɪbz",
+    "rank": 2865,
+    "level": "intermediate"
+  },
+  {
+    "word": "frames",
+    "chinese": "n. 帧, 画面",
+    "ipa": "freɪmz",
+    "rank": 2866,
+    "level": "intermediate"
+  },
+  {
+    "word": "viagra",
+    "chinese": "n. [药]万艾可",
+    "ipa": "vaɪˈægrə",
+    "rank": 2867,
+    "level": "intermediate"
+  },
+  {
+    "word": "certainly",
+    "chinese": "adv. 确定地",
+    "ipa": "'sә:tәnli",
+    "rank": 2868,
+    "level": "intermediate"
+  },
+  {
+    "word": "indeed",
+    "chinese": "adv. 的确, 实在, 真正地, 甚至",
+    "ipa": "in'di:d",
+    "rank": 2869,
+    "level": "intermediate"
+  },
+  {
+    "word": "newspaper",
+    "chinese": "n. 报纸",
+    "ipa": "'nju:z.peipә",
+    "rank": 2870,
+    "level": "intermediate"
+  },
+  {
+    "word": "toy",
+    "chinese": "n. 玩具, 小玩艺儿, 小型的东西, 消遣",
+    "ipa": "tɒi",
+    "rank": 2871,
+    "level": "intermediate"
+  },
+  {
+    "word": "circuit",
+    "chinese": "n. 电路, 环(行)道, 巡回",
+    "ipa": "'sә:kit",
+    "rank": 2872,
+    "level": "intermediate"
+  },
+  {
+    "word": "layer",
+    "chinese": "n. 层, 产卵鸡, 放置者",
+    "ipa": "'leiә",
+    "rank": 2873,
+    "level": "intermediate"
+  },
+  {
+    "word": "printed",
+    "chinese": "a. 印刷的, 印好的, 印花样的",
+    "ipa": "'printid",
+    "rank": 2874,
+    "level": "intermediate"
+  },
+  {
+    "word": "slow",
+    "chinese": "a. 慢的, 缓慢的, 迟缓的, 迟钝的, 冷漠的, 落后的",
+    "ipa": "slәu",
+    "rank": 2875,
+    "level": "intermediate"
+  },
+  {
+    "word": "removal",
+    "chinese": "n. 移动, 移居, 迁移, 排除, 切除",
+    "ipa": "ri'mu:vl",
+    "rank": 2876,
+    "level": "intermediate"
+  },
+  {
+    "word": "easier",
+    "chinese": "a. 更简单",
+    "ipa": "'i:ziә",
+    "rank": 2877,
+    "level": "intermediate"
+  },
+  {
+    "word": "src",
+    "chinese": "[计] 标准要求代码, 同步遥控",
+    "ipa": "src",
+    "rank": 2878,
+    "level": "intermediate"
+  },
+  {
+    "word": "liability",
+    "chinese": "n. 责任, 债务, 倾向",
+    "ipa": "laiә'biliti",
+    "rank": 2879,
+    "level": "intermediate"
+  },
+  {
+    "word": "trademark",
+    "chinese": "n. 商标",
+    "ipa": "'treidmɑ:k",
+    "rank": 2880,
+    "level": "intermediate"
+  },
+  {
+    "word": "hip",
+    "chinese": "n. 臀部, 蔷薇果, 忧郁",
+    "ipa": "hip",
+    "rank": 2881,
+    "level": "intermediate"
+  },
+  {
+    "word": "printers",
+    "chinese": "n. 打印机",
+    "ipa": "ˈprɪnərz",
+    "rank": 2882,
+    "level": "intermediate"
+  },
+  {
+    "word": "faqs",
+    "chinese": "abbr. 常见问题解答（Frequently Asked Questions）",
+    "ipa": "faqs",
+    "rank": 2883,
+    "level": "intermediate"
+  },
+  {
+    "word": "nine",
+    "chinese": "num. 九, 九个",
+    "ipa": "nain",
+    "rank": 2884,
+    "level": "intermediate"
+  },
+  {
+    "word": "adding",
+    "chinese": "[计] 加法的",
+    "ipa": "'ædiŋ",
+    "rank": 2885,
+    "level": "intermediate"
+  },
+  {
+    "word": "kentucky",
+    "chinese": "n. 肯塔基州",
+    "ipa": "kәn'tʌki",
+    "rank": 2886,
+    "level": "intermediate"
+  },
+  {
+    "word": "mostly",
+    "chinese": "adv. 大概, 大部分, 主要",
+    "ipa": "'mәustli",
+    "rank": 2887,
+    "level": "intermediate"
+  },
+  {
+    "word": "eric",
+    "chinese": "abbr. 科教资源信息中心（Educational Resources Information Center）",
+    "ipa": "'erik",
+    "rank": 2888,
+    "level": "intermediate"
+  },
+  {
+    "word": "spot",
+    "chinese": "n. 污点, 地点, 斑点, 点, 娱乐场所, 处境, 少量",
+    "ipa": "spɒt",
+    "rank": 2889,
+    "level": "intermediate"
+  },
+  {
+    "word": "taylor",
+    "chinese": "n. 泰勒",
+    "ipa": "'teilә",
+    "rank": 2890,
+    "level": "intermediate"
+  },
+  {
+    "word": "trackback",
+    "chinese": "n. 引用",
+    "ipa": "trackback",
+    "rank": 2891,
+    "level": "intermediate"
+  },
+  {
+    "word": "prints",
+    "chinese": "n. 打印",
+    "ipa": "prɪnts",
+    "rank": 2892,
+    "level": "intermediate"
+  },
+  {
+    "word": "spend",
+    "chinese": "vt. 花费, 浪费, 度过, 消耗, 消磨",
+    "ipa": "spend",
+    "rank": 2893,
+    "level": "intermediate"
+  },
+  {
+    "word": "factory",
+    "chinese": "n. 工厂, 产生地, 代理店",
+    "ipa": "'fæktәri",
+    "rank": 2894,
+    "level": "intermediate"
+  },
+  {
+    "word": "interior",
+    "chinese": "n. 内部, 内政",
+    "ipa": "in'tiәriә",
+    "rank": 2895,
+    "level": "intermediate"
+  },
+  {
+    "word": "revised",
+    "chinese": "a. 改进的",
+    "ipa": "rɪˈvaɪzd",
+    "rank": 2896,
+    "level": "intermediate"
+  },
+  {
+    "word": "grow",
+    "chinese": "vt. 种植, 使长满",
+    "ipa": "grәu",
+    "rank": 2897,
+    "level": "intermediate"
+  },
+  {
+    "word": "americans",
+    "chinese": "n. 美国人（American的复数形式）",
+    "ipa": "əˈmɛrɪkənz",
+    "rank": 2898,
+    "level": "intermediate"
+  },
+  {
+    "word": "optical",
+    "chinese": "a. 眼睛的, 视觉的, 光学的",
+    "ipa": "'ɒptikl",
+    "rank": 2899,
+    "level": "intermediate"
+  },
+  {
+    "word": "promotion",
+    "chinese": "n. 晋级, 创建, 增进",
+    "ipa": "prәu'mәuʃәn",
+    "rank": 2900,
+    "level": "intermediate"
+  },
+  {
+    "word": "relative",
+    "chinese": "n. 亲戚, 关系词",
+    "ipa": "'relәtiv",
+    "rank": 2901,
+    "level": "intermediate"
+  },
+  {
+    "word": "amazing",
+    "chinese": "a. 令人惊异的",
+    "ipa": "ә'meiziŋ",
+    "rank": 2902,
+    "level": "intermediate"
+  },
+  {
+    "word": "clock",
+    "chinese": "n. 时钟, 计时器, (袜子上的)绣花边花",
+    "ipa": "klɒk",
+    "rank": 2903,
+    "level": "intermediate"
+  },
+  {
+    "word": "dot",
+    "chinese": "n. 点, 圆点, 小数点, 小东西, 嫁妆",
+    "ipa": "dɒt",
+    "rank": 2904,
+    "level": "intermediate"
+  },
+  {
+    "word": "hiv",
+    "chinese": "abbr. 艾滋病病毒（human immunodeficiency virus）",
+    "ipa": "hiv",
+    "rank": 2905,
+    "level": "intermediate"
+  },
+  {
+    "word": "identity",
+    "chinese": "n. 身份, 相同, 一致, 特性, 恒等式",
+    "ipa": "ai'dentiti",
+    "rank": 2906,
+    "level": "intermediate"
+  },
+  {
+    "word": "suites",
+    "chinese": "n. 套房",
+    "ipa": "swits",
+    "rank": 2907,
+    "level": "intermediate"
+  },
+  {
+    "word": "conversion",
+    "chinese": "n. 转变, 转换, 改变宗教信仰, 换位法",
+    "ipa": "kәn'vә:ʃәn",
+    "rank": 2908,
+    "level": "intermediate"
+  },
+  {
+    "word": "feeling",
+    "chinese": "n. 摸, 触觉, 知觉, 感觉, 情绪, 同情",
+    "ipa": "'fi:liŋ",
+    "rank": 2909,
+    "level": "intermediate"
+  },
+  {
+    "word": "hidden",
+    "chinese": "a. 隐藏的",
+    "ipa": "'hidn",
+    "rank": 2910,
+    "level": "intermediate"
+  },
+  {
+    "word": "reasonable",
+    "chinese": "a. 合理的, 明理的, 适当的",
+    "ipa": "'ri:znәbl",
+    "rank": 2911,
+    "level": "intermediate"
+  },
+  {
+    "word": "victoria",
+    "chinese": "n. 维多利亚（女子名）",
+    "ipa": "vik'tɔ:riә",
+    "rank": 2912,
+    "level": "intermediate"
+  },
+  {
+    "word": "serial",
+    "chinese": "n. 分期连载作品, 连载小说",
+    "ipa": "'siәriәl",
+    "rank": 2913,
+    "level": "intermediate"
+  },
+  {
+    "word": "relief",
+    "chinese": "n. 减轻, 解除, 救济, 安慰, 调剂, 浮雕, 换班, (地势的)起伏",
+    "ipa": "ri'li:f",
+    "rank": 2914,
+    "level": "intermediate"
+  },
+  {
+    "word": "revision",
+    "chinese": "n. 校订, 修正, 修订本, 修订版",
+    "ipa": "ri'viʒәn",
+    "rank": 2915,
+    "level": "intermediate"
+  },
+  {
+    "word": "broadband",
+    "chinese": "[计] 宽带",
+    "ipa": "'brɔ:dbænd",
+    "rank": 2916,
+    "level": "intermediate"
+  },
+  {
+    "word": "influence",
+    "chinese": "n. 影响力, 权力, 势力",
+    "ipa": "'influәns",
+    "rank": 2917,
+    "level": "intermediate"
+  },
+  {
+    "word": "ratio",
+    "chinese": "n. 比, 比率",
+    "ipa": "'reiʃәu",
+    "rank": 2918,
+    "level": "intermediate"
+  },
+  {
+    "word": "pda",
+    "chinese": "[计] 个人数字助手",
+    "ipa": "pda",
+    "rank": 2919,
+    "level": "intermediate"
+  },
+  {
+    "word": "importance",
+    "chinese": "n. 重要, 重要性, 重要地位, 自大",
+    "ipa": "im'pɒ:tәns",
+    "rank": 2920,
+    "level": "intermediate"
+  },
+  {
+    "word": "rain",
+    "chinese": "n. 雨, 下雨, 雨天",
+    "ipa": "rein",
+    "rank": 2921,
+    "level": "intermediate"
+  },
+  {
+    "word": "onto",
+    "chinese": "prep. 在...之上",
+    "ipa": "'ɒntu:",
+    "rank": 2922,
+    "level": "intermediate"
+  },
+  {
+    "word": "dsl",
+    "chinese": "[计] 数字仿真语言, 对话说明语言, 数据集标号",
+    "ipa": "dsl",
+    "rank": 2923,
+    "level": "intermediate"
+  },
+  {
+    "word": "planet",
+    "chinese": "n. 行星, 命运星辰, 杰出的人, 重大影响的事",
+    "ipa": "'plænit",
+    "rank": 2924,
+    "level": "intermediate"
+  },
+  {
+    "word": "webmaster",
+    "chinese": "n. 网络管理员",
+    "ipa": "'webmɑ:stә. -mæs-",
+    "rank": 2925,
+    "level": "intermediate"
+  },
+  {
+    "word": "copies",
+    "chinese": "n. 打印份数, 复印份数",
+    "ipa": "ˈkɑpiz",
+    "rank": 2926,
+    "level": "intermediate"
+  },
+  {
+    "word": "recipe",
+    "chinese": "n. 食谱, 处方, 秘诀",
+    "ipa": "'resipi",
+    "rank": 2927,
+    "level": "intermediate"
+  },
+  {
+    "word": "zum",
+    "chinese": "n. (Zum)人名",
+    "ipa": "zum",
+    "rank": 2928,
+    "level": "intermediate"
+  },
+  {
+    "word": "permit",
+    "chinese": "n. 许可证, 许可, 执照, 通行证",
+    "ipa": "pә'mit",
+    "rank": 2929,
+    "level": "intermediate"
+  },
+  {
+    "word": "seeing",
+    "chinese": "n. 视觉, 视力, 观看",
+    "ipa": "'si:iŋ",
+    "rank": 2930,
+    "level": "intermediate"
+  },
+  {
+    "word": "proof",
+    "chinese": "n. 证据, 证明, 试验, 检验, 考验",
+    "ipa": "pru:f",
+    "rank": 2931,
+    "level": "intermediate"
+  },
+  {
+    "word": "dna",
+    "chinese": "脱氧核糖核酸",
+    "ipa": "ˈdiˌɛˈneɪ",
+    "rank": 2932,
+    "level": "intermediate"
+  },
+  {
+    "word": "diff",
+    "chinese": "abbr. 扩散器（diffuser）",
+    "ipa": "dif",
+    "rank": 2933,
+    "level": "intermediate"
+  },
+  {
+    "word": "tennis",
+    "chinese": "n. 网球",
+    "ipa": "'tenis",
+    "rank": 2934,
+    "level": "intermediate"
+  },
+  {
+    "word": "bass",
+    "chinese": "n. 低沉的声音, 男低音, 椴树",
+    "ipa": "bæs",
+    "rank": 2935,
+    "level": "intermediate"
+  },
+  {
+    "word": "prescription",
+    "chinese": "n. 处方, 命令, 指定",
+    "ipa": "pri'skripʃәn",
+    "rank": 2936,
+    "level": "intermediate"
+  },
+  {
+    "word": "bedroom",
+    "chinese": "n. 卧室",
+    "ipa": "'bedrum",
+    "rank": 2937,
+    "level": "intermediate"
+  },
+  {
+    "word": "empty",
+    "chinese": "a. 空的, 空虚的, 空腹的, 空洞的",
+    "ipa": "'empti",
+    "rank": 2938,
+    "level": "intermediate"
+  },
+  {
+    "word": "instance",
+    "chinese": "n. 建议, 情况, 例子, 场合",
+    "ipa": "'instәns",
+    "rank": 2939,
+    "level": "intermediate"
+  },
+  {
+    "word": "hole",
+    "chinese": "n. 孔, 洞, 穴, 漏洞",
+    "ipa": "hәul",
+    "rank": 2940,
+    "level": "intermediate"
+  },
+  {
+    "word": "pets",
+    "chinese": "abbr. 公共英语等级考试（Public English Tset System）",
+    "ipa": "pets",
+    "rank": 2941,
+    "level": "intermediate"
+  },
+  {
+    "word": "ride",
+    "chinese": "n. 骑马, 乘坐, 乘车, 搭便车",
+    "ipa": "raid",
+    "rank": 2942,
+    "level": "intermediate"
+  },
+  {
+    "word": "licensed",
+    "chinese": "a. 得到许可的",
+    "ipa": "'laisnst",
+    "rank": 2943,
+    "level": "intermediate"
+  },
+  {
+    "word": "orlando",
+    "chinese": "n. 奥兰多（美国城市名, 男子名）",
+    "ipa": "ɔ:'lændәu",
+    "rank": 2944,
+    "level": "intermediate"
+  },
+  {
+    "word": "specifically",
+    "chinese": "adv. 特定地, 明确地, 按特性",
+    "ipa": "spi'sifikli",
+    "rank": 2945,
+    "level": "intermediate"
+  },
+  {
+    "word": "tim",
+    "chinese": "n. 蒂姆（男子名）",
+    "ipa": "tim",
+    "rank": 2946,
+    "level": "intermediate"
+  },
+  {
+    "word": "bureau",
+    "chinese": "n. 局, 办公处",
+    "ipa": "'bjuәrәu",
+    "rank": 2947,
+    "level": "intermediate"
+  },
+  {
+    "word": "maine",
+    "chinese": "n. 缅因州",
+    "ipa": "mein",
+    "rank": 2948,
+    "level": "intermediate"
+  },
+  {
+    "word": "sql",
+    "chinese": "[计] 结构化英语询问语言",
+    "ipa": "sql",
+    "rank": 2949,
+    "level": "intermediate"
+  },
+  {
+    "word": "represent",
+    "chinese": "vt. 表现, 表示, 描绘, 讲述, 代表, 象征, 回忆, 再赠送, 再上演",
+    "ipa": ".repri'zent",
+    "rank": 2950,
+    "level": "intermediate"
+  },
+  {
+    "word": "conservation",
+    "chinese": "n. 保护, 保存",
+    "ipa": ".kɒnsә'veiʃәn",
+    "rank": 2951,
+    "level": "intermediate"
+  },
+  {
+    "word": "pair",
+    "chinese": "n. 一双, 一对, 一副",
+    "ipa": "pєә",
+    "rank": 2952,
+    "level": "intermediate"
+  },
+  {
+    "word": "ideal",
+    "chinese": "n. 理想, 典范, 观念, 思想, 最后目标",
+    "ipa": "ai'diәl",
+    "rank": 2953,
+    "level": "intermediate"
+  },
+  {
+    "word": "specs",
+    "chinese": "n. 眼镜, 规格, 说明书",
+    "ipa": "speks",
+    "rank": 2954,
+    "level": "intermediate"
+  },
+  {
+    "word": "recorded",
+    "chinese": "a. 记录的",
+    "ipa": "rɪˈkɔrdɪd",
+    "rank": 2955,
+    "level": "intermediate"
+  },
+  {
+    "word": "don",
+    "chinese": "n. 西班牙贵族(或绅士), 先生, 阁下",
+    "ipa": "dɒn",
+    "rank": 2956,
+    "level": "intermediate"
+  },
+  {
+    "word": "pieces",
+    "chinese": "n. 匹头, 毛束",
+    "ipa": "ˈpisɪz",
+    "rank": 2957,
+    "level": "intermediate"
+  },
+  {
+    "word": "finished",
+    "chinese": "a. 完成的, 完结的, 精巧的, 完美的",
+    "ipa": "'finiʃt",
+    "rank": 2958,
+    "level": "intermediate"
+  },
+  {
+    "word": "parks",
+    "chinese": "n. 帕克斯（人名）",
+    "ipa": "pɑrks",
+    "rank": 2959,
+    "level": "intermediate"
+  },
+  {
+    "word": "dinner",
+    "chinese": "n. 晚餐, 正餐, 宴会",
+    "ipa": "'dinә",
+    "rank": 2960,
+    "level": "intermediate"
+  },
+  {
+    "word": "lawyers",
+    "chinese": "n. 律师（lawyer的复数）",
+    "ipa": "ˈlɔjərz",
+    "rank": 2961,
+    "level": "intermediate"
+  },
+  {
+    "word": "sydney",
+    "chinese": "n. 悉尼（澳大利亚港市）",
+    "ipa": "'sidni",
+    "rank": 2962,
+    "level": "intermediate"
+  },
+  {
+    "word": "stress",
+    "chinese": "n. 压力, 紧迫, 强调, 重音, 重点, 应力",
+    "ipa": "stres",
+    "rank": 2963,
+    "level": "intermediate"
+  },
+  {
+    "word": "cream",
+    "chinese": "n. 乳酪, 奶油, 面霜",
+    "ipa": "kri:m",
+    "rank": 2964,
+    "level": "intermediate"
+  },
+  {
+    "word": "ss",
+    "chinese": "[计] 子系统, 卫星系统, 源语句, 同步分类, 系统管理程序",
+    "ipa": "ss",
+    "rank": 2965,
+    "level": "intermediate"
+  },
+  {
+    "word": "runs",
+    "chinese": "n. 顺串",
+    "ipa": "rənz",
+    "rank": 2966,
+    "level": "intermediate"
+  },
+  {
+    "word": "trends",
+    "chinese": "n. 动态, 趋势",
+    "ipa": "trɛnz",
+    "rank": 2967,
+    "level": "intermediate"
+  },
+  {
+    "word": "yeah",
+    "chinese": "adv. (非正式)是, 是的",
+    "ipa": "jɑ:",
+    "rank": 2968,
+    "level": "intermediate"
+  },
+  {
+    "word": "discover",
+    "chinese": "vt. 发现, 找到, 暴露",
+    "ipa": "dis'kʌvә",
+    "rank": 2969,
+    "level": "intermediate"
+  },
+  {
+    "word": "sexo",
+    "chinese": "[医][=serum xanthine oxidase]血清次黄嘌呤氧化酶",
+    "ipa": "sexo",
+    "rank": 2970,
+    "level": "intermediate"
+  },
+  {
+    "word": "ap",
+    "chinese": "[计] 应付款, 美国专利, 应用程序, 运算处理器, 阵列处理器, 汇编程序",
+    "ipa": "ˌeɪˈpi",
+    "rank": 2971,
+    "level": "intermediate"
+  },
+  {
+    "word": "patterns",
+    "chinese": "n. 模式（pattern的复数形式）",
+    "ipa": "ˈpætərnz",
+    "rank": 2972,
+    "level": "intermediate"
+  },
+  {
+    "word": "boxes",
+    "chinese": "n. 小木箱, 盒子",
+    "ipa": "ˈbɑksɪz",
+    "rank": 2973,
+    "level": "intermediate"
+  },
+  {
+    "word": "louisiana",
+    "chinese": "n. 路易斯安那(美国州名)",
+    "ipa": "lu:.i:zi'ænә",
+    "rank": 2974,
+    "level": "intermediate"
+  },
+  {
+    "word": "hills",
+    "chinese": "n. 丘陵（hill的复数形式）",
+    "ipa": "hɪlz",
+    "rank": 2975,
+    "level": "intermediate"
+  },
+  {
+    "word": "javascript",
+    "chinese": "n. Java描述语言（一种程序语言）",
+    "ipa": "ˈʤɑvəˌskrɪpt",
+    "rank": 2976,
+    "level": "intermediate"
+  },
+  {
+    "word": "fourth",
+    "chinese": "num. 第四, 四分之一",
+    "ipa": "fɒ:θ",
+    "rank": 2977,
+    "level": "intermediate"
+  },
+  {
+    "word": "nm",
+    "chinese": "[计] 纳米, 毫微米",
+    "ipa": "nm",
+    "rank": 2978,
+    "level": "intermediate"
+  },
+  {
+    "word": "advisor",
+    "chinese": "n. 顾问, 劝告者, 指导教师",
+    "ipa": "әd'vaizә",
+    "rank": 2979,
+    "level": "intermediate"
+  },
+  {
+    "word": "mn",
+    "chinese": "[医] 锰(25号元素)",
+    "ipa": "mn",
+    "rank": 2980,
+    "level": "intermediate"
+  },
+  {
+    "word": "marketplace",
+    "chinese": "n. 市场",
+    "ipa": "'mɑ:kit'pleis",
+    "rank": 2981,
+    "level": "intermediate"
+  },
+  {
+    "word": "nd",
+    "chinese": "北达科地",
+    "ipa": "nd",
+    "rank": 2982,
+    "level": "intermediate"
+  },
+  {
+    "word": "evil",
+    "chinese": "n. 邪恶, 不幸, 罪恶",
+    "ipa": "'i:vl",
+    "rank": 2983,
+    "level": "intermediate"
+  },
+  {
+    "word": "aware",
+    "chinese": "a. 知道的, 有觉悟的",
+    "ipa": "ә'wєә",
+    "rank": 2984,
+    "level": "intermediate"
+  },
+  {
+    "word": "wilson",
+    "chinese": "n. 威尔逊（姓氏）",
+    "ipa": "'wilsn",
+    "rank": 2985,
+    "level": "intermediate"
+  },
+  {
+    "word": "shape",
+    "chinese": "n. 形状, 形态, 外形, 形式, 身材",
+    "ipa": "ʃeip",
+    "rank": 2986,
+    "level": "intermediate"
+  },
+  {
+    "word": "evolution",
+    "chinese": "n. 进化, 发展, 进展, (气体)放出, 开方",
+    "ipa": ".i:vә'lu:ʃәn",
+    "rank": 2987,
+    "level": "intermediate"
+  },
+  {
+    "word": "irish",
+    "chinese": "n. 爱尔兰人, 爱尔兰语",
+    "ipa": "'airiʃ",
+    "rank": 2988,
+    "level": "intermediate"
+  },
+  {
+    "word": "certificates",
+    "chinese": "n. 证明书, 执照( certificate的名词复数 )",
+    "ipa": "səˈtifikeits",
+    "rank": 2989,
+    "level": "intermediate"
+  },
+  {
+    "word": "objectives",
+    "chinese": "n. 目标( objective的名词复数 ); [光学]（望远镜、显微镜、照相机及其他光学仪器上的）物镜; [语法学]1)。 宾语 2)。 宾格; [军事]出",
+    "ipa": "əbd'ʒektɪvz",
+    "rank": 2990,
+    "level": "intermediate"
+  },
+  {
+    "word": "stations",
+    "chinese": "n. 车站",
+    "ipa": "ˈsteɪʃənz",
+    "rank": 2991,
+    "level": "intermediate"
+  },
+  {
+    "word": "suggested",
+    "chinese": "a. 建议的",
+    "ipa": "səˈʤɛstɪd",
+    "rank": 2992,
+    "level": "intermediate"
+  },
+  {
+    "word": "gps",
+    "chinese": "abbr. 全球定位系统（Global Position System）",
+    "ipa": "ˈgipiˈɛs",
+    "rank": 2993,
+    "level": "intermediate"
+  },
+  {
+    "word": "op",
+    "chinese": "观测所",
+    "ipa": "'әjp",
+    "rank": 2994,
+    "level": "intermediate"
+  },
+  {
+    "word": "remains",
+    "chinese": "n. 剩余物, 废墟, 残余",
+    "ipa": "ri'meins",
+    "rank": 2995,
+    "level": "intermediate"
+  },
+  {
+    "word": "acc",
+    "chinese": "[计] 累加, 累加器, 异步通信控制",
+    "ipa": "acc",
+    "rank": 2996,
+    "level": "intermediate"
+  },
+  {
+    "word": "greatest",
+    "chinese": "[计] 最大的",
+    "ipa": "'^reitist",
+    "rank": 2997,
+    "level": "intermediate"
+  },
+  {
+    "word": "firms",
+    "chinese": "n. 公司, 厂商（firm的复数）",
+    "ipa": "fərmz",
+    "rank": 2998,
+    "level": "intermediate"
+  },
+  {
+    "word": "concerned",
+    "chinese": "a. 关心的, 有关的, 参与的, 担心的",
+    "ipa": "kәn'sә:nd",
+    "rank": 2999,
+    "level": "intermediate"
+  },
+  {
+    "word": "euro",
+    "chinese": "n. 欧元（欧盟的统一货币单位）",
+    "ipa": "'juәrәu",
+    "rank": 3000,
+    "level": "intermediate"
+  },
+  {
+    "word": "operator",
+    "chinese": "n. 操作员, 行家, 经纪人, 算子, 运算符",
+    "ipa": "'ɒpәreitә",
+    "rank": 3001,
+    "level": "intermediate"
+  },
+  {
+    "word": "structures",
+    "chinese": "n. 结构",
+    "ipa": "ˈstrəkʧərz",
+    "rank": 3002,
+    "level": "intermediate"
+  },
+  {
+    "word": "generic",
+    "chinese": "a. 属类的, 一般的",
+    "ipa": "dʒi'nerik",
+    "rank": 3003,
+    "level": "intermediate"
+  },
+  {
+    "word": "encyclopedia",
+    "chinese": "n. 百科全书",
+    "ipa": "in.saiklәu'pi:diә",
+    "rank": 3004,
+    "level": "intermediate"
+  },
+  {
+    "word": "usage",
+    "chinese": "n. 用法, 使用, 习惯, 惯用法, 习惯法",
+    "ipa": "'ju:sidʒ",
+    "rank": 3005,
+    "level": "intermediate"
+  },
+  {
+    "word": "cap",
+    "chinese": "n. 盖子, 帽子",
+    "ipa": "kæp",
+    "rank": 3006,
+    "level": "intermediate"
+  },
+  {
+    "word": "ink",
+    "chinese": "n. 墨水, 墨汁",
+    "ipa": "iŋk",
+    "rank": 3007,
+    "level": "intermediate"
+  },
+  {
+    "word": "charts",
+    "chinese": "n. 图表",
+    "ipa": "tʃɑ:ts",
+    "rank": 3008,
+    "level": "intermediate"
+  },
+  {
+    "word": "continuing",
+    "chinese": "a. 继续的, 持续的, 连续的",
+    "ipa": "kәn'tinjuiŋ",
+    "rank": 3009,
+    "level": "intermediate"
+  },
+  {
+    "word": "mixed",
+    "chinese": "a. 混合的, 形形色色的, 弄糊涂的",
+    "ipa": "mikst",
+    "rank": 3010,
+    "level": "intermediate"
+  },
+  {
+    "word": "census",
+    "chinese": "n. 户口普查",
+    "ipa": "'sensәs",
+    "rank": 3011,
+    "level": "intermediate"
+  },
+  {
+    "word": "interracial",
+    "chinese": "a. 人种间的, 人种混合的",
+    "ipa": ".intә'reiʃjәl",
+    "rank": 3012,
+    "level": "intermediate"
+  },
+  {
+    "word": "peak",
+    "chinese": "n. 山峰, 巅, 山顶, 顶点, 尖峰, 帽舌",
+    "ipa": "pi:k",
+    "rank": 3013,
+    "level": "intermediate"
+  },
+  {
+    "word": "tn",
+    "chinese": "[计] 终端节点, 传送网络",
+    "ipa": "tn",
+    "rank": 3014,
+    "level": "intermediate"
+  },
+  {
+    "word": "competitive",
+    "chinese": "a. 竞争的",
+    "ipa": "kәm'petitiv",
+    "rank": 3015,
+    "level": "intermediate"
+  },
+  {
+    "word": "exist",
+    "chinese": "vi. 存在, 生存, 发生",
+    "ipa": "ig'zist",
+    "rank": 3016,
+    "level": "intermediate"
+  },
+  {
+    "word": "wheel",
+    "chinese": "n. 轮子, 车轮, 轮, 方向盘, 旋转, 机构, 重要人物",
+    "ipa": "hwi:l",
+    "rank": 3017,
+    "level": "intermediate"
+  },
+  {
+    "word": "transit",
+    "chinese": "n. 经过, 通行, 运输, 运输线, 转变",
+    "ipa": "'trænsit",
+    "rank": 3018,
+    "level": "intermediate"
+  },
+  {
+    "word": "dick",
+    "chinese": "n. 家伙, 词典, 誓言(书)",
+    "ipa": "dik",
+    "rank": 3019,
+    "level": "intermediate"
+  },
+  {
+    "word": "suppliers",
+    "chinese": "n. 供应商（supplier的复数）",
+    "ipa": "səˈplaɪərz",
+    "rank": 3020,
+    "level": "intermediate"
+  },
+  {
+    "word": "salt",
+    "chinese": "n. 盐, 风趣, 刺激",
+    "ipa": "sɒ:lt",
+    "rank": 3021,
+    "level": "intermediate"
+  },
+  {
+    "word": "compact",
+    "chinese": "a. 紧凑的, 紧密的, 简洁的",
+    "ipa": "kәm'pækt",
+    "rank": 3022,
+    "level": "intermediate"
+  },
+  {
+    "word": "poetry",
+    "chinese": "n. 诗, 韵文, 诗歌艺术",
+    "ipa": "'pәuitri",
+    "rank": 3023,
+    "level": "intermediate"
+  },
+  {
+    "word": "lights",
+    "chinese": "n. （供食用的）家畜的肺脏",
+    "ipa": "laits",
+    "rank": 3024,
+    "level": "intermediate"
+  },
+  {
+    "word": "tracking",
+    "chinese": "[计] 跟踪, 追踪",
+    "ipa": "'trækiŋ",
+    "rank": 3025,
+    "level": "intermediate"
+  },
+  {
+    "word": "angel",
+    "chinese": "n. 天使, 守护神, 善人",
+    "ipa": "'eindʒәl",
+    "rank": 3026,
+    "level": "intermediate"
+  },
+  {
+    "word": "bell",
+    "chinese": "n. 铃, 钟",
+    "ipa": "bel",
+    "rank": 3027,
+    "level": "intermediate"
+  },
+  {
+    "word": "keeping",
+    "chinese": "n. 保管, 供养, 一致",
+    "ipa": "'ki:piŋ",
+    "rank": 3028,
+    "level": "intermediate"
+  },
+  {
+    "word": "preparation",
+    "chinese": "n. 准备, 预备, 预习",
+    "ipa": ".prepә'reiʃәn",
+    "rank": 3029,
+    "level": "intermediate"
+  },
+  {
+    "word": "attempt",
+    "chinese": "n. 尝试, 企图",
+    "ipa": "ә'tempt",
+    "rank": 3030,
+    "level": "intermediate"
+  },
+  {
+    "word": "receiving",
+    "chinese": "[计] 接收",
+    "ipa": "ri'si:viŋ",
+    "rank": 3031,
+    "level": "intermediate"
+  },
+  {
+    "word": "matches",
+    "chinese": "n. 火柴",
+    "ipa": "ˈmæʧɪz",
+    "rank": 3032,
+    "level": "intermediate"
+  },
+  {
+    "word": "accordance",
+    "chinese": "n. 一致, 和谐",
+    "ipa": "ә'kɒ:dәns",
+    "rank": 3033,
+    "level": "intermediate"
+  },
+  {
+    "word": "width",
+    "chinese": "n. 宽度, 宽广, 广博",
+    "ipa": "widθ",
+    "rank": 3034,
+    "level": "intermediate"
+  },
+  {
+    "word": "noise",
+    "chinese": "n. 噪音, 杂音, 响声, 喧闹",
+    "ipa": "nɒiz",
+    "rank": 3035,
+    "level": "intermediate"
+  },
+  {
+    "word": "engines",
+    "chinese": "n. 火车头",
+    "ipa": "ˈɛnʤənz",
+    "rank": 3036,
+    "level": "intermediate"
+  },
+  {
+    "word": "forget",
+    "chinese": "vt. 忘记, 忽略, 忘",
+    "ipa": "fә'get",
+    "rank": 3037,
+    "level": "intermediate"
+  },
+  {
+    "word": "array",
+    "chinese": "n. 排列, 衣服, 大批, 军队",
+    "ipa": "ә'rei",
+    "rank": 3038,
+    "level": "intermediate"
+  },
+  {
+    "word": "discussed",
+    "chinese": "v. 商讨",
+    "ipa": "dɪˈskəst",
+    "rank": 3039,
+    "level": "intermediate"
+  },
+  {
+    "word": "accurate",
+    "chinese": "a. 正确的, 精确的",
+    "ipa": "'ækjurәt",
+    "rank": 3040,
+    "level": "intermediate"
+  },
+  {
+    "word": "stephen",
+    "chinese": "n. 斯蒂芬（男子名）",
+    "ipa": "'sti:vn",
+    "rank": 3041,
+    "level": "intermediate"
+  },
+  {
+    "word": "elizabeth",
+    "chinese": "n. 伊丽莎白（女子名）",
+    "ipa": "i'lizәbәθ",
+    "rank": 3042,
+    "level": "intermediate"
+  },
+  {
+    "word": "climate",
+    "chinese": "n. 气候, 社会趋势, 气候区",
+    "ipa": "'klaimit",
+    "rank": 3043,
+    "level": "intermediate"
+  },
+  {
+    "word": "reservations",
+    "chinese": "n. 保留",
+    "ipa": "ˌrɛzərˈveɪʃənz",
+    "rank": 3044,
+    "level": "intermediate"
+  },
+  {
+    "word": "pin",
+    "chinese": "n. 大头针, 针, 别针, 栓, 销子, 图钉, 插头, 管脚, 品(液量单位)",
+    "ipa": "pin",
+    "rank": 3045,
+    "level": "intermediate"
+  },
+  {
+    "word": "playstation",
+    "chinese": "n. 游戏机",
+    "ipa": "ˈpleɪˌsteɪʃən",
+    "rank": 3046,
+    "level": "intermediate"
+  },
+  {
+    "word": "alcohol",
+    "chinese": "n. 酒精, 酒",
+    "ipa": "'ælkәhɒl",
+    "rank": 3047,
+    "level": "intermediate"
+  },
+  {
+    "word": "greek",
+    "chinese": "n. 希腊人, 希腊语",
+    "ipa": "gri:k",
+    "rank": 3048,
+    "level": "intermediate"
+  },
+  {
+    "word": "instruction",
+    "chinese": "n. 指令, 教导, 命令",
+    "ipa": "in'strʌkʃәn",
+    "rank": 3049,
+    "level": "intermediate"
+  },
+  {
+    "word": "managing",
+    "chinese": "a. 管理的, 节约的",
+    "ipa": "'mænidʒiŋ",
+    "rank": 3050,
+    "level": "intermediate"
+  },
+  {
+    "word": "annotation",
+    "chinese": "n. 注解, 评注",
+    "ipa": "ænәu'teiʃәn",
+    "rank": 3051,
+    "level": "intermediate"
+  },
+  {
+    "word": "sister",
+    "chinese": "n. 姐妹, 姐, 妹, 护士, 修女",
+    "ipa": "'sistә",
+    "rank": 3052,
+    "level": "intermediate"
+  },
+  {
+    "word": "raw",
+    "chinese": "n. 擦伤处, 半成品",
+    "ipa": "rɒ:",
+    "rank": 3053,
+    "level": "intermediate"
+  },
+  {
+    "word": "differences",
+    "chinese": "n. 偏差, 差异（difference复数形式）",
+    "ipa": "ˈdɪfərənsɪz",
+    "rank": 3054,
+    "level": "intermediate"
+  },
+  {
+    "word": "walking",
+    "chinese": "n. 步行, 步态",
+    "ipa": "'wɒ:kiŋ",
+    "rank": 3055,
+    "level": "intermediate"
+  },
+  {
+    "word": "explain",
+    "chinese": "v. 解释, 说明",
+    "ipa": "ik'splein",
+    "rank": 3056,
+    "level": "intermediate"
+  },
+  {
+    "word": "smaller",
+    "chinese": "a. 较小, 更小的",
+    "ipa": "sˈmɔlər",
+    "rank": 3057,
+    "level": "intermediate"
+  },
+  {
+    "word": "newest",
+    "chinese": "最新",
+    "ipa": "nuəst",
+    "rank": 3058,
+    "level": "intermediate"
+  },
+  {
+    "word": "establish",
+    "chinese": "vt. 建立, 确立, 制定",
+    "ipa": "i'stæbliʃ",
+    "rank": 3059,
+    "level": "intermediate"
+  },
+  {
+    "word": "gnu",
+    "chinese": "n. 牛羚, 角马",
+    "ipa": "nju:",
+    "rank": 3060,
+    "level": "intermediate"
+  },
+  {
+    "word": "happened",
+    "chinese": "v. 发生（happen的过去式, 过去分词）",
+    "ipa": "ˈhæpənd",
+    "rank": 3061,
+    "level": "intermediate"
+  },
+  {
+    "word": "expressed",
+    "chinese": "v. 表达( express的过去式和过去分词 ); （用符号等）表示; 榨; [express oneself]（如在说话、写作或绘画中）表达（自己）的意见",
+    "ipa": "iksˈprest",
+    "rank": 3062,
+    "level": "intermediate"
+  },
+  {
+    "word": "jeff",
+    "chinese": "n. 杰夫（男子名, 等于Jeffrey）",
+    "ipa": "dʒef",
+    "rank": 3063,
+    "level": "intermediate"
+  },
+  {
+    "word": "extent",
+    "chinese": "n. 范围, 程度, 区域",
+    "ipa": "ik'stent",
+    "rank": 3064,
+    "level": "intermediate"
+  },
+  {
+    "word": "sharp",
+    "chinese": "n. 半升音调, 利刃, 骗子",
+    "ipa": "ʃɑ:p",
+    "rank": 3065,
+    "level": "intermediate"
+  },
+  {
+    "word": "lesbians",
+    "chinese": "n. 女同性恋者",
+    "ipa": "ˈlɛzbiənz",
+    "rank": 3066,
+    "level": "intermediate"
+  },
+  {
+    "word": "ben",
+    "chinese": "n. 内室",
+    "ipa": "ben",
+    "rank": 3067,
+    "level": "intermediate"
+  },
+  {
+    "word": "lane",
+    "chinese": "n. 小路, 巷, 弄, 单行道",
+    "ipa": "lein",
+    "rank": 3068,
+    "level": "intermediate"
+  },
+  {
+    "word": "paragraph",
+    "chinese": "n. 段落, 短评",
+    "ipa": "'pærәgrɑ:f",
+    "rank": 3069,
+    "level": "intermediate"
+  },
+  {
+    "word": "kill",
+    "chinese": "n. 杀, 杀戮, 小河",
+    "ipa": "kil",
+    "rank": 3070,
+    "level": "intermediate"
+  },
+  {
+    "word": "mathematics",
+    "chinese": "n. 数学",
+    "ipa": ".mæθә'mætiks",
+    "rank": 3071,
+    "level": "intermediate"
+  },
+  {
+    "word": "aol",
+    "chinese": "abbr. 美国境内提供线上加值网络服务的公司（American On Line）",
+    "ipa": "əˈmərɪkəˈɑnˌlaɪn",
+    "rank": 3072,
+    "level": "intermediate"
+  },
+  {
+    "word": "compensation",
+    "chinese": "n. 补偿, 赔偿金, 工资",
+    "ipa": ".kɒmpen'seiʃәn",
+    "rank": 3073,
+    "level": "intermediate"
+  },
+  {
+    "word": "ce",
+    "chinese": "[计] 组件选通",
+    "ipa": "ce",
+    "rank": 3074,
+    "level": "intermediate"
+  },
+  {
+    "word": "export",
+    "chinese": "n. 输出品, 输出",
+    "ipa": "ik'spɒ:t",
+    "rank": 3075,
+    "level": "intermediate"
+  },
+  {
+    "word": "managers",
+    "chinese": "n. 管理者, 经理（manager复数）",
+    "ipa": "ˈmænɪʤərz",
+    "rank": 3076,
+    "level": "intermediate"
+  },
+  {
+    "word": "aircraft",
+    "chinese": "n. 航空器, 飞机",
+    "ipa": "'єәkræft",
+    "rank": 3077,
+    "level": "intermediate"
+  },
+  {
+    "word": "modules",
+    "chinese": "n. 加载模块列表",
+    "ipa": "ˈmɑʤulz",
+    "rank": 3078,
+    "level": "intermediate"
+  },
+  {
+    "word": "sweden",
+    "chinese": "n. 瑞典",
+    "ipa": "'swi:dn",
+    "rank": 3079,
+    "level": "intermediate"
+  },
+  {
+    "word": "conflict",
+    "chinese": "n. 战斗, 冲突, 矛盾, 争执",
+    "ipa": "'kɒnflikt",
+    "rank": 3080,
+    "level": "intermediate"
+  },
+  {
+    "word": "conducted",
+    "chinese": "vt. 实施; 为人; 指挥（军队, 乐队等）; [物]传导（热, 电等）",
+    "ipa": "kənˈdʌktɪd",
+    "rank": 3081,
+    "level": "intermediate"
+  },
+  {
+    "word": "versions",
+    "chinese": "n. 版本",
+    "ipa": "ˈvərʒənz",
+    "rank": 3082,
+    "level": "intermediate"
+  },
+  {
+    "word": "employer",
+    "chinese": "n. 雇主, 老板",
+    "ipa": "im'plɒiә",
+    "rank": 3083,
+    "level": "intermediate"
+  },
+  {
+    "word": "occur",
+    "chinese": "vi. 发生, 被想到, 存在",
+    "ipa": "ә'kә:",
+    "rank": 3084,
+    "level": "intermediate"
+  },
+  {
+    "word": "percentage",
+    "chinese": "n. 百分比, 比率, 部分, 可能性",
+    "ipa": "pә'sentidʒ",
+    "rank": 3085,
+    "level": "intermediate"
+  },
+  {
+    "word": "knows",
+    "chinese": "v. 知道（know的第三人称单数形式）",
+    "ipa": "noʊz",
+    "rank": 3086,
+    "level": "intermediate"
+  },
+  {
+    "word": "mississippi",
+    "chinese": "n. 密西西比河, 密西西比州",
+    "ipa": ".misi'sipi",
+    "rank": 3087,
+    "level": "intermediate"
+  },
+  {
+    "word": "describe",
+    "chinese": "vt. 描述, 描绘, 画",
+    "ipa": "di'skraib",
+    "rank": 3088,
+    "level": "intermediate"
+  },
+  {
+    "word": "concern",
+    "chinese": "n. 关心, 忧虑",
+    "ipa": "kәn'sә:n",
+    "rank": 3089,
+    "level": "intermediate"
+  },
+  {
+    "word": "backup",
+    "chinese": "n. 倒车, 后退, 后援, 支持, 阻塞",
+    "ipa": "'bækʌp",
+    "rank": 3090,
+    "level": "intermediate"
+  },
+  {
+    "word": "requested",
+    "chinese": "a. 要求的",
+    "ipa": "rɪkˈwɛstɪd",
+    "rank": 3091,
+    "level": "intermediate"
+  },
+  {
+    "word": "citizens",
+    "chinese": "n. 市民",
+    "ipa": "ˈsɪtɪzənz",
+    "rank": 3092,
+    "level": "intermediate"
+  },
+  {
+    "word": "connecticut",
+    "chinese": "n. 康涅狄格",
+    "ipa": "kә'netikәt",
+    "rank": 3093,
+    "level": "intermediate"
+  },
+  {
+    "word": "heritage",
+    "chinese": "n. 遗产, 祖先遗留物, 继承物",
+    "ipa": "'heritidʒ",
+    "rank": 3094,
+    "level": "intermediate"
+  },
+  {
+    "word": "personals",
+    "chinese": "n. 人事广告栏",
+    "ipa": "ˈpərsɪnɪlz",
+    "rank": 3095,
+    "level": "intermediate"
+  },
+  {
+    "word": "immediate",
+    "chinese": "a. 立即的, 直接的, 接近的",
+    "ipa": "i'mi:diәt",
+    "rank": 3096,
+    "level": "intermediate"
+  },
+  {
+    "word": "holding",
+    "chinese": "n. 把持, 支持, 保持",
+    "ipa": "'hәuldiŋ",
+    "rank": 3097,
+    "level": "intermediate"
+  },
+  {
+    "word": "trouble",
+    "chinese": "n. 烦恼, 麻烦, 困难, 动乱, 故障",
+    "ipa": "'trʌbl",
+    "rank": 3098,
+    "level": "intermediate"
+  },
+  {
+    "word": "spread",
+    "chinese": "n. 传播, 散布, 伸展",
+    "ipa": "spred",
+    "rank": 3099,
+    "level": "intermediate"
+  },
+  {
+    "word": "coach",
+    "chinese": "n. 四轮大马车, 教练",
+    "ipa": "kәutʃ",
+    "rank": 3100,
+    "level": "intermediate"
+  },
+  {
+    "word": "kevin",
+    "chinese": "n. 凯文（男子名）",
+    "ipa": "'kenin",
+    "rank": 3101,
+    "level": "intermediate"
+  },
+  {
+    "word": "agricultural",
+    "chinese": "a. 农业的",
+    "ipa": ".ægri'kʌltʃәrәl",
+    "rank": 3102,
+    "level": "intermediate"
+  },
+  {
+    "word": "expand",
+    "chinese": "vt. 使膨胀, 详述, 扩张",
+    "ipa": "ik'spænd",
+    "rank": 3103,
+    "level": "intermediate"
+  },
+  {
+    "word": "supporting",
+    "chinese": "a. 次要的",
+    "ipa": "sә'pɔ:tiŋ",
+    "rank": 3104,
+    "level": "intermediate"
+  },
+  {
+    "word": "audience",
+    "chinese": "n. 听众, 观众, 读者",
+    "ipa": "'ɒ:diәns",
+    "rank": 3105,
+    "level": "intermediate"
+  },
+  {
+    "word": "assigned",
+    "chinese": "a. 已分配的",
+    "ipa": "əˈsaɪnd",
+    "rank": 3106,
+    "level": "intermediate"
+  },
+  {
+    "word": "jordan",
+    "chinese": "n. 约旦, 约旦河, 尿壶",
+    "ipa": "'dʒɒ:dәn",
+    "rank": 3107,
+    "level": "intermediate"
+  },
+  {
+    "word": "collections",
+    "chinese": "n. 集合物件",
+    "ipa": "kəˈlɛkʃənz",
+    "rank": 3108,
+    "level": "intermediate"
+  },
+  {
+    "word": "ages",
+    "chinese": "abbr. 晚期糖基化终末产物（Advanced Glycation End Products）",
+    "ipa": "ˈeɪʤɪz",
+    "rank": 3109,
+    "level": "intermediate"
+  },
+  {
+    "word": "participate",
+    "chinese": "vi. 参加, 分享, 参与, 带有",
+    "ipa": "pɑ:'tisipeit",
+    "rank": 3110,
+    "level": "intermediate"
+  },
+  {
+    "word": "plug",
+    "chinese": "n. 塞子, 栓, 插头",
+    "ipa": "plʌg",
+    "rank": 3111,
+    "level": "intermediate"
+  },
+  {
+    "word": "specialist",
+    "chinese": "n. 专门医师, 专家",
+    "ipa": "'speiʃәlist",
+    "rank": 3112,
+    "level": "intermediate"
+  },
+  {
+    "word": "cook",
+    "chinese": "n. 厨子, 厨师",
+    "ipa": "kuk",
+    "rank": 3113,
+    "level": "intermediate"
+  },
+  {
+    "word": "affect",
+    "chinese": "vt. 影响, 感动, 假装, 模仿, 爱好, 倾向于",
+    "ipa": "ә'fekt",
+    "rank": 3114,
+    "level": "intermediate"
+  },
+  {
+    "word": "virgin",
+    "chinese": "n. 处女",
+    "ipa": "'vә:dʒin",
+    "rank": 3115,
+    "level": "intermediate"
+  },
+  {
+    "word": "experienced",
+    "chinese": "a. 富有经验的, 老练的, 熟练的",
+    "ipa": "ik'spiәriәnst",
+    "rank": 3116,
+    "level": "intermediate"
+  },
+  {
+    "word": "investigation",
+    "chinese": "n. 调查, 审查",
+    "ipa": "in.vesti'geiʃәn",
+    "rank": 3117,
+    "level": "intermediate"
+  },
+  {
+    "word": "raised",
+    "chinese": "a. 凸起的, 浮雕的, 发酵的",
+    "ipa": "reizd",
+    "rank": 3118,
+    "level": "intermediate"
+  },
+  {
+    "word": "hat",
+    "chinese": "n. 帽子",
+    "ipa": "hæt",
+    "rank": 3119,
+    "level": "intermediate"
+  },
+  {
+    "word": "institution",
+    "chinese": "n. 机构, 惯例, 制度",
+    "ipa": ".insti'tju:ʃәn",
+    "rank": 3120,
+    "level": "intermediate"
+  },
+  {
+    "word": "directed",
+    "chinese": "a. 定向的",
+    "ipa": "di'rektid. dai-",
+    "rank": 3121,
+    "level": "intermediate"
+  },
+  {
+    "word": "dealers",
+    "chinese": "n. 交易商",
+    "ipa": "ˈdilərz",
+    "rank": 3122,
+    "level": "intermediate"
+  },
+  {
+    "word": "searching",
+    "chinese": "a. 搜索的, 遍寻的, 彻底的, 敏锐的",
+    "ipa": "'sә:tʃiŋ",
+    "rank": 3123,
+    "level": "intermediate"
+  },
+  {
+    "word": "sporting",
+    "chinese": "a. 喜好运动的, 运动用的, 冒险性的",
+    "ipa": "'spɒ:tiŋ",
+    "rank": 3124,
+    "level": "intermediate"
+  },
+  {
+    "word": "helping",
+    "chinese": "n. 帮助, 协助, 一份",
+    "ipa": "'helpiŋ",
+    "rank": 3125,
+    "level": "intermediate"
+  },
+  {
+    "word": "perl",
+    "chinese": "abbr. 实际抽取与汇报语言（Practical Extraction and Reporting Language）",
+    "ipa": "pərl",
+    "rank": 3126,
+    "level": "intermediate"
+  },
+  {
+    "word": "affected",
+    "chinese": "a. 假装的, 做作的, 受影响的",
+    "ipa": "ә'fektid",
+    "rank": 3127,
+    "level": "intermediate"
+  },
+  {
+    "word": "lib",
+    "chinese": "a. [口]解放的（等于liberal）",
+    "ipa": "lib",
+    "rank": 3128,
+    "level": "intermediate"
+  },
+  {
+    "word": "bike",
+    "chinese": "n. 自行车, 脚踏车",
+    "ipa": "baik",
+    "rank": 3129,
+    "level": "intermediate"
+  },
+  {
+    "word": "totally",
+    "chinese": "adv. 完全地",
+    "ipa": "'tәutli",
+    "rank": 3130,
+    "level": "intermediate"
+  },
+  {
+    "word": "plate",
+    "chinese": "n. 碟, 盘子, 盆中物, 金属板, 图版, 金银餐具, 印版, 金属牌(照)",
+    "ipa": "pleit",
+    "rank": 3131,
+    "level": "intermediate"
+  },
+  {
+    "word": "expenses",
+    "chinese": "n. 开支, 经费, 费用",
+    "ipa": "ɪkˈspɛnsɪz",
+    "rank": 3132,
+    "level": "intermediate"
+  },
+  {
+    "word": "indicate",
+    "chinese": "vt. 显示, 象征, 指示, 指出",
+    "ipa": "'indikeit",
+    "rank": 3133,
+    "level": "intermediate"
+  },
+  {
+    "word": "blonde",
+    "chinese": "a. (头发)亚麻色的, 淡色的, 白肤金发碧眼的, 白里透红的, 白皙的, 淡黄色的",
+    "ipa": "blɔnd",
+    "rank": 3134,
+    "level": "intermediate"
+  },
+  {
+    "word": "ab",
+    "chinese": "prep. 从, 自",
+    "ipa": "æb",
+    "rank": 3135,
+    "level": "intermediate"
+  },
+  {
+    "word": "proceedings",
+    "chinese": "n. 诉讼, 事项, 行径, 事件, 活动, 项目, 会议录, 记录汇编, 活动记录",
+    "ipa": "prəˈsidɪŋz",
+    "rank": 3136,
+    "level": "intermediate"
+  },
+  {
+    "word": "favourite",
+    "chinese": "n. 喜欢的事物",
+    "ipa": "'feivәrit",
+    "rank": 3137,
+    "level": "intermediate"
+  },
+  {
+    "word": "transmission",
+    "chinese": "n. 传输, 传送, 变速器",
+    "ipa": "træns'miʃәn",
+    "rank": 3138,
+    "level": "intermediate"
+  },
+  {
+    "word": "anderson",
+    "chinese": "n. 安德森市（美国印第安纳州）",
+    "ipa": "'ændәsn",
+    "rank": 3139,
+    "level": "intermediate"
+  },
+  {
+    "word": "utc",
+    "chinese": "abbr. 美国联合技术公司（United Technology Corporation）",
+    "ipa": "utc",
+    "rank": 3140,
+    "level": "intermediate"
+  },
+  {
+    "word": "characteristics",
+    "chinese": "n. 特性, 特征",
+    "ipa": ".kærәktә'ristiks",
+    "rank": 3141,
+    "level": "intermediate"
+  },
+  {
+    "word": "der",
+    "chinese": "abbr. 区分编码规则（Distinguished Encoding Rules）",
+    "ipa": "dər",
+    "rank": 3142,
+    "level": "intermediate"
+  },
+  {
+    "word": "lose",
+    "chinese": "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于",
+    "ipa": "lu:z",
+    "rank": 3143,
+    "level": "intermediate"
+  },
+  {
+    "word": "organic",
+    "chinese": "a. 器官的, 有机的, 组织的, 根本的",
+    "ipa": "ɒ:'gænik",
+    "rank": 3144,
+    "level": "intermediate"
+  },
+  {
+    "word": "seek",
+    "chinese": "vt. 寻求, 寻找, 探索, 追求, 搜索, 请求",
+    "ipa": "si:k",
+    "rank": 3145,
+    "level": "intermediate"
+  },
+  {
+    "word": "experiences",
+    "chinese": "n. 经历( experience的名词复数 ); 经验; 亲身经历; 传统",
+    "ipa": "iksˈpiəriənsiz",
+    "rank": 3146,
+    "level": "intermediate"
+  },
+  {
+    "word": "albums",
+    "chinese": "n. 相簿, 相册",
+    "ipa": "ˈælbəmz",
+    "rank": 3147,
+    "level": "intermediate"
+  },
+  {
+    "word": "cheats",
+    "chinese": "n. 骗子（cheat的复数形式）",
+    "ipa": "ʧits",
+    "rank": 3148,
+    "level": "intermediate"
+  },
+  {
+    "word": "extremely",
+    "chinese": "adv. 极端地, 非常地",
+    "ipa": "ik'stri:mli",
+    "rank": 3149,
+    "level": "intermediate"
+  },
+  {
+    "word": "verzeichnis",
+    "chinese": "韦尔泽希尼斯",
+    "ipa": "verzeichnis",
+    "rank": 3150,
+    "level": "intermediate"
+  },
+  {
+    "word": "contracts",
+    "chinese": "n. 契约( contract的名词复数 ); 婚约; [法律]契约法; 行贿",
+    "ipa": "kənˈtrækts",
+    "rank": 3151,
+    "level": "intermediate"
+  },
+  {
+    "word": "guests",
+    "chinese": "n. 客人",
+    "ipa": "gɛsts",
+    "rank": 3152,
+    "level": "intermediate"
+  },
+  {
+    "word": "hosted",
+    "chinese": "v. （作为主人）款待, 招待（客人）",
+    "ipa": "ˈhoʊstɪd",
+    "rank": 3153,
+    "level": "intermediate"
+  },
+  {
+    "word": "diseases",
+    "chinese": "n. 病害",
+    "ipa": "dɪˈzizɪz",
+    "rank": 3154,
+    "level": "intermediate"
+  },
+  {
+    "word": "concerning",
+    "chinese": "prep. 关于",
+    "ipa": "kәn'sә:niŋ",
+    "rank": 3155,
+    "level": "intermediate"
+  },
+  {
+    "word": "developers",
+    "chinese": "n. 开发者( developer的复数形式 ); 研制者; 显影剂; 显色剂",
+    "ipa": "dɪ'veləpəz",
+    "rank": 3156,
+    "level": "intermediate"
+  },
+  {
+    "word": "equivalent",
+    "chinese": "n. 同等物, 等价物, 相等物",
+    "ipa": "i'kwivәlәnt",
+    "rank": 3157,
+    "level": "intermediate"
+  },
+  {
+    "word": "chemistry",
+    "chinese": "n. 化学, 化学过程",
+    "ipa": "'kemistri",
+    "rank": 3158,
+    "level": "intermediate"
+  },
+  {
+    "word": "tony",
+    "chinese": "a. 高贵的, 时髦的",
+    "ipa": "'tәuni",
+    "rank": 3159,
+    "level": "intermediate"
+  },
+  {
+    "word": "neighborhood",
+    "chinese": "n. 附近, 邻近",
+    "ipa": "'neibәhud",
+    "rank": 3160,
+    "level": "intermediate"
+  },
+  {
+    "word": "nevada",
+    "chinese": "n. 内华达",
+    "ipa": "ni'vædә",
+    "rank": 3161,
+    "level": "intermediate"
+  },
+  {
+    "word": "kits",
+    "chinese": "n. 装备",
+    "ipa": "kɪts",
+    "rank": 3162,
+    "level": "intermediate"
+  },
+  {
+    "word": "thailand",
+    "chinese": "n. 泰国",
+    "ipa": "'tailәnd",
+    "rank": 3163,
+    "level": "intermediate"
+  },
+  {
+    "word": "variables",
+    "chinese": "n. 变量",
+    "ipa": "ˈvɛriəbəlz",
+    "rank": 3164,
+    "level": "intermediate"
+  },
+  {
+    "word": "agenda",
+    "chinese": "pl. 议程, 日常工作事项",
+    "ipa": "ә'dʒendә",
+    "rank": 3165,
+    "level": "intermediate"
+  },
+  {
+    "word": "anyway",
+    "chinese": "adv. 无论如何, 至少",
+    "ipa": "'eniwei",
+    "rank": 3166,
+    "level": "intermediate"
+  },
+  {
+    "word": "continues",
+    "chinese": "v. 继续",
+    "ipa": "kənˈtɪnjuz",
+    "rank": 3167,
+    "level": "intermediate"
+  },
+  {
+    "word": "tracks",
+    "chinese": "n. 轮胎",
+    "ipa": "træks",
+    "rank": 3168,
+    "level": "intermediate"
+  },
+  {
+    "word": "advisory",
+    "chinese": "a. 顾问的, 咨询的, 劝告的",
+    "ipa": "әd'vaizәri",
+    "rank": 3169,
+    "level": "intermediate"
+  },
+  {
+    "word": "cam",
+    "chinese": "n. 凸轮, 计算机辅助制造, 中央地址存储器",
+    "ipa": "kæm",
+    "rank": 3170,
+    "level": "intermediate"
+  },
+  {
+    "word": "curriculum",
+    "chinese": "n. 课程",
+    "ipa": "kә'rikjulәm",
+    "rank": 3171,
+    "level": "intermediate"
+  },
+  {
+    "word": "logic",
+    "chinese": "n. 逻辑, 逻辑学, 推理的方法, 推理, 逻辑性",
+    "ipa": "'lɒdʒik",
+    "rank": 3172,
+    "level": "intermediate"
+  },
+  {
+    "word": "template",
+    "chinese": "n. 样板, 模板, 垫木",
+    "ipa": "'templit",
+    "rank": 3173,
+    "level": "intermediate"
+  },
+  {
+    "word": "prince",
+    "chinese": "n. 王子, 亲王, 国君, 贵族, 诸侯, 有权势的大人物",
+    "ipa": "prins",
+    "rank": 3174,
+    "level": "intermediate"
+  },
+  {
+    "word": "circle",
+    "chinese": "n. 圆周, 社交圈, 循环, 范围",
+    "ipa": "'sә:kl",
+    "rank": 3175,
+    "level": "intermediate"
+  },
+  {
+    "word": "soil",
+    "chinese": "n. 土壤, 土地, 国家, 国土, 温床, 污物, 粪便, 水池",
+    "ipa": "sɒil",
+    "rank": 3176,
+    "level": "intermediate"
+  },
+  {
+    "word": "grants",
+    "chinese": "[经] 补助金, 拨款, 津贴",
+    "ipa": "grænts",
+    "rank": 3177,
+    "level": "intermediate"
+  },
+  {
+    "word": "anywhere",
+    "chinese": "adv. 无论何处",
+    "ipa": "'enihwєә",
+    "rank": 3178,
+    "level": "intermediate"
+  },
+  {
+    "word": "psychology",
+    "chinese": "n. 心理学, 心理状态",
+    "ipa": "sai'kɒlәdʒi",
+    "rank": 3179,
+    "level": "intermediate"
+  },
+  {
+    "word": "responses",
+    "chinese": "n. 响应回应",
+    "ipa": "rɪˈspɑnsɪz",
+    "rank": 3180,
+    "level": "intermediate"
+  },
+  {
+    "word": "atlantic",
+    "chinese": "n. 大西洋",
+    "ipa": "әt'læntik",
+    "rank": 3181,
+    "level": "intermediate"
+  },
+  {
+    "word": "wet",
+    "chinese": "n. 湿气, 潮湿, 水分, 雨天",
+    "ipa": "wet",
+    "rank": 3182,
+    "level": "intermediate"
+  },
+  {
+    "word": "circumstances",
+    "chinese": "[法] 事件, 事项, 详细情节",
+    "ipa": "ˈsərkəmˌstænsɪz",
+    "rank": 3183,
+    "level": "intermediate"
+  },
+  {
+    "word": "edward",
+    "chinese": "n. 爱德华（男子名）",
+    "ipa": "'edwәd",
+    "rank": 3184,
+    "level": "intermediate"
+  },
+  {
+    "word": "investor",
+    "chinese": "n. 投资者",
+    "ipa": "in'vestә",
+    "rank": 3185,
+    "level": "intermediate"
+  },
+  {
+    "word": "identification",
+    "chinese": "n. 识别, 身份证明, 认同",
+    "ipa": "ai.dentifi'keiʃәn",
+    "rank": 3186,
+    "level": "intermediate"
+  },
+  {
+    "word": "ram",
+    "chinese": "n. 公羊, 撞锤",
+    "ipa": "ræm",
+    "rank": 3187,
+    "level": "intermediate"
+  },
+  {
+    "word": "leaving",
+    "chinese": "n. 离开",
+    "ipa": "'li:viŋ",
+    "rank": 3188,
+    "level": "intermediate"
+  },
+  {
+    "word": "wildlife",
+    "chinese": "n. 野生动植物",
+    "ipa": "'waildlaif",
+    "rank": 3189,
+    "level": "intermediate"
+  },
+  {
+    "word": "appliances",
+    "chinese": "电气用具",
+    "ipa": "əˈplaɪənsɪz",
+    "rank": 3190,
+    "level": "intermediate"
+  },
+  {
+    "word": "matt",
+    "chinese": "a. 表面暗淡的, 无光泽的, 表面粗糙的, 不光滑的",
+    "ipa": "mæt",
+    "rank": 3191,
+    "level": "intermediate"
+  },
+  {
+    "word": "elementary",
+    "chinese": "a. 初步的, 基本的",
+    "ipa": ".eli'mentәri",
+    "rank": 3192,
+    "level": "intermediate"
+  },
+  {
+    "word": "cooking",
+    "chinese": "n. 烹饪",
+    "ipa": "'kukiŋ",
+    "rank": 3193,
+    "level": "intermediate"
+  },
+  {
+    "word": "speaking",
+    "chinese": "n. 谈话, 演说",
+    "ipa": "'spi:kiŋ",
+    "rank": 3194,
+    "level": "intermediate"
+  },
+  {
+    "word": "sponsors",
+    "chinese": "n. 保人( sponsor的名词复数 ); （广播电视节目、音乐会或运动会的）赞助者; （培训或教育的）资助者; （法案等的）倡议者",
+    "ipa": "ˈspɔnsəz",
+    "rank": 3195,
+    "level": "intermediate"
+  },
+  {
+    "word": "fox",
+    "chinese": "n. 狐狸, 狡猾的人",
+    "ipa": "fɒks",
+    "rank": 3196,
+    "level": "intermediate"
+  },
+  {
+    "word": "unlimited",
+    "chinese": "a. 无限的, 不受限制的, 无条件的",
+    "ipa": ".ʌn'limitid",
+    "rank": 3197,
+    "level": "intermediate"
+  },
+  {
+    "word": "respond",
+    "chinese": "vt. 以...回答",
+    "ipa": "ri'spɒnd",
+    "rank": 3198,
+    "level": "intermediate"
+  },
+  {
+    "word": "sizes",
+    "chinese": "n. 象素显示尺寸, 尺寸（size复数形式）",
+    "ipa": "ˈsaɪzɪz",
+    "rank": 3199,
+    "level": "intermediate"
+  },
+  {
+    "word": "plain",
+    "chinese": "n. 平原, 草原, 朴实无华的东西, 无格式",
+    "ipa": "plein",
+    "rank": 3200,
+    "level": "intermediate"
+  },
+  {
+    "word": "exit",
+    "chinese": "n. 出口, 退场, 离去, 去世",
+    "ipa": "'eksit",
+    "rank": 3201,
+    "level": "intermediate"
+  },
+  {
+    "word": "entered",
+    "chinese": "a. 进入的",
+    "ipa": "ˈɛnərd",
+    "rank": 3202,
+    "level": "intermediate"
+  },
+  {
+    "word": "iran",
+    "chinese": "n. 伊朗",
+    "ipa": "i'rɑ:n",
+    "rank": 3203,
+    "level": "intermediate"
+  },
+  {
+    "word": "arm",
+    "chinese": "n. 手臂, 袖子, 狭长港湾, 武器",
+    "ipa": "ɑ:m",
+    "rank": 3204,
+    "level": "intermediate"
+  },
+  {
+    "word": "keys",
+    "chinese": "n. 关键帧",
+    "ipa": "kiz",
+    "rank": 3205,
+    "level": "intermediate"
+  },
+  {
+    "word": "launch",
+    "chinese": "n. 下水, 汽艇, 发射",
+    "ipa": "lɒ:ntʃ",
+    "rank": 3206,
+    "level": "intermediate"
+  },
+  {
+    "word": "wave",
+    "chinese": "n. 波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变",
+    "ipa": "weiv",
+    "rank": 3207,
+    "level": "intermediate"
+  },
+  {
+    "word": "checking",
+    "chinese": "[计] 检查的",
+    "ipa": "'tʃekiŋ",
+    "rank": 3208,
+    "level": "intermediate"
+  },
+  {
+    "word": "costa",
+    "chinese": "n. 肋骨, 肋脉, 叶的中脉",
+    "ipa": "'kɒstә",
+    "rank": 3209,
+    "level": "intermediate"
+  },
+  {
+    "word": "belgium",
+    "chinese": "n. 比利时",
+    "ipa": "'beldʒәm",
+    "rank": 3210,
+    "level": "intermediate"
+  },
+  {
+    "word": "printable",
+    "chinese": "a. 可印刷的, 适于出版的",
+    "ipa": "'printәbl",
+    "rank": 3211,
+    "level": "intermediate"
+  },
+  {
+    "word": "holy",
+    "chinese": "a. 神圣的, 圣洁的, 至善的",
+    "ipa": "'hәuli",
+    "rank": 3212,
+    "level": "intermediate"
+  },
+  {
+    "word": "acts",
+    "chinese": "abbr. 声控遥测系统（Acoustic Control and Telemetry System）",
+    "ipa": "ækts",
+    "rank": 3213,
+    "level": "intermediate"
+  },
+  {
+    "word": "guidance",
+    "chinese": "n. 指导, 领导",
+    "ipa": "'gaidns",
+    "rank": 3214,
+    "level": "intermediate"
+  },
+  {
+    "word": "mesh",
+    "chinese": "n. 网孔, 网丝, 网眼, 网状物, 圈套, 陷阱, 啮合",
+    "ipa": "meʃ",
+    "rank": 3215,
+    "level": "intermediate"
+  },
+  {
+    "word": "trail",
+    "chinese": "n. 踪迹, 痕迹, 一串, 尾部, 小径, 持枪姿势",
+    "ipa": "treil",
+    "rank": 3216,
+    "level": "intermediate"
+  },
+  {
+    "word": "enforcement",
+    "chinese": "n. 执行, 强制",
+    "ipa": "in'fɒ:smәnt",
+    "rank": 3217,
+    "level": "intermediate"
+  },
+  {
+    "word": "symbol",
+    "chinese": "n. 符号, 象征, 代号, 信条",
+    "ipa": "'simbl",
+    "rank": 3218,
+    "level": "intermediate"
+  },
+  {
+    "word": "crafts",
+    "chinese": "n. 工艺品, 手艺（craft的复数形式）",
+    "ipa": "kræfts",
+    "rank": 3219,
+    "level": "intermediate"
+  },
+  {
+    "word": "highway",
+    "chinese": "n. 公路, 大道, 捷径",
+    "ipa": "'haiwei",
+    "rank": 3220,
+    "level": "intermediate"
+  },
+  {
+    "word": "buddy",
+    "chinese": "n. 好朋友, 伙伴",
+    "ipa": "'bʌdi",
+    "rank": 3221,
+    "level": "intermediate"
+  },
+  {
+    "word": "hardcover",
+    "chinese": "a. 硬书皮的",
+    "ipa": "'hɑ:dkʌvә",
+    "rank": 3222,
+    "level": "intermediate"
+  },
+  {
+    "word": "observed",
+    "chinese": "a. 观测的",
+    "ipa": "əbˈzərvd",
+    "rank": 3223,
+    "level": "intermediate"
+  },
+  {
+    "word": "dean",
+    "chinese": "n. 院长, 主持牧师",
+    "ipa": "di:n",
+    "rank": 3224,
+    "level": "intermediate"
+  },
+  {
+    "word": "setup",
+    "chinese": "n. 装备, 组织, 计划, 机构, 调整, 设置",
+    "ipa": "'setʌp",
+    "rank": 3225,
+    "level": "intermediate"
+  },
+  {
+    "word": "poll",
+    "chinese": "n. 投票, 民意测验, 选举投票, 投票数, 一组人中的一个, 头颈和后脑部, 鹦鹉",
+    "ipa": "pәul",
+    "rank": 3226,
+    "level": "intermediate"
+  },
+  {
+    "word": "booking",
+    "chinese": "n. 预约演出合同",
+    "ipa": "'bukiŋ",
+    "rank": 3227,
+    "level": "intermediate"
+  },
+  {
+    "word": "glossary",
+    "chinese": "n. 专业词典, 术语集, 词表",
+    "ipa": "'glɒsәri",
+    "rank": 3228,
+    "level": "intermediate"
+  },
+  {
+    "word": "fiscal",
+    "chinese": "a. 财政的, 国库的",
+    "ipa": "'fiskәl",
+    "rank": 3229,
+    "level": "intermediate"
+  },
+  {
+    "word": "celebrity",
+    "chinese": "n. 名声, 名人",
+    "ipa": "si'lebrti",
+    "rank": 3230,
+    "level": "intermediate"
+  },
+  {
+    "word": "styles",
+    "chinese": "n. 风格",
+    "ipa": "staɪlz",
+    "rank": 3231,
+    "level": "intermediate"
+  },
+  {
+    "word": "denver",
+    "chinese": "n. 丹佛(美国城市)",
+    "ipa": "'denvә",
+    "rank": 3232,
+    "level": "intermediate"
+  },
+  {
+    "word": "unix",
+    "chinese": "UNIX操作系统",
+    "ipa": "ˈjunɪks",
+    "rank": 3233,
+    "level": "intermediate"
+  },
+  {
+    "word": "filled",
+    "chinese": "a. 加满的",
+    "ipa": "fild",
+    "rank": 3234,
+    "level": "intermediate"
+  },
+  {
+    "word": "bond",
+    "chinese": "n. 捆绑物, 结合, 债券, 契约, 粘合剂, 保证人, 键, 关栈保留",
+    "ipa": "bɒnd",
+    "rank": 3235,
+    "level": "intermediate"
+  },
+  {
+    "word": "channels",
+    "chinese": "n. 通道",
+    "ipa": "ˈʧænəlz",
+    "rank": 3236,
+    "level": "intermediate"
+  },
+  {
+    "word": "ericsson",
+    "chinese": "n. 爱立信公司",
+    "ipa": "ˈɛrɪksən",
+    "rank": 3237,
+    "level": "intermediate"
+  },
+  {
+    "word": "appendix",
+    "chinese": "n. 附录, 附加物, 阑尾",
+    "ipa": "ә'pendiks",
+    "rank": 3238,
+    "level": "intermediate"
+  },
+  {
+    "word": "notify",
+    "chinese": "vt. 通知, 通告, 报告",
+    "ipa": "'nәutifai",
+    "rank": 3239,
+    "level": "intermediate"
+  },
+  {
+    "word": "blues",
+    "chinese": "n. 勃鲁斯乐曲, (非正式)伤感的, 伤心的",
+    "ipa": "blu:z",
+    "rank": 3240,
+    "level": "intermediate"
+  },
+  {
+    "word": "chocolate",
+    "chinese": "n. 巧克力",
+    "ipa": "'tʃɒkәlit",
+    "rank": 3241,
+    "level": "intermediate"
+  },
+  {
+    "word": "pub",
+    "chinese": "n. 酒馆, 客栈",
+    "ipa": "pʌb",
+    "rank": 3242,
+    "level": "intermediate"
+  },
+  {
+    "word": "portion",
+    "chinese": "n. 部分, 一份, 命运, 嫁妆",
+    "ipa": "'pɒ:ʃәn",
+    "rank": 3243,
+    "level": "intermediate"
+  },
+  {
+    "word": "scope",
+    "chinese": "n. 范围, 机会, 广度, 眼界, 观察仪器, 导弹射程",
+    "ipa": "skәup",
+    "rank": 3244,
+    "level": "intermediate"
+  },
+  {
+    "word": "hampshire",
+    "chinese": "n. 汉普郡（英国南部之一郡）",
+    "ipa": "'hæmpʃiә",
+    "rank": 3245,
+    "level": "intermediate"
+  },
+  {
+    "word": "supplier",
+    "chinese": "n. 供应者, 供给国, 供应商",
+    "ipa": "sә'plaiә",
+    "rank": 3246,
+    "level": "intermediate"
+  },
+  {
+    "word": "cables",
+    "chinese": "n. 电缆",
+    "ipa": "ˈkeɪbəlz",
+    "rank": 3247,
+    "level": "intermediate"
+  },
+  {
+    "word": "cotton",
+    "chinese": "n. 棉花",
+    "ipa": "'kɒtn",
+    "rank": 3248,
+    "level": "intermediate"
+  },
+  {
+    "word": "bluetooth",
+    "chinese": "n. 蓝牙技术（一种无线通信的标准）",
+    "ipa": "ˈbluˌtuθ",
+    "rank": 3249,
+    "level": "intermediate"
+  },
+  {
+    "word": "controlled",
+    "chinese": "a. 受约束的, 克制的",
+    "ipa": "kәn'trәuld",
+    "rank": 3250,
+    "level": "intermediate"
+  },
+  {
+    "word": "requirement",
+    "chinese": "n. 需求, 必要条件, 要求",
+    "ipa": "ri'kwaiәmәnt",
+    "rank": 3251,
+    "level": "intermediate"
+  },
+  {
+    "word": "authorities",
+    "chinese": "n. 当局, 官方（authority的复数）",
+    "ipa": "əˈθɔrətiz",
+    "rank": 3252,
+    "level": "intermediate"
+  },
+  {
+    "word": "biology",
+    "chinese": "n. 生物学",
+    "ipa": "bai'ɒlәdʒi",
+    "rank": 3253,
+    "level": "intermediate"
+  },
+  {
+    "word": "dental",
+    "chinese": "a. 牙齿的",
+    "ipa": "'dentl",
+    "rank": 3254,
+    "level": "intermediate"
+  },
+  {
+    "word": "killed",
+    "chinese": "a. 被杀死的, 被屠宰的, 镇静的",
+    "ipa": "'kild",
+    "rank": 3255,
+    "level": "intermediate"
+  },
+  {
+    "word": "border",
+    "chinese": "n. 边缘, 边境, 边界, 花坛",
+    "ipa": "'bɒ:dә",
+    "rank": 3256,
+    "level": "intermediate"
+  },
+  {
+    "word": "ancient",
+    "chinese": "a. 古代的, 古老的, 年老的, 旧的",
+    "ipa": "'einʃәnt",
+    "rank": 3257,
+    "level": "intermediate"
+  },
+  {
+    "word": "debate",
+    "chinese": "n. 辩论, 讨论",
+    "ipa": "di'beit",
+    "rank": 3258,
+    "level": "intermediate"
+  },
+  {
+    "word": "representatives",
+    "chinese": "n. 代表( representative的复数形式 ); 代理人; 典型人物; [常作 R-]（美国）众议院议员",
+    "ipa": "reprɪ'zentətɪvz",
+    "rank": 3259,
+    "level": "intermediate"
+  },
+  {
+    "word": "starts",
+    "chinese": "n. 开创",
+    "ipa": "stɑrts",
+    "rank": 3260,
+    "level": "intermediate"
+  },
+  {
+    "word": "pregnancy",
+    "chinese": "n. 怀孕",
+    "ipa": "'preɡnәnsi",
+    "rank": 3261,
+    "level": "intermediate"
+  },
+  {
+    "word": "causes",
+    "chinese": "n. 原因",
+    "ipa": "ˈkɔzɪz",
+    "rank": 3262,
+    "level": "intermediate"
+  },
+  {
+    "word": "arkansas",
+    "chinese": "n. 阿肯色州",
+    "ipa": "'ɑ:kәnsɒ:",
+    "rank": 3263,
+    "level": "intermediate"
+  },
+  {
+    "word": "biography",
+    "chinese": "n. 传记",
+    "ipa": "bai'ɒgrәfi",
+    "rank": 3264,
+    "level": "intermediate"
+  },
+  {
+    "word": "leisure",
+    "chinese": "n. 空闲, 闲暇, 悠闲",
+    "ipa": "'li:ʒә",
+    "rank": 3265,
+    "level": "intermediate"
+  },
+  {
+    "word": "attractions",
+    "chinese": "n. 吸引( attraction的复数形式 ); 具有吸引力的事物; 有吸引力的特征（或品质、人）; （尤指两性间的）爱慕",
+    "ipa": "ət'rækʃnz",
+    "rank": 3266,
+    "level": "intermediate"
+  },
+  {
+    "word": "learned",
+    "chinese": "a. 有学问的, 学术上的",
+    "ipa": "'lә:nid",
+    "rank": 3267,
+    "level": "intermediate"
+  },
+  {
+    "word": "transactions",
+    "chinese": "n. 处理, 会报",
+    "ipa": "trænˈzækʃənz",
+    "rank": 3268,
+    "level": "intermediate"
+  },
+  {
+    "word": "notebook",
+    "chinese": "n. 笔记本, 手册, 期票簿",
+    "ipa": "'nәutbuk",
+    "rank": 3269,
+    "level": "intermediate"
+  },
+  {
+    "word": "explorer",
+    "chinese": "n. 探险家, 探测者, 勘探器",
+    "ipa": "ik'splɒ:rә",
+    "rank": 3270,
+    "level": "intermediate"
+  },
+  {
+    "word": "historic",
+    "chinese": "a. 历史上著名的, 有历史性的",
+    "ipa": "hi'stɒrik",
+    "rank": 3271,
+    "level": "intermediate"
+  },
+  {
+    "word": "attached",
+    "chinese": "a. 附加的",
+    "ipa": "ә'tætʃt",
+    "rank": 3272,
+    "level": "intermediate"
+  },
+  {
+    "word": "opened",
+    "chinese": "v. 打开, 开启（open过去分词形式）",
+    "ipa": "ˈoʊpənd",
+    "rank": 3273,
+    "level": "intermediate"
+  },
+  {
+    "word": "tm",
+    "chinese": "商标",
+    "ipa": "tm",
+    "rank": 3274,
+    "level": "intermediate"
+  },
+  {
+    "word": "husband",
+    "chinese": "n. 丈夫, 管理人, 节俭的人",
+    "ipa": "'hʌzbәnd",
+    "rank": 3275,
+    "level": "intermediate"
+  },
+  {
+    "word": "disabled",
+    "chinese": "a. 残废的, 有缺陷的, 失效的",
+    "ipa": "dis'eibld",
+    "rank": 3276,
+    "level": "intermediate"
+  },
+  {
+    "word": "authorized",
+    "chinese": "a. 经认可的, 经授权的",
+    "ipa": "'ɒ:θәraizd",
+    "rank": 3277,
+    "level": "intermediate"
+  },
+  {
+    "word": "crazy",
+    "chinese": "a. 发狂的, 狂热的",
+    "ipa": "'kreizi",
+    "rank": 3278,
+    "level": "intermediate"
+  },
+  {
+    "word": "upcoming",
+    "chinese": "a. 即将来临的, 即将出现的",
+    "ipa": "'ʌp.kʌmiŋ",
+    "rank": 3279,
+    "level": "intermediate"
+  },
+  {
+    "word": "britain",
+    "chinese": "n. 英国",
+    "ipa": "'britәn",
+    "rank": 3280,
+    "level": "intermediate"
+  },
+  {
+    "word": "concert",
+    "chinese": "n. 音乐会, 和声, 一致",
+    "ipa": "'kɒnsәt",
+    "rank": 3281,
+    "level": "intermediate"
+  },
+  {
+    "word": "retirement",
+    "chinese": "n. 退休, 隐居, 撤退",
+    "ipa": "ri'taiәmәnt",
+    "rank": 3282,
+    "level": "intermediate"
+  },
+  {
+    "word": "scores",
+    "chinese": "n. 大量, 众多; 二十( score的名词复数 ); （游戏或比赛中的）得分; 大量; 百分数",
+    "ipa": "skɔ:z",
+    "rank": 3283,
+    "level": "intermediate"
+  },
+  {
+    "word": "financing",
+    "chinese": "n. 融资, 理财, 筹集的资金",
+    "ipa": "fai'nænsiŋ",
+    "rank": 3284,
+    "level": "intermediate"
+  },
+  {
+    "word": "efficiency",
+    "chinese": "n. 效率, 效能, 功效",
+    "ipa": "i'fiʃәnsi",
+    "rank": 3285,
+    "level": "intermediate"
+  },
+  {
+    "word": "sp",
+    "chinese": "岸上宪兵, 基地宪兵",
+    "ipa": "sp",
+    "rank": 3286,
+    "level": "intermediate"
+  },
+  {
+    "word": "comedy",
+    "chinese": "n. 喜剧, 有趣的事情",
+    "ipa": "'kɒmidi",
+    "rank": 3287,
+    "level": "intermediate"
+  },
+  {
+    "word": "adopted",
+    "chinese": "a. 被收养的, 被采用的",
+    "ipa": "ә'dɒptid",
+    "rank": 3288,
+    "level": "intermediate"
+  },
+  {
+    "word": "efficient",
+    "chinese": "a. 有效率的, 能干的",
+    "ipa": "i'fiʃәnt",
+    "rank": 3289,
+    "level": "intermediate"
+  },
+  {
+    "word": "weblog",
+    "chinese": "n. 网络日志",
+    "ipa": "weblog",
+    "rank": 3290,
+    "level": "intermediate"
+  },
+  {
+    "word": "linear",
+    "chinese": "a. 线的, 直线的, 线状的",
+    "ipa": "'liniә",
+    "rank": 3291,
+    "level": "intermediate"
+  },
+  {
+    "word": "commitment",
+    "chinese": "n. 委托, 交押, 承担义务, 赞助",
+    "ipa": "kә'mitmәnt",
+    "rank": 3292,
+    "level": "intermediate"
+  },
+  {
+    "word": "specialty",
+    "chinese": "n. 专业, 专长, 特产, 特制品, 特性, 特点",
+    "ipa": "'speʃәlti",
+    "rank": 3293,
+    "level": "intermediate"
+  },
+  {
+    "word": "bears",
+    "chinese": "n. 空头（卖空的证券交易投机）",
+    "ipa": "bɛrz",
+    "rank": 3294,
+    "level": "intermediate"
+  },
+  {
+    "word": "jean",
+    "chinese": "n. 牛仔裤, 牛仔布, 斜纹棉布",
+    "ipa": "dʒi:n",
+    "rank": 3295,
+    "level": "intermediate"
+  },
+  {
+    "word": "hop",
+    "chinese": "n. 单脚跳, 跳跃, 舞会, 飞行",
+    "ipa": "hɒp",
+    "rank": 3296,
+    "level": "intermediate"
+  },
+  {
+    "word": "carrier",
+    "chinese": "n. 运送者, 邮递员, 带菌者",
+    "ipa": "'kæriә",
+    "rank": 3297,
+    "level": "intermediate"
+  },
+  {
+    "word": "edited",
+    "chinese": "v. 编辑（edit的过去式和过去分词）",
+    "ipa": "ˈɛdɪtɪd",
+    "rank": 3298,
+    "level": "intermediate"
+  },
+  {
+    "word": "constant",
+    "chinese": "n. 常数, 恒量",
+    "ipa": "'kɒnstәnt",
+    "rank": 3299,
+    "level": "intermediate"
+  },
+  {
+    "word": "visa",
+    "chinese": "n. 签证",
+    "ipa": "'vi:zә",
+    "rank": 3300,
+    "level": "intermediate"
+  },
+  {
+    "word": "mouth",
+    "chinese": "n. 嘴, 口, 口腔, 口状物",
+    "ipa": "mauθ",
+    "rank": 3301,
+    "level": "intermediate"
+  },
+  {
+    "word": "jewish",
+    "chinese": "a. 犹太人的, 犹太族的",
+    "ipa": "'dʒu:iʃ",
+    "rank": 3302,
+    "level": "intermediate"
+  },
+  {
+    "word": "meter",
+    "chinese": "n. 米, 公尺, 仪表, 计量器",
+    "ipa": "'mi:tә",
+    "rank": 3303,
+    "level": "intermediate"
+  },
+  {
+    "word": "linked",
+    "chinese": "a. 连接的",
+    "ipa": "liŋkt",
+    "rank": 3304,
+    "level": "intermediate"
+  },
+  {
+    "word": "portland",
+    "chinese": "n. 波特兰(美港口)",
+    "ipa": "'pɒ:tlәnd",
+    "rank": 3305,
+    "level": "intermediate"
+  },
+  {
+    "word": "interviews",
+    "chinese": "n. 接见( interview的名词复数 ); 采访; 面谈; 会谈",
+    "ipa": "ˈintəvju:z",
+    "rank": 3306,
+    "level": "intermediate"
+  },
+  {
+    "word": "concepts",
+    "chinese": "n. 概念, 观念",
+    "ipa": "ˈkɑnsɛpts",
+    "rank": 3307,
+    "level": "intermediate"
+  },
+  {
+    "word": "nh",
+    "chinese": "abbr. 不吸湿的（nonhygroscopic）",
+    "ipa": "nh",
+    "rank": 3308,
+    "level": "intermediate"
+  },
+  {
+    "word": "gun",
+    "chinese": "n. 枪",
+    "ipa": "gʌn",
+    "rank": 3309,
+    "level": "intermediate"
+  },
+  {
+    "word": "reflect",
+    "chinese": "vt. 反射, 反映, 招致, 深思",
+    "ipa": "ri'flekt",
+    "rank": 3310,
+    "level": "intermediate"
+  },
+  {
+    "word": "pure",
+    "chinese": "a. 纯的, 纯净的, 纯洁的, 清白的, 完美的, 无瑕的, 抽象的",
+    "ipa": "pjuә",
+    "rank": 3311,
+    "level": "intermediate"
+  },
+  {
+    "word": "deliver",
+    "chinese": "vt. 递送, 陈述, 释放, 发表, 引渡, 投递, 交付",
+    "ipa": "di'livә",
+    "rank": 3312,
+    "level": "intermediate"
+  },
+  {
+    "word": "wonder",
+    "chinese": "n. 奇迹, 惊奇, 惊愕",
+    "ipa": "'wʌndә",
+    "rank": 3313,
+    "level": "intermediate"
+  },
+  {
+    "word": "hell",
+    "chinese": "n. 地狱, 邪恶势力, 苦境, 阴间, 毁坏, 训斥",
+    "ipa": "hel",
+    "rank": 3314,
+    "level": "intermediate"
+  },
+  {
+    "word": "lessons",
+    "chinese": "n. 功课( lesson的名词复数 ); 课程; 教训; 一堂课",
+    "ipa": "ˈlesənz",
+    "rank": 3315,
+    "level": "intermediate"
+  },
+  {
+    "word": "fruit",
+    "chinese": "n. 水果, 果类, 结果",
+    "ipa": "fru:t",
+    "rank": 3316,
+    "level": "intermediate"
+  },
+  {
+    "word": "begins",
+    "chinese": "v. 开始( begin的第三人称单数 ); 着手; 创始; 创办",
+    "ipa": "bɪ'ɡɪnz",
+    "rank": 3317,
+    "level": "intermediate"
+  },
+  {
+    "word": "qualified",
+    "chinese": "a. 有资格的",
+    "ipa": "'kwɒlifaid",
+    "rank": 3318,
+    "level": "intermediate"
+  },
+  {
+    "word": "reform",
+    "chinese": "n. 改革, 改正, 改造",
+    "ipa": "ri'fɒ:m",
+    "rank": 3319,
+    "level": "intermediate"
+  },
+  {
+    "word": "lens",
+    "chinese": "n. 透镜, 镜头, 镜片, 晶状体",
+    "ipa": "lenz",
+    "rank": 3320,
+    "level": "intermediate"
+  },
+  {
+    "word": "alerts",
+    "chinese": "n. 警戒( alert的名词复数 ); 警报期间; 警戒状态; 报警信号",
+    "ipa": "əˈlə:ts",
+    "rank": 3321,
+    "level": "intermediate"
+  },
+  {
+    "word": "treated",
+    "chinese": "v. 对待",
+    "ipa": "'tri:tid",
+    "rank": 3322,
+    "level": "intermediate"
+  },
+  {
+    "word": "discovery",
+    "chinese": "n. 发现, 被发现的事物",
+    "ipa": "dis'kʌvәri",
+    "rank": 3323,
+    "level": "intermediate"
+  },
+  {
+    "word": "draw",
+    "chinese": "vi. 拉, 拖, 拔剑",
+    "ipa": "drɒ:",
+    "rank": 3324,
+    "level": "intermediate"
+  },
+  {
+    "word": "mysql",
+    "chinese": "n. 数据库系统（一种免费的跨平台的）",
+    "ipa": "mysql",
+    "rank": 3325,
+    "level": "intermediate"
+  },
+  {
+    "word": "classified",
+    "chinese": "a. 分类的, 被归入某类的, 被指定为机密的",
+    "ipa": "'klæsifaid",
+    "rank": 3326,
+    "level": "intermediate"
+  },
+  {
+    "word": "relating",
+    "chinese": "v. 关联",
+    "ipa": "rɪˈleɪtɪŋ",
+    "rank": 3327,
+    "level": "intermediate"
+  },
+  {
+    "word": "assume",
+    "chinese": "vt. 假定, 承担, 呈现",
+    "ipa": "ә'sju:m",
+    "rank": 3328,
+    "level": "intermediate"
+  },
+  {
+    "word": "confidence",
+    "chinese": "n. 信心",
+    "ipa": "'kɒnfidәns",
+    "rank": 3329,
+    "level": "intermediate"
+  },
+  {
+    "word": "alliance",
+    "chinese": "n. 联盟, 联合",
+    "ipa": "ә'laiәns",
+    "rank": 3330,
+    "level": "intermediate"
+  },
+  {
+    "word": "fm",
+    "chinese": "(英)陆军元帅, 外国使团, 调频, 频率调制",
+    "ipa": "ˈɛˈfɛm",
+    "rank": 3331,
+    "level": "intermediate"
+  },
+  {
+    "word": "confirm",
+    "chinese": "vt. 证实, 确定, 批准, 使巩固",
+    "ipa": "kәn'fә:m",
+    "rank": 3332,
+    "level": "intermediate"
+  },
+  {
+    "word": "warm",
+    "chinese": "a. 暖和的, 暖的, 温暖的, 热烈的, 兴奋的, 激烈的, 多情的, 色情的",
+    "ipa": "wɒ:m",
+    "rank": 3333,
+    "level": "intermediate"
+  },
+  {
+    "word": "neither",
+    "chinese": "adv. 皆不, 两个都不",
+    "ipa": "'naiðә",
+    "rank": 3334,
+    "level": "intermediate"
+  },
+  {
+    "word": "lewis",
+    "chinese": "n. 吊楔",
+    "ipa": "'lu:is",
+    "rank": 3335,
+    "level": "intermediate"
+  },
+  {
+    "word": "howard",
+    "chinese": "n. 霍华德（男子名）",
+    "ipa": "'hauәd",
+    "rank": 3336,
+    "level": "intermediate"
+  },
+  {
+    "word": "offline",
+    "chinese": "[计] 挂线, 脱机",
+    "ipa": "ˈɔˌflaɪn",
+    "rank": 3337,
+    "level": "intermediate"
+  },
+  {
+    "word": "leaves",
+    "chinese": "pl. 树叶, 花瓣",
+    "ipa": "li:vz",
+    "rank": 3338,
+    "level": "intermediate"
+  },
+  {
+    "word": "engineer",
+    "chinese": "n. 工程师, 工兵",
+    "ipa": ".endʒi'niә",
+    "rank": 3339,
+    "level": "intermediate"
+  },
+  {
+    "word": "lifestyle",
+    "chinese": "n. 生活方式",
+    "ipa": "'laifstail",
+    "rank": 3340,
+    "level": "intermediate"
+  },
+  {
+    "word": "consistent",
+    "chinese": "a. 一致的, 坚持的, 并立的, 坚固的",
+    "ipa": "kәn'sistәnt",
+    "rank": 3341,
+    "level": "intermediate"
+  },
+  {
+    "word": "replace",
+    "chinese": "vt. 代替, 替换, 放回, 归还",
+    "ipa": "ri'pleis",
+    "rank": 3342,
+    "level": "intermediate"
+  },
+  {
+    "word": "clearance",
+    "chinese": "n. 清除, 间隙",
+    "ipa": "'kliәrәns",
+    "rank": 3343,
+    "level": "intermediate"
+  },
+  {
+    "word": "connections",
+    "chinese": "n. 连接",
+    "ipa": "kəˈnɛkʃənz",
+    "rank": 3344,
+    "level": "intermediate"
+  },
+  {
+    "word": "inventory",
+    "chinese": "n. 详细目录, 存货清单",
+    "ipa": "'invәntәri",
+    "rank": 3345,
+    "level": "intermediate"
+  },
+  {
+    "word": "converter",
+    "chinese": "n. 使改变信仰的人, 炼钢炉, 吹风转炉, 换流器, 变压器, 变换器, 变频器, 密码机",
+    "ipa": "kәn'v\\\\\\\\:tә(r)",
+    "rank": 3346,
+    "level": "intermediate"
+  },
+  {
+    "word": "suck",
+    "chinese": "vt. 吸, 吮, 吸入, 吮吸, 吸收",
+    "ipa": "sʌk",
+    "rank": 3347,
+    "level": "intermediate"
+  },
+  {
+    "word": "organisation",
+    "chinese": "n. 组织, 团体, 体制, 编制",
+    "ipa": ",ɔ: ^әnaizeiʃən; - ni'z-",
+    "rank": 3348,
+    "level": "intermediate"
+  },
+  {
+    "word": "babe",
+    "chinese": "n. 小孩, 天真幼稚的人",
+    "ipa": "beib",
+    "rank": 3349,
+    "level": "intermediate"
+  },
+  {
+    "word": "checks",
+    "chinese": "n. 支票",
+    "ipa": "ʧɛks",
+    "rank": 3350,
+    "level": "intermediate"
+  },
+  {
+    "word": "reached",
+    "chinese": "v. 到达( reach的过去式和过去分词 ); 联络; 伸出手臂, 延伸",
+    "ipa": "ri:tʃt",
+    "rank": 3351,
+    "level": "intermediate"
+  },
+  {
+    "word": "becoming",
+    "chinese": "a. 合适的, 适当的",
+    "ipa": "bi'kʌmiŋ",
+    "rank": 3352,
+    "level": "intermediate"
+  },
+  {
+    "word": "blowjob",
+    "chinese": "n. 口交",
+    "ipa": "'blәudʒɔb",
+    "rank": 3353,
+    "level": "intermediate"
+  },
+  {
+    "word": "safari",
+    "chinese": "n. 旅行, 旅行队, 科学考察",
+    "ipa": "sә'fɑ:ri",
+    "rank": 3354,
+    "level": "intermediate"
+  },
+  {
+    "word": "objective",
+    "chinese": "n. 目的, 目标, 宗旨, 宾格, 实物",
+    "ipa": "әb'dʒektiv",
+    "rank": 3355,
+    "level": "intermediate"
+  },
+  {
+    "word": "indicated",
+    "chinese": "a. 表明的; 指示的",
+    "ipa": "ˈindikeitid",
+    "rank": 3356,
+    "level": "intermediate"
+  },
+  {
+    "word": "sugar",
+    "chinese": "n. 糖, 糖块, 甜言蜜语",
+    "ipa": "'ʃugә",
+    "rank": 3357,
+    "level": "intermediate"
+  },
+  {
+    "word": "crew",
+    "chinese": "n. 全体人员, 一群人, 全体队员",
+    "ipa": "kru:",
+    "rank": 3358,
+    "level": "intermediate"
+  },
+  {
+    "word": "legs",
+    "chinese": "n. 木头支架",
+    "ipa": "leɡz",
+    "rank": 3359,
+    "level": "intermediate"
+  },
+  {
+    "word": "sam",
+    "chinese": "[计] 安全性帐户管理器",
+    "ipa": "sæm",
+    "rank": 3360,
+    "level": "intermediate"
+  },
+  {
+    "word": "stick",
+    "chinese": "n. 棍, 棒, 刺, 枯枝, 茎, 条状物",
+    "ipa": "stik",
+    "rank": 3361,
+    "level": "intermediate"
+  },
+  {
+    "word": "securities",
+    "chinese": "n. 有价证券",
+    "ipa": "si'kjuәritis",
+    "rank": 3362,
+    "level": "intermediate"
+  },
+  {
+    "word": "allen",
+    "chinese": "n. 艾伦（男子名）",
+    "ipa": "'ælin, 'ælәn",
+    "rank": 3363,
+    "level": "intermediate"
+  },
+  {
+    "word": "pdt",
+    "chinese": "太平洋夏季时间",
+    "ipa": "pdt",
+    "rank": 3364,
+    "level": "intermediate"
+  },
+  {
+    "word": "relation",
+    "chinese": "n. 关系, 联系, 叙述, 故事, 家属, 亲戚",
+    "ipa": "ri'leiʃәn",
+    "rank": 3365,
+    "level": "intermediate"
+  },
+  {
+    "word": "enabled",
+    "chinese": "a. 激活的, 使可行的",
+    "ipa": "i'neibl",
+    "rank": 3366,
+    "level": "intermediate"
+  },
+  {
+    "word": "genre",
+    "chinese": "n. 类型, 流派",
+    "ipa": "'ʒɒŋrә",
+    "rank": 3367,
+    "level": "intermediate"
+  },
+  {
+    "word": "slide",
+    "chinese": "n. 滑, 滑道, 山崩, 雪崩, 幻灯片",
+    "ipa": "slaid",
+    "rank": 3368,
+    "level": "intermediate"
+  },
+  {
+    "word": "montana",
+    "chinese": "n. 蒙大拿州",
+    "ipa": "mɒn'tænә",
+    "rank": 3369,
+    "level": "intermediate"
+  },
+  {
+    "word": "volunteer",
+    "chinese": "n. 志愿者",
+    "ipa": ".vɒlәn'tiә",
+    "rank": 3370,
+    "level": "intermediate"
+  },
+  {
+    "word": "tested",
+    "chinese": "a. 经过试验的, 经受过考验的, 经验定的, 检验无病的",
+    "ipa": "ˈtɛstɪd",
+    "rank": 3371,
+    "level": "intermediate"
+  },
+  {
+    "word": "rear",
+    "chinese": "n. 后面, 背后, 后方",
+    "ipa": "riә",
+    "rank": 3372,
+    "level": "intermediate"
+  },
+  {
+    "word": "democratic",
+    "chinese": "a. 民主的",
+    "ipa": ".demә'krætik",
+    "rank": 3373,
+    "level": "intermediate"
+  },
+  {
+    "word": "enhance",
+    "chinese": "vt. 提高, 加强, 增加",
+    "ipa": "in'hæns",
+    "rank": 3374,
+    "level": "intermediate"
+  },
+  {
+    "word": "switzerland",
+    "chinese": "n. 瑞士",
+    "ipa": "'switsәlәnd",
+    "rank": 3375,
+    "level": "intermediate"
+  },
+  {
+    "word": "exact",
+    "chinese": "a. 精确的, 准确的, 精密的",
+    "ipa": "ig'zækt",
+    "rank": 3376,
+    "level": "intermediate"
+  },
+  {
+    "word": "bound",
+    "chinese": "n. 跃, 回跳, 范围, 边界",
+    "ipa": "baund",
+    "rank": 3377,
+    "level": "intermediate"
+  },
+  {
+    "word": "parameter",
+    "chinese": "n. 参变数, 参变量, 参数, 参量",
+    "ipa": "pә'ræmitә",
+    "rank": 3378,
+    "level": "intermediate"
+  },
+  {
+    "word": "adapter",
+    "chinese": "n. 适应者, 改编者, 接合器",
+    "ipa": "ә'dæptә",
+    "rank": 3379,
+    "level": "intermediate"
+  },
+  {
+    "word": "processor",
+    "chinese": "n. 信息处理机, 加工者, 处理者",
+    "ipa": "prә'sesә",
+    "rank": 3380,
+    "level": "intermediate"
+  },
+  {
+    "word": "node",
+    "chinese": "n. 节, 结节, 瘤",
+    "ipa": "nәud",
+    "rank": 3381,
+    "level": "intermediate"
+  },
+  {
+    "word": "formal",
+    "chinese": "a. 正式的, 形式的, 礼仪的, 拘于礼节的, 拘谨的",
+    "ipa": "'fɒ:mәl",
+    "rank": 3382,
+    "level": "intermediate"
+  },
+  {
+    "word": "dimensions",
+    "chinese": "n. 面积, 大小, 容积",
+    "ipa": "dɪˈmɛnʃənz",
+    "rank": 3383,
+    "level": "intermediate"
+  },
+  {
+    "word": "contribute",
+    "chinese": "vt. 有助于, 捐助, 投稿",
+    "ipa": "kәn'tribju:t",
+    "rank": 3384,
+    "level": "intermediate"
+  },
+  {
+    "word": "lock",
+    "chinese": "n. 锁, 刹车, 水闸, 一缕头发",
+    "ipa": "lɒk",
+    "rank": 3385,
+    "level": "intermediate"
+  },
+  {
+    "word": "hockey",
+    "chinese": "n. 冰球, 曲棍球",
+    "ipa": "'hɒki",
+    "rank": 3386,
+    "level": "intermediate"
+  },
+  {
+    "word": "storm",
+    "chinese": "n. 暴风雨, 骚动, 风波, 风暴, 猛攻",
+    "ipa": "stɒ:m",
+    "rank": 3387,
+    "level": "intermediate"
+  },
+  {
+    "word": "micro",
+    "chinese": "[计] 表示\"小\",\"微\",\"微量\",\"百分之一\"",
+    "ipa": "ˈmaɪˌkroʊ",
+    "rank": 3388,
+    "level": "intermediate"
+  },
+  {
+    "word": "colleges",
+    "chinese": "n. 专科学院（college复数形式）",
+    "ipa": "ˈkɑlɪʤɪz",
+    "rank": 3389,
+    "level": "intermediate"
+  },
+  {
+    "word": "laptops",
+    "chinese": "n. 便携式电脑( laptop的复数形式 )",
+    "ipa": "'læptɒps",
+    "rank": 3390,
+    "level": "intermediate"
+  },
+  {
+    "word": "mile",
+    "chinese": "n. 英里, 很大距离",
+    "ipa": "mail",
+    "rank": 3391,
+    "level": "intermediate"
+  },
+  {
+    "word": "showed",
+    "chinese": "show的过去式和过去分词",
+    "ipa": "ʃoʊd",
+    "rank": 3392,
+    "level": "intermediate"
+  },
+  {
+    "word": "challenges",
+    "chinese": "n. 挑战( challenge的名词复数 ); 要求; （警卫等）查问口令; 怀疑",
+    "ipa": "ˈtʃælindʒz",
+    "rank": 3393,
+    "level": "intermediate"
+  },
+  {
+    "word": "editors",
+    "chinese": "n. 编辑器",
+    "ipa": "ˈɛdɪtərz",
+    "rank": 3394,
+    "level": "intermediate"
+  },
+  {
+    "word": "mens",
+    "chinese": "[医] 精神, 意志",
+    "ipa": "menz",
+    "rank": 3395,
+    "level": "intermediate"
+  },
+  {
+    "word": "threads",
+    "chinese": "n. 线",
+    "ipa": "θrɛdz",
+    "rank": 3396,
+    "level": "intermediate"
+  },
+  {
+    "word": "bowl",
+    "chinese": "n. 碗, 木球, 大酒杯",
+    "ipa": "bәul",
+    "rank": 3397,
+    "level": "intermediate"
+  },
+  {
+    "word": "supreme",
+    "chinese": "n. 至高, 霸权",
+    "ipa": "sju'pri:m",
+    "rank": 3398,
+    "level": "intermediate"
+  },
+  {
+    "word": "brothers",
+    "chinese": "n. 哥们儿, 兄弟",
+    "ipa": "ˈbrəðərz",
+    "rank": 3399,
+    "level": "intermediate"
+  },
+  {
+    "word": "recognition",
+    "chinese": "n. 赞誉, 认得, 识别, 承认, 认可, 认识",
+    "ipa": ".rekәg'niʃәn",
+    "rank": 3400,
+    "level": "intermediate"
+  },
+  {
+    "word": "presents",
+    "chinese": "n. 出品",
+    "ipa": "ˈprɛzənts",
+    "rank": 3401,
+    "level": "intermediate"
+  },
+  {
+    "word": "ref",
+    "chinese": "n. 裁判员",
+    "ipa": "ref",
+    "rank": 3402,
+    "level": "intermediate"
+  },
+  {
+    "word": "tank",
+    "chinese": "n. 槽, 箱, 柜, 罐, 池塘, 储水池, 坦克",
+    "ipa": "tæŋk",
+    "rank": 3403,
+    "level": "intermediate"
+  },
+  {
+    "word": "submission",
+    "chinese": "n. 屈服, 服从, 谦恭, 呈递, 提交, 意见",
+    "ipa": "sәb'miʃәn",
+    "rank": 3404,
+    "level": "intermediate"
+  },
+  {
+    "word": "dolls",
+    "chinese": "n. 玩偶（doll的复数）",
+    "ipa": "dɑlz",
+    "rank": 3405,
+    "level": "intermediate"
+  },
+  {
+    "word": "estimate",
+    "chinese": "n. 估计, 判断",
+    "ipa": "'estimeit",
+    "rank": 3406,
+    "level": "intermediate"
+  },
+  {
+    "word": "encourage",
+    "chinese": "vt. 鼓励, 支持, 激励",
+    "ipa": "in'kʌridʒ",
+    "rank": 3407,
+    "level": "intermediate"
+  },
+  {
+    "word": "navy",
+    "chinese": "n. 海军, 海军人员, 海军军力, 烟蒂",
+    "ipa": "'neivi",
+    "rank": 3408,
+    "level": "intermediate"
+  },
+  {
+    "word": "kid",
+    "chinese": "n. 小山羊, 小山羊肉, 小孩, 欺骗",
+    "ipa": "kid",
+    "rank": 3409,
+    "level": "intermediate"
+  },
+  {
+    "word": "regulatory",
+    "chinese": "a. 受控制的, 统制的, 调整的",
+    "ipa": "'regjulәtәri",
+    "rank": 3410,
+    "level": "intermediate"
+  },
+  {
+    "word": "inspection",
+    "chinese": "n. 检验, 检查, 视察",
+    "ipa": "in'spekʃәn",
+    "rank": 3411,
+    "level": "intermediate"
+  },
+  {
+    "word": "consumers",
+    "chinese": "n. 消费者, 消耗者",
+    "ipa": "kənˈsumərz",
+    "rank": 3412,
+    "level": "intermediate"
+  },
+  {
+    "word": "cancel",
+    "chinese": "n. 取消, 撤消, 盖销(邮票)",
+    "ipa": "'kænsәl",
+    "rank": 3413,
+    "level": "intermediate"
+  },
+  {
+    "word": "limits",
+    "chinese": "n. 范围",
+    "ipa": "ˈlɪmɪts",
+    "rank": 3414,
+    "level": "intermediate"
+  },
+  {
+    "word": "territory",
+    "chinese": "n. 领土, 领地, 版图, 地区, 活动范围",
+    "ipa": "'teritәri",
+    "rank": 3415,
+    "level": "intermediate"
+  },
+  {
+    "word": "transaction",
+    "chinese": "n. 交易, 办理, 学报, 和解协议",
+    "ipa": "træn'sækʃәn",
+    "rank": 3416,
+    "level": "intermediate"
+  },
+  {
+    "word": "manchester",
+    "chinese": "n. 曼彻斯特",
+    "ipa": "'mæntʃestә",
+    "rank": 3417,
+    "level": "intermediate"
+  },
+  {
+    "word": "weapons",
+    "chinese": "n. 武装切换",
+    "ipa": "ˈwɛpənz",
+    "rank": 3418,
+    "level": "intermediate"
+  },
+  {
+    "word": "paint",
+    "chinese": "n. 油漆, 颜料, 绘画作品, 涂漆",
+    "ipa": "peint",
+    "rank": 3419,
+    "level": "intermediate"
+  },
+  {
+    "word": "delay",
+    "chinese": "n. 耽搁, 迟滞",
+    "ipa": "di'lei",
+    "rank": 3420,
+    "level": "intermediate"
+  },
+  {
+    "word": "pilot",
+    "chinese": "n. 飞行员, 领航员, 航船者, 导向器, 驾驶仪, 向导, 领导人",
+    "ipa": "'pailәt",
+    "rank": 3421,
+    "level": "intermediate"
+  },
+  {
+    "word": "outlet",
+    "chinese": "n. 出口, 发泄方法, 市场",
+    "ipa": "'autlet",
+    "rank": 3422,
+    "level": "intermediate"
+  },
+  {
+    "word": "contributions",
+    "chinese": "n. 贡献",
+    "ipa": "ˌkɑntrəˈbjuʃənz",
+    "rank": 3423,
+    "level": "intermediate"
+  },
+  {
+    "word": "continuous",
+    "chinese": "a. 连续的, 继续的, 连续不断的",
+    "ipa": "kәn'tinjuәs",
+    "rank": 3424,
+    "level": "intermediate"
+  },
+  {
+    "word": "db",
+    "chinese": "[计] 数据库, 数据位, 数据总线, 分贝, 判定功能块",
+    "ipa": "db",
+    "rank": 3425,
+    "level": "intermediate"
+  },
+  {
+    "word": "czech",
+    "chinese": "n. 捷克人, 捷克语",
+    "ipa": "tʃek",
+    "rank": 3426,
+    "level": "intermediate"
+  },
+  {
+    "word": "resulting",
+    "chinese": "[计] 结果的, 合成的",
+    "ipa": "ri'zʌltiŋ",
+    "rank": 3427,
+    "level": "intermediate"
+  },
+  {
+    "word": "cambridge",
+    "chinese": "n. 剑桥",
+    "ipa": "'keimbridʒ",
+    "rank": 3428,
+    "level": "intermediate"
+  },
+  {
+    "word": "initiative",
+    "chinese": "n. 主动行动, 首创精神, 主动权",
+    "ipa": "i'niʃiәtiv",
+    "rank": 3429,
+    "level": "intermediate"
+  },
+  {
+    "word": "novel",
+    "chinese": "n. 小说, 长篇故事",
+    "ipa": "'nɒvl",
+    "rank": 3430,
+    "level": "intermediate"
+  },
+  {
+    "word": "pan",
+    "chinese": "n. 平锅, 浅盘, 盆地, 硬土层, 拍摄全景",
+    "ipa": "pæn",
+    "rank": 3431,
+    "level": "intermediate"
+  },
+  {
+    "word": "execution",
+    "chinese": "n. 实行, 完成, 执行, 死刑",
+    "ipa": ".eksi'kju:ʃәn",
+    "rank": 3432,
+    "level": "intermediate"
+  },
+  {
+    "word": "disability",
+    "chinese": "n. 无力, 无能, 残疾",
+    "ipa": "disә'biliti",
+    "rank": 3433,
+    "level": "intermediate"
+  },
+  {
+    "word": "increases",
+    "chinese": "n. 增加量( increase的名词复数 )",
+    "ipa": "inˈkri:siz",
+    "rank": 3434,
+    "level": "intermediate"
+  },
+  {
+    "word": "ultra",
+    "chinese": "a. 过分的, 极端的",
+    "ipa": "'ʌltrә",
+    "rank": 3435,
+    "level": "intermediate"
+  },
+  {
+    "word": "winner",
+    "chinese": "n. 胜利者, 优胜者",
+    "ipa": "'winә",
+    "rank": 3436,
+    "level": "intermediate"
+  },
+  {
+    "word": "idaho",
+    "chinese": "n. 爱达荷州",
+    "ipa": "'aidәhәu",
+    "rank": 3437,
+    "level": "intermediate"
+  },
+  {
+    "word": "contractor",
+    "chinese": "n. 立契约的人, 承包商",
+    "ipa": "'kɒntræktә",
+    "rank": 3438,
+    "level": "intermediate"
+  },
+  {
+    "word": "ph",
+    "chinese": "氢离子指数",
+    "ipa": "pi:eitʃ",
+    "rank": 3439,
+    "level": "intermediate"
+  },
+  {
+    "word": "episode",
+    "chinese": "n. 插曲, 插话, 有趣的事件, 一段情节",
+    "ipa": "'episәud",
+    "rank": 3440,
+    "level": "intermediate"
+  },
+  {
+    "word": "examination",
+    "chinese": "n. 考试, 测验, 审查",
+    "ipa": "ig.zæmi'neiʃәn",
+    "rank": 3441,
+    "level": "intermediate"
+  },
+  {
+    "word": "potter",
+    "chinese": "n. 陶工, 制陶工人",
+    "ipa": "'pɒtә",
+    "rank": 3442,
+    "level": "intermediate"
+  },
+  {
+    "word": "dish",
+    "chinese": "n. 盘子, 碟, 菜肴",
+    "ipa": "diʃ",
+    "rank": 3443,
+    "level": "intermediate"
+  },
+  {
+    "word": "plays",
+    "chinese": "n. 戏剧集",
+    "ipa": "pleɪz",
+    "rank": 3444,
+    "level": "intermediate"
+  },
+  {
+    "word": "bulletin",
+    "chinese": "n. 公告, 布告, 公报",
+    "ipa": "'bulitin",
+    "rank": 3445,
+    "level": "intermediate"
+  },
+  {
+    "word": "ia",
+    "chinese": "[计] 指令地址, 集成转接器",
+    "ipa": "ˈiə",
+    "rank": 3446,
+    "level": "intermediate"
+  },
+  {
+    "word": "pt",
+    "chinese": "[计] 点, 处理时间, 可编程序终端",
+    "ipa": "pt",
+    "rank": 3447,
+    "level": "intermediate"
+  },
+  {
+    "word": "indicates",
+    "chinese": "v. 指示, 显示",
+    "ipa": "ˈɪndɪˌkeɪts",
+    "rank": 3448,
+    "level": "intermediate"
+  },
+  {
+    "word": "modify",
+    "chinese": "vt. 修正, 变更, 修饰, 缓和, 减轻",
+    "ipa": "'mɒdifai",
+    "rank": 3449,
+    "level": "intermediate"
+  },
+  {
+    "word": "oxford",
+    "chinese": "n. 牛津, 牛津大学",
+    "ipa": "'ɒksfәd",
+    "rank": 3450,
+    "level": "intermediate"
+  },
+  {
+    "word": "adam",
+    "chinese": "n. 亚当",
+    "ipa": "'ædәm",
+    "rank": 3451,
+    "level": "intermediate"
+  },
+  {
+    "word": "truly",
+    "chinese": "adv. 真实地, 不假",
+    "ipa": "'tru:li",
+    "rank": 3452,
+    "level": "intermediate"
+  },
+  {
+    "word": "epinions",
+    "chinese": "埃尼翁斯",
+    "ipa": "epinions",
+    "rank": 3453,
+    "level": "intermediate"
+  },
+  {
+    "word": "painting",
+    "chinese": "n. 画, 绘画, 油漆",
+    "ipa": "'peintiŋ",
+    "rank": 3454,
+    "level": "intermediate"
+  },
+  {
+    "word": "committed",
+    "chinese": "a. 献身于某种事业的",
+    "ipa": "kəˈmɪtɪd",
+    "rank": 3455,
+    "level": "intermediate"
+  },
+  {
+    "word": "extensive",
+    "chinese": "a. 广的, 广泛的, 多方面的",
+    "ipa": "ik'stensiv",
+    "rank": 3456,
+    "level": "intermediate"
+  },
+  {
+    "word": "affordable",
+    "chinese": "[计] 普及型",
+    "ipa": "əˈfɔrdəbəl",
+    "rank": 3457,
+    "level": "intermediate"
+  },
+  {
+    "word": "universe",
+    "chinese": "n. 宇宙, 星系, (思想等)范围",
+    "ipa": "'ju:nivә:s",
+    "rank": 3458,
+    "level": "intermediate"
+  },
+  {
+    "word": "candidate",
+    "chinese": "n. 候选人, 投考者",
+    "ipa": "'kændideit",
+    "rank": 3459,
+    "level": "intermediate"
+  },
+  {
+    "word": "databases",
+    "chinese": "n. 数据库",
+    "ipa": "ˈdætəˌbeɪsɪz",
+    "rank": 3460,
+    "level": "intermediate"
+  },
+  {
+    "word": "patent",
+    "chinese": "n. 专利权, 许可证, 执照, 专利品, 素质",
+    "ipa": "'pætnt. 'peitnt",
+    "rank": 3461,
+    "level": "intermediate"
+  },
+  {
+    "word": "slot",
+    "chinese": "n. 水沟, 细长孔, 硬币投币口, 缝, 狭槽, 狭通道, 位置, 一档(广播节目等)",
+    "ipa": "slɒt",
+    "rank": 3462,
+    "level": "intermediate"
+  },
+  {
+    "word": "psp",
+    "chinese": "abbr. 掌上游戏机（SONY推出的掌上娱乐平台）",
+    "ipa": "psp",
+    "rank": 3463,
+    "level": "intermediate"
+  },
+  {
+    "word": "outstanding",
+    "chinese": "a. 杰出的, 突出的, 未偿付的, 未决定的",
+    "ipa": ".aut'stændiŋ",
+    "rank": 3464,
+    "level": "intermediate"
+  },
+  {
+    "word": "ha",
+    "chinese": "interj. 嘿, 哈, 哈哈",
+    "ipa": "hɑ:",
+    "rank": 3465,
+    "level": "intermediate"
+  },
+  {
+    "word": "eating",
+    "chinese": "n. 吃, 食物",
+    "ipa": "'i:tiŋ",
+    "rank": 3466,
+    "level": "intermediate"
+  },
+  {
+    "word": "perspective",
+    "chinese": "n. 远景, 透视感, (观察问题的)视角, 透视法, 看法, 透视图",
+    "ipa": "pә'spektiv",
+    "rank": 3467,
+    "level": "intermediate"
+  },
+  {
+    "word": "planned",
+    "chinese": "a. 计划了的, 预定的, 根据计划的, 有组织的",
+    "ipa": "plænd",
+    "rank": 3468,
+    "level": "intermediate"
+  },
+  {
+    "word": "watching",
+    "chinese": "vt. 观看, 守望",
+    "ipa": "'wɔtʃiŋ",
+    "rank": 3469,
+    "level": "intermediate"
+  },
+  {
+    "word": "lodge",
+    "chinese": "n. 小屋, 门房, 支部, 旅舍, 分会",
+    "ipa": "lɒdʒ",
+    "rank": 3470,
+    "level": "intermediate"
+  },
+  {
+    "word": "messenger",
+    "chinese": "n. 报信者, 使者",
+    "ipa": "'mesindʒә",
+    "rank": 3471,
+    "level": "intermediate"
+  },
+  {
+    "word": "mirror",
+    "chinese": "n. 镜子, 写真, 典范",
+    "ipa": "'mirә",
+    "rank": 3472,
+    "level": "intermediate"
+  },
+  {
+    "word": "tournament",
+    "chinese": "n. 比赛, 竞赛, 锦标赛, 联赛",
+    "ipa": "'tә:nәmәnt",
+    "rank": 3473,
+    "level": "intermediate"
+  },
+  {
+    "word": "consideration",
+    "chinese": "n. 考虑, 原因",
+    "ipa": "kәn.sidә'reiʃәn",
+    "rank": 3474,
+    "level": "intermediate"
+  },
+  {
+    "word": "ds",
+    "chinese": "[计] 数据系列, 数据集, 数据同步, 调试系统, 定义符号, 开发系统",
+    "ipa": "ds",
+    "rank": 3475,
+    "level": "intermediate"
+  },
+  {
+    "word": "discounts",
+    "chinese": "n. 优惠, 折价",
+    "ipa": "ˈdɪˌskaʊnts",
+    "rank": 3476,
+    "level": "intermediate"
+  },
+  {
+    "word": "sterling",
+    "chinese": "n. 英国货币, 标准纯银",
+    "ipa": "'stә:liŋ",
+    "rank": 3477,
+    "level": "intermediate"
+  },
+  {
+    "word": "sessions",
+    "chinese": "n. 会议",
+    "ipa": "ˈsɛʃənz",
+    "rank": 3478,
+    "level": "intermediate"
+  },
+  {
+    "word": "kernel",
+    "chinese": "n. 核心, 中心, 精髓, 内核",
+    "ipa": "'kә:nl",
+    "rank": 3479,
+    "level": "intermediate"
+  },
+  {
+    "word": "boobs",
+    "chinese": "n. 乳房",
+    "ipa": "bubz",
+    "rank": 3480,
+    "level": "intermediate"
+  },
+  {
+    "word": "stocks",
+    "chinese": "n. 股票",
+    "ipa": "stɑks",
+    "rank": 3481,
+    "level": "intermediate"
+  },
+  {
+    "word": "buyers",
+    "chinese": "n. 买主",
+    "ipa": "baɪərz",
+    "rank": 3482,
+    "level": "intermediate"
+  },
+  {
+    "word": "journals",
+    "chinese": "n. 日记账",
+    "ipa": "ˈʤərnəlz",
+    "rank": 3483,
+    "level": "intermediate"
+  },
+  {
+    "word": "gray",
+    "chinese": "n. 灰色, 暗淡",
+    "ipa": "grei",
+    "rank": 3484,
+    "level": "intermediate"
+  },
+  {
+    "word": "catalogue",
+    "chinese": "n. 目录, 大学情况一览",
+    "ipa": "'kætәlɒg",
+    "rank": 3485,
+    "level": "intermediate"
+  },
+  {
+    "word": "ea",
+    "chinese": "[计] 有效地址, 单元动作, 外部访问",
+    "ipa": "ea",
+    "rank": 3486,
+    "level": "intermediate"
+  },
+  {
+    "word": "jennifer",
+    "chinese": "n. 詹尼弗（女子名）",
+    "ipa": "'dʒenifә",
+    "rank": 3487,
+    "level": "intermediate"
+  },
+  {
+    "word": "antonio",
+    "chinese": "n. 安东尼奥（男名）",
+    "ipa": "æn'tәuniәu",
+    "rank": 3488,
+    "level": "intermediate"
+  },
+  {
+    "word": "charged",
+    "chinese": "a. 充满强烈感情的, 带电的, 气氛紧张的",
+    "ipa": "tʃɑ:dʒd",
+    "rank": 3489,
+    "level": "intermediate"
+  },
+  {
+    "word": "broad",
+    "chinese": "a. 宽广的, 辽阔的, 广大的, 显著的",
+    "ipa": "brɒ:d",
+    "rank": 3490,
+    "level": "intermediate"
+  },
+  {
+    "word": "taiwan",
+    "chinese": "n. 台湾",
+    "ipa": "'tai'wɑ:n",
+    "rank": 3491,
+    "level": "intermediate"
+  },
+  {
+    "word": "und",
+    "chinese": "comb. 表示“水, 波浪”",
+    "ipa": "ənd",
+    "rank": 3492,
+    "level": "intermediate"
+  },
+  {
+    "word": "chosen",
+    "chinese": "choose的过去分词",
+    "ipa": "'tʃouzn",
+    "rank": 3493,
+    "level": "intermediate"
+  },
+  {
+    "word": "demo",
+    "chinese": "n. 演示, 样本唱片",
+    "ipa": "'demәu",
+    "rank": 3494,
+    "level": "intermediate"
+  },
+  {
+    "word": "greece",
+    "chinese": "n. 希腊",
+    "ipa": "gri:s",
+    "rank": 3495,
+    "level": "intermediate"
+  },
+  {
+    "word": "lg",
+    "chinese": "abbr. 水平规, 水准仪（Level Gauge ）",
+    "ipa": "lg",
+    "rank": 3496,
+    "level": "intermediate"
+  },
+  {
+    "word": "swiss",
+    "chinese": "n. 瑞士人, 瑞士腔调",
+    "ipa": "swis",
+    "rank": 3497,
+    "level": "intermediate"
+  },
+  {
+    "word": "sarah",
+    "chinese": "n. 萨拉(<<圣经>>故事人物)",
+    "ipa": "'sєәrә",
+    "rank": 3498,
+    "level": "intermediate"
+  },
+  {
+    "word": "clark",
+    "chinese": "n. 克拉克（男子名）",
+    "ipa": "klɑrk",
+    "rank": 3499,
+    "level": "intermediate"
+  },
+  {
+    "word": "labour",
+    "chinese": "n. 劳动, 努力, 工作, 劳工, 分娩",
+    "ipa": "'leibә",
+    "rank": 3500,
+    "level": "intermediate"
+  },
+  {
+    "word": "hate",
+    "chinese": "n. 憎恨, 恨, 厌恶",
+    "ipa": "heit",
+    "rank": 3501,
+    "level": "intermediate"
+  },
+  {
+    "word": "terminal",
+    "chinese": "n. 终端机, 终点, 末端, 极限, 终点站",
+    "ipa": "'tә:minәl",
+    "rank": 3502,
+    "level": "intermediate"
+  },
+  {
+    "word": "publishers",
+    "chinese": "n. 出版商, 出版公司",
+    "ipa": "ˈpəblɪʃərz",
+    "rank": 3503,
+    "level": "intermediate"
+  },
+  {
+    "word": "nights",
+    "chinese": "n. 每夜, 在任何夜晚",
+    "ipa": "naits",
+    "rank": 3504,
+    "level": "intermediate"
+  },
+  {
+    "word": "behalf",
+    "chinese": "n. 利益, 方面",
+    "ipa": "bi'hɑ:f",
+    "rank": 3505,
+    "level": "intermediate"
+  },
+  {
+    "word": "caribbean",
+    "chinese": "n. 加勒比海",
+    "ipa": ".kæri'bi:әn",
+    "rank": 3506,
+    "level": "intermediate"
+  },
+  {
+    "word": "liquid",
+    "chinese": "n. 液体, 流体, 流音",
+    "ipa": "'likwid",
+    "rank": 3507,
+    "level": "intermediate"
+  },
+  {
+    "word": "rice",
+    "chinese": "n. 米, 米饭, 稻",
+    "ipa": "rais",
+    "rank": 3508,
+    "level": "intermediate"
+  },
+  {
+    "word": "nebraska",
+    "chinese": "[经] 内布拉斯加州, (美国中西部的一州)",
+    "ipa": "ni'bræskә",
+    "rank": 3509,
+    "level": "intermediate"
+  },
+  {
+    "word": "loop",
+    "chinese": "n. 环, 圈, 弯曲部分, 循环",
+    "ipa": "lu:p",
+    "rank": 3510,
+    "level": "intermediate"
+  },
+  {
+    "word": "salary",
+    "chinese": "n. 薪水",
+    "ipa": "'sælәri",
+    "rank": 3511,
+    "level": "intermediate"
+  },
+  {
+    "word": "reservation",
+    "chinese": "n. 保留, 预定, 保留品, 保留地",
+    "ipa": ".rezә'veiʃәn",
+    "rank": 3512,
+    "level": "intermediate"
+  },
+  {
+    "word": "foods",
+    "chinese": "n. 食品",
+    "ipa": "fudz",
+    "rank": 3513,
+    "level": "intermediate"
+  },
+  {
+    "word": "gourmet",
+    "chinese": "n. 美食家",
+    "ipa": "'guәmei",
+    "rank": 3514,
+    "level": "intermediate"
+  },
+  {
+    "word": "guard",
+    "chinese": "n. 守卫者, 警戒, 护卫队, 防护装置",
+    "ipa": "gɑ:d",
+    "rank": 3515,
+    "level": "intermediate"
+  },
+  {
+    "word": "properly",
+    "chinese": "adv. 适当地, 相当地",
+    "ipa": "'prɒpәli",
+    "rank": 3516,
+    "level": "intermediate"
+  },
+  {
+    "word": "orleans",
+    "chinese": "n. 奥尔良（法国城市）",
+    "ipa": "ɔ:'liәnz, 'ɔ:l-",
+    "rank": 3517,
+    "level": "intermediate"
+  },
+  {
+    "word": "saving",
+    "chinese": "n. 存款, 挽救, 节约",
+    "ipa": "'seiviŋ",
+    "rank": 3518,
+    "level": "intermediate"
+  },
+  {
+    "word": "nfl",
+    "chinese": "abbr. （美）全国橄榄球联盟（National Football League）",
+    "ipa": "ˈɛˌnɛˈfɛl",
+    "rank": 3519,
+    "level": "intermediate"
+  },
+  {
+    "word": "remaining",
+    "chinese": "[电] 剩余的",
+    "ipa": "rɪˈmeɪnɪŋ",
+    "rank": 3520,
+    "level": "intermediate"
+  },
+  {
+    "word": "empire",
+    "chinese": "n. 帝国, 帝权",
+    "ipa": "'empaiә",
+    "rank": 3521,
+    "level": "intermediate"
+  },
+  {
+    "word": "resume",
+    "chinese": "vt. 重新开始, 取回, 恢复",
+    "ipa": "ri'zju:m",
+    "rank": 3522,
+    "level": "intermediate"
+  },
+  {
+    "word": "twenty",
+    "chinese": "num. 二十, 二十个",
+    "ipa": "'twenti",
+    "rank": 3523,
+    "level": "intermediate"
+  },
+  {
+    "word": "newly",
+    "chinese": "adv. 重新, 最近",
+    "ipa": "'nju:li",
+    "rank": 3524,
+    "level": "intermediate"
+  },
+  {
+    "word": "raise",
+    "chinese": "n. 上升, 高地, 增高",
+    "ipa": "reiz",
+    "rank": 3525,
+    "level": "intermediate"
+  },
+  {
+    "word": "prepare",
+    "chinese": "vt. 准备, 筹备, 使在思想上有准备, 制造, 调制",
+    "ipa": "pri'pєә",
+    "rank": 3526,
+    "level": "intermediate"
+  },
+  {
+    "word": "avatar",
+    "chinese": "n. 天神下凡化作人形, 化身",
+    "ipa": ".ævә'tɑ:",
+    "rank": 3527,
+    "level": "intermediate"
+  },
+  {
+    "word": "gary",
+    "chinese": "n. 盖理",
+    "ipa": "'^eәri",
+    "rank": 3528,
+    "level": "intermediate"
+  },
+  {
+    "word": "depending",
+    "chinese": "[计] 依赖",
+    "ipa": "dɪˈpɛndɪŋ",
+    "rank": 3529,
+    "level": "intermediate"
+  },
+  {
+    "word": "illegal",
+    "chinese": "a. 违法的, 不合规定的",
+    "ipa": "i'li:gәl",
+    "rank": 3530,
+    "level": "intermediate"
+  },
+  {
+    "word": "expansion",
+    "chinese": "n. 扩充, 开展, 膨胀",
+    "ipa": "ik'spænʃәn",
+    "rank": 3531,
+    "level": "intermediate"
+  },
+  {
+    "word": "vary",
+    "chinese": "vt. 改变, 使多样化",
+    "ipa": "'vєәri",
+    "rank": 3532,
+    "level": "intermediate"
+  },
+  {
+    "word": "hundreds",
+    "chinese": "n. 数百",
+    "ipa": "ˈhənərdz",
+    "rank": 3533,
+    "level": "intermediate"
+  },
+  {
+    "word": "rome",
+    "chinese": "n. 罗马",
+    "ipa": "rәum",
+    "rank": 3534,
+    "level": "intermediate"
+  },
+  {
+    "word": "arab",
+    "chinese": "n. 阿拉伯人, 阿拉伯马",
+    "ipa": "'ærәb",
+    "rank": 3535,
+    "level": "intermediate"
+  },
+  {
+    "word": "lincoln",
+    "chinese": "n. 林肯",
+    "ipa": "'liŋkәn",
+    "rank": 3536,
+    "level": "intermediate"
+  },
+  {
+    "word": "helped",
+    "chinese": "v. 帮助（help的过去分词）",
+    "ipa": "hɛlpt",
+    "rank": 3537,
+    "level": "intermediate"
+  },
+  {
+    "word": "premier",
+    "chinese": "n. 总理, 首相",
+    "ipa": "'pri:mjә",
+    "rank": 3538,
+    "level": "intermediate"
+  },
+  {
+    "word": "tomorrow",
+    "chinese": "n. 明天, 未来",
+    "ipa": "tә'mɒ:rәu",
+    "rank": 3539,
+    "level": "intermediate"
+  },
+  {
+    "word": "purchased",
+    "chinese": "a. 已经购买的",
+    "ipa": "ˈpərʧəst",
+    "rank": 3540,
+    "level": "intermediate"
+  },
+  {
+    "word": "milk",
+    "chinese": "n. 奶, 乳状物",
+    "ipa": "milk",
+    "rank": 3541,
+    "level": "intermediate"
+  },
+  {
+    "word": "decide",
+    "chinese": "v. 决定, 判决",
+    "ipa": "di'said",
+    "rank": 3542,
+    "level": "intermediate"
+  },
+  {
+    "word": "consent",
+    "chinese": "n. 同意, 许可",
+    "ipa": "kәn'sent",
+    "rank": 3543,
+    "level": "intermediate"
+  },
+  {
+    "word": "drama",
+    "chinese": "n. 戏剧, 戏剧艺术",
+    "ipa": "'drɑ:mә",
+    "rank": 3544,
+    "level": "intermediate"
+  },
+  {
+    "word": "visiting",
+    "chinese": "n. 参观, 拜访, 访问",
+    "ipa": "'vizitiŋ",
+    "rank": 3545,
+    "level": "intermediate"
+  },
+  {
+    "word": "performing",
+    "chinese": "a. 表演的, 履行的",
+    "ipa": "pә'fɒ:miŋ",
+    "rank": 3546,
+    "level": "intermediate"
+  },
+  {
+    "word": "downtown",
+    "chinese": "n. 市中心区",
+    "ipa": "'daun'taun",
+    "rank": 3547,
+    "level": "intermediate"
+  },
+  {
+    "word": "keyboard",
+    "chinese": "n. 键盘",
+    "ipa": "'ki:bɒ:d",
+    "rank": 3548,
+    "level": "intermediate"
+  },
+  {
+    "word": "contest",
+    "chinese": "n. 竞赛, 争论",
+    "ipa": "'kɒntest",
+    "rank": 3549,
+    "level": "intermediate"
+  },
+  {
+    "word": "collected",
+    "chinese": "a. 收集成的, 镇定的",
+    "ipa": "kә'lektid",
+    "rank": 3550,
+    "level": "intermediate"
+  },
+  {
+    "word": "nw",
+    "chinese": "[电] 十亿分之一瓦",
+    "ipa": "nw",
+    "rank": 3551,
+    "level": "intermediate"
+  },
+  {
+    "word": "bands",
+    "chinese": "n. 法官",
+    "ipa": "'bændz",
+    "rank": 3552,
+    "level": "intermediate"
+  },
+  {
+    "word": "boot",
+    "chinese": "n. 长靴, 踢, 解雇, 效用",
+    "ipa": "bu:t",
+    "rank": 3553,
+    "level": "intermediate"
+  },
+  {
+    "word": "suitable",
+    "chinese": "a. 适当的, 相配的",
+    "ipa": "'sju:tәbl",
+    "rank": 3554,
+    "level": "intermediate"
+  },
+  {
+    "word": "ff",
+    "chinese": "[计] 快进, 触发器, 换页",
+    "ipa": "ff",
+    "rank": 3555,
+    "level": "intermediate"
+  },
+  {
+    "word": "absolutely",
+    "chinese": "adv. 完全地, 绝对地, 确确实实地",
+    "ipa": "'æbsәlu:tli",
+    "rank": 3556,
+    "level": "intermediate"
+  },
+  {
+    "word": "millions",
+    "chinese": "n. 数百万",
+    "ipa": "ˈmɪljənz",
+    "rank": 3557,
+    "level": "intermediate"
+  },
+  {
+    "word": "lunch",
+    "chinese": "n. 午餐",
+    "ipa": "lʌntʃ",
+    "rank": 3558,
+    "level": "intermediate"
+  },
+  {
+    "word": "dildo",
+    "chinese": "n. 人造阴茎",
+    "ipa": "dildәu",
+    "rank": 3559,
+    "level": "intermediate"
+  },
+  {
+    "word": "audit",
+    "chinese": "n. 审计, 查帐",
+    "ipa": "'ɒ:dit",
+    "rank": 3560,
+    "level": "intermediate"
+  },
+  {
+    "word": "push",
+    "chinese": "n. 推, 推动, 奋斗, 攻击, 进取心",
+    "ipa": "puʃ",
+    "rank": 3561,
+    "level": "intermediate"
+  },
+  {
+    "word": "chamber",
+    "chinese": "n. 室, 房间, 枪膛",
+    "ipa": "'tʃeimbә",
+    "rank": 3562,
+    "level": "intermediate"
+  },
+  {
+    "word": "guinea",
+    "chinese": "n. 几内亚",
+    "ipa": "'gini",
+    "rank": 3563,
+    "level": "intermediate"
+  },
+  {
+    "word": "findings",
+    "chinese": "n. 发现, 调查结果",
+    "ipa": "ˈfaɪndɪŋz",
+    "rank": 3564,
+    "level": "intermediate"
+  },
+  {
+    "word": "muscle",
+    "chinese": "n. 肌肉, 臂力",
+    "ipa": "'mʌsl",
+    "rank": 3565,
+    "level": "intermediate"
+  },
+  {
+    "word": "featuring",
+    "chinese": "feature的现在分词形式",
+    "ipa": "ˈfi:tʃərɪŋ",
+    "rank": 3566,
+    "level": "intermediate"
+  },
+  {
+    "word": "iso",
+    "chinese": "[计] 国际标准化组织",
+    "ipa": "'aisәj",
+    "rank": 3567,
+    "level": "intermediate"
+  },
+  {
+    "word": "implement",
+    "chinese": "n. 工具, 器具, 手段",
+    "ipa": "'implimәnt",
+    "rank": 3568,
+    "level": "intermediate"
+  },
+  {
+    "word": "clicking",
+    "chinese": "n. 微小静电干扰声",
+    "ipa": "ˈklɪkɪŋ",
+    "rank": 3569,
+    "level": "intermediate"
+  },
+  {
+    "word": "scheduled",
+    "chinese": "a. 预定的",
+    "ipa": "'skedʒuәld",
+    "rank": 3570,
+    "level": "intermediate"
+  },
+  {
+    "word": "polls",
+    "chinese": "n. 投票",
+    "ipa": "poʊlz",
+    "rank": 3571,
+    "level": "intermediate"
+  },
+  {
+    "word": "typical",
+    "chinese": "a. 典型的, 象征性的",
+    "ipa": "'tipikl",
+    "rank": 3572,
+    "level": "intermediate"
+  },
+  {
+    "word": "tower",
+    "chinese": "n. 塔, 高楼, 堡垒",
+    "ipa": "'tauә",
+    "rank": 3573,
+    "level": "intermediate"
+  },
+  {
+    "word": "yours",
+    "chinese": "pron. 你的(东西), 你们的(东西)",
+    "ipa": "juәz",
+    "rank": 3574,
+    "level": "intermediate"
+  },
+  {
+    "word": "sum",
+    "chinese": "n. 总数, 总和, 金额, 概要, 顶点",
+    "ipa": "sʌm",
+    "rank": 3575,
+    "level": "intermediate"
+  },
+  {
+    "word": "misc",
+    "chinese": "[计] 杂类新闻组",
+    "ipa": "misc",
+    "rank": 3576,
+    "level": "intermediate"
+  },
+  {
+    "word": "calculator",
+    "chinese": "n. 计算者, 计算器",
+    "ipa": "'kælkjuleitә",
+    "rank": 3577,
+    "level": "intermediate"
+  },
+  {
+    "word": "significantly",
+    "chinese": "adv. 值得注目地",
+    "ipa": "sɪgˈnɪfɪkəntli",
+    "rank": 3578,
+    "level": "intermediate"
+  },
+  {
+    "word": "chicken",
+    "chinese": "n. 小鸡, 鸡肉",
+    "ipa": "'tʃikin",
+    "rank": 3579,
+    "level": "intermediate"
+  },
+  {
+    "word": "temporary",
+    "chinese": "a. 暂时的, 临时的",
+    "ipa": "'tempәrәri",
+    "rank": 3580,
+    "level": "intermediate"
+  },
+  {
+    "word": "attend",
+    "chinese": "vt. 参加, 照料, 伴随",
+    "ipa": "ә'tend",
+    "rank": 3581,
+    "level": "intermediate"
+  },
+  {
+    "word": "shower",
+    "chinese": "n. 阵雨, 淋浴, 一阵, 展出者, 显示者",
+    "ipa": "'ʃauә",
+    "rank": 3582,
+    "level": "intermediate"
+  },
+  {
+    "word": "alan",
+    "chinese": "n. 艾伦（男子名）",
+    "ipa": "'ælәn",
+    "rank": 3583,
+    "level": "intermediate"
+  },
+  {
+    "word": "sending",
+    "chinese": "n. 发送, 派遣, 发射, 信件, 神赐, 天降",
+    "ipa": "'sendiŋ",
+    "rank": 3584,
+    "level": "intermediate"
+  },
+  {
+    "word": "jason",
+    "chinese": "n. 詹森（男子名）",
+    "ipa": "ˈʤeɪsən",
+    "rank": 3585,
+    "level": "intermediate"
+  },
+  {
+    "word": "tonight",
+    "chinese": "n. 今晚, 今夜",
+    "ipa": "tә'nait",
+    "rank": 3586,
+    "level": "intermediate"
+  },
+  {
+    "word": "dear",
+    "chinese": "n. 亲爱的人",
+    "ipa": "'diә",
+    "rank": 3587,
+    "level": "intermediate"
+  },
+  {
+    "word": "sufficient",
+    "chinese": "a. 充分的, 足够的",
+    "ipa": "sә'fiʃәnt",
+    "rank": 3588,
+    "level": "intermediate"
+  },
+  {
+    "word": "holdem",
+    "chinese": "德州扑克",
+    "ipa": "holdem",
+    "rank": 3589,
+    "level": "intermediate"
+  },
+  {
+    "word": "shell",
+    "chinese": "n. 贝壳, 壳, 外形, 炮弹",
+    "ipa": "ʃel",
+    "rank": 3590,
+    "level": "intermediate"
+  },
+  {
+    "word": "province",
+    "chinese": "n. 省, 地方, 职权, 领域",
+    "ipa": "'prɒvins",
+    "rank": 3591,
+    "level": "intermediate"
+  },
+  {
+    "word": "catholic",
+    "chinese": "n. 天主教徒",
+    "ipa": "'kæθәlik",
+    "rank": 3592,
+    "level": "intermediate"
+  },
+  {
+    "word": "oak",
+    "chinese": "n. 橡树, 橡木",
+    "ipa": "әuk",
+    "rank": 3593,
+    "level": "intermediate"
+  },
+  {
+    "word": "vat",
+    "chinese": "n. 大桶",
+    "ipa": "væt",
+    "rank": 3594,
+    "level": "intermediate"
+  },
+  {
+    "word": "awareness",
+    "chinese": "n. 意识, 认识",
+    "ipa": "ә'weәnis",
+    "rank": 3595,
+    "level": "intermediate"
+  },
+  {
+    "word": "vancouver",
+    "chinese": "n. 温哥华（加拿大主要港市）",
+    "ipa": "væn'ku:vә",
+    "rank": 3596,
+    "level": "intermediate"
+  },
+  {
+    "word": "governor",
+    "chinese": "n. (美)州长, (英)总督, 统治者, 管理者, 理事",
+    "ipa": "'gʌvәnә",
+    "rank": 3597,
+    "level": "intermediate"
+  },
+  {
+    "word": "beer",
+    "chinese": "n. 啤酒",
+    "ipa": "biә",
+    "rank": 3598,
+    "level": "intermediate"
+  },
+  {
+    "word": "seemed",
+    "chinese": "v. 装作",
+    "ipa": "simd",
+    "rank": 3599,
+    "level": "intermediate"
+  },
+  {
+    "word": "contribution",
+    "chinese": "n. 捐助, 捐助之物, 贡献",
+    "ipa": ".kɒntri'bju:ʃәn",
+    "rank": 3600,
+    "level": "intermediate"
+  },
+  {
+    "word": "measurement",
+    "chinese": "n. 尺寸, 度量, 度量单位",
+    "ipa": "'meʒәdmәnt",
+    "rank": 3601,
+    "level": "intermediate"
+  },
+  {
+    "word": "swimming",
+    "chinese": "n. 游泳, 眩晕",
+    "ipa": "'swimiŋ",
+    "rank": 3602,
+    "level": "intermediate"
+  },
+  {
+    "word": "spyware",
+    "chinese": "间谍软件",
+    "ipa": "ˈspaɪˌwɛr",
+    "rank": 3603,
+    "level": "intermediate"
+  },
+  {
+    "word": "formula",
+    "chinese": "n. 客套语, 公式, 准则",
+    "ipa": "'fɒ:mjulә",
+    "rank": 3604,
+    "level": "intermediate"
+  },
+  {
+    "word": "constitution",
+    "chinese": "n. 构成, 宪法, 体格",
+    "ipa": ".kɒnsti'tju:ʃәn",
+    "rank": 3605,
+    "level": "intermediate"
+  },
+  {
+    "word": "packaging",
+    "chinese": "n. 包装, 包装业, 包装术",
+    "ipa": "'pækidʒiŋ",
+    "rank": 3606,
+    "level": "intermediate"
+  },
+  {
+    "word": "solar",
+    "chinese": "a. 太阳的, 日光的, 源自太阳的",
+    "ipa": "'sәulә",
+    "rank": 3607,
+    "level": "intermediate"
+  },
+  {
+    "word": "jose",
+    "chinese": "n. 约瑟（人名）",
+    "ipa": "ˌhoʊˈzeɪ",
+    "rank": 3608,
+    "level": "intermediate"
+  },
+  {
+    "word": "catch",
+    "chinese": "n. 捕捉, 陷阱, 捕捉之物, 抓, 拉手",
+    "ipa": "kætʃ",
+    "rank": 3609,
+    "level": "intermediate"
+  },
+  {
+    "word": "jane",
+    "chinese": "n. 简（女子名）",
+    "ipa": "dʒein",
+    "rank": 3610,
+    "level": "intermediate"
+  },
+  {
+    "word": "pakistan",
+    "chinese": "n. 巴基斯坦",
+    "ipa": ".pɑ:ki'stɑ:n",
+    "rank": 3611,
+    "level": "intermediate"
+  },
+  {
+    "word": "ps",
+    "chinese": "[计] 实际顺序, 图象系统, 电源, 保护状态",
+    "ipa": "ps",
+    "rank": 3612,
+    "level": "intermediate"
+  },
+  {
+    "word": "reliable",
+    "chinese": "a. 可靠的, 可信赖的",
+    "ipa": "ri'laiәbl",
+    "rank": 3613,
+    "level": "intermediate"
+  },
+  {
+    "word": "consultation",
+    "chinese": "n. 请教, 咨询, 磋商会",
+    "ipa": ".kɒnsәl'teiʃәn",
+    "rank": 3614,
+    "level": "intermediate"
+  },
+  {
+    "word": "northwest",
+    "chinese": "n. 西北, 西北方",
+    "ipa": ".nɒ:θ'west",
+    "rank": 3615,
+    "level": "intermediate"
+  },
+  {
+    "word": "sir",
+    "chinese": "n. 先生, 阁下",
+    "ipa": "sә:",
+    "rank": 3616,
+    "level": "intermediate"
+  },
+  {
+    "word": "doubt",
+    "chinese": "n. 怀疑, 疑惑",
+    "ipa": "daut",
+    "rank": 3617,
+    "level": "intermediate"
+  },
+  {
+    "word": "earn",
+    "chinese": "vt. 赚得, 获得, 博得",
+    "ipa": "ә:n",
+    "rank": 3618,
+    "level": "intermediate"
+  },
+  {
+    "word": "finder",
+    "chinese": "a. 发现者, 寻星镜",
+    "ipa": "'faindә",
+    "rank": 3619,
+    "level": "intermediate"
+  },
+  {
+    "word": "unable",
+    "chinese": "a. 不能的, 不会的",
+    "ipa": "ʌn'eibl",
+    "rank": 3620,
+    "level": "intermediate"
+  },
+  {
+    "word": "periods",
+    "chinese": "n. 周期（period的复数）",
+    "ipa": "ˈpɪriədz",
+    "rank": 3621,
+    "level": "intermediate"
+  },
+  {
+    "word": "classroom",
+    "chinese": "n. 教室",
+    "ipa": "'klɑ:sru:m",
+    "rank": 3622,
+    "level": "intermediate"
+  },
+  {
+    "word": "tasks",
+    "chinese": "n. 任务",
+    "ipa": "tæsks",
+    "rank": 3623,
+    "level": "intermediate"
+  },
+  {
+    "word": "democracy",
+    "chinese": "n. 民主政治, 民主主义",
+    "ipa": "di'mɒkrәsi",
+    "rank": 3624,
+    "level": "intermediate"
+  },
+  {
+    "word": "attacks",
+    "chinese": "n. 攻击, 评击（attack的复数形式）",
+    "ipa": "əˈtæks",
+    "rank": 3625,
+    "level": "intermediate"
+  },
+  {
+    "word": "kim",
+    "chinese": "n. 金姆（人名）",
+    "ipa": "kɪm",
+    "rank": 3626,
+    "level": "intermediate"
+  },
+  {
+    "word": "wallpaper",
+    "chinese": "n. 壁纸, 墙纸",
+    "ipa": "'wɒ:lpeipә",
+    "rank": 3627,
+    "level": "intermediate"
+  },
+  {
+    "word": "merchandise",
+    "chinese": "n. 商品, 货物",
+    "ipa": "'mә:tʃәndaiz",
+    "rank": 3628,
+    "level": "intermediate"
+  },
+  {
+    "word": "const",
+    "chinese": "n. 常量, 常数",
+    "ipa": "const",
+    "rank": 3629,
+    "level": "intermediate"
+  },
+  {
+    "word": "resistance",
+    "chinese": "n. 抵抗力, 反抗, 耐力, 阻力, 电阻",
+    "ipa": "ri'zistәns",
+    "rank": 3630,
+    "level": "intermediate"
+  },
+  {
+    "word": "doors",
+    "chinese": "n. 大门",
+    "ipa": "dɔrz",
+    "rank": 3631,
+    "level": "intermediate"
+  },
+  {
+    "word": "symptoms",
+    "chinese": "n. 病徵",
+    "ipa": "ˈsɪmptəmz",
+    "rank": 3632,
+    "level": "intermediate"
+  },
+  {
+    "word": "resorts",
+    "chinese": "n. 度假村",
+    "ipa": "rɪˈzɔrts",
+    "rank": 3633,
+    "level": "intermediate"
+  },
+  {
+    "word": "biggest",
+    "chinese": "a. 最大的（big的最高级）",
+    "ipa": "ˈbɪgəst",
+    "rank": 3634,
+    "level": "intermediate"
+  },
+  {
+    "word": "memorial",
+    "chinese": "n. 纪念物, 请愿书",
+    "ipa": "mi'mɒ:riәl",
+    "rank": 3635,
+    "level": "intermediate"
+  },
+  {
+    "word": "visitor",
+    "chinese": "n. 参观者, 游客, 访客",
+    "ipa": "'vizitә",
+    "rank": 3636,
+    "level": "intermediate"
+  },
+  {
+    "word": "twin",
+    "chinese": "n. 双胞胎中一人, 一对非常相像的人(或物)中的一个",
+    "ipa": "twin",
+    "rank": 3637,
+    "level": "intermediate"
+  },
+  {
+    "word": "forth",
+    "chinese": "adv. 往前, 以后, 向外",
+    "ipa": "fɒ:θ",
+    "rank": 3638,
+    "level": "intermediate"
+  },
+  {
+    "word": "insert",
+    "chinese": "n. 插入物",
+    "ipa": "in'sә:t",
+    "rank": 3639,
+    "level": "intermediate"
+  },
+  {
+    "word": "baltimore",
+    "chinese": "n. 巴尔的摩",
+    "ipa": "'bɒ:ltimɒ:",
+    "rank": 3640,
+    "level": "intermediate"
+  },
+  {
+    "word": "gateway",
+    "chinese": "n. 门, 通路",
+    "ipa": "'geitwei",
+    "rank": 3641,
+    "level": "intermediate"
+  },
+  {
+    "word": "ky",
+    "chinese": "abbr. 美国肯塔基州（Kentucky）",
+    "ipa": "ky",
+    "rank": 3642,
+    "level": "intermediate"
+  },
+  {
+    "word": "dont",
+    "chinese": "不",
+    "ipa": "dont",
+    "rank": 3643,
+    "level": "intermediate"
+  },
+  {
+    "word": "alumni",
+    "chinese": "pl. 男毕业生, 男校友",
+    "ipa": "ә'lʌmni",
+    "rank": 3644,
+    "level": "intermediate"
+  },
+  {
+    "word": "drawing",
+    "chinese": "n. 图画, 制图, 拉",
+    "ipa": "'drɒ:iŋ",
+    "rank": 3645,
+    "level": "intermediate"
+  },
+  {
+    "word": "candidates",
+    "chinese": "n. 报考者( candidate的复数形式 ); 申请求职者; 攻读学位者; 最后命运或结局如何已显然可见者",
+    "ipa": "'kændɪdeɪts",
+    "rank": 3646,
+    "level": "intermediate"
+  },
+  {
+    "word": "charlotte",
+    "chinese": "n. 水果奶油布丁",
+    "ipa": "'ʃɑ:lәt",
+    "rank": 3647,
+    "level": "intermediate"
+  },
+  {
+    "word": "ordered",
+    "chinese": "a. 安排好的, 有规律的, 有条理的, 整齐的",
+    "ipa": "ˈɔrdərd",
+    "rank": 3648,
+    "level": "intermediate"
+  },
+  {
+    "word": "biological",
+    "chinese": "a. 生物学的",
+    "ipa": ".baiәu'lɒdʒikәl",
+    "rank": 3649,
+    "level": "intermediate"
+  },
+  {
+    "word": "fighting",
+    "chinese": "a. 战斗的, 容易引起争斗的, 适于格斗的, 好斗的, 好战的, 斗争的, 搏斗的",
+    "ipa": "'faitiŋ",
+    "rank": 3650,
+    "level": "intermediate"
+  },
+  {
+    "word": "transition",
+    "chinese": "n. 转变, 转换, 变迁, 过渡时期, 临时转调",
+    "ipa": "træn'ziʃәn",
+    "rank": 3651,
+    "level": "intermediate"
+  },
+  {
+    "word": "happens",
+    "chinese": "v. 发生( happen的第三人称单数 ); 碰巧; 产生结果; （向对方表示异议或不悦等）",
+    "ipa": "ˈhæpənz",
+    "rank": 3652,
+    "level": "intermediate"
+  },
+  {
+    "word": "preferences",
+    "chinese": "[计] 参数选择",
+    "ipa": "ˈprɛfərənsɪz",
+    "rank": 3653,
+    "level": "intermediate"
+  },
+  {
+    "word": "spy",
+    "chinese": "n. 间谍, 侦探, 侦察",
+    "ipa": "spai",
+    "rank": 3654,
+    "level": "intermediate"
+  },
+  {
+    "word": "romance",
+    "chinese": "n. 冒险故事, 浪漫史, 传奇文学",
+    "ipa": "rәu'mæns",
+    "rank": 3655,
+    "level": "intermediate"
+  },
+  {
+    "word": "instrument",
+    "chinese": "n. 工具, 手段, 仪器",
+    "ipa": "'instrumәnt",
+    "rank": 3656,
+    "level": "intermediate"
+  },
+  {
+    "word": "bruce",
+    "chinese": "n. 布鲁斯",
+    "ipa": "bru:s",
+    "rank": 3657,
+    "level": "intermediate"
+  },
+  {
+    "word": "split",
+    "chinese": "n. 劈开, 裂片, 裂缝, 分裂, 派系, 派别, 柳条",
+    "ipa": "split",
+    "rank": 3658,
+    "level": "intermediate"
+  },
+  {
+    "word": "themes",
+    "chinese": "n. 主题（theme的复数）",
+    "ipa": "θimz",
+    "rank": 3659,
+    "level": "intermediate"
+  },
+  {
+    "word": "powers",
+    "chinese": "n. 权势",
+    "ipa": "paʊərz",
+    "rank": 3660,
+    "level": "intermediate"
+  },
+  {
+    "word": "heaven",
+    "chinese": "n. 天堂, 上帝, 天空",
+    "ipa": "'hevn",
+    "rank": 3661,
+    "level": "intermediate"
+  },
+  {
+    "word": "br",
+    "chinese": "[计] 总线请求",
+    "ipa": "br",
+    "rank": 3662,
+    "level": "intermediate"
+  },
+  {
+    "word": "bits",
+    "chinese": "abbr. 后台智能传输服务（Background Intelligent Transfer Service）",
+    "ipa": "bɪts",
+    "rank": 3663,
+    "level": "intermediate"
+  },
+  {
+    "word": "pregnant",
+    "chinese": "a. 怀孕的, 充满的, 思想丰富的, 成果丰硕的",
+    "ipa": "'pregnәnt",
+    "rank": 3664,
+    "level": "intermediate"
+  },
+  {
+    "word": "twice",
+    "chinese": "adv. 两次, 两倍",
+    "ipa": "twais",
+    "rank": 3665,
+    "level": "intermediate"
+  },
+  {
+    "word": "classification",
+    "chinese": "n. 分类, 分级",
+    "ipa": ".klæsifi'keiʃәn",
+    "rank": 3666,
+    "level": "intermediate"
+  },
+  {
+    "word": "focused",
+    "chinese": "a. 聚焦的",
+    "ipa": "'fәukәst",
+    "rank": 3667,
+    "level": "intermediate"
+  },
+  {
+    "word": "egypt",
+    "chinese": "n. 埃及",
+    "ipa": "'i:dʒipt",
+    "rank": 3668,
+    "level": "intermediate"
+  },
+  {
+    "word": "physician",
+    "chinese": "n. 医师, 内科医师, 解除痛苦者",
+    "ipa": "fi'ziʃәn",
+    "rank": 3669,
+    "level": "intermediate"
+  },
+  {
+    "word": "hollywood",
+    "chinese": "n. 好莱坞, 美国电影界, 美国电影工业, 美国式电影",
+    "ipa": "'hɔliwud",
+    "rank": 3670,
+    "level": "intermediate"
+  },
+  {
+    "word": "bargain",
+    "chinese": "n. 交易, 买卖协定, 特价商品",
+    "ipa": "'bɑ:gin",
+    "rank": 3671,
+    "level": "intermediate"
+  },
+  {
+    "word": "wikipedia",
+    "chinese": "维基百科（一个基于wiki技术的多语言的百科全书协作计划, 也是一部用不同语言写成的网络百科全书, 其目标及宗旨是为全人类提供自由的百科全书）",
+    "ipa": "ˈwɪkiˌpiˌdiə",
+    "rank": 3672,
+    "level": "intermediate"
+  },
+  {
+    "word": "cellular",
+    "chinese": "a. 细胞的",
+    "ipa": "'seljulә",
+    "rank": 3673,
+    "level": "intermediate"
+  },
+  {
+    "word": "norway",
+    "chinese": "n. 挪威",
+    "ipa": "'nɒ:wei",
+    "rank": 3674,
+    "level": "intermediate"
+  },
+  {
+    "word": "vermont",
+    "chinese": "n. 佛蒙特",
+    "ipa": "vә:'mɔnt",
+    "rank": 3675,
+    "level": "intermediate"
+  },
+  {
+    "word": "asking",
+    "chinese": "n. 请求",
+    "ipa": "'ɑ:skiŋ",
+    "rank": 3676,
+    "level": "intermediate"
+  },
+  {
+    "word": "blocks",
+    "chinese": "n. 积木",
+    "ipa": "'blɔks",
+    "rank": 3677,
+    "level": "intermediate"
+  },
+  {
+    "word": "normally",
+    "chinese": "adv. 正规地, 合规则, 正常地",
+    "ipa": "'nɒ:mәli",
+    "rank": 3678,
+    "level": "intermediate"
+  },
+  {
+    "word": "lo",
+    "chinese": "interj. 瞧, 看",
+    "ipa": "lәu",
+    "rank": 3679,
+    "level": "intermediate"
+  },
+  {
+    "word": "spiritual",
+    "chinese": "a. 精神上的, 神圣的, 崇高的, 高尚的, 鬼的, 招魂术的",
+    "ipa": "'spiritʃuәl",
+    "rank": 3680,
+    "level": "intermediate"
+  },
+  {
+    "word": "hunting",
+    "chinese": "n. 狩猎, 猎狐, 探求",
+    "ipa": "'hʌntiŋ",
+    "rank": 3681,
+    "level": "intermediate"
+  },
+  {
+    "word": "diabetes",
+    "chinese": "n. 糖尿病, 多尿症",
+    "ipa": "daiә'bi:ti:z",
+    "rank": 3682,
+    "level": "intermediate"
+  },
+  {
+    "word": "suit",
+    "chinese": "n. 套装, 诉讼, 请求, 起诉, 套, 组",
+    "ipa": "sju:t. su:t",
+    "rank": 3683,
+    "level": "intermediate"
+  },
+  {
+    "word": "ml",
+    "chinese": "法学硕士, 摩托艇, 汽艇",
+    "ipa": "ml",
+    "rank": 3684,
+    "level": "intermediate"
+  },
+  {
+    "word": "shift",
+    "chinese": "n. 变化, 移动, 轮班, 手段, 应急办法, 移位",
+    "ipa": "ʃift",
+    "rank": 3685,
+    "level": "intermediate"
+  },
+  {
+    "word": "chip",
+    "chinese": "n. 屑片, 薄片, 碎片",
+    "ipa": "tʃip",
+    "rank": 3686,
+    "level": "intermediate"
+  },
+  {
+    "word": "res",
+    "chinese": "[计] 远程输入服务",
+    "ipa": "ri:z",
+    "rank": 3687,
+    "level": "intermediate"
+  },
+  {
+    "word": "sit",
+    "chinese": "vi. 坐, 就座, 坐落",
+    "ipa": "sit",
+    "rank": 3688,
+    "level": "intermediate"
+  },
+  {
+    "word": "bodies",
+    "chinese": "n. （文章、文件等的）正文",
+    "ipa": "ˈbɑdiz",
+    "rank": 3689,
+    "level": "intermediate"
+  },
+  {
+    "word": "photographs",
+    "chinese": "n. 照片",
+    "ipa": "ˈfoʊtəˌgræfs",
+    "rank": 3690,
+    "level": "intermediate"
+  },
+  {
+    "word": "cutting",
+    "chinese": "n. 切断, 切下, 路堑",
+    "ipa": "'kʌtiŋ",
+    "rank": 3691,
+    "level": "intermediate"
+  },
+  {
+    "word": "wow",
+    "chinese": "interj. (非正式)哇",
+    "ipa": "wau",
+    "rank": 3692,
+    "level": "intermediate"
+  },
+  {
+    "word": "simon",
+    "chinese": "n. 西蒙（男子名）",
+    "ipa": "'saimәn",
+    "rank": 3693,
+    "level": "intermediate"
+  },
+  {
+    "word": "writers",
+    "chinese": "n. 作家",
+    "ipa": "ˈraɪtərz",
+    "rank": 3694,
+    "level": "intermediate"
+  },
+  {
+    "word": "marks",
+    "chinese": "n. 标记, 记号",
+    "ipa": "mɑrks",
+    "rank": 3695,
+    "level": "intermediate"
+  },
+  {
+    "word": "flexible",
+    "chinese": "a. 易曲的, 灵活的, 柔顺的, 能变形的, 可通融的",
+    "ipa": "'fleksәbl",
+    "rank": 3696,
+    "level": "intermediate"
+  },
+  {
+    "word": "loved",
+    "chinese": "v. 热爱（love的过去分词）",
+    "ipa": "lʌvd",
+    "rank": 3697,
+    "level": "intermediate"
+  },
+  {
+    "word": "favourites",
+    "chinese": "n. 特别喜爱的人（或物）( favourite的复数形式 ); 竞赛中被认为会获胜的马、竞争者等",
+    "ipa": "ˈfeivərits",
+    "rank": 3698,
+    "level": "intermediate"
+  },
+  {
+    "word": "mapping",
+    "chinese": "[计] 映射; 变换; 映象",
+    "ipa": "'mæpiŋ",
+    "rank": 3699,
+    "level": "intermediate"
+  },
+  {
+    "word": "numerous",
+    "chinese": "a. 很多的, 数目众多的, 多数的",
+    "ipa": "'nju:mәrәs",
+    "rank": 3700,
+    "level": "intermediate"
+  },
+  {
+    "word": "relatively",
+    "chinese": "adv. 相对地, 比较地, 相当地, 相关地",
+    "ipa": "'relәtivli",
+    "rank": 3701,
+    "level": "intermediate"
+  },
+  {
+    "word": "birds",
+    "chinese": "n. 鸟类",
+    "ipa": "bərdz",
+    "rank": 3702,
+    "level": "intermediate"
+  },
+  {
+    "word": "satisfaction",
+    "chinese": "n. 满足, 满意, 快事, 赔偿, 赎罪, 报仇的机会",
+    "ipa": ".sætis'fækʃәn",
+    "rank": 3703,
+    "level": "intermediate"
+  },
+  {
+    "word": "represents",
+    "chinese": "v. 表现( represent的第三人称单数 ); 代表; 体现; 作为…的代表",
+    "ipa": "ˌrepriˈzents",
+    "rank": 3704,
+    "level": "intermediate"
+  },
+  {
+    "word": "char",
+    "chinese": "n. 家庭杂务, 炭",
+    "ipa": "tʃɑ:",
+    "rank": 3705,
+    "level": "intermediate"
+  },
+  {
+    "word": "indexed",
+    "chinese": "a. 编入索引的",
+    "ipa": "'indekst",
+    "rank": 3706,
+    "level": "intermediate"
+  },
+  {
+    "word": "pittsburgh",
+    "chinese": "n. 匹兹堡",
+    "ipa": "'pitsbә:g",
+    "rank": 3707,
+    "level": "intermediate"
+  },
+  {
+    "word": "superior",
+    "chinese": "n. 长者, 占优势的人, 上级",
+    "ipa": "sju:'piәriә",
+    "rank": 3708,
+    "level": "intermediate"
+  },
+  {
+    "word": "preferred",
+    "chinese": "a. 首选的",
+    "ipa": "pri'fә:d",
+    "rank": 3709,
+    "level": "intermediate"
+  },
+  {
+    "word": "saved",
+    "chinese": "a. 已保存的",
+    "ipa": "seɪvd",
+    "rank": 3710,
+    "level": "intermediate"
+  },
+  {
+    "word": "paying",
+    "chinese": "a. 支付的, 付款的, 有利的, 赢利的, 合算的",
+    "ipa": "'peiiŋ",
+    "rank": 3711,
+    "level": "intermediate"
+  },
+  {
+    "word": "cartoon",
+    "chinese": "n. 卡通画, 漫画",
+    "ipa": "kɑ:'tu:n",
+    "rank": 3712,
+    "level": "intermediate"
+  },
+  {
+    "word": "shots",
+    "chinese": "n. 炮弹",
+    "ipa": "ʃɑts",
+    "rank": 3713,
+    "level": "intermediate"
+  },
+  {
+    "word": "intellectual",
+    "chinese": "n. 有知识者, 知识分子, 凭理智做事者",
+    "ipa": ".intә'lektʃuәl",
+    "rank": 3714,
+    "level": "intermediate"
+  },
+  {
+    "word": "moore",
+    "chinese": "n. 摩尔（男子名）",
+    "ipa": "'muә",
+    "rank": 3715,
+    "level": "intermediate"
+  },
+  {
+    "word": "granted",
+    "chinese": "adv. 算是如此, 但是",
+    "ipa": "ˈgrænɪd",
+    "rank": 3716,
+    "level": "intermediate"
+  },
+  {
+    "word": "choices",
+    "chinese": "n. 选择（choice的复数）",
+    "ipa": "ˈʧɔɪsɪz",
+    "rank": 3717,
+    "level": "intermediate"
+  },
+  {
+    "word": "carbon",
+    "chinese": "n. 碳, 副本, 复写纸",
+    "ipa": "'kɑ:bәn",
+    "rank": 3718,
+    "level": "intermediate"
+  },
+  {
+    "word": "spending",
+    "chinese": "n. 经费, 开销",
+    "ipa": "'spendiŋ",
+    "rank": 3719,
+    "level": "intermediate"
+  },
+  {
+    "word": "comfortable",
+    "chinese": "a. 舒服的, 轻松的",
+    "ipa": "'kʌmfәtәbl",
+    "rank": 3720,
+    "level": "intermediate"
+  },
+  {
+    "word": "magnetic",
+    "chinese": "a. 有磁性的, 有吸引力的, 催眠术的",
+    "ipa": "mæg'netik",
+    "rank": 3721,
+    "level": "intermediate"
+  },
+  {
+    "word": "interaction",
+    "chinese": "n. 交互作用, 交感",
+    "ipa": ".intәr'ækʃәn",
+    "rank": 3722,
+    "level": "intermediate"
+  },
+  {
+    "word": "listening",
+    "chinese": "n. 听, 监听",
+    "ipa": "'lisniŋ",
+    "rank": 3723,
+    "level": "intermediate"
+  },
+  {
+    "word": "effectively",
+    "chinese": "adv. 有效地, 有力地, 实际上",
+    "ipa": "i'fektivli",
+    "rank": 3724,
+    "level": "intermediate"
+  },
+  {
+    "word": "registry",
+    "chinese": "n. 登记处, 登记名册",
+    "ipa": "'redʒistri",
+    "rank": 3725,
+    "level": "intermediate"
+  },
+  {
+    "word": "crisis",
+    "chinese": "n. 危机, 危险期, 紧要关头",
+    "ipa": "'kraisis",
+    "rank": 3726,
+    "level": "intermediate"
+  },
+  {
+    "word": "outlook",
+    "chinese": "n. 观点, 景色, 前途, 了望",
+    "ipa": "'autluk",
+    "rank": 3727,
+    "level": "intermediate"
+  },
+  {
+    "word": "massive",
+    "chinese": "a. 大而重的, 宽大的, 宏伟的",
+    "ipa": "'mæsiv",
+    "rank": 3728,
+    "level": "intermediate"
+  },
+  {
+    "word": "denmark",
+    "chinese": "n. 丹麦",
+    "ipa": "'denmɑ:k",
+    "rank": 3729,
+    "level": "intermediate"
+  },
+  {
+    "word": "employed",
+    "chinese": "vt. 雇佣（employ的过去分词）",
+    "ipa": "ɪmˈplɔɪd",
+    "rank": 3730,
+    "level": "intermediate"
+  },
+  {
+    "word": "bright",
+    "chinese": "a. 明亮的, 聪明的, 鲜明的, 欢快的",
+    "ipa": "brait",
+    "rank": 3731,
+    "level": "intermediate"
+  },
+  {
+    "word": "treat",
+    "chinese": "n. 宴请, 款待",
+    "ipa": "tri:t",
+    "rank": 3732,
+    "level": "intermediate"
+  },
+  {
+    "word": "header",
+    "chinese": "n. 收割台",
+    "ipa": "'hedә",
+    "rank": 3733,
+    "level": "intermediate"
+  },
+  {
+    "word": "cs",
+    "chinese": "文职人员, 行政机构",
+    "ipa": "'si:,es",
+    "rank": 3734,
+    "level": "intermediate"
+  },
+  {
+    "word": "poverty",
+    "chinese": "n. 贫穷, 贫困, 缺乏",
+    "ipa": "'pɒvәti",
+    "rank": 3735,
+    "level": "intermediate"
+  },
+  {
+    "word": "formed",
+    "chinese": "a. 成形的, 成形",
+    "ipa": "fɔrmd",
+    "rank": 3736,
+    "level": "intermediate"
+  },
+  {
+    "word": "piano",
+    "chinese": "n. 钢琴",
+    "ipa": "pi'ɑ:nәu",
+    "rank": 3737,
+    "level": "intermediate"
+  },
+  {
+    "word": "echo",
+    "chinese": "n. 回声, 回音, 回波",
+    "ipa": "'ekәu",
+    "rank": 3738,
+    "level": "intermediate"
+  },
+  {
+    "word": "que",
+    "chinese": "n. 队列",
+    "ipa": "kju",
+    "rank": 3739,
+    "level": "intermediate"
+  },
+  {
+    "word": "grid",
+    "chinese": "n. 格子, 栅格",
+    "ipa": "grid",
+    "rank": 3740,
+    "level": "intermediate"
+  },
+  {
+    "word": "sheets",
+    "chinese": "n. 被单",
+    "ipa": "ʃits",
+    "rank": 3741,
+    "level": "intermediate"
+  },
+  {
+    "word": "patrick",
+    "chinese": "n. 帕特里克（男子名）",
+    "ipa": "'pætrik",
+    "rank": 3742,
+    "level": "intermediate"
+  },
+  {
+    "word": "experimental",
+    "chinese": "a. 实验的, 根据实验的",
+    "ipa": "ik.speri'mentәl",
+    "rank": 3743,
+    "level": "intermediate"
+  },
+  {
+    "word": "puerto",
+    "chinese": "n. 垭口, 港口, 山口",
+    "ipa": "ˈpɔrtər",
+    "rank": 3744,
+    "level": "intermediate"
+  },
+  {
+    "word": "revolution",
+    "chinese": "n. 革命, 大变革, 旋转, 转数, 循环",
+    "ipa": ".revә'lu:ʃәn",
+    "rank": 3745,
+    "level": "intermediate"
+  },
+  {
+    "word": "consolidation",
+    "chinese": "n. 巩固, 团结, 合并, 加强",
+    "ipa": "kәn.sɒli'deiʃәn",
+    "rank": 3746,
+    "level": "intermediate"
+  },
+  {
+    "word": "displays",
+    "chinese": "n. 显示器（display的复数）",
+    "ipa": "dɪˈspleɪz",
+    "rank": 3747,
+    "level": "intermediate"
+  },
+  {
+    "word": "plasma",
+    "chinese": "n. 血浆, 淋巴液, 原生质, 等离子体",
+    "ipa": "'plæzmә",
+    "rank": 3748,
+    "level": "intermediate"
+  },
+  {
+    "word": "allowing",
+    "chinese": "v. 允许（allow的现在分词）",
+    "ipa": "əˈlaʊɪŋ",
+    "rank": 3749,
+    "level": "intermediate"
+  },
+  {
+    "word": "earnings",
+    "chinese": "n. 所赚的钱, 工资, 收入",
+    "ipa": "'ә:niŋ",
+    "rank": 3750,
+    "level": "intermediate"
+  },
+  {
+    "word": "voip",
+    "chinese": "abbr. 网络语音电话业务（Voice over Internet Phone）",
+    "ipa": "voip",
+    "rank": 3751,
+    "level": "intermediate"
+  },
+  {
+    "word": "mystery",
+    "chinese": "n. 秘密, 神秘, 奥秘",
+    "ipa": "'mistәri",
+    "rank": 3752,
+    "level": "intermediate"
+  },
+  {
+    "word": "landscape",
+    "chinese": "n. 风景, 山水, 风景画",
+    "ipa": "'lændskeip",
+    "rank": 3753,
+    "level": "intermediate"
+  },
+  {
+    "word": "dependent",
+    "chinese": "n. 依赖他人者",
+    "ipa": "di'pendәnt",
+    "rank": 3754,
+    "level": "intermediate"
+  },
+  {
+    "word": "mechanical",
+    "chinese": "a. 机械的, 机械性的, 力学的",
+    "ipa": "mi'kænikәl",
+    "rank": 3755,
+    "level": "intermediate"
+  },
+  {
+    "word": "journey",
+    "chinese": "n. 旅程, 旅行, 行程",
+    "ipa": "'dʒә:ni",
+    "rank": 3756,
+    "level": "intermediate"
+  },
+  {
+    "word": "delaware",
+    "chinese": "n. 特拉华(美国州名)",
+    "ipa": "'delәweә",
+    "rank": 3757,
+    "level": "intermediate"
+  },
+  {
+    "word": "bidding",
+    "chinese": "n. 命令, 邀请, 出价",
+    "ipa": "'bidiŋ",
+    "rank": 3758,
+    "level": "intermediate"
+  },
+  {
+    "word": "consultants",
+    "chinese": "n. 顾问( consultant的复数形式 ); 高级顾问医生, 会诊医生",
+    "ipa": "kən'sʌltənts",
+    "rank": 3759,
+    "level": "intermediate"
+  },
+  {
+    "word": "risks",
+    "chinese": "n. 风险, 危险（risk复数）",
+    "ipa": "rɪsks",
+    "rank": 3760,
+    "level": "intermediate"
+  },
+  {
+    "word": "banner",
+    "chinese": "n. 旗帜",
+    "ipa": "'bænә",
+    "rank": 3761,
+    "level": "intermediate"
+  },
+  {
+    "word": "applicant",
+    "chinese": "n. 申请者",
+    "ipa": "'æplikәnt",
+    "rank": 3762,
+    "level": "intermediate"
+  },
+  {
+    "word": "charter",
+    "chinese": "n. 特许状, 执照, 宪章",
+    "ipa": "'tʃɑ:tә",
+    "rank": 3763,
+    "level": "intermediate"
+  },
+  {
+    "word": "fig",
+    "chinese": "n. 无花果, 无价值的东西, 少许, 服装",
+    "ipa": "fig",
+    "rank": 3764,
+    "level": "intermediate"
+  },
+  {
+    "word": "barbara",
+    "chinese": "n. 芭芭拉（女子名）",
+    "ipa": "'bɑ:bәrә",
+    "rank": 3765,
+    "level": "intermediate"
+  },
+  {
+    "word": "cooperation",
+    "chinese": "n. 合作, 协力, 配合",
+    "ipa": "kәu.ɒpә'reiʃәn",
+    "rank": 3766,
+    "level": "intermediate"
+  },
+  {
+    "word": "counties",
+    "chinese": "n. 郡, 县( county的名词复数 )",
+    "ipa": "ˈkauntiz",
+    "rank": 3767,
+    "level": "intermediate"
+  },
+  {
+    "word": "acquisition",
+    "chinese": "n. 获得, 获得物",
+    "ipa": ".ækwi'ziʃәn",
+    "rank": 3768,
+    "level": "intermediate"
+  },
+  {
+    "word": "ports",
+    "chinese": "n. 港口, 端口（port的复数）",
+    "ipa": "pɔrts",
+    "rank": 3769,
+    "level": "intermediate"
+  },
+  {
+    "word": "implemented",
+    "chinese": "v. 执行",
+    "ipa": "ˈɪmpləˌmɛnəd",
+    "rank": 3770,
+    "level": "intermediate"
+  },
+  {
+    "word": "sf",
+    "chinese": "[计] 比例因子, 栈前, 栈满",
+    "ipa": "sf",
+    "rank": 3771,
+    "level": "intermediate"
+  },
+  {
+    "word": "directories",
+    "chinese": "n. 目录, 名录",
+    "ipa": "dɪˈrɛktəriz",
+    "rank": 3772,
+    "level": "intermediate"
+  },
+  {
+    "word": "recognized",
+    "chinese": "a. 经过验证的",
+    "ipa": "ˈrɛkəgˌnaɪzd",
+    "rank": 3773,
+    "level": "intermediate"
+  },
+  {
+    "word": "dreams",
+    "chinese": "n. 梦想, 美梦（dream的复数形式）",
+    "ipa": "drimz",
+    "rank": 3774,
+    "level": "intermediate"
+  },
+  {
+    "word": "blogger",
+    "chinese": "n. 写博客的人",
+    "ipa": "ˈblɔgər",
+    "rank": 3775,
+    "level": "intermediate"
+  },
+  {
+    "word": "notification",
+    "chinese": "n. 通知, 通告, 告示",
+    "ipa": ".nәutifi'keiʃәn",
+    "rank": 3776,
+    "level": "intermediate"
+  },
+  {
+    "word": "kg",
+    "chinese": "n. 千克, 公斤",
+    "ipa": "kg",
+    "rank": 3777,
+    "level": "intermediate"
+  },
+  {
+    "word": "licensing",
+    "chinese": "v. 许可",
+    "ipa": "ˈlaɪsənsɪŋ",
+    "rank": 3778,
+    "level": "intermediate"
+  },
+  {
+    "word": "stands",
+    "chinese": "n. 看台",
+    "ipa": "stændz",
+    "rank": 3779,
+    "level": "intermediate"
+  },
+  {
+    "word": "teach",
+    "chinese": "vt. 教, 讲授, 教导, 教育",
+    "ipa": "ti:tʃ",
+    "rank": 3780,
+    "level": "intermediate"
+  },
+  {
+    "word": "occurred",
+    "chinese": "v. 发生（occur的过去分词）",
+    "ipa": "əˈkərd",
+    "rank": 3781,
+    "level": "intermediate"
+  },
+  {
+    "word": "textbooks",
+    "chinese": "n. 教科书, 课本( textbook的复数形式 )",
+    "ipa": "'teksbʊks",
+    "rank": 3782,
+    "level": "intermediate"
+  },
+  {
+    "word": "rapid",
+    "chinese": "a. 迅速的, 飞快的, 急促的, 陡的",
+    "ipa": "'ræpid",
+    "rank": 3783,
+    "level": "intermediate"
+  },
+  {
+    "word": "pull",
+    "chinese": "vt. 拉, 拖, 拔, 牵, 撕开, 吸引",
+    "ipa": "pul",
+    "rank": 3784,
+    "level": "intermediate"
+  },
+  {
+    "word": "hairy",
+    "chinese": "a. 多毛的, 毛状的, 长毛的",
+    "ipa": "'hєәri",
+    "rank": 3785,
+    "level": "intermediate"
+  },
+  {
+    "word": "diversity",
+    "chinese": "n. 差异, 多样性",
+    "ipa": "dai'vә:siti",
+    "rank": 3786,
+    "level": "intermediate"
+  },
+  {
+    "word": "cleveland",
+    "chinese": "n. 克利夫兰",
+    "ipa": "'kli:vlәnd",
+    "rank": 3787,
+    "level": "intermediate"
+  },
+  {
+    "word": "ut",
+    "chinese": "世界时, 格林威治时",
+    "ipa": "ʌt, u:t",
+    "rank": 3788,
+    "level": "intermediate"
+  },
+  {
+    "word": "reverse",
+    "chinese": "n. 相反, 背面, 倒退, 挫折, 失败",
+    "ipa": "ri'vә:s",
+    "rank": 3789,
+    "level": "intermediate"
+  },
+  {
+    "word": "deposit",
+    "chinese": "n. 存款, 定金, 堆积物",
+    "ipa": "di'pɒzit",
+    "rank": 3790,
+    "level": "intermediate"
+  },
+  {
+    "word": "seminar",
+    "chinese": "n. 研究班, 专题讨论会",
+    "ipa": "'seminɑ:",
+    "rank": 3791,
+    "level": "intermediate"
+  },
+  {
+    "word": "investments",
+    "chinese": "n. 投资, 投资的财产",
+    "ipa": "ˌɪnˈvɛstmənts",
+    "rank": 3792,
+    "level": "intermediate"
+  },
+  {
+    "word": "latina",
+    "chinese": "n. 拉蒂纳（意大利地名）",
+    "ipa": "ləˈtinə",
+    "rank": 3793,
+    "level": "intermediate"
+  },
+  {
+    "word": "nasa",
+    "chinese": "国家航空和宇宙航行局(美国)",
+    "ipa": "'næsә",
+    "rank": 3794,
+    "level": "intermediate"
+  },
+  {
+    "word": "wheels",
+    "chinese": "n. 旋转",
+    "ipa": "'hwi:ls",
+    "rank": 3795,
+    "level": "intermediate"
+  },
+  {
+    "word": "sexcam",
+    "chinese": "性爱摄像头",
+    "ipa": "sexcam",
+    "rank": 3796,
+    "level": "intermediate"
+  },
+  {
+    "word": "specify",
+    "chinese": "vt. 详列, 指定, 说明",
+    "ipa": "'spesifai",
+    "rank": 3797,
+    "level": "intermediate"
+  },
+  {
+    "word": "accessibility",
+    "chinese": "n. 易接近, 可进入",
+    "ipa": "әk.sesә'biliti",
+    "rank": 3798,
+    "level": "intermediate"
+  },
+  {
+    "word": "dutch",
+    "chinese": "n. 荷兰人, 荷兰语",
+    "ipa": "dʌtʃ",
+    "rank": 3799,
+    "level": "intermediate"
+  },
+  {
+    "word": "sensitive",
+    "chinese": "a. 敏感的, 易感的, 灵敏的, 感光的",
+    "ipa": "'sensitiv",
+    "rank": 3800,
+    "level": "intermediate"
+  },
+  {
+    "word": "templates",
+    "chinese": "n. 模板",
+    "ipa": "templates",
+    "rank": 3801,
+    "level": "intermediate"
+  },
+  {
+    "word": "formats",
+    "chinese": "n. 幅度",
+    "ipa": "ˈfɔrˌmæts",
+    "rank": 3802,
+    "level": "intermediate"
+  },
+  {
+    "word": "tab",
+    "chinese": "n. 制表(键), 搭襻, 标号, 调整片, (易拉罐)拉环, 帐单, 标签, 制表符",
+    "ipa": "tæb",
+    "rank": 3803,
+    "level": "intermediate"
+  },
+  {
+    "word": "depends",
+    "chinese": "v. 依赖",
+    "ipa": "dɪˈpɛndz",
+    "rank": 3804,
+    "level": "intermediate"
+  },
+  {
+    "word": "boots",
+    "chinese": "n. （英）擦靴的仆役",
+    "ipa": "bu:ts",
+    "rank": 3805,
+    "level": "intermediate"
+  },
+  {
+    "word": "holds",
+    "chinese": "v. 保存",
+    "ipa": "hoʊldz",
+    "rank": 3806,
+    "level": "intermediate"
+  },
+  {
+    "word": "router",
+    "chinese": "[计] 路由器",
+    "ipa": "'ru:tә(r), 'raj-",
+    "rank": 3807,
+    "level": "intermediate"
+  },
+  {
+    "word": "concrete",
+    "chinese": "n. 凝结物, 混凝土",
+    "ipa": "'kɒnkri:t",
+    "rank": 3808,
+    "level": "intermediate"
+  },
+  {
+    "word": "si",
+    "chinese": "[计] 国际单位制, 串行接口, 移入",
+    "ipa": "si:",
+    "rank": 3809,
+    "level": "intermediate"
+  },
+  {
+    "word": "editing",
+    "chinese": "a. 编辑的",
+    "ipa": "'editiŋ",
+    "rank": 3810,
+    "level": "intermediate"
+  },
+  {
+    "word": "poland",
+    "chinese": "n. 波兰",
+    "ipa": "'pәulәnd",
+    "rank": 3811,
+    "level": "intermediate"
+  },
+  {
+    "word": "folder",
+    "chinese": "n. 文件夹, 折纸机, 折叠式书本, 卷宗",
+    "ipa": "'fәuldә",
+    "rank": 3812,
+    "level": "intermediate"
+  },
+  {
+    "word": "womens",
+    "chinese": "n. woman的变形",
+    "ipa": "'wɪmɪn",
+    "rank": 3813,
+    "level": "intermediate"
+  },
+  {
+    "word": "css",
+    "chinese": "[计] 接触起停",
+    "ipa": "css",
+    "rank": 3814,
+    "level": "intermediate"
+  },
+  {
+    "word": "completion",
+    "chinese": "n. 完成",
+    "ipa": "kәm'pli:ʃәn",
+    "rank": 3815,
+    "level": "intermediate"
+  },
+  {
+    "word": "upload",
+    "chinese": "[计] 上装, 加载, 储入",
+    "ipa": "'ʌp,lәud",
+    "rank": 3816,
+    "level": "intermediate"
+  },
+  {
+    "word": "pulse",
+    "chinese": "n. 脉冲, 脉搏, 情绪, 意向, 拍子, 豆类",
+    "ipa": "pʌls",
+    "rank": 3817,
+    "level": "intermediate"
+  },
+  {
+    "word": "universities",
+    "chinese": "n. 大学( university的名词复数 )",
+    "ipa": "ˌjuːnɪˈvɜː(r)sətiz",
+    "rank": 3818,
+    "level": "intermediate"
+  },
+  {
+    "word": "technique",
+    "chinese": "n. 技巧, 技术, 方法",
+    "ipa": "tek'ni:k",
+    "rank": 3819,
+    "level": "intermediate"
+  },
+  {
+    "word": "contractors",
+    "chinese": "n. （建筑、监造中的）承包人( contractor的复数形式 )",
+    "ipa": "kɒnt'ræktəz",
+    "rank": 3820,
+    "level": "intermediate"
+  },
+  {
+    "word": "milfhunter",
+    "chinese": "熟女猎人",
+    "ipa": "milfhunter",
+    "rank": 3821,
+    "level": "intermediate"
+  },
+  {
+    "word": "voting",
+    "chinese": "n. 投票, 选举",
+    "ipa": "'vәutiŋ",
+    "rank": 3822,
+    "level": "intermediate"
+  },
+  {
+    "word": "courts",
+    "chinese": "n. 法院",
+    "ipa": "kɔrts",
+    "rank": 3823,
+    "level": "intermediate"
+  },
+  {
+    "word": "notices",
+    "chinese": "n. 条款",
+    "ipa": "ˈnoʊtɪsɪz",
+    "rank": 3824,
+    "level": "intermediate"
+  },
+  {
+    "word": "subscriptions",
+    "chinese": "n. 捐献",
+    "ipa": "səbˈskrɪpʃənz",
+    "rank": 3825,
+    "level": "intermediate"
+  },
+  {
+    "word": "calculate",
+    "chinese": "v. 计算, 预测, 计划, 打算",
+    "ipa": "'kælkjuleit",
+    "rank": 3826,
+    "level": "intermediate"
+  },
+  {
+    "word": "mc",
+    "chinese": "国会议员, 典礼官, 司仪, 医疗队",
+    "ipa": "ˈɛmˈsi",
+    "rank": 3827,
+    "level": "intermediate"
+  },
+  {
+    "word": "detroit",
+    "chinese": "n. 底特律(美国城市)",
+    "ipa": "di'trɒit",
+    "rank": 3828,
+    "level": "intermediate"
+  },
+  {
+    "word": "alexander",
+    "chinese": "n. 亚历山大（男子名）",
+    "ipa": ",æli^'zɑ:ndә",
+    "rank": 3829,
+    "level": "intermediate"
+  },
+  {
+    "word": "broadcast",
+    "chinese": "n. 广播, 传播",
+    "ipa": "'brɒ:dkæst",
+    "rank": 3830,
+    "level": "intermediate"
+  },
+  {
+    "word": "converted",
+    "chinese": "a. 修改的",
+    "ipa": "kәn'vә:tid",
+    "rank": 3831,
+    "level": "intermediate"
+  },
+  {
+    "word": "metro",
+    "chinese": "n. 地铁",
+    "ipa": "'metrәu",
+    "rank": 3832,
+    "level": "intermediate"
+  },
+  {
+    "word": "toshiba",
+    "chinese": "n. 东芝（公司名, 财富500强公司之一, 总部所在地日本, 主要经营电子电气）",
+    "ipa": "toʊˈʃibə",
+    "rank": 3833,
+    "level": "intermediate"
+  },
+  {
+    "word": "anniversary",
+    "chinese": "n. 周年纪念",
+    "ipa": "æni'vә:sәri",
+    "rank": 3834,
+    "level": "intermediate"
+  },
+  {
+    "word": "improvements",
+    "chinese": "n. 增加或修改( improvement的复数形式 ); 改进; 改善; 改良",
+    "ipa": "ɪmp'ru:vmənts",
+    "rank": 3835,
+    "level": "intermediate"
+  },
+  {
+    "word": "strip",
+    "chinese": "n. 长条, 条状, 带, 脱衣舞",
+    "ipa": "strip",
+    "rank": 3836,
+    "level": "intermediate"
+  },
+  {
+    "word": "specification",
+    "chinese": "n. 规格, 详述, 详细说明书",
+    "ipa": ".spesifi'keiʃәn",
+    "rank": 3837,
+    "level": "intermediate"
+  },
+  {
+    "word": "pearl",
+    "chinese": "n. 珍珠, 珠灰色, 杰出者, 珍贵之物",
+    "ipa": "pә:l",
+    "rank": 3838,
+    "level": "intermediate"
+  },
+  {
+    "word": "accident",
+    "chinese": "n. 意外事件, 机遇, 事故, 次要方面",
+    "ipa": "'æksidәnt",
+    "rank": 3839,
+    "level": "intermediate"
+  },
+  {
+    "word": "nick",
+    "chinese": "n. 刻痕, 缺口, 划痕",
+    "ipa": "nik",
+    "rank": 3840,
+    "level": "intermediate"
+  },
+  {
+    "word": "accessible",
+    "chinese": "a. 易接近的, 可进入的, 可使用的, 易受影响的, 可理解的",
+    "ipa": "әk'sesәbl",
+    "rank": 3841,
+    "level": "intermediate"
+  },
+  {
+    "word": "accessory",
+    "chinese": "n. 附件, 零件, 附加物, 从犯, 同谋",
+    "ipa": "әk'sesәri",
+    "rank": 3842,
+    "level": "intermediate"
+  },
+  {
+    "word": "resident",
+    "chinese": "n. 居民, 常驻程序, 居住者, 留鸟",
+    "ipa": "'rezidәnt",
+    "rank": 3843,
+    "level": "intermediate"
+  },
+  {
+    "word": "plot",
+    "chinese": "n. 小块土地, 地区图, 图, 阴谋, 情节",
+    "ipa": "plɒt",
+    "rank": 3844,
+    "level": "intermediate"
+  },
+  {
+    "word": "qty",
+    "chinese": "abbr. 数量（quantity）",
+    "ipa": "qty",
+    "rank": 3845,
+    "level": "intermediate"
+  },
+  {
+    "word": "possibly",
+    "chinese": "adv. 可能, 也许",
+    "ipa": "'pɒsәbli",
+    "rank": 3846,
+    "level": "intermediate"
+  },
+  {
+    "word": "airline",
+    "chinese": "n. 航线, 航线的设备, 航空公司",
+    "ipa": "'єәlain",
+    "rank": 3847,
+    "level": "intermediate"
+  },
+  {
+    "word": "typically",
+    "chinese": "adv. 代表性地",
+    "ipa": "'tipikәli",
+    "rank": 3848,
+    "level": "intermediate"
+  },
+  {
+    "word": "representation",
+    "chinese": "n. 表示法, 表现, 陈述, 代表",
+    "ipa": ".reprizen'teiʃәn",
+    "rank": 3849,
+    "level": "intermediate"
+  },
+  {
+    "word": "regard",
+    "chinese": "n. 关心, 注意, 尊敬, 关系, 问候",
+    "ipa": "ri'gɑ:d",
+    "rank": 3850,
+    "level": "intermediate"
+  },
+  {
+    "word": "pump",
+    "chinese": "n. 抽水机, 打气筒, 泵, 抽吸",
+    "ipa": "pʌmp",
+    "rank": 3851,
+    "level": "intermediate"
+  },
+  {
+    "word": "exists",
+    "chinese": "n. 存在量词（exist的复数）",
+    "ipa": "ɪgˈzɪsts",
+    "rank": 3852,
+    "level": "intermediate"
+  },
+  {
+    "word": "arrangements",
+    "chinese": "n. 安排",
+    "ipa": "ərˈeɪnʤmənts",
+    "rank": 3853,
+    "level": "intermediate"
+  },
+  {
+    "word": "smooth",
+    "chinese": "a. 平滑的, 平稳的, 流畅的, 和蔼的, 安祥的, 圆滑的, 调匀的, 无毛的",
+    "ipa": "smu:ð",
+    "rank": 3854,
+    "level": "intermediate"
+  },
+  {
+    "word": "conferences",
+    "chinese": "n. 会议（conference的复数形式）",
+    "ipa": "ˈkɑnfərənsəz",
+    "rank": 3855,
+    "level": "intermediate"
+  },
+  {
+    "word": "uniprotkb",
+    "chinese": "统一协议库",
+    "ipa": "uniprotkb",
+    "rank": 3856,
+    "level": "intermediate"
+  },
+  {
+    "word": "beastiality",
+    "chinese": "兽性",
+    "ipa": "beastiality",
+    "rank": 3857,
+    "level": "intermediate"
+  },
+  {
+    "word": "strike",
+    "chinese": "n. 罢工, 打击, 殴打",
+    "ipa": "straik",
+    "rank": 3858,
+    "level": "intermediate"
+  },
+  {
+    "word": "consumption",
+    "chinese": "n. 消费, 消费量, 痨病",
+    "ipa": "kәn'sʌmpʃәn",
+    "rank": 3859,
+    "level": "intermediate"
+  },
+  {
+    "word": "birmingham",
+    "chinese": "n. 伯明翰",
+    "ipa": "'bә:miŋәm",
+    "rank": 3860,
+    "level": "intermediate"
+  },
+  {
+    "word": "flashing",
+    "chinese": "n. 闪光, 遮雨板, 防水板",
+    "ipa": "'flæʃiŋ",
+    "rank": 3861,
+    "level": "intermediate"
+  },
+  {
+    "word": "lp",
+    "chinese": "n. 密纹唱片",
+    "ipa": "'єәl'pi:",
+    "rank": 3862,
+    "level": "intermediate"
+  },
+  {
+    "word": "narrow",
+    "chinese": "n. 狭窄部分, 隘路",
+    "ipa": "'nærәu",
+    "rank": 3863,
+    "level": "intermediate"
+  },
+  {
+    "word": "afternoon",
+    "chinese": "n. 午后, 下午",
+    "ipa": "'ɑ:ftә'nu:n",
+    "rank": 3864,
+    "level": "intermediate"
+  },
+  {
+    "word": "threat",
+    "chinese": "n. 恐吓, 恶兆, 威胁",
+    "ipa": "θret",
+    "rank": 3865,
+    "level": "intermediate"
+  },
+  {
+    "word": "surveys",
+    "chinese": "n. 调查（survey的复数）",
+    "ipa": "ˈsərˌveɪz",
+    "rank": 3866,
+    "level": "intermediate"
+  },
+  {
+    "word": "sitting",
+    "chinese": "n. 入席, 就坐, 开庭, 孵卵",
+    "ipa": "'sitiŋ",
+    "rank": 3867,
+    "level": "intermediate"
+  },
+  {
+    "word": "putting",
+    "chinese": "n. 投掷",
+    "ipa": "'putiŋ",
+    "rank": 3868,
+    "level": "intermediate"
+  },
+  {
+    "word": "consultant",
+    "chinese": "n. 顾问, 征询意见者",
+    "ipa": "kәn'sʌltәnt",
+    "rank": 3869,
+    "level": "intermediate"
+  },
+  {
+    "word": "controller",
+    "chinese": "n. 控制器, 管理者",
+    "ipa": "kәn'trәulә",
+    "rank": 3870,
+    "level": "intermediate"
+  },
+  {
+    "word": "ownership",
+    "chinese": "n. 所有权, 物主身份",
+    "ipa": "'әunәʃip",
+    "rank": 3871,
+    "level": "intermediate"
+  },
+  {
+    "word": "committees",
+    "chinese": "n. 委员会",
+    "ipa": "kəˈmɪtiz",
+    "rank": 3872,
+    "level": "intermediate"
+  },
+  {
+    "word": "penis",
+    "chinese": "n. 阳物, 阴茎",
+    "ipa": "'pi:nis",
+    "rank": 3873,
+    "level": "intermediate"
+  },
+  {
+    "word": "legislative",
+    "chinese": "n. 立法机构",
+    "ipa": "'ledʒislәtiv",
+    "rank": 3874,
+    "level": "intermediate"
+  },
+  {
+    "word": "researchers",
+    "chinese": "n. 研究员, 调查者( researcher的复数形式 )",
+    "ipa": "'rɪsɜ:tʃəz",
+    "rank": 3875,
+    "level": "intermediate"
+  },
+  {
+    "word": "vietnam",
+    "chinese": "n. 越南",
+    "ipa": ".vjet'næm",
+    "rank": 3876,
+    "level": "intermediate"
+  },
+  {
+    "word": "trailer",
+    "chinese": "n. 追踪者, 拖车",
+    "ipa": "'treilә",
+    "rank": 3877,
+    "level": "intermediate"
+  },
+  {
+    "word": "anne",
+    "chinese": "n. 安妮（女子名）",
+    "ipa": "æn",
+    "rank": 3878,
+    "level": "intermediate"
+  },
+  {
+    "word": "castle",
+    "chinese": "n. 城堡, 象棋中的车",
+    "ipa": "'kæsl. 'kɑ:sl",
+    "rank": 3879,
+    "level": "intermediate"
+  },
+  {
+    "word": "gardens",
+    "chinese": "n. 花园（garden的复数形式）",
+    "ipa": "ˈgɑrdənz",
+    "rank": 3880,
+    "level": "intermediate"
+  },
+  {
+    "word": "missed",
+    "chinese": "v. 投偏",
+    "ipa": "mɪst",
+    "rank": 3881,
+    "level": "intermediate"
+  },
+  {
+    "word": "malaysia",
+    "chinese": "n. 马来西亚",
+    "ipa": "mә'leiziә",
+    "rank": 3882,
+    "level": "intermediate"
+  },
+  {
+    "word": "unsubscribe",
+    "chinese": "n. [医]注销, 注销账户; 取消订阅",
+    "ipa": "ˌʌnsəbˈskraɪb",
+    "rank": 3883,
+    "level": "intermediate"
+  },
+  {
+    "word": "antique",
+    "chinese": "n. 古董, 古物",
+    "ipa": "æn'ti:k",
+    "rank": 3884,
+    "level": "intermediate"
+  },
+  {
+    "word": "labels",
+    "chinese": "n. 标签",
+    "ipa": "ˈleɪbəlz",
+    "rank": 3885,
+    "level": "intermediate"
+  },
+  {
+    "word": "willing",
+    "chinese": "a. 乐意的, 自愿的, 甘愿的",
+    "ipa": "'wiliŋ",
+    "rank": 3886,
+    "level": "intermediate"
+  },
+  {
+    "word": "bio",
+    "chinese": "n. 个人简历, 小传",
+    "ipa": "'baiәu",
+    "rank": 3887,
+    "level": "intermediate"
+  },
+  {
+    "word": "molecular",
+    "chinese": "a. 分子的, 由分子组成的",
+    "ipa": "mә'lekjulә",
+    "rank": 3888,
+    "level": "intermediate"
+  },
+  {
+    "word": "upskirt",
+    "chinese": "超短裙",
+    "ipa": "upskirt",
+    "rank": 3889,
+    "level": "intermediate"
+  },
+  {
+    "word": "acting",
+    "chinese": "n. 演戏, 装腔作势",
+    "ipa": "'æktiŋ",
+    "rank": 3890,
+    "level": "intermediate"
+  },
+  {
+    "word": "heads",
+    "chinese": "a. 正面朝上的",
+    "ipa": "hedz",
+    "rank": 3891,
+    "level": "intermediate"
+  },
+  {
+    "word": "stored",
+    "chinese": "a. 储存的",
+    "ipa": "stɔrd",
+    "rank": 3892,
+    "level": "intermediate"
+  },
+  {
+    "word": "exam",
+    "chinese": "n. 考试, 测验",
+    "ipa": "ig'zæm",
+    "rank": 3893,
+    "level": "intermediate"
+  },
+  {
+    "word": "logos",
+    "chinese": "n. 理念, 理性, 圣子(即耶稣)",
+    "ipa": "'lɒgɒs",
+    "rank": 3894,
+    "level": "intermediate"
+  },
+  {
+    "word": "residence",
+    "chinese": "n. 住宅, 居留, 驻扎, 居住期间",
+    "ipa": "'rezidәns",
+    "rank": 3895,
+    "level": "intermediate"
+  },
+  {
+    "word": "attorneys",
+    "chinese": "n. 代理人, 律师( attorney的名词复数 )",
+    "ipa": "əˈtə:niz",
+    "rank": 3896,
+    "level": "intermediate"
+  },
+  {
+    "word": "milfs",
+    "chinese": "徐娘半老",
+    "ipa": "milfs",
+    "rank": 3897,
+    "level": "intermediate"
+  },
+  {
+    "word": "antiques",
+    "chinese": "n. 古玩, 古董, 古物( antique的名词复数 )",
+    "ipa": "ænˈti:ks",
+    "rank": 3898,
+    "level": "intermediate"
+  },
+  {
+    "word": "density",
+    "chinese": "n. 密度",
+    "ipa": "'densiti",
+    "rank": 3899,
+    "level": "intermediate"
+  },
+  {
+    "word": "hundred",
+    "chinese": "n. 百, 百个东西",
+    "ipa": "'hʌndrәd",
+    "rank": 3900,
+    "level": "intermediate"
+  },
+  {
+    "word": "ryan",
+    "chinese": "n. 赖安（男子名）",
+    "ipa": "'raiәn",
+    "rank": 3901,
+    "level": "advanced"
+  },
+  {
+    "word": "operators",
+    "chinese": "n. （某企业的）经营者( operator的复数形式 ); （机器、设备等的）操作员; 电话接线员; 投机取巧者",
+    "ipa": "'ɒpəreɪtəz",
+    "rank": 3902,
+    "level": "advanced"
+  },
+  {
+    "word": "strange",
+    "chinese": "a. 奇怪的, 陌生的, 生疏的, 不熟悉的, 不可思议的, 外行的, 外地的, 异乡的",
+    "ipa": "streindʒ",
+    "rank": 3903,
+    "level": "advanced"
+  },
+  {
+    "word": "sustainable",
+    "chinese": "a. 足可支撑的, 养得起的, 可以忍受的",
+    "ipa": "sә'steinәbl",
+    "rank": 3904,
+    "level": "advanced"
+  },
+  {
+    "word": "philippines",
+    "chinese": "n. 菲律宾",
+    "ipa": "'filipi:nz",
+    "rank": 3905,
+    "level": "advanced"
+  },
+  {
+    "word": "statistical",
+    "chinese": "a. 统计的, 统计上的, 统计学的",
+    "ipa": "stә'tistikl",
+    "rank": 3906,
+    "level": "advanced"
+  },
+  {
+    "word": "beds",
+    "chinese": "n. 床上用品, 床组（bed复数）",
+    "ipa": "bɛdz",
+    "rank": 3907,
+    "level": "advanced"
+  },
+  {
+    "word": "breasts",
+    "chinese": "n. 胸脯",
+    "ipa": "brɛsts",
+    "rank": 3908,
+    "level": "advanced"
+  },
+  {
+    "word": "mention",
+    "chinese": "n. 提到, 言及, 陈述",
+    "ipa": "'menʃәn",
+    "rank": 3909,
+    "level": "advanced"
+  },
+  {
+    "word": "innovation",
+    "chinese": "n. 改革, 创新",
+    "ipa": ".inәu'veiʃәn",
+    "rank": 3910,
+    "level": "advanced"
+  },
+  {
+    "word": "pcs",
+    "chinese": "[计] 个人通信业务",
+    "ipa": "ˈpiˈsiz",
+    "rank": 3911,
+    "level": "advanced"
+  },
+  {
+    "word": "employers",
+    "chinese": "n. 雇主( employer的复数形式 )",
+    "ipa": "ɪmp'lɔɪəz",
+    "rank": 3912,
+    "level": "advanced"
+  },
+  {
+    "word": "grey",
+    "chinese": "n. 灰色",
+    "ipa": "grei",
+    "rank": 3913,
+    "level": "advanced"
+  },
+  {
+    "word": "parallel",
+    "chinese": "n. 平行, 对比, 相匹敌之物",
+    "ipa": "'pærәlel",
+    "rank": 3914,
+    "level": "advanced"
+  },
+  {
+    "word": "honda",
+    "chinese": "n. 本田汽车公司",
+    "ipa": "'hɔndә",
+    "rank": 3915,
+    "level": "advanced"
+  },
+  {
+    "word": "amended",
+    "chinese": "a. 修正的",
+    "ipa": "əˈmɛndɪd",
+    "rank": 3916,
+    "level": "advanced"
+  },
+  {
+    "word": "operate",
+    "chinese": "v. 操作, 运转, 动手术, 活动",
+    "ipa": "'ɒpәreit",
+    "rank": 3917,
+    "level": "advanced"
+  },
+  {
+    "word": "bills",
+    "chinese": "n. 账单",
+    "ipa": "bɪlz",
+    "rank": 3918,
+    "level": "advanced"
+  },
+  {
+    "word": "bold",
+    "chinese": "a. 大胆的",
+    "ipa": "bәuld",
+    "rank": 3919,
+    "level": "advanced"
+  },
+  {
+    "word": "bathroom",
+    "chinese": "n. 浴室, 厕所",
+    "ipa": "'bɑ:θru:m",
+    "rank": 3920,
+    "level": "advanced"
+  },
+  {
+    "word": "stable",
+    "chinese": "n. 马房, 牛棚",
+    "ipa": "'steibl",
+    "rank": 3921,
+    "level": "advanced"
+  },
+  {
+    "word": "opera",
+    "chinese": "n. 歌剧",
+    "ipa": "'ɒpәrә",
+    "rank": 3922,
+    "level": "advanced"
+  },
+  {
+    "word": "definitions",
+    "chinese": "n. 定义（definition的复数形式）",
+    "ipa": "ˌdɛfəˈnɪʃənz",
+    "rank": 3923,
+    "level": "advanced"
+  },
+  {
+    "word": "von",
+    "chinese": "[计] 冯·诺伊曼",
+    "ipa": "vɔn;fɔn;fәn",
+    "rank": 3924,
+    "level": "advanced"
+  },
+  {
+    "word": "doctors",
+    "chinese": "n. 医生（doctor的复数）",
+    "ipa": "ˈdɑktərz",
+    "rank": 3925,
+    "level": "advanced"
+  },
+  {
+    "word": "lesson",
+    "chinese": "n. 课, 课业, 教训",
+    "ipa": "'lesn",
+    "rank": 3926,
+    "level": "advanced"
+  },
+  {
+    "word": "cinema",
+    "chinese": "n. 电影院, 电影",
+    "ipa": "'sinәmә",
+    "rank": 3927,
+    "level": "advanced"
+  },
+  {
+    "word": "asset",
+    "chinese": "n. 资产, 有益的东西",
+    "ipa": "'æset",
+    "rank": 3928,
+    "level": "advanced"
+  },
+  {
+    "word": "ag",
+    "chinese": "a. 农业的",
+    "ipa": "æg",
+    "rank": 3929,
+    "level": "advanced"
+  },
+  {
+    "word": "scan",
+    "chinese": "n. 审视, 浏览, 扫描, 细查",
+    "ipa": "skæn",
+    "rank": 3930,
+    "level": "advanced"
+  },
+  {
+    "word": "elections",
+    "chinese": "n. 选举, 选举制",
+    "ipa": "ɪˈlɛkʃənz",
+    "rank": 3931,
+    "level": "advanced"
+  },
+  {
+    "word": "drinking",
+    "chinese": "n. 喝, 喝酒",
+    "ipa": "'driŋkiŋ",
+    "rank": 3932,
+    "level": "advanced"
+  },
+  {
+    "word": "blowjobs",
+    "chinese": "n. 口交",
+    "ipa": "'bləʊdʒɒb",
+    "rank": 3933,
+    "level": "advanced"
+  },
+  {
+    "word": "reaction",
+    "chinese": "n. 反应, 反作用, 反动",
+    "ipa": "ri'ækʃәn",
+    "rank": 3934,
+    "level": "advanced"
+  },
+  {
+    "word": "blank",
+    "chinese": "n. 空格, 空白",
+    "ipa": "blæŋk",
+    "rank": 3935,
+    "level": "advanced"
+  },
+  {
+    "word": "enhanced",
+    "chinese": "a. 增大的",
+    "ipa": "in'hɑ:nst. -'hænst",
+    "rank": 3936,
+    "level": "advanced"
+  },
+  {
+    "word": "entitled",
+    "chinese": "a. 有资格的",
+    "ipa": "in'taitld",
+    "rank": 3937,
+    "level": "advanced"
+  },
+  {
+    "word": "severe",
+    "chinese": "a. 严格的, 尖锐的, 严肃的, 严重的, 严厉的, 朴素的",
+    "ipa": "si'viә",
+    "rank": 3938,
+    "level": "advanced"
+  },
+  {
+    "word": "generate",
+    "chinese": "vt. 产生, 发生, 导致",
+    "ipa": "'dʒenәreit",
+    "rank": 3939,
+    "level": "advanced"
+  },
+  {
+    "word": "stainless",
+    "chinese": "a. 无瑕疵的, 不锈的",
+    "ipa": "'steinlis",
+    "rank": 3940,
+    "level": "advanced"
+  },
+  {
+    "word": "newspapers",
+    "chinese": "n. 报纸, 报章（newspaper的复数）",
+    "ipa": "ˈnuzˌpeɪpərz",
+    "rank": 3941,
+    "level": "advanced"
+  },
+  {
+    "word": "hospitals",
+    "chinese": "n. 医院( hospital的复数形式 )",
+    "ipa": "'hɒspɪtlz",
+    "rank": 3942,
+    "level": "advanced"
+  },
+  {
+    "word": "vi",
+    "chinese": "[计] vi文本编辑器",
+    "ipa": "vi",
+    "rank": 3943,
+    "level": "advanced"
+  },
+  {
+    "word": "deluxe",
+    "chinese": "a. 高级的, 豪华的",
+    "ipa": "dә'luks",
+    "rank": 3944,
+    "level": "advanced"
+  },
+  {
+    "word": "humor",
+    "chinese": "n. 幽默, 诙谐, 心情",
+    "ipa": "'hju:mә",
+    "rank": 3945,
+    "level": "advanced"
+  },
+  {
+    "word": "aged",
+    "chinese": "a. 老的, 陈的, 有...岁的",
+    "ipa": "'eidʒid",
+    "rank": 3946,
+    "level": "advanced"
+  },
+  {
+    "word": "monitors",
+    "chinese": "n. 监视器, 监控器",
+    "ipa": "ˈmɑnətərz",
+    "rank": 3947,
+    "level": "advanced"
+  },
+  {
+    "word": "exception",
+    "chinese": "n. 例外, 除外, 异议",
+    "ipa": "ik'sepʃәn",
+    "rank": 3948,
+    "level": "advanced"
+  },
+  {
+    "word": "lived",
+    "chinese": "a. 有生命的",
+    "ipa": "livd. 'laivd",
+    "rank": 3949,
+    "level": "advanced"
+  },
+  {
+    "word": "duration",
+    "chinese": "n. 持续时间, 持续",
+    "ipa": "dju'reiʃәn",
+    "rank": 3950,
+    "level": "advanced"
+  },
+  {
+    "word": "bulk",
+    "chinese": "n. 大小, 体积, 大块, 大多数",
+    "ipa": "bʌlk",
+    "rank": 3951,
+    "level": "advanced"
+  },
+  {
+    "word": "successfully",
+    "chinese": "adv. 成功, 结果良好, 有成就",
+    "ipa": "sәk'sesfjli",
+    "rank": 3952,
+    "level": "advanced"
+  },
+  {
+    "word": "indonesia",
+    "chinese": "n. 印尼",
+    "ipa": ".indәu'ni:ʒә",
+    "rank": 3953,
+    "level": "advanced"
+  },
+  {
+    "word": "pursuant",
+    "chinese": "a. 依据的, 按照的, 追赶的",
+    "ipa": "pә'sju:әnt",
+    "rank": 3954,
+    "level": "advanced"
+  },
+  {
+    "word": "sci",
+    "chinese": "[计] 串行通信接口, 栈控制指令, 系统控制接口, 科学新闻组类",
+    "ipa": "ˈɛsˈsiˈaɪ",
+    "rank": 3955,
+    "level": "advanced"
+  },
+  {
+    "word": "fabric",
+    "chinese": "n. 织物, 布, 结构, 构造, 建筑物",
+    "ipa": "'fæbrik",
+    "rank": 3956,
+    "level": "advanced"
+  },
+  {
+    "word": "edt",
+    "chinese": "[医] 乙二胺四乙酸, 依地酸",
+    "ipa": "edt",
+    "rank": 3957,
+    "level": "advanced"
+  },
+  {
+    "word": "visits",
+    "chinese": "v. 参观",
+    "ipa": "ˈvɪzɪts",
+    "rank": 3958,
+    "level": "advanced"
+  },
+  {
+    "word": "primarily",
+    "chinese": "adv. 主要地, 首先地",
+    "ipa": "'praimәrili",
+    "rank": 3959,
+    "level": "advanced"
+  },
+  {
+    "word": "tight",
+    "chinese": "a. 紧的, 密封的, 吝啬的, 严厉的",
+    "ipa": "tait",
+    "rank": 3960,
+    "level": "advanced"
+  },
+  {
+    "word": "domains",
+    "chinese": "n. [计]域, 域名",
+    "ipa": "doʊˈmeɪnz",
+    "rank": 3961,
+    "level": "advanced"
+  },
+  {
+    "word": "capabilities",
+    "chinese": "n. 能力( capability的名词复数 ); 可能; 容量; [复数]潜在能力",
+    "ipa": "ˌkeɪpəˈbɪlɪti:z",
+    "rank": 3962,
+    "level": "advanced"
+  },
+  {
+    "word": "pmid",
+    "chinese": "下午",
+    "ipa": "pmid",
+    "rank": 3963,
+    "level": "advanced"
+  },
+  {
+    "word": "contrast",
+    "chinese": "n. 差别, 对比, 对照物",
+    "ipa": "kәn'træst",
+    "rank": 3964,
+    "level": "advanced"
+  },
+  {
+    "word": "recommendation",
+    "chinese": "n. 推荐, 介绍, 推荐信, 劝告",
+    "ipa": ".rekәmen'deiʃәn",
+    "rank": 3965,
+    "level": "advanced"
+  },
+  {
+    "word": "flying",
+    "chinese": "a. 飞的, 飘扬的, 飞速的",
+    "ipa": "'flaiiŋ",
+    "rank": 3966,
+    "level": "advanced"
+  },
+  {
+    "word": "recruitment",
+    "chinese": "n. 新兵征召",
+    "ipa": "ri'kru:tmәnt",
+    "rank": 3967,
+    "level": "advanced"
+  },
+  {
+    "word": "sin",
+    "chinese": "n. 罪, 犯罪, 过失, 失礼",
+    "ipa": "sin",
+    "rank": 3968,
+    "level": "advanced"
+  },
+  {
+    "word": "berlin",
+    "chinese": "n. 柏林, (软质)柏林毛线",
+    "ipa": "bә:'lin",
+    "rank": 3969,
+    "level": "advanced"
+  },
+  {
+    "word": "cute",
+    "chinese": "a. 可爱的, 聪明的, 伶俐的",
+    "ipa": "kju:t",
+    "rank": 3970,
+    "level": "advanced"
+  },
+  {
+    "word": "organized",
+    "chinese": "a. 有组织的, 组织起来的",
+    "ipa": "'ɔ:^әnaizd",
+    "rank": 3971,
+    "level": "advanced"
+  },
+  {
+    "word": "ba",
+    "chinese": "文学士",
+    "ipa": "bɑ:",
+    "rank": 3972,
+    "level": "advanced"
+  },
+  {
+    "word": "para",
+    "chinese": "[经] 帕拉",
+    "ipa": "'pɑ:rә",
+    "rank": 3973,
+    "level": "advanced"
+  },
+  {
+    "word": "siemens",
+    "chinese": "n. 西门子（财富500强公司之一, 总部所在地德国, 主要经营电子电气）",
+    "ipa": "'si:mәnz",
+    "rank": 3974,
+    "level": "advanced"
+  },
+  {
+    "word": "adoption",
+    "chinese": "n. 采用, 采纳, 收养",
+    "ipa": "ә'dɒpʃәn",
+    "rank": 3975,
+    "level": "advanced"
+  },
+  {
+    "word": "improving",
+    "chinese": "a. 有启发的",
+    "ipa": "im'pru:viŋ",
+    "rank": 3976,
+    "level": "advanced"
+  },
+  {
+    "word": "cr",
+    "chinese": "[计] 回车, 调用请求",
+    "ipa": "cr",
+    "rank": 3977,
+    "level": "advanced"
+  },
+  {
+    "word": "expensive",
+    "chinese": "a. 贵的, 奢华的, 费用浩大的, 乱化钱的",
+    "ipa": "ik'spensiv",
+    "rank": 3978,
+    "level": "advanced"
+  },
+  {
+    "word": "meant",
+    "chinese": "mean的过去式和过去分词",
+    "ipa": "ment",
+    "rank": 3979,
+    "level": "advanced"
+  },
+  {
+    "word": "capture",
+    "chinese": "n. 抓取, 战利品, 捕获之物",
+    "ipa": "'kæptʃә",
+    "rank": 3980,
+    "level": "advanced"
+  },
+  {
+    "word": "pounds",
+    "chinese": "n. 磅, 英镑",
+    "ipa": "paundz",
+    "rank": 3981,
+    "level": "advanced"
+  },
+  {
+    "word": "buffalo",
+    "chinese": "n. 水牛",
+    "ipa": "'bʌfәlәu",
+    "rank": 3982,
+    "level": "advanced"
+  },
+  {
+    "word": "organisations",
+    "chinese": "n. 组织",
+    "ipa": ",ɔːɡənaɪ'zeɪʃən",
+    "rank": 3983,
+    "level": "advanced"
+  },
+  {
+    "word": "plane",
+    "chinese": "n. 平面, 扁平物, 机翼, 飞机, 水准, 地位",
+    "ipa": "plein",
+    "rank": 3984,
+    "level": "advanced"
+  },
+  {
+    "word": "pg",
+    "chinese": "部分不适合儿童观看的(电影)",
+    "ipa": "pg",
+    "rank": 3985,
+    "level": "advanced"
+  },
+  {
+    "word": "explained",
+    "chinese": "v. 解释（explain的过去式及过去分词）",
+    "ipa": "ɪkˈspleɪnd",
+    "rank": 3986,
+    "level": "advanced"
+  },
+  {
+    "word": "seed",
+    "chinese": "n. 种子, 籽, 萌芽, 子孙, 精液",
+    "ipa": "si:d",
+    "rank": 3987,
+    "level": "advanced"
+  },
+  {
+    "word": "programmes",
+    "chinese": "n. （演出或活动的）程序( programme的复数形式 ); 计划; 节目; 课程",
+    "ipa": "p'rəʊɡræmz",
+    "rank": 3988,
+    "level": "advanced"
+  },
+  {
+    "word": "desire",
+    "chinese": "n. 欲望, 要求",
+    "ipa": "di'zaiә",
+    "rank": 3989,
+    "level": "advanced"
+  },
+  {
+    "word": "expertise",
+    "chinese": "n. 专家意见, 专门技术",
+    "ipa": ".ekspә:'ti:z",
+    "rank": 3990,
+    "level": "advanced"
+  },
+  {
+    "word": "mechanism",
+    "chinese": "n. 机械, 机构, 结构, 机理, 技巧",
+    "ipa": "'mekәnizm",
+    "rank": 3991,
+    "level": "advanced"
+  },
+  {
+    "word": "camping",
+    "chinese": "n. 野营, 露营",
+    "ipa": "'kæmpiŋ",
+    "rank": 3992,
+    "level": "advanced"
+  },
+  {
+    "word": "ee",
+    "chinese": "电机工程师",
+    "ipa": "i",
+    "rank": 3993,
+    "level": "advanced"
+  },
+  {
+    "word": "jewellery",
+    "chinese": "n. 宝石, 贵重饰物, 珠宝, 宝石饰物, 受珍视的人/物, 宝贝, 有价值的人/物",
+    "ipa": "'dʒu:әlri",
+    "rank": 3994,
+    "level": "advanced"
+  },
+  {
+    "word": "meets",
+    "chinese": "v. 相遇( meet的第三人称单数 ); 相识; 开会; 接触（某物）",
+    "ipa": "mi:ts",
+    "rank": 3995,
+    "level": "advanced"
+  },
+  {
+    "word": "welfare",
+    "chinese": "n. 福利, 安宁, 幸福, 福利事业",
+    "ipa": "'welfєә",
+    "rank": 3996,
+    "level": "advanced"
+  },
+  {
+    "word": "peer",
+    "chinese": "n. 同等的人, 匹敌, 贵族",
+    "ipa": "piә",
+    "rank": 3997,
+    "level": "advanced"
+  },
+  {
+    "word": "caught",
+    "chinese": "catch的过去式和过去分词",
+    "ipa": "kɒ:t",
+    "rank": 3998,
+    "level": "advanced"
+  },
+  {
+    "word": "eventually",
+    "chinese": "adv. 最后, 终于",
+    "ipa": "i'ventʃuәli",
+    "rank": 3999,
+    "level": "advanced"
+  },
+  {
+    "word": "marked",
+    "chinese": "a. 有记号的, 显著的, 醒目的",
+    "ipa": "mɑ:kt",
+    "rank": 4000,
+    "level": "advanced"
+  },
+  {
+    "word": "driven",
+    "chinese": "a. 有紧迫感的",
+    "ipa": "'drivn",
+    "rank": 4001,
+    "level": "advanced"
+  },
+  {
+    "word": "measured",
+    "chinese": "a. 整齐的, 慎重的, 基于标准的",
+    "ipa": "'meʒәd",
+    "rank": 4002,
+    "level": "advanced"
+  },
+  {
+    "word": "medline",
+    "chinese": "n. <美>联机医学文献分析和检索系统",
+    "ipa": "'med,lain",
+    "rank": 4003,
+    "level": "advanced"
+  },
+  {
+    "word": "bottle",
+    "chinese": "n. 瓶子, 酒瓶",
+    "ipa": "'bɒtl",
+    "rank": 4004,
+    "level": "advanced"
+  },
+  {
+    "word": "agreements",
+    "chinese": "n. 协定; 协定( agreement的复数形式 ); 同意; 达成协议; （性、数、人称方面与…）一致",
+    "ipa": "əɡ'ri:mənts",
+    "rank": 4005,
+    "level": "advanced"
+  },
+  {
+    "word": "considering",
+    "chinese": "prep. 就...而论",
+    "ipa": "kәn'sidәriŋ",
+    "rank": 4006,
+    "level": "advanced"
+  },
+  {
+    "word": "innovative",
+    "chinese": "a. 革新的, 创新的, 富有革新精神的",
+    "ipa": "'inәjveitiv",
+    "rank": 4007,
+    "level": "advanced"
+  },
+  {
+    "word": "marshall",
+    "chinese": "n. 马歇尔（姓氏, 男子名, 等于Mar'shal）",
+    "ipa": "'mɑ:ʃәl",
+    "rank": 4008,
+    "level": "advanced"
+  },
+  {
+    "word": "massage",
+    "chinese": "n. 按摩, 揉",
+    "ipa": "'mæsɑ:ʒ",
+    "rank": 4009,
+    "level": "advanced"
+  },
+  {
+    "word": "rubber",
+    "chinese": "n. 橡皮, 橡胶, 做摩擦动作的人, 按摩师, 决胜盘",
+    "ipa": "'rʌbә",
+    "rank": 4010,
+    "level": "advanced"
+  },
+  {
+    "word": "conclusion",
+    "chinese": "n. 结论, 结尾, 推论",
+    "ipa": "kәn'klu:ʒәn",
+    "rank": 4011,
+    "level": "advanced"
+  },
+  {
+    "word": "closing",
+    "chinese": "n. 结束",
+    "ipa": "'klәuziŋ",
+    "rank": 4012,
+    "level": "advanced"
+  },
+  {
+    "word": "tampa",
+    "chinese": "n. 坦帕市（美国佛罗里达州西部港市）",
+    "ipa": "'tæmpә",
+    "rank": 4013,
+    "level": "advanced"
+  },
+  {
+    "word": "thousand",
+    "chinese": "num. 千",
+    "ipa": "'θauznd",
+    "rank": 4014,
+    "level": "advanced"
+  },
+  {
+    "word": "meat",
+    "chinese": "n. 肉, 餐, 食物",
+    "ipa": "mi:t",
+    "rank": 4015,
+    "level": "advanced"
+  },
+  {
+    "word": "legend",
+    "chinese": "n. 传说, 传奇文学, 图例",
+    "ipa": "'ledʒәnd",
+    "rank": 4016,
+    "level": "advanced"
+  },
+  {
+    "word": "grace",
+    "chinese": "n. 优雅, 风度, 慈悲, 恩惠, 体面, 赦免, 恩典, 谢恩祷告",
+    "ipa": "greis",
+    "rank": 4017,
+    "level": "advanced"
+  },
+  {
+    "word": "susan",
+    "chinese": "n. 苏珊（女子名）",
+    "ipa": "'su:zn",
+    "rank": 4018,
+    "level": "advanced"
+  },
+  {
+    "word": "ing",
+    "chinese": "abbr. 惯性导航与制导（Inertial Navigation and Guidance）",
+    "ipa": "ɪŋ",
+    "rank": 4019,
+    "level": "advanced"
+  },
+  {
+    "word": "ks",
+    "chinese": "abbr. 韩国标准（Korean Standards）",
+    "ipa": "ks",
+    "rank": 4020,
+    "level": "advanced"
+  },
+  {
+    "word": "adams",
+    "chinese": "[计] 先进数据管理系统",
+    "ipa": "'ædәmz",
+    "rank": 4021,
+    "level": "advanced"
+  },
+  {
+    "word": "python",
+    "chinese": "n. 大蟒, 巨蟒",
+    "ipa": "'paiθɒn",
+    "rank": 4022,
+    "level": "advanced"
+  },
+  {
+    "word": "monster",
+    "chinese": "n. 怪物, 恶人, 巨物",
+    "ipa": "'mɒnstә",
+    "rank": 4023,
+    "level": "advanced"
+  },
+  {
+    "word": "alex",
+    "chinese": "[计] 开放网络文件系统",
+    "ipa": "ˈæləks",
+    "rank": 4024,
+    "level": "advanced"
+  },
+  {
+    "word": "bang",
+    "chinese": "n. 重击, 突然巨响, 刘海",
+    "ipa": "bæŋ",
+    "rank": 4025,
+    "level": "advanced"
+  },
+  {
+    "word": "villa",
+    "chinese": "n. 别墅",
+    "ipa": "'vilә",
+    "rank": 4026,
+    "level": "advanced"
+  },
+  {
+    "word": "bone",
+    "chinese": "n. 骨头, 骨, 骨制品",
+    "ipa": "bәun",
+    "rank": 4027,
+    "level": "advanced"
+  },
+  {
+    "word": "columns",
+    "chinese": "塔器",
+    "ipa": "ˈkɑləmz",
+    "rank": 4028,
+    "level": "advanced"
+  },
+  {
+    "word": "disorders",
+    "chinese": "n. 混乱( disorder的名词复数 ); 凌乱; 骚乱; （身心、机能）失调",
+    "ipa": "disˈɔ:dəz",
+    "rank": 4029,
+    "level": "advanced"
+  },
+  {
+    "word": "bugs",
+    "chinese": "a. 疯狂的, 发疯的",
+    "ipa": "bʌgz",
+    "rank": 4030,
+    "level": "advanced"
+  },
+  {
+    "word": "collaboration",
+    "chinese": "n. 合作, 勾结",
+    "ipa": "kә.læbә'ræʃәn",
+    "rank": 4031,
+    "level": "advanced"
+  },
+  {
+    "word": "hamilton",
+    "chinese": "n. 汉密尔顿（男子名）",
+    "ipa": "'hæmiltәn",
+    "rank": 4032,
+    "level": "advanced"
+  },
+  {
+    "word": "detection",
+    "chinese": "n. 发现, 察觉, 探测",
+    "ipa": "di'tekʃәn",
+    "rank": 4033,
+    "level": "advanced"
+  },
+  {
+    "word": "ftp",
+    "chinese": "[计] 文件传送协议, 固定项目设计",
+    "ipa": "ftp",
+    "rank": 4034,
+    "level": "advanced"
+  },
+  {
+    "word": "cookies",
+    "chinese": "n. 饼干",
+    "ipa": "ˈkʊkiz",
+    "rank": 4035,
+    "level": "advanced"
+  },
+  {
+    "word": "inner",
+    "chinese": "a. 内部的, 内心的",
+    "ipa": "'inә",
+    "rank": 4036,
+    "level": "advanced"
+  },
+  {
+    "word": "formation",
+    "chinese": "n. 形成, 构造, 编队",
+    "ipa": "fɒ:'meiʃәn",
+    "rank": 4037,
+    "level": "advanced"
+  },
+  {
+    "word": "tutorial",
+    "chinese": "n. 个别指导, 论文, 学习指南, 指导手册",
+    "ipa": "tju:'tɒ:riәl",
+    "rank": 4038,
+    "level": "advanced"
+  },
+  {
+    "word": "med",
+    "chinese": "教育学硕士",
+    "ipa": "med",
+    "rank": 4039,
+    "level": "advanced"
+  },
+  {
+    "word": "engineers",
+    "chinese": "n. 工程师",
+    "ipa": "ˈɛnʤəˈnɪrz",
+    "rank": 4040,
+    "level": "advanced"
+  },
+  {
+    "word": "entity",
+    "chinese": "n. 实体, 实存物, 存在",
+    "ipa": "'entiti",
+    "rank": 4041,
+    "level": "advanced"
+  },
+  {
+    "word": "cruises",
+    "chinese": "n. 游艇",
+    "ipa": "ˈkruzɪz",
+    "rank": 4042,
+    "level": "advanced"
+  },
+  {
+    "word": "gate",
+    "chinese": "n. 门, 牌楼, 大门, 通道, 闸",
+    "ipa": "geit",
+    "rank": 4043,
+    "level": "advanced"
+  },
+  {
+    "word": "holder",
+    "chinese": "n. 持有人, 所有人, 支持物",
+    "ipa": "'hәuldә",
+    "rank": 4044,
+    "level": "advanced"
+  },
+  {
+    "word": "proposals",
+    "chinese": "n. 提议( proposal的复数形式 ); 推荐; 求婚; 赞成提案",
+    "ipa": "prə'pəʊzlz",
+    "rank": 4045,
+    "level": "advanced"
+  },
+  {
+    "word": "moderator",
+    "chinese": "n. 主席, 会议主持人, 仲裁人",
+    "ipa": "'mɒdәreitә",
+    "rank": 4046,
+    "level": "advanced"
+  },
+  {
+    "word": "sw",
+    "chinese": "[计] 软件, 状态字, 开关",
+    "ipa": "sw",
+    "rank": 4047,
+    "level": "advanced"
+  },
+  {
+    "word": "tutorials",
+    "chinese": "n. 导师的个别指导( tutorial的复数形式 ); 教程; 辅导材料; 使用说明书",
+    "ipa": "tu:ˈtɔ:ri:əlz",
+    "rank": 4048,
+    "level": "advanced"
+  },
+  {
+    "word": "settlement",
+    "chinese": "n. 安顿, 解决, 处理, 结算, 殖民, 殖民地, 沉降",
+    "ipa": "'setlmәnt",
+    "rank": 4049,
+    "level": "advanced"
+  },
+  {
+    "word": "portugal",
+    "chinese": "n. 葡萄牙",
+    "ipa": "'pɒ:tʃugl",
+    "rank": 4050,
+    "level": "advanced"
+  },
+  {
+    "word": "lawrence",
+    "chinese": "n. 劳伦斯（男子名）",
+    "ipa": "'lɔrәns",
+    "rank": 4051,
+    "level": "advanced"
+  },
+  {
+    "word": "roman",
+    "chinese": "n. 罗马人",
+    "ipa": "'rәumәn",
+    "rank": 4052,
+    "level": "advanced"
+  },
+  {
+    "word": "duties",
+    "chinese": "n. 关税（duty的复数）",
+    "ipa": "ˈdutiz",
+    "rank": 4053,
+    "level": "advanced"
+  },
+  {
+    "word": "valuable",
+    "chinese": "a. 有价值的, 贵重的, 宝贵的, 可估价的",
+    "ipa": "'væljuәbl",
+    "rank": 4054,
+    "level": "advanced"
+  },
+  {
+    "word": "erotic",
+    "chinese": "a. 性爱的, 性欲的, 色情的",
+    "ipa": "i'rɒtik",
+    "rank": 4055,
+    "level": "advanced"
+  },
+  {
+    "word": "tone",
+    "chinese": "n. 音调, 音质, 语调, 语气, 色调, 气氛, 状况, 思想状态",
+    "ipa": "tәun",
+    "rank": 4056,
+    "level": "advanced"
+  },
+  {
+    "word": "collectables",
+    "chinese": "(collectable 的复数) a. 可收集的, 可搜集的, 可征收的",
+    "ipa": "collectables",
+    "rank": 4057,
+    "level": "advanced"
+  },
+  {
+    "word": "ethics",
+    "chinese": "n. 道德规范",
+    "ipa": "'eθiks",
+    "rank": 4058,
+    "level": "advanced"
+  },
+  {
+    "word": "forever",
+    "chinese": "adv. 永远",
+    "ipa": "fә'revә",
+    "rank": 4059,
+    "level": "advanced"
+  },
+  {
+    "word": "dragon",
+    "chinese": "n. 龙, 凶暴的人",
+    "ipa": "'drægәn",
+    "rank": 4060,
+    "level": "advanced"
+  },
+  {
+    "word": "busy",
+    "chinese": "a. 忙碌的, 热闹的, 没空的",
+    "ipa": "'bizi",
+    "rank": 4061,
+    "level": "advanced"
+  },
+  {
+    "word": "captain",
+    "chinese": "n. 船长, 指挥官, 海军上校, 首领",
+    "ipa": "'kæptin",
+    "rank": 4062,
+    "level": "advanced"
+  },
+  {
+    "word": "fantastic",
+    "chinese": "a. 奇妙的, 稀奇的, 空想的",
+    "ipa": "fæn'tæstik",
+    "rank": 4063,
+    "level": "advanced"
+  },
+  {
+    "word": "imagine",
+    "chinese": "vt. 想像, 设想, 猜测",
+    "ipa": "i'mædʒin",
+    "rank": 4064,
+    "level": "advanced"
+  },
+  {
+    "word": "brings",
+    "chinese": "v. 带来",
+    "ipa": "brɪŋz",
+    "rank": 4065,
+    "level": "advanced"
+  },
+  {
+    "word": "heating",
+    "chinese": "n. 加热, 供热, 暖气设备, 供暖系统, 暖气装置",
+    "ipa": "'hi:tiŋ",
+    "rank": 4066,
+    "level": "advanced"
+  },
+  {
+    "word": "leg",
+    "chinese": "n. 腿, 假腿, 路程",
+    "ipa": "leg",
+    "rank": 4067,
+    "level": "advanced"
+  },
+  {
+    "word": "neck",
+    "chinese": "n. 脖子, 衣领, 颈",
+    "ipa": "nek",
+    "rank": 4068,
+    "level": "advanced"
+  },
+  {
+    "word": "hd",
+    "chinese": "[计] 层次相关性, 高密度",
+    "ipa": "hd",
+    "rank": 4069,
+    "level": "advanced"
+  },
+  {
+    "word": "wing",
+    "chinese": "n. 翅膀, 翼, 机翼, 派别",
+    "ipa": "wiŋ",
+    "rank": 4070,
+    "level": "advanced"
+  },
+  {
+    "word": "governments",
+    "chinese": "n. 政权",
+    "ipa": "ˈgəvərnmənts",
+    "rank": 4071,
+    "level": "advanced"
+  },
+  {
+    "word": "purchasing",
+    "chinese": "[计] 采购的",
+    "ipa": "ˈpərʧəsɪŋ",
+    "rank": 4072,
+    "level": "advanced"
+  },
+  {
+    "word": "scripts",
+    "chinese": "n. 原稿, 手稿（script的复数形式）",
+    "ipa": "skrɪpts",
+    "rank": 4073,
+    "level": "advanced"
+  },
+  {
+    "word": "abc",
+    "chinese": "预定章程, 美国广播公司, 澳大利亚广播公司, 字母表, 基础知识",
+    "ipa": "'eibi:'si:",
+    "rank": 4074,
+    "level": "advanced"
+  },
+  {
+    "word": "stereo",
+    "chinese": "n. 铅版, 立体照片",
+    "ipa": "'stiәriәu",
+    "rank": 4075,
+    "level": "advanced"
+  },
+  {
+    "word": "appointed",
+    "chinese": "[法] 派任的, 任命的, 指定的",
+    "ipa": "ә'pɔintid",
+    "rank": 4076,
+    "level": "advanced"
+  },
+  {
+    "word": "taste",
+    "chinese": "n. 味道, 品味, 味觉, 感受, 体验, 爱好, 审美, 少量",
+    "ipa": "teist",
+    "rank": 4077,
+    "level": "advanced"
+  },
+  {
+    "word": "dealing",
+    "chinese": "n. 经营行为, 行为, 交易",
+    "ipa": "'di:liŋ",
+    "rank": 4078,
+    "level": "advanced"
+  },
+  {
+    "word": "commit",
+    "chinese": "vt. 委托(托付), 犯罪, 指派...作战, 使承担义务",
+    "ipa": "kә'mit",
+    "rank": 4079,
+    "level": "advanced"
+  },
+  {
+    "word": "tiny",
+    "chinese": "a. 很少的, 微小的",
+    "ipa": "'taini",
+    "rank": 4080,
+    "level": "advanced"
+  },
+  {
+    "word": "operational",
+    "chinese": "a. 操作的, 运作的",
+    "ipa": ".ɒpә'reiʃәnl",
+    "rank": 4081,
+    "level": "advanced"
+  },
+  {
+    "word": "rail",
+    "chinese": "n. 横杆, 围栏, 栏杆, 铁轨, 扶手, 秧鸡",
+    "ipa": "reil",
+    "rank": 4082,
+    "level": "advanced"
+  },
+  {
+    "word": "airlines",
+    "chinese": "n. 航空业",
+    "ipa": "ˈɛˌrlaɪnz",
+    "rank": 4083,
+    "level": "advanced"
+  },
+  {
+    "word": "liberal",
+    "chinese": "n. 自由主义者",
+    "ipa": "'libәrәl",
+    "rank": 4084,
+    "level": "advanced"
+  },
+  {
+    "word": "livecam",
+    "chinese": "实时摄像头",
+    "ipa": "livecam",
+    "rank": 4085,
+    "level": "advanced"
+  },
+  {
+    "word": "jay",
+    "chinese": "n. 鸟, 喋喋不休的人, 傻瓜",
+    "ipa": "dʒei",
+    "rank": 4086,
+    "level": "advanced"
+  },
+  {
+    "word": "trips",
+    "chinese": "abbr. 与贸易有关的知识产权（Agreement On Trade-related Aspects of Intellectual Property Rig",
+    "ipa": "trɪps",
+    "rank": 4087,
+    "level": "advanced"
+  },
+  {
+    "word": "gap",
+    "chinese": "n. 缝隙, 缺口, 间断, 间距, 通用汇编程序",
+    "ipa": "gæp",
+    "rank": 4088,
+    "level": "advanced"
+  },
+  {
+    "word": "sides",
+    "chinese": "n. 边",
+    "ipa": "saidz",
+    "rank": 4089,
+    "level": "advanced"
+  },
+  {
+    "word": "tube",
+    "chinese": "n. 管, 软管, 隧道",
+    "ipa": "tju:b",
+    "rank": 4090,
+    "level": "advanced"
+  },
+  {
+    "word": "turns",
+    "chinese": "n. 转弯",
+    "ipa": "tərnz",
+    "rank": 4091,
+    "level": "advanced"
+  },
+  {
+    "word": "corresponding",
+    "chinese": "a. 相当的, 一致的, 通信的",
+    "ipa": ".kɒri'spɒndiŋ",
+    "rank": 4092,
+    "level": "advanced"
+  },
+  {
+    "word": "descriptions",
+    "chinese": "n. 说明, 说明书",
+    "ipa": "dɪˈskrɪpʃənz",
+    "rank": 4093,
+    "level": "advanced"
+  },
+  {
+    "word": "cache",
+    "chinese": "n. 隐藏所, 隐藏的粮食或物资, 贮藏物, 高速缓冲存储器",
+    "ipa": "kæʃ",
+    "rank": 4094,
+    "level": "advanced"
+  },
+  {
+    "word": "belt",
+    "chinese": "n. 带子, 地带",
+    "ipa": "belt",
+    "rank": 4095,
+    "level": "advanced"
+  },
+  {
+    "word": "jacket",
+    "chinese": "n. 夹克, 外套, 护套",
+    "ipa": "'dʒækit",
+    "rank": 4096,
+    "level": "advanced"
+  },
+  {
+    "word": "determination",
+    "chinese": "n. 决心, 果断",
+    "ipa": "di.tә:mi'neiʃәn",
+    "rank": 4097,
+    "level": "advanced"
+  },
+  {
+    "word": "animation",
+    "chinese": "n. 活泼, 生气, 激励, 卡通制作",
+    "ipa": ".æni'meiʃәn",
+    "rank": 4098,
+    "level": "advanced"
+  },
+  {
+    "word": "oracle",
+    "chinese": "n. 神谕, 神谕处, 预言",
+    "ipa": "'ɒ:rәkl",
+    "rank": 4099,
+    "level": "advanced"
+  },
+  {
+    "word": "er",
+    "chinese": "[医] 铒(68号元素)",
+    "ipa": "ʌ:, ә:,ә",
+    "rank": 4100,
+    "level": "advanced"
+  },
+  {
+    "word": "matthew",
+    "chinese": "n. 马太, 马太福音",
+    "ipa": "'mæθju:",
+    "rank": 4101,
+    "level": "advanced"
+  },
+  {
+    "word": "lease",
+    "chinese": "n. 租约, 租期, 租",
+    "ipa": "li:s",
+    "rank": 4102,
+    "level": "advanced"
+  },
+  {
+    "word": "productions",
+    "chinese": "n. 生产( production的复数形式 ); 产量; 产品; 出示",
+    "ipa": "prəˈdʌkʃənz",
+    "rank": 4103,
+    "level": "advanced"
+  },
+  {
+    "word": "aviation",
+    "chinese": "n. 航空, 航空学, 飞行术",
+    "ipa": ".eivi'eiʃәn",
+    "rank": 4104,
+    "level": "advanced"
+  },
+  {
+    "word": "hobbies",
+    "chinese": "n. 嗜好",
+    "ipa": "ˈhɑbiz",
+    "rank": 4105,
+    "level": "advanced"
+  },
+  {
+    "word": "proud",
+    "chinese": "a. 骄傲的, 自大的, 自豪的, 辉煌的, 壮丽的",
+    "ipa": "praud",
+    "rank": 4106,
+    "level": "advanced"
+  },
+  {
+    "word": "excess",
+    "chinese": "n. 过度, 剩于, 超过, 超额",
+    "ipa": "ik'ses",
+    "rank": 4107,
+    "level": "advanced"
+  },
+  {
+    "word": "disaster",
+    "chinese": "n. 灾祸, 不幸, 彻底失败",
+    "ipa": "di'zɑ:stә",
+    "rank": 4108,
+    "level": "advanced"
+  },
+  {
+    "word": "console",
+    "chinese": "vt. 安慰, 藉慰",
+    "ipa": "kәn'sәul",
+    "rank": 4109,
+    "level": "advanced"
+  },
+  {
+    "word": "commands",
+    "chinese": "n. 命令, 指令（command复数形式）",
+    "ipa": "kəˈmændz",
+    "rank": 4110,
+    "level": "advanced"
+  },
+  {
+    "word": "jr",
+    "chinese": "abbr. 初级, 小 Junior",
+    "ipa": "jr",
+    "rank": 4111,
+    "level": "advanced"
+  },
+  {
+    "word": "telecommunications",
+    "chinese": "n. 电信, 通讯, 电信学",
+    "ipa": "ˌtɛləkəmˌjunəˈkeɪʃənz",
+    "rank": 4112,
+    "level": "advanced"
+  },
+  {
+    "word": "instructor",
+    "chinese": "n. 教员, 讲师",
+    "ipa": "in'strʌktә",
+    "rank": 4113,
+    "level": "advanced"
+  },
+  {
+    "word": "giant",
+    "chinese": "n. 巨人, 大力士, 巨大怪物",
+    "ipa": "'dʒaiәnt",
+    "rank": 4114,
+    "level": "advanced"
+  },
+  {
+    "word": "achieved",
+    "chinese": "a. 取得的",
+    "ipa": "ә'tʃi:vd",
+    "rank": 4115,
+    "level": "advanced"
+  },
+  {
+    "word": "injuries",
+    "chinese": "n. 伤害, 损害( injury的名词复数 ); 受伤处",
+    "ipa": "ˈindʒəriz",
+    "rank": 4116,
+    "level": "advanced"
+  },
+  {
+    "word": "shipped",
+    "chinese": "v. 发货",
+    "ipa": "ʃɪpt",
+    "rank": 4117,
+    "level": "advanced"
+  },
+  {
+    "word": "bestiality",
+    "chinese": "n. 兽性, 兽行, 兽欲",
+    "ipa": ",besti'æliti",
+    "rank": 4118,
+    "level": "advanced"
+  },
+  {
+    "word": "seats",
+    "chinese": "n. 座椅, 座位（seat的复数形式）",
+    "ipa": "sits",
+    "rank": 4119,
+    "level": "advanced"
+  },
+  {
+    "word": "approaches",
+    "chinese": "处理",
+    "ipa": "əˈproʊʧɪz",
+    "rank": 4120,
+    "level": "advanced"
+  },
+  {
+    "word": "biz",
+    "chinese": "[计] biz机构",
+    "ipa": "biz",
+    "rank": 4121,
+    "level": "advanced"
+  },
+  {
+    "word": "alarm",
+    "chinese": "n. 惊恐, 警报, 警钟",
+    "ipa": "ә'lɑ:m",
+    "rank": 4122,
+    "level": "advanced"
+  },
+  {
+    "word": "voltage",
+    "chinese": "n. 电压, 伏特数",
+    "ipa": "'vәultidʒ",
+    "rank": 4123,
+    "level": "advanced"
+  },
+  {
+    "word": "anthony",
+    "chinese": "n. 安东尼（人名）",
+    "ipa": "'æntәni",
+    "rank": 4124,
+    "level": "advanced"
+  },
+  {
+    "word": "nintendo",
+    "chinese": "任天堂",
+    "ipa": "nin'tendәj",
+    "rank": 4125,
+    "level": "advanced"
+  },
+  {
+    "word": "usual",
+    "chinese": "a. 平常的, 通常的",
+    "ipa": "'ju:ʒuәl",
+    "rank": 4126,
+    "level": "advanced"
+  },
+  {
+    "word": "loading",
+    "chinese": "n. 装载, 装填",
+    "ipa": "'lәudiŋ",
+    "rank": 4127,
+    "level": "advanced"
+  },
+  {
+    "word": "stamps",
+    "chinese": "n. 邮票",
+    "ipa": "stæmps",
+    "rank": 4128,
+    "level": "advanced"
+  },
+  {
+    "word": "appeared",
+    "chinese": "v. 出现",
+    "ipa": "əˈpɪrd",
+    "rank": 4129,
+    "level": "advanced"
+  },
+  {
+    "word": "franklin",
+    "chinese": "[计] 富兰克林",
+    "ipa": "'fræŋklin",
+    "rank": 4130,
+    "level": "advanced"
+  },
+  {
+    "word": "angle",
+    "chinese": "n. 角, 角度, 角落",
+    "ipa": "'æŋgl",
+    "rank": 4131,
+    "level": "advanced"
+  },
+  {
+    "word": "rob",
+    "chinese": "v. 抢夺, 抢掠, 剥夺",
+    "ipa": "rɒb",
+    "rank": 4132,
+    "level": "advanced"
+  },
+  {
+    "word": "vinyl",
+    "chinese": "n. 乙烯基",
+    "ipa": "'vainil",
+    "rank": 4133,
+    "level": "advanced"
+  },
+  {
+    "word": "highlights",
+    "chinese": "n. 拔萃, 集锦",
+    "ipa": "ˈhaɪˌlaɪts",
+    "rank": 4134,
+    "level": "advanced"
+  },
+  {
+    "word": "mining",
+    "chinese": "n. 采矿",
+    "ipa": "'mainiŋ",
+    "rank": 4135,
+    "level": "advanced"
+  },
+  {
+    "word": "designers",
+    "chinese": "n. 设计师, 设计者",
+    "ipa": "dɪˈzaɪnərz",
+    "rank": 4136,
+    "level": "advanced"
+  },
+  {
+    "word": "melbourne",
+    "chinese": "n. 墨尔本",
+    "ipa": "'melbәn",
+    "rank": 4137,
+    "level": "advanced"
+  },
+  {
+    "word": "ongoing",
+    "chinese": "a. 前进的, 进行的, 不间断的",
+    "ipa": "'ɒngәuiŋ",
+    "rank": 4138,
+    "level": "advanced"
+  },
+  {
+    "word": "worst",
+    "chinese": "n. 最坏, 最坏的时候",
+    "ipa": "wә:st",
+    "rank": 4139,
+    "level": "advanced"
+  },
+  {
+    "word": "imaging",
+    "chinese": "[计] 成象",
+    "ipa": "i'mædʒiŋ",
+    "rank": 4140,
+    "level": "advanced"
+  },
+  {
+    "word": "betting",
+    "chinese": "n. 打赌",
+    "ipa": "'betiŋ",
+    "rank": 4141,
+    "level": "advanced"
+  },
+  {
+    "word": "scientists",
+    "chinese": "n. 科学家( scientist的名词复数 )",
+    "ipa": "'saɪəntɪsts",
+    "rank": 4142,
+    "level": "advanced"
+  },
+  {
+    "word": "liberty",
+    "chinese": "n. 自由, 特权, 许可, 冒失",
+    "ipa": "'libәli",
+    "rank": 4143,
+    "level": "advanced"
+  },
+  {
+    "word": "wyoming",
+    "chinese": "n. 怀俄明",
+    "ipa": "wai'әumiŋ",
+    "rank": 4144,
+    "level": "advanced"
+  },
+  {
+    "word": "blackjack",
+    "chinese": "n. 闪锌矿",
+    "ipa": "'blækdʒæk",
+    "rank": 4145,
+    "level": "advanced"
+  },
+  {
+    "word": "argentina",
+    "chinese": "n. 阿根廷",
+    "ipa": ".ɑ:dʒәn'ti:nә",
+    "rank": 4146,
+    "level": "advanced"
+  },
+  {
+    "word": "era",
+    "chinese": "n. 时代, 纪元, 时期",
+    "ipa": "'iәrә",
+    "rank": 4147,
+    "level": "advanced"
+  },
+  {
+    "word": "convert",
+    "chinese": "n. 皈依者, 改变宗教信仰者",
+    "ipa": "kәn'vә:t",
+    "rank": 4148,
+    "level": "advanced"
+  },
+  {
+    "word": "possibility",
+    "chinese": "n. 可能性, 可能的事",
+    "ipa": ".pɒsә'biliti",
+    "rank": 4149,
+    "level": "advanced"
+  },
+  {
+    "word": "analyst",
+    "chinese": "n. 分析者, 精神分析学家",
+    "ipa": "'ænәlist",
+    "rank": 4150,
+    "level": "advanced"
+  },
+  {
+    "word": "commissioner",
+    "chinese": "n. 委员, 理事, 行政长官",
+    "ipa": "kә'miʃәnә",
+    "rank": 4151,
+    "level": "advanced"
+  },
+  {
+    "word": "dangerous",
+    "chinese": "a. 危险的",
+    "ipa": "'deindʒәrәs",
+    "rank": 4152,
+    "level": "advanced"
+  },
+  {
+    "word": "garage",
+    "chinese": "n. 车库, 汽车修理厂, 机库",
+    "ipa": "gә'rɑ:ʒ. 'gærɑ:ʒ",
+    "rank": 4153,
+    "level": "advanced"
+  },
+  {
+    "word": "exciting",
+    "chinese": "a. 令人兴奋的, 刺激的",
+    "ipa": "ik'saitiŋ",
+    "rank": 4154,
+    "level": "advanced"
+  },
+  {
+    "word": "reliability",
+    "chinese": "n. 信度, 可靠性",
+    "ipa": "ri.laiә'biliti",
+    "rank": 4155,
+    "level": "advanced"
+  },
+  {
+    "word": "thongs",
+    "chinese": "n. 丁字裤",
+    "ipa": "thongs",
+    "rank": 4156,
+    "level": "advanced"
+  },
+  {
+    "word": "gcc",
+    "chinese": "abbr. 海湾合作委员会（Gulf Cooperation Council）",
+    "ipa": "gcc",
+    "rank": 4157,
+    "level": "advanced"
+  },
+  {
+    "word": "unfortunately",
+    "chinese": "adv. 恐怕, 不幸的是",
+    "ipa": "ʌn'fɔ:tjjnәtli",
+    "rank": 4158,
+    "level": "advanced"
+  },
+  {
+    "word": "respectively",
+    "chinese": "adv. 各自地, 独自地, 个别地, 分别地",
+    "ipa": "ri'spektivli",
+    "rank": 4159,
+    "level": "advanced"
+  },
+  {
+    "word": "volunteers",
+    "chinese": "n. 义务工作者( volunteer的名词复数 ); 志愿者; 自告奋勇者; 主动做某事的人",
+    "ipa": "ˌvɔlənˈtiəz",
+    "rank": 4160,
+    "level": "advanced"
+  },
+  {
+    "word": "attachment",
+    "chinese": "n. 连接, 附属物, 连接物, 爱慕",
+    "ipa": "ә'tʃætʃmәnt",
+    "rank": 4161,
+    "level": "advanced"
+  },
+  {
+    "word": "ringtone",
+    "chinese": "n. 铃声, 手机铃声",
+    "ipa": "ringtone",
+    "rank": 4162,
+    "level": "advanced"
+  },
+  {
+    "word": "finland",
+    "chinese": "n. 芬兰",
+    "ipa": "'finlәnd",
+    "rank": 4163,
+    "level": "advanced"
+  },
+  {
+    "word": "morgan",
+    "chinese": "n. 摩根马",
+    "ipa": "'mɒ:gәn",
+    "rank": 4164,
+    "level": "advanced"
+  },
+  {
+    "word": "derived",
+    "chinese": "a. 导出的",
+    "ipa": "dəraɪvd",
+    "rank": 4165,
+    "level": "advanced"
+  },
+  {
+    "word": "pleasure",
+    "chinese": "n. 快乐, 愉快, 令人高兴的事, 娱乐, 希望",
+    "ipa": "'pleʒә",
+    "rank": 4166,
+    "level": "advanced"
+  },
+  {
+    "word": "honor",
+    "chinese": "n. 荣誉, 头衔, 信用, 尊敬, 名誉, 阁下, 勋章",
+    "ipa": "'ɒnә",
+    "rank": 4167,
+    "level": "advanced"
+  },
+  {
+    "word": "asp",
+    "chinese": "n. 山杨, 角蝰",
+    "ipa": "æsp",
+    "rank": 4168,
+    "level": "advanced"
+  },
+  {
+    "word": "oriented",
+    "chinese": "a. 导向的",
+    "ipa": "'ɒ:rientid",
+    "rank": 4169,
+    "level": "advanced"
+  },
+  {
+    "word": "eagle",
+    "chinese": "n. 鹰, 鹰状标饰",
+    "ipa": "'i:gl",
+    "rank": 4170,
+    "level": "advanced"
+  },
+  {
+    "word": "desktops",
+    "chinese": "(desktop 的复数) n. 桌面",
+    "ipa": "ˈdɛskˌtɑps",
+    "rank": 4171,
+    "level": "advanced"
+  },
+  {
+    "word": "pants",
+    "chinese": "n. 裤子, 长裤, 短衬裤, 女式运动短裤",
+    "ipa": "pænts",
+    "rank": 4172,
+    "level": "advanced"
+  },
+  {
+    "word": "columbus",
+    "chinese": "n. 哥伦布（美国一座城市）",
+    "ipa": "kә'lʌmbәs",
+    "rank": 4173,
+    "level": "advanced"
+  },
+  {
+    "word": "nurse",
+    "chinese": "n. 护士, 保姆, 奶妈",
+    "ipa": "nә:s",
+    "rank": 4174,
+    "level": "advanced"
+  },
+  {
+    "word": "prayer",
+    "chinese": "n. 祈祷, 恳求, 祷辞, 祈祷者",
+    "ipa": "prєә. 'preiә",
+    "rank": 4175,
+    "level": "advanced"
+  },
+  {
+    "word": "appointment",
+    "chinese": "n. 约会, 委任的职位, 委派",
+    "ipa": "ә'pɒintmәnt",
+    "rank": 4176,
+    "level": "advanced"
+  },
+  {
+    "word": "workshops",
+    "chinese": "n. 专题讨论会( workshop的名词复数 ); 车间; 工作坊; 研究会",
+    "ipa": "ˈwə:kʃɔps",
+    "rank": 4177,
+    "level": "advanced"
+  },
+  {
+    "word": "hurricane",
+    "chinese": "n. 飓风, 暴风, 暴风雨",
+    "ipa": "'hә:rikәn",
+    "rank": 4178,
+    "level": "advanced"
+  },
+  {
+    "word": "quiet",
+    "chinese": "n. 安静, 闲适, 平静",
+    "ipa": "'kwaiәt",
+    "rank": 4179,
+    "level": "advanced"
+  },
+  {
+    "word": "luck",
+    "chinese": "n. 运气, 幸运, 好运, 侥幸",
+    "ipa": "lʌk",
+    "rank": 4180,
+    "level": "advanced"
+  },
+  {
+    "word": "postage",
+    "chinese": "n. 邮资",
+    "ipa": "'pәustidʒ",
+    "rank": 4181,
+    "level": "advanced"
+  },
+  {
+    "word": "producer",
+    "chinese": "n. 生产者, 制作者, 制作人",
+    "ipa": "prә'dju:sә",
+    "rank": 4182,
+    "level": "advanced"
+  },
+  {
+    "word": "represented",
+    "chinese": "v. 表现( represent的过去式和过去分词 ); 代表; 体现; 作为…的代表",
+    "ipa": "ˌrepriˈzentid",
+    "rank": 4183,
+    "level": "advanced"
+  },
+  {
+    "word": "mortgages",
+    "chinese": "n. 抵押贷款",
+    "ipa": "ˈmɔrgɪʤɪz",
+    "rank": 4184,
+    "level": "advanced"
+  },
+  {
+    "word": "dial",
+    "chinese": "n. 刻度盘, 钟面, 转盘",
+    "ipa": "'daiәl",
+    "rank": 4185,
+    "level": "advanced"
+  },
+  {
+    "word": "responsibilities",
+    "chinese": "n. 责任",
+    "ipa": "riˌspɑnsəˈbɪlətiz",
+    "rank": 4186,
+    "level": "advanced"
+  },
+  {
+    "word": "cheese",
+    "chinese": "n. 乳酪",
+    "ipa": "tʃi:z",
+    "rank": 4187,
+    "level": "advanced"
+  },
+  {
+    "word": "comic",
+    "chinese": "n. 连环漫画, 喜剧演员, 滑稽的人",
+    "ipa": "'kɒmik",
+    "rank": 4188,
+    "level": "advanced"
+  },
+  {
+    "word": "carefully",
+    "chinese": "adv. 小心地, 谨慎地",
+    "ipa": "'kєәfuli",
+    "rank": 4189,
+    "level": "advanced"
+  },
+  {
+    "word": "jet",
+    "chinese": "n. 喷射流, 喷嘴, 煤玉",
+    "ipa": "dʒet",
+    "rank": 4190,
+    "level": "advanced"
+  },
+  {
+    "word": "productivity",
+    "chinese": "n. 生产力",
+    "ipa": ".prәudʌk'tiviti",
+    "rank": 4191,
+    "level": "advanced"
+  },
+  {
+    "word": "investors",
+    "chinese": "n. 投资者, 出资者( investor的复数形式 )",
+    "ipa": "ɪn'vestəz",
+    "rank": 4192,
+    "level": "advanced"
+  },
+  {
+    "word": "crown",
+    "chinese": "n. 王冠, 王权, 顶点",
+    "ipa": "kraun",
+    "rank": 4193,
+    "level": "advanced"
+  },
+  {
+    "word": "par",
+    "chinese": "n. 标准, 票面价值, 平均数量, 同等水平",
+    "ipa": "pɑ:",
+    "rank": 4194,
+    "level": "advanced"
+  },
+  {
+    "word": "underground",
+    "chinese": "n. 地下, 地铁, 地道, 秘密活动",
+    "ipa": "'ʌndәgraund",
+    "rank": 4195,
+    "level": "advanced"
+  },
+  {
+    "word": "diagnosis",
+    "chinese": "n. 诊断",
+    "ipa": ".daiәg'nәusis",
+    "rank": 4196,
+    "level": "advanced"
+  },
+  {
+    "word": "maker",
+    "chinese": "n. 制造者, 上帝",
+    "ipa": "'meikә",
+    "rank": 4197,
+    "level": "advanced"
+  },
+  {
+    "word": "crack",
+    "chinese": "n. 裂缝, 爆裂声",
+    "ipa": "kræk",
+    "rank": 4198,
+    "level": "advanced"
+  },
+  {
+    "word": "principle",
+    "chinese": "n. 原则, 原理, 主义",
+    "ipa": "'prinsipl",
+    "rank": 4199,
+    "level": "advanced"
+  },
+  {
+    "word": "picks",
+    "chinese": "n. 凿",
+    "ipa": "pɪks",
+    "rank": 4200,
+    "level": "advanced"
+  },
+  {
+    "word": "vacations",
+    "chinese": "n. 假期( vacation的名词复数 ); （法庭的）休庭期",
+    "ipa": "vəˈkeiʃənz",
+    "rank": 4201,
+    "level": "advanced"
+  },
+  {
+    "word": "gang",
+    "chinese": "n. 队, 群, 帮",
+    "ipa": "gæŋ",
+    "rank": 4202,
+    "level": "advanced"
+  },
+  {
+    "word": "semester",
+    "chinese": "n. 学期",
+    "ipa": "si'mestә",
+    "rank": 4203,
+    "level": "advanced"
+  },
+  {
+    "word": "calculated",
+    "chinese": "a. 有计划的, 适当的, 适合的, 计算出的",
+    "ipa": "'kælkjuleitid",
+    "rank": 4204,
+    "level": "advanced"
+  },
+  {
+    "word": "cumshot",
+    "chinese": "射精",
+    "ipa": "'kʌmʃɒt",
+    "rank": 4205,
+    "level": "advanced"
+  },
+  {
+    "word": "fetish",
+    "chinese": "n. 物神, 偶像, 迷信",
+    "ipa": "'fi:tiʃ",
+    "rank": 4206,
+    "level": "advanced"
+  },
+  {
+    "word": "applies",
+    "chinese": "v. 应用( apply的第三人称单数 ); [apply oneself]使（自己）致力于; [apply oneself]使从事于; 使接触",
+    "ipa": "əˈplaiz",
+    "rank": 4207,
+    "level": "advanced"
+  },
+  {
+    "word": "casinos",
+    "chinese": "n. （意）乡间住宅",
+    "ipa": "kəˈsinoʊz",
+    "rank": 4208,
+    "level": "advanced"
+  },
+  {
+    "word": "appearance",
+    "chinese": "n. 出现, 露面, 外观, 外表, 出版",
+    "ipa": "ә'piәrәns",
+    "rank": 4209,
+    "level": "advanced"
+  },
+  {
+    "word": "smoke",
+    "chinese": "n. 烟, 雾气, 烟熏剂, 抽烟, 烟色",
+    "ipa": "smәuk",
+    "rank": 4210,
+    "level": "advanced"
+  },
+  {
+    "word": "apache",
+    "chinese": "n. 阿帕切族(美洲印第安部族)",
+    "ipa": "ә'pætʃi",
+    "rank": 4211,
+    "level": "advanced"
+  },
+  {
+    "word": "filters",
+    "chinese": "n. 滤器, 滤波器",
+    "ipa": "ˈfɪltərz",
+    "rank": 4212,
+    "level": "advanced"
+  },
+  {
+    "word": "incorporated",
+    "chinese": "a. 根据法律组成的公司, 公司",
+    "ipa": "in'kɔ:pәreitid",
+    "rank": 4213,
+    "level": "advanced"
+  },
+  {
+    "word": "nv",
+    "chinese": "[电] 十亿分之一伏",
+    "ipa": "nv",
+    "rank": 4214,
+    "level": "advanced"
+  },
+  {
+    "word": "craft",
+    "chinese": "n. 技艺, 手艺, 诡计",
+    "ipa": "kræft",
+    "rank": 4215,
+    "level": "advanced"
+  },
+  {
+    "word": "cake",
+    "chinese": "n. 蛋糕, 块, 饼",
+    "ipa": "keik",
+    "rank": 4216,
+    "level": "advanced"
+  },
+  {
+    "word": "notebooks",
+    "chinese": "n. 笔记簿( notebook的复数形式 ); 笔记本计算机, 笔记本电脑",
+    "ipa": "ˈnəutbuks",
+    "rank": 4217,
+    "level": "advanced"
+  },
+  {
+    "word": "apart",
+    "chinese": "adv. 成零碎, 成距离, 分别地, 分离着",
+    "ipa": "ә'pɑ:t",
+    "rank": 4218,
+    "level": "advanced"
+  },
+  {
+    "word": "fellow",
+    "chinese": "n. 男人, 朋友, 同事",
+    "ipa": "'felәu",
+    "rank": 4219,
+    "level": "advanced"
+  },
+  {
+    "word": "blind",
+    "chinese": "n. 蒙蔽物, 窗帘",
+    "ipa": "blaind",
+    "rank": 4220,
+    "level": "advanced"
+  },
+  {
+    "word": "lounge",
+    "chinese": "n. 闲逛, 休闲室, 长沙发",
+    "ipa": "laundʒ",
+    "rank": 4221,
+    "level": "advanced"
+  },
+  {
+    "word": "mad",
+    "chinese": "a. 疯狂的, 发疯的, 生气的, 愚蠢的, 狂欢的",
+    "ipa": "mæd",
+    "rank": 4222,
+    "level": "advanced"
+  },
+  {
+    "word": "algorithm",
+    "chinese": "n. 算法",
+    "ipa": "'ælgәriðm",
+    "rank": 4223,
+    "level": "advanced"
+  },
+  {
+    "word": "semi",
+    "chinese": "[计] 半",
+    "ipa": "'semi",
+    "rank": 4224,
+    "level": "advanced"
+  },
+  {
+    "word": "coins",
+    "chinese": "n. 硬币（coin的复数）",
+    "ipa": "kɔɪnz",
+    "rank": 4225,
+    "level": "advanced"
+  },
+  {
+    "word": "andy",
+    "chinese": "n. 安迪（男子名, 等于Andrew）",
+    "ipa": "'ændi",
+    "rank": 4226,
+    "level": "advanced"
+  },
+  {
+    "word": "gross",
+    "chinese": "n. 总数, 总量",
+    "ipa": "grәus",
+    "rank": 4227,
+    "level": "advanced"
+  },
+  {
+    "word": "strongly",
+    "chinese": "adv. 强有力地, 坚强地, 激烈地",
+    "ipa": "'strɒŋli",
+    "rank": 4228,
+    "level": "advanced"
+  },
+  {
+    "word": "cafe",
+    "chinese": "n. 咖啡馆, 酒店",
+    "ipa": "kɑ:'fei",
+    "rank": 4229,
+    "level": "advanced"
+  },
+  {
+    "word": "valentine",
+    "chinese": "n. 情人, 情人节礼物",
+    "ipa": "'vælәntain",
+    "rank": 4230,
+    "level": "advanced"
+  },
+  {
+    "word": "hilton",
+    "chinese": "n. 希尔顿（姓氏）",
+    "ipa": "'hiltәn",
+    "rank": 4231,
+    "level": "advanced"
+  },
+  {
+    "word": "ken",
+    "chinese": "n. 视野范围, 知识范围, 见地",
+    "ipa": "ken",
+    "rank": 4232,
+    "level": "advanced"
+  },
+  {
+    "word": "proteins",
+    "chinese": "n. 蛋白质( protein的复数形式 )",
+    "ipa": "p'rəʊti:nz",
+    "rank": 4233,
+    "level": "advanced"
+  },
+  {
+    "word": "horror",
+    "chinese": "n. 惊骇, 恐怖, 惨状",
+    "ipa": "'hɒrә",
+    "rank": 4234,
+    "level": "advanced"
+  },
+  {
+    "word": "su",
+    "chinese": "[计] 可选部件",
+    "ipa": "su",
+    "rank": 4235,
+    "level": "advanced"
+  },
+  {
+    "word": "exp",
+    "chinese": "abbr. 经验值",
+    "ipa": "exp",
+    "rank": 4236,
+    "level": "advanced"
+  },
+  {
+    "word": "familiar",
+    "chinese": "a. 熟悉的, 常见的, 亲密的",
+    "ipa": "fә'miljә",
+    "rank": 4237,
+    "level": "advanced"
+  },
+  {
+    "word": "capable",
+    "chinese": "a. 有能力的, 能的, 能干的",
+    "ipa": "'keipәbl",
+    "rank": 4238,
+    "level": "advanced"
+  },
+  {
+    "word": "douglas",
+    "chinese": "n. 道格拉斯（男子名）",
+    "ipa": "'dʌ^lәs",
+    "rank": 4239,
+    "level": "advanced"
+  },
+  {
+    "word": "debian",
+    "chinese": "n. 一种自由操作系统",
+    "ipa": "debian",
+    "rank": 4240,
+    "level": "advanced"
+  },
+  {
+    "word": "till",
+    "chinese": "prep. 直到, 在...以前, 迄",
+    "ipa": "til",
+    "rank": 4241,
+    "level": "advanced"
+  },
+  {
+    "word": "involving",
+    "chinese": "v. 包括",
+    "ipa": "ˌɪnˈvɑlvɪŋ",
+    "rank": 4242,
+    "level": "advanced"
+  },
+  {
+    "word": "pen",
+    "chinese": "n. 钢笔, 笔, 笔调, 笔杆子, 作家, 围栏, 栅栏, 禽畜",
+    "ipa": "pen",
+    "rank": 4243,
+    "level": "advanced"
+  },
+  {
+    "word": "investing",
+    "chinese": "[医] 包埋, 围模",
+    "ipa": "ˌɪnˈvɛstɪŋ",
+    "rank": 4244,
+    "level": "advanced"
+  },
+  {
+    "word": "christopher",
+    "chinese": "n. 克里斯多夫（男子名）",
+    "ipa": "'kristәfә",
+    "rank": 4245,
+    "level": "advanced"
+  },
+  {
+    "word": "admission",
+    "chinese": "n. 准许进入, 入场费, 录用, 承认",
+    "ipa": "әd'miʃәn",
+    "rank": 4246,
+    "level": "advanced"
+  },
+  {
+    "word": "epson",
+    "chinese": "n. 爱普生（日本一公司名称）",
+    "ipa": "ˈɛpsən",
+    "rank": 4247,
+    "level": "advanced"
+  },
+  {
+    "word": "shoe",
+    "chinese": "n. 鞋, 靴, 外胎",
+    "ipa": "ʃu:",
+    "rank": 4248,
+    "level": "advanced"
+  },
+  {
+    "word": "elected",
+    "chinese": "vt. 选举, 推选",
+    "ipa": "i'lektid",
+    "rank": 4249,
+    "level": "advanced"
+  },
+  {
+    "word": "carrying",
+    "chinese": "[法] 运载",
+    "ipa": "'kæriiŋ",
+    "rank": 4250,
+    "level": "advanced"
+  },
+  {
+    "word": "victory",
+    "chinese": "n. 胜利, 战胜, 克服",
+    "ipa": "'viktәri",
+    "rank": 4251,
+    "level": "advanced"
+  },
+  {
+    "word": "sand",
+    "chinese": "n. 沙, 沙子, 沙滩, 光阴, 生涯",
+    "ipa": "sænd",
+    "rank": 4252,
+    "level": "advanced"
+  },
+  {
+    "word": "madison",
+    "chinese": "n. 麦迪逊（姓氏）",
+    "ipa": "'mædisn",
+    "rank": 4253,
+    "level": "advanced"
+  },
+  {
+    "word": "terrorism",
+    "chinese": "n. 恐怖主义, 恐怖统治, 恐怖状态",
+    "ipa": "'terәrizm",
+    "rank": 4254,
+    "level": "advanced"
+  },
+  {
+    "word": "joy",
+    "chinese": "n. 欢喜, 乐事, 高兴",
+    "ipa": "dʒɒi",
+    "rank": 4255,
+    "level": "advanced"
+  },
+  {
+    "word": "editions",
+    "chinese": "n. 版次( edition的复数形式 ); （报纸、杂志的）一份; （广播、电视节目的）一期; （书、报、杂志等的）一版印刷总数",
+    "ipa": "ɪ'dɪʃnz",
+    "rank": 4256,
+    "level": "advanced"
+  },
+  {
+    "word": "cpu",
+    "chinese": "中央处理器",
+    "ipa": "cpu",
+    "rank": 4257,
+    "level": "advanced"
+  },
+  {
+    "word": "mainly",
+    "chinese": "adv. 主要地, 大抵",
+    "ipa": "'meinli",
+    "rank": 4258,
+    "level": "advanced"
+  },
+  {
+    "word": "ethnic",
+    "chinese": "a. 人种的, 种族的",
+    "ipa": "'eθnik",
+    "rank": 4259,
+    "level": "advanced"
+  },
+  {
+    "word": "ran",
+    "chinese": "run的过去式",
+    "ipa": "ræn",
+    "rank": 4260,
+    "level": "advanced"
+  },
+  {
+    "word": "parliament",
+    "chinese": "n. 国会, 议会",
+    "ipa": "'pɑ:lәmәnt",
+    "rank": 4261,
+    "level": "advanced"
+  },
+  {
+    "word": "actor",
+    "chinese": "n. 男演员, 行动者",
+    "ipa": "'æktә",
+    "rank": 4262,
+    "level": "advanced"
+  },
+  {
+    "word": "finds",
+    "chinese": "v. 发现( find的第三人称单数 ); 找到; 到达; 发觉",
+    "ipa": "faindz",
+    "rank": 4263,
+    "level": "advanced"
+  },
+  {
+    "word": "seal",
+    "chinese": "n. 印章, 封条, 海豹, 海豹皮, 火漆, 封蜡, 玺, 保证, 批准, 象征, 标志",
+    "ipa": "si:l",
+    "rank": 4264,
+    "level": "advanced"
+  },
+  {
+    "word": "situations",
+    "chinese": "n. 情境",
+    "ipa": "ˌsɪʧuˈeɪʃənz",
+    "rank": 4265,
+    "level": "advanced"
+  },
+  {
+    "word": "fifth",
+    "chinese": "num. 第五, 五分之一",
+    "ipa": "fifθ",
+    "rank": 4266,
+    "level": "advanced"
+  },
+  {
+    "word": "allocated",
+    "chinese": "a. 分配的, 指派的",
+    "ipa": "ˈæləˌkeɪtɪd",
+    "rank": 4267,
+    "level": "advanced"
+  },
+  {
+    "word": "citizen",
+    "chinese": "n. 市民, 公民",
+    "ipa": "'sitizn",
+    "rank": 4268,
+    "level": "advanced"
+  },
+  {
+    "word": "vertical",
+    "chinese": "a. 垂直的, 直立的",
+    "ipa": "'vә:tikl",
+    "rank": 4269,
+    "level": "advanced"
+  },
+  {
+    "word": "corrections",
+    "chinese": "n. 修改( correction的复数形式 ); 改[纠]正; 惩罚; 有待改正",
+    "ipa": "kə'rekʃnz",
+    "rank": 4270,
+    "level": "advanced"
+  },
+  {
+    "word": "structural",
+    "chinese": "a. 结构的, 建筑的",
+    "ipa": "'strʌktʃәrәl",
+    "rank": 4271,
+    "level": "advanced"
+  },
+  {
+    "word": "municipal",
+    "chinese": "a. 市政的, 自治区的, 内政的",
+    "ipa": "mju:'nisipl",
+    "rank": 4272,
+    "level": "advanced"
+  },
+  {
+    "word": "describes",
+    "chinese": "v. 描述, 记述",
+    "ipa": "dɪˈskraɪbz",
+    "rank": 4273,
+    "level": "advanced"
+  },
+  {
+    "word": "prize",
+    "chinese": "n. 奖赏, 奖金, 奖品, 战利品, 捕获",
+    "ipa": "praiz",
+    "rank": 4274,
+    "level": "advanced"
+  },
+  {
+    "word": "sr",
+    "chinese": "[计] 开关寄存器",
+    "ipa": "ˈsɪstər",
+    "rank": 4275,
+    "level": "advanced"
+  },
+  {
+    "word": "occurs",
+    "chinese": "v. 重现（occur的第三人称单数）",
+    "ipa": "əˈkərz",
+    "rank": 4276,
+    "level": "advanced"
+  },
+  {
+    "word": "jon",
+    "chinese": "n. 乔恩（男子名）",
+    "ipa": "dʒɔn",
+    "rank": 4277,
+    "level": "advanced"
+  },
+  {
+    "word": "absolute",
+    "chinese": "a. 绝对的, 专制的, 完全的, 独立的",
+    "ipa": "'æbsәlu:t",
+    "rank": 4278,
+    "level": "advanced"
+  },
+  {
+    "word": "disabilities",
+    "chinese": "n. 无能力( disability的名词复数 ); 无力; 残疾; 伤残",
+    "ipa": "ˌdisəˈbilitiz",
+    "rank": 4279,
+    "level": "advanced"
+  },
+  {
+    "word": "consists",
+    "chinese": "v. 由…组成( consist的第三人称单数 ); 包括; 存在于; 表现为（常与 in 连用）",
+    "ipa": "kənˈsists",
+    "rank": 4280,
+    "level": "advanced"
+  },
+  {
+    "word": "anytime",
+    "chinese": "adv. 任何时候",
+    "ipa": "'enitaim",
+    "rank": 4281,
+    "level": "advanced"
+  },
+  {
+    "word": "substance",
+    "chinese": "n. 物质, 实质, 主旨, 资产, 本质, 牢固",
+    "ipa": "'sʌbstәns",
+    "rank": 4282,
+    "level": "advanced"
+  },
+  {
+    "word": "prohibited",
+    "chinese": "v. 禁止, 被禁止的（prohibite的过去分词形式）",
+    "ipa": "proʊˈhɪbətəd",
+    "rank": 4283,
+    "level": "advanced"
+  },
+  {
+    "word": "addressed",
+    "chinese": "a. 编址的",
+    "ipa": "əˈdrɛst",
+    "rank": 4284,
+    "level": "advanced"
+  },
+  {
+    "word": "lies",
+    "chinese": "v. 躺卧（lie的第三人称单数形式）",
+    "ipa": "laɪz",
+    "rank": 4285,
+    "level": "advanced"
+  },
+  {
+    "word": "pipe",
+    "chinese": "n. 管, 导管, 输送管, 管状器官, 声带, 尖细的声音, 烟斗, 笛, 管乐器",
+    "ipa": "paip",
+    "rank": 4286,
+    "level": "advanced"
+  },
+  {
+    "word": "soldiers",
+    "chinese": "n. 士兵",
+    "ipa": "ˈsoʊlʤərz",
+    "rank": 4287,
+    "level": "advanced"
+  },
+  {
+    "word": "nr",
+    "chinese": "abbr. 天然橡胶（Natural Rubber）",
+    "ipa": "nr",
+    "rank": 4288,
+    "level": "advanced"
+  },
+  {
+    "word": "guardian",
+    "chinese": "n. 看守者, 监护人, 保护人",
+    "ipa": "'gɑ:diәn",
+    "rank": 4289,
+    "level": "advanced"
+  },
+  {
+    "word": "lecture",
+    "chinese": "n. 演讲, 谴责, 讲稿",
+    "ipa": "'lektʃә",
+    "rank": 4290,
+    "level": "advanced"
+  },
+  {
+    "word": "simulation",
+    "chinese": "n. 模拟, 假冒物, 模仿",
+    "ipa": ".simju'leiʃәn",
+    "rank": 4291,
+    "level": "advanced"
+  },
+  {
+    "word": "layout",
+    "chinese": "n. 布局, 陈列, 规划图, 页面布局, 版面编排",
+    "ipa": "'leiaut",
+    "rank": 4292,
+    "level": "advanced"
+  },
+  {
+    "word": "initiatives",
+    "chinese": "n. 主动性( initiative的复数形式 ); 主动的行动; 初步; 主动权",
+    "ipa": "ɪ'nɪʃətɪvz",
+    "rank": 4293,
+    "level": "advanced"
+  },
+  {
+    "word": "ill",
+    "chinese": "n. 疾病, 坏事, 罪恶, 灾难",
+    "ipa": "il",
+    "rank": 4294,
+    "level": "advanced"
+  },
+  {
+    "word": "concentration",
+    "chinese": "n. 集中, 专心",
+    "ipa": ".kɒnsәn'treiʃәn",
+    "rank": 4295,
+    "level": "advanced"
+  },
+  {
+    "word": "classics",
+    "chinese": "n. 古希腊、古罗马文学（classic的复数）",
+    "ipa": "ˈklæsɪks",
+    "rank": 4296,
+    "level": "advanced"
+  },
+  {
+    "word": "lbs",
+    "chinese": "磅",
+    "ipa": "paʊndz",
+    "rank": 4297,
+    "level": "advanced"
+  },
+  {
+    "word": "lay",
+    "chinese": "vt. 放置, 产, 铺设, 布置, 提出, 平息",
+    "ipa": "lei",
+    "rank": 4298,
+    "level": "advanced"
+  },
+  {
+    "word": "interpretation",
+    "chinese": "n. 解释, 演出, 翻译",
+    "ipa": "in.tә:pri'teiʃәn",
+    "rank": 4299,
+    "level": "advanced"
+  },
+  {
+    "word": "horses",
+    "chinese": "n. 马",
+    "ipa": "ˈhɔrsɪz",
+    "rank": 4300,
+    "level": "advanced"
+  },
+  {
+    "word": "lol",
+    "chinese": "abbr. 大声笑（Laugh Out Loud）",
+    "ipa": "lɔl",
+    "rank": 4301,
+    "level": "advanced"
+  },
+  {
+    "word": "dirty",
+    "chinese": "a. 肮脏的, 卑鄙的",
+    "ipa": "'dә:ti",
+    "rank": 4302,
+    "level": "advanced"
+  },
+  {
+    "word": "deck",
+    "chinese": "n. 甲板, (汽车后部的)行李仓",
+    "ipa": "dek",
+    "rank": 4303,
+    "level": "advanced"
+  },
+  {
+    "word": "wayne",
+    "chinese": "n. 韦恩（男子名）",
+    "ipa": "wein",
+    "rank": 4304,
+    "level": "advanced"
+  },
+  {
+    "word": "donate",
+    "chinese": "v. 捐赠",
+    "ipa": "'dәuneit",
+    "rank": 4305,
+    "level": "advanced"
+  },
+  {
+    "word": "taught",
+    "chinese": "teach的过去式和过去分词",
+    "ipa": "tɒ:t",
+    "rank": 4306,
+    "level": "advanced"
+  },
+  {
+    "word": "bankruptcy",
+    "chinese": "n. 破产者",
+    "ipa": "'bæŋkrәptsi",
+    "rank": 4307,
+    "level": "advanced"
+  },
+  {
+    "word": "mp",
+    "chinese": "国会议员, 下院议员",
+    "ipa": "mp",
+    "rank": 4308,
+    "level": "advanced"
+  },
+  {
+    "word": "worker",
+    "chinese": "n. 工人, 劳动者",
+    "ipa": "'wә:kә",
+    "rank": 4309,
+    "level": "advanced"
+  },
+  {
+    "word": "optimization",
+    "chinese": "n. 最佳化, 最优化",
+    "ipa": ".ɒptimai'zeiʃәn",
+    "rank": 4310,
+    "level": "advanced"
+  },
+  {
+    "word": "alive",
+    "chinese": "a. 活着的, 活泼的, 敏感的, 热闹的",
+    "ipa": "ә'laiv",
+    "rank": 4311,
+    "level": "advanced"
+  },
+  {
+    "word": "temple",
+    "chinese": "n. 圣堂, 庙宇, 教堂, 礼拜堂, 太阳穴, 鬓角",
+    "ipa": "templ",
+    "rank": 4312,
+    "level": "advanced"
+  },
+  {
+    "word": "substances",
+    "chinese": "n. 物质( substance的复数形式 ); 实质; 物体; [哲学]1)。 本质",
+    "ipa": "ˈsʌbstənsiz",
+    "rank": 4313,
+    "level": "advanced"
+  },
+  {
+    "word": "prove",
+    "chinese": "vt. 证明, 查验, 检验, 勘探, 显示",
+    "ipa": "pru:v",
+    "rank": 4314,
+    "level": "advanced"
+  },
+  {
+    "word": "discovered",
+    "chinese": "v. 发现, 找到（discover的过去形式）",
+    "ipa": "dɪˈskəvərd",
+    "rank": 4315,
+    "level": "advanced"
+  },
+  {
+    "word": "wings",
+    "chinese": "n. 舞台两侧, 侧景",
+    "ipa": "wɪŋz",
+    "rank": 4316,
+    "level": "advanced"
+  },
+  {
+    "word": "breaks",
+    "chinese": "n. 地形突变",
+    "ipa": "breɪks",
+    "rank": 4317,
+    "level": "advanced"
+  },
+  {
+    "word": "genetic",
+    "chinese": "a. 创始的, 遗传的, 起源的, 遗传学的",
+    "ipa": "dʒi'netik",
+    "rank": 4318,
+    "level": "advanced"
+  },
+  {
+    "word": "restrictions",
+    "chinese": "n. 限制",
+    "ipa": "riˈstrɪkʃənz",
+    "rank": 4319,
+    "level": "advanced"
+  },
+  {
+    "word": "participating",
+    "chinese": "a. 由多人一起参加的, 由多方一起参加的, 股票使持有人有权参与分享的",
+    "ipa": "pɑrˈtɪsəˌpeɪtɪŋ",
+    "rank": 4320,
+    "level": "advanced"
+  },
+  {
+    "word": "waters",
+    "chinese": "n. 大片的水, 领海, 近海, 海域, 江水, 湖水, 河水, 矿泉水",
+    "ipa": "'wɔ:tәz",
+    "rank": 4321,
+    "level": "advanced"
+  },
+  {
+    "word": "promise",
+    "chinese": "n. 诺言, 约定的事情, 有指望",
+    "ipa": "'prɒmis",
+    "rank": 4322,
+    "level": "advanced"
+  },
+  {
+    "word": "thin",
+    "chinese": "a. 薄的, 细的, 瘦的, 稀疏的, 稀薄的, 淡的, 弱的, 空洞的",
+    "ipa": "θin",
+    "rank": 4323,
+    "level": "advanced"
+  },
+  {
+    "word": "exhibition",
+    "chinese": "n. 表现, 展览会, 展览品",
+    "ipa": ".eksi'biʃәn",
+    "rank": 4324,
+    "level": "advanced"
+  },
+  {
+    "word": "prefer",
+    "chinese": "vt. 宁可, 较喜欢, 提出",
+    "ipa": "pri'fә:",
+    "rank": 4325,
+    "level": "advanced"
+  },
+  {
+    "word": "ridge",
+    "chinese": "n. 脊, 山脊, 山脉",
+    "ipa": "ridʒ",
+    "rank": 4326,
+    "level": "advanced"
+  },
+  {
+    "word": "cabinet",
+    "chinese": "n. 橱柜, 内阁",
+    "ipa": "'kæbinit",
+    "rank": 4327,
+    "level": "advanced"
+  },
+  {
+    "word": "modem",
+    "chinese": "n. 调制解调器",
+    "ipa": "'mәudem",
+    "rank": 4328,
+    "level": "advanced"
+  },
+  {
+    "word": "harris",
+    "chinese": "n. 哈里斯（英国苏格兰一地区）",
+    "ipa": "'hæris",
+    "rank": 4329,
+    "level": "advanced"
+  },
+  {
+    "word": "mph",
+    "chinese": "每小时...英里, 哩/时",
+    "ipa": "ˈɛmˈpiˈeɪʧ",
+    "rank": 4330,
+    "level": "advanced"
+  },
+  {
+    "word": "bringing",
+    "chinese": "v. 带来( bring的现在分词 ); 促使; 提供; 使朝（某方向或按某方式）移动",
+    "ipa": "briŋɪŋ",
+    "rank": 4331,
+    "level": "advanced"
+  },
+  {
+    "word": "sick",
+    "chinese": "n. 病人",
+    "ipa": "sik",
+    "rank": 4332,
+    "level": "advanced"
+  },
+  {
+    "word": "dose",
+    "chinese": "n. 剂量, 服用量",
+    "ipa": "dәus",
+    "rank": 4333,
+    "level": "advanced"
+  },
+  {
+    "word": "evaluate",
+    "chinese": "vt. 评估, 评价, 赋值",
+    "ipa": "i'væljueit",
+    "rank": 4334,
+    "level": "advanced"
+  },
+  {
+    "word": "tiffany",
+    "chinese": "n. 丝纱罗",
+    "ipa": "'tifәni",
+    "rank": 4335,
+    "level": "advanced"
+  },
+  {
+    "word": "tropical",
+    "chinese": "a. 热带的, 热情的",
+    "ipa": "'trɒpikl",
+    "rank": 4336,
+    "level": "advanced"
+  },
+  {
+    "word": "collect",
+    "chinese": "v. 收集, 聚集, 集中, 搜集",
+    "ipa": "kә'lekt",
+    "rank": 4337,
+    "level": "advanced"
+  },
+  {
+    "word": "bet",
+    "chinese": "n. 打赌, 赌注",
+    "ipa": "bet",
+    "rank": 4338,
+    "level": "advanced"
+  },
+  {
+    "word": "composition",
+    "chinese": "n. 作文, 创作, 组成",
+    "ipa": "kɒmpә'ziʃәn",
+    "rank": 4339,
+    "level": "advanced"
+  },
+  {
+    "word": "toyota",
+    "chinese": "n. 日本丰田汽车（公司名）",
+    "ipa": "toʊˈjoʊtə",
+    "rank": 4340,
+    "level": "advanced"
+  },
+  {
+    "word": "streets",
+    "chinese": "n. 街道",
+    "ipa": "stri:ts",
+    "rank": 4341,
+    "level": "advanced"
+  },
+  {
+    "word": "nationwide",
+    "chinese": "a. 全国性的",
+    "ipa": "'neiʃәnwaid",
+    "rank": 4342,
+    "level": "advanced"
+  },
+  {
+    "word": "vector",
+    "chinese": "n. 矢量, 传病媒介",
+    "ipa": "'vektә",
+    "rank": 4343,
+    "level": "advanced"
+  },
+  {
+    "word": "definitely",
+    "chinese": "adv. 明确无疑地, 清楚地",
+    "ipa": "'definitli",
+    "rank": 4344,
+    "level": "advanced"
+  },
+  {
+    "word": "shaved",
+    "chinese": "shave的过去式和过去分词",
+    "ipa": "ʃeɪvd",
+    "rank": 4345,
+    "level": "advanced"
+  },
+  {
+    "word": "turning",
+    "chinese": "n. 旋转, 转弯处, 车削工作",
+    "ipa": "'tә:niŋ",
+    "rank": 4346,
+    "level": "advanced"
+  },
+  {
+    "word": "buffer",
+    "chinese": "n. 缓冲器, 缓冲区",
+    "ipa": "'bʌfә",
+    "rank": 4347,
+    "level": "advanced"
+  },
+  {
+    "word": "purple",
+    "chinese": "n. 紫色, 帝位",
+    "ipa": "'pә:pl",
+    "rank": 4348,
+    "level": "advanced"
+  },
+  {
+    "word": "existence",
+    "chinese": "n. 存在, 生存",
+    "ipa": "ig'zistәns",
+    "rank": 4349,
+    "level": "advanced"
+  },
+  {
+    "word": "commentary",
+    "chinese": "n. 注释, 评论, 说明",
+    "ipa": "'kɒmәntәri",
+    "rank": 4350,
+    "level": "advanced"
+  },
+  {
+    "word": "larry",
+    "chinese": "n. 拉里（男子名）",
+    "ipa": "'læri",
+    "rank": 4351,
+    "level": "advanced"
+  },
+  {
+    "word": "limousines",
+    "chinese": "n. 豪华轿车( limousine的复数形式 ); （往返机场接送旅客的）中型客车, 小型公共汽车",
+    "ipa": "ˈlimuzi:nz",
+    "rank": 4352,
+    "level": "advanced"
+  },
+  {
+    "word": "developments",
+    "chinese": "n. 建设",
+    "ipa": "dɪˈvɛləpmənts",
+    "rank": 4353,
+    "level": "advanced"
+  },
+  {
+    "word": "def",
+    "chinese": "[计] 数据输入设施, 定义",
+    "ipa": "def",
+    "rank": 4354,
+    "level": "advanced"
+  },
+  {
+    "word": "immigration",
+    "chinese": "n. 移民, 移居",
+    "ipa": ".imi'greiʃәn",
+    "rank": 4355,
+    "level": "advanced"
+  },
+  {
+    "word": "destinations",
+    "chinese": "n. 目的地, 终点( destination的复数形式 ); 目的, 目标; [罕用语]预定, 指定; 注定",
+    "ipa": "destɪ'neɪʃnz",
+    "rank": 4356,
+    "level": "advanced"
+  },
+  {
+    "word": "lets",
+    "chinese": "abbr. 地方交易系统（Local Exchange Trading System）",
+    "ipa": "lɛts",
+    "rank": 4357,
+    "level": "advanced"
+  },
+  {
+    "word": "mutual",
+    "chinese": "a. 相互的, 共有的",
+    "ipa": "'mju:tʃuәl",
+    "rank": 4358,
+    "level": "advanced"
+  },
+  {
+    "word": "pipeline",
+    "chinese": "n. 管道, 传递途径",
+    "ipa": "'paiplain",
+    "rank": 4359,
+    "level": "advanced"
+  },
+  {
+    "word": "necessarily",
+    "chinese": "adv. 必然地, 必须地, 必要地",
+    "ipa": "'nesisәrili",
+    "rank": 4360,
+    "level": "advanced"
+  },
+  {
+    "word": "syntax",
+    "chinese": "n. 句法, 语法, 句子构造",
+    "ipa": "'sintæks",
+    "rank": 4361,
+    "level": "advanced"
+  },
+  {
+    "word": "li",
+    "chinese": "[医] 锂(3号元素)",
+    "ipa": "li:",
+    "rank": 4362,
+    "level": "advanced"
+  },
+  {
+    "word": "attribute",
+    "chinese": "n. 属性, 标志, 定语",
+    "ipa": "ә'tribju:t",
+    "rank": 4363,
+    "level": "advanced"
+  },
+  {
+    "word": "prison",
+    "chinese": "n. 监狱, 监禁, 拘留所",
+    "ipa": "'prizn",
+    "rank": 4364,
+    "level": "advanced"
+  },
+  {
+    "word": "skill",
+    "chinese": "n. 技术, 技巧, 技能, 熟练, 熟练工人",
+    "ipa": "'skil",
+    "rank": 4365,
+    "level": "advanced"
+  },
+  {
+    "word": "chairs",
+    "chinese": "n. 安乐椅",
+    "ipa": "ʧɛrz",
+    "rank": 4366,
+    "level": "advanced"
+  },
+  {
+    "word": "nl",
+    "chinese": "[计] 换行, 无标号",
+    "ipa": "nl",
+    "rank": 4367,
+    "level": "advanced"
+  },
+  {
+    "word": "everyday",
+    "chinese": "a. 每天的, 日常的, 平常的",
+    "ipa": "'evri'dei",
+    "rank": 4368,
+    "level": "advanced"
+  },
+  {
+    "word": "apparently",
+    "chinese": "adv. 表面上, 清楚地, 显然地",
+    "ipa": "ә'pærәntli",
+    "rank": 4369,
+    "level": "advanced"
+  },
+  {
+    "word": "surrounding",
+    "chinese": "n. 环境",
+    "ipa": "sә'raundiŋ",
+    "rank": 4370,
+    "level": "advanced"
+  },
+  {
+    "word": "mountains",
+    "chinese": "n. 山脉",
+    "ipa": "ˈmaʊntənz",
+    "rank": 4371,
+    "level": "advanced"
+  },
+  {
+    "word": "moves",
+    "chinese": "v. 移动",
+    "ipa": "mu:vz",
+    "rank": 4372,
+    "level": "advanced"
+  },
+  {
+    "word": "popularity",
+    "chinese": "n. 名声, 受大众欢迎, 流行",
+    "ipa": ".pɒpju'læriti",
+    "rank": 4373,
+    "level": "advanced"
+  },
+  {
+    "word": "inquiry",
+    "chinese": "n. 质询, 探索, 调查, 询盘",
+    "ipa": "in'kwaiәri",
+    "rank": 4374,
+    "level": "advanced"
+  },
+  {
+    "word": "ethernet",
+    "chinese": "n. 以太网",
+    "ipa": "ˈiθərˌnɛt",
+    "rank": 4375,
+    "level": "advanced"
+  },
+  {
+    "word": "checked",
+    "chinese": "a. 有格子图案的, 闭音节的, 选中的",
+    "ipa": "tʃekt",
+    "rank": 4376,
+    "level": "advanced"
+  },
+  {
+    "word": "exhibit",
+    "chinese": "n. 显示, 显现, 展览品, 陈列品, 展览",
+    "ipa": "ig'zibit",
+    "rank": 4377,
+    "level": "advanced"
+  },
+  {
+    "word": "throw",
+    "chinese": "vt. 投, 掷, 抛, 发射, 摔下, 匆匆穿上(或脱下), 抛弃, 摆脱",
+    "ipa": "θrәu",
+    "rank": 4378,
+    "level": "advanced"
+  },
+  {
+    "word": "trend",
+    "chinese": "n. 趋势, 倾向, 走向",
+    "ipa": "trend",
+    "rank": 4379,
+    "level": "advanced"
+  },
+  {
+    "word": "sierra",
+    "chinese": "n. 呈齿状起伏的山脉",
+    "ipa": "si'єәrә",
+    "rank": 4380,
+    "level": "advanced"
+  },
+  {
+    "word": "visible",
+    "chinese": "a. 看得见的, 明显的, 显然的",
+    "ipa": "'vizәbl",
+    "rank": 4381,
+    "level": "advanced"
+  },
+  {
+    "word": "cats",
+    "chinese": "abbr. 高级电视研究中心（Centre for Advanced Television Studies）",
+    "ipa": "kæts",
+    "rank": 4382,
+    "level": "advanced"
+  },
+  {
+    "word": "desert",
+    "chinese": "n. 沙漠, 应得的赏罚, 功劳",
+    "ipa": "'dezәt. di'sә:t",
+    "rank": 4383,
+    "level": "advanced"
+  },
+  {
+    "word": "postposted",
+    "chinese": "后张贴",
+    "ipa": "postposted",
+    "rank": 4384,
+    "level": "advanced"
+  },
+  {
+    "word": "ya",
+    "chinese": "abbr. 年轻人（young adult）",
+    "ipa": "'jә",
+    "rank": 4385,
+    "level": "advanced"
+  },
+  {
+    "word": "oldest",
+    "chinese": "a. 最旧的",
+    "ipa": "'әuldist",
+    "rank": 4386,
+    "level": "advanced"
+  },
+  {
+    "word": "rhode",
+    "chinese": "n. 罗德岛",
+    "ipa": "roʊd",
+    "rank": 4387,
+    "level": "advanced"
+  },
+  {
+    "word": "nba",
+    "chinese": "abbr. 全美篮球协会（National Basketball Association）",
+    "ipa": "ˈɛnˌbiˈeɪ",
+    "rank": 4388,
+    "level": "advanced"
+  },
+  {
+    "word": "busty",
+    "chinese": "a. 大胸脯的, 胸部丰满的",
+    "ipa": "'bʌsti",
+    "rank": 4389,
+    "level": "advanced"
+  },
+  {
+    "word": "coordinator",
+    "chinese": "n. 协调者, 同等的人或物",
+    "ipa": "kәu'ɒ:dineitә",
+    "rank": 4390,
+    "level": "advanced"
+  },
+  {
+    "word": "obviously",
+    "chinese": "adv. 显而易见地, 明显地",
+    "ipa": "'ɔbviәsli",
+    "rank": 4391,
+    "level": "advanced"
+  },
+  {
+    "word": "mercury",
+    "chinese": "n. 水银, 汞, 使者",
+    "ipa": "'mә:kjuri",
+    "rank": 4392,
+    "level": "advanced"
+  },
+  {
+    "word": "steven",
+    "chinese": "n. 史蒂文（男子名）",
+    "ipa": "'sti:vn",
+    "rank": 4393,
+    "level": "advanced"
+  },
+  {
+    "word": "handbook",
+    "chinese": "n. 手册",
+    "ipa": "'hænd,buk",
+    "rank": 4394,
+    "level": "advanced"
+  },
+  {
+    "word": "greg",
+    "chinese": "n. 格雷格（男子名, 等于Gregory）",
+    "ipa": "greg",
+    "rank": 4395,
+    "level": "advanced"
+  },
+  {
+    "word": "navigate",
+    "chinese": "vi. 航行",
+    "ipa": "'nævigeit",
+    "rank": 4396,
+    "level": "advanced"
+  },
+  {
+    "word": "worse",
+    "chinese": "n. 更坏的事, 更恶劣的事, 败局",
+    "ipa": "wә:s",
+    "rank": 4397,
+    "level": "advanced"
+  },
+  {
+    "word": "summit",
+    "chinese": "n. 顶点, 最高阶层, 最高级会议",
+    "ipa": "'sʌmit",
+    "rank": 4398,
+    "level": "advanced"
+  },
+  {
+    "word": "victims",
+    "chinese": "n. 受害者, 牺牲者",
+    "ipa": "ˈvɪktɪmz",
+    "rank": 4399,
+    "level": "advanced"
+  },
+  {
+    "word": "epa",
+    "chinese": "[经] 环保协会",
+    "ipa": "epa",
+    "rank": 4400,
+    "level": "advanced"
+  },
+  {
+    "word": "spaces",
+    "chinese": "n. 空间",
+    "ipa": "ˈspeɪsɪz",
+    "rank": 4401,
+    "level": "advanced"
+  },
+  {
+    "word": "fundamental",
+    "chinese": "n. 基本原理, 原则, 基波",
+    "ipa": ".fʌndә'mentәl",
+    "rank": 4402,
+    "level": "advanced"
+  },
+  {
+    "word": "burning",
+    "chinese": "a. 燃烧的, 象燃烧一样的",
+    "ipa": "'bә:niŋ",
+    "rank": 4403,
+    "level": "advanced"
+  },
+  {
+    "word": "escape",
+    "chinese": "n. 逃亡, 避难设备, 逃跑",
+    "ipa": "i'skeip",
+    "rank": 4404,
+    "level": "advanced"
+  },
+  {
+    "word": "coupons",
+    "chinese": "n. 优惠券",
+    "ipa": "ˈkuˌpɔnz",
+    "rank": 4405,
+    "level": "advanced"
+  },
+  {
+    "word": "somewhat",
+    "chinese": "n. 某物, 几分",
+    "ipa": "'sʌmhwɒt",
+    "rank": 4406,
+    "level": "advanced"
+  },
+  {
+    "word": "receiver",
+    "chinese": "n. 接收器",
+    "ipa": "ri'si:vә",
+    "rank": 4407,
+    "level": "advanced"
+  },
+  {
+    "word": "substantial",
+    "chinese": "n. 重要材料(或事物), 有实际价值的东西",
+    "ipa": "sәb'stænʃәl",
+    "rank": 4408,
+    "level": "advanced"
+  },
+  {
+    "word": "tr",
+    "chinese": "[计] 磁带记录器, 磁道, 磁带驻留, 故障报告",
+    "ipa": "tr",
+    "rank": 4409,
+    "level": "advanced"
+  },
+  {
+    "word": "progressive",
+    "chinese": "n. 改革论者, 进步论者",
+    "ipa": "prә'gresiv",
+    "rank": 4410,
+    "level": "advanced"
+  },
+  {
+    "word": "cialis",
+    "chinese": "n. 西力士（又名犀利士, 壮阳药）",
+    "ipa": "cialis",
+    "rank": 4411,
+    "level": "advanced"
+  },
+  {
+    "word": "bb",
+    "chinese": "abbr. 滚珠轴承（ball bearing）",
+    "ipa": "bb",
+    "rank": 4412,
+    "level": "advanced"
+  },
+  {
+    "word": "boats",
+    "chinese": "n. 船艇",
+    "ipa": "boʊts",
+    "rank": 4413,
+    "level": "advanced"
+  },
+  {
+    "word": "glance",
+    "chinese": "n. 一瞥, 闪光, 掠过, 辉矿类",
+    "ipa": "'glɑ:ns",
+    "rank": 4414,
+    "level": "advanced"
+  },
+  {
+    "word": "scottish",
+    "chinese": "a. 苏格兰的, 苏格兰人的",
+    "ipa": "'skɒtiʃ",
+    "rank": 4415,
+    "level": "advanced"
+  },
+  {
+    "word": "championship",
+    "chinese": "n. 冠军身份, 冠军称号, 捍卫",
+    "ipa": "'tʃæmpiәnʃip",
+    "rank": 4416,
+    "level": "advanced"
+  },
+  {
+    "word": "arcade",
+    "chinese": "n. 拱廊, 拱形建筑物, 有拱廊的街道",
+    "ipa": "ɑ:'keid",
+    "rank": 4417,
+    "level": "advanced"
+  },
+  {
+    "word": "richmond",
+    "chinese": "n. 里士满（美国弗吉尼亚首府）",
+    "ipa": "ˈrɪʧmənd",
+    "rank": 4418,
+    "level": "advanced"
+  },
+  {
+    "word": "sacramento",
+    "chinese": "n. 萨克拉门托（美国加州首府）",
+    "ipa": ",sækrә'mentәu",
+    "rank": 4419,
+    "level": "advanced"
+  },
+  {
+    "word": "impossible",
+    "chinese": "a. 不可能的, 难以置信的, 令人无法忍受的",
+    "ipa": "im'pɒsәbl",
+    "rank": 4420,
+    "level": "advanced"
+  },
+  {
+    "word": "ron",
+    "chinese": "abbr. 研究法辛烷值（Research Octane Number）",
+    "ipa": "rɑn",
+    "rank": 4421,
+    "level": "advanced"
+  },
+  {
+    "word": "russell",
+    "chinese": "n. 拉塞尔（英国工程师, 整流器发明人）",
+    "ipa": "'rʌsәl",
+    "rank": 4422,
+    "level": "advanced"
+  },
+  {
+    "word": "tells",
+    "chinese": "v. 告诉",
+    "ipa": "tɛlz",
+    "rank": 4423,
+    "level": "advanced"
+  },
+  {
+    "word": "obvious",
+    "chinese": "a. 明显的, 明白的, 显然的, 平淡无奇的",
+    "ipa": "'ɒbviәs",
+    "rank": 4424,
+    "level": "advanced"
+  },
+  {
+    "word": "fiber",
+    "chinese": "n. 纤维, 构造, 纤维制品",
+    "ipa": "'faibә",
+    "rank": 4425,
+    "level": "advanced"
+  },
+  {
+    "word": "depression",
+    "chinese": "n. 不景气, 消沉, 沮丧, 洼地",
+    "ipa": "di'preʃәn",
+    "rank": 4426,
+    "level": "advanced"
+  },
+  {
+    "word": "graph",
+    "chinese": "n. 曲线图, 图表, 图形",
+    "ipa": "græf",
+    "rank": 4427,
+    "level": "advanced"
+  },
+  {
+    "word": "covering",
+    "chinese": "n. 覆盖物, 掩蔽物",
+    "ipa": "'kʌvәriŋ",
+    "rank": 4428,
+    "level": "advanced"
+  },
+  {
+    "word": "platinum",
+    "chinese": "n. 白金, 铂, 银灰色",
+    "ipa": "'plætinәm",
+    "rank": 4429,
+    "level": "advanced"
+  },
+  {
+    "word": "judgment",
+    "chinese": "n. 裁判, 宣告, 判决书",
+    "ipa": "'dʒʌdʒmәnt",
+    "rank": 4430,
+    "level": "advanced"
+  },
+  {
+    "word": "bedrooms",
+    "chinese": "n. 火车卧铺单间",
+    "ipa": "ˈbɛˌdrumz",
+    "rank": 4431,
+    "level": "advanced"
+  },
+  {
+    "word": "talks",
+    "chinese": "n. 会谈",
+    "ipa": "tɔks",
+    "rank": 4432,
+    "level": "advanced"
+  },
+  {
+    "word": "filing",
+    "chinese": "n. 锉, 琢磨, 锉屑",
+    "ipa": "'failiŋ",
+    "rank": 4433,
+    "level": "advanced"
+  },
+  {
+    "word": "foster",
+    "chinese": "a. 收养的, 养育的",
+    "ipa": "'fɒstә",
+    "rank": 4434,
+    "level": "advanced"
+  },
+  {
+    "word": "modeling",
+    "chinese": "n. 模特儿职业, 立体感",
+    "ipa": "'mɔdliŋ",
+    "rank": 4435,
+    "level": "advanced"
+  },
+  {
+    "word": "passing",
+    "chinese": "n. 通过, 逝去, 死, 流逝",
+    "ipa": "'pæsiŋ",
+    "rank": 4436,
+    "level": "advanced"
+  },
+  {
+    "word": "awarded",
+    "chinese": "vt. 授予, 奖给, 判给（award的过去式与过去分词形式）",
+    "ipa": "əˈwɔrdɪd",
+    "rank": 4437,
+    "level": "advanced"
+  },
+  {
+    "word": "testimonials",
+    "chinese": "n. 推荐书( testimonial的复数形式 ); 证明书; 鉴定书; 表扬信",
+    "ipa": "ˌtestəˈməʊni:əlz",
+    "rank": 4438,
+    "level": "advanced"
+  },
+  {
+    "word": "trials",
+    "chinese": "n. 尝试, 努力",
+    "ipa": "traɪəlz",
+    "rank": 4439,
+    "level": "advanced"
+  },
+  {
+    "word": "tissue",
+    "chinese": "n. 薄的织物, 薄纱, 棉纸, 组织, 一套",
+    "ipa": "'tiʃu:",
+    "rank": 4440,
+    "level": "advanced"
+  },
+  {
+    "word": "nz",
+    "chinese": "[计] 非零",
+    "ipa": "nz",
+    "rank": 4441,
+    "level": "advanced"
+  },
+  {
+    "word": "memorabilia",
+    "chinese": "n. 值得纪念的事物, 大事记",
+    "ipa": ".memәrә'biliә",
+    "rank": 4442,
+    "level": "advanced"
+  },
+  {
+    "word": "clinton",
+    "chinese": "n. 克林顿（男子名）",
+    "ipa": "'klintәn",
+    "rank": 4443,
+    "level": "advanced"
+  },
+  {
+    "word": "masters",
+    "chinese": "n. 主人",
+    "ipa": "ˈmæstərz",
+    "rank": 4444,
+    "level": "advanced"
+  },
+  {
+    "word": "bonds",
+    "chinese": "n. 镣铐, 监禁",
+    "ipa": "bɒndz",
+    "rank": 4445,
+    "level": "advanced"
+  },
+  {
+    "word": "cartridge",
+    "chinese": "n. 弹药筒, 弹药, 一卷软片, 墨粉鼓",
+    "ipa": "'kɑ:tridʒ",
+    "rank": 4446,
+    "level": "advanced"
+  },
+  {
+    "word": "alberta",
+    "chinese": "n. 亚伯达（加拿大西部的一个省）",
+    "ipa": "ælˈbərtə",
+    "rank": 4447,
+    "level": "advanced"
+  },
+  {
+    "word": "explanation",
+    "chinese": "n. 解释, 说明, 辩解, 表明",
+    "ipa": ".eksplә'neiʃәn",
+    "rank": 4448,
+    "level": "advanced"
+  },
+  {
+    "word": "folk",
+    "chinese": "n. 人们, 家人, 亲属, 民族",
+    "ipa": "fәuk",
+    "rank": 4449,
+    "level": "advanced"
+  },
+  {
+    "word": "org",
+    "chinese": "[计] 域名(代表组织机构)",
+    "ipa": "ɔrg",
+    "rank": 4450,
+    "level": "advanced"
+  },
+  {
+    "word": "commons",
+    "chinese": "n. 平民, 下议院, 公共食堂",
+    "ipa": "'kɒmәns",
+    "rank": 4451,
+    "level": "advanced"
+  },
+  {
+    "word": "cincinnati",
+    "chinese": "n. 辛辛那提",
+    "ipa": ",sinsi'næti",
+    "rank": 4452,
+    "level": "advanced"
+  },
+  {
+    "word": "subsection",
+    "chinese": "n. 分部, 分区, 分支",
+    "ipa": "'sʌb.sekʃәn",
+    "rank": 4453,
+    "level": "advanced"
+  },
+  {
+    "word": "fraud",
+    "chinese": "n. 欺骗, 欺诈, 诡计, 骗子",
+    "ipa": "frɒ:d",
+    "rank": 4454,
+    "level": "advanced"
+  },
+  {
+    "word": "electricity",
+    "chinese": "n. 电, 电流, 电学, 热情, 电力供应",
+    "ipa": ".ilek'trisiti",
+    "rank": 4455,
+    "level": "advanced"
+  },
+  {
+    "word": "permitted",
+    "chinese": "v. 允许( permit的过去式和过去分词 ); 许可; 许用",
+    "ipa": "pəˈmitid",
+    "rank": 4456,
+    "level": "advanced"
+  },
+  {
+    "word": "spectrum",
+    "chinese": "n. 光谱, 范围, 系列",
+    "ipa": "'spektrәm",
+    "rank": 4457,
+    "level": "advanced"
+  },
+  {
+    "word": "arrival",
+    "chinese": "n. 到达, 抵达, 到达者",
+    "ipa": "ә'raivl",
+    "rank": 4458,
+    "level": "advanced"
+  },
+  {
+    "word": "okay",
+    "chinese": "a. 好, 可以, 行, 对, 好吗, 很好",
+    "ipa": "әj'kei",
+    "rank": 4459,
+    "level": "advanced"
+  },
+  {
+    "word": "pottery",
+    "chinese": "n. 陶器, 陶器厂",
+    "ipa": "'pɒtәri",
+    "rank": 4460,
+    "level": "advanced"
+  },
+  {
+    "word": "emphasis",
+    "chinese": "n. 强调, 加强, 重点, 强语气",
+    "ipa": "'emfәsis",
+    "rank": 4461,
+    "level": "advanced"
+  },
+  {
+    "word": "roger",
+    "chinese": "interj. 对!, 行!, 好!",
+    "ipa": "'rɔdʒә",
+    "rank": 4462,
+    "level": "advanced"
+  },
+  {
+    "word": "aspect",
+    "chinese": "n. 外观, 方面, 面貌, 方向",
+    "ipa": "'æspekt",
+    "rank": 4463,
+    "level": "advanced"
+  },
+  {
+    "word": "workplace",
+    "chinese": "n. 工作场所, 工厂, 车间",
+    "ipa": "ˈwərkˌpleɪs",
+    "rank": 4464,
+    "level": "advanced"
+  },
+  {
+    "word": "awesome",
+    "chinese": "a. 引起敬畏的, 可怕的",
+    "ipa": "'ɒ:sәm",
+    "rank": 4465,
+    "level": "advanced"
+  },
+  {
+    "word": "mexican",
+    "chinese": "n. 墨西哥人, 墨西哥语",
+    "ipa": "'meksikәn",
+    "rank": 4466,
+    "level": "advanced"
+  },
+  {
+    "word": "confirmed",
+    "chinese": "a. 被证实的, 根深蒂固的, 坚定的",
+    "ipa": "kәn'fә:md",
+    "rank": 4467,
+    "level": "advanced"
+  },
+  {
+    "word": "counts",
+    "chinese": "n. 计数, 支数（count的复数形式）",
+    "ipa": "kaʊnts",
+    "rank": 4468,
+    "level": "advanced"
+  },
+  {
+    "word": "priced",
+    "chinese": "a. 有定价的, 定价的",
+    "ipa": "praist",
+    "rank": 4469,
+    "level": "advanced"
+  },
+  {
+    "word": "wallpapers",
+    "chinese": "n. 壁纸, 墙纸( wallpaper的名词复数 )",
+    "ipa": "ˈwɔ:lˌpeɪpəz",
+    "rank": 4470,
+    "level": "advanced"
+  },
+  {
+    "word": "hist",
+    "chinese": "interj. 嘘",
+    "ipa": "hist",
+    "rank": 4471,
+    "level": "advanced"
+  },
+  {
+    "word": "crash",
+    "chinese": "n. 哗啦声, 猛撞, 崩溃, 粗布",
+    "ipa": "kræʃ",
+    "rank": 4472,
+    "level": "advanced"
+  },
+  {
+    "word": "lift",
+    "chinese": "n. 举起, 帮助, 昂扬, 电梯",
+    "ipa": "lift",
+    "rank": 4473,
+    "level": "advanced"
+  },
+  {
+    "word": "desired",
+    "chinese": "a. 渴望的",
+    "ipa": "di'zaiәd",
+    "rank": 4474,
+    "level": "advanced"
+  },
+  {
+    "word": "inter",
+    "chinese": "vt. 埋葬",
+    "ipa": "in'tә:",
+    "rank": 4475,
+    "level": "advanced"
+  },
+  {
+    "word": "closer",
+    "chinese": "n. 关闭者, 闭合器, 关闭器",
+    "ipa": "'klәuzә",
+    "rank": 4476,
+    "level": "advanced"
+  },
+  {
+    "word": "assumes",
+    "chinese": "v. 取得（权力）( assume的第三人称单数 ); 假设; 假定; 呈现",
+    "ipa": "əˈsju:mz",
+    "rank": 4477,
+    "level": "advanced"
+  },
+  {
+    "word": "heights",
+    "chinese": "n. 高度",
+    "ipa": "haɪts",
+    "rank": 4478,
+    "level": "advanced"
+  },
+  {
+    "word": "shadow",
+    "chinese": "n. 阴影, 荫, 影子, 影像, 阴暗, 幽灵, 少许, 隐蔽处, 庇护",
+    "ipa": "'ʃædәu",
+    "rank": 4479,
+    "level": "advanced"
+  },
+  {
+    "word": "riding",
+    "chinese": "n. 骑, 乘车, 乘, 骑术, 骑马",
+    "ipa": "'raidiŋ",
+    "rank": 4480,
+    "level": "advanced"
+  },
+  {
+    "word": "infection",
+    "chinese": "n. 传染, 影响, 传染病",
+    "ipa": "in'fekʃәn",
+    "rank": 4481,
+    "level": "advanced"
+  },
+  {
+    "word": "firefox",
+    "chinese": "n. 火狐浏览器",
+    "ipa": "firefox",
+    "rank": 4482,
+    "level": "advanced"
+  },
+  {
+    "word": "lisa",
+    "chinese": "n. 丽莎（女子名）",
+    "ipa": "'li:zә, 'laizә",
+    "rank": 4483,
+    "level": "advanced"
+  },
+  {
+    "word": "expense",
+    "chinese": "n. 费用, 代价, 开支, 损失",
+    "ipa": "ik'spens",
+    "rank": 4484,
+    "level": "advanced"
+  },
+  {
+    "word": "grove",
+    "chinese": "n. 小树林",
+    "ipa": "grәuv",
+    "rank": 4485,
+    "level": "advanced"
+  },
+  {
+    "word": "eligibility",
+    "chinese": "n. 适任, 合格",
+    "ipa": ".elidʒә'biliti",
+    "rank": 4486,
+    "level": "advanced"
+  },
+  {
+    "word": "venture",
+    "chinese": "n. 冒险, 风险",
+    "ipa": "'ventʃә",
+    "rank": 4487,
+    "level": "advanced"
+  },
+  {
+    "word": "clinic",
+    "chinese": "n. 诊所, 临床教学",
+    "ipa": "'klinik",
+    "rank": 4488,
+    "level": "advanced"
+  },
+  {
+    "word": "korean",
+    "chinese": "n. 朝鲜人, 朝鲜语",
+    "ipa": "kә'riәn",
+    "rank": 4489,
+    "level": "advanced"
+  },
+  {
+    "word": "healing",
+    "chinese": "a. 治愈的, 恢复健康的",
+    "ipa": "'hi:liŋ",
+    "rank": 4490,
+    "level": "advanced"
+  },
+  {
+    "word": "princess",
+    "chinese": "n. 公主, 王妃, 女巨头",
+    "ipa": "'prinsis",
+    "rank": 4491,
+    "level": "advanced"
+  },
+  {
+    "word": "mall",
+    "chinese": "n. 林荫路",
+    "ipa": "mɔ:l",
+    "rank": 4492,
+    "level": "advanced"
+  },
+  {
+    "word": "entering",
+    "chinese": "[计] 进入, 键入, 输入, 录入",
+    "ipa": "ˈɛnərɪŋ",
+    "rank": 4493,
+    "level": "advanced"
+  },
+  {
+    "word": "packet",
+    "chinese": "n. 小包, 一批信件, 大量, 信息包",
+    "ipa": "'pækit",
+    "rank": 4494,
+    "level": "advanced"
+  },
+  {
+    "word": "spray",
+    "chinese": "n. 水沫, 浪花, 水花, 喷雾, 喷雾器, 小树枝",
+    "ipa": "sprei",
+    "rank": 4495,
+    "level": "advanced"
+  },
+  {
+    "word": "studios",
+    "chinese": "n. 工作室（studio的复数）",
+    "ipa": "ˈstudiˌoʊz",
+    "rank": 4496,
+    "level": "advanced"
+  },
+  {
+    "word": "involvement",
+    "chinese": "n. 卷入, 牵连, 包含, 困窘",
+    "ipa": "in'vɔlvmәnt",
+    "rank": 4497,
+    "level": "advanced"
+  },
+  {
+    "word": "dad",
+    "chinese": "n. 爸爸, 爹爹",
+    "ipa": "dæd",
+    "rank": 4498,
+    "level": "advanced"
+  },
+  {
+    "word": "buttons",
+    "chinese": "n. 纽扣",
+    "ipa": "ˈbətənz",
+    "rank": 4499,
+    "level": "advanced"
+  },
+  {
+    "word": "placement",
+    "chinese": "n. 放置, 布置, 工作安排, 编班, 定位球",
+    "ipa": "'pleismәnt",
+    "rank": 4500,
+    "level": "advanced"
+  },
+  {
+    "word": "observations",
+    "chinese": "n. 观察, 观察值",
+    "ipa": "ˌɑbzərˈveɪʃənz",
+    "rank": 4501,
+    "level": "advanced"
+  },
+  {
+    "word": "vbulletin",
+    "chinese": "电子公告",
+    "ipa": "vbulletin",
+    "rank": 4502,
+    "level": "advanced"
+  },
+  {
+    "word": "funded",
+    "chinese": "a. 成为有固定利息的长期借款的",
+    "ipa": "ˈfəndɪd",
+    "rank": 4503,
+    "level": "advanced"
+  },
+  {
+    "word": "thompson",
+    "chinese": "n. 汤普森（姓）",
+    "ipa": "'tɔmpsn",
+    "rank": 4504,
+    "level": "advanced"
+  },
+  {
+    "word": "winners",
+    "chinese": "n. 成功者（winner的复数）",
+    "ipa": "ˈwɪnərz",
+    "rank": 4505,
+    "level": "advanced"
+  },
+  {
+    "word": "extend",
+    "chinese": "v. 扩充, 延伸, 伸展, 扩大",
+    "ipa": "ik'stend",
+    "rank": 4506,
+    "level": "advanced"
+  },
+  {
+    "word": "roads",
+    "chinese": "n. 开敞或半开敞锚地",
+    "ipa": "roʊdz",
+    "rank": 4507,
+    "level": "advanced"
+  },
+  {
+    "word": "subsequent",
+    "chinese": "a. 后来的, 接下去的",
+    "ipa": "'sʌbsikwәnt",
+    "rank": 4508,
+    "level": "advanced"
+  },
+  {
+    "word": "pat",
+    "chinese": "n. 轻拍",
+    "ipa": "pæt",
+    "rank": 4509,
+    "level": "advanced"
+  },
+  {
+    "word": "dublin",
+    "chinese": "n. 都柏林",
+    "ipa": "'dʌblin",
+    "rank": 4510,
+    "level": "advanced"
+  },
+  {
+    "word": "rolling",
+    "chinese": "a. 旋转的, 波动的, 起伏的",
+    "ipa": "'rәuliŋ",
+    "rank": 4511,
+    "level": "advanced"
+  },
+  {
+    "word": "fell",
+    "chinese": "vt. 击倒",
+    "ipa": "fel",
+    "rank": 4512,
+    "level": "advanced"
+  },
+  {
+    "word": "motorcycle",
+    "chinese": "n. 摩托车",
+    "ipa": "'mәutәsaikl",
+    "rank": 4513,
+    "level": "advanced"
+  },
+  {
+    "word": "yard",
+    "chinese": "n. 码, 庭院, 工场",
+    "ipa": "jɑ:d",
+    "rank": 4514,
+    "level": "advanced"
+  },
+  {
+    "word": "disclosure",
+    "chinese": "n. 揭发, 泄露, 揭发(或暴露)的事实",
+    "ipa": "dis'klәuʒә",
+    "rank": 4515,
+    "level": "advanced"
+  },
+  {
+    "word": "establishment",
+    "chinese": "n. 确立, 制定, 设施",
+    "ipa": "i'stæbliʃmәnt",
+    "rank": 4516,
+    "level": "advanced"
+  },
+  {
+    "word": "memories",
+    "chinese": "n. 回忆",
+    "ipa": "ˈmɛməriz",
+    "rank": 4517,
+    "level": "advanced"
+  },
+  {
+    "word": "nelson",
+    "chinese": "n. (摔跤用语)肩下握颈",
+    "ipa": "'nelsn",
+    "rank": 4518,
+    "level": "advanced"
+  },
+  {
+    "word": "te",
+    "chinese": "[医] 碲(52号元素); 破伤风",
+    "ipa": "ti:",
+    "rank": 4519,
+    "level": "advanced"
+  },
+  {
+    "word": "arrived",
+    "chinese": "v. 抵达",
+    "ipa": "a'raivd",
+    "rank": 4520,
+    "level": "advanced"
+  },
+  {
+    "word": "creates",
+    "chinese": "[n. 创建",
+    "ipa": "kriˈeɪts",
+    "rank": 4521,
+    "level": "advanced"
+  },
+  {
+    "word": "faces",
+    "chinese": "n. 脸面",
+    "ipa": "ˈfeɪsɪz",
+    "rank": 4522,
+    "level": "advanced"
+  },
+  {
+    "word": "tourist",
+    "chinese": "n. 观光客, 旅行者",
+    "ipa": "'tuәrist",
+    "rank": 4523,
+    "level": "advanced"
+  },
+  {
+    "word": "cocks",
+    "chinese": "n. 闷头",
+    "ipa": "kɑks",
+    "rank": 4524,
+    "level": "advanced"
+  },
+  {
+    "word": "av",
+    "chinese": "[计] 数组/向量, 属性值, 有效, 平均值",
+    "ipa": "ˌeɪˈvi",
+    "rank": 4525,
+    "level": "advanced"
+  },
+  {
+    "word": "mayor",
+    "chinese": "n. 市长",
+    "ipa": "'mєә",
+    "rank": 4526,
+    "level": "advanced"
+  },
+  {
+    "word": "murder",
+    "chinese": "n. 谋杀",
+    "ipa": "'mә:dә",
+    "rank": 4527,
+    "level": "advanced"
+  },
+  {
+    "word": "sean",
+    "chinese": "n. 肖恩（男子名）",
+    "ipa": "ʃɔ:n",
+    "rank": 4528,
+    "level": "advanced"
+  },
+  {
+    "word": "adequate",
+    "chinese": "a. 适当的, 足够的",
+    "ipa": "'ædikwәt",
+    "rank": 4529,
+    "level": "advanced"
+  },
+  {
+    "word": "senator",
+    "chinese": "n. 参议员, (某些大学的)理事",
+    "ipa": "'senәtә",
+    "rank": 4530,
+    "level": "advanced"
+  },
+  {
+    "word": "yield",
+    "chinese": "n. 生产量, 投资收益",
+    "ipa": "ji:ld",
+    "rank": 4531,
+    "level": "advanced"
+  },
+  {
+    "word": "presentations",
+    "chinese": "n. 介绍( presentation的复数形式 ); 报告; 提供; 展示会",
+    "ipa": "ˌprezənˈteiʃənz",
+    "rank": 4532,
+    "level": "advanced"
+  },
+  {
+    "word": "grades",
+    "chinese": "n. 分数",
+    "ipa": "greɪdz",
+    "rank": 4533,
+    "level": "advanced"
+  },
+  {
+    "word": "cartoons",
+    "chinese": "n. 卡通动画",
+    "ipa": "kɑrˈtunz",
+    "rank": 4534,
+    "level": "advanced"
+  },
+  {
+    "word": "pour",
+    "chinese": "n. 流出, 倾泻, 骤雨",
+    "ipa": "pɒ:",
+    "rank": 4535,
+    "level": "advanced"
+  },
+  {
+    "word": "digest",
+    "chinese": "n. 文摘",
+    "ipa": "di'dʒest",
+    "rank": 4536,
+    "level": "advanced"
+  },
+  {
+    "word": "reg",
+    "chinese": "abbr. [计]注册表文件",
+    "ipa": "redʒ",
+    "rank": 4537,
+    "level": "advanced"
+  },
+  {
+    "word": "lodging",
+    "chinese": "n. 寄宿处, 寄宿",
+    "ipa": "'lɒdʒiŋ",
+    "rank": 4538,
+    "level": "advanced"
+  },
+  {
+    "word": "tion",
+    "chinese": "n. 象征式互动",
+    "ipa": "tion",
+    "rank": 4539,
+    "level": "advanced"
+  },
+  {
+    "word": "dust",
+    "chinese": "n. 灰尘, 尘埃, 粉末, 花粉, 土, 骚乱",
+    "ipa": "dʌst",
+    "rank": 4540,
+    "level": "advanced"
+  },
+  {
+    "word": "hence",
+    "chinese": "adv. 因此, 从此",
+    "ipa": "hens",
+    "rank": 4541,
+    "level": "advanced"
+  },
+  {
+    "word": "wiki",
+    "chinese": "n. 维基百科（网站名）",
+    "ipa": "ˈwɪˌki",
+    "rank": 4542,
+    "level": "advanced"
+  },
+  {
+    "word": "entirely",
+    "chinese": "adv. 完全, 全然, 一概",
+    "ipa": "in'taiәli",
+    "rank": 4543,
+    "level": "advanced"
+  },
+  {
+    "word": "replaced",
+    "chinese": "v. 取代",
+    "ipa": "ˌriˈpleɪst",
+    "rank": 4544,
+    "level": "advanced"
+  },
+  {
+    "word": "radar",
+    "chinese": "n. 雷达, 无线电探测器",
+    "ipa": "'reidә",
+    "rank": 4545,
+    "level": "advanced"
+  },
+  {
+    "word": "rescue",
+    "chinese": "n. 援救, 解救, 营救",
+    "ipa": "'reskju:",
+    "rank": 4546,
+    "level": "advanced"
+  },
+  {
+    "word": "undergraduate",
+    "chinese": "n. 大学本科生, 大学肄业生",
+    "ipa": ".ʌndә'grædjuit",
+    "rank": 4547,
+    "level": "advanced"
+  },
+  {
+    "word": "losses",
+    "chinese": "n. 损失",
+    "ipa": "ˈlɔsɪz",
+    "rank": 4548,
+    "level": "advanced"
+  },
+  {
+    "word": "combat",
+    "chinese": "n. 争斗, 战斗",
+    "ipa": "'kɒmbæt",
+    "rank": 4549,
+    "level": "advanced"
+  },
+  {
+    "word": "reducing",
+    "chinese": "n. 减低",
+    "ipa": "ri'dju:siŋ",
+    "rank": 4550,
+    "level": "advanced"
+  },
+  {
+    "word": "stopped",
+    "chinese": "v. 停止",
+    "ipa": "stɔpt",
+    "rank": 4551,
+    "level": "advanced"
+  },
+  {
+    "word": "occupation",
+    "chinese": "n. 职业, 占有, 占有期, 占领, 占领军",
+    "ipa": ".ɒkju'peiʃәn",
+    "rank": 4552,
+    "level": "advanced"
+  },
+  {
+    "word": "lakes",
+    "chinese": "n. 色淀",
+    "ipa": "leɪks",
+    "rank": 4553,
+    "level": "advanced"
+  },
+  {
+    "word": "butt",
+    "chinese": "n. 粗大的一头, 烟头, 靶, 笑柄",
+    "ipa": "bʌt",
+    "rank": 4554,
+    "level": "advanced"
+  },
+  {
+    "word": "donations",
+    "chinese": "n. 捐款",
+    "ipa": "doʊˈneɪʃənz",
+    "rank": 4555,
+    "level": "advanced"
+  },
+  {
+    "word": "associations",
+    "chinese": "n. 关联分析, 协会组织",
+    "ipa": "əˌsoʊʃiˈeɪʃənz",
+    "rank": 4556,
+    "level": "advanced"
+  },
+  {
+    "word": "citysearch",
+    "chinese": "城市搜索",
+    "ipa": "citysearch",
+    "rank": 4557,
+    "level": "advanced"
+  },
+  {
+    "word": "closely",
+    "chinese": "adv. 接近地",
+    "ipa": "'klәusli",
+    "rank": 4558,
+    "level": "advanced"
+  },
+  {
+    "word": "radiation",
+    "chinese": "n. 辐射",
+    "ipa": ".reidi'eiʃәn",
+    "rank": 4559,
+    "level": "advanced"
+  },
+  {
+    "word": "diary",
+    "chinese": "n. 日记",
+    "ipa": "'daiәri",
+    "rank": 4560,
+    "level": "advanced"
+  },
+  {
+    "word": "seriously",
+    "chinese": "adv. 严肃地, 认真地, 严重地",
+    "ipa": "'siәriәsli",
+    "rank": 4561,
+    "level": "advanced"
+  },
+  {
+    "word": "kings",
+    "chinese": "n. 《列王纪》（《圣经》中的篇章）",
+    "ipa": "kɪŋz",
+    "rank": 4562,
+    "level": "advanced"
+  },
+  {
+    "word": "shooting",
+    "chinese": "n. 发射, 猎场, 射击",
+    "ipa": "'ʃu:tiŋ",
+    "rank": 4563,
+    "level": "advanced"
+  },
+  {
+    "word": "kent",
+    "chinese": "n. 肯特郡(英国郡名)",
+    "ipa": "kent",
+    "rank": 4564,
+    "level": "advanced"
+  },
+  {
+    "word": "adds",
+    "chinese": "abbr. 高级数据显示系统（Advanced Data Display System）",
+    "ipa": "ædz",
+    "rank": 4565,
+    "level": "advanced"
+  },
+  {
+    "word": "nsw",
+    "chinese": "abbr. （澳大利亚）新南威尔士（New South Wales）",
+    "ipa": "nsw",
+    "rank": 4566,
+    "level": "advanced"
+  },
+  {
+    "word": "ear",
+    "chinese": "n. 耳朵, 倾听, 听觉, 穗",
+    "ipa": "iә",
+    "rank": 4567,
+    "level": "advanced"
+  },
+  {
+    "word": "flags",
+    "chinese": "n. 标记",
+    "ipa": "flægz",
+    "rank": 4568,
+    "level": "advanced"
+  },
+  {
+    "word": "pci",
+    "chinese": "[计] 外部控制器接口, 构成控制器接口, 可编程通信接口",
+    "ipa": "pci",
+    "rank": 4569,
+    "level": "advanced"
+  },
+  {
+    "word": "baker",
+    "chinese": "n. 面包师",
+    "ipa": "'beikә",
+    "rank": 4570,
+    "level": "advanced"
+  },
+  {
+    "word": "launched",
+    "chinese": "v. 发射( launch的过去式和过去分词 ); [计算机]开始（应用程序）; 发动; 开展（活动、计划等）",
+    "ipa": "lɔ:ntʃt",
+    "rank": 4571,
+    "level": "advanced"
+  },
+  {
+    "word": "elsewhere",
+    "chinese": "adv. 在别处",
+    "ipa": "'elshwєә",
+    "rank": 4572,
+    "level": "advanced"
+  },
+  {
+    "word": "pollution",
+    "chinese": "n. 污染, 玷污",
+    "ipa": "pә'lu:ʃәn",
+    "rank": 4573,
+    "level": "advanced"
+  },
+  {
+    "word": "conservative",
+    "chinese": "a. 保守的, 守旧的, 有保存力的",
+    "ipa": "kәn'sә:vәtiv",
+    "rank": 4574,
+    "level": "advanced"
+  },
+  {
+    "word": "guestbook",
+    "chinese": "n. 留言本",
+    "ipa": "guestbook",
+    "rank": 4575,
+    "level": "advanced"
+  },
+  {
+    "word": "shock",
+    "chinese": "n. 震动, 冲突, 震惊, 冲击, 突击, 禾束堆, 休克, 长毛狗",
+    "ipa": "ʃɒk",
+    "rank": 4576,
+    "level": "advanced"
+  },
+  {
+    "word": "effectiveness",
+    "chinese": "n. 效力",
+    "ipa": "i'fektivnis",
+    "rank": 4577,
+    "level": "advanced"
+  },
+  {
+    "word": "walls",
+    "chinese": "n. 墙壁",
+    "ipa": "wɔlz",
+    "rank": 4578,
+    "level": "advanced"
+  },
+  {
+    "word": "abroad",
+    "chinese": "adv. 往国外, 到室外, 到处",
+    "ipa": "ә'brɒ:d",
+    "rank": 4579,
+    "level": "advanced"
+  },
+  {
+    "word": "ebony",
+    "chinese": "n. 乌木",
+    "ipa": "'ebәni",
+    "rank": 4580,
+    "level": "advanced"
+  },
+  {
+    "word": "tie",
+    "chinese": "n. 带子, 线, 鞋带, 领带, 领结, 关系, 束缚, 平局, 不分胜负",
+    "ipa": "tai",
+    "rank": 4581,
+    "level": "advanced"
+  },
+  {
+    "word": "ward",
+    "chinese": "n. 病房, 守卫, 保卫, 保护, 监护, 牢房, 行政区, 锁孔内的榫舌",
+    "ipa": "wɒ:d",
+    "rank": 4582,
+    "level": "advanced"
+  },
+  {
+    "word": "drawn",
+    "chinese": "a. 拔出的",
+    "ipa": "drɒ:n",
+    "rank": 4583,
+    "level": "advanced"
+  },
+  {
+    "word": "arthur",
+    "chinese": "n. 亚瑟（男子名）",
+    "ipa": "'ɑ:θә",
+    "rank": 4584,
+    "level": "advanced"
+  },
+  {
+    "word": "ian",
+    "chinese": "n. 伊恩（男子名）",
+    "ipa": "iәn",
+    "rank": 4585,
+    "level": "advanced"
+  },
+  {
+    "word": "visited",
+    "chinese": "v. 拜访, 访问（visit的过去式）",
+    "ipa": "ˈvɪzɪtɪd",
+    "rank": 4586,
+    "level": "advanced"
+  },
+  {
+    "word": "roof",
+    "chinese": "n. 屋顶, 室顶",
+    "ipa": "ru:f",
+    "rank": 4587,
+    "level": "advanced"
+  },
+  {
+    "word": "walker",
+    "chinese": "n. 徒步者, 轻便鞋",
+    "ipa": "'wɒ:kә",
+    "rank": 4588,
+    "level": "advanced"
+  },
+  {
+    "word": "demonstrate",
+    "chinese": "vt. 示范, 证明",
+    "ipa": "'demәnstreit",
+    "rank": 4589,
+    "level": "advanced"
+  },
+  {
+    "word": "atmosphere",
+    "chinese": "n. 大气, 空气, 气氛",
+    "ipa": "'ætmәsfiә",
+    "rank": 4590,
+    "level": "advanced"
+  },
+  {
+    "word": "suggests",
+    "chinese": "v. 暗示, 建议（suggest的单数）",
+    "ipa": "səˈʤɛsts",
+    "rank": 4591,
+    "level": "advanced"
+  },
+  {
+    "word": "kiss",
+    "chinese": "n. 吻",
+    "ipa": "kis",
+    "rank": 4592,
+    "level": "advanced"
+  },
+  {
+    "word": "beast",
+    "chinese": "n. 畜生, 动物, 野兽, 兽性",
+    "ipa": "bi:st",
+    "rank": 4593,
+    "level": "advanced"
+  },
+  {
+    "word": "ra",
+    "chinese": "正规陆军(美国), (英国)皇家艺术学会, 常备军, 正规军",
+    "ipa": "rɑ:",
+    "rank": 4594,
+    "level": "advanced"
+  },
+  {
+    "word": "operated",
+    "chinese": "a. 操作的",
+    "ipa": "ˈɑpərˌeɪtəd",
+    "rank": 4595,
+    "level": "advanced"
+  },
+  {
+    "word": "experiment",
+    "chinese": "n. 实验, 试验, 实验仪器",
+    "ipa": "ik'sperimәnt",
+    "rank": 4596,
+    "level": "advanced"
+  },
+  {
+    "word": "targets",
+    "chinese": "n. 目标",
+    "ipa": "ˈtɑrgəts",
+    "rank": 4597,
+    "level": "advanced"
+  },
+  {
+    "word": "overseas",
+    "chinese": "a. 海外的, 国外的",
+    "ipa": "'әuvә'si:z",
+    "rank": 4598,
+    "level": "advanced"
+  },
+  {
+    "word": "purchases",
+    "chinese": "v. 购买",
+    "ipa": "ˈpərʧəsɪz",
+    "rank": 4599,
+    "level": "advanced"
+  },
+  {
+    "word": "dodge",
+    "chinese": "v. 避开, 躲避",
+    "ipa": "dɒdʒ",
+    "rank": 4600,
+    "level": "advanced"
+  },
+  {
+    "word": "counsel",
+    "chinese": "n. 商议, 忠告, 法律顾问",
+    "ipa": "'kaunsәl",
+    "rank": 4601,
+    "level": "advanced"
+  },
+  {
+    "word": "federation",
+    "chinese": "n. 联邦, 联合, 联盟",
+    "ipa": "fedә'reiʃәn",
+    "rank": 4602,
+    "level": "advanced"
+  },
+  {
+    "word": "pizza",
+    "chinese": "n. 比萨饼",
+    "ipa": "'pi:tsә",
+    "rank": 4603,
+    "level": "advanced"
+  },
+  {
+    "word": "invited",
+    "chinese": "v. 邀请",
+    "ipa": "ˌɪnˈvaɪtɪd",
+    "rank": 4604,
+    "level": "advanced"
+  },
+  {
+    "word": "yards",
+    "chinese": "n. 码数（yard复数形式）",
+    "ipa": "jɑrdz",
+    "rank": 4605,
+    "level": "advanced"
+  },
+  {
+    "word": "assignment",
+    "chinese": "n. 分配, 功课, 任务, 转让, 归因, 陈述",
+    "ipa": "ә'sainmәnt",
+    "rank": 4606,
+    "level": "advanced"
+  },
+  {
+    "word": "chemicals",
+    "chinese": "n. 化学品, 化学制品",
+    "ipa": "ˈkɛmɪkəlz",
+    "rank": 4607,
+    "level": "advanced"
+  },
+  {
+    "word": "gordon",
+    "chinese": "[计] 哥尔丹",
+    "ipa": "'^ɔ:dn",
+    "rank": 4608,
+    "level": "advanced"
+  },
+  {
+    "word": "mod",
+    "chinese": "a. 现代派的, 时髦的",
+    "ipa": "mɔd",
+    "rank": 4609,
+    "level": "advanced"
+  },
+  {
+    "word": "farmers",
+    "chinese": "n. 农民（farmer的复数）",
+    "ipa": "ˈfɑrmərz",
+    "rank": 4610,
+    "level": "advanced"
+  },
+  {
+    "word": "rc",
+    "chinese": "红十字, 红十字会",
+    "ipa": "rc",
+    "rank": 4611,
+    "level": "advanced"
+  },
+  {
+    "word": "queries",
+    "chinese": "n. 问题",
+    "ipa": "kˈwɪriz",
+    "rank": 4612,
+    "level": "advanced"
+  },
+  {
+    "word": "bmw",
+    "chinese": "abbr. 德国宝马汽车公司（Bavarian Motor Works）",
+    "ipa": "ˈbiˌɛmˈdəbəlju",
+    "rank": 4613,
+    "level": "advanced"
+  },
+  {
+    "word": "rush",
+    "chinese": "n. 匆促, 冲进, 急流, 灯心草",
+    "ipa": "rʌʃ",
+    "rank": 4614,
+    "level": "advanced"
+  },
+  {
+    "word": "ukraine",
+    "chinese": "n. 乌克兰（原苏联一加盟共和国, 现已独立）",
+    "ipa": "ju(:)'krein",
+    "rank": 4615,
+    "level": "advanced"
+  },
+  {
+    "word": "absence",
+    "chinese": "n. 缺席, 缺乏, 没有",
+    "ipa": "'æbsәns",
+    "rank": 4616,
+    "level": "advanced"
+  },
+  {
+    "word": "nearest",
+    "chinese": "a. 最近的（near的最高级）",
+    "ipa": "ˈnɪrəst",
+    "rank": 4617,
+    "level": "advanced"
+  },
+  {
+    "word": "cluster",
+    "chinese": "n. 串, 丛, 群, 簇",
+    "ipa": "'klʌstә",
+    "rank": 4618,
+    "level": "advanced"
+  },
+  {
+    "word": "vendors",
+    "chinese": "n. 摊贩( vendor的复数形式 ); 小贩; （房屋等的）卖主; 卖方",
+    "ipa": "'vendəz",
+    "rank": 4619,
+    "level": "advanced"
+  },
+  {
+    "word": "mpeg",
+    "chinese": "[计] 动画专家小组",
+    "ipa": "ˈɛmˌpɛg",
+    "rank": 4620,
+    "level": "advanced"
+  },
+  {
+    "word": "whereas",
+    "chinese": "conj. 然而, 鉴于",
+    "ipa": "hwєәr'æz",
+    "rank": 4621,
+    "level": "advanced"
+  },
+  {
+    "word": "yoga",
+    "chinese": "n. 瑜珈",
+    "ipa": "'jәugә",
+    "rank": 4622,
+    "level": "advanced"
+  },
+  {
+    "word": "serves",
+    "chinese": "v. （为…）服务( serve的第三人称单数 ); 任（职）; 提供; 端上",
+    "ipa": "sə:vz",
+    "rank": 4623,
+    "level": "advanced"
+  },
+  {
+    "word": "woods",
+    "chinese": "n. 森林, 树林",
+    "ipa": "wjdz",
+    "rank": 4624,
+    "level": "advanced"
+  },
+  {
+    "word": "surprise",
+    "chinese": "n. 惊奇, 奇袭, 诧异",
+    "ipa": "sә'praiz",
+    "rank": 4625,
+    "level": "advanced"
+  },
+  {
+    "word": "lamp",
+    "chinese": "n. 灯",
+    "ipa": "læmp",
+    "rank": 4626,
+    "level": "advanced"
+  },
+  {
+    "word": "rico",
+    "chinese": "abbr. 反诈骗腐败组织集团犯罪法（Racketeer Influenced and Corrupt Organizations Act）",
+    "ipa": "ˈrikoʊ",
+    "rank": 4627,
+    "level": "advanced"
+  },
+  {
+    "word": "partial",
+    "chinese": "a. 部分的, 偏袒的, 偏爱的",
+    "ipa": "'pɑ:ʃәl",
+    "rank": 4628,
+    "level": "advanced"
+  },
+  {
+    "word": "shoppers",
+    "chinese": "n. 购物者（shopper复数）",
+    "ipa": "ˈʃɑpərz",
+    "rank": 4629,
+    "level": "advanced"
+  },
+  {
+    "word": "phil",
+    "chinese": "abbr. 哲学（philosophy）",
+    "ipa": "fil",
+    "rank": 4630,
+    "level": "advanced"
+  },
+  {
+    "word": "everybody",
+    "chinese": "pron. 每个人, 人人",
+    "ipa": "'evribɒdi",
+    "rank": 4631,
+    "level": "advanced"
+  },
+  {
+    "word": "couples",
+    "chinese": "n. 一对, 一双",
+    "ipa": "ˈkəpəlz",
+    "rank": 4632,
+    "level": "advanced"
+  },
+  {
+    "word": "nashville",
+    "chinese": "n. 那什维尔（美国田纳西州首府）",
+    "ipa": "'næʃvil",
+    "rank": 4633,
+    "level": "advanced"
+  },
+  {
+    "word": "ranking",
+    "chinese": "n. 等级, 地位",
+    "ipa": "'ræŋkiŋ",
+    "rank": 4634,
+    "level": "advanced"
+  },
+  {
+    "word": "jokes",
+    "chinese": "n. 笑话（joke的复数）",
+    "ipa": "ʤoʊks",
+    "rank": 4635,
+    "level": "advanced"
+  },
+  {
+    "word": "cst",
+    "chinese": "[医] 惊厥休克疗法",
+    "ipa": "cst",
+    "rank": 4636,
+    "level": "advanced"
+  },
+  {
+    "word": "http",
+    "chinese": "[计] 超文本传输协议",
+    "ipa": "http",
+    "rank": 4637,
+    "level": "advanced"
+  },
+  {
+    "word": "ceo",
+    "chinese": "abbr. 首席执行官",
+    "ipa": "ˈsiˌiˈoʊ",
+    "rank": 4638,
+    "level": "advanced"
+  },
+  {
+    "word": "simpson",
+    "chinese": "n. 辛普森（姓氏）",
+    "ipa": "'simpsn",
+    "rank": 4639,
+    "level": "advanced"
+  },
+  {
+    "word": "twiki",
+    "chinese": "维基百科",
+    "ipa": "twiki",
+    "rank": 4640,
+    "level": "advanced"
+  },
+  {
+    "word": "sublime",
+    "chinese": "a. 高尚的, 壮观的, 卓越的",
+    "ipa": "sә'blaim",
+    "rank": 4641,
+    "level": "advanced"
+  },
+  {
+    "word": "counseling",
+    "chinese": "n. 咨询服务",
+    "ipa": "'kaunsәliŋ",
+    "rank": 4642,
+    "level": "advanced"
+  },
+  {
+    "word": "palace",
+    "chinese": "n. 宫, 宫殿, 华丽大厦",
+    "ipa": "'pælis",
+    "rank": 4643,
+    "level": "advanced"
+  },
+  {
+    "word": "acceptable",
+    "chinese": "a. 可接受的, 合意的, 可忍受的",
+    "ipa": "әk'septәbl",
+    "rank": 4644,
+    "level": "advanced"
+  },
+  {
+    "word": "satisfied",
+    "chinese": "a. 感到满意的",
+    "ipa": "'sætisfaiәd",
+    "rank": 4645,
+    "level": "advanced"
+  },
+  {
+    "word": "glad",
+    "chinese": "a. 高兴的, 喜欢的, 情愿的",
+    "ipa": "glæd",
+    "rank": 4646,
+    "level": "advanced"
+  },
+  {
+    "word": "wins",
+    "chinese": "abbr. 视窗网际网路名称服务（Windows Internet Name Server）",
+    "ipa": "wɪnz",
+    "rank": 4647,
+    "level": "advanced"
+  },
+  {
+    "word": "measurements",
+    "chinese": "n. 测量值, 尺寸（measurement的复数）",
+    "ipa": "ˈmɛʒərmənts",
+    "rank": 4648,
+    "level": "advanced"
+  },
+  {
+    "word": "verify",
+    "chinese": "vt. 证明, 查证, 证实, 检验, 校验",
+    "ipa": "'verifai",
+    "rank": 4649,
+    "level": "advanced"
+  },
+  {
+    "word": "globe",
+    "chinese": "n. 球, 球状物, 地球仪, 天体",
+    "ipa": "glәub",
+    "rank": 4650,
+    "level": "advanced"
+  },
+  {
+    "word": "trusted",
+    "chinese": "a. 可信的",
+    "ipa": "ˈtrəstɪd",
+    "rank": 4651,
+    "level": "advanced"
+  },
+  {
+    "word": "copper",
+    "chinese": "n. 铜, 警察",
+    "ipa": "'kɒpә",
+    "rank": 4652,
+    "level": "advanced"
+  },
+  {
+    "word": "milwaukee",
+    "chinese": "n. （美国）密尔沃基",
+    "ipa": "mil'wɔ:ki,(:)",
+    "rank": 4653,
+    "level": "advanced"
+  },
+  {
+    "word": "rack",
+    "chinese": "n. 架, 行李架, 饲草架, 搁物架, 痛苦, 折磨, 齿条, 行云团",
+    "ipa": "ræk",
+    "rank": 4654,
+    "level": "advanced"
+  },
+  {
+    "word": "medication",
+    "chinese": "n. 药物治疗, 药物处理, 医药",
+    "ipa": ".medi'keiʃәn",
+    "rank": 4655,
+    "level": "advanced"
+  },
+  {
+    "word": "warehouse",
+    "chinese": "n. 仓库, 货栈, 大商店",
+    "ipa": "'wєәhaus",
+    "rank": 4656,
+    "level": "advanced"
+  },
+  {
+    "word": "shareware",
+    "chinese": "[计] 试用软件",
+    "ipa": "ˈʃɛrˌwɛr",
+    "rank": 4657,
+    "level": "advanced"
+  },
+  {
+    "word": "ec",
+    "chinese": "[计] 电子计算机, 仿真器控制, 工程更改, 错误纠正",
+    "ipa": "ek",
+    "rank": 4658,
+    "level": "advanced"
+  },
+  {
+    "word": "rep",
+    "chinese": "n. 棱纹平布, 浪荡子, 名声",
+    "ipa": "rep",
+    "rank": 4659,
+    "level": "advanced"
+  },
+  {
+    "word": "dicke",
+    "chinese": "[人名] [苏格兰人、英格兰人姓氏] 迪克 Dick的变体",
+    "ipa": "dɪk",
+    "rank": 4660,
+    "level": "advanced"
+  },
+  {
+    "word": "kerry",
+    "chinese": "n. 黑色的小乳牛（英国产）",
+    "ipa": "'keri",
+    "rank": 4661,
+    "level": "advanced"
+  },
+  {
+    "word": "receipt",
+    "chinese": "n. 收据, 收入, 收到",
+    "ipa": "ri'si:t",
+    "rank": 4662,
+    "level": "advanced"
+  },
+  {
+    "word": "supposed",
+    "chinese": "a. 想象上的, 假定的, 被信以为真的",
+    "ipa": "sә'pәuzd",
+    "rank": 4663,
+    "level": "advanced"
+  },
+  {
+    "word": "ordinary",
+    "chinese": "a. 平常的, 普通的, 平凡的",
+    "ipa": "'ɒ:dinәri",
+    "rank": 4664,
+    "level": "advanced"
+  },
+  {
+    "word": "nobody",
+    "chinese": "n. 小人物, 无名小卒",
+    "ipa": "'nәubɒdi",
+    "rank": 4665,
+    "level": "advanced"
+  },
+  {
+    "word": "ghost",
+    "chinese": "n. 鬼, 灵魂, 幻影, 一丝, 一点",
+    "ipa": "gәust",
+    "rank": 4666,
+    "level": "advanced"
+  },
+  {
+    "word": "violation",
+    "chinese": "n. 违反, 违背, 妨碍",
+    "ipa": ".vaiә'leiʃәn",
+    "rank": 4667,
+    "level": "advanced"
+  },
+  {
+    "word": "configure",
+    "chinese": "vt. 装配, 使成形",
+    "ipa": "kәn'figә",
+    "rank": 4668,
+    "level": "advanced"
+  },
+  {
+    "word": "stability",
+    "chinese": "n. 安定, 稳定性, 坚实, 巩固",
+    "ipa": "stә'biliti",
+    "rank": 4669,
+    "level": "advanced"
+  },
+  {
+    "word": "mit",
+    "chinese": "n. 手, 连指手套, 棒球手套, 拳击手套, 马萨诸塞理工学院, 麻省理工学院",
+    "ipa": "mit",
+    "rank": 4670,
+    "level": "advanced"
+  },
+  {
+    "word": "applying",
+    "chinese": "vt. apply的变形",
+    "ipa": "əˈplaɪɪŋ",
+    "rank": 4671,
+    "level": "advanced"
+  },
+  {
+    "word": "southwest",
+    "chinese": "n. 西南, 西南方, 西南地区",
+    "ipa": "sauθ'west",
+    "rank": 4672,
+    "level": "advanced"
+  },
+  {
+    "word": "boss",
+    "chinese": "n. 老板, 上司, 岩瘤, 浮雕, 母牛",
+    "ipa": "bɒs",
+    "rank": 4673,
+    "level": "advanced"
+  },
+  {
+    "word": "pride",
+    "chinese": "n. 骄傲, 自尊心, 自豪, 精华, 勇气",
+    "ipa": "praid",
+    "rank": 4674,
+    "level": "advanced"
+  },
+  {
+    "word": "institutional",
+    "chinese": "a. 制度的, 公共机构的, 学会的",
+    "ipa": ".insti'tju:ʃәnәl",
+    "rank": 4675,
+    "level": "advanced"
+  },
+  {
+    "word": "expectations",
+    "chinese": "n. 希望( expectation的复数形式 ); 预料; （被）预期; [常作复数] 期望的事情",
+    "ipa": "ekspek'teɪʃnz",
+    "rank": 4676,
+    "level": "advanced"
+  },
+  {
+    "word": "independence",
+    "chinese": "n. 独立, 自立, 自主",
+    "ipa": ".indi'pendәns",
+    "rank": 4677,
+    "level": "advanced"
+  },
+  {
+    "word": "knowing",
+    "chinese": "a. 博学的, 聪颖的, 精明的",
+    "ipa": "'nәuiŋ",
+    "rank": 4678,
+    "level": "advanced"
+  },
+  {
+    "word": "reporter",
+    "chinese": "n. 记者, 报告者",
+    "ipa": "ri'pɒ:tә",
+    "rank": 4679,
+    "level": "advanced"
+  },
+  {
+    "word": "metabolism",
+    "chinese": "n. 新陈代谢, 变态",
+    "ipa": "mi'tæbәlizm",
+    "rank": 4680,
+    "level": "advanced"
+  },
+  {
+    "word": "keith",
+    "chinese": "n. 基思（男子名）",
+    "ipa": "ki:θ",
+    "rank": 4681,
+    "level": "advanced"
+  },
+  {
+    "word": "champion",
+    "chinese": "n. 冠军, 拥护者, 战士",
+    "ipa": "'tʃæmpiәn",
+    "rank": 4682,
+    "level": "advanced"
+  },
+  {
+    "word": "cloudy",
+    "chinese": "a. 多云的, 有愁容的, 云的, 浑浊的",
+    "ipa": "'klaudi",
+    "rank": 4683,
+    "level": "advanced"
+  },
+  {
+    "word": "linda",
+    "chinese": "n. 琳达（女子名）",
+    "ipa": "ˈlɪndə",
+    "rank": 4684,
+    "level": "advanced"
+  },
+  {
+    "word": "ross",
+    "chinese": "n. 罗丝（女性名）",
+    "ipa": "rɔs",
+    "rank": 4685,
+    "level": "advanced"
+  },
+  {
+    "word": "personally",
+    "chinese": "adv. 亲自地, 个别地, 当面, 就本人而言, 针对个人地",
+    "ipa": "'pә:sәnli",
+    "rank": 4686,
+    "level": "advanced"
+  },
+  {
+    "word": "chile",
+    "chinese": "n. 智利",
+    "ipa": "'tʃili",
+    "rank": 4687,
+    "level": "advanced"
+  },
+  {
+    "word": "anna",
+    "chinese": "n. 安娜（女子名）",
+    "ipa": "'ænә",
+    "rank": 4688,
+    "level": "advanced"
+  },
+  {
+    "word": "plenty",
+    "chinese": "n. 充分, 很多, 丰富",
+    "ipa": "'plenti",
+    "rank": 4689,
+    "level": "advanced"
+  },
+  {
+    "word": "solo",
+    "chinese": "n. 独奏, 独唱, 单独表演",
+    "ipa": "'sәulәu",
+    "rank": 4690,
+    "level": "advanced"
+  },
+  {
+    "word": "sentence",
+    "chinese": "n. 句子, 命题, 宣判",
+    "ipa": "'sentәns",
+    "rank": 4691,
+    "level": "advanced"
+  },
+  {
+    "word": "throat",
+    "chinese": "n. 咽喉, 喉咙, 嗓音",
+    "ipa": "θrәut",
+    "rank": 4692,
+    "level": "advanced"
+  },
+  {
+    "word": "ignore",
+    "chinese": "vt. 不理睬, 忽视, 驳回, 忽略",
+    "ipa": "ig'nɒ:",
+    "rank": 4693,
+    "level": "advanced"
+  },
+  {
+    "word": "maria",
+    "chinese": "n. 玛丽亚（女名）",
+    "ipa": "mә:'raiә, mә'riә",
+    "rank": 4694,
+    "level": "advanced"
+  },
+  {
+    "word": "uniform",
+    "chinese": "n. 制服",
+    "ipa": "'ju:nifɒ:m",
+    "rank": 4695,
+    "level": "advanced"
+  },
+  {
+    "word": "excellence",
+    "chinese": "n. 优秀, 卓越, 优点",
+    "ipa": "'ekslәns",
+    "rank": 4696,
+    "level": "advanced"
+  },
+  {
+    "word": "wealth",
+    "chinese": "n. 财富, 资源, 财产, 丰富, 富裕, 大量",
+    "ipa": "welθ",
+    "rank": 4697,
+    "level": "advanced"
+  },
+  {
+    "word": "tall",
+    "chinese": "a. 高的, 长的, 夸大的",
+    "ipa": "tɒ:l",
+    "rank": 4698,
+    "level": "advanced"
+  },
+  {
+    "word": "rm",
+    "chinese": "[计] 识别方式, 资源管理程序, 删除",
+    "ipa": "rm",
+    "rank": 4699,
+    "level": "advanced"
+  },
+  {
+    "word": "somewhere",
+    "chinese": "adv. 到某处, 在某处",
+    "ipa": "'sʌmhwєә",
+    "rank": 4700,
+    "level": "advanced"
+  },
+  {
+    "word": "vacuum",
+    "chinese": "n. 真空, 空间, 真空吸尘器",
+    "ipa": "''vækjuәm",
+    "rank": 4701,
+    "level": "advanced"
+  },
+  {
+    "word": "dancing",
+    "chinese": "n. 舞蹈",
+    "ipa": "'dænsiŋ",
+    "rank": 4702,
+    "level": "advanced"
+  },
+  {
+    "word": "attributes",
+    "chinese": "n. 属性（attribute的复数）",
+    "ipa": "əˈtrɪˌbjuts",
+    "rank": 4703,
+    "level": "advanced"
+  },
+  {
+    "word": "recognize",
+    "chinese": "vt. 认出, 认可, 承认, 公认, 识别, 赏识",
+    "ipa": "'rekәgnaiz",
+    "rank": 4704,
+    "level": "advanced"
+  },
+  {
+    "word": "brass",
+    "chinese": "n. 黄铜, 黄铜制品",
+    "ipa": "bræs.brɑ:s",
+    "rank": 4705,
+    "level": "advanced"
+  },
+  {
+    "word": "writes",
+    "chinese": "v. 写( write的第三人称单数 ); 写信",
+    "ipa": "raits",
+    "rank": 4706,
+    "level": "advanced"
+  },
+  {
+    "word": "plaza",
+    "chinese": "n. 广场, 市场, 购物区",
+    "ipa": "'plɑ:zә",
+    "rank": 4707,
+    "level": "advanced"
+  },
+  {
+    "word": "pdas",
+    "chinese": "(PDA 的复数) [计] 个人数字助手",
+    "ipa": "pdas",
+    "rank": 4708,
+    "level": "advanced"
+  },
+  {
+    "word": "outcomes",
+    "chinese": "n. 结果( outcome的复数形式 )",
+    "ipa": "ˈautkʌmz",
+    "rank": 4709,
+    "level": "advanced"
+  },
+  {
+    "word": "survival",
+    "chinese": "n. 生存, 残存, 幸存者",
+    "ipa": "sә'vaivәl",
+    "rank": 4710,
+    "level": "advanced"
+  },
+  {
+    "word": "quest",
+    "chinese": "n. 探索, 寻求, 调查",
+    "ipa": "kwest",
+    "rank": 4711,
+    "level": "advanced"
+  },
+  {
+    "word": "publish",
+    "chinese": "vt. 出版, 发行, 公开, 发表, 宣传, 公布",
+    "ipa": "'pʌbliʃ",
+    "rank": 4712,
+    "level": "advanced"
+  },
+  {
+    "word": "sri",
+    "chinese": "n. 斯里兰卡（Sri Lanka）",
+    "ipa": "sri",
+    "rank": 4713,
+    "level": "advanced"
+  },
+  {
+    "word": "screening",
+    "chinese": "[医] 筛选, 筛分(如普查癌、结核等病), 萤光屏检查",
+    "ipa": "'skri:niŋ",
+    "rank": 4714,
+    "level": "advanced"
+  },
+  {
+    "word": "toe",
+    "chinese": "n. 足趾, 趾部, 脚趾",
+    "ipa": "tәu",
+    "rank": 4715,
+    "level": "advanced"
+  },
+  {
+    "word": "thumbnail",
+    "chinese": "n. 大拇指指甲, 极小之物",
+    "ipa": "'θʌmneil",
+    "rank": 4716,
+    "level": "advanced"
+  },
+  {
+    "word": "trans",
+    "chinese": "[电] transimitter的简写",
+    "ipa": "trænz",
+    "rank": 4717,
+    "level": "advanced"
+  },
+  {
+    "word": "jonathan",
+    "chinese": "n. 乔纳森（男子名）",
+    "ipa": "'dʒɔnәθәn",
+    "rank": 4718,
+    "level": "advanced"
+  },
+  {
+    "word": "whenever",
+    "chinese": "conj. 每当",
+    "ipa": "hwen'evә",
+    "rank": 4719,
+    "level": "advanced"
+  },
+  {
+    "word": "nova",
+    "chinese": "n. 新星",
+    "ipa": "'nәuvә",
+    "rank": 4720,
+    "level": "advanced"
+  },
+  {
+    "word": "lifetime",
+    "chinese": "n. 一生, 终生",
+    "ipa": "'laiftaim",
+    "rank": 4721,
+    "level": "advanced"
+  },
+  {
+    "word": "api",
+    "chinese": "[计] 应用程序接口, 自动优先中断",
+    "ipa": "api",
+    "rank": 4722,
+    "level": "advanced"
+  },
+  {
+    "word": "pioneer",
+    "chinese": "n. 先锋, 拓荒者, 创始人",
+    "ipa": ".paiә'niә",
+    "rank": 4723,
+    "level": "advanced"
+  },
+  {
+    "word": "booty",
+    "chinese": "n. 战利品, 获得之物",
+    "ipa": "'bu:ti",
+    "rank": 4724,
+    "level": "advanced"
+  },
+  {
+    "word": "forgotten",
+    "chinese": "forget的过去分词",
+    "ipa": "fә'gɒtn",
+    "rank": 4725,
+    "level": "advanced"
+  },
+  {
+    "word": "acrobat",
+    "chinese": "n. 表演特技者, 杂技演员",
+    "ipa": "'ækrәbæt",
+    "rank": 4726,
+    "level": "advanced"
+  },
+  {
+    "word": "plates",
+    "chinese": "n. 板材",
+    "ipa": "pleɪts",
+    "rank": 4727,
+    "level": "advanced"
+  },
+  {
+    "word": "acres",
+    "chinese": "n. 英亩( acre的复数形式 )",
+    "ipa": "'eɪkəs",
+    "rank": 4728,
+    "level": "advanced"
+  },
+  {
+    "word": "venue",
+    "chinese": "n. 犯罪地点, 审判地, 发生地点",
+    "ipa": "'venju:",
+    "rank": 4729,
+    "level": "advanced"
+  },
+  {
+    "word": "athletic",
+    "chinese": "a. 运动的",
+    "ipa": "æθ'letik",
+    "rank": 4730,
+    "level": "advanced"
+  },
+  {
+    "word": "thermal",
+    "chinese": "a. 热的, 热量的, 温泉的",
+    "ipa": "'θә:ml",
+    "rank": 4731,
+    "level": "advanced"
+  },
+  {
+    "word": "essays",
+    "chinese": "n. 散文( essay的名词复数 ); （作为课程作业, 学生写的）文章; 企图; （用来刊登的）论说文",
+    "ipa": "ˈeseiz",
+    "rank": 4732,
+    "level": "advanced"
+  },
+  {
+    "word": "behaviour",
+    "chinese": "n. 行为, 举止",
+    "ipa": "bi'heivjә",
+    "rank": 4733,
+    "level": "advanced"
+  },
+  {
+    "word": "vital",
+    "chinese": "a. 生命的, 重要的, 充满活力的, 生死攸关的, 致命的",
+    "ipa": "'vaitl",
+    "rank": 4734,
+    "level": "advanced"
+  },
+  {
+    "word": "telling",
+    "chinese": "a. 有效的, 显著的, 显露内心活动的",
+    "ipa": "'teliŋ",
+    "rank": 4735,
+    "level": "advanced"
+  },
+  {
+    "word": "fairly",
+    "chinese": "adv. 美观地, 公平地, 相当地, 清楚地",
+    "ipa": "'fєәli",
+    "rank": 4736,
+    "level": "advanced"
+  },
+  {
+    "word": "coastal",
+    "chinese": "a. 海岸的, 沿海的, 沿岸的",
+    "ipa": "'kәustәl",
+    "rank": 4737,
+    "level": "advanced"
+  },
+  {
+    "word": "config",
+    "chinese": "[计] 显示配置信息命令",
+    "ipa": "config",
+    "rank": 4738,
+    "level": "advanced"
+  },
+  {
+    "word": "cf",
+    "chinese": "[医] 克里斯马斯因子, 补体结合",
+    "ipa": "cf",
+    "rank": 4739,
+    "level": "advanced"
+  },
+  {
+    "word": "charity",
+    "chinese": "n. 慈悲, 博爱, 慈善团体, 施舍",
+    "ipa": "'tʃæriti",
+    "rank": 4740,
+    "level": "advanced"
+  },
+  {
+    "word": "intelligent",
+    "chinese": "a. 聪明的, 智能的, 了解的",
+    "ipa": "in'telidʒәnt",
+    "rank": 4741,
+    "level": "advanced"
+  },
+  {
+    "word": "edinburgh",
+    "chinese": "n. 爱丁堡",
+    "ipa": "'edinbәrә",
+    "rank": 4742,
+    "level": "advanced"
+  },
+  {
+    "word": "vt",
+    "chinese": "[计] 视频终端, 虚拟终端",
+    "ipa": "vt",
+    "rank": 4743,
+    "level": "advanced"
+  },
+  {
+    "word": "excel",
+    "chinese": "vt. 胜过, 优于, 擅长",
+    "ipa": "ik'sel",
+    "rank": 4744,
+    "level": "advanced"
+  },
+  {
+    "word": "modes",
+    "chinese": "n. 分辨率",
+    "ipa": "moʊdz",
+    "rank": 4745,
+    "level": "advanced"
+  },
+  {
+    "word": "obligation",
+    "chinese": "n. 义务, 责任, 约束, 契约, 恩惠, 债务",
+    "ipa": ".ɒbli'geiʃәn",
+    "rank": 4746,
+    "level": "advanced"
+  },
+  {
+    "word": "campbell",
+    "chinese": "n. 坎贝尔（姓氏）",
+    "ipa": "'kæmbl",
+    "rank": 4747,
+    "level": "advanced"
+  },
+  {
+    "word": "wake",
+    "chinese": "vt. 叫醒, 激发",
+    "ipa": "weik",
+    "rank": 4748,
+    "level": "advanced"
+  },
+  {
+    "word": "stupid",
+    "chinese": "a. 愚蠢的, 麻木的",
+    "ipa": "'stju:pid",
+    "rank": 4749,
+    "level": "advanced"
+  },
+  {
+    "word": "harbor",
+    "chinese": "n. 港, 避难所",
+    "ipa": "'hɑ:bә",
+    "rank": 4750,
+    "level": "advanced"
+  },
+  {
+    "word": "hungary",
+    "chinese": "n. 匈牙利",
+    "ipa": "'hʌŋgәri",
+    "rank": 4751,
+    "level": "advanced"
+  },
+  {
+    "word": "traveler",
+    "chinese": "n. 旅行者, 游客, 旅客, 旅行推销员, 活动起重架, 行车, 临时记帐单",
+    "ipa": "'trævlә",
+    "rank": 4752,
+    "level": "advanced"
+  },
+  {
+    "word": "urw",
+    "chinese": "乌鲁夫",
+    "ipa": "urw",
+    "rank": 4753,
+    "level": "advanced"
+  },
+  {
+    "word": "segment",
+    "chinese": "n. 片段, 部分, 分节, 段",
+    "ipa": "'segmәnt",
+    "rank": 4754,
+    "level": "advanced"
+  },
+  {
+    "word": "realize",
+    "chinese": "vt. 了解, 实现, 使显得逼真, 变卖",
+    "ipa": "'riәlaiz",
+    "rank": 4755,
+    "level": "advanced"
+  },
+  {
+    "word": "regardless",
+    "chinese": "a. 不管, 不注意, 不顾",
+    "ipa": "ri'gɑ:dlis",
+    "rank": 4756,
+    "level": "advanced"
+  },
+  {
+    "word": "lan",
+    "chinese": "局部区域网络, 局域网, 本地网",
+    "ipa": "læn",
+    "rank": 4757,
+    "level": "advanced"
+  },
+  {
+    "word": "enemy",
+    "chinese": "n. 敌人, 仇敌, 敌军",
+    "ipa": "'enimi",
+    "rank": 4758,
+    "level": "advanced"
+  },
+  {
+    "word": "puzzle",
+    "chinese": "n. 难题, 迷惑",
+    "ipa": "'pʌzl",
+    "rank": 4759,
+    "level": "advanced"
+  },
+  {
+    "word": "rising",
+    "chinese": "n. 上升, 造反, 叛乱",
+    "ipa": "'raiziŋ",
+    "rank": 4760,
+    "level": "advanced"
+  },
+  {
+    "word": "aluminum",
+    "chinese": "n. 铝",
+    "ipa": "ә'lu:minәm",
+    "rank": 4761,
+    "level": "advanced"
+  },
+  {
+    "word": "wells",
+    "chinese": "n. 威尔斯（姓氏）",
+    "ipa": "welz",
+    "rank": 4762,
+    "level": "advanced"
+  },
+  {
+    "word": "wishlist",
+    "chinese": "n. 意愿清单",
+    "ipa": "'wiʃlist",
+    "rank": 4763,
+    "level": "advanced"
+  },
+  {
+    "word": "opens",
+    "chinese": "n. 打开",
+    "ipa": "ˈoʊpənz",
+    "rank": 4764,
+    "level": "advanced"
+  },
+  {
+    "word": "insight",
+    "chinese": "n. 察看, 洞察力, 见识",
+    "ipa": "'insait",
+    "rank": 4765,
+    "level": "advanced"
+  },
+  {
+    "word": "sms",
+    "chinese": "[计] 存储管理服务",
+    "ipa": "ˌɛˌsɛˈmɛs",
+    "rank": 4766,
+    "level": "advanced"
+  },
+  {
+    "word": "shit",
+    "chinese": "vi. 拉屎",
+    "ipa": "ʃit",
+    "rank": 4767,
+    "level": "advanced"
+  },
+  {
+    "word": "restricted",
+    "chinese": "a. 受限制的, 有限的",
+    "ipa": "ri'striktid",
+    "rank": 4768,
+    "level": "advanced"
+  },
+  {
+    "word": "republican",
+    "chinese": "n. 共和主义者, 共和党员",
+    "ipa": "ri'pʌblikәn",
+    "rank": 4769,
+    "level": "advanced"
+  },
+  {
+    "word": "secrets",
+    "chinese": "n. 秘密",
+    "ipa": "ˈsikrɪts",
+    "rank": 4770,
+    "level": "advanced"
+  },
+  {
+    "word": "lucky",
+    "chinese": "a. 幸运的, 吉祥的, 好运的, 侥幸的",
+    "ipa": "'lʌki",
+    "rank": 4771,
+    "level": "advanced"
+  },
+  {
+    "word": "latter",
+    "chinese": "a. 后者的, 较后的, 近来的",
+    "ipa": "'lætә",
+    "rank": 4772,
+    "level": "advanced"
+  },
+  {
+    "word": "merchants",
+    "chinese": "n. 商人( merchant的复数形式 ); （某活动的）爱好者, 热中于…的人",
+    "ipa": "'mɜ:tʃənts",
+    "rank": 4773,
+    "level": "advanced"
+  },
+  {
+    "word": "thick",
+    "chinese": "a. 厚的, 粗壮的, 浓的, 迟钝的, 浑浊的, 多雾的, 过分的, 口齿不清的",
+    "ipa": "θik",
+    "rank": 4774,
+    "level": "advanced"
+  },
+  {
+    "word": "trailers",
+    "chinese": "n. 篇身片",
+    "ipa": "ˈtreɪlərz",
+    "rank": 4775,
+    "level": "advanced"
+  },
+  {
+    "word": "repeat",
+    "chinese": "n. 重复, 反复",
+    "ipa": "ri'pi:t",
+    "rank": 4776,
+    "level": "advanced"
+  },
+  {
+    "word": "syndrome",
+    "chinese": "n. 并发症状, 综合征, 同时存在的事物",
+    "ipa": "'sindrәum",
+    "rank": 4777,
+    "level": "advanced"
+  },
+  {
+    "word": "philips",
+    "chinese": "n. 飞利浦（荷兰公司名）",
+    "ipa": "'filips",
+    "rank": 4778,
+    "level": "advanced"
+  },
+  {
+    "word": "attendance",
+    "chinese": "n. 出席, 出席的人数, 照料",
+    "ipa": "ә'tendәns",
+    "rank": 4779,
+    "level": "advanced"
+  },
+  {
+    "word": "penalty",
+    "chinese": "n. 处罚, 刑罚, 罚款, 罚球, 报应, 不利结果, 妨碍",
+    "ipa": "'penәlti",
+    "rank": 4780,
+    "level": "advanced"
+  },
+  {
+    "word": "drum",
+    "chinese": "n. 鼓, 鼓声",
+    "ipa": "drʌm",
+    "rank": 4781,
+    "level": "advanced"
+  },
+  {
+    "word": "glasses",
+    "chinese": "n. 眼镜",
+    "ipa": "'glɑ:siz",
+    "rank": 4782,
+    "level": "advanced"
+  },
+  {
+    "word": "enables",
+    "chinese": "v. 使能够, 提供做…的权利[措施]( enable的第三人称单数 ); 使可能",
+    "ipa": "iˈneiblz",
+    "rank": 4783,
+    "level": "advanced"
+  },
+  {
+    "word": "nec",
+    "chinese": "日本电气公司",
+    "ipa": "nɛk",
+    "rank": 4784,
+    "level": "advanced"
+  },
+  {
+    "word": "iraqi",
+    "chinese": "n. 伊拉克人, 伊拉克阿拉伯语",
+    "ipa": "i'rɑ:ki",
+    "rank": 4785,
+    "level": "advanced"
+  },
+  {
+    "word": "builder",
+    "chinese": "n. 建立者",
+    "ipa": "'bildә",
+    "rank": 4786,
+    "level": "advanced"
+  },
+  {
+    "word": "vista",
+    "chinese": "n. 远景, 展望, 回想",
+    "ipa": "'vistә",
+    "rank": 4787,
+    "level": "advanced"
+  },
+  {
+    "word": "jessica",
+    "chinese": "n. 杰西卡（女子名）",
+    "ipa": "'dʒesikә",
+    "rank": 4788,
+    "level": "advanced"
+  },
+  {
+    "word": "chips",
+    "chinese": "n. 炸土豆条",
+    "ipa": "tʃips",
+    "rank": 4789,
+    "level": "advanced"
+  },
+  {
+    "word": "terry",
+    "chinese": "n. 毛圈, 毛圈织物",
+    "ipa": "'teri",
+    "rank": 4790,
+    "level": "advanced"
+  },
+  {
+    "word": "flood",
+    "chinese": "n. 洪水, 大量之水, 涨潮",
+    "ipa": "flʌd",
+    "rank": 4791,
+    "level": "advanced"
+  },
+  {
+    "word": "foto",
+    "chinese": "abbr. 张紧振子的强制振动（Forced Oscillation of a Tightening Oscillator）",
+    "ipa": "foto",
+    "rank": 4792,
+    "level": "advanced"
+  },
+  {
+    "word": "ease",
+    "chinese": "n. 安乐, 安逸, 悠闲",
+    "ipa": "i:z",
+    "rank": 4793,
+    "level": "advanced"
+  },
+  {
+    "word": "arguments",
+    "chinese": "n. 参数",
+    "ipa": "ˈɑrgjəmənts",
+    "rank": 4794,
+    "level": "advanced"
+  },
+  {
+    "word": "amsterdam",
+    "chinese": "n. 阿姆斯特丹(荷兰首都)",
+    "ipa": ".æmstә'dæm",
+    "rank": 4795,
+    "level": "advanced"
+  },
+  {
+    "word": "orgy",
+    "chinese": "n. 无节制, 狂欢, 纵酒宴乐, 放荡",
+    "ipa": "'ɔ:dʒi",
+    "rank": 4796,
+    "level": "advanced"
+  },
+  {
+    "word": "arena",
+    "chinese": "n. 角斗场, 舞台, 场地",
+    "ipa": "ә'ri:nә",
+    "rank": 4797,
+    "level": "advanced"
+  },
+  {
+    "word": "adventures",
+    "chinese": "n. 冒险活动( adventure的名词复数 ); 冒险经历; 奇遇",
+    "ipa": "ədˈventʃəz",
+    "rank": 4798,
+    "level": "advanced"
+  },
+  {
+    "word": "pupils",
+    "chinese": "n. 学生( pupil的复数形式 ); 瞳孔; 弟子; 门生",
+    "ipa": "'pju:plz",
+    "rank": 4799,
+    "level": "advanced"
+  },
+  {
+    "word": "stewart",
+    "chinese": "n. 斯图尔特（男子名）",
+    "ipa": "'stjuәt",
+    "rank": 4800,
+    "level": "advanced"
+  },
+  {
+    "word": "announcement",
+    "chinese": "n. 公告, 发表, 告知",
+    "ipa": "ә'naunsmәnt",
+    "rank": 4801,
+    "level": "advanced"
+  },
+  {
+    "word": "tabs",
+    "chinese": "n. 跳格设定, 制表符",
+    "ipa": "tæbz",
+    "rank": 4802,
+    "level": "advanced"
+  },
+  {
+    "word": "outcome",
+    "chinese": "n. 结果, 出口",
+    "ipa": "'autkʌm",
+    "rank": 4803,
+    "level": "advanced"
+  },
+  {
+    "word": "xx",
+    "chinese": "abbr. 血型（xue xing, 汉语拼音）",
+    "ipa": "xx",
+    "rank": 4804,
+    "level": "advanced"
+  },
+  {
+    "word": "appreciate",
+    "chinese": "vt. 赏识, 鉴别, 为...而感激, 领会, 欣赏",
+    "ipa": "ә'pri:ʃieit",
+    "rank": 4805,
+    "level": "advanced"
+  },
+  {
+    "word": "expanded",
+    "chinese": "a. 扩充的",
+    "ipa": "ik'spendid",
+    "rank": 4806,
+    "level": "advanced"
+  },
+  {
+    "word": "casual",
+    "chinese": "a. 偶然的, 不经意的, 便装的",
+    "ipa": "'kæʒjuәl",
+    "rank": 4807,
+    "level": "advanced"
+  },
+  {
+    "word": "grown",
+    "chinese": "a. 长大的, 成年的, 长满某物的",
+    "ipa": "grәun",
+    "rank": 4808,
+    "level": "advanced"
+  },
+  {
+    "word": "polish",
+    "chinese": "a. 波兰的",
+    "ipa": "'pɒliʃ",
+    "rank": 4809,
+    "level": "advanced"
+  },
+  {
+    "word": "lovely",
+    "chinese": "a. 可爱的, 有趣的",
+    "ipa": "'lʌvli",
+    "rank": 4810,
+    "level": "advanced"
+  },
+  {
+    "word": "extras",
+    "chinese": "[计] 附加设备, 额外设备",
+    "ipa": "ˈɛkstrəz",
+    "rank": 4811,
+    "level": "advanced"
+  },
+  {
+    "word": "gm",
+    "chinese": "通用汽车公司, 总经理, 导弹",
+    "ipa": "gm",
+    "rank": 4812,
+    "level": "advanced"
+  },
+  {
+    "word": "centres",
+    "chinese": "n. 中心( centre的名词复数 ); （市镇的）中心区; 中心点; 中枢",
+    "ipa": "ˈsentəz",
+    "rank": 4813,
+    "level": "advanced"
+  },
+  {
+    "word": "jerry",
+    "chinese": "a. 草率的, 偷工减料的",
+    "ipa": "'dʒeri",
+    "rank": 4814,
+    "level": "advanced"
+  },
+  {
+    "word": "clause",
+    "chinese": "n. 子句, 条款",
+    "ipa": "klɒ:z",
+    "rank": 4815,
+    "level": "advanced"
+  },
+  {
+    "word": "smile",
+    "chinese": "n. 微笑, 喜色, 笑容",
+    "ipa": "smail",
+    "rank": 4816,
+    "level": "advanced"
+  },
+  {
+    "word": "lands",
+    "chinese": "n. 平原",
+    "ipa": "lændz",
+    "rank": 4817,
+    "level": "advanced"
+  },
+  {
+    "word": "ri",
+    "chinese": "[化] 放射性同位素",
+    "ipa": "ri",
+    "rank": 4818,
+    "level": "advanced"
+  },
+  {
+    "word": "troops",
+    "chinese": "n. 军队, 装甲部队, 骑兵队, 部队",
+    "ipa": "trups",
+    "rank": 4819,
+    "level": "advanced"
+  },
+  {
+    "word": "indoor",
+    "chinese": "a. 户内的, 室内的",
+    "ipa": "'indɒ:",
+    "rank": 4820,
+    "level": "advanced"
+  },
+  {
+    "word": "bulgaria",
+    "chinese": "n. 保加利亚",
+    "ipa": "bʌl'^eәriә",
+    "rank": 4821,
+    "level": "advanced"
+  },
+  {
+    "word": "armed",
+    "chinese": "a. 有扶手的, 武装的, 有防卫器官的",
+    "ipa": "ɑ:md",
+    "rank": 4822,
+    "level": "advanced"
+  },
+  {
+    "word": "broker",
+    "chinese": "n. 掮客, 经纪人",
+    "ipa": "'brәukә",
+    "rank": 4823,
+    "level": "advanced"
+  },
+  {
+    "word": "charger",
+    "chinese": "n. 充电器, 冲锋者, 战马",
+    "ipa": "'tʃɑ:dʒә",
+    "rank": 4824,
+    "level": "advanced"
+  },
+  {
+    "word": "regularly",
+    "chinese": "adv. 有规则地, 一丝不苟地, 正式地",
+    "ipa": "'regjulәli",
+    "rank": 4825,
+    "level": "advanced"
+  },
+  {
+    "word": "believed",
+    "chinese": "v. 相信( believe的过去式和过去分词 ); 认为; 以为; 对…信以为真",
+    "ipa": "biˈli:vd",
+    "rank": 4826,
+    "level": "advanced"
+  },
+  {
+    "word": "pine",
+    "chinese": "n. 松树, 松木",
+    "ipa": "pain",
+    "rank": 4827,
+    "level": "advanced"
+  },
+  {
+    "word": "cooling",
+    "chinese": "n. 冷却",
+    "ipa": "'ku:liŋ",
+    "rank": 4828,
+    "level": "advanced"
+  },
+  {
+    "word": "tend",
+    "chinese": "vi. 走向, 有某种的倾向, 易于, 照顾, 注意",
+    "ipa": "tend",
+    "rank": 4829,
+    "level": "advanced"
+  },
+  {
+    "word": "gulf",
+    "chinese": "n. 海湾, 深渊, 漩涡, 隔阂",
+    "ipa": "gʌlf",
+    "rank": 4830,
+    "level": "advanced"
+  },
+  {
+    "word": "rt",
+    "chinese": "[计] 实时, 接收终端, 运行时间",
+    "ipa": "rt",
+    "rank": 4831,
+    "level": "advanced"
+  },
+  {
+    "word": "rick",
+    "chinese": "n. 草堆",
+    "ipa": "rik",
+    "rank": 4832,
+    "level": "advanced"
+  },
+  {
+    "word": "trucks",
+    "chinese": "n. 卡车（truck的复数）",
+    "ipa": "trəks",
+    "rank": 4833,
+    "level": "advanced"
+  },
+  {
+    "word": "cp",
+    "chinese": "[计] 调用处理程序, 字符打印机, 通信处理器, 编译程序包, 控制部件",
+    "ipa": "cp",
+    "rank": 4834,
+    "level": "advanced"
+  },
+  {
+    "word": "mechanisms",
+    "chinese": "n. 机械( mechanism的复数形式 ); 机械装置; [生物学] 机制; 机械作用",
+    "ipa": "'mekənɪzəmz",
+    "rank": 4835,
+    "level": "advanced"
+  },
+  {
+    "word": "divorce",
+    "chinese": "n. 离婚",
+    "ipa": "di'vɒ:s",
+    "rank": 4836,
+    "level": "advanced"
+  },
+  {
+    "word": "laura",
+    "chinese": "n. 劳拉（女子名）",
+    "ipa": "'lɔ:rә",
+    "rank": 4837,
+    "level": "advanced"
+  },
+  {
+    "word": "shopper",
+    "chinese": "n. 购物者",
+    "ipa": "'ʃɒpә",
+    "rank": 4838,
+    "level": "advanced"
+  },
+  {
+    "word": "tokyo",
+    "chinese": "n. 东京",
+    "ipa": "'tәukjәu",
+    "rank": 4839,
+    "level": "advanced"
+  },
+  {
+    "word": "partly",
+    "chinese": "adv. 部分地, 在一定程度上",
+    "ipa": "'pɑ:tli",
+    "rank": 4840,
+    "level": "advanced"
+  },
+  {
+    "word": "nikon",
+    "chinese": "n. 尼康牌照相机",
+    "ipa": "ˈnaɪˌkɑn",
+    "rank": 4841,
+    "level": "advanced"
+  },
+  {
+    "word": "customize",
+    "chinese": "vt. 定制, 按规格改制, 定做",
+    "ipa": "kʌstәmaiz",
+    "rank": 4842,
+    "level": "advanced"
+  },
+  {
+    "word": "tradition",
+    "chinese": "n. 传说, 传统, 交付",
+    "ipa": "trә'diʃәn",
+    "rank": 4843,
+    "level": "advanced"
+  },
+  {
+    "word": "candy",
+    "chinese": "n. 糖果, 冰糖",
+    "ipa": "'kændi",
+    "rank": 4844,
+    "level": "advanced"
+  },
+  {
+    "word": "pills",
+    "chinese": "n. 丸剂",
+    "ipa": "pɪlz",
+    "rank": 4845,
+    "level": "advanced"
+  },
+  {
+    "word": "tiger",
+    "chinese": "n. 老虎, 虎, 凶暴的人",
+    "ipa": "'taigә",
+    "rank": 4846,
+    "level": "advanced"
+  },
+  {
+    "word": "donald",
+    "chinese": "n. 唐纳德（男子名）",
+    "ipa": "'dɔnәld",
+    "rank": 4847,
+    "level": "advanced"
+  },
+  {
+    "word": "folks",
+    "chinese": "n. 人们, 父母, 亲人, 家属",
+    "ipa": "foʊks",
+    "rank": 4848,
+    "level": "advanced"
+  },
+  {
+    "word": "sensor",
+    "chinese": "n. 传感器",
+    "ipa": "'sensә",
+    "rank": 4849,
+    "level": "advanced"
+  },
+  {
+    "word": "exposed",
+    "chinese": "a. 暴露的, 无掩蔽的, 易受攻击的",
+    "ipa": "ik'spәuzd",
+    "rank": 4850,
+    "level": "advanced"
+  },
+  {
+    "word": "telecom",
+    "chinese": "telecommunication 电信",
+    "ipa": "'telәkɔm",
+    "rank": 4851,
+    "level": "advanced"
+  },
+  {
+    "word": "hunt",
+    "chinese": "n. 狩猎, 追捕, 搜寻, 猎区",
+    "ipa": "hʌnt",
+    "rank": 4852,
+    "level": "advanced"
+  },
+  {
+    "word": "angels",
+    "chinese": "n. 天使投资人",
+    "ipa": "'eindʒәls",
+    "rank": 4853,
+    "level": "advanced"
+  },
+  {
+    "word": "deputy",
+    "chinese": "n. 副手，代理人",
+    "ipa": "'depjuti",
+    "rank": 4854,
+    "level": "advanced"
+  },
+  {
+    "word": "indicators",
+    "chinese": "n. （仪器上显示温度、压力、耗油量等的）指针( indicator的复数形式 ); 指示物; （车辆上的）转弯指示灯; 指示信号",
+    "ipa": "'ɪndɪkeɪtəz",
+    "rank": 4855,
+    "level": "advanced"
+  },
+  {
+    "word": "sealed",
+    "chinese": "a. 未知的, 密封的",
+    "ipa": "si:ld",
+    "rank": 4856,
+    "level": "advanced"
+  },
+  {
+    "word": "thai",
+    "chinese": "n. 泰国人, 泰语",
+    "ipa": "tai",
+    "rank": 4857,
+    "level": "advanced"
+  },
+  {
+    "word": "emissions",
+    "chinese": "n. 排放物( emission的复数形式 ); 散发物（尤指气体）",
+    "ipa": "ɪˈmɪʃənz",
+    "rank": 4858,
+    "level": "advanced"
+  },
+  {
+    "word": "physicians",
+    "chinese": "n. 医生, 内科医生( physician的复数形式 )",
+    "ipa": "fɪ'zɪʃnz",
+    "rank": 4859,
+    "level": "advanced"
+  },
+  {
+    "word": "loaded",
+    "chinese": "a. 有负载的, 有含蓄的, 加重的, 不公正的, 偏袒的, 喝醉了的, 富有的",
+    "ipa": "'lәudid",
+    "rank": 4860,
+    "level": "advanced"
+  },
+  {
+    "word": "fred",
+    "chinese": "n. 佛瑞德（男子名）",
+    "ipa": "fred",
+    "rank": 4861,
+    "level": "advanced"
+  },
+  {
+    "word": "complaint",
+    "chinese": "n. 诉苦, 抱怨, 控诉",
+    "ipa": "kәm'pleint",
+    "rank": 4862,
+    "level": "advanced"
+  },
+  {
+    "word": "scenes",
+    "chinese": "n. 现场, 景色",
+    "ipa": "sinz",
+    "rank": 4863,
+    "level": "advanced"
+  },
+  {
+    "word": "experiments",
+    "chinese": "n. 实验( experiment的名词复数 ); 试验; 尝试; 实践",
+    "ipa": "iksˈperimənts",
+    "rank": 4864,
+    "level": "advanced"
+  },
+  {
+    "word": "balls",
+    "chinese": "n. 胡说八道",
+    "ipa": "bɔlz",
+    "rank": 4865,
+    "level": "advanced"
+  },
+  {
+    "word": "afghanistan",
+    "chinese": "n. 阿富汗",
+    "ipa": "æf'gænistæn",
+    "rank": 4866,
+    "level": "advanced"
+  },
+  {
+    "word": "dd",
+    "chinese": "神学博士",
+    "ipa": "dd",
+    "rank": 4867,
+    "level": "advanced"
+  },
+  {
+    "word": "boost",
+    "chinese": "n. 推进, 吹捧",
+    "ipa": "bu:st",
+    "rank": 4868,
+    "level": "advanced"
+  },
+  {
+    "word": "spanking",
+    "chinese": "a. 清爽的, 疾行的, 强烈的",
+    "ipa": "'spæŋkiŋ",
+    "rank": 4869,
+    "level": "advanced"
+  },
+  {
+    "word": "scholarship",
+    "chinese": "n. 学问, 学术成就, 奖学金",
+    "ipa": "'skɒlәʃip",
+    "rank": 4870,
+    "level": "advanced"
+  },
+  {
+    "word": "governance",
+    "chinese": "n. 统治, 统辖, 管理",
+    "ipa": "'gʌvәnәns",
+    "rank": 4871,
+    "level": "advanced"
+  },
+  {
+    "word": "mill",
+    "chinese": "n. 压榨机, 磨坊, 制造厂",
+    "ipa": "mil",
+    "rank": 4872,
+    "level": "advanced"
+  },
+  {
+    "word": "founded",
+    "chinese": "a. 有基础的",
+    "ipa": "'faundid",
+    "rank": 4873,
+    "level": "advanced"
+  },
+  {
+    "word": "supplements",
+    "chinese": "n. 补充品",
+    "ipa": "ˌsəpləˈmɛnts",
+    "rank": 4874,
+    "level": "advanced"
+  },
+  {
+    "word": "chronic",
+    "chinese": "a. 慢性的, 习惯性的",
+    "ipa": "'krɒnik",
+    "rank": 4875,
+    "level": "advanced"
+  },
+  {
+    "word": "icons",
+    "chinese": "abbr. 核标准情报中心[美]（Information Center on Nuclear Standards）",
+    "ipa": "ˈaɪˌkɑnz",
+    "rank": 4876,
+    "level": "advanced"
+  },
+  {
+    "word": "tranny",
+    "chinese": "n. 半导体收音机",
+    "ipa": "'træni",
+    "rank": 4877,
+    "level": "advanced"
+  },
+  {
+    "word": "moral",
+    "chinese": "n. 道德, 品行, 寓意",
+    "ipa": "'mɒrәl",
+    "rank": 4878,
+    "level": "advanced"
+  },
+  {
+    "word": "den",
+    "chinese": "n. 兽穴, 洞穴",
+    "ipa": "den",
+    "rank": 4879,
+    "level": "advanced"
+  },
+  {
+    "word": "catering",
+    "chinese": "n. 给养",
+    "ipa": "'keitәriŋ",
+    "rank": 4880,
+    "level": "advanced"
+  },
+  {
+    "word": "aud",
+    "chinese": "abbr. 审计（audit）",
+    "ipa": "ɔd",
+    "rank": 4881,
+    "level": "advanced"
+  },
+  {
+    "word": "finger",
+    "chinese": "n. 手指, 指状物, (手套的)手指部分, 指针",
+    "ipa": "'fiŋgә",
+    "rank": 4882,
+    "level": "advanced"
+  },
+  {
+    "word": "keeps",
+    "chinese": "n. 罐笼座",
+    "ipa": "kips",
+    "rank": 4883,
+    "level": "advanced"
+  },
+  {
+    "word": "pound",
+    "chinese": "n. 磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏",
+    "ipa": "paund",
+    "rank": 4884,
+    "level": "advanced"
+  },
+  {
+    "word": "locate",
+    "chinese": "vt. 找出, 设于, 位于",
+    "ipa": "'lәukeit",
+    "rank": 4885,
+    "level": "advanced"
+  },
+  {
+    "word": "camcorder",
+    "chinese": "n. 摄录像机",
+    "ipa": "kæm'kɔ:dә",
+    "rank": 4886,
+    "level": "advanced"
+  },
+  {
+    "word": "pl",
+    "chinese": "[化] 磷脂",
+    "ipa": "pl",
+    "rank": 4887,
+    "level": "advanced"
+  },
+  {
+    "word": "trained",
+    "chinese": "a. 训练过的, 受过培训的",
+    "ipa": "treind",
+    "rank": 4888,
+    "level": "advanced"
+  },
+  {
+    "word": "burn",
+    "chinese": "vt. 烧, 烧毁, 烧伤",
+    "ipa": "bә:n",
+    "rank": 4889,
+    "level": "advanced"
+  },
+  {
+    "word": "implementing",
+    "chinese": "n. 实现",
+    "ipa": "ˈɪmpləˌmɛnɪŋ",
+    "rank": 4890,
+    "level": "advanced"
+  },
+  {
+    "word": "roses",
+    "chinese": "n. 玫瑰（rose的复数）",
+    "ipa": "ˈroʊzɪz",
+    "rank": 4891,
+    "level": "advanced"
+  },
+  {
+    "word": "labs",
+    "chinese": "n. 实验室",
+    "ipa": "læbs",
+    "rank": 4892,
+    "level": "advanced"
+  },
+  {
+    "word": "ourselves",
+    "chinese": "pron. 我们自己",
+    "ipa": ".auә'selvz",
+    "rank": 4893,
+    "level": "advanced"
+  },
+  {
+    "word": "bread",
+    "chinese": "n. 面包, 生计, 食物",
+    "ipa": "bred",
+    "rank": 4894,
+    "level": "advanced"
+  },
+  {
+    "word": "tobacco",
+    "chinese": "n. 烟草, 香烟",
+    "ipa": "tә'bækәu",
+    "rank": 4895,
+    "level": "advanced"
+  },
+  {
+    "word": "wooden",
+    "chinese": "a. 木制的, 呆笨的, 木然的",
+    "ipa": "'wudn",
+    "rank": 4896,
+    "level": "advanced"
+  },
+  {
+    "word": "motors",
+    "chinese": "n. 汽车公司证券",
+    "ipa": "ˈmoʊtərz",
+    "rank": 4897,
+    "level": "advanced"
+  },
+  {
+    "word": "tough",
+    "chinese": "n. 恶棍",
+    "ipa": "tʌf",
+    "rank": 4898,
+    "level": "advanced"
+  },
+  {
+    "word": "roberts",
+    "chinese": "n. 罗伯茨（姓氏）",
+    "ipa": "'rɔbәts",
+    "rank": 4899,
+    "level": "advanced"
+  },
+  {
+    "word": "incident",
+    "chinese": "n. 事件, 事变, 小事",
+    "ipa": "'insidәnt",
+    "rank": 4900,
+    "level": "advanced"
+  },
+  {
+    "word": "gonna",
+    "chinese": "abbr. （美）将要（等于going to）",
+    "ipa": "'ɡɔnә",
+    "rank": 4901,
+    "level": "advanced"
+  },
+  {
+    "word": "dynamics",
+    "chinese": "n. 动力学",
+    "ipa": "dai'næmiks",
+    "rank": 4902,
+    "level": "advanced"
+  },
+  {
+    "word": "lie",
+    "chinese": "n. 谎言, 假象, 位置",
+    "ipa": "lai",
+    "rank": 4903,
+    "level": "advanced"
+  },
+  {
+    "word": "crm",
+    "chinese": "反雷达措施, 反雷达导弹",
+    "ipa": "crm",
+    "rank": 4904,
+    "level": "advanced"
+  },
+  {
+    "word": "rf",
+    "chinese": "射频, 测距计, 测远仪",
+    "ipa": "rf",
+    "rank": 4905,
+    "level": "advanced"
+  },
+  {
+    "word": "conversation",
+    "chinese": "n. 会话, 说话, 交谈",
+    "ipa": ".kɒnvә'seiʃәn",
+    "rank": 4906,
+    "level": "advanced"
+  },
+  {
+    "word": "decrease",
+    "chinese": "n. 减少, 减少量",
+    "ipa": "'di:kri:s",
+    "rank": 4907,
+    "level": "advanced"
+  },
+  {
+    "word": "cumshots",
+    "chinese": "射精",
+    "ipa": "cumshots",
+    "rank": 4908,
+    "level": "advanced"
+  },
+  {
+    "word": "chest",
+    "chinese": "n. 胸, 胸部, 衣柜, 箱子",
+    "ipa": "tʃest",
+    "rank": 4909,
+    "level": "advanced"
+  },
+  {
+    "word": "pension",
+    "chinese": "n. 养老金, 退休金, 津贴, 年金, 抚恤金, 膳宿学校, 膳宿费",
+    "ipa": "'penʃәn",
+    "rank": 4910,
+    "level": "advanced"
+  },
+  {
+    "word": "billy",
+    "chinese": "n. 警棍, 伙伴",
+    "ipa": "'bili",
+    "rank": 4911,
+    "level": "advanced"
+  },
+  {
+    "word": "revenues",
+    "chinese": "n. 收入( revenue的复数形式 ); [复数]总收入; 收入来源; 税务局",
+    "ipa": "'revənju:z",
+    "rank": 4912,
+    "level": "advanced"
+  },
+  {
+    "word": "emerging",
+    "chinese": "[法] 出现的, 发生的, 形成的",
+    "ipa": "ˈimərʤɪŋ",
+    "rank": 4913,
+    "level": "advanced"
+  },
+  {
+    "word": "worship",
+    "chinese": "n. 崇拜, 礼拜, 尊敬",
+    "ipa": "'wә:ʃip",
+    "rank": 4914,
+    "level": "advanced"
+  },
+  {
+    "word": "bukkake",
+    "chinese": "颜射",
+    "ipa": "bukkake",
+    "rank": 4915,
+    "level": "advanced"
+  },
+  {
+    "word": "capability",
+    "chinese": "n. 能力, 性能, 约束力",
+    "ipa": ".keipә'biliti",
+    "rank": 4916,
+    "level": "advanced"
+  },
+  {
+    "word": "ak",
+    "chinese": "[计] 确认, 肯定, 收悉",
+    "ipa": "ak",
+    "rank": 4917,
+    "level": "advanced"
+  },
+  {
+    "word": "fe",
+    "chinese": "[计] 现场工程师",
+    "ipa": "feɪ",
+    "rank": 4918,
+    "level": "advanced"
+  },
+  {
+    "word": "craig",
+    "chinese": "n. 克雷格（男子名）",
+    "ipa": "krei^",
+    "rank": 4919,
+    "level": "advanced"
+  },
+  {
+    "word": "herself",
+    "chinese": "pron. 她自己, 她亲自",
+    "ipa": "hә:'self",
+    "rank": 4920,
+    "level": "advanced"
+  },
+  {
+    "word": "producing",
+    "chinese": "a. 生产的",
+    "ipa": "prә'dju:siŋ",
+    "rank": 4921,
+    "level": "advanced"
+  },
+  {
+    "word": "churches",
+    "chinese": "n. （基督教的）教堂( church的名词复数 ); 礼拜仪式; 教派; 基督教牧师",
+    "ipa": "tʃə:tʃiz",
+    "rank": 4922,
+    "level": "advanced"
+  },
+  {
+    "word": "precision",
+    "chinese": "n. 精密, 精确, 精确度, 精度",
+    "ipa": "pri'siʒәn",
+    "rank": 4923,
+    "level": "advanced"
+  },
+  {
+    "word": "damages",
+    "chinese": "n. 赔偿金",
+    "ipa": "ˈdæmɪʤɪz",
+    "rank": 4924,
+    "level": "advanced"
+  },
+  {
+    "word": "reserves",
+    "chinese": "n. 储量, 后备队",
+    "ipa": "rɪˈzərvz",
+    "rank": 4925,
+    "level": "advanced"
+  },
+  {
+    "word": "contributed",
+    "chinese": "a. 已缴入的",
+    "ipa": "kənˈtrɪbjutɪd",
+    "rank": 4926,
+    "level": "advanced"
+  },
+  {
+    "word": "solve",
+    "chinese": "vt. 解决, 付给, 溶解",
+    "ipa": "sɒlv",
+    "rank": 4927,
+    "level": "advanced"
+  },
+  {
+    "word": "shorts",
+    "chinese": "n. 短裤, (美)男人的短衬裤",
+    "ipa": "ʃɔ:ts",
+    "rank": 4928,
+    "level": "advanced"
+  },
+  {
+    "word": "reproduction",
+    "chinese": "n. 再现, 复制, 生殖, 繁殖, 复制品",
+    "ipa": ".ri:prә'dʌkʃәn",
+    "rank": 4929,
+    "level": "advanced"
+  },
+  {
+    "word": "minority",
+    "chinese": "n. 少数, 未成年, 少数民族",
+    "ipa": "mai'nɒriti",
+    "rank": 4930,
+    "level": "advanced"
+  },
+  {
+    "word": "td",
+    "chinese": "abbr. （美）财政部（Treasury Department）",
+    "ipa": "td",
+    "rank": 4931,
+    "level": "advanced"
+  },
+  {
+    "word": "diverse",
+    "chinese": "a. 不同的, 变化多的",
+    "ipa": "dai'vә:s",
+    "rank": 4932,
+    "level": "advanced"
+  },
+  {
+    "word": "amp",
+    "chinese": "n. 安培",
+    "ipa": "æmp",
+    "rank": 4933,
+    "level": "advanced"
+  },
+  {
+    "word": "ingredients",
+    "chinese": "材料",
+    "ipa": "ˌɪnˈgridiənts",
+    "rank": 4934,
+    "level": "advanced"
+  },
+  {
+    "word": "sb",
+    "chinese": "[计] 栈底, 标准二进制, 减, 备用设备",
+    "ipa": "sb",
+    "rank": 4935,
+    "level": "advanced"
+  },
+  {
+    "word": "ah",
+    "chinese": "interj. 啊, 哈",
+    "ipa": "ɑ:",
+    "rank": 4936,
+    "level": "advanced"
+  },
+  {
+    "word": "johnny",
+    "chinese": "n. 男人, 家伙",
+    "ipa": "'dʒɒni",
+    "rank": 4937,
+    "level": "advanced"
+  },
+  {
+    "word": "sole",
+    "chinese": "n. 脚掌, 鞋底, 底部",
+    "ipa": "sәul",
+    "rank": 4938,
+    "level": "advanced"
+  },
+  {
+    "word": "franchise",
+    "chinese": "n. 公民权, 特权, 特许经营权, 免赔额",
+    "ipa": "'fræntʃaiz",
+    "rank": 4939,
+    "level": "advanced"
+  },
+  {
+    "word": "recorder",
+    "chinese": "n. 记录员, 录音机",
+    "ipa": "ri'kɒ:dә",
+    "rank": 4940,
+    "level": "advanced"
+  },
+  {
+    "word": "complaints",
+    "chinese": "n. 抱怨( complaint的复数形式 ); 诉苦; 投诉; 疾病",
+    "ipa": "kəm'pleɪnts",
+    "rank": 4941,
+    "level": "advanced"
+  },
+  {
+    "word": "facing",
+    "chinese": "n. 贴边, 饰面",
+    "ipa": "'feisiŋ",
+    "rank": 4942,
+    "level": "advanced"
+  },
+  {
+    "word": "sm",
+    "chinese": "理科硕士",
+    "ipa": "sm",
+    "rank": 4943,
+    "level": "advanced"
+  },
+  {
+    "word": "nancy",
+    "chinese": "n. 女性化的男人",
+    "ipa": "'nænsi",
+    "rank": 4944,
+    "level": "advanced"
+  },
+  {
+    "word": "promotions",
+    "chinese": "n. 促销",
+    "ipa": "pərˈmoʊʃənz",
+    "rank": 4945,
+    "level": "advanced"
+  },
+  {
+    "word": "tones",
+    "chinese": "n. 声调",
+    "ipa": "toʊnz",
+    "rank": 4946,
+    "level": "advanced"
+  },
+  {
+    "word": "passion",
+    "chinese": "n. 激情, 酷爱, 热爱, 强烈感情, 耶稣受难(故事)",
+    "ipa": "'pæʃәn",
+    "rank": 4947,
+    "level": "advanced"
+  },
+  {
+    "word": "rehabilitation",
+    "chinese": "n. 复原",
+    "ipa": "'ri:(h)ә,bili'teiʃәn",
+    "rank": 4948,
+    "level": "advanced"
+  },
+  {
+    "word": "maintaining",
+    "chinese": "[化] 维护; 保养",
+    "ipa": "meɪnˈteɪnɪŋ",
+    "rank": 4949,
+    "level": "advanced"
+  },
+  {
+    "word": "sight",
+    "chinese": "n. 景观, 视力, 眼界, 阅读, 见解, 意见",
+    "ipa": "sait",
+    "rank": 4950,
+    "level": "advanced"
+  },
+  {
+    "word": "laid",
+    "chinese": "lay的过去式和过去分词",
+    "ipa": "leid",
+    "rank": 4951,
+    "level": "advanced"
+  },
+  {
+    "word": "clay",
+    "chinese": "n. 泥土, 肉体, 黏土",
+    "ipa": "klei",
+    "rank": 4952,
+    "level": "advanced"
+  },
+  {
+    "word": "defence",
+    "chinese": "n. 防卫, 防卫设备",
+    "ipa": "di'fens",
+    "rank": 4953,
+    "level": "advanced"
+  },
+  {
+    "word": "patches",
+    "chinese": "n. 修补程序",
+    "ipa": "ˈpæʧɪz",
+    "rank": 4954,
+    "level": "advanced"
+  },
+  {
+    "word": "weak",
+    "chinese": "a. 不牢固的, 弱的, 虚弱的, 软弱的, 无力的, 无权力的, (论据等)不充分的",
+    "ipa": "wi:k",
+    "rank": 4955,
+    "level": "advanced"
+  },
+  {
+    "word": "refund",
+    "chinese": "n. 偿还",
+    "ipa": "'ri:fʌnd",
+    "rank": 4956,
+    "level": "advanced"
+  },
+  {
+    "word": "usc",
+    "chinese": "abbr. 超声波清洗（Ultra Sonic Cleaning）",
+    "ipa": "usc",
+    "rank": 4957,
+    "level": "advanced"
+  },
+  {
+    "word": "towns",
+    "chinese": "n. 汤斯",
+    "ipa": "taʊnz",
+    "rank": 4958,
+    "level": "advanced"
+  },
+  {
+    "word": "environments",
+    "chinese": "n. 环境",
+    "ipa": "ɪnˈvaɪrənmənts",
+    "rank": 4959,
+    "level": "advanced"
+  },
+  {
+    "word": "trembl",
+    "chinese": "颤抖",
+    "ipa": "trembl",
+    "rank": 4960,
+    "level": "advanced"
+  },
+  {
+    "word": "divided",
+    "chinese": "a. 分开的",
+    "ipa": "dә'vaidid",
+    "rank": 4961,
+    "level": "advanced"
+  },
+  {
+    "word": "blvd",
+    "chinese": "n. 大马路",
+    "ipa": "ˈbʊləˌvɑrd",
+    "rank": 4962,
+    "level": "advanced"
+  },
+  {
+    "word": "reception",
+    "chinese": "n. 接待, 接受, 招待会",
+    "ipa": "ri'sepʃәn",
+    "rank": 4963,
+    "level": "advanced"
+  },
+  {
+    "word": "amd",
+    "chinese": "abbr. 超微半导体公司（Advanced Micro Devices）",
+    "ipa": "ˈeɪˌɛmˈdi",
+    "rank": 4964,
+    "level": "advanced"
+  },
+  {
+    "word": "wise",
+    "chinese": "a. 明智的, 慎虑的, 聪明的, 博学的, 狡猾的, 机灵的",
+    "ipa": "waiz",
+    "rank": 4965,
+    "level": "advanced"
+  },
+  {
+    "word": "emails",
+    "chinese": "n. 电子信函",
+    "ipa": "'iːmeɪl",
+    "rank": 4966,
+    "level": "advanced"
+  },
+  {
+    "word": "cyprus",
+    "chinese": "n. 塞浦路斯",
+    "ipa": "'saiprәs",
+    "rank": 4967,
+    "level": "advanced"
+  },
+  {
+    "word": "wv",
+    "chinese": "abbr. 工作电压（Working Voltage）",
+    "ipa": "wv",
+    "rank": 4968,
+    "level": "advanced"
+  },
+  {
+    "word": "odds",
+    "chinese": "n. 可能性, 几率, 机会, 胜算, 不平等",
+    "ipa": "ɒdz",
+    "rank": 4969,
+    "level": "advanced"
+  },
+  {
+    "word": "correctly",
+    "chinese": "adv. 对, 正确, 恰当, 符合一般性准则, 符合行为准则, 端正, 符合",
+    "ipa": "kә'rektli",
+    "rank": 4970,
+    "level": "advanced"
+  },
+  {
+    "word": "insider",
+    "chinese": "n. 内部的人, 权威人士, 知道内情的人",
+    "ipa": "'in'saidә",
+    "rank": 4971,
+    "level": "advanced"
+  },
+  {
+    "word": "seminars",
+    "chinese": "n. 研讨班( seminar的复数形式 ); 研讨小组; 研讨会; 培训会",
+    "ipa": "'semɪnɑ:z",
+    "rank": 4972,
+    "level": "advanced"
+  },
+  {
+    "word": "consequences",
+    "chinese": "n. 重要（性）( consequence的复数形式 ); 结果; 重要地位; 因果关系",
+    "ipa": "ˈkɔnsikwənsiz",
+    "rank": 4973,
+    "level": "advanced"
+  },
+  {
+    "word": "makers",
+    "chinese": "n. 迈克（美国一家公司）",
+    "ipa": "ˈmeɪkərz",
+    "rank": 4974,
+    "level": "advanced"
+  },
+  {
+    "word": "hearts",
+    "chinese": "n. 心",
+    "ipa": "hɑrts",
+    "rank": 4975,
+    "level": "advanced"
+  },
+  {
+    "word": "geography",
+    "chinese": "n. 地理学, 地理",
+    "ipa": "dʒi'ɒgrәfi",
+    "rank": 4976,
+    "level": "advanced"
+  },
+  {
+    "word": "appearing",
+    "chinese": "n. 版面高度",
+    "ipa": "əˈpɪrɪŋ",
+    "rank": 4977,
+    "level": "advanced"
+  },
+  {
+    "word": "integrity",
+    "chinese": "n. 正直, 廉正, 完整",
+    "ipa": "in'tegriti",
+    "rank": 4978,
+    "level": "advanced"
+  },
+  {
+    "word": "worry",
+    "chinese": "n. 担心, 烦恼, 忧虑, 苦恼, 撕咬",
+    "ipa": "'wʌri",
+    "rank": 4979,
+    "level": "advanced"
+  },
+  {
+    "word": "ns",
+    "chinese": "[计] 毫微秒, 纳秒",
+    "ipa": "ns",
+    "rank": 4980,
+    "level": "advanced"
+  },
+  {
+    "word": "discrimination",
+    "chinese": "n. 差别, 岐视, 辨别力",
+    "ipa": "dis.krimi'neiʃәn",
+    "rank": 4981,
+    "level": "advanced"
+  },
+  {
+    "word": "eve",
+    "chinese": "n. 前夕, 前夜",
+    "ipa": "i:v",
+    "rank": 4982,
+    "level": "advanced"
+  },
+  {
+    "word": "carter",
+    "chinese": "n. 运货马车夫",
+    "ipa": "'kɑ:tә",
+    "rank": 4983,
+    "level": "advanced"
+  },
+  {
+    "word": "legacy",
+    "chinese": "n. 祖先传下来之物, 遗赠物",
+    "ipa": "'legәsi",
+    "rank": 4984,
+    "level": "advanced"
+  },
+  {
+    "word": "marc",
+    "chinese": "n. 榨渣",
+    "ipa": "mɑ:k",
+    "rank": 4985,
+    "level": "advanced"
+  },
+  {
+    "word": "pleased",
+    "chinese": "a. 高兴的, 喜欢的, 满足的",
+    "ipa": "pli:zd",
+    "rank": 4986,
+    "level": "advanced"
+  },
+  {
+    "word": "danger",
+    "chinese": "n. 危险, 威胁",
+    "ipa": "'deindʒә",
+    "rank": 4987,
+    "level": "advanced"
+  },
+  {
+    "word": "vitamin",
+    "chinese": "n. 维生素",
+    "ipa": "'vaitәmin",
+    "rank": 4988,
+    "level": "advanced"
+  },
+  {
+    "word": "widely",
+    "chinese": "adv. 广泛地",
+    "ipa": "'waidli",
+    "rank": 4989,
+    "level": "advanced"
+  },
+  {
+    "word": "processed",
+    "chinese": "a. 处理的, 加工过的",
+    "ipa": "ˈprɑsɛst",
+    "rank": 4990,
+    "level": "advanced"
+  },
+  {
+    "word": "phrase",
+    "chinese": "n. 惯用语, 词组, 成语, 措词, 乐句",
+    "ipa": "freiz",
+    "rank": 4991,
+    "level": "advanced"
+  },
+  {
+    "word": "genuine",
+    "chinese": "a. 真正的, 真实的, 诚恳的",
+    "ipa": "'dʒenjuin",
+    "rank": 4992,
+    "level": "advanced"
+  },
+  {
+    "word": "raising",
+    "chinese": "[机] 起油",
+    "ipa": "'reiziŋ",
+    "rank": 4993,
+    "level": "advanced"
+  },
+  {
+    "word": "implications",
+    "chinese": "n. 蕴涵式",
+    "ipa": "ˌɪmpləˈkeɪʃənz",
+    "rank": 4994,
+    "level": "advanced"
+  },
+  {
+    "word": "functionality",
+    "chinese": "[计] 功能性, 泛函性",
+    "ipa": ",fʌŋkәʃә'næliti",
+    "rank": 4995,
+    "level": "advanced"
+  },
+  {
+    "word": "paradise",
+    "chinese": "n. 天堂, 乐园, 伊甸园",
+    "ipa": "'pærәdais",
+    "rank": 4996,
+    "level": "advanced"
+  },
+  {
+    "word": "hybrid",
+    "chinese": "n. 混血儿, 杂种, 混合物",
+    "ipa": "'haibrid",
+    "rank": 4997,
+    "level": "advanced"
+  },
+  {
+    "word": "reads",
+    "chinese": "v. 读, 看懂, 理解( read的第三人称单数 ); 显示, 标明",
+    "ipa": "ri:dz",
+    "rank": 4998,
+    "level": "advanced"
+  },
+  {
+    "word": "roles",
+    "chinese": "n. 人物",
+    "ipa": "roʊlz",
+    "rank": 4999,
+    "level": "advanced"
+  },
+  {
+    "word": "intermediate",
+    "chinese": "n. 中间物, 调停者, 中级",
+    "ipa": ".intә'mi:diәt",
+    "rank": 5000,
+    "level": "advanced"
+  },
+  {
+    "word": "emotional",
+    "chinese": "a. 情绪的, 情感的",
+    "ipa": "i'mәuʃәnәl",
+    "rank": 5001,
+    "level": "advanced"
+  },
+  {
+    "word": "sons",
+    "chinese": "n. 儿子们（son的复数）",
+    "ipa": "sənz",
+    "rank": 5002,
+    "level": "advanced"
+  },
+  {
+    "word": "leaf",
+    "chinese": "n. 叶, 树叶, 花瓣, 页",
+    "ipa": "li:f",
+    "rank": 5003,
+    "level": "advanced"
+  },
+  {
+    "word": "pad",
+    "chinese": "n. 填补, 衬垫, 印色盒, 路",
+    "ipa": "pæd",
+    "rank": 5004,
+    "level": "advanced"
+  },
+  {
+    "word": "glory",
+    "chinese": "n. 光荣, 荣耀, 荣誉, 壮丽, 繁荣",
+    "ipa": "'glɒ:ri",
+    "rank": 5005,
+    "level": "advanced"
+  },
+  {
+    "word": "platforms",
+    "chinese": "n. 台( platform的复数形式 ); 站台; （公开表达意见或在某方面发展的）机会; 纲领",
+    "ipa": "p'lætfɔ:mz",
+    "rank": 5006,
+    "level": "advanced"
+  },
+  {
+    "word": "ja",
+    "chinese": "数人共有的银行存款帐户, 联合代理人, 军法官, 军法检查官",
+    "ipa": "jɑ:",
+    "rank": 5007,
+    "level": "advanced"
+  },
+  {
+    "word": "bigger",
+    "chinese": "a. 更大的（big的比较级）",
+    "ipa": "ˈbɪgər",
+    "rank": 5008,
+    "level": "advanced"
+  },
+  {
+    "word": "billing",
+    "chinese": "n. 节目次序, 广告",
+    "ipa": "'biliŋ",
+    "rank": 5009,
+    "level": "advanced"
+  },
+  {
+    "word": "diesel",
+    "chinese": "n. 内燃机, 柴油机, 柴油",
+    "ipa": "'di:zәl",
+    "rank": 5010,
+    "level": "advanced"
+  },
+  {
+    "word": "versus",
+    "chinese": "prep. 对...",
+    "ipa": "'vә:sәs",
+    "rank": 5011,
+    "level": "advanced"
+  },
+  {
+    "word": "combine",
+    "chinese": "v. (使)联合, (使)结合",
+    "ipa": "kәm'bain",
+    "rank": 5012,
+    "level": "advanced"
+  },
+  {
+    "word": "overnight",
+    "chinese": "n. 前一天晚上, 一夜的逗留",
+    "ipa": "'әuvәnait",
+    "rank": 5013,
+    "level": "advanced"
+  },
+  {
+    "word": "geographic",
+    "chinese": "a. 地理(学)的, 地区(性)的",
+    "ipa": ",dʒiә'^ræfik",
+    "rank": 5014,
+    "level": "advanced"
+  },
+  {
+    "word": "exceed",
+    "chinese": "vt. 超过, 超越, 胜过",
+    "ipa": "ik'si:d",
+    "rank": 5015,
+    "level": "advanced"
+  },
+  {
+    "word": "bs",
+    "chinese": "理学士",
+    "ipa": "bs",
+    "rank": 5016,
+    "level": "advanced"
+  },
+  {
+    "word": "rod",
+    "chinese": "n. 竿, 笞鞭, 小枝",
+    "ipa": "rɒd",
+    "rank": 5017,
+    "level": "advanced"
+  },
+  {
+    "word": "saudi",
+    "chinese": "a. 沙乌地阿拉伯（人或语）的",
+    "ipa": "'sajdi",
+    "rank": 5018,
+    "level": "advanced"
+  },
+  {
+    "word": "fault",
+    "chinese": "n. 过错, 故障, 毛病",
+    "ipa": "fɒ:lt",
+    "rank": 5019,
+    "level": "advanced"
+  },
+  {
+    "word": "cuba",
+    "chinese": "n. 古巴",
+    "ipa": "'kju:bә",
+    "rank": 5020,
+    "level": "advanced"
+  },
+  {
+    "word": "hrs",
+    "chinese": "abbr. 高分辨率光谱仪（High Resolution Spectrometer）",
+    "ipa": "hrs",
+    "rank": 5021,
+    "level": "advanced"
+  },
+  {
+    "word": "preliminary",
+    "chinese": "n. 初步做法, 初步措施, 预试, 预选赛",
+    "ipa": "pri'liminәri",
+    "rank": 5022,
+    "level": "advanced"
+  },
+  {
+    "word": "districts",
+    "chinese": "n. 地区( district的名词复数 ); （为行政、司法、选举、教育等目的而划分的国家、州或县的）区; 选区; 英国教区的分区",
+    "ipa": "ˈdistrikts",
+    "rank": 5023,
+    "level": "advanced"
+  },
+  {
+    "word": "introduce",
+    "chinese": "vt. 介绍, 引入, 采用, 输入",
+    "ipa": ".intrә'dju:s",
+    "rank": 5024,
+    "level": "advanced"
+  },
+  {
+    "word": "silk",
+    "chinese": "n. 丝, 绸, 绸锻类, 丝织品",
+    "ipa": "silk",
+    "rank": 5025,
+    "level": "advanced"
+  },
+  {
+    "word": "promotional",
+    "chinese": "a. 增进的",
+    "ipa": "prәu'mәuʃәnl",
+    "rank": 5026,
+    "level": "advanced"
+  },
+  {
+    "word": "kate",
+    "chinese": "n. 凯特（女子名, 等于Catherine）",
+    "ipa": "keit",
+    "rank": 5027,
+    "level": "advanced"
+  },
+  {
+    "word": "chevrolet",
+    "chinese": "n. 美国雪佛兰牌汽车",
+    "ipa": "'ʃevrәulei",
+    "rank": 5028,
+    "level": "advanced"
+  },
+  {
+    "word": "babies",
+    "chinese": "n. 婴儿（baby的复数）",
+    "ipa": "ˈbeɪbiz",
+    "rank": 5029,
+    "level": "advanced"
+  },
+  {
+    "word": "bi",
+    "chinese": "[计] 成批输入, 总线接口",
+    "ipa": "bai",
+    "rank": 5030,
+    "level": "advanced"
+  },
+  {
+    "word": "karen",
+    "chinese": "n. 凯伦（人名）",
+    "ipa": "'kɑ:rәn",
+    "rank": 5031,
+    "level": "advanced"
+  },
+  {
+    "word": "compiled",
+    "chinese": "a. 编译的",
+    "ipa": "kəmˈpaɪld",
+    "rank": 5032,
+    "level": "advanced"
+  },
+  {
+    "word": "romantic",
+    "chinese": "a. 浪漫的, 风流的, 传奇性的, 夸大的, 空想的, 浪漫派的",
+    "ipa": "rәu'mæntik",
+    "rank": 5033,
+    "level": "advanced"
+  },
+  {
+    "word": "revealed",
+    "chinese": "v. 透露（reveal的过去式）",
+    "ipa": "rɪˈvild",
+    "rank": 5034,
+    "level": "advanced"
+  },
+  {
+    "word": "specialists",
+    "chinese": "n. 特种经纪人",
+    "ipa": "ˈspɛʃəlɪsts",
+    "rank": 5035,
+    "level": "advanced"
+  },
+  {
+    "word": "generator",
+    "chinese": "n. 产生器, 发电机, 生产者",
+    "ipa": "'dʒenәreitә",
+    "rank": 5036,
+    "level": "advanced"
+  },
+  {
+    "word": "albert",
+    "chinese": "n. 艾伯特（男子名）",
+    "ipa": "'ælbәt",
+    "rank": 5037,
+    "level": "advanced"
+  },
+  {
+    "word": "examine",
+    "chinese": "v. 检查, 调查, 考试",
+    "ipa": "ig'zæmin",
+    "rank": 5038,
+    "level": "advanced"
+  },
+  {
+    "word": "jimmy",
+    "chinese": "n. 铁撬",
+    "ipa": "'dʒimi",
+    "rank": 5039,
+    "level": "advanced"
+  },
+  {
+    "word": "graham",
+    "chinese": "a. 全麦的",
+    "ipa": "'ɡreiәm",
+    "rank": 5040,
+    "level": "advanced"
+  },
+  {
+    "word": "suspension",
+    "chinese": "n. 悬挂, 暂停, 中止",
+    "ipa": "sә'spenʃәn",
+    "rank": 5041,
+    "level": "advanced"
+  },
+  {
+    "word": "bristol",
+    "chinese": "n. 布里斯托尔(英国西部港口)",
+    "ipa": "'bristәl",
+    "rank": 5042,
+    "level": "advanced"
+  },
+  {
+    "word": "margaret",
+    "chinese": "n. 玛格利特（女子名）",
+    "ipa": "'mɑ:^әrit",
+    "rank": 5043,
+    "level": "advanced"
+  },
+  {
+    "word": "compaq",
+    "chinese": "美国康柏电脑公司",
+    "ipa": "ˈkɑmˌpæk",
+    "rank": 5044,
+    "level": "advanced"
+  },
+  {
+    "word": "sad",
+    "chinese": "a. 忧愁的, 悲哀的",
+    "ipa": "sæd",
+    "rank": 5045,
+    "level": "advanced"
+  },
+  {
+    "word": "correction",
+    "chinese": "n. 订正, 改正, 改正的地方",
+    "ipa": "kә'rekʃәn",
+    "rank": 5046,
+    "level": "advanced"
+  },
+  {
+    "word": "wolf",
+    "chinese": "n. 狼, 残忍贪婪之人, 极度穷困",
+    "ipa": "wulf",
+    "rank": 5047,
+    "level": "advanced"
+  },
+  {
+    "word": "slowly",
+    "chinese": "adv. 慢慢地, 迟缓地",
+    "ipa": "'slәuli",
+    "rank": 5048,
+    "level": "advanced"
+  },
+  {
+    "word": "authentication",
+    "chinese": "n. 证明可信, 证实为真, 使具法律效力",
+    "ipa": "ɒ:θenti'keiʃәn",
+    "rank": 5049,
+    "level": "advanced"
+  },
+  {
+    "word": "communicate",
+    "chinese": "vt. 显露, 传达, 感染",
+    "ipa": "kә'mju:nikeit",
+    "rank": 5050,
+    "level": "advanced"
+  },
+  {
+    "word": "rugby",
+    "chinese": "n. 橄榄球, 橄榄球赛",
+    "ipa": "'rʌ^bi",
+    "rank": 5051,
+    "level": "advanced"
+  },
+  {
+    "word": "supplement",
+    "chinese": "n. 补充物, 增刊, 补充, 补遗, 补编, 附录, 补角",
+    "ipa": "'sʌplimәnt",
+    "rank": 5052,
+    "level": "advanced"
+  },
+  {
+    "word": "showtimes",
+    "chinese": "放映时间",
+    "ipa": "showtimes",
+    "rank": 5053,
+    "level": "advanced"
+  },
+  {
+    "word": "cal",
+    "chinese": "[化] 计算机辅助学习",
+    "ipa": "kæl",
+    "rank": 5054,
+    "level": "advanced"
+  },
+  {
+    "word": "portions",
+    "chinese": "n. 一部分( portion的名词复数 ); 一份遗产（或赠与的财产）; 分享的部份; 嫁妆",
+    "ipa": "ˈpɔ:ʃənz",
+    "rank": 5055,
+    "level": "advanced"
+  },
+  {
+    "word": "infant",
+    "chinese": "n. 婴儿, 儿童, 初学者",
+    "ipa": "'infәnt",
+    "rank": 5056,
+    "level": "advanced"
+  },
+  {
+    "word": "promoting",
+    "chinese": "v. <正>促进( promote的现在分词 ); 提升; 推销; 使 （学生）升级",
+    "ipa": "prəˈməutɪŋ",
+    "rank": 5057,
+    "level": "advanced"
+  },
+  {
+    "word": "sectors",
+    "chinese": "n. 分区",
+    "ipa": "ˈsɛktərz",
+    "rank": 5058,
+    "level": "advanced"
+  },
+  {
+    "word": "samuel",
+    "chinese": "n. 撒母耳（希伯来先知）",
+    "ipa": "'sæmjuәl",
+    "rank": 5059,
+    "level": "advanced"
+  },
+  {
+    "word": "fluid",
+    "chinese": "n. 液体, 分泌液, 流体",
+    "ipa": "'flu:id",
+    "rank": 5060,
+    "level": "advanced"
+  },
+  {
+    "word": "grounds",
+    "chinese": "n. 场地, 庭院, 理由, 渣滓, 沉淀物",
+    "ipa": "graʊnz",
+    "rank": 5061,
+    "level": "advanced"
+  },
+  {
+    "word": "fits",
+    "chinese": "n. 合身的衣服",
+    "ipa": "fɪts",
+    "rank": 5062,
+    "level": "advanced"
+  },
+  {
+    "word": "kick",
+    "chinese": "n. 踢, 反冲, 后座力, 凹底",
+    "ipa": "kik",
+    "rank": 5063,
+    "level": "advanced"
+  },
+  {
+    "word": "regards",
+    "chinese": "n. 问候, 致意",
+    "ipa": "rɪˈgɑrdz",
+    "rank": 5064,
+    "level": "advanced"
+  },
+  {
+    "word": "meal",
+    "chinese": "n. 一餐, 膳食, 粗粉",
+    "ipa": "mi:l",
+    "rank": 5065,
+    "level": "advanced"
+  },
+  {
+    "word": "ta",
+    "chinese": "interj. 谢谢",
+    "ipa": "tɑ:",
+    "rank": 5066,
+    "level": "advanced"
+  },
+  {
+    "word": "hurt",
+    "chinese": "n. 伤害, 创伤, 损害",
+    "ipa": "hә:t",
+    "rank": 5067,
+    "level": "advanced"
+  },
+  {
+    "word": "machinery",
+    "chinese": "n. 机器, 机械装置, 机构",
+    "ipa": "mә'ʃi:nәri",
+    "rank": 5068,
+    "level": "advanced"
+  },
+  {
+    "word": "bandwidth",
+    "chinese": "n. 频带宽度, 通带宽度",
+    "ipa": "'bændwidθ",
+    "rank": 5069,
+    "level": "advanced"
+  },
+  {
+    "word": "unlike",
+    "chinese": "a. 不像的, 不同的",
+    "ipa": ".ʌn'laik",
+    "rank": 5070,
+    "level": "advanced"
+  },
+  {
+    "word": "equation",
+    "chinese": "n. 相等, 等式, 平衡",
+    "ipa": "i'kweiʃәn",
+    "rank": 5071,
+    "level": "advanced"
+  },
+  {
+    "word": "baskets",
+    "chinese": "n. 篮子（basket的复数）",
+    "ipa": "ˈbæskəts",
+    "rank": 5072,
+    "level": "advanced"
+  },
+  {
+    "word": "probability",
+    "chinese": "n. 可能性, 或然率, 几率, 概率",
+    "ipa": ".prɒbә'biliti",
+    "rank": 5073,
+    "level": "advanced"
+  },
+  {
+    "word": "pot",
+    "chinese": "n. 盆, 罐, 壶, 坩埚, 奖杯",
+    "ipa": "pɒt",
+    "rank": 5074,
+    "level": "advanced"
+  },
+  {
+    "word": "dimension",
+    "chinese": "n. 尺寸, 次元, 面积, 维数",
+    "ipa": "dai'menʃәn",
+    "rank": 5075,
+    "level": "advanced"
+  },
+  {
+    "word": "wright",
+    "chinese": "n. 制作者, 工人",
+    "ipa": "rait",
+    "rank": 5076,
+    "level": "advanced"
+  },
+  {
+    "word": "img",
+    "chinese": "abbr. 美国国际管理集团（International Management Group）",
+    "ipa": "img",
+    "rank": 5077,
+    "level": "advanced"
+  },
+  {
+    "word": "barry",
+    "chinese": "n. 巴里（男子名）",
+    "ipa": "'bæri",
+    "rank": 5078,
+    "level": "advanced"
+  },
+  {
+    "word": "proven",
+    "chinese": "prove的过去分词",
+    "ipa": "'pru:vn",
+    "rank": 5079,
+    "level": "advanced"
+  },
+  {
+    "word": "schedules",
+    "chinese": "n. 时间表",
+    "ipa": "ˈskɛʤʊlz",
+    "rank": 5080,
+    "level": "advanced"
+  },
+  {
+    "word": "admissions",
+    "chinese": "n. 准许进入( admission的复数形式 ); 入场费; 入场券; 承认",
+    "ipa": "əd'mɪʃnz",
+    "rank": 5081,
+    "level": "advanced"
+  },
+  {
+    "word": "cached",
+    "chinese": "v. 贮藏起来",
+    "ipa": "kæʃt",
+    "rank": 5082,
+    "level": "advanced"
+  },
+  {
+    "word": "warren",
+    "chinese": "n. 养兔场, 拥挤的地区",
+    "ipa": "'wɒrәn",
+    "rank": 5083,
+    "level": "advanced"
+  },
+  {
+    "word": "slip",
+    "chinese": "n. 滑, 滑行, 事故, 溜, 差错, 滑台, 下降, 插条, 后裔, 板条, 瘦长的年轻人",
+    "ipa": "slip",
+    "rank": 5084,
+    "level": "advanced"
+  },
+  {
+    "word": "studied",
+    "chinese": "a. 有计划的, 慎重的",
+    "ipa": "'stʌdid",
+    "rank": 5085,
+    "level": "advanced"
+  },
+  {
+    "word": "reviewer",
+    "chinese": "n. 评论者, 书评作者, 评论家, 剧评家, 报刊评论家",
+    "ipa": "ri'vju:ә(r)",
+    "rank": 5086,
+    "level": "advanced"
+  },
+  {
+    "word": "involves",
+    "chinese": "v. 包含",
+    "ipa": "ˌɪnˈvɑlvz",
+    "rank": 5087,
+    "level": "advanced"
+  },
+  {
+    "word": "quarterly",
+    "chinese": "a. 季度的, 按季度的, 每季的",
+    "ipa": "'kwɔ:tәli",
+    "rank": 5088,
+    "level": "advanced"
+  },
+  {
+    "word": "rpm",
+    "chinese": "n. 每分钟转数",
+    "ipa": "ˈɑrˈpiˈɛm",
+    "rank": 5089,
+    "level": "advanced"
+  },
+  {
+    "word": "profits",
+    "chinese": "n. 收益, 红利",
+    "ipa": "ˈprɑfɪts",
+    "rank": 5090,
+    "level": "advanced"
+  },
+  {
+    "word": "devil",
+    "chinese": "n. 魔鬼",
+    "ipa": "'devәl",
+    "rank": 5091,
+    "level": "advanced"
+  },
+  {
+    "word": "grass",
+    "chinese": "n. 草, 草原, 牧场",
+    "ipa": "græs",
+    "rank": 5092,
+    "level": "advanced"
+  },
+  {
+    "word": "comply",
+    "chinese": "vi. 顺从, 依从",
+    "ipa": "kәm'plai",
+    "rank": 5093,
+    "level": "advanced"
+  },
+  {
+    "word": "marie",
+    "chinese": "n. 玛丽（女子名）",
+    "ipa": "'mɑ:ri(:), mә'ri:",
+    "rank": 5094,
+    "level": "advanced"
+  },
+  {
+    "word": "florist",
+    "chinese": "n. 花匠, 花商, 花卉研究者",
+    "ipa": "'flɒrist",
+    "rank": 5095,
+    "level": "advanced"
+  },
+  {
+    "word": "illustrated",
+    "chinese": "n. 有插画的报章杂志",
+    "ipa": "'ilәstreitid",
+    "rank": 5096,
+    "level": "advanced"
+  },
+  {
+    "word": "cherry",
+    "chinese": "n. 樱桃, 樱桃树, 樱桃色",
+    "ipa": "'tʃeri",
+    "rank": 5097,
+    "level": "advanced"
+  },
+  {
+    "word": "continental",
+    "chinese": "a. 大陆的, 洲的",
+    "ipa": ".kɒnti'nentl",
+    "rank": 5098,
+    "level": "advanced"
+  },
+  {
+    "word": "alternate",
+    "chinese": "a. 交替的, 轮流的, 间隔的",
+    "ipa": "'ɒ:ltәnәt",
+    "rank": 5099,
+    "level": "advanced"
+  },
+  {
+    "word": "deutsch",
+    "chinese": "a. 德国的",
+    "ipa": "dɔitʃ",
+    "rank": 5100,
+    "level": "advanced"
+  },
+  {
+    "word": "achievement",
+    "chinese": "n. 完成, 成就, 功业",
+    "ipa": "ә'tʃi:vmәnt",
+    "rank": 5101,
+    "level": "advanced"
+  },
+  {
+    "word": "limitations",
+    "chinese": "n. 局限性",
+    "ipa": "ˌlɪmɪˈteɪʃənz",
+    "rank": 5102,
+    "level": "advanced"
+  },
+  {
+    "word": "kenya",
+    "chinese": "n. 肯尼亚",
+    "ipa": "'kenjә",
+    "rank": 5103,
+    "level": "advanced"
+  },
+  {
+    "word": "webcam",
+    "chinese": "n. 网络摄像头",
+    "ipa": "'webkæm",
+    "rank": 5104,
+    "level": "advanced"
+  },
+  {
+    "word": "cuts",
+    "chinese": "n. （分摊到的）份额",
+    "ipa": "kəts",
+    "rank": 5105,
+    "level": "advanced"
+  },
+  {
+    "word": "funeral",
+    "chinese": "n. 葬礼, 出殡",
+    "ipa": "'fju:nәrәl",
+    "rank": 5106,
+    "level": "advanced"
+  },
+  {
+    "word": "nutten",
+    "chinese": "努滕",
+    "ipa": "nutten",
+    "rank": 5107,
+    "level": "advanced"
+  },
+  {
+    "word": "earrings",
+    "chinese": "n. 耳环",
+    "ipa": "ˈɪrɪŋz",
+    "rank": 5108,
+    "level": "advanced"
+  },
+  {
+    "word": "enjoyed",
+    "chinese": "v. 享有（ enjoy的过去式和过去分词 ）; 玩得快乐; 喜欢",
+    "ipa": "ɪn'dʒɔɪd",
+    "rank": 5109,
+    "level": "advanced"
+  },
+  {
+    "word": "automated",
+    "chinese": "a. 自动化的",
+    "ipa": "ˈɔtəˌmeɪtɪd",
+    "rank": 5110,
+    "level": "advanced"
+  },
+  {
+    "word": "chapters",
+    "chinese": "n. 章",
+    "ipa": "ˈʧæptərz",
+    "rank": 5111,
+    "level": "advanced"
+  },
+  {
+    "word": "pee",
+    "chinese": "n. (英)便士, 小便",
+    "ipa": "pi:",
+    "rank": 5112,
+    "level": "advanced"
+  },
+  {
+    "word": "charlie",
+    "chinese": "n. 通讯中用以代表字母C的词",
+    "ipa": "ˈʧɑrli",
+    "rank": 5113,
+    "level": "advanced"
+  },
+  {
+    "word": "quebec",
+    "chinese": "n. 魁北克（加拿大港市省名）",
+    "ipa": "kwi'bek",
+    "rank": 5114,
+    "level": "advanced"
+  },
+  {
+    "word": "nipples",
+    "chinese": "n. 乳头( nipple的复数形式 ); <美>（奶品的）橡皮奶头; （机器上的）乳头状注油口; 加油嘴",
+    "ipa": "ˈnɪpəlz",
+    "rank": 5115,
+    "level": "advanced"
+  },
+  {
+    "word": "passenger",
+    "chinese": "n. 乘客, 旅客",
+    "ipa": "'pæsindʒә",
+    "rank": 5116,
+    "level": "advanced"
+  },
+  {
+    "word": "convenient",
+    "chinese": "a. 方便的, 合宜的",
+    "ipa": "kәn'vi:njәnt",
+    "rank": 5117,
+    "level": "advanced"
+  },
+  {
+    "word": "dennis",
+    "chinese": "n. 丹尼斯（男子名）",
+    "ipa": "'denis",
+    "rank": 5118,
+    "level": "advanced"
+  },
+  {
+    "word": "mars",
+    "chinese": "n. 火星, 战神",
+    "ipa": "mɑ:z",
+    "rank": 5119,
+    "level": "advanced"
+  },
+  {
+    "word": "francis",
+    "chinese": "n. 弗朗西斯（男子名, 义为自由之人）",
+    "ipa": "'frɑ:nsis",
+    "rank": 5120,
+    "level": "advanced"
+  },
+  {
+    "word": "tvs",
+    "chinese": "abbr. 瞬变电压抑制二极管（Transient Voltage Suppressors）",
+    "ipa": "ˈtiˈviz",
+    "rank": 5121,
+    "level": "advanced"
+  },
+  {
+    "word": "sized",
+    "chinese": "a. 依大小排列的, 依大小调整的, 型号的, ...尺码的",
+    "ipa": "'saizd",
+    "rank": 5122,
+    "level": "advanced"
+  },
+  {
+    "word": "manga",
+    "chinese": "n. 日本漫画",
+    "ipa": "'mæŋɡә",
+    "rank": 5123,
+    "level": "advanced"
+  },
+  {
+    "word": "noticed",
+    "chinese": "v. 注意（ notice的过去式和过去分词 ）; 觉察",
+    "ipa": "'nəʊtɪst",
+    "rank": 5124,
+    "level": "advanced"
+  },
+  {
+    "word": "socket",
+    "chinese": "n. 窝, 穴, 插座, 眼窝",
+    "ipa": "'sɒkit",
+    "rank": 5125,
+    "level": "advanced"
+  },
+  {
+    "word": "silent",
+    "chinese": "a. 沉默的, 安静的, 无声的, 静止的",
+    "ipa": "'sailәnt",
+    "rank": 5126,
+    "level": "advanced"
+  },
+  {
+    "word": "literary",
+    "chinese": "a. 文学的, 文艺的, 精通文学的",
+    "ipa": "'litәrәri",
+    "rank": 5127,
+    "level": "advanced"
+  },
+  {
+    "word": "egg",
+    "chinese": "n. 蛋, 卵",
+    "ipa": "eg",
+    "rank": 5128,
+    "level": "advanced"
+  },
+  {
+    "word": "mhz",
+    "chinese": "[计] 兆赫兹",
+    "ipa": "mhz",
+    "rank": 5129,
+    "level": "advanced"
+  },
+  {
+    "word": "signals",
+    "chinese": "n. 信号( signal的名词复数 ); （无线电或电视所传送的）讯号; 标志; （尤指铁路和公路上的）指示灯",
+    "ipa": "ˈsiɡnəlz",
+    "rank": 5130,
+    "level": "advanced"
+  },
+  {
+    "word": "caps",
+    "chinese": "abbr. 盒式磁带程序设计系统（Cassette Programming System）",
+    "ipa": "kæps",
+    "rank": 5131,
+    "level": "advanced"
+  },
+  {
+    "word": "orientation",
+    "chinese": "n. 定方位, 适应, 向东方",
+    "ipa": ".ɒ:rien'teiʃәn",
+    "rank": 5132,
+    "level": "advanced"
+  },
+  {
+    "word": "pill",
+    "chinese": "n. 药丸, 弹丸, 屈辱, 胡说",
+    "ipa": "pil",
+    "rank": 5133,
+    "level": "advanced"
+  },
+  {
+    "word": "theft",
+    "chinese": "n. 盗窃, 失窃, 盗窃罪, 赃物",
+    "ipa": "θeft",
+    "rank": 5134,
+    "level": "advanced"
+  },
+  {
+    "word": "childhood",
+    "chinese": "n. 孩童时期",
+    "ipa": "'tʃaildhud",
+    "rank": 5135,
+    "level": "advanced"
+  },
+  {
+    "word": "swing",
+    "chinese": "n. 摇摆, 振幅, 音律, 节奏, 涨落, 秋千, 旋转, 行动自由",
+    "ipa": "swiŋ",
+    "rank": 5136,
+    "level": "advanced"
+  },
+  {
+    "word": "symbols",
+    "chinese": "n. 符号",
+    "ipa": "ˈsɪmbəlz",
+    "rank": 5137,
+    "level": "advanced"
+  },
+  {
+    "word": "lat",
+    "chinese": "n. 拉特(拉脱维亚货币单位)",
+    "ipa": "læt",
+    "rank": 5138,
+    "level": "advanced"
+  },
+  {
+    "word": "meta",
+    "chinese": "[计] 元的",
+    "ipa": "ˈmitə",
+    "rank": 5139,
+    "level": "advanced"
+  },
+  {
+    "word": "humans",
+    "chinese": "n. 人类（human的复数形式）",
+    "ipa": "ˈjumənz",
+    "rank": 5140,
+    "level": "advanced"
+  },
+  {
+    "word": "analog",
+    "chinese": "[计] 模拟",
+    "ipa": "'ænәlɔ^",
+    "rank": 5141,
+    "level": "advanced"
+  },
+  {
+    "word": "facial",
+    "chinese": "n. 美颜, 脸部按摩",
+    "ipa": "'feiʃәl",
+    "rank": 5142,
+    "level": "advanced"
+  },
+  {
+    "word": "choosing",
+    "chinese": "v. 选择",
+    "ipa": "ˈʧuzɪŋ",
+    "rank": 5143,
+    "level": "advanced"
+  },
+  {
+    "word": "talent",
+    "chinese": "n. 天才, 才能, 有才干的人, 天资",
+    "ipa": "'tælәnt",
+    "rank": 5144,
+    "level": "advanced"
+  },
+  {
+    "word": "dated",
+    "chinese": "a. 有日期的, 陈旧的",
+    "ipa": "'deitid",
+    "rank": 5145,
+    "level": "advanced"
+  },
+  {
+    "word": "flexibility",
+    "chinese": "n. 弹性, 适应性",
+    "ipa": ".fleksi'biliti",
+    "rank": 5146,
+    "level": "advanced"
+  },
+  {
+    "word": "seeker",
+    "chinese": "n. 搜索者, 探求者",
+    "ipa": "'si:kә",
+    "rank": 5147,
+    "level": "advanced"
+  },
+  {
+    "word": "wisdom",
+    "chinese": "n. 智慧, 明智行为, 学识, 名言, 贤人",
+    "ipa": "'wizdәm",
+    "rank": 5148,
+    "level": "advanced"
+  },
+  {
+    "word": "shoot",
+    "chinese": "n. 射击, 狩猎, 芽, 射伤, 发射, 发芽, 急流, 推力, 摄影, 急送, 滑运道, 浪费",
+    "ipa": "ʃu:t",
+    "rank": 5149,
+    "level": "advanced"
+  },
+  {
+    "word": "boundary",
+    "chinese": "n. 边界, 分界线",
+    "ipa": "'baundri",
+    "rank": 5150,
+    "level": "advanced"
+  },
+  {
+    "word": "mint",
+    "chinese": "n. 薄荷, 造币厂, 巨额",
+    "ipa": "mint",
+    "rank": 5151,
+    "level": "advanced"
+  },
+  {
+    "word": "packard",
+    "chinese": "n. 帕卡德（姓氏）",
+    "ipa": "ˈpækərd",
+    "rank": 5152,
+    "level": "advanced"
+  },
+  {
+    "word": "offset",
+    "chinese": "n. 抵消, 把...并列, 旁系, 支管, 用胶印法印",
+    "ipa": "'ɒ:fset",
+    "rank": 5153,
+    "level": "advanced"
+  },
+  {
+    "word": "payday",
+    "chinese": "n. 发薪日, 发工资日, 交割日, 过户结帐日",
+    "ipa": "ˈpeɪˌdeɪ",
+    "rank": 5154,
+    "level": "advanced"
+  },
+  {
+    "word": "philip",
+    "chinese": "n. 菲利普（男子名）",
+    "ipa": "'filip",
+    "rank": 5155,
+    "level": "advanced"
+  },
+  {
+    "word": "elite",
+    "chinese": "n. 精华, 精锐, 中坚分子",
+    "ipa": "ei'li:t",
+    "rank": 5156,
+    "level": "advanced"
+  },
+  {
+    "word": "gi",
+    "chinese": "a. 军用的",
+    "ipa": "dʒi: 'ai",
+    "rank": 5157,
+    "level": "advanced"
+  },
+  {
+    "word": "spin",
+    "chinese": "n. 旋转, 自旋, 疾驰, 情绪低落",
+    "ipa": "spin",
+    "rank": 5158,
+    "level": "advanced"
+  },
+  {
+    "word": "holders",
+    "chinese": "n. 持有人（holder的复数）",
+    "ipa": "ˈhoʊldərz",
+    "rank": 5159,
+    "level": "advanced"
+  },
+  {
+    "word": "believes",
+    "chinese": "v. 信仰",
+    "ipa": "bɪˈlivz",
+    "rank": 5160,
+    "level": "advanced"
+  },
+  {
+    "word": "swedish",
+    "chinese": "n. 瑞典人, 瑞典语",
+    "ipa": "'swi:diʃ",
+    "rank": 5161,
+    "level": "advanced"
+  },
+  {
+    "word": "poems",
+    "chinese": "n. 诗歌, 诗集（poem复数形式）",
+    "ipa": "poʊəmz",
+    "rank": 5162,
+    "level": "advanced"
+  },
+  {
+    "word": "deadline",
+    "chinese": "n. 最后期限, 截止期限",
+    "ipa": "'dedlain",
+    "rank": 5163,
+    "level": "advanced"
+  },
+  {
+    "word": "jurisdiction",
+    "chinese": "n. 司法权, 审判权, 管辖权",
+    "ipa": ".dʒuәris'dikʃәn",
+    "rank": 5164,
+    "level": "advanced"
+  },
+  {
+    "word": "robot",
+    "chinese": "n. 机械人, 自动机械, 机械般工作的人",
+    "ipa": "'rәubәt",
+    "rank": 5165,
+    "level": "advanced"
+  },
+  {
+    "word": "displaying",
+    "chinese": "v. 展出",
+    "ipa": "dɪˈspleɪɪŋ",
+    "rank": 5166,
+    "level": "advanced"
+  },
+  {
+    "word": "witness",
+    "chinese": "n. 证人, 目击者, 证据, 证词",
+    "ipa": "'witnis",
+    "rank": 5167,
+    "level": "advanced"
+  },
+  {
+    "word": "collins",
+    "chinese": "n. 柯林斯酒",
+    "ipa": "'kɒlinz",
+    "rank": 5168,
+    "level": "advanced"
+  },
+  {
+    "word": "equipped",
+    "chinese": "v. 装备",
+    "ipa": "ɪkˈwɪpt",
+    "rank": 5169,
+    "level": "advanced"
+  },
+  {
+    "word": "stages",
+    "chinese": "n. 戏剧表演",
+    "ipa": "ˈsteɪʤɪz",
+    "rank": 5170,
+    "level": "advanced"
+  },
+  {
+    "word": "encouraged",
+    "chinese": "a. 受到鼓舞的",
+    "ipa": "ɪnˈkərəʤd",
+    "rank": 5171,
+    "level": "advanced"
+  },
+  {
+    "word": "sur",
+    "chinese": "[法] 根据",
+    "ipa": "s\\\\\\\\:(r)",
+    "rank": 5172,
+    "level": "advanced"
+  },
+  {
+    "word": "winds",
+    "chinese": "n. 风( wind的名词复数 ); 呼吸; （随食物或饮料）吞下的气; （管弦乐团的）管乐器",
+    "ipa": "'waɪndz",
+    "rank": 5173,
+    "level": "advanced"
+  },
+  {
+    "word": "powder",
+    "chinese": "n. 粉, 粉末, 火药",
+    "ipa": "'paudә",
+    "rank": 5174,
+    "level": "advanced"
+  },
+  {
+    "word": "broadway",
+    "chinese": "n. 百老汇大街",
+    "ipa": "'brɒ:dwei",
+    "rank": 5175,
+    "level": "advanced"
+  },
+  {
+    "word": "acquired",
+    "chinese": "a. 获得的, 后天的",
+    "ipa": "ә'kwaiәd",
+    "rank": 5176,
+    "level": "advanced"
+  },
+  {
+    "word": "assess",
+    "chinese": "vt. 估定, 对...征税, 评定",
+    "ipa": "ә'ses",
+    "rank": 5177,
+    "level": "advanced"
+  },
+  {
+    "word": "wash",
+    "chinese": "n. 洗, 洗涤, 冲洗, 洗的衣服, 冲积物, 洼地",
+    "ipa": "wɒʃ",
+    "rank": 5178,
+    "level": "advanced"
+  },
+  {
+    "word": "cartridges",
+    "chinese": "n. 子弹( cartridge的复数形式 ); （打印机的）墨盒; 录音带盒; （唱机的）唱头",
+    "ipa": "'kɑ:trɪdʒɪz",
+    "rank": 5179,
+    "level": "advanced"
+  },
+  {
+    "word": "stones",
+    "chinese": "n. 小石头",
+    "ipa": "stoʊnz",
+    "rank": 5180,
+    "level": "advanced"
+  },
+  {
+    "word": "entrance",
+    "chinese": "n. 入口, 进入点, 入场, 入学, 进入, 开始(阶段), 就任",
+    "ipa": "'entrәns",
+    "rank": 5181,
+    "level": "advanced"
+  },
+  {
+    "word": "gnome",
+    "chinese": "n. 格言, 箴言, 侏儒, 土地神",
+    "ipa": "nәum",
+    "rank": 5182,
+    "level": "advanced"
+  },
+  {
+    "word": "roots",
+    "chinese": "n. 乡土感情, 归根之情",
+    "ipa": "ruts",
+    "rank": 5183,
+    "level": "advanced"
+  },
+  {
+    "word": "declaration",
+    "chinese": "n. 宣告, 说明, 宣布",
+    "ipa": ".deklә'reiʃәn",
+    "rank": 5184,
+    "level": "advanced"
+  },
+  {
+    "word": "losing",
+    "chinese": "a. 损失的, 输的",
+    "ipa": "'lu:ziŋ",
+    "rank": 5185,
+    "level": "advanced"
+  },
+  {
+    "word": "attempts",
+    "chinese": "n. 企图, 试图",
+    "ipa": "əˈtɛmpts",
+    "rank": 5186,
+    "level": "advanced"
+  },
+  {
+    "word": "gadgets",
+    "chinese": "n. 小配件",
+    "ipa": "ˈgæʤəts",
+    "rank": 5187,
+    "level": "advanced"
+  },
+  {
+    "word": "noble",
+    "chinese": "n. 贵族",
+    "ipa": "'nәubl",
+    "rank": 5188,
+    "level": "advanced"
+  },
+  {
+    "word": "glasgow",
+    "chinese": "n. 格拉斯哥（英国城市名）",
+    "ipa": "'^lɑ:s^әu",
+    "rank": 5189,
+    "level": "advanced"
+  },
+  {
+    "word": "automation",
+    "chinese": "n. 自动化, 自动操作",
+    "ipa": ".ɒ:tә'meiʃәn",
+    "rank": 5190,
+    "level": "advanced"
+  },
+  {
+    "word": "impacts",
+    "chinese": "n. 影响, 作用( impact的名词复数 ); 碰撞; 冲击; 撞击",
+    "ipa": "ˈimpækts",
+    "rank": 5191,
+    "level": "advanced"
+  },
+  {
+    "word": "rev",
+    "chinese": "n. 一次回转",
+    "ipa": "rev",
+    "rank": 5192,
+    "level": "advanced"
+  },
+  {
+    "word": "gospel",
+    "chinese": "n. 福音, 信仰, 真理",
+    "ipa": "'gɒspәl",
+    "rank": 5193,
+    "level": "advanced"
+  },
+  {
+    "word": "advantages",
+    "chinese": "n. 优势",
+    "ipa": "ædˈvæntɪʤɪz",
+    "rank": 5194,
+    "level": "advanced"
+  },
+  {
+    "word": "shore",
+    "chinese": "n. 海岸, 海滨, 斜撑柱",
+    "ipa": "ʃɒ:",
+    "rank": 5195,
+    "level": "advanced"
+  },
+  {
+    "word": "loves",
+    "chinese": "v. 爱, 热爱( love的第三人称单数 ); 喜爱; 喜好; 喜欢",
+    "ipa": "lʌvz",
+    "rank": 5196,
+    "level": "advanced"
+  },
+  {
+    "word": "induced",
+    "chinese": "a. 感应的",
+    "ipa": "in'dju:st",
+    "rank": 5197,
+    "level": "advanced"
+  },
+  {
+    "word": "ll",
+    "chinese": "[计] 低电瓶逻辑",
+    "ipa": "ll",
+    "rank": 5198,
+    "level": "advanced"
+  },
+  {
+    "word": "knight",
+    "chinese": "n. 骑士, 爵士",
+    "ipa": "nait",
+    "rank": 5199,
+    "level": "advanced"
+  },
+  {
+    "word": "preparing",
+    "chinese": "a. 准备的",
+    "ipa": "pri'peәriŋ",
+    "rank": 5200,
+    "level": "advanced"
+  }
+] as const;
+
+export const highFrequencyMetaMap = Object.fromEntries(
+  highFrequencyMeta.map((item) => [item.word, item]),
+) as Record<string, HighFrequencyMetaItem>;

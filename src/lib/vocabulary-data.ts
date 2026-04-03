@@ -1,7 +1,10 @@
+import { highFrequencyMetaMap } from "@/lib/high-frequency-meta";
+
 export type VocabularyItem = {
   english: string;
   chinese: string;
   category: string;
+  ipa?: string;
 };
 
 export function toWordSlug(word: string) {
@@ -18,6 +21,31 @@ export function findVocabularyItem(word: string) {
     vocabularyItems.find((item) => item.english.trim().toLowerCase() === target) ||
     null
   );
+}
+
+export function findWordDetail(word: string) {
+  const target = word.trim().toLowerCase();
+  const base = findVocabularyItem(target);
+  if (base) {
+    return {
+      english: base.english,
+      chinese: base.chinese,
+      category: base.category,
+      ipa: base.ipa || "",
+      source: "manual" as const,
+    };
+  }
+  const hf = highFrequencyMetaMap[target];
+  if (hf) {
+    return {
+      english: hf.word,
+      chinese: hf.chinese,
+      category: `高频词分级-${hf.level}`,
+      ipa: hf.ipa || "",
+      source: "high-frequency" as const,
+    };
+  }
+  return null;
 }
 
 export const vocabularyItems: VocabularyItem[] = [
