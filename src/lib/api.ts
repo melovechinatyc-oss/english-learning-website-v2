@@ -18,14 +18,26 @@ function byPublishedOrder<T extends { isPublished: boolean; order: number }>(
 
 export async function getCourses() {
   if (!isSanityConfigured) return byPublishedOrder(seedCourses);
-  return sanityClient.fetch<Course[]>(coursesQuery);
+  try {
+    const courses = await sanityClient.fetch<Course[]>(coursesQuery);
+    if (courses.length > 0) return courses;
+  } catch {
+    // Ignore and fallback to seed content.
+  }
+  return byPublishedOrder(seedCourses);
 }
 
 export async function getFeaturedCourses() {
   if (!isSanityConfigured) {
     return byPublishedOrder(seedCourses).filter((course) => course.isFeatured);
   }
-  return sanityClient.fetch<Course[]>(featuredCoursesQuery);
+  try {
+    const courses = await sanityClient.fetch<Course[]>(featuredCoursesQuery);
+    if (courses.length > 0) return courses;
+  } catch {
+    // Ignore and fallback to seed content.
+  }
+  return byPublishedOrder(seedCourses).filter((course) => course.isFeatured);
 }
 
 export async function getCourseBySlug(slug: string) {
@@ -35,7 +47,15 @@ export async function getCourseBySlug(slug: string) {
       null
     );
   }
-  return sanityClient.fetch<Course | null>(courseBySlugQuery, { slug });
+  try {
+    const course = await sanityClient.fetch<Course | null>(courseBySlugQuery, {
+      slug,
+    });
+    if (course) return course;
+  } catch {
+    // Ignore and fallback to seed content.
+  }
+  return byPublishedOrder(seedCourses).find((course) => course.slug === slug) || null;
 }
 
 export async function getSentencesByCourseSlug(slug: string) {
@@ -44,5 +64,16 @@ export async function getSentencesByCourseSlug(slug: string) {
       (sentence) => sentence.courseSlug === slug,
     );
   }
-  return sanityClient.fetch<Sentence[]>(sentencesByCourseSlugQuery, { slug });
+  try {
+    const sentences = await sanityClient.fetch<Sentence[]>(
+      sentencesByCourseSlugQuery,
+      { slug },
+    );
+    if (sentences.length > 0) return sentences;
+  } catch {
+    // Ignore and fallback to seed content.
+  }
+  return byPublishedOrder(seedSentences).filter(
+    (sentence) => sentence.courseSlug === slug,
+  );
 }
