@@ -1,18 +1,26 @@
-import { CourseCard } from "@/components/learning/course-card";
+import { CoursesSearch } from "@/components/learning/courses-search";
 import { Header } from "@/components/learning/header";
 import { Card, CardContent } from "@/components/ui/card";
 import { getCourses, getSentencesByCourseSlug } from "@/lib/api";
+import { Sentence } from "@/types/learning";
 
 export default async function CoursesPage() {
   const courses = await getCourses();
-  const sentenceCountMap = Object.fromEntries(
+  const sentencesByCourse: Record<string, Sentence[]> = Object.fromEntries(
     await Promise.all(
       courses.map(async (course) => [
         course.slug,
-        (await getSentencesByCourseSlug(course.slug)).length,
+        await getSentencesByCourseSlug(course.slug),
       ]),
     ),
   );
+  const sentenceCountMap = Object.fromEntries(
+    Object.entries(sentencesByCourse).map(([slug, sentences]) => [
+      slug,
+      sentences.length,
+    ]),
+  );
+  const allSentences: Sentence[] = Object.values(sentencesByCourse).flat();
 
   return (
     <div className="min-h-screen">
@@ -26,15 +34,11 @@ export default async function CoursesPage() {
             </CardContent>
           </Card>
         ) : (
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {courses.map((course) => (
-              <CourseCard
-                key={course._id}
-                course={course}
-                sentenceCount={sentenceCountMap[course.slug] || 0}
-              />
-            ))}
-          </div>
+          <CoursesSearch
+            courses={courses}
+            sentences={allSentences}
+            sentenceCountMap={sentenceCountMap}
+          />
         )}
       </main>
     </div>

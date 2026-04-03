@@ -22,11 +22,13 @@ function wait(ms: number) {
 function splitTextForTTS(text: string) {
   const normalized = text.trim().replace(/\s+/g, " ");
   if (!normalized) return [];
+  // Keep normal sentences as a single utterance to avoid choppy pauses.
+  if (normalized.length <= 180) return [normalized];
   const roughParts = normalized
     .split(/(?<=[,.!?;:，。！？；：])/)
     .map((part) => part.trim())
     .filter(Boolean);
-  const maxLen = 120;
+  const maxLen = 180;
   const chunks: string[] = [];
   for (const part of roughParts) {
     if (part.length <= maxLen) {
@@ -49,6 +51,17 @@ function splitTextForTTS(text: string) {
   return chunks.length > 0 ? chunks : [normalized];
 }
 
+function pickVoice(lang: string) {
+  if (typeof window === "undefined" || !window.speechSynthesis) return null;
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || voices.length === 0) return null;
+  return (
+    voices.find((voice) => voice.lang.toLowerCase().startsWith(lang.toLowerCase())) ||
+    voices.find((voice) => voice.lang.toLowerCase().startsWith(lang.split("-")[0].toLowerCase())) ||
+    null
+  );
+}
+
 function speakChunk(
   text: string,
   rate: number,
@@ -68,6 +81,8 @@ function speakChunk(
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = rate;
     utterance.lang = lang;
+    const voice = pickVoice(lang);
+    if (voice) utterance.voice = voice;
     utterance.onend = () => resolve();
     utterance.onerror = () => resolve();
     window.speechSynthesis.speak(utterance);
