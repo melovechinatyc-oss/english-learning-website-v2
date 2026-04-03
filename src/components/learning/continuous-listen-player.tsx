@@ -19,9 +19,49 @@ function wait(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function speakText(text: string, rate: number, lang: string) {
+function splitTextForTTS(text: string) {
+  const normalized = text.trim().replace(/\s+/g, " ");
+  if (!normalized) return [];
+  const roughParts = normalized
+    .split(/(?<=[,.!?;:，。！？；：])/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const maxLen = 120;
+  const chunks: string[] = [];
+  for (const part of roughParts) {
+    if (part.length <= maxLen) {
+      chunks.push(part);
+      continue;
+    }
+    let buffer = "";
+    const words = part.split(" ");
+    for (const word of words) {
+      const next = buffer ? `${buffer} ${word}` : word;
+      if (next.length > maxLen) {
+        if (buffer) chunks.push(buffer);
+        buffer = word;
+      } else {
+        buffer = next;
+      }
+    }
+    if (buffer) chunks.push(buffer);
+  }
+  return chunks.length > 0 ? chunks : [normalized];
+}
+
+function speakChunk(
+  text: string,
+  rate: number,
+  lang: string,
+  shouldStop: () => boolean,
+) {
   return new Promise<void>((resolve) => {
-    if (typeof window === "undefined" || !window.speechSynthesis) {
+    if (
+      typeof window === "undefined" ||
+      !window.speechSynthesis ||
+      shouldStop() ||
+      !text.trim()
+    ) {
       resolve();
       return;
     }
@@ -30,18 +70,37 @@ function speakText(text: string, rate: number, lang: string) {
     utterance.lang = lang;
     utterance.onend = () => resolve();
     utterance.onerror = () => resolve();
-    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
   });
 }
 
-async function playAudio(url: string, rate: number) {
+async function speakText(
+  text: string,
+  rate: number,
+  lang: string,
+  shouldStop: () => boolean,
+) {
+  const chunks = splitTextForTTS(text);
+  for (const chunk of chunks) {
+    if (shouldStop()) return;
+    await speakChunk(chunk, rate, lang, shouldStop);
+  }
+}
+
+async function playAudio(url: string, rate: number, setAudio: (audio: HTMLAudioElement | null) => void) {
   const audio = new Audio(url);
+  setAudio(audio);
   audio.playbackRate = rate;
   await audio.play();
   await new Promise<void>((resolve) => {
-    audio.onended = () => resolve();
-    audio.onerror = () => resolve();
+    audio.onended = () => {
+      setAudio(null);
+      resolve();
+    };
+    audio.onerror = () => {
+      setAudio(null);
+      resolve();
+    };
   });
 }
 
@@ -54,6 +113,7 @@ export function ContinuousListenPlayer({
   const [index, setIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const stopRef = useRef(false);
+  const activeAudioRef = useRef<HTMLAudioElement | null>(null);
 
   const sentence = sentences[index];
   const progress = useMemo(() => {
@@ -63,22 +123,26 @@ export function ContinuousListenPlayer({
 
   const playEnglish = async (item: Sentence) => {
     if (item.audioNormal) {
-      await playAudio(item.audioNormal, settings.speed);
+      await playAudio(item.audioNormal, settings.speed, (audio) => {
+        activeAudioRef.current = audio;
+      });
       return;
     }
-    await speakText(item.english, settings.speed, "en-US");
+    await speakText(item.english, settings.speed, "en-US", () => stopRef.current);
   };
 
   const playChinese = async (item: Sentence) => {
     if (item.audioChinese) {
-      await playAudio(item.audioChinese, 1);
+      await playAudio(item.audioChinese, 1, (audio) => {
+        activeAudioRef.current = audio;
+      });
       return;
     }
-    await speakText(item.chinese, 1, "zh-CN");
+    await speakText(item.chinese, 1, "zh-CN", () => stopRef.current);
   };
 
   const playPronunciation = async (item: Sentence) => {
-    await speakText(item.pronunciationCn, 0.9, "zh-CN");
+    await speakText(item.pronunciationCn, 0.9, "zh-CN", () => stopRef.current);
   };
 
   const playCurrentSentence = async (current: Sentence) => {
@@ -130,6 +194,11 @@ export function ContinuousListenPlayer({
       stopRef.current = true;
       if (typeof window !== "undefined") {
         window.speechSynthesis.cancel();
+      }
+      if (activeAudioRef.current) {
+        activeAudioRef.current.pause();
+        activeAudioRef.current.currentTime = 0;
+        activeAudioRef.current = null;
       }
       setIsPlaying(false);
       return;
