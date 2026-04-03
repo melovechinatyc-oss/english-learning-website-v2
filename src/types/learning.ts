@@ -1,4 +1,8 @@
-export type Difficulty = "beginner" | "elementary" | "intermediate";
+export type Difficulty =
+  | "beginner"
+  | "elementary"
+  | "intermediate"
+  | "advanced";
 
 export type Category = {
   _id: string;

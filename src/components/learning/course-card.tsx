@@ -13,6 +13,7 @@ const difficultyMap = {
   beginner: "零基础",
   elementary: "初级",
   intermediate: "中级",
+  advanced: "高级",
 };
 
 export function CourseCard({ course, sentenceCount }: CourseCardProps) {

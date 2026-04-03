@@ -28,6 +28,7 @@ export const courseType = defineType({
           { title: "零基础", value: "beginner" },
           { title: "初级", value: "elementary" },
           { title: "中级", value: "intermediate" },
+          { title: "高级", value: "advanced" },
         ],
       },
       initialValue: "beginner",
