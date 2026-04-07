@@ -246,6 +246,15 @@ git push origin main
 - 关键文件：
   - `src/components/learning/continuous-listen-player.tsx`
 
+## 13. 暂缓事项记录
+
+- 用户最新反馈：手机端“课程卡片进入连续听”仍有卡顿体感。
+- 当前决定：该问题**暂缓到下次处理**，本次不再继续改动业务代码，避免引入新风险。
+- 下次排查优先级建议：
+  1. 接入离线缓存（Service Worker）预缓存首课音频；
+  2. 增加移动端网络抖动下的重试与降级策略；
+  3. 真机抓取播放时序日志（首帧时间、缓冲时长、切句时延）。
+
 ## 12. 最新补充（连续听卡顿差异）
 
 - 现象：课程卡片区域进入“连续听”时，手机端长句偶发卡顿；而搜索页单词朗读更顺滑。
@@ -258,3 +267,18 @@ git push origin main
   3. 播放前等待 `canplaythrough/loadeddata`（含超时保护）以减少首播顿挫。
 - 关键文件：
   - `src/components/learning/continuous-listen-player.tsx`
+
+## 14. 最新补充（iOS 句子卡片朗读卡顿）
+
+- 现象：iOS 端在课程详情页点单句卡片的“标准/慢速”朗读时，长句比连续听更容易卡顿。
+- 根因：
+  - `SentenceCard` 之前没有复用 seed 固定音频，而是优先走浏览器 TTS；
+  - 每次播放都 `new Audio()`，没有预加载与缓存，移动端首播更容易顿一下；
+  - TTS 回退路径对长句没有复用连续听里的分段策略。
+- 修复（已完成）：
+  1. 句子卡片优先播放 `public/audio/seed/*.mp3` 固定音频；
+  2. 为句子卡片新增音频缓存与预加载，减少 iOS 首播卡顿；
+  3. TTS 回退补齐长句分段与语音偏好选择；
+  4. 单句循环停止时同步终止当前音频与 TTS。
+- 关键文件：
+  - `src/components/learning/sentence-card.tsx`
