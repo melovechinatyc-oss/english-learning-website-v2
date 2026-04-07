@@ -11,6 +11,34 @@ import { useLearning } from "@/contexts/learning-context";
 
 const audioCache = new Map<string, HTMLAudioElement>();
 
+type ActivePlayback = {
+  ownerId: string;
+  sessionId: number;
+  stop: () => void;
+};
+
+let activePlayback: ActivePlayback | null = null;
+
+function claimActivePlayback(next: ActivePlayback) {
+  if (
+    activePlayback &&
+    (activePlayback.ownerId !== next.ownerId ||
+      activePlayback.sessionId !== next.sessionId)
+  ) {
+    activePlayback.stop();
+  }
+  activePlayback = next;
+}
+
+function releaseActivePlayback(ownerId: string, sessionId: number) {
+  if (
+    activePlayback?.ownerId === ownerId &&
+    activePlayback.sessionId === sessionId
+  ) {
+    activePlayback = null;
+  }
+}
+
 function wait(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -159,7 +187,11 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
   const [looping, setLooping] = useState(false);
   const stopRef = useRef(false);
   const sessionRef = useRef(0);
+  const mountedRef = useRef(true);
   const activeAudioRef = useRef<HTMLAudioElement | null>(null);
+  const ownerIdRef = useRef(
+    `sentence-card-${sentence._id}-${Math.random().toString(36).slice(2, 8)}`,
+  );
 
   const getNormalAudioUrl = () => sentence.audioNormal || getUnifiedAudioUrl(sentence);
   const getSlowAudioUrl = () =>
@@ -167,7 +199,9 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
 
   const stopPlayback = (resetLoopState = true) => {
     stopRef.current = true;
+    const currentSessionId = sessionRef.current;
     sessionRef.current += 1;
+    releaseActivePlayback(ownerIdRef.current, currentSessionId);
     if (typeof window !== "undefined" && window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
@@ -176,7 +210,9 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
       activeAudioRef.current.currentTime = 0;
       activeAudioRef.current = null;
     }
-    if (resetLoopState) setLooping(false);
+    if (resetLoopState && mountedRef.current) {
+      setLooping(false);
+    }
   };
 
   useEffect(() => {
@@ -185,20 +221,14 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
       const audio = getOrCreateCachedAudio(url);
       audio.load();
     }
-
-    return () => {
-      stopRef.current = true;
-      sessionRef.current += 1;
-      if (typeof window !== "undefined" && window.speechSynthesis) {
-        window.speechSynthesis.cancel();
-      }
-      if (activeAudioRef.current) {
-        activeAudioRef.current.pause();
-        activeAudioRef.current.currentTime = 0;
-        activeAudioRef.current = null;
-      }
-    };
   }, [sentence._id, sentence.audioNormal, sentence.audioSlow]);
+
+  useEffect(() => {
+    return () => {
+      mountedRef.current = false;
+      stopPlayback(false);
+    };
+  }, []);
 
   const playAudio = async (url: string, rate = 1) => {
     let audio: HTMLAudioElement | null = null;
@@ -206,6 +236,12 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
       audio = getOrCreateCachedAudio(url);
       activeAudioRef.current = audio;
       await ensureAudioReady(audio);
+      if (stopRef.current) {
+        if (activeAudioRef.current === audio) {
+          activeAudioRef.current = null;
+        }
+        return false;
+      }
       audio.currentTime = 0;
       audio.playbackRate = rate;
 
@@ -253,9 +289,16 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
   const startSinglePlayback = async (mode: "normal" | "slow") => {
     stopPlayback();
     stopRef.current = false;
+    const sessionId = sessionRef.current;
+    claimActivePlayback({
+      ownerId: ownerIdRef.current,
+      sessionId,
+      stop: () => stopPlayback(),
+    });
     const primaryUrl = mode === "normal" ? getNormalAudioUrl() : getSlowAudioUrl();
     const rate = mode === "normal" ? 1 : 0.75;
     await playEnglish(primaryUrl, rate);
+    releaseActivePlayback(ownerIdRef.current, sessionId);
   };
 
   const playNormal = async () => startSinglePlayback("normal");
@@ -270,13 +313,19 @@ export function SentenceCard({ sentence }: { sentence: Sentence }) {
     stopPlayback(false);
     stopRef.current = false;
     const sessionId = sessionRef.current;
+    claimActivePlayback({
+      ownerId: ownerIdRef.current,
+      sessionId,
+      stop: () => stopPlayback(),
+    });
     setLooping(true);
     while (!stopRef.current) {
       await playEnglish(getNormalAudioUrl(), 1);
       if (stopRef.current || sessionRef.current !== sessionId) break;
       await wait(800);
     }
-    if (sessionRef.current === sessionId) {
+    releaseActivePlayback(ownerIdRef.current, sessionId);
+    if (sessionRef.current === sessionId && mountedRef.current) {
       setLooping(false);
     }
   };
